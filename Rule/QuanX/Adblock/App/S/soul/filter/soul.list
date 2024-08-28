@@ -1,0 +1,12 @@
+# > soul - SOUL
+host, ad-h5-cdn.soulapp.cn, reject
+host, ad-h5-station-cdn.soulapp.cn, reject
+host, ad-r.soulapp.cn, reject
+host, soul-ad.soulapp.cn, reject
+host, ad-reward.soulapp.cn, reject
+host-suffix, cdn.soulapp.cn, reject
+ip-cidr, 47.56.131.76/32, reject
+ip-cidr, 47.97.215.55/32, reject
+ip-cidr, 47.99.42.29/32, reject
+ip-cidr, 120.27.235.201/32, reject
+ip-cidr, 121.196.197.147/32, reject

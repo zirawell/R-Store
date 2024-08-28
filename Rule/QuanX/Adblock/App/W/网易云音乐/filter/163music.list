@@ -1,0 +1,10 @@
+# > 网易云音乐 - 163MUSIC
+host, ipv4.music.163.com, reject
+host, ipv6.music.163.com, reject
+host, iadmat.nosdn.127.net, reject
+host, iadmatapk.nosdn.127.net, reject
+host, admusicpic.music.126.net, reject
+host-suffix, 163jiasu.com, reject
+host-suffix, httpdns.music.163.com, reject
+host-suffix, iadmusicmatvideo.music.126.net, reject
+host-suffix, iadmusicmat.music.126.net, reject

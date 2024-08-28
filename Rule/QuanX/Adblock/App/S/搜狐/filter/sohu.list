@@ -1,0 +1,5 @@
+# > 搜狐 - SOHU
+host, hui.sohu.com, reject
+host-suffix, ad.sohu.com, reject
+host-suffix, ads.sohu.com, reject
+host-suffix, aty.sohu.com, reject

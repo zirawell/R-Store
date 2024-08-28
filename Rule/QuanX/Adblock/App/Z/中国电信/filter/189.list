@@ -1,0 +1,10 @@
+# > 中国电信 - 189
+host, ad.21cn.com, reject
+host, ad.k.21cn.com, reject
+host, admarket.21cn.com, reject
+host, adshows.21cn.com, reject
+host, appgoad.189.cn, reject
+host, appupdates.189.cn, reject
+host, appgo.189.cn, reject
+ip-cidr, 122.229.8.47/32, reject
+ip-cidr, 122.229.29.89/32, reject

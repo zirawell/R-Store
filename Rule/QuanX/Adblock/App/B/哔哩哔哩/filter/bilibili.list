@@ -1,0 +1,6 @@
+# > 哔哩哔哩 - BILIBILI(PINK)
+host-keyword, api.sobot.com, reject
+host-suffix, cm.ad.bilibili.com, reject
+host-suffix, cm.adcommon.bilibili.com, reject
+host-suffix, cm.game.bilibili.com, reject
+host-suffix, cm.track.biligame.bilibili.com, reject

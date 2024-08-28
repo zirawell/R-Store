@@ -1,0 +1,4 @@
+# > 花生地铁 - WIFI8
+host-suffix, adfile.wifi8.com, reject
+host-suffix, adnew.wifi8.com, reject
+host-suffix, cmsapi.wifi8.com, reject

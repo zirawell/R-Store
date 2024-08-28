@@ -1,0 +1,9 @@
+# > 金山词霸 - ICIBA
+host, ad-stat.ksosoft.com, reject
+host, img.auction-ads.wpscdn.cn, reject
+host, counter.kingsoft.com, reject
+host, counter.ksosoft.com, reject
+host, minfo.wps.cn, reject
+host, mobad.ijinshan.com, reject
+host, ups.ksmobile.net, reject
+host, ws.ksmobile.net, reject

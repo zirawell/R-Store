@@ -1,0 +1,8 @@
+# > 咪咕视频 - MIGUVIDEO
+host, ggic03.miguvideo.com, reject
+host, ggmk.miguvideo.com, reject
+host, ggc.cmvideo.cn, reject
+host, ggv.cmvideo.cn, reject
+host, ggx.cmvideo.cn, reject
+host, ggx03.miguvideo.com, reject
+host-suffix, ad.cmvideo.cn, reject

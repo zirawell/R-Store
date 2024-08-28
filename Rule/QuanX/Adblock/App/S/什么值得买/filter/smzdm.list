@@ -1,0 +1,4 @@
+# > 什么值得买 - SMZDM
+host, api.zuihuimai.com, reject
+host, analytics-api.smzdm.com, reject
+host, ynuf.aliapp.org, reject

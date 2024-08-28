@@ -1,0 +1,4 @@
+# > 虎扑 - HUPU
+host, adx.hupu.com, reject
+host, adx-api.hupu.com, reject
+host, goblin.hupu.com, reject

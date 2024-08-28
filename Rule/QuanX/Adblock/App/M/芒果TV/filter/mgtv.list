@@ -1,0 +1,21 @@
+# > 芒果TV - MGTV
+host, credits.bz.mgtv.com, reject
+host, credits2.bz.mgtv.com, reject
+host, credits3.bz.mgtv.com, reject
+host, dflow.bz.mgtv.com, reject
+host, encounter.bz.mgtv.com, reject
+host, floor.bz.mgtv.com, reject
+host, layer.bz.mgtv.com, reject
+host, vip.bz.mgtv.com, reject
+host, mob.bz.mgtv.com, reject
+host, rc-topic-api.bz.mgtv.com, reject
+host, rprain.bz.mgtv.com, reject
+host, rc-topic-api.bz.mgtv.com, reject
+host-suffix, imgaliyun.res.mgtv.com, reject
+host-suffix, pcvideoaliyun.titan.mgtv.com, reject
+host-suffix, mobaliyun.res.mgtv.com, reject
+host-suffix, pcvideoyd.titan.mgtv.com, reject
+host-suffix, pcweb.v1.mgtv.com, reject
+host-suffix, cmop.mgtv.com, reject
+host-suffix, da.mgtv.com, reject
+host-suffix, log.mgtv.com, reject

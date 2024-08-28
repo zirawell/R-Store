@@ -1,0 +1,4 @@
+# > 飞常准 - VARIFLIGHT
+host, adv-adlog.variflight.com, reject
+host, adv-ads.variflight.com, reject
+host, app-ad.variflight.com, reject

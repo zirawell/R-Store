@@ -1,0 +1,4 @@
+# > 数字人民币 - ECNY
+ip-cidr, 1.202.85.193/32, reject
+host, mdc.wallet.pbcdci.cn, reject
+host, mdap.wallet.pbcdci.cn, reject

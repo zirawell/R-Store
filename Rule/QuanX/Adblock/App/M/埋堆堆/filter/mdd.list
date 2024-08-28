@@ -1,0 +1,5 @@
+# > 埋堆堆 - MDD
+host, toblog.ctobsnssdk.com, reject
+host, t-dsp.pinduoduo.com, reject
+host, sdk1xyajs.data.kuiniuca.com, reject
+host, conf-darwin.xycdn.com, reject

@@ -1,0 +1,7 @@
+# > 墨迹天气 - MOJI
+host, ad.api.moji.com, reject
+host, adlaunch.moji.com, reject
+host, ads.mojicdn.com, reject
+host-suffix, log.moji.com, reject
+host-suffix, fds.api.moji.com, reject
+host-suffix, me.api.moji.com, reject
