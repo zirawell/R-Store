@@ -1,7 +1,7 @@
 # S
 <details>
 <summary>
-本目录共收录35个App，详情见如下：
+本目录共收录36个App，详情见如下：
 </summary>
 
 - [snapchat](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/S/snapchat)
@@ -20,6 +20,7 @@
 - [四川航空](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/S/%E5%9B%9B%E5%B7%9D%E8%88%AA%E7%A9%BA)
 - [少数派](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/S/%E5%B0%91%E6%95%B0%E6%B4%BE)
 - [山姆会员商店](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/S/%E5%B1%B1%E5%A7%86%E4%BC%9A%E5%91%98%E5%95%86%E5%BA%97)
+- [扫描全能王](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/S/%E6%89%AB%E6%8F%8F%E5%85%A8%E8%83%BD%E7%8E%8B)
 - [搜狐](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/S/%E6%90%9C%E7%8B%90)
 - [搜狗输入法](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/S/%E6%90%9C%E7%8B%97%E8%BE%93%E5%85%A5%E6%B3%95)
 - [收银通商户端](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/S/%E6%94%B6%E9%93%B6%E9%80%9A%E5%95%86%E6%88%B7%E7%AB%AF)
