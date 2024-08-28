@@ -1,9 +1,10 @@
 # F
 <details>
 <summary>
-本目录共收录13个App，详情见如下：
+本目录共收录14个App，详情见如下：
 </summary>
 
+- [Foodie](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/F/Foodie)
 - [fitdays](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/F/fitdays)
 - [凤凰秀](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/F/%E5%87%A4%E5%87%B0%E7%A7%80)
 - [分期乐](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/F/%E5%88%86%E6%9C%9F%E4%B9%90)
