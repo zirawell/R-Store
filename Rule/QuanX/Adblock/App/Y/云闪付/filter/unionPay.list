@@ -1,0 +1,5 @@
+# > 云闪付 - 95516
+host, switch.cup.com.cn, reject
+host, ads.cup.com.cn, reject
+host, analytics.95516.com, reject
+host, tysdk.95516.com, reject

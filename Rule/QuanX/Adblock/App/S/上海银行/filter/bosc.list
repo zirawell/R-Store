@@ -1,0 +1,5 @@
+# > 上海银行 - BOSC
+host-suffix, pmbanalysis.bosc.cn, reject
+host-suffix, pmbmpush.bosc.cn, reject
+host-suffix, pmbservice.bosc.cn, reject
+host-suffix, pmbservice2.bosc.cn, reject

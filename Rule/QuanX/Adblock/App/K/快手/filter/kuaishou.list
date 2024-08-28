@@ -1,0 +1,5 @@
+# > 快手 - KUAISHOU
+host-suffix, e.kuaishou.com, reject
+host-suffix, cm.downloader.commercial.kuaishou.com, reject
+host-suffix, cm.ad.gifshow.com, reject
+host-suffix, cm.kwad.com, reject

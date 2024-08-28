@@ -1,0 +1,13 @@
+# > 腾讯视频 - TXTV
+host, info4.video.qq.com, reject
+host, info6.video.qq.com, reject
+host, vv.video.qq.com, reject
+host, wxsmsdy.video.qq.com, reject
+host, sdkconfig.video.qq.com, reject
+host-suffix, video.mpush.qq.com, reject
+host-suffix, video.wap.mpush.qq.com, reject
+host-suffix, video.ureport.push.qq.com, reject
+host-suffix, api.poll.video.qq.com, reject
+host-suffix, livep.l.ott.video.qq.com, reject
+host-suffix, news-l.play.ott.video.qq.com, reject
+host-suffix, vlive.qqvideo.tc.qq.com, reject

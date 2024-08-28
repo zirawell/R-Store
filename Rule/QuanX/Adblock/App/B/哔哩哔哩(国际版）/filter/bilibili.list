@@ -1,0 +1,5 @@
+# > 哔哩哔哩(国际版) - BILIBILI(WHITE)
+host, ptom.caohua.com, reject
+host, tracking.leiting.com, reject
+host, ads.games.laohu.com, reject
+host, shark-tracer.netease.com, reject

@@ -1,0 +1,18 @@
+# > 搜狗输入法 - SOGOU
+host-suffix, shouji.sougou.com, reject
+host-suffix, epro.sogou.com, reject
+host-suffix, golden1.sogou.com, reject
+host-suffix, inte.sogou.com, reject
+host-suffix, inte.sogoucdn.com, reject
+host-suffix, lu.sogoucdn.com, reject
+host-suffix, theta.sogoucdn.com, reject
+host-suffix, uranus.sogou.com, reject
+host-suffix, 123.sogou.com, reject
+host-suffix, a1click.cpc.sogou.com, reject
+host-suffix, adsence.sogou.com, reject
+host-suffix, adstream.123.sogoucdn.com, reject
+host-suffix, amfi.gou.sogou.com, reject
+host-suffix, athena.wan.sogou.com, reject
+host-suffix, bazinga.mse.sogou.com, reject
+host-suffix, brand.sogou.com, reject
+host-suffix, bsiet.husky.sogou.com, reject

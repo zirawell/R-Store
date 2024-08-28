@@ -1,0 +1,3 @@
+# > Daum - DAUM
+host, track.tiara.daum.net, reject
+host, track.tiara.kakao.com, reject

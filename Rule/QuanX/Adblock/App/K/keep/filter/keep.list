@@ -1,0 +1,4 @@
+# > keep - KEEP
+host, hc-ssp.sm.cn, reject
+host, apm.gotokeep.com, reject
+host, kad.gotokeep.com, reject

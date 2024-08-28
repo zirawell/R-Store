@@ -1,0 +1,20 @@
+# > 京东 - JD
+host, dns.jd.com, reject
+host, waapdg.jd.com, reject
+host, dsp-x.jd.com, reject
+host, xlog.jd.com, reject
+host, janapi.jd.com, reject
+host, jdqd.jd.com, reject
+host, dgstatic.jd.com, reject
+host-suffix, jzt.jd.com, reject
+host-suffix, img-x.jd.com, reject
+host-suffix, du.jd.com, reject
+host-suffix, c-nfa.jd.com, reject
+host-suffix, cm.jd.com, reject
+host-keyword, policy.jd.com, reject
+host-keyword, kepler.jd.com, reject
+host-keyword, bdsp.x.jd.com, reject
+host-keyword, keplerapi.jd.com, reject
+host-keyword, mapi.m.jd.com, reject
+ip-cidr, 101.124.19.122/32, reject
+ip6-cidr, 2402:db40:5100:1011::5/128, reject
