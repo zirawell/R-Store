@@ -1,7 +1,7 @@
 # T
 <details>
 <summary>
-本目录共收录30个App，详情见如下：
+本目录共收录31个App，详情见如下：
 </summary>
 
 - [Talkatone](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/T/Talkatone)
@@ -17,6 +17,7 @@
 - [天府手机银行](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/T/%E5%A4%A9%E5%BA%9C%E6%89%8B%E6%9C%BA%E9%93%B6%E8%A1%8C)
 - [天府通](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/T/%E5%A4%A9%E5%BA%9C%E9%80%9A)
 - [天星金融](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/T/%E5%A4%A9%E6%98%9F%E9%87%91%E8%9E%8D)
+- [天气通](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/T/%E5%A4%A9%E6%B0%94%E9%80%9A)
 - [天猫养车](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/T/%E5%A4%A9%E7%8C%AB%E5%85%BB%E8%BD%A6)
 - [天猫精灵](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/T/%E5%A4%A9%E7%8C%AB%E7%B2%BE%E7%81%B5)
 - [天翼云盘](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/T/%E5%A4%A9%E7%BF%BC%E4%BA%91%E7%9B%98)
