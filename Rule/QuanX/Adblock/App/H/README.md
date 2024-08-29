@@ -13,7 +13,7 @@
 - [好奇心日报](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/H/%E5%A5%BD%E5%A5%87%E5%BF%83%E6%97%A5%E6%8A%A5)
 - [好好住](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/H/%E5%A5%BD%E5%A5%BD%E4%BD%8F)
 - [杭州公交](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/H/%E6%9D%AD%E5%B7%9E%E5%85%AC%E4%BA%A4)
-- [杭州市民](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/H/%E6%9D%AD%E5%B7%9E%E5%B8%82%E6%B0%91)
+- [杭州市民卡](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/H/%E6%9D%AD%E5%B7%9E%E5%B8%82%E6%B0%91%E5%8D%A1)
 - [汇丰汇选](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/H/%E6%B1%87%E4%B8%B0%E6%B1%87%E9%80%89)
 - [海尔智家](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/H/%E6%B5%B7%E5%B0%94%E6%99%BA%E5%AE%B6)
 - [海豚优惠](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/H/%E6%B5%B7%E8%B1%9A%E4%BC%98%E6%83%A0)
