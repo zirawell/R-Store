@@ -1,7 +1,7 @@
 # X
 <details>
 <summary>
-本目录共收录45个App，详情见如下：
+本目录共收录46个App，详情见如下：
 </summary>
 
 - [下厨房](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/X/%E4%B8%8B%E5%8E%A8%E6%88%BF)
@@ -20,6 +20,7 @@
 - [小特](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/X/%E5%B0%8F%E7%89%B9)
 - [小白学习打印](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/X/%E5%B0%8F%E7%99%BD%E5%AD%A6%E4%B9%A0%E6%89%93%E5%8D%B0)
 - [小睡眠](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/X/%E5%B0%8F%E7%9D%A1%E7%9C%A0)
+- [小站](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/X/%E5%B0%8F%E7%AB%99)
 - [小米商城](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/X/%E5%B0%8F%E7%B1%B3%E5%95%86%E5%9F%8E)
 - [小米打印](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/X/%E5%B0%8F%E7%B1%B3%E6%89%93%E5%8D%B0)
 - [小米有品](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/X/%E5%B0%8F%E7%B1%B3%E6%9C%89%E5%93%81)
