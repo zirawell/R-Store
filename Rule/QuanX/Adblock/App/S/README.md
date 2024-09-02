@@ -1,7 +1,7 @@
 # S
 <details>
 <summary>
-本目录共收录36个App，详情见如下：
+本目录共收录37个App，详情见如下：
 </summary>
 
 - [snapchat](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/S/snapchat)
@@ -29,6 +29,7 @@
 - [水印相机](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/S/%E6%B0%B4%E5%8D%B0%E7%9B%B8%E6%9C%BA)
 - [深圳通](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/S/%E6%B7%B1%E5%9C%B3%E9%80%9A)
 - [省钱快报](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/S/%E7%9C%81%E9%92%B1%E5%BF%AB%E6%8A%A5)
+- [神舟专车](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/S/%E7%A5%9E%E8%88%9F%E4%B8%93%E8%BD%A6)
 - [苏e行](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/S/%E8%8B%8Fe%E8%A1%8C)
 - [苏周到](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/S/%E8%8B%8F%E5%91%A8%E5%88%B0)
 - [苏宁易购](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/S/%E8%8B%8F%E5%AE%81%E6%98%93%E8%B4%AD)
