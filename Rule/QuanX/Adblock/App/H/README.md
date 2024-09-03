@@ -4,7 +4,7 @@
 本目录共收录25个App，详情见如下：
 </summary>
 
-- [华住](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/H/%E5%8D%8E%E4%BD%8F)
+- [华住会](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/H/%E5%8D%8E%E4%BD%8F%E4%BC%9A)
 - [华宝智投](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/H/%E5%8D%8E%E5%AE%9D%E6%99%BA%E6%8A%95)
 - [华尔街见闻](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/H/%E5%8D%8E%E5%B0%94%E8%A1%97%E8%A7%81%E9%97%BB)
 - [华彩生活](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/H/%E5%8D%8E%E5%BD%A9%E7%94%9F%E6%B4%BB)
