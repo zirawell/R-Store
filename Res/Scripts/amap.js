@@ -11,6 +11,7 @@ https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/App/G
 const url = $request.url;
 if (!$response.body) $done({});
 let obj = JSON.parse($response.body);
+
 if (url.includes("/aos/perception/publicTravel/beforeNavi")) {
   if (obj?.data?.common_data?.bus_plan_bottom_event?.data?.length > 0) {
     // 公交出行 底部卡路里数值
@@ -172,7 +173,7 @@ if (url.includes("/aos/perception/publicTravel/beforeNavi")) {
   if (obj.data?.carTips?.data?.popupInfo) {
     delete obj.data.carTips.data.popupInfo;
   }
-} else if (url.includes("/shield/dsp/profile/index/nodefaasv")) {
+} else if (url.includes("/shield/dsp/profile/index/nodefaasv3")) {
   // 我的页面
   if (obj?.data?.cardList?.length > 0) {
     obj.data.cardList = obj.data.cardList.filter((i) => i?.dataKey === "MyOrderCard");
@@ -188,6 +189,10 @@ if (url.includes("/aos/perception/publicTravel/beforeNavi")) {
   if (obj?.data?.memberInfo) {
     delete obj.data.memberInfo;
   }
+  if (obj?.data?.topMixedCard) {
+    // 顶部足迹、贡献卡片
+    delete obj.data.topMixedCard;
+  }
 } else if (url.includes("/shield/frogserver/aocs/updatable/")) {
   // 整体图层
   const items = [
@@ -195,6 +200,7 @@ if (url.includes("/aos/perception/publicTravel/beforeNavi")) {
     "SplashScreenControl",
     "TipsTaxiButton", // 选路线页面 打车图标
     "amapCoin",
+    "favorites_info", // 收藏夹顶部横图推广
     "feedback_banner", // 店主专属通道
     "footprint", // 足迹
     "his_input_tip",
@@ -224,6 +230,12 @@ if (url.includes("/aos/perception/publicTravel/beforeNavi")) {
     "search_poi_recommend",
     "search_service_adcode",
     "search_word",
+    "sportsGroupConfig",
+    "sportsHealthConfig",
+    "sportsHomeConfig",
+    "sportsRouteConfig",
+    "sportsTaskConfig",
+    "sports_walk",
     "small_biz_b2b_kb", // 入驻高德
     "small_biz_case", // 推广
     "small_biz_fun",
@@ -330,6 +342,7 @@ if (url.includes("/aos/perception/publicTravel/beforeNavi")) {
     // "human_traffic", // 人流量情况 有统计图
     "image_banner",
     "kaMarketingCampaign", // 附近品牌动态
+    "kaProductMixServiceShelf", // 骑手送药上门
     "ka_not_enter", // 移动办卡 套餐服务
     "legSameIndustryRecEntrance", // 全城最热景点推荐
     "legal_document", // 房源法律信息
@@ -342,6 +355,7 @@ if (url.includes("/aos/perception/publicTravel/beforeNavi")) {
     "movie_info", // 优惠购票 景点宣传片
     "multi_page_anchor", // 二级导航菜单 门票 评论 推荐
     // "navbarMore", // 右上角三点
+    "nearbyGoodCar", // 附近热门新车
     "nearbyRecommendModule", // 周边推荐
     "nearby_house",
     "nearby_new_house_estate",
@@ -364,6 +378,10 @@ if (url.includes("/aos/perception/publicTravel/beforeNavi")) {
     "packageShelf", // 附近酒景推荐
     "parentBizRec",
     "parentPoiRecEntrance", // 所在商圈
+    "platformCustomerCommonModule", // 众安保险赔付
+    "platformCustomerComplianceInfo", // 保险公司信息
+    "poiDetailWaterFeed", // 附近景点瀑布流 新
+    "poiDetailWaterFeedTitle", // 更多人气好去处 新
     "poster_banner",
     // "poi_intercept",
     "portal_entrance", // 高德旅游版块 引流到旅游频道
@@ -405,6 +423,7 @@ if (url.includes("/aos/perception/publicTravel/beforeNavi")) {
     // "shop_news",
     "smallListBizRec", // 周边热门酒店
     "smallOrListBizRec",
+    "surroundHouseTab", //周边房源
     "surroundOldSellHouse", // 同城二手房
     "surroundRentHouse", // 附近租房
     "surround_facility",
@@ -414,6 +433,7 @@ if (url.includes("/aos/perception/publicTravel/beforeNavi")) {
     "surround_renthouse",
     "surround_rentoffice",
     "surround_selloffice",
+    "thirdparty_info", // 第三方信息
     // "traffic", // 交通出行 地铁站 公交站 停车场
     "travelGuideRec", // 人气景点 路线 购票
     "uploadBar",
@@ -422,12 +442,17 @@ if (url.includes("/aos/perception/publicTravel/beforeNavi")) {
     // "video",
     "waistRecEntrance", // 更多人气好去处
     "waterFallFeed", // 附近景点瀑布流
-    "waterFallFeedTitle" // 更多好去处
+    "waterFallFeedTitle" // 更多人气好去处
   ];
   if (obj?.data?.modules) {
     for (let i of items) {
       delete obj.data.modules[i];
     }
+  }
+} else if (url.includes("/shield/search_bff/hotword")) {
+  // 搜索框 热榜logo
+  if (obj?.data?.headerHotWord?.length > 0) {
+    obj.data.headerHotWord = [];
   }
 } else if (url.includes("/shield/search_business/process/marketingOperationStructured")) {
   // 详情页 顶部优惠横幅
@@ -594,6 +619,15 @@ if (url.includes("/aos/perception/publicTravel/beforeNavi")) {
   if (obj?.data?.modules) {
     for (let i of items) {
       delete obj.data.modules[i];
+    }
+  }
+} else if (url.includes("/valueadded/alimama/splash_screen")) {
+  // 开屏广告
+  if (obj?.data?.ad?.length > 0) {
+    for (let item of obj.data.ad) {
+      item.set.setting.display_time = 0;
+      item.creative[0].start_time = 3818332800; // Unix 时间戳 2090-12-31 00:00:00
+      item.creative[0].end_time = 3818419199; // Unix 时间戳 2090-12-31 23:59:59
     }
   }
 }
