@@ -1,7 +1,7 @@
 # J
 <details>
 <summary>
-本目录共收录24个App，详情见如下：
+本目录共收录25个App，详情见如下：
 </summary>
 
 - [交管12123](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/J/%E4%BA%A4%E7%AE%A112123)
@@ -19,6 +19,7 @@
 - [吉祥航空](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/J/%E5%90%89%E7%A5%A5%E8%88%AA%E7%A9%BA)
 - [建行生活](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/J/%E5%BB%BA%E8%A1%8C%E7%94%9F%E6%B4%BB)
 - [建设银行](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/J/%E5%BB%BA%E8%AE%BE%E9%93%B6%E8%A1%8C)
+- [捷停车](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/J/%E6%8D%B7%E5%81%9C%E8%BD%A6)
 - [机核网](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/J/%E6%9C%BA%E6%A0%B8%E7%BD%91)
 - [极简汇率](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/J/%E6%9E%81%E7%AE%80%E6%B1%87%E7%8E%87)
 - [界面新闻](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/J/%E7%95%8C%E9%9D%A2%E6%96%B0%E9%97%BB)
