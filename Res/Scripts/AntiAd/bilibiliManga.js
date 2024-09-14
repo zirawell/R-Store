@@ -43,6 +43,11 @@ if (url.includes("/UCenterConf")){
     //去除视频内容
     obj.data.feeds = obj.data.feeds.filter(feed => feed.inline_pv_card.bvid === "");
   }
-}
+//小说页去除横幅
+/*}else if(url.includes("twirp/novel")){
+  if(obj?.data?.banners?.length > 0){
+    obj.data.banners = [{"background":"","id":1,"title":"","img":"","jump_type":1,"jump_value":""}];
+  }
+}*/
 body = JSON.stringify(obj);
 $done({ body });
