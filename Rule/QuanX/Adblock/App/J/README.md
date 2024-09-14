@@ -1,7 +1,7 @@
 # J
 <details>
 <summary>
-本目录共收录25个App，详情见如下：
+本目录共收录26个App，详情见如下：
 </summary>
 
 - [交管12123](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/J/%E4%BA%A4%E7%AE%A112123)
@@ -26,6 +26,7 @@
 - [简讯](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/J/%E7%AE%80%E8%AE%AF)
 - [金十数据](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/J/%E9%87%91%E5%8D%81%E6%95%B0%E6%8D%AE)
 - [金山词霸](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/J/%E9%87%91%E5%B1%B1%E8%AF%8D%E9%9C%B8)
+- [金色财经](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/J/%E9%87%91%E8%89%B2%E8%B4%A2%E7%BB%8F)
 - [韭菜公社](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/J/%E9%9F%AD%E8%8F%9C%E5%85%AC%E7%A4%BE)
 - [驾校一点通](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/J/%E9%A9%BE%E6%A0%A1%E4%B8%80%E7%82%B9%E9%80%9A)
 - [驾考宝典](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/J/%E9%A9%BE%E8%80%83%E5%AE%9D%E5%85%B8)
