@@ -1,4 +1,4 @@
-# ChatGPT
+# > ChatGPT
 HOST, api.statsig.com, OpenAI
 HOST, browser-intake-datadoghq.com, OpenAI
 HOST, cdn.openai.com, OpenAI
@@ -34,7 +34,7 @@ HOST-SUFFIX, sentry.io, OpenAI
 HOST-SUFFIX, stripe.com, OpenAI
 HOST-KEYWORD, openaicom-api, OpenAI
 
-# ChatGPT Voice
+# > ChatGPT Voice
 HOST-SUFFIX, chatgpt.livekit.cloud, OpenAI
 HOST-SUFFIX, host.livekit.cloud, OpenAI
 HOST-SUFFIX, turn.livekit.cloud, OpenAI
