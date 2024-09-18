@@ -25,6 +25,12 @@ if (url.includes("/remind/list")){
   if(obj?.data?.home_mid_banner_multi_202208?.length > 0){
     obj.data.home_mid_banner_multi_202208=[];
   }
+  if(obj?.data?.main_rebate_banner_2022_09?.length > 0){
+    obj.data.main_rebate_banner_2022_09=[];
+  }
+  if(obj?.data?.home_newfeed_oper_new_2022?.length > 0){
+    obj.data.home_newfeed_oper_new_2022=[];
+  }
 }
 body = JSON.stringify(obj);
 $done({ body });
