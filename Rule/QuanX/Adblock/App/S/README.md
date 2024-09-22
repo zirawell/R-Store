@@ -1,13 +1,14 @@
 # S
 <details>
 <summary>
-本目录共收录37个App，详情见如下：
+本目录共收录38个App，详情见如下：
 </summary>
 
 - [snapchat](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/S/snapchat)
 - [soul](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/S/soul)
 - [speedtest](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/S/speedtest)
 - [spotify](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/S/spotify)
+- [三号动漫](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/S/%E4%B8%89%E5%8F%B7%E5%8A%A8%E6%BC%AB)
 - [三联中读](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/S/%E4%B8%89%E8%81%94%E4%B8%AD%E8%AF%BB)
 - [上岸鸭公考](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/S/%E4%B8%8A%E5%B2%B8%E9%B8%AD%E5%85%AC%E8%80%83)
 - [上汽大众](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/S/%E4%B8%8A%E6%B1%BD%E5%A4%A7%E4%BC%97)
