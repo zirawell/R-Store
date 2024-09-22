@@ -1,9 +1,10 @@
 # J
 <details>
 <summary>
-本目录共收录26个App，详情见如下：
+本目录共收录27个App，详情见如下：
 </summary>
 
+- [JavDB](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/J/JavDB)
 - [交管12123](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/J/%E4%BA%A4%E7%AE%A112123)
 - [交通银行](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/J/%E4%BA%A4%E9%80%9A%E9%93%B6%E8%A1%8C)
 - [京东](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/J/%E4%BA%AC%E4%B8%9C)
