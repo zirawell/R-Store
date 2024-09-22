@@ -8,7 +8,9 @@ https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/App/J
 
 ********************************/
 
+const url = $request.url;
 if (!$response.body) $done({});
+let body = $response.body;
 try {
       let obj = JSON.parse(body);
       if (url.includes("/ads")) {
@@ -52,6 +54,7 @@ try {
         $done({});
       }
       body = JSON.stringify(obj);
+      $done({ body });
 } catch (err) {
   console.log(`JavDB, 出现异常: ` + err);
 }
