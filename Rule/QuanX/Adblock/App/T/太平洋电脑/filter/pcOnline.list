@@ -1,0 +1,7 @@
+# > 太平洋电脑 - PCONLINE
+host, ad-analysis.pconline.com.cn, reject
+host, iad0ssl.pcauto.com.cn, reject
+host, iad0ssl.pconline.com.cn, reject
+host, imgad0.pcauto.com.cn, reject
+host, imgad0.pconline.com.cn, reject
+host, ivy.pchouse.com.cn, reject
