@@ -1,11 +1,11 @@
 #!name=全部-广告拦截合集-分流规则
 #!desc=某些规则要清除缓存或者重新安装APP，拦截广告才会生效！
-#!count=支持约1249个分流规则
+#!count=支持约1254个分流规则
 #!author=zirawell
 #!homepage=https://github.com/zirawell/R-Store
 #!raw-url=https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/All/filter/allAdBlock.list
 #!tg-group=https://t.me/lanjieguanggao
-#!date=2024-09-23 14:54:38
+#!date=2024-09-23 14:56:55
 #!proxy-select=reject
 #!---------------------------------------------------------------------------------------------------------------
 ip-cidr, 1.202.85.193/32, reject
@@ -983,6 +983,7 @@ host-suffix, openinstall.io, reject
 host-suffix, openrcv.baidu.com, reject
 host-suffix, p-log.ykimg.com, reject
 host-suffix, p.kugou.com, reject
+host-suffix, p.twitter.com, reject
 host-suffix, p4p.sina.com.cn, reject
 host-suffix, page.amap.com, reject
 host-suffix, paimgcdn.baidu.com, reject
@@ -1051,6 +1052,7 @@ host-suffix, saxs.sina.com.cn, reject
 host-suffix, sbeacon.sina.com.cn, reject
 host-suffix, scdown.qq.com, reject
 host-suffix, sclick.baidu.com, reject
+host-suffix, scribe.twitter.com, reject
 host-suffix, sdk.m.youku.com, reject
 host-suffix, sdkapp.uve.weibo.com, reject
 host-suffix, sdn.kugou.com, reject
@@ -1078,6 +1080,8 @@ host-suffix, store.tv.api.3g.youku.com, reject
 host-suffix, store.xl.api.3g.youku.com, reject
 host-suffix, strip.alicdn.com, reject
 host-suffix, suvset.sohu.com, reject
+host-suffix, syndication-o.twitter.com, reject
+host-suffix, syndication.twitter.com, reject
 host-suffix, t.sj.qq.com, reject
 host-suffix, t7z.cupid.iqiyi.com, reject
 host-suffix, ta.qq.com, reject
@@ -1132,6 +1136,7 @@ host-suffix, updatecenter.qq.com, reject
 host-suffix, updatepage.kuwo.cn, reject
 host-suffix, uranus.sogou.com, reject
 host-suffix, urchin.lstat.youku.com, reject
+host-suffix, urls.api.twitter.com, reject
 host-suffix, ut.taobao.com, reject
 host-suffix, utility.baidu.com, reject
 host-suffix, utk.baidu.com, reject
