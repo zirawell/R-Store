@@ -1,11 +1,11 @@
 #!name=App-广告拦截合集-分流规则
 #!desc=某些规则要清除缓存或者重新安装APP，拦截广告才会生效！
-#!count=支持约1239个分流规则
+#!count=支持约1245个分流规则
 #!author=zirawell
 #!homepage=https://github.com/zirawell/R-Store
 #!raw-url=https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/All/filter/appAdBlock.list
 #!tg-group=https://t.me/lanjieguanggao
-#!date=2024-09-23 14:56:55
+#!date=2024-09-23 15:02:21
 #!proxy-select=reject
 #!---------------------------------------------------------------------------------------------------------------
 ip-cidr, 1.202.85.193/32, reject
@@ -77,6 +77,7 @@ host, aaid.umeng.com, reject
 host, aaid.uyunad.com, reject
 host, abtest3-misc.zijieapi.com, reject
 host, acdn.adnxs.com, reject
+host, ad-analysis.pconline.com.cn, reject
 host, ad-cdn.qingting.fm, reject
 host, ad-h5-cdn.soulapp.cn, reject
 host, ad-h5-station-cdn.soulapp.cn, reject
@@ -280,6 +281,8 @@ host, i.gtimg.cn, reject
 host, i.snssdk.com, reject
 host, iad.apple.com, reject
 host, iad.g.163.com, reject
+host, iad0ssl.pcauto.com.cn, reject
+host, iad0ssl.pconline.com.cn, reject
 host, iadcontent.apple.com, reject
 host, iadctest.qwapi.com, reject
 host, iadmat.nosdn.127.net, reject
@@ -292,6 +295,8 @@ host, id.hadron.ad.gt, reject
 host, img.adnyg.com, reject
 host, img.adnyg.com.w.kunlungr.com, reject
 host, img.auction-ads.wpscdn.cn, reject
+host, imgad0.pcauto.com.cn, reject
+host, imgad0.pconline.com.cn, reject
 host, info4.video.qq.com, reject
 host, info6.video.qq.com, reject
 host, init.sms.mob.com, reject
@@ -300,6 +305,7 @@ host, ipv4.music.163.com, reject
 host, ipv6.music.163.com, reject
 host, iqiyim.adtrack.enlightent.cn, reject
 host, is.snssdk.com, reject
+host, ivy.pchouse.com.cn, reject
 host, iyes.youku.com, reject
 host, janapi.jd.com, reject
 host, jdqd.jd.com, reject
