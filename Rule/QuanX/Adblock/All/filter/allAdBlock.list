@@ -1,11 +1,11 @@
 #!name=全部-广告拦截合集-分流规则
 #!desc=某些规则要清除缓存或者重新安装APP，拦截广告才会生效！
-#!count=支持约1238个分流规则
+#!count=支持约1247个分流规则
 #!author=zirawell
 #!homepage=https://github.com/zirawell/R-Store
 #!raw-url=https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/All/filter/allAdBlock.list
 #!tg-group=https://t.me/lanjieguanggao
-#!date=2024-09-22 12:50:20
+#!date=2024-09-23 14:53:44
 #!proxy-select=reject
 #!---------------------------------------------------------------------------------------------------------------
 ip-cidr, 1.202.85.193/32, reject
@@ -282,7 +282,6 @@ host, hmma.baidu.com, reject
 host, httpdns.baidubce.com, reject
 host, huatuocode.huatuo.qq.com, reject
 host, hudong.alicdn.com, reject
-host, hui.sohu.com, reject
 host, huichuan-mc.sm.cn, reject
 host, huichuan.sm.cn, reject
 host, huodong.weibo.cn, reject
@@ -500,6 +499,8 @@ host-suffix, 123.sogou.com, reject
 host-suffix, 163jiasu.com, reject
 host-suffix, 33.autohome.com.cn, reject
 host-suffix, 360baidus.com, reject
+host-suffix, 3rd.t.sohu.com, reject
+host-suffix, 888.tv.sohu.com, reject
 host-suffix, a-dxk.play.api.3g.youku.com, reject
 host-suffix, a.baidu.com, reject
 host-suffix, a.ckm.iqiyi.com, reject
@@ -518,6 +519,7 @@ host-suffix, ad.duoduo.link, reject
 host-suffix, ad.e.waimai.sankuai.com, reject
 host-suffix, ad.gameley.com, reject
 host-suffix, ad.m.iqiyi.com, reject
+host-suffix, ad.mail.sohu.com, reject
 host-suffix, ad.mobile.youku.com, reject
 host-suffix, ad.player.baidu.com, reject
 host-suffix, ad.qq.com, reject
@@ -544,6 +546,7 @@ host-suffix, adkwai.com, reject
 host-suffix, adm.baidu.com, reject
 host-suffix, adm.leju.sina.com.cn, reject
 host-suffix, admobile.top, reject
+host-suffix, adnet.sohu.com, reject
 host-suffix, adnew.wifi8.com, reject
 host-suffix, adping.qq.com, reject
 host-suffix, adpm.app.qq.com, reject
@@ -703,10 +706,12 @@ host-suffix, cmsapi.wifi8.com, reject
 host-suffix, cmx.autohome.com.cn, reject
 host-suffix, cn-shanghai.nlb.aliyuncs.com, reject
 host-suffix, conv.youdao.com, reject
+host-suffix, corp.sohu.com, reject
 host-suffix, count.game.pps.tv, reject
 host-suffix, count.video.sina.com.cn, reject
 host-suffix, counter.sina.com.cn, reject
 host-suffix, cpatrk.net, reject
+host-suffix, cpc.sohu.com, reject
 host-suffix, cpro.baidu.cn, reject
 host-suffix, cpro.baidu.com, reject
 host-suffix, cpro.zhidao.baidu.com, reject
@@ -817,6 +822,7 @@ host-suffix, gg.kugou.com, reject
 host-suffix, ggmmqq.com, reject
 host-suffix, gimg.baidu.com, reject
 host-suffix, gma.alicdn.com, reject
+host-suffix, go.sohu.com, reject
 host-suffix, golden1.sogou.com, reject
 host-suffix, google-analytics.com, reject
 host-suffix, googleadservices.com, reject
@@ -842,6 +848,7 @@ host-suffix, httpdns.meituan.com, reject
 host-suffix, httpdns.music.163.com, reject
 host-suffix, httpdns.n.netease.com, reject
 host-suffix, hudong.pl.youku.com, reject
+host-suffix, hui.sohu.com, reject
 host-suffix, huodong.pl.youku.com, reject
 host-suffix, huodong.vip.youku.com, reject
 host-suffix, hz.youku.com, reject
@@ -1069,6 +1076,7 @@ host-suffix, store.iqiyi.com, reject
 host-suffix, store.tv.api.3g.youku.com, reject
 host-suffix, store.xl.api.3g.youku.com, reject
 host-suffix, strip.alicdn.com, reject
+host-suffix, suvset.sohu.com, reject
 host-suffix, t.sj.qq.com, reject
 host-suffix, t7z.cupid.iqiyi.com, reject
 host-suffix, ta.qq.com, reject
@@ -1093,6 +1101,7 @@ host-suffix, tpns.tencent.com, reject
 host-suffix, tpush.html5.qq.com, reject
 host-suffix, track.bankcomm.com, reject
 host-suffix, track.mm.taou.com, reject
+host-suffix, track.sohu.com, reject
 host-suffix, tracker.sns.iqiyi.com, reject
 host-suffix, tracker.yhd.com, reject
 host-suffix, ttayy.cn, reject
