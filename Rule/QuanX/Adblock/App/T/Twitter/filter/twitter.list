@@ -1,3 +1,8 @@
 # > twitter - TWITTER
 host, analytics.twitter.com, reject
 host-suffix,ads-twitter.com, reject
+host-suffix, p.twitter.com, reject
+host-suffix, scribe.twitter.com, reject
+host-suffix, syndication.twitter.com, reject
+host-suffix, syndication-o.twitter.com, reject
+host-suffix, urls.api.twitter.com, reject
