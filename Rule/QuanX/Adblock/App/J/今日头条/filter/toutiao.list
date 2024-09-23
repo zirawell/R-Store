@@ -3,6 +3,8 @@ host-suffix, ad.toutiao.com, reject
 host-suffix, dm.toutiao.com, reject
 host-suffix, dsp.toutiao.com, reject
 host-suffix, adshare.toutiao.com, reject
+host-suffix, partner.toutiao.com, reject
+host-suffix, track.toutiao.com, reject
 host-keyword, s1.pstatp.com, reject
 host-keyword, s2.pstatp.com, reject
 host-keyword, s3.pstatp.com, reject
