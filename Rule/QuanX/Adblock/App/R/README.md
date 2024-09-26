@@ -1,10 +1,11 @@
 # R
 <details>
 <summary>
-本目录共收录7个App，详情见如下：
+本目录共收录8个App，详情见如下：
 </summary>
 
 - [reddit](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/R/reddit)
+- [rouman5](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/R/rouman5)
 - [人人视频](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/R/%E4%BA%BA%E4%BA%BA%E8%A7%86%E9%A2%91)
 - [人民日报](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/R/%E4%BA%BA%E6%B0%91%E6%97%A5%E6%8A%A5)
 - [日产智联](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/R/%E6%97%A5%E4%BA%A7%E6%99%BA%E8%81%94)
