@@ -9,9 +9,10 @@ R-Store/Rule/QuanX
 │   └── Web
 ├── Filter
 │   └── Optional
+├── Plugin
 └── Redirect
 
-9 directories
+10 directories
 ```
 
 ## Overview Index
@@ -64,8 +65,8 @@ R-Store/Rule/QuanX
 
 | Type | Count |
 |----------|----------|
-| All    | 627 |
-| App    | 527 |
+| All    | 628 |
+| App    | 528 |
 | Wechat Applet| 97 |
 | Alipay Applet| 2 |
 | Web    | 1 |
