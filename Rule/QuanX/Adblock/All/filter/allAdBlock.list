@@ -1,11 +1,11 @@
 #!name=全部-广告拦截合集-分流规则
 #!desc=某些规则要清除缓存或者重新安装APP，拦截广告才会生效！
-#!count=支持约1291个分流规则
+#!count=支持约1295个分流规则
 #!author=zirawell
 #!homepage=https://github.com/zirawell/R-Store
 #!raw-url=https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/All/filter/allAdBlock.list
 #!tg-group=https://t.me/lanjieguanggao
-#!date=2024-09-26 08:52:47
+#!date=2024-10-01 20:27:10
 #!proxy-select=reject
 #!---------------------------------------------------------------------------------------------------------------
 ip-cidr, 1.202.85.193/32, reject
@@ -355,6 +355,7 @@ host, mdc.wallet.pbcdci.cn, reject
 host, mediation.adnxs.com, reject
 host, meta.pinduoduo.com, reject
 host, meta.yangkeduo.com, reject
+host, metrics.apple.com, reject
 host, minfo.wps.cn, reject
 host, mob.bz.mgtv.com, reject
 host, mobad.ijinshan.com, reject
@@ -418,6 +419,7 @@ host, sdkconfig.ad.xiaomi.com, reject
 host, sdkconfig.video.qq.com, reject
 host, sdownload.stargame.com, reject
 host, sealine.youku.com, reject
+host, securemetrics.apple.com, reject
 host, sensors.umetrip.com.cn, reject
 host, serveraddr.service.kugou.com, reject
 host, shark-tracer.netease.com, reject
@@ -486,6 +488,8 @@ host, w.meituan.net, reject
 host, wa.gtimg.com, reject
 host, waapdg.jd.com, reject
 host, webcast-open.douyin.com, reject
+host, webproxy-advp.iad-apple.com, reject
+host, webproxy-advp.iad-apple.com.akadns.net, reject
 host, wn.pos.baidu.com, reject
 host, ws.ksmobile.net, reject
 host, ws.tapjoyads.com, reject

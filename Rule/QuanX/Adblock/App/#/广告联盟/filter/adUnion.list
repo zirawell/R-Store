@@ -157,7 +157,11 @@ host, iadctest.qwapi.com, reject
 host, iadmoo.apple.com, reject
 host, iadworkbench.apple.com, reject
 host, launch.apple.com, reject
+host, metrics.apple.com, reject
 host, qwapi.apple.com, reject
+host, securemetrics.apple.com, reject
+host, webproxy-advp.iad-apple.com, reject
+host, webproxy-advp.iad-apple.com.akadns.net, reject
 host-suffix, advp.apple.com, reject
 host-suffix, iad-apple.com, reject
 host-suffix, iadsdk.apple.com, reject
