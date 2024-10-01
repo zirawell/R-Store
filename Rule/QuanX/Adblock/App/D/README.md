@@ -1,9 +1,10 @@
 # D
 <details>
 <summary>
-本目录共收录30个App，详情见如下：
+本目录共收录31个App，详情见如下：
 </summary>
 
+- [DJI](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/D/DJI)
 - [Daum](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/D/Daum)
 - [丁香医生](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/D/%E4%B8%81%E9%A6%99%E5%8C%BB%E7%94%9F)
 - [丁香园](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/D/%E4%B8%81%E9%A6%99%E5%9B%AD)
