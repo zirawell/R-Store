@@ -1,7 +1,7 @@
 # Y
 <details>
 <summary>
-本目录共收录31个App，详情见如下：
+本目录共收录32个App，详情见如下：
 </summary>
 
 - [Youtube](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/Y/Youtube)
@@ -9,6 +9,7 @@
 - [一号店](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/Y/%E4%B8%80%E5%8F%B7%E5%BA%97)
 - [一汽大众](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/Y/%E4%B8%80%E6%B1%BD%E5%A4%A7%E4%BC%97)
 - [一淘](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/Y/%E4%B8%80%E6%B7%98)
+- [一点万象](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/Y/%E4%B8%80%E7%82%B9%E4%B8%87%E8%B1%A1)
 - [一起考教师](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/Y/%E4%B8%80%E8%B5%B7%E8%80%83%E6%95%99%E5%B8%88)
 - [云闪付](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/Y/%E4%BA%91%E9%97%AA%E4%BB%98)
 - [云鲸智能](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/Y/%E4%BA%91%E9%B2%B8%E6%99%BA%E8%83%BD)

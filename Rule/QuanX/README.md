@@ -65,8 +65,8 @@ R-Store/Rule/QuanX
 
 | Type | Count |
 |----------|----------|
-| All    | 629 |
-| App    | 529 |
+| All    | 630 |
+| App    | 530 |
 | Wechat Applet| 97 |
 | Alipay Applet| 2 |
 | Web    | 1 |
