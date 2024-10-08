@@ -1,0 +1,6 @@
+# 屏蔽Apple Update
+DOMAIN, ns.itunes.apple.com, Apple Update
+DOMAIN, appldnld.apple.com, Apple Update
+DOMAIN, mesu.apple.com, Apple Update
+DOMAIN, xp.apple.com, Apple Update
+DOMAIN, gdmf.apple.com, Apple Update
