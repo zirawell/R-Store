@@ -1,13 +1,13 @@
 # > Linkedin
-HOST,e122475.dscg.akamaiedge.net,LinkedIn
-HOST,licdn.cn.cdn20.com,LinkedIn
-HOST,linkedin.sc.omtrdc.net,LinkedIn
-HOST-SUFFIX,bizographics.com,LinkedIn
-HOST-SUFFIX,l-0005.dc-msedge.net,LinkedIn
-HOST-SUFFIX,l-0005.l-msedge.net,LinkedIn
-HOST-SUFFIX,licdn.cn,LinkedIn
-HOST-SUFFIX,licdn.com,LinkedIn
-HOST-SUFFIX,linkedin.at,LinkedIn
-HOST-SUFFIX,linkedin.cn,LinkedIn
-HOST-SUFFIX,linkedin.com,LinkedIn
-HOST-SUFFIX,lnkd.in,LinkedIn
+HOST, e122475.dscg.akamaiedge.net, LinkedIn
+HOST, licdn.cn.cdn20.com, LinkedIn
+HOST, linkedin.sc.omtrdc.net, LinkedIn
+HOST-SUFFIX, bizographics.com, LinkedIn
+HOST-SUFFIX, l-0005.dc-msedge.net, LinkedIn
+HOST-SUFFIX, l-0005.l-msedge.net, LinkedIn
+HOST-SUFFIX, licdn.cn, LinkedIn
+HOST-SUFFIX, licdn.com, LinkedIn
+HOST-SUFFIX, linkedin.at, LinkedIn
+HOST-SUFFIX, linkedin.cn, LinkedIn
+HOST-SUFFIX, linkedin.com, LinkedIn
+HOST-SUFFIX, lnkd.in, LinkedIn

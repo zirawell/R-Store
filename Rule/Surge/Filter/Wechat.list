@@ -1,33 +1,33 @@
 # > Wechat
-DOMAIN-SUFFIX,qpic.cn,direct
-DOMAIN,sgminorshort.wechat.com,direct
-DOMAIN,dl.wechat.com,WeChat
-DOMAIN,sgfindershort.wechat.com,WeChat
-DOMAIN,sgilinkshort.wechat.com,WeChat
-DOMAIN,sglong.wechat.com,WeChat
-DOMAIN,sgshort.wechat.com,WeChat
-DOMAIN,tencentmap.wechat.com,WeChat
-DOMAIN-SUFFIX,qlogo.cn,WeChat
-DOMAIN-SUFFIX,servicewechat.com,WeChat
-DOMAIN-SUFFIX,tenpay.com,WeChat
-DOMAIN-SUFFIX,wechat.com,WeChat
-DOMAIN-SUFFIX,wechatlegal.net,WeChat
-DOMAIN-SUFFIX,wechatpay.com,WeChat
-DOMAIN-SUFFIX,weixin.com,WeChat
-DOMAIN-SUFFIX,weixin.qq.com,WeChat
-DOMAIN-SUFFIX,weixinbridge.com,WeChat
-DOMAIN-SUFFIX,weixinsxy.com,WeChat
-DOMAIN-SUFFIX,wxapp.tc.qq.com,WeChat
-DOMAIN-KEYWORD,43.156.222.,WeChat
-USER-AGENT,MicroMessenger*,WeChat
-USER-AGENT,WeChat*,WeChat
-IP-CIDR,101.32.104.4/32,WeChat
-IP-CIDR,101.32.104.41/32,WeChat
-IP-CIDR,101.32.104.56/32,WeChat
-IP-CIDR,101.32.118.25/32,WeChat
-IP-CIDR,101.32.133.16/32,WeChat
-IP-CIDR,101.32.133.209/32,WeChat
-IP-CIDR,101.32.133.53/32,WeChat
-IP-CIDR,129.226.107.244/32,WeChat
-IP-CIDR,129.226.3.47/32,WeChat
-IP-CIDR,162.62.163.63/32,WeChat
+DOMAIN-SUFFIX, qpic.cn, direct
+DOMAIN, sgminorshort.wechat.com, direct
+DOMAIN, dl.wechat.com, WeChat
+DOMAIN, sgfindershort.wechat.com, WeChat
+DOMAIN, sgilinkshort.wechat.com, WeChat
+DOMAIN, sglong.wechat.com, WeChat
+DOMAIN, sgshort.wechat.com, WeChat
+DOMAIN, tencentmap.wechat.com, WeChat
+DOMAIN-SUFFIX, qlogo.cn, WeChat
+DOMAIN-SUFFIX, servicewechat.com, WeChat
+DOMAIN-SUFFIX, tenpay.com, WeChat
+DOMAIN-SUFFIX, wechat.com, WeChat
+DOMAIN-SUFFIX, wechatlegal.net, WeChat
+DOMAIN-SUFFIX, wechatpay.com, WeChat
+DOMAIN-SUFFIX, weixin.com, WeChat
+DOMAIN-SUFFIX, weixin.qq.com, WeChat
+DOMAIN-SUFFIX, weixinbridge.com, WeChat
+DOMAIN-SUFFIX, weixinsxy.com, WeChat
+DOMAIN-SUFFIX, wxapp.tc.qq.com, WeChat
+DOMAIN-KEYWORD, 43.156.222., WeChat
+USER-AGENT, MicroMessenger*, WeChat
+USER-AGENT, WeChat*, WeChat
+IP-CIDR, 101.32.104.4/32, WeChat
+IP-CIDR, 101.32.104.41/32, WeChat
+IP-CIDR, 101.32.104.56/32, WeChat
+IP-CIDR, 101.32.118.25/32, WeChat
+IP-CIDR, 101.32.133.16/32, WeChat
+IP-CIDR, 101.32.133.209/32, WeChat
+IP-CIDR, 101.32.133.53/32, WeChat
+IP-CIDR, 129.226.107.244/32, WeChat
+IP-CIDR, 129.226.3.47/32, WeChat
+IP-CIDR, 162.62.163.63/32, WeChat

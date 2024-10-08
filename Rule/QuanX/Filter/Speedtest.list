@@ -1,7 +1,7 @@
 # > Fast
-HOST-SUFFIX,fast.com,Speedtest
+HOST-SUFFIX, fast.com, Speedtest
 
 # > Speedtest
-USER-AGENT,SpeedTest*,Speedtest
-HOST-KEYWORD,speedtest,Speedtest
-HOST-SUFFIX,ooklaserver.net,Speedtest
+USER-AGENT, SpeedTest*, Speedtest
+HOST-KEYWORD, speedtest, Speedtest
+HOST-SUFFIX, ooklaserver.net, Speedtest
