@@ -2,16 +2,16 @@
 # 链接: https://raw.githubusercontent.com/ConnersHua/Profiles/master/Quantumult/X/Filter/HKMTMedia.list
 
 # > bilibili
-DOMAIN-SUFFIX,biliapi.net,HKMTMedia
-DOMAIN,api.bilibili.com,HKMTMedia
-DOMAIN,upos-hz-mirrorakam.akamaized.net,HKMTMedia
+DOMAIN-SUFFIX, biliapi.net, HKMTMedia
+DOMAIN, api.bilibili.com, HKMTMedia
+DOMAIN, upos-hz-mirrorakam.akamaized.net, HKMTMedia
 
 # > iQiyi
-DOMAIN,cache.video.iqiyi.com,HKMTMedia
+DOMAIN, cache.video.iqiyi.com, HKMTMedia
 
 # > MGTV
-DOMAIN-SUFFIX,api.mgtv.com,HKMTMedia
+DOMAIN-SUFFIX, api.mgtv.com, HKMTMedia
 
 # > WeTV
-DOMAIN-SUFFIX,wetv.vip,HKMTMedia
-DOMAIN-SUFFIX,wetvinfo.com,HKMTMedia
+DOMAIN-SUFFIX, wetv.vip, HKMTMedia
+DOMAIN-SUFFIX, wetvinfo.com, HKMTMedia
