@@ -1,7 +1,7 @@
 # 0-9
 <details>
 <summary>
-本目录共收录13个App，详情见如下：
+本目录共收录14个App，详情见如下：
 </summary>
 
 - [12123](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/0-9/12123)
@@ -16,6 +16,7 @@
 - [500px](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/0-9/500px)
 - [51cto](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/0-9/51cto)
 - [51job](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/0-9/51job)
+- [51信用卡管家](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/0-9/51%E4%BF%A1%E7%94%A8%E5%8D%A1%E7%AE%A1%E5%AE%B6)
 - [58同城](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/0-9/58%E5%90%8C%E5%9F%8E)
 
 </details>
