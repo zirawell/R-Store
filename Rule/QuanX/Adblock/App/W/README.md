@@ -1,12 +1,13 @@
 # W
 <details>
 <summary>
-本目录共收录23个App，详情见如下：
+本目录共收录24个App，详情见如下：
 </summary>
 
 - [WPSOffice](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/W/WPSOffice)
 - [Weico](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/W/Weico)
 - [WiFi万能钥匙](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/W/WiFi%E4%B8%87%E8%83%BD%E9%92%A5%E5%8C%99)
+- [WiFi共享大师](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/W/WiFi%E5%85%B1%E4%BA%AB%E5%A4%A7%E5%B8%88)
 - [万词王](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/W/%E4%B8%87%E8%AF%8D%E7%8E%8B)
 - [唯品会](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/W/%E5%94%AF%E5%93%81%E4%BC%9A)
 - [威锋](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/W/%E5%A8%81%E9%94%8B)
