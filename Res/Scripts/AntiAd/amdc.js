@@ -23,7 +23,7 @@ if (url.includes("/amdc/mobileDispatch")) {
        // 盒马
        ua.includes("Hema4iPhone") ||
        // 闲鱼
-       ua.includes("%E9%97%B2%E9%B1%BC") ||
+       //ua.includes("%E9%97%B2%E9%B1%BC") ||
        // 淘宝
        ua.includes("%E6%B7%98%E5%AE%9D")
   ) {
