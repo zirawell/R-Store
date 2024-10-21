@@ -1,6 +1,6 @@
 /********************************
 JavDB Remove Ads - Version 1.0
-CheckOut Source - https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/myBlockAds.js
+CheckOut Source - https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/myBlockAds.js
 Please note that you may need to reinstall app for script to work.
 
 QuantumultX rewrite link:
