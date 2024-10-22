@@ -1,7 +1,7 @@
 # L
 <details>
 <summary>
-本目录共收录22个App，详情见如下：
+本目录共收录23个App，详情见如下：
 </summary>
 
 - [line](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/L/line)
@@ -18,6 +18,7 @@
 - [拉卡拉](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/L/%E6%8B%89%E5%8D%A1%E6%8B%89)
 - [拦截100](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/L/%E6%8B%A6%E6%88%AA100)
 - [旅法师营地](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/L/%E6%97%85%E6%B3%95%E5%B8%88%E8%90%A5%E5%9C%B0)
+- [旅途随身听](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/L/%E6%97%85%E9%80%94%E9%9A%8F%E8%BA%AB%E5%90%AC)
 - [来疯](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/L/%E6%9D%A5%E7%96%AF)
 - [灵锡](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/L/%E7%81%B5%E9%94%A1)
 - [猎聘](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/L/%E7%8C%8E%E8%81%98)
