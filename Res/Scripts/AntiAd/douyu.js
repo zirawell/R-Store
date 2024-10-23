@@ -1,7 +1,7 @@
 /********************************
 Douyu Remove Ads - Version 1.0
 Please note that you may need to reinstall app for script to work.
-Checkout Source - https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Resource/Script/Douyu/Douyu_remove_ads.js
+Checkout Source - https://kelee.one/Resource/Script/Douyu/Douyu_remove_ads.js
 
 QuantumultX rewrite link:
 https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/App/D/斗鱼直播/rewrite/douyu.conf

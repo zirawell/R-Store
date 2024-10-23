@@ -1,7 +1,7 @@
 /********************************
 XiaoHeiHe Remove Ads - Version 1.0
 Date - 2024-07-11 07:57:09
-Checkout Source - https://raw.githubusercontent.com/luestr/ProxyResource/main/Resource/Script/XiaoHeiHe/XiaoHeiHe_remove_ads.js
+Checkout Source - https://kelee.one/Resource/Script/XiaoHeiHe/XiaoHeiHe_remove_ads.js
 Please note that you may need to reinstall app for script to work.
 
 QuantumultX rewrite link:

@@ -1,6 +1,6 @@
 /********************************
 Maimai Remove Ads - Version 1.0
-Checkout Source - https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Resource/Script/MaiMai/MaiMai_remove_ads.js
+Checkout Source - https://kelee.one/Resource/Script/MaiMai/MaiMai_remove_ads.js
 Please note that you may need to reinstall app for script to work.
 
 QuantumultX rewrite link:

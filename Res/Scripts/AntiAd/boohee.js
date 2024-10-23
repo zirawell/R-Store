@@ -1,6 +1,6 @@
 /********************************
 Boohee Remove Ads - Version 1.0
-Checkout Source - https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Resource/Script/BooHee/BooHee_remove_ads.js
+Checkout Source - https://kelee.one/Resource/Script/BooHee/BooHee_remove_ads.js
 Please note that you may need to reinstall app for script to work.
 
 QuantumultX rewrite link:
