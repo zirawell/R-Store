@@ -1,7 +1,7 @@
 # B
 <details>
 <summary>
-本目录共收录31个App，详情见如下：
+本目录共收录32个App，详情见如下：
 </summary>
 
 - [Blued](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/B/Blued)
@@ -19,6 +19,7 @@
 - [币安](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/B/%E5%B8%81%E5%AE%89)
 - [必胜客](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/B/%E5%BF%85%E8%83%9C%E5%AE%A2)
 - [本来生活](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/B/%E6%9C%AC%E6%9D%A5%E7%94%9F%E6%B4%BB)
+- [比亚迪王朝](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/B/%E6%AF%94%E4%BA%9A%E8%BF%AA%E7%8E%8B%E6%9C%9D)
 - [比特球云盘](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/B/%E6%AF%94%E7%89%B9%E7%90%83%E4%BA%91%E7%9B%98)
 - [波点音乐](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/B/%E6%B3%A2%E7%82%B9%E9%9F%B3%E4%B9%90)
 - [百信银行](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/B/%E7%99%BE%E4%BF%A1%E9%93%B6%E8%A1%8C)
