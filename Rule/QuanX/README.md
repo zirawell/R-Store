@@ -10,10 +10,16 @@ R-Store/Rule/QuanX
 ├── Filter
 │   └── Optional
 ├── Plugin
-└── Redirect
+├── Redirect
+└── Revision
 
-10 directories
+11 directories
 ```
+- [Adblock](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock) : 收录各类 App/小程序/Web 的**广告拦截**规则
+- [Filter](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Filter) : 收录常用的**分流**规则
+- [Plugin](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Plugin) : 收录各类脚本插件的**配置**规则
+- [Redirect](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Redirect) : 收录各类**重定向**规则
+- [Revision](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Revision) : 收录分流**修正**规则
 
 ## Overview Index
 
