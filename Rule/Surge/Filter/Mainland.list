@@ -1,3 +1,9 @@
+#!name=Mainland Filter
+#!homepage=https://github.com/zirawell/R-Store
+#!raw-url=https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/Surge/Filter/Mainland.list
+#!tg-group=https://t.me/lanjieguanggao
+#!date=2024-11-08 10:24:00
+#!---------------------------------------------------------------------------------------------------------------
 # UA
 USER-AGENT, hide*, Mainland
 USER-AGENT, TeamViewer*, Mainland
