@@ -1,4 +1,9 @@
-# Apple
+#!name=Apple Filter
+#!homepage=https://github.com/zirawell/R-Store
+#!raw-url=https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Filter/Apple.list
+#!tg-group=https://t.me/lanjieguanggao
+#!date=2024-11-08 10:24:00
+#!---------------------------------------------------------------------------------------------------------------
 USER-AGENT, *com.apple.mobileme.fmip1, Apple
 USER-AGENT, *WeatherFoundation*, Apple
 USER-AGENT, %E5%9C%B0%E5%9B%BE*, Apple
