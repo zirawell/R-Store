@@ -1,9 +1,10 @@
 # C
 <details>
 <summary>
-本目录共收录18个App，详情见如下：
+本目录共收录19个App，详情见如下：
 </summary>
 
+- [chatgpt](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/C/chatgpt)
 - [clicli](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/C/clicli)
 - [crunchyroll](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/C/crunchyroll)
 - [csdn](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/C/csdn)
