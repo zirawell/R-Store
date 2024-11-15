@@ -89,3 +89,7 @@ R-Store/Rule/QuanX
 - [@RuCu6](https://github.com/RuCu6)
 - [@Sliverkiss](https://github.com/Sliverkiss)
 - [@luestr](https://github.com/luestr)
+- [@wf021325](https://github.com/wf021325)
+- [@Maasea](https://github.com/Maasea)
+- [@ClydeTime](https://github.com/ClydeTime)
+- [@FoKit](https://github.com/FoKit)
