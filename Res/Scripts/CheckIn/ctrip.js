@@ -2,7 +2,7 @@
 Ctrip CheckIn
 
 脚本名称：携程旅行签到
-脚本兼容：QuantumultX, Surge, Loon
+脚本兼容：Surge, QuantumultX
 脚本作者：@NobyDa
 更新日期：2024/05/09
 脚本来源：https://raw.githubusercontent.com/NobyDa/Script/master/Ctrip-DailyBonus/Ctrip.js
@@ -16,9 +16,9 @@ Ctrip CheckIn
 hostname = m.ctrip.com
 
 [Script]
-携程旅行Cookie = type=http-response,pattern=^https?:\/\/m\.ctrip\.com\/restapi\/soa2\/\d+\/[a-zA-Z]+Login(?:$|\?),script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/ctrip.js
+携程旅行-Cookie = type=http-response,pattern=^https?:\/\/m\.ctrip\.com\/restapi\/soa2\/\d+\/[a-zA-Z]+Login(?:$|\?),script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/ctrip.js
 
-携程旅行签到 = type=cron,cronexp=5 0 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/ctrip.js
+携程旅行-签到 = type=cron,cronexp=5 0 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/ctrip.js
 
 -------------- Quantumult X 配置 --------------
 
@@ -26,11 +26,12 @@ hostname = m.ctrip.com
 hostname = m.ctrip.com
 
 [rewrite_local]
-# 获取携程旅行Cookie
+# 携程旅行-Cookie
 ^https?:\/\/m\.ctrip\.com\/restapi\/soa2\/\d+\/[a-zA-Z]+Login(?:$|\?) url script-response-body https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/ctrip.js
 
 [task_local]
-5 0 * * * https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/ctrip.js, tag=携程旅行签到, enabled=true
+# 携程旅行-签到
+5 0 * * * https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/ctrip.js, tag=携程旅行-签到, enabled=true
 
 ********************************/
 

@@ -1,51 +1,40 @@
-/*
-贴吧签到脚本
+/********************************
+Tieba CheckIn
 
-更新时间: 2023-04-16
-脚本兼容: QuantumultX, Surge, Loon
-脚本作者: MartinsKing
-软件功能: 自动签到贴吧
-使用声明: ⚠️此脚本仅供学习与交流，请勿贩卖！⚠️
-脚本参考: Nobyda、chavyleung
+脚本名称：百度贴吧签到
+脚本兼容：Surge, QuantumultX
+脚本作者：@ClydeTime
+更新日期：2023-04-16
+脚本来源：https://raw.githubusercontent.com/ClydeTime/Quantumult/main/Script/Task/TieBa.js
+脚本说明：
+- 打开百度贴吧App后, 如通知成功获取cookie, 则可以使用此签到脚本.
+- 获取Cookie后, 请将Cookie脚本禁用并移除主机名，以免产生不必要的MITM.
+- 脚本将在每天上午9:00执行, 您可以修改执行时间。
 
-获取Cookie说明：
-打开百度贴吧App后, 如通知成功获取cookie, 则可以使用此签到脚本.
-获取Cookie后, 请将Cookie脚本禁用并移除主机名，以免产生不必要的MITM.
-脚本将在每天上午9:00执行, 您可以修改执行时间。
+------------------ Surge 配置 -----------------
 
-************************
-QuantumultX 远程脚本配置:
-************************
+[MITM]
+hostname = tiebac.baidu.com, c.tieba.baidu.com
 
-[task_local]
-# 贴吧签到
-0 9 * * * https://raw.githubusercontent.com/ClydeTime/Quantumult/main/Script/Task/TieBa.js, tag=贴吧签到, img-url=https://raw.githubusercontent.com/HuiDoY/Icon/main/mini/Color/tieba.png, enabled=true
+[Script]
+百度贴吧-Cookie = type=http-request,pattern=^https?:\/\/(c\.)?tieba(c)?\.baidu\.com\/c\/u\/follow\/getFoldedMessageUserInfo,requires-body=0,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/tieba.js
+
+百度贴吧-签到 = type=cron,cronexp=0 9 * * *,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/tieba.js,wake-system=1,timeout=15,script-update-interval=0
+
+-------------- Quantumult X 配置 --------------
+
+[mitm]
+hostname = tiebac.baidu.com, c.tieba.baidu.com
 
 [rewrite_local]
-# 贴吧获取Cookie 「成功获取Cookie后请去除勾选」
-https://raw.githubusercontent.com/ClydeTime/Quantumult/main/Task/Remote_Cookie.conf, tag=MartinsKing签到Cookie, update-interval=172800, opt-parser=false, enabled=true
+# 百度贴吧-Cookie
+^https?:\/\/(c\.)?tieba(c)?\.baidu\.com\/c\/u\/follow\/getFoldedMessageUserInfo url script-request-header https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/tieba.js
 
-************************
-Surge 远程脚本配置:
-************************
+[task_local]
+# 百度贴吧-签到
+0 9 * * * https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/tieba.js, tag=百度贴吧-签到, enabled=true
 
-[Script]
-贴吧签到 = type=cron,cronexp=0 9 * * *,script-path=https://raw.githubusercontent.com/ClydeTime/Surge/main/Script/Task/TieBa.js,wake-system=1,timeout=15,script-update-interval=0
-
-# 贴吧获取Cookie 「请在模块中添加,成功获取Cookie后模块应去除勾选」
-https://raw.githubusercontent.com/ClydeTime/Surge/main/Task/GetCookie.sgmodule
-
-************************
-Loon 远程脚本配置:
-************************
-[Script]
-# 贴吧签到
-cron "0 9 * * *" script-path=https://raw.githubusercontent.com/ClydeTime/Quantumult/main/Script/Task/TieBa.js, tag=贴吧签到
-[Plugin]
-# 贴吧获取Cookie 「成功获取Cookie后请禁用插件」
-https://raw.githubusercontent.com/ClydeTime/Quantumult/main/Task/GetCookie.plugin, tag=MartinsKing签到Cookie, enabled=true
-
-*/
+********************************/
 
 const $ = new Env("tieba");
 const name = "tieba";

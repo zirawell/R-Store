@@ -1,55 +1,43 @@
-/*
-NGA签到脚本
+/********************************
+NGA CheckIn
 
-更新时间: 2022-12-9
-脚本兼容: QuantumultX, Surge, Loon
-脚本作者: chouchoui
-软件功能: NGA签到
-************************
-QX, Surge, Loon说明：
-************************
-1.获取cookie
-  打开NGA玩家社区app,点击任务按钮，自动获取cookie
+脚本名称：NGA签到
+脚本兼容：Surge, QuantumultX
+脚本作者：@ClydeTime
+更新日期：2022-12-9
+脚本来源：https://raw.githubusercontent.com/ClydeTime/Surge/main/Script/Task/nga.js
+脚本说明：
+打开NGA玩家社区app,点击任务按钮，自动获取cookie
 如通知成功获取cookie, 则可以使用此签到脚本.
 获取Cookie后, 请将Cookie脚本禁用并移除主机名, 以免产生不必要的MITM.
 脚本将在每天上午8点40执行, 您可以修改执行时间.
 
-/***********************
-Surge 脚本配置:
-************************
+------------------ Surge 配置 -----------------
+
+[MITM]
+hostname = ngabbs.com
 
 [Script]
-NGA刮墙 = type=cron,cronexp=40 8 * * *,script-path=https://raw.githubusercontent.com/ClydeTime/Surge/main/Script/Task/nga.js
+NGA-Cookie = type=http-request,pattern=^https?:\/\/ngabbs.com\/nuke.php$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/nga.js
 
-# nga获取Cookie 「请在模块中添加,成功获取Cookie后模块应去除勾选」
-https://raw.githubusercontent.com/ClydeTime/Surge/main/Task/GetCookie.sgmodule
+NGA-签到 = type=cron,cronexp=40 8 * * *,timeout=60,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/nga.js,script-update-interval=0
 
-************************
-QuantumultX 远程脚本配置:
-************************
+-------------- Quantumult X 配置 --------------
+
+[mitm]
+hostname = ngabbs.com
+
+[rewrite_local]
+# NGA-Cookie
+^https?:\/\/ngabbs.com\/nuke.php$ url script-request-body https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/nga.js
 
 [task_local]
-# NGA刮墙
-40 8 * * * https://raw.githubusercontent.com/ClydeTime/Quantumult/main/Script/Task/nga.js, tag=NGA刮墙, img-url=https://raw.githubusercontent.com/chouchoui/QuanX/master/Scripts/nga/nga.png, enabled=true
+# NGA-签到
+40 8 * * * https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/nga.js, tag=NGA-签到, enabled=true
 
-[rewrite_remote]
-# nga获取Cookie 「成功获取Cookie后请去除勾选」
-https://raw.githubusercontent.com/ClydeTime/Quantumult/main/Task/GetCookie.conf, tag=MartinsKing签到Cookie, update-interval=172800, opt-parser=false, enabled=true
+********************************/
 
-************************
-Loon 远程脚本配置:
-************************
-
-[Script]
-# NGA刮墙
-cron "40 8 * * *" script-path=https://raw.githubusercontent.com/ClydeTime/Quantumult/main/Script/Task/nga.js, tag=NGA刮墙
-
-[Plugin]
-# nga获取Cookie 「成功获取Cookie后请禁用插件」
-https://raw.githubusercontent.com/ClydeTime/Quantumult/main/Task/GetCookie.plugin, tag=MartinsKing签到Cookie, enabled=true
-*/
-
-const $ = new Env("NGA刮墙");
+const $ = new Env("NGA");
 const name = "nga";
 const config = {
   cookie: "",

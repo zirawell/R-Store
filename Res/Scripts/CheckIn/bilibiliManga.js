@@ -2,7 +2,7 @@
 BilibiliManga CheckIn
 
 脚本名称：哔哩哔哩漫画签到
-脚本兼容：QuantumultX, Surge, Loon
+脚本兼容：Surge, QuantumultX
 脚本作者：@NobyDa
 更新日期：2024/03/18
 脚本来源：https://raw.githubusercontent.com/NobyDa/Script/master/Bilibili-DailyBonus/Manga.js
@@ -16,9 +16,9 @@ BilibiliManga CheckIn
 hostname = app.bilibili.com
 
 [Script]
-哔哩哔哩漫画Cookie = type=http-request,pattern=^https?:\/\/app\.bilibili\.com\/x\/v2\/account\/myinfo,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/bilibiliManga.js
+哔哩哔哩漫画-Cookie = type=http-request,pattern=^https?:\/\/app\.bilibili\.com\/x\/v2\/account\/myinfo,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/bilibiliManga.js
 
-哔哩哔哩漫画签到 = type=cron,cronexp=0 9 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/bilibiliManga.js
+哔哩哔哩漫画-签到 = type=cron,cronexp=0 9 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/bilibiliManga.js
 
 -------------- Quantumult X 配置 --------------
 
@@ -26,11 +26,12 @@ hostname = app.bilibili.com
 hostname = app.bilibili.com
 
 [rewrite_local]
-# 获取哔哩哔哩漫画Cookie
+# 哔哩哔哩漫画-Cookie
 ^https?:\/\/app\.bilibili\.com\/x\/v2\/account\/myinfo url script-request-header https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/bilibiliManga.js
 
 [task_local]
-0 9 * * * https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/bilibiliManga.js, tag=哔哩哔哩漫画签到
+# 哔哩哔哩漫画-签到
+0 9 * * * https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/bilibiliManga.js, tag=哔哩哔哩漫画-签到
 
 ********************************/
 

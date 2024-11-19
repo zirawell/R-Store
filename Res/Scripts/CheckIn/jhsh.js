@@ -2,7 +2,7 @@
 JianHangShengHuo CheckIn
 
 脚本名称：建行生活签到
-脚本兼容：QuantumultX, Surge, Loon, Stash
+脚本兼容：Surge, QuantumultX
 脚本作者：@FoKit
 更新日期：2024/03/27
 脚本来源：https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/jhsh_checkIn.js
@@ -15,19 +15,9 @@ JianHangShengHuo CheckIn
 hostname = yunbusiness.ccb.com
 
 [Script]
-建行生活Cookie = type=http-request,pattern=^https?:\/\/yunbusiness\.ccb\.com\/(clp_coupon|clp_service)\/txCtrl\?txcode=(A3341A038|autoLogin),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/jhsh.js
+建行生活-Cookie = type=http-request,pattern=^https?:\/\/yunbusiness\.ccb\.com\/(clp_coupon|clp_service)\/txCtrl\?txcode=(A3341A038|autoLogin),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/jhsh.js
 
-建行生活签到 = type=cron,cronexp=17 7 * * *,timeout=60,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/jhsh.js,script-update-interval=0
-
------------------- Loon 配置 ------------------
-
-[MITM]
-hostname = yunbusiness.ccb.com
-
-[Script]
-http-request ^https?:\/\/yunbusiness\.ccb\.com\/(clp_coupon|clp_service)\/txCtrl\?txcode=(A3341A038|autoLogin) tag=建行生活Cookie, script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/jhsh.js,requires-body=1
-
-cron "17 7 * * *" script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/jhsh.js,tag = 建行生活签到,enable=true
+建行生活-签到 = type=cron,cronexp=17 7 * * *,timeout=60,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/jhsh.js,script-update-interval=0
 
 -------------- Quantumult X 配置 --------------
 
@@ -35,32 +25,12 @@ cron "17 7 * * *" script-path=https://raw.githubusercontent.com/zirawell/R-Store
 hostname = yunbusiness.ccb.com
 
 [rewrite_local]
-# 建行生活Cookie
+# 建行生活-Cookie
 ^https?:\/\/yunbusiness\.ccb\.com\/(clp_coupon|clp_service)\/txCtrl\?txcode=(A3341A038|autoLogin) url script-request-body https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/jhsh.js
 
 [task_local]
-17 7 * * * https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/jhsh.js, tag=建行生活签到, enabled=true
-
------------------- Stash 配置 -----------------
-cron:
-  script:
-    - name: 建行生活签到
-      cron: '17 7 * * *'
-      timeout: 10
-
-http:
-  mitm:
-    - "yunbusiness.ccb.com"
-  script:
-    - match: ^https?:\/\/yunbusiness\.ccb\.com\/(clp_coupon|clp_service)\/txCtrl\?txcode=(A3341A038|autoLogin)
-      name: 建行生活Cookie
-      type: request
-      require-body: true
-
-script-providers:
-  建行生活:
-    url: https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/jhsh.js
-    interval: 86400
+# 建行生活-签到
+17 7 * * * https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/jhsh.js, tag=建行生活-签到, enabled=true
 
 ********************************/
 
