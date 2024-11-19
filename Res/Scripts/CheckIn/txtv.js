@@ -1,55 +1,46 @@
-/*
-腾讯视频签到脚本
+/********************************
+TencentVideo CheckIn
 
-更新时间: 2024-07-04
-脚本兼容: QuantumultX, Surge, Loon
-脚本作者: WowYiJiu
-脚本修改: MartinsKing
-软件功能: 腾讯视频每日签到
-注意事项:
-  抓取cookie时注意保证账号登录状态；
-使用声明: ⚠️此脚本仅供学习与交流, 请勿贩卖！⚠️
-使用说明：
+脚本名称：腾讯视频签到
+脚本兼容：Surge, QuantumultX
+脚本作者：@ClydeTime
+更新日期：2024/07/04
+脚本来源：https://raw.githubusercontent.com/ClydeTime/Quantumult/main/Script/Task/videoqq.js
+脚本说明：
 - 进入腾讯视频app，点击右下角我的，点击头像下的视频VIP进入会员中心看到系统消息提示获取txspCookie成功即可
 - 浏览器进入腾讯视频网页版，登录后切换成桌面版，刷新网页看到系统消息提示获取txspRefreshCookie、txspRefreshBody成功即可
 - 获取Cookie后, 请将Cookie脚本禁用并移除主机名，以免产生不必要的MITM
-致谢: 感谢WowYiJiu作者的开源脚本
-/***********************
-Surge 远程脚本配置:
-************************
+
+------------------ Surge 配置 -----------------
+
+[MITM]
+hostname = vip.video.qq.com, pbaccess.video.qq.com
 
 [Script]
-腾讯视频签到任务 = type=cron,cronexp=0 5 * * *,script-path=https://raw.githubusercontent.com/ClydeTime/Quantumult/main/Script/Task/videoqq.js,timeout=15,wake-system=1
+腾讯视频-Cookie-1 = type=http-request,pattern=^https?:\/\/vip\.video\.qq\.com\/rpc\/trpc\.new_task_system\.task_system\.TaskSystem\/ReadTaskList\?,requires-body=0,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/txtv.js
+腾讯视频-Cookie-2 = type=http-request,pattern=^https?:\/\/pbaccess\.video\.qq\.com\/trpc\.videosearch\.hot_rank\.HotRankServantHttp\/HotRankHttp,requires-body=0,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/txtv.js
+腾讯视频-Cookie-3 = type=http-request,pattern=^https?:\/\/pbaccess\.video\.qq.\com\/trpc\.video_account_login\.web_login_trpc\.WebLoginTrpc\/NewRefresh,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/txtv.js
 
-# 腾讯视频获取Cookie
-「请在模块中添加,成功获取cookie后模块应去除勾选」
-https://raw.githubusercontent.com/ClydeTime/Quantumult/main/Task/GetCookie.sgmodule
+腾讯视频-签到 = type=cron,cronexp=0 5 * * *,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/txtv.js,timeout=15,wake-system=1
 
-************************
-QuantumultX 远程脚本配置:
-************************
+-------------- Quantumult X 配置 --------------
+
+[mitm]
+hostname = vip.video.qq.com, pbaccess.video.qq.com
+
+[rewrite_local]
+# 腾讯视频-Cookie-1
+^https?:\/\/vip\.video\.qq\.com\/rpc\/trpc\.new_task_system\.task_system\.TaskSystem\/ReadTaskList\? url script-request-header https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/txtv.js
+# 腾讯视频-Cookie-2
+^https?:\/\/pbaccess\.video\.qq\.com\/trpc\.videosearch\.hot_rank\.HotRankServantHttp\/HotRankHttp url script-request-header https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/txtv.js
+# 腾讯视频-Cookie-3
+^https?:\/\/pbaccess\.video\.qq.\com\/trpc\.video_account_login\.web_login_trpc\.WebLoginTrpc\/NewRefresh url script-request-body https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/txtv.js
 
 [task_local]
-# 腾讯视频签到
-0 5 * * * https://raw.githubusercontent.com/ClydeTime/Quantumult/main/Script/Task/videoqq.js, tag=腾讯视频签到, enabled=true, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/videoqq.png
+# 腾讯视频-签到
+0 5 * * * https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/txtv.js, tag=腾讯视频-签到, enabled=true
 
-[rewrite_remote]
-# 腾讯视频获取Cookie
-https://raw.githubusercontent.com/ClydeTime/Quantumult/main/Task/Remote_Cookie.conf, tag=MartinsKing签到cookie, update-interval=172800, opt-parser=false, enabled=true
-
-************************
-Loon  远程脚本配置:
-************************
-
-[Script]
-# 腾讯视频签到
-cron "0 5 * * *" script-path=https://raw.githubusercontent.com/ClydeTime/Quantumult/main/Script/Task/videoqq.js, tag=腾讯视频签到
-
-[Plugin]
-# 腾讯视频获取Cookie
-https://raw.githubusercontent.com/ClydeTime/Quantumult/main/Task/GetCookie.plugin, tag=MartinsKing签到Cookie, enabled=true
-
-*/
+********************************/
 
 const $ = new Env("腾讯视频");
 

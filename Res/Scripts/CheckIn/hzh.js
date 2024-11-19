@@ -2,7 +2,7 @@
 HuaZhuHui CheckIn
 
 脚本名称：华住会签到
-脚本兼容：QuantumultX, Surge, Loon
+脚本兼容：Surge, QuantumultX
 脚本作者：@wf021325
 更新日期：2024/09/09
 脚本来源：https://raw.githubusercontent.com/wf021325/qx/master/task/hzh.js
@@ -14,9 +14,9 @@ HuaZhuHui CheckIn
 hostname = hweb-personalcenter.huazhu.com
 
 [Script]
-华住会Cookie = type=http-request,pattern=^https?:\/\/hweb-personalcenter\.huazhu\.com\/login\/autoLogin$,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/hzh.js
+华住会-Cookie = type=http-request,pattern=^https?:\/\/hweb-personalcenter\.huazhu\.com\/login\/autoLogin$,requires-body=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/hzh.js
 
-华住会签到 = type=cron,cronexp=5 0 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/hzh.js
+华住会-签到 = type=cron,cronexp=5 0 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/hzh.js
 
 -------------- Quantumult X 配置 --------------
 
@@ -24,11 +24,12 @@ hostname = hweb-personalcenter.huazhu.com
 hostname = hweb-personalcenter.huazhu.com
 
 [rewrite_local]
-# 获取华住会Cookie
+# 华住会-Cookie
 ^https?:\/\/hweb-personalcenter\.huazhu\.com\/login\/autoLogin$ url script-request-header https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/hzh.js
 
 [task_local]
-5 0 * * * https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/hzh.js, tag=华住会签到, enabled=true
+# 华住会-签到
+5 0 * * * https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/hzh.js, tag=华住会-签到, enabled=true
 
 ********************************/
 

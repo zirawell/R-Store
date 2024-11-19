@@ -1,52 +1,58 @@
-/*
-哔哩哔哩每日任务(V1.1)
+/********************************
+Bilibili CheckIn
 
-更新时间: 2024-04-06
-脚本兼容: QuantumultX, Surge, Loon
-脚本作者: MartinsKing（@ClydeTime）
-软件功能: 登录/观看/分享/投币/直播签到/银瓜子转硬币/大会员积分签到/年度大会员每月B币券+等任务
-注意事项:
+脚本名称：哔哩哔哩签到
+脚本兼容：Surge, QuantumultX
+脚本作者：@ClydeTime
+更新日期：2024/04/06
+脚本来源：https://raw.githubusercontent.com/ClydeTime/BiliBili/main/modules/BiliBiliDailyBonus.snippet
+脚本说明：
+- 软件功能: 
+  登录/观看/分享/投币/直播签到/银瓜子转硬币/大会员积分签到/年度大会员每月B币券+等任务
+  脚本将在每天上午7点30执行
+- 获取cookie:
+  ①后台退出手机B站客户端的情况下, 重新打开APP进入主页
+  ②通过网址「https://www.bilibili.com」登录,登录后当前网页登录状态失效
+  如通知成功获取cookie, 则可以使用此签到脚本.
+- 投币设置:
+  定时任务脚本投币规则为: 随机获取关注列表Up主视频, 5视频5硬币, 不点赞.
+  ⚠️本脚本默认将投币次数置为0, 如需要投币, 将173行的 real_times = 0 去除即可
+- 注意事项:
   抓取cookie时注意保证账号登录状态;
   账号内须有一定数量的关注数，否则无法完成投币;
   当硬币不足5枚，提示硬币不足，停止投币;
   为保证投币任务成功, 脚本有重试机制(最多重试10次), 以确保任务完成, 前提需要您尽可能多的关注Up主;
   年度大会员每月B币券会在每月1号、15号尝试领取，确保应用正常运行, 以防漏领;
-  年度大会员自动充电会在每次领劵之后进行, 默认为自己充电, B币多的用户可自行到boxjs设置，以防误充.
-使用声明: ⚠️此脚本仅供学习与交流，请勿贩卖！⚠️
-脚本参考: Nobyda、Wyatt1026、ABreadTree、chavyleung、SocialSisterYi
-************************
-QX, Surge, Loon说明：
-************************
-1.获取cookie
-  ①后台退出手机B站客户端的情况下, 重新打开APP进入主页
-  ②通过网址「https://www.bilibili.com」登录,登录后当前网页登录状态失效
-如通知成功获取cookie, 则可以使用此签到脚本.
-脚本将在每天上午7点30执行.
-2.投币设置
-定时任务脚本投币规则为: 随机获取关注列表Up主视频, 默认5视频5硬币, 不点赞.
-用户如需要不投币的版本, 请使用boxjs订阅「https://raw.githubusercontent.com/ClydeTime/BiliBili/main/boxjs/BiliBili.boxjs.json」
-将投币次数置为0, 并保存即可.
-/***********************
-Surge 脚本配置:
-************************
+  年度大会员自动充电会在每次领劵之后进行, 默认为自己充电, B币多的用户可自行到boxjs设置，以防误充.  
 
-# B站每日等级任务 「请在模块中添加」
-https://raw.githubusercontent.com/ClydeTime/BiliBili/main/modules/BiliBiliDailyBonus.sgmodule
 
-************************
-QuantumultX 远程脚本配置:
-************************
+------------------ Surge 配置 -----------------
 
-# B站每日等级任务 「请在重写中添加」
-https://raw.githubusercontent.com/ClydeTime/BiliBili/main/modules/BiliBiliDailyBonus.snippet
+[MITM]
+hostname = app.bilibili.com, m.bilibili.com
 
-************************
-Loon 远程脚本配置:
-************************
+[Script]
+哔哩哔哩-Cookie-App = type=http-request,pattern=^https?:\/\/app\.bilibili\.com\/x\/resource\/fingerprint\?,requires-body=0,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/bilibili.js
+哔哩哔哩-Cookie-Web = type=http-request,pattern=^https?:\/\/m.bilibili.com/$,requires-body=0,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/bilibili.js
 
-# B站每日等级任务 「请在插件中添加」
-https://raw.githubusercontent.com/ClydeTime/BiliBili/main/modules/BiliBiliDailyBonus.plugin
-*/
+腾讯视频-签到 = type=cron,cronexp=30 7 * * *,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/bilibili.js,timeout=15,wake-system=1
+
+-------------- Quantumult X 配置 --------------
+
+[mitm]
+hostname = app.bilibili.com, m.bilibili.com
+
+[rewrite_local]
+# 哔哩哔哩-Cookie-App
+^https?:\/\/app\.bilibili\.com\/x\/resource\/fingerprint\? url script-request-header https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/bilibili.js
+# 哔哩哔哩-Cookie-Web
+^https?:\/\/m.bilibili.com/$ url script-request-header https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/bilibili.js
+
+[task_local]
+# 哔哩哔哩-签到
+30 7 * * * https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/bilibili.js, tag=哔哩哔哩-签到, enabled=true
+
+********************************/
 
 const format = (ts, fmt = 'yyyy-MM-dd HH:mm:ss') => {
   return $.time(fmt, ts);

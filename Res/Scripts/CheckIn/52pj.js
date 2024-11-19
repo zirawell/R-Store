@@ -1,38 +1,42 @@
-/*
-吾爱破解签到脚本
+/********************************
+52pj CheckIn
 
-更新时间: 2022.1.4
-脚本兼容: QuantumultX
-电报频道: @NobyDa
-问题反馈: @NobyDa_bot
+脚本名称：吾爱破解签到
+脚本兼容：Surge, QuantumultX
+脚本作者：@ClydeTime
+更新日期：2022-01-04
+脚本来源：https://raw.githubusercontent.com/ClydeTime/Quantumult/main/Script/Task/52pojie.js
+脚本说明：
+- 手动登录 https://www.52pojie.cn/home.php 如通知成功获取cookie, 则可以使用此签到脚本.
+- 获取Cookie后, 请将Cookie脚本禁用并移除主机名, 以免产生不必要的MITM.
+- 脚本将在每天上午9点05执行, 您可以修改执行时间.
 
-************************
-QX说明：
-************************
-手动登录 https://www.52pojie.cn/home.php 如通知成功获取cookie, 则可以使用此签到脚本.
-获取Cookie后, 请将Cookie脚本禁用并移除主机名, 以免产生不必要的MITM.
-脚本将在每天上午9点05执行, 您可以修改执行时间.
+------------------ Surge 配置 -----------------
 
-*/
+[MITM]
+hostname = www.52pojie.cn
 
-/***********************
-QuantumultX 远程脚本配置:
-************************
+[Script]
+52pj-Cookie = type=http-request,pattern=^https?:\/\/www\.52pojie\.cn\/home\.php\?,requires-body=0,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/52pj.js
 
-[task_local]
-# 吾爱签到
-5 9 * * * https://raw.githubusercontent.com/ClydeTime/Quantumult/main/Script/Task/52pojie.js
+52pj-签到 = type=cron,cronexp=5 9 * * *,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/52pj.js,wake-system=1,timeout=15,script-update-interval=0
+
+-------------- Quantumult X 配置 --------------
+
+[mitm]
+hostname = www.52pojie.cn
 
 [rewrite_local]
-# 获取Cookie
-https:\/\/www\.52pojie\.cn\/home\.php\? url script-request-header https://raw.githubusercontent.com/ClydeTime/Quantumult/main/Script/Task/52pojie.js
+# 52pj-Cookie
+^https?:\/\/www\.52pojie\.cn\/home\.php\? url script-request-header https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/52pj.js
 
-[mitm] 
-hostname= www.52pojie.cn
+[task_local]
+# 52pj-签到
+5 9 * * * https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/52pj.js, tag=52pj-签到, enabled=true
 
-*/
+********************************/
 
-const $ = API('nobyda_52pojie');
+const $ = API('52pojie');
 const date = new Date();
 const reqData = {
   url: 'https://www.52pojie.cn/home.php?mod=task&do=draw&id=2&refer=%2F',

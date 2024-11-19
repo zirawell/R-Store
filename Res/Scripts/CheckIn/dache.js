@@ -2,7 +2,7 @@
 AmapDache CheckIn
 
 脚本名称：高德打车签到
-脚本兼容：QuantumultX, Surge, Loon
+脚本兼容：Surge, QuantumultX
 脚本作者：@wf021325
 更新日期：2024/06/27
 脚本来源：https://raw.githubusercontent.com/wf021325/qx/master/task/ampDache.js
@@ -18,9 +18,9 @@ AmapDache CheckIn
 hostname = *.amap.com
 
 [Script]
-高德打车Cookie = type=http-response,pattern=^^https?:\/\/(m5(|-zb)|dache)\.amap\.com\/(ws\/yuece\/(act|openapi\/activity\/current)\/query|common\/(alipaymini|wxmini)\?_ENCRYPT=),script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/dache.js
+高德打车-Cookie = type=http-response,pattern=^^https?:\/\/(m5(|-zb)|dache)\.amap\.com\/(ws\/yuece\/(act|openapi\/activity\/current)\/query|common\/(alipaymini|wxmini)\?_ENCRYPT=),script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/dache.js
 
-高德打车签到 = type=cron,cronexp=0 9 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/dache.js
+高德打车-签到 = type=cron,cronexp=1 0 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/dache.js
 
 -------------- Quantumult X 配置 --------------
 
@@ -28,11 +28,12 @@ hostname = *.amap.com
 hostname = *.amap.com
 
 [rewrite_local]
-# 高德打车Cookie
+# 高德打车-Cookie
 ^https?:\/\/(m5(|-zb)|dache)\.amap\.com\/(ws\/yuece\/(act|openapi\/activity\/current)\/query|common\/(alipaymini|wxmini)\?_ENCRYPT=) url script-response-body https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/dache.js
 
 [task_local]
-1 0 * * * https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/dache.js, tag=高德打车签到, enabled=true
+# 高德打车-签到
+1 0 * * * https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/dache.js, tag=高德打车-签到, enabled=true
 
 ********************************/
 

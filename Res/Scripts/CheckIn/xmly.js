@@ -1,32 +1,41 @@
-/*
-喜马拉雅签到脚本
+/********************************
+XMLY CheckIn
 
-更新时间: 2023-11-03
-脚本兼容: Surge
-脚本作者: MartinsKing
-软件功能: 喜马拉雅每日签到
-注意事项:
-  抓取cookie时注意保证账号登录状态；
-使用声明: ⚠️此脚本仅供学习与交流, 请勿贩卖！⚠️
-脚本参考: yml2213、chavyleung
-使用说明：
-    获取cookie
-        后台退出手机喜马拉雅客户端的情况下,重新打开APP进入主页
-        如通知成功获取cookie,则可以使用此签到脚本.
-        获取Cookie后, 请将Cookie脚本禁用并移除主机名,以免产生不必要的MITM.
-        脚本将在每天上午8点35执行,您可以修改执行时间.
-/***********************
-Surge 远程脚本配置:
-************************
+脚本名称：喜马拉雅签到
+脚本兼容：Surge, QuantumultX
+脚本作者：@ClydeTime
+更新日期：2023-11-02
+脚本来源：https://raw.githubusercontent.com/ClydeTime/Surge/main/Script/Task/xmly.js
+脚本说明：
+- 后台退出手机喜马拉雅客户端的情况下,重新打开APP进入主页
+- 如通知成功获取cookie,则可以使用此签到脚本.
+- 获取Cookie后, 请将Cookie脚本禁用并移除主机名,以免产生不必要的MITM.
+- 脚本将在每天上午8点35执行,您可以修改执行时间.
+
+------------------ Surge 配置 -----------------
+
+[MITM]
+hostname = xmc.ximalaya.com
 
 [Script]
-喜马拉雅签到任务 = type=cron,cronexp=35 8 * * *,script-path=https://raw.githubusercontent.com/ClydeTime/Surge/main/Script/Task/xmly.js,timeout=15,wake-system=1
+喜马拉雅-Cookie = type=http-request,pattern=^https?:\/\/xmc\.ximalaya\.com\/xmlymain-login-web\/login\/,requires-body=0,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/xmly.js
 
-# 喜马拉雅获取Cookie
-「请在模块中添加,成功获取cookie后模块应去除勾选」
-https://raw.githubusercontent.com/ClydeTime/Surge/main/Task/GetCookie.sgmodule
+喜马拉雅-签到 = type=cron,cronexp=35 8 * * *,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/xmly.js,timeout=15,wake-system=1
 
-*/
+-------------- Quantumult X 配置 --------------
+
+[mitm]
+hostname = xmc.ximalaya.com
+
+[rewrite_local]
+# 喜马拉雅-Cookie
+^https?:\/\/xmc\.ximalaya\.com\/xmlymain-login-web\/login\/ url script-request-header https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/xmly.js
+
+[task_local]
+# 喜马拉雅-签到
+35 8 * * * https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/xmly.js, tag=喜马拉雅-签到, enabled=true
+
+********************************/
 
 const format = (ts, fmt = 'yyyy-MM-dd HH:mm:ss') => {
   return $.time(fmt, ts)

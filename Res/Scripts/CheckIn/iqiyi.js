@@ -1,36 +1,42 @@
-/*
-爱奇艺会员签到脚本
+/********************************
+IQIYI CheckIn
 
-更新时间: 2022.06.18
-脚本兼容: QuantumultX
-电报频道: @NobyDa
-问题反馈: @NobyDa_bot
+脚本名称：爱奇艺签到
+脚本兼容：Surge, QuantumultX
+脚本作者：@ClydeTime
+更新日期：2022/06/18
+脚本来源：https://raw.githubusercontent.com/ClydeTime/Quantumult/main/Script/Task/iQIYI.js
+脚本说明：
+- Safari浏览器打开 https://m.iqiyi.com/user.html 使用密码登录, 如通知成功获取cookie则可使用该脚本.
+- 获取Cookie后, 请将Cookie脚本禁用并移除主机名，以免产生不必要的MITM.
+- 脚本将在每天上午9:00执行, 您可以修改执行时间。
 
-获取Cookie说明：
-Safari浏览器打开 https://m.iqiyi.com/user.html 使用密码登录, 如通知成功获取cookie则可使用该脚本.
-获取Cookie后, 请将Cookie脚本禁用并移除主机名，以免产生不必要的MITM.
-脚本将在每天上午9:00执行, 您可以修改执行时间。
+------------------ Surge 配置 -----------------
 
-*/
+[MITM]
+hostname = passport.iqiyi.com
 
-var cookie = ''; //单引号内填入手动获取的Cookie
+[Script]
+爱奇艺-Cookie = type=http-request,pattern=^https?:\/\/passport\.iqiyi\.com\/apis\/user\/,requires-body=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/iqiyi.js
 
-/*********************
-QuantumultX 远程脚本配置:
-**********************
-[task_local]
-# 爱奇艺会员签到
-10 9 * * * https://raw.githubusercontent.com/ClydeTime/Quantumult/main/Script/Task/iQIYI.js
+爱奇艺-签到 = type=cron,cronexp=0 9 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/iqiyi.js
 
-[rewrite_local]
-# 获取Cookie
-^https:\/\/passport\.iqiyi\.com\/apis\/user\/ url script-request-header https://raw.githubusercontent.com/ClydeTime/Quantumult/main/Script/Task/iQIYI.js
+-------------- Quantumult X 配置 --------------
 
 [mitm]
-hostname= passport.iqiyi.com
+hostname = passport.iqiyi.com
 
+[rewrite_local]
+# 爱奇艺-Cookie
+^https?:\/\/passport\.iqiyi\.com\/apis\/user\/ url script-request-header https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/iqiyi.js
 
-*/
+[task_local]
+# 爱奇艺-签到
+0 9 * * * https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/iqiyi.js, tag=爱奇艺-签到, enabled=true
+
+********************************/
+
+var cookie = ''; //单引号内填入手动获取的Cookie
 
 var LogDetails = false; // 响应日志
 
