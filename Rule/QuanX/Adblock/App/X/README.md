@@ -1,7 +1,7 @@
 # X
 <details>
 <summary>
-本目录共收录47个App，详情见如下：
+本目录共收录48个App，详情见如下：
 </summary>
 
 - [下厨房](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/X/%E4%B8%8B%E5%8E%A8%E6%88%BF)
@@ -40,6 +40,7 @@
 - [星财富](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/X/%E6%98%9F%E8%B4%A2%E5%AF%8C)
 - [星途starway](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/X/%E6%98%9F%E9%80%94starway)
 - [晓晓优选霸王餐](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/X/%E6%99%93%E6%99%93%E4%BC%98%E9%80%89%E9%9C%B8%E7%8E%8B%E9%A4%90)
+- [福享太平](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/X/%E7%A6%8F%E4%BA%AB%E5%A4%AA%E5%B9%B3)
 - [笑容加](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/X/%E7%AC%91%E5%AE%B9%E5%8A%A0)
 - [米游社](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/X/%E7%B1%B3%E6%B8%B8%E7%A4%BE)
 - [米读小说](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/X/%E7%B1%B3%E8%AF%BB%E5%B0%8F%E8%AF%B4)
