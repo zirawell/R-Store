@@ -1,11 +1,11 @@
 #!name=App-广告拦截合集-分流规则
 #!desc=某些规则要清除缓存或者重新安装APP，拦截广告才会生效！
-#!count=支持约1284个分流规则
+#!count=支持约1271个分流规则
 #!author=zirawell
 #!homepage=https://github.com/zirawell/R-Store
 #!raw-url=https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/All/filter/appAdBlock.list
 #!tg-group=https://t.me/lanjieguanggao
-#!date=2024-11-19 19:53:56
+#!date=2024-11-19 19:55:54
 #!proxy-select=reject
 #!---------------------------------------------------------------------------------------------------------------
 ip-cidr, 1.202.85.193/32, reject
@@ -73,7 +73,6 @@ ip-cidr, 81.71.61.216/32, reject
 ip6-cidr, 2402:4e00:1200:ed00:0:9089:6dac:96b6/128, reject
 ip6-cidr, 2402:db40:5100:1011::5/128, reject
 host, a.cpic.com.cn, reject
-host, aaid.umeng.com, reject
 host, aaid.uyunad.com, reject
 host, abtest3-misc.zijieapi.com, reject
 host, acdn.adnxs.com, reject
@@ -195,9 +194,7 @@ host, apple.comscoreresearch.com, reject
 host, applog.zijieapi.com, reject
 host, appsupport.qq.com, reject
 host, appupdates.189.cn, reject
-host, ar.umeng.com, reject
 host, ark.letv.com, reject
-host, aspect-upush.umeng.com, reject
 host, atrace.chelaile.net.cn, reject
 host, badjs.weixinbridge.com, reject
 host, baichuan-sdk.alicdn.com, reject
@@ -224,7 +221,6 @@ host, credits2.bz.mgtv.com, reject
 host, credits3.bz.mgtv.com, reject
 host, csc-apm.sgcc.com.cn, reject
 host, datacollection.uve.weibo.com, reject
-host, deeplink.umeng.com, reject
 host, dflow.bz.mgtv.com, reject
 host, dgstatic.jd.com, reject
 host, dig.bdurl.net, reject
@@ -325,8 +321,6 @@ host, livewebbs2pcdn.msstatic.com, reject
 host, log-verify.mob.com, reject
 host, log.17gwx.com, reject
 host, log.tagtic.cn, reject
-host, log.umsns.com, reject
-host, log.umtrack.com, reject
 host, log.web.kugou.com, reject
 host, log.ycapp.yiche.com, reject
 host, log5-applog.fqnovel.com, reject
@@ -361,7 +355,6 @@ host, mon.zijieapi.com, reject
 host, mon11-misc.fqnovel.com, reject
 host, monitor.music.qq.com, reject
 host, mqtt.zhihu.com, reject
-host, msg.umengcloud.com, reject
 host, mssdk-bu.bytedance.com, reject
 host, mssdk.volces.com, reject
 host, mssdk.zijieapi.com, reject
@@ -427,7 +420,6 @@ host, splashqqlive.gtimg.com, reject
 host, stat.10jqka.com.cn, reject
 host, stat.y.qq.com, reject
 host, stat.youpin.mi.com, reject
-host, stats.umsns.com, reject
 host, stun1.douyucdn.cn, reject
 host, stun1.qvb.qcloud.com, reject
 host, sugar.zhihu.com, reject
@@ -466,11 +458,9 @@ host, tracklog.58.com, reject
 host, tte.meituan.com, reject
 host, twns.p2ptun.qq.com, reject
 host, tysdk.95516.com, reject
-host, ucc.umeng.com, reject
 host, ug.snssdk.com, reject
 host, union.chinalifeonline.com.cn, reject
 host, ups.ksmobile.net, reject
-host, utoken.umeng.com, reject
 host, vali-g1.cp31.ott.cibntv.net, reject
 host, vali-ugc.cp31.ott.cibntv.net, reject
 host, vcs.zijieapi.com, reject
@@ -1152,6 +1142,8 @@ host-suffix, ucstat.baidu.com, reject
 host-suffix, ugdtimg.com, reject
 host-suffix, ulic.baidu.com, reject
 host-suffix, ulog.imap.baidu.com, reject
+host-suffix, umeng.com, reject
+host-suffix, umengcloud.com, reject
 host-suffix, unidesk.alicdn.com, reject
 host-suffix, union.baidu.cn, reject
 host-suffix, union.baidu.com, reject
@@ -1256,11 +1248,7 @@ host-keyword, in-page-push, reject
 host-keyword, kepler.jd.com, reject
 host-keyword, keplerapi.jd.com, reject
 host-keyword, log.snssdk.com, reject
-host-keyword, log.umeng.com, reject
-host-keyword, log.umengcloud.com, reject
 host-keyword, logs.amap.com, reject
-host-keyword, logs.umeng.com, reject
-host-keyword, logs.umengcloud.com, reject
 host-keyword, logwebs.kugou.com, reject
 host-keyword, mapi.m.jd.com, reject
 host-keyword, medicine.lanjiyin.com.cn, reject
@@ -1289,6 +1277,5 @@ host-keyword, trace.qq.com, reject
 host-keyword, trace.video.qq.com, reject
 host-keyword, tracker.kugou.com, reject
 host-keyword, trackercdnbj.kugou.com, reject
-host-keyword, uop.umeng.com, reject
 host-keyword, video-cn.snssdk.com, reject
 host-keyword, wan.sogou.com, reject
