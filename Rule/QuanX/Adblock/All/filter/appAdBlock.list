@@ -1,11 +1,11 @@
 #!name=App-广告拦截合集-分流规则
 #!desc=某些规则要清除缓存或者重新安装APP，拦截广告才会生效！
-#!count=支持约1270个分流规则
+#!count=支持约1271个分流规则
 #!author=zirawell
 #!homepage=https://github.com/zirawell/R-Store
 #!raw-url=https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/All/filter/appAdBlock.list
 #!tg-group=https://t.me/lanjieguanggao
-#!date=2024-11-20 19:04:23
+#!date=2024-11-20 22:17:29
 #!proxy-select=reject
 #!---------------------------------------------------------------------------------------------------------------
 ip-cidr, 1.202.85.193/32, reject
@@ -361,6 +361,7 @@ host, mssdk.zijieapi.com, reject
 host, n.3g.163.com, reject
 host, n.mark.letv.com, reject
 host, nadvideo2.baidu.com, reject
+host, news.ssp.qq.com, reject
 host, nex.163.com, reject
 host, nsclick.baidu.com, reject
 host, o2o-ad-log-gateway.alibaba.com, reject
