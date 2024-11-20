@@ -1,5 +1,5 @@
 /********************************
-TencentNews Remove Ads - Version 1.0
+TencentNews Remove Ads - Version 1.1
 Checkout Source - https://raw.githubusercontent.com/app2smile/rules/master/js/qq-news.js
 Please note that you may need to reinstall app for script to work.
 
@@ -18,34 +18,11 @@ if (method !== "POST") {
     $notification.post("腾讯新闻App脚本错误", "method错误:", method);
 }
 
-if (url.includes("r.inews.qq.com/gw/page/event_detail")) {
+if (url.includes("gw/page/event_detail")) {
     removeAdList('event_detail');
-} else if (url.includes("r.inews.qq.com/gw/page/channel_feed")) {
+} else if (url.includes("gw/page/channel_feed")) {
     removeAdList('channel_feed');
 } else {
-    let name = "";
-    if (url.includes("news.ssp.qq.com/app")) {
-        name = '开屏页';
-    } else if (url.includes("r.inews.qq.com/getQQNewsUnreadList")) {
-        // 是否弃用,还需要验证
-        name = '要闻/财经等';
-    } else if (url.includes("r.inews.qq.com/news_feed/hot_module_list")) {
-        name = '财经精选-更多';
-    } else if (url.includes("r.inews.qq.com/gw/event/list")) {
-        // 弃用
-        name = '专题gw/event/list';
-    } else if (url.includes("r.inews.qq.com/getTwentyFourHourNews")) {
-        // 弃用
-        name = '热点精选getTwentyFourHourNews';
-    } else if (url.includes("r.inews.qq.com/getQQNewsListItems")) {
-        // 弃用
-        name = '热点精选getQQNewsListItems';
-    } else if (url.includes("r.inews.qq.com/getTagFeedList")) {
-        // 如地方专区下的 XX旅游 XX美食列表广告
-        name = 'getTagFeedList';
-    } else {
-        $notification.post('腾讯新闻App脚本错误', "路径匹配错误:", url);
-    }
     if (!body.adList) {
         // 部分专题列表无广告,没有adList字段
     } else {
