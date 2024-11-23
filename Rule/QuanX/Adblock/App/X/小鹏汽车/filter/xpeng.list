@@ -1,0 +1,7 @@
+# > 小鹏汽车 - XPENG
+host, applog-perf.uc.cn, reject
+host, woodpecker.uc.cn, reject
+host, collect.xiaopeng.com, reject
+host, statistic.live.126.net, reject
+host, lbs.netease.im, reject
+host, httpdns.yunxindns.com, reject
