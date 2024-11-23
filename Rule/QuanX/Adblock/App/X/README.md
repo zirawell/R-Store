@@ -1,7 +1,7 @@
 # X
 <details>
 <summary>
-本目录共收录48个App，详情见如下：
+本目录共收录49个App，详情见如下：
 </summary>
 
 - [下厨房](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/X/%E4%B8%8B%E5%8E%A8%E6%88%BF)
@@ -29,6 +29,7 @@
 - [小芒](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/X/%E5%B0%8F%E8%8A%92)
 - [小蚕霸王餐](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/X/%E5%B0%8F%E8%9A%95%E9%9C%B8%E7%8E%8B%E9%A4%90)
 - [小象超市](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/X/%E5%B0%8F%E8%B1%A1%E8%B6%85%E5%B8%82)
+- [小鹏汽车](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/X/%E5%B0%8F%E9%B9%8F%E6%B1%BD%E8%BD%A6)
 - [小黑盒](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/X/%E5%B0%8F%E9%BB%91%E7%9B%92)
 - [希尔顿荣誉客会](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/X/%E5%B8%8C%E5%B0%94%E9%A1%BF%E8%8D%A3%E8%AA%89%E5%AE%A2%E4%BC%9A)
 - [希沃白板](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/X/%E5%B8%8C%E6%B2%83%E7%99%BD%E6%9D%BF)

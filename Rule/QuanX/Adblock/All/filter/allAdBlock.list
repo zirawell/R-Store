@@ -1,11 +1,11 @@
 #!name=全部-广告拦截合集-分流规则
 #!desc=某些规则要清除缓存或者重新安装APP，拦截广告才会生效！
-#!count=支持约1286个分流规则
+#!count=支持约1292个分流规则
 #!author=zirawell
 #!homepage=https://github.com/zirawell/R-Store
 #!raw-url=https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/All/filter/allAdBlock.list
 #!tg-group=https://t.me/lanjieguanggao
-#!date=2024-11-20 22:17:28
+#!date=2024-11-23 11:21:32
 #!proxy-select=reject
 #!---------------------------------------------------------------------------------------------------------------
 ip-cidr, 1.202.85.193/32, reject
@@ -198,6 +198,7 @@ host, appcloud2.in.zhihu.com, reject
 host, appgo.189.cn, reject
 host, appgoad.189.cn, reject
 host, apple.comscoreresearch.com, reject
+host, applog-perf.uc.cn, reject
 host, applog.zijieapi.com, reject
 host, appsupport.qq.com, reject
 host, appupdates.189.cn, reject
@@ -215,6 +216,7 @@ host, bootpreload.uve.weibo.com, reject
 host, bsync3-normal.zijieapi.com, reject
 host, business.msstatic.com, reject
 host, cad.youku.com, reject
+host, collect.xiaopeng.com, reject
 host, conf-darwin.xycdn.com, reject
 host, config.inmobi.cn, reject
 host, content-open.douyin.com, reject
@@ -280,6 +282,7 @@ host, hdns.ksyun.com, reject
 host, hlx.meituan.com, reject
 host, hmma.baidu.com, reject
 host, httpdns.baidubce.com, reject
+host, httpdns.yunxindns.com, reject
 host, huatuocode.huatuo.qq.com, reject
 host, hudong.alicdn.com, reject
 host, huichuan-mc.sm.cn, reject
@@ -321,6 +324,7 @@ host, jdqd.jd.com, reject
 host, kad.gotokeep.com, reject
 host, launch.apple.com, reject
 host, layer.bz.mgtv.com, reject
+host, lbs.netease.im, reject
 host, lc.map.baidu.com, reject
 host, lf-webcast-gr-sourcecdn.bytegecko.com, reject
 host, lf3-reading.fqnovelstatic.com, reject
@@ -432,6 +436,7 @@ host, splashqqlive.gtimg.com, reject
 host, stat.10jqka.com.cn, reject
 host, stat.y.qq.com, reject
 host, stat.youpin.mi.com, reject
+host, statistic.live.126.net, reject
 host, stun1.douyucdn.cn, reject
 host, stun1.qvb.qcloud.com, reject
 host, sugar.zhihu.com, reject
@@ -485,6 +490,7 @@ host, webcast-open.douyin.com, reject
 host, webproxy-advp.iad-apple.com, reject
 host, webproxy-advp.iad-apple.com.akadns.net, reject
 host, wn.pos.baidu.com, reject
+host, woodpecker.uc.cn, reject
 host, ws.ksmobile.net, reject
 host, ws.tapjoyads.com, reject
 host, wxsmsdy.video.qq.com, reject
