@@ -1,7 +1,7 @@
 # W
 <details>
 <summary>
-本目录共收录24个App，详情见如下：
+本目录共收录25个App，详情见如下：
 </summary>
 
 - [WPSOffice](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/W/WPSOffice)
@@ -19,6 +19,7 @@
 - [无他相机](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/W/%E6%97%A0%E4%BB%96%E7%9B%B8%E6%9C%BA)
 - [无忧行](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/W/%E6%97%A0%E5%BF%A7%E8%A1%8C)
 - [网上国网](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/W/%E7%BD%91%E4%B8%8A%E5%9B%BD%E7%BD%91)
+- [网易Lofter](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/W/%E7%BD%91%E6%98%93Lofter)
 - [网易严选](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/W/%E7%BD%91%E6%98%93%E4%B8%A5%E9%80%89)
 - [网易云音乐](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/W/%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90)
 - [网易大神](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/W/%E7%BD%91%E6%98%93%E5%A4%A7%E7%A5%9E)
