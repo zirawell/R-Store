@@ -6,7 +6,6 @@
 
 - [line](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/L/line)
 - [locsim](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/L/locsim)
-- [lofter](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/L/lofter)
 - [两步路](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/L/%E4%B8%A4%E6%AD%A5%E8%B7%AF)
 - [乐刻](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/L/%E4%B9%90%E5%88%BB)
 - [乐播投屏](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/L/%E4%B9%90%E6%92%AD%E6%8A%95%E5%B1%8F)
@@ -27,5 +26,6 @@
 - [菱菱邦](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/L/%E8%8F%B1%E8%8F%B1%E9%82%A6)
 - [蓝基因](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/L/%E8%93%9D%E5%9F%BA%E5%9B%A0)
 - [领英](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/L/%E9%A2%86%E8%8B%B1)
+- [鲁班到家用户版](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/L/%E9%B2%81%E7%8F%AD%E5%88%B0%E5%AE%B6%E7%94%A8%E6%88%B7%E7%89%88)
 
 </details>
