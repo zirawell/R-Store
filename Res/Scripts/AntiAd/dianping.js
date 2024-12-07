@@ -10,9 +10,10 @@ https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/App/D
 const url = $request.url;
 const header = $request.headers;
 const resp = {};
-const headopt = header["M-SHARK-TRACEID"] || header["m-shark-traceid"];
+const traceKey = Object.keys(header).find(key => /^m-(shark-)?traceid$/i.test(key));
+const headopt = traceKey ? header[traceKey] : null;
 
-if (headopt != null) {
+if (headopt) {
   $done({ body:"", headers:"", status: "HTTP/1.1 204 No Content" });
 } else{
   $done({});
