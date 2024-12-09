@@ -1,7 +1,7 @@
 # X
 <details>
 <summary>
-本目录共收录49个App，详情见如下：
+本目录共收录50个App，详情见如下：
 </summary>
 
 - [下厨房](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/X/%E4%B8%8B%E5%8E%A8%E6%88%BF)
@@ -15,6 +15,7 @@
 - [小佩宠物](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/X/%E5%B0%8F%E4%BD%A9%E5%AE%A0%E7%89%A9)
 - [小利生活](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/X/%E5%B0%8F%E5%88%A9%E7%94%9F%E6%B4%BB)
 - [小合拓展](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/X/%E5%B0%8F%E5%90%88%E6%8B%93%E5%B1%95)
+- [小熊美术](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/X/%E5%B0%8F%E7%86%8A%E7%BE%8E%E6%9C%AF)
 - [小爱音箱](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/X/%E5%B0%8F%E7%88%B1%E9%9F%B3%E7%AE%B1)
 - [小牛电动](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/X/%E5%B0%8F%E7%89%9B%E7%94%B5%E5%8A%A8)
 - [小特](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/X/%E5%B0%8F%E7%89%B9)

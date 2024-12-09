@@ -71,8 +71,8 @@ R-Store/Rule/QuanX
 
 | Type | Count |
 |----------|----------|
-| All    | 646 |
-| App    | 542 |
+| All    | 647 |
+| App    | 543 |
 | Wechat Applet| 101 |
 | Alipay Applet| 2 |
 | Web    | 1 |
@@ -88,8 +88,8 @@ R-Store/Rule/QuanX
 - [@fmz200](https://github.com/fmz200)
 - [@RuCu6](https://github.com/RuCu6)
 - [@Sliverkiss](https://github.com/Sliverkiss)
+- [@luestr](https://github.com/luestr)
 - [@wf021325](https://github.com/wf021325)
 - [@Maasea](https://github.com/Maasea)
 - [@ClydeTime](https://github.com/ClydeTime)
 - [@FoKit](https://github.com/FoKit)
-- [@luestr](https://github.com/luestr)
