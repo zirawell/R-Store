@@ -4,10 +4,17 @@
 
 ## 项目结构
 
-- `Res` : 收录各类静态资源
-- `Rule` : 收录各类规则资源
+| 序号        | 项目                                                 | 说明		   |
+| :--------- | :---------------------------------------------------| :------------ |
+| 1 | [`Res`](https://github.com/zirawell/R-Store/tree/main/Res)   | 收录各类静态资源 |
+| 2 | [`Rule`](https://github.com/zirawell/R-Store/tree/main/Rule) | 收录各类规则资源 |
 
+## 项目指南
 
+| 序号        | 配置主页                                                    | 目前进度|
+| :--------- | :----------------------------------------------------------| :-- |
+| 1 | [`QuanX`](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX) | 完善中 |
+| 2 | [`Surge`](https://github.com/zirawell/R-Store/tree/main/Rule/Surge) | 待建设 |
 
 ## 特别鸣谢
 
@@ -21,3 +28,7 @@
 - [@RuCu6](https://github.com/RuCu6)
 - [@Sliverkiss](https://github.com/Sliverkiss)
 - [@luestr](https://github.com/luestr)
+- [@wf021325](https://github.com/wf021325)
+- [@Maasea](https://github.com/Maasea)
+- [@ClydeTime](https://github.com/ClydeTime)
+- [@FoKit](https://github.com/FoKit)
