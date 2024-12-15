@@ -1,11 +1,11 @@
 #!name=全部-广告拦截合集-分流规则
 #!desc=某些规则要清除缓存或者重新安装APP，拦截广告才会生效！
-#!count=支持约1292个分流规则
+#!count=支持约1293个分流规则
 #!author=zirawell
 #!homepage=https://github.com/zirawell/R-Store
 #!raw-url=https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/All/filter/allAdBlock.list
 #!tg-group=https://t.me/lanjieguanggao
-#!date=2024-12-01 10:31:51
+#!date=2024-12-15 16:27:36
 #!proxy-select=reject
 #!---------------------------------------------------------------------------------------------------------------
 ip-cidr, 1.202.85.193/32, reject
@@ -1291,6 +1291,7 @@ host-keyword, s2.pstatp.com, reject
 host-keyword, s3.pstatp.com, reject
 host-keyword, sdk.1rtb.net, reject
 host-keyword, searchrecommend.kugou.com, reject
+host-keyword, sensorsdata.cn, reject
 host-keyword, stat.kugou.com, reject
 host-keyword, statbak.kugou.com, reject
 host-keyword, talk.bz.getui.com, reject
