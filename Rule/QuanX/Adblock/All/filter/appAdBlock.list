@@ -1,11 +1,11 @@
 #!name=App-广告拦截合集-分流规则
 #!desc=某些规则要清除缓存或者重新安装APP，拦截广告才会生效！
-#!count=支持约1278个分流规则
+#!count=支持约1281个分流规则
 #!author=zirawell
 #!homepage=https://github.com/zirawell/R-Store
 #!raw-url=https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/All/filter/appAdBlock.list
 #!tg-group=https://t.me/lanjieguanggao
-#!date=2024-12-15 16:27:36
+#!date=2024-12-16 10:00:15
 #!proxy-select=reject
 #!---------------------------------------------------------------------------------------------------------------
 ip-cidr, 1.202.85.193/32, reject
@@ -618,6 +618,7 @@ host-suffix, api.poll.video.qq.com, reject
 host-suffix, api.waptest.taobao.com, reject
 host-suffix, apilog.qbb6.com, reject
 host-suffix, apoll.m.taobao.com, reject
+host-suffix, apollo.caixin.com, reject
 host-suffix, app-measurement.com, reject
 host-suffix, app.ibaiducdn.com, reject
 host-suffix, appc.baidu.com, reject
@@ -913,6 +914,7 @@ host-suffix, log.mgtv.com, reject
 host-suffix, log.moji.com, reject
 host-suffix, log.yex.youdao.com, reject
 host-suffix, loggw.alipay.com.cn, reject
+host-suffix, logstat.caixin.com, reject
 host-suffix, lstat.youku.com, reject
 host-suffix, lu.sogou.com, reject
 host-suffix, lu.sogoucdn.com, reject
@@ -1025,6 +1027,7 @@ host-suffix, pmir.3g.qq.com, reject
 host-suffix, policy.video.iqiyi.com, reject
 host-suffix, pos.baidu.com, reject
 host-suffix, promote.biz.weibo.cn, reject
+host-suffix, promote.caixin.com, reject
 host-suffix, psfq.gou.sogou.com, reject
 host-suffix, public.app.autohome.com.cn, reject
 host-suffix, push.app.autohome.com.cn, reject
