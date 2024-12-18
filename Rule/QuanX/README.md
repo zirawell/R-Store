@@ -93,3 +93,4 @@ R-Store/Rule/QuanX
 - [@Maasea](https://github.com/Maasea)
 - [@ClydeTime](https://github.com/ClydeTime)
 - [@FoKit](https://github.com/FoKit)
+- [@Yuheng0101](https://github.com/Yuheng0101)

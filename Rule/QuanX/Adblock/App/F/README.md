@@ -10,7 +10,7 @@
 - [分期乐](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/F/%E5%88%86%E6%9C%9F%E4%B9%90)
 - [发现精彩](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/F/%E5%8F%91%E7%8E%B0%E7%B2%BE%E5%BD%A9)
 - [富途牛牛](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/F/%E5%AF%8C%E9%80%94%E7%89%9B%E7%89%9B)
-- [樊登读书](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/F/%E6%A8%8A%E7%99%BB%E8%AF%BB%E4%B9%A6)
+- [帆书](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/F/%E5%B8%86%E4%B9%A6)
 - [番茄小说](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/F/%E7%95%AA%E8%8C%84%E5%B0%8F%E8%AF%B4)
 - [粉笔](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/F/%E7%B2%89%E7%AC%94)
 - [返利网](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/F/%E8%BF%94%E5%88%A9%E7%BD%91)
