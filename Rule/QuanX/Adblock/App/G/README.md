@@ -1,7 +1,7 @@
 # G
 <details>
 <summary>
-本目录共收录19个App，详情见如下：
+本目录共收录18个App，详情见如下：
 </summary>
 
 - [光大银行](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/G/%E5%85%89%E5%A4%A7%E9%93%B6%E8%A1%8C)
@@ -11,7 +11,6 @@
 - [国家地理](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/G/%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86)
 - [国泰君安](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/G/%E5%9B%BD%E6%B3%B0%E5%90%9B%E5%AE%89)
 - [国美电器](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/G/%E5%9B%BD%E7%BE%8E%E7%94%B5%E5%99%A8)
-- [工商银行](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/G/%E5%B7%A5%E5%95%86%E9%93%B6%E8%A1%8C)
 - [工银E生活](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/G/%E5%B7%A5%E9%93%B6E%E7%94%9F%E6%B4%BB)
 - [广发银行](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/G/%E5%B9%BF%E5%8F%91%E9%93%B6%E8%A1%8C)
 - [广州农商银行](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/G/%E5%B9%BF%E5%B7%9E%E5%86%9C%E5%95%86%E9%93%B6%E8%A1%8C)
