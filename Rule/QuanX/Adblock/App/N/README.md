@@ -1,11 +1,10 @@
 # N
 <details>
 <summary>
-本目录共收录7个App，详情见如下：
+本目录共收录6个App，详情见如下：
 </summary>
 
 - [ntPlayer](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/N/ntPlayer)
-- [农业银行](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/N/%E5%86%9C%E4%B8%9A%E9%93%B6%E8%A1%8C)
 - [南方航空](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/N/%E5%8D%97%E6%96%B9%E8%88%AA%E7%A9%BA)
 - [奈菲影视](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/N/%E5%A5%88%E8%8F%B2%E5%BD%B1%E8%A7%86)
 - [宁聚](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/N/%E5%AE%81%E8%81%9A)
