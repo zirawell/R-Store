@@ -7,7 +7,7 @@
 - [下厨房](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/X/%E4%B8%8B%E5%8E%A8%E6%88%BF)
 - [兴业生活](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/X/%E5%85%B4%E4%B8%9A%E7%94%9F%E6%B4%BB)
 - [兴业证券优理宝](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/X/%E5%85%B4%E4%B8%9A%E8%AF%81%E5%88%B8%E4%BC%98%E7%90%86%E5%AE%9D)
-- [兴业银行](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/X/%E5%85%B4%E4%B8%9A%E9%93%B6%E8%A1%8C)
+- [兴业银行手机银行](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/X/%E5%85%B4%E4%B8%9A%E9%93%B6%E8%A1%8C%E6%89%8B%E6%9C%BA%E9%93%B6%E8%A1%8C)
 - [厦门航空](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/X/%E5%8E%A6%E9%97%A8%E8%88%AA%E7%A9%BA)
 - [向日葵远程控制](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/X/%E5%90%91%E6%97%A5%E8%91%B5%E8%BF%9C%E7%A8%8B%E6%8E%A7%E5%88%B6)
 - [喜马拉雅](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/X/%E5%96%9C%E9%A9%AC%E6%8B%89%E9%9B%85)
