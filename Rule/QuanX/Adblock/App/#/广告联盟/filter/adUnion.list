@@ -234,7 +234,6 @@ host-suffix, gdtimg.com, reject
 host-suffix, gdt.qq.com, reject
 host-suffix, mdt.qq.com, reject
 host-suffix, bugly.qq.com, reject
-host-suffix, beacon.qq.com, reject
 host-suffix, omgmta.qq.com, reject
 host-suffix, omgmta1.qq.com, reject
 host-suffix, wup.imtt.qq.com, reject
