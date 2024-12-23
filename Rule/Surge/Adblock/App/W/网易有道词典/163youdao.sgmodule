@@ -1,0 +1,30 @@
+[Rule]
+# > 网易有道词典 - 163YOUDAO
+domain, gorgon.youdao.com, reject
+domain-suffix, a.youdao.com, reject
+domain-suffix, c.youdao.com, reject
+domain-suffix, dsp.youdao.com, reject
+domain-suffix, union.youdao.com, reject
+domain-suffix, conv.youdao.com, reject
+domain-suffix, dsp-click.youdao.com, reject
+domain-suffix, dsp-impr.youdao.com, reject
+domain-suffix, dsp-impr2.youdao.com, reject
+domain-suffix, gorgon.youdao.com, reject
+domain-suffix, log-yex.youdao.com, reject
+domain-suffix, rlogs.youdao.com, reject
+domain-suffix, log.yex.youdao.com, reject
+domain-suffix, impservice.youdao.com, reject
+domain-suffix, impservice2.youdao.com, reject
+domain-suffix, clkservice.youdao.com, reject
+domain-suffix, clkservice2.dict.youdao.com, reject
+domain-suffix, clkservice.mail.youdao.com, reject
+domain-suffix, clkservice.union.youdao.com, reject
+domain-suffix, ydpushserver.youdao.com, reject
+domain-suffix, nc004x.corp.youdao.com, reject
+domain-suffix, nc045x.corp.youdao.com, reject
+domain-suffix, qt002x.corp.youdao.com, reject
+domain-suffix, tb060x.corp.youdao.com, reject
+domain-suffix, tb104x.corp.youdao.com, reject
+domain-suffix, impservice.dictapp.youdao.com, reject
+domain-suffix, impservice-test.dictapp.youdao.com, reject
+domain-suffix, impservicetest.dictapp.youdao.com, reject

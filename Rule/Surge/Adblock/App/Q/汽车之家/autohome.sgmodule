@@ -1,0 +1,24 @@
+[Rule]
+# > 汽车之家 - AUTOHOME
+domain, rd.autohome.com.cn, reject
+domain, rdx.autohome.com.cn, reject
+domain, al.autohome.com.cn, reject
+domain, adm0.autoimg.cn, reject
+domain, adm1.autoimg.cn, reject
+domain, adm2.autoimg.cn, reject
+domain, adm3.autoimg.cn, reject
+domain-suffix, 33.autohome.com.cn, reject
+domain-suffix, applogapi.autohome.com.cn, reject
+domain-suffix, c.autohome.com.cn, reject
+domain-suffix, cmx.autohome.com.cn, reject
+domain-suffix, dspmnt.autohome.com.cn, reject
+domain-suffix, pcd.autohome.com.cn, reject
+domain-suffix, pcmx.autohome.com.cn, reject
+domain-suffix, pvx.autohome.com.cn, reject
+domain-suffix, pv.alert.autohome.com.cn, reject
+domain-suffix, activity.app.autohome.com.cn, reject
+domain-suffix, public.app.autohome.com.cn, reject
+domain-suffix, push.app.autohome.com.cn, reject
+domain-keyword, collectionpv.che168.com, reject
+domain-keyword, adproxy.autohome.com, reject
+domain-keyword, applogapi.autohome.com, reject

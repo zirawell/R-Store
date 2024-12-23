@@ -1,0 +1,21 @@
+[Rule]
+# > 京东 - JD
+domain, dns.jd.com, reject
+domain, waapdg.jd.com, reject
+domain, dsp-x.jd.com, reject
+domain, xlog.jd.com, reject
+domain, janapi.jd.com, reject
+domain, jdqd.jd.com, reject
+domain, dgstatic.jd.com, reject
+domain-suffix, jzt.jd.com, reject
+domain-suffix, img-x.jd.com, reject
+domain-suffix, du.jd.com, reject
+domain-suffix, c-nfa.jd.com, reject
+domain-suffix, cm.jd.com, reject
+domain-keyword, policy.jd.com, reject
+domain-keyword, kepler.jd.com, reject
+domain-keyword, bdsp.x.jd.com, reject
+domain-keyword, keplerapi.jd.com, reject
+domain-keyword, mapi.m.jd.com, reject
+ip-cidr, 101.124.19.122/32, reject
+ip6-cidr, 2402:db40:5100:1011::5/128, reject

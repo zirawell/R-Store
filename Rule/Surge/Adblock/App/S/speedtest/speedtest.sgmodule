@@ -1,0 +1,5 @@
+[Rule]
+# > speedtest - SPEEDTEST
+domain, ads.pubmatic.com, reject
+domain, id.hadron.ad.gt, reject
+domain-keyword, -adsystem.com, reject

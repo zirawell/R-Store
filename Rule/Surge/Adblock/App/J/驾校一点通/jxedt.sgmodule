@@ -1,0 +1,8 @@
+[Rule]
+# > 驾校一点通 - JXEDT
+domain, richmanapi.jxedt.com, reject
+domain, richmanmain.jxedt.com, reject
+domain, richmanrules.jxedt.com, reject
+domain, richmanapi.ksedt.com, reject
+domain, richmanmain.ksedt.com, reject
+domain, richmanrules.ksedt.com, reject

@@ -1,0 +1,19 @@
+[Rule]
+# > 中关村在线 - ZOL
+domain-suffix, apppv.zol.com.cn, reject
+domain-suffix, cpro.zol.com.cn, reject
+domain-suffix, dynamic.zol.com.cn, reject
+domain-suffix, imp.zol.com.cn, reject
+domain-suffix, js.zol.com.cn, reject
+domain-suffix, mstat.zol.com.cn, reject
+domain-suffix, pv.zol.com.cn, reject
+domain-suffix, pvc.zol.com.cn, reject
+domain-suffix, pvm.zol.com.cn, reject
+domain-suffix, pvmsite.zol.com.cn, reject
+domain-suffix, pvnapp.zol.com.cn, reject
+domain-suffix, pvsite.zol.com.cn, reject
+domain-suffix, pvtest.zol.com.cn, reject
+domain-suffix, wappv.zol.com.cn, reject
+domain-suffix, ydjs.zol.com.cn, reject
+domain-suffix, afp.zol-img.com.cn, reject
+domain-suffix, pic.zol-img.com.cn, reject

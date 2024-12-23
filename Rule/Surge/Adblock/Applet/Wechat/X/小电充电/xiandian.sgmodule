@@ -1,0 +1,4 @@
+[Rule]
+# > 小电充电<微信小程序> - XIAODIAN
+domain, smarket.dian.so, reject
+domain, file.dian.so, reject

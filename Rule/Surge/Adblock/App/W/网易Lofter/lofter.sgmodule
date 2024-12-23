@@ -1,0 +1,3 @@
+[Rule]
+# > 网易LOFTER - LOFTER
+domain-suffix, ad.lofter.com, reject

@@ -1,0 +1,3 @@
+[Rule]
+# > 小利生活 - HELIPAY
+domain-keyword, mpos-pic.helipay.com, reject

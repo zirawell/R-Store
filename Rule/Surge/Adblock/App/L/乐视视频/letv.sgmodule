@@ -1,0 +1,7 @@
+[Rule]
+# > 乐视视频 - LETV
+domain, ark.letv.com, reject
+domain, emma-414870e223.huodonghezi.com, reject
+domain, g3.letv.com, reject
+domain, n.mark.letv.com, reject
+domain-suffix, webp2p.letv.com, reject

@@ -1,0 +1,6 @@
+[Rule]
+# > 上海银行 - BOSC
+domain-suffix, pmbanalysis.bosc.cn, reject
+domain-suffix, pmbmpush.bosc.cn, reject
+domain-suffix, pmbservice.bosc.cn, reject
+domain-suffix, pmbservice2.bosc.cn, reject

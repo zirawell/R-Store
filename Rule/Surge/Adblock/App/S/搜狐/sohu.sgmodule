@@ -1,0 +1,15 @@
+[Rule]
+# > 搜狐 - SOHU
+domain-suffix, ad.sohu.com, reject
+domain-suffix, ads.sohu.com, reject
+domain-suffix, aty.sohu.com, reject
+domain-suffix, adnet.sohu.com, reject
+domain-suffix, ad.mail.sohu.com, reject
+domain-suffix, corp.sohu.com, reject
+domain-suffix, cpc.sohu.com, reject
+domain-suffix, go.sohu.com, reject
+domain-suffix, hui.sohu.com, reject
+domain-suffix, suvset.sohu.com, reject
+domain-suffix, track.sohu.com, reject
+domain-suffix, 3rd.t.sohu.com, reject
+domain-suffix, 888.tv.sohu.com, reject

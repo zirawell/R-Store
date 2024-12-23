@@ -1,0 +1,3 @@
+[Rule]
+# > 海尔智家 - EHAIER
+domain-suffix, ehaier.com, reject

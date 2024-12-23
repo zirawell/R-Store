@@ -1,0 +1,4 @@
+[Rule]
+# > 中国工商银行 - ICBC
+domain, pageviewp.icbc.com.cn, reject
+domain-suffix, mall.icbc.com.cn, reject

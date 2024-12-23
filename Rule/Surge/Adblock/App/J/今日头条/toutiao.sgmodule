@@ -1,0 +1,13 @@
+[Rule]
+# > 今日头条 - TOUTIAO
+domain-suffix, ad.toutiao.com, reject
+domain-suffix, dm.toutiao.com, reject
+domain-suffix, dsp.toutiao.com, reject
+domain-suffix, adshare.toutiao.com, reject
+domain-suffix, partner.toutiao.com, reject
+domain-suffix, track.toutiao.com, reject
+domain-keyword, s1.pstatp.com, reject
+domain-keyword, s2.pstatp.com, reject
+domain-keyword, s3.pstatp.com, reject
+domain-keyword, a3.pstatp.com, reject
+domain-keyword, a3.bytecdn.cn, reject

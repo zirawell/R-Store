@@ -1,0 +1,5 @@
+[Rule]
+# > 飞常准 - VARIFLIGHT
+domain, adv-adlog.variflight.com, reject
+domain, adv-ads.variflight.com, reject
+domain, app-ad.variflight.com, reject

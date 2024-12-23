@@ -1,0 +1,17 @@
+[Rule]
+# > 喜马拉雅 - XIMA
+domain, adbehavior.ximalaya.com, reject
+domain, adwbs.ximalaya.com, reject
+domain-suffix, ad.test.ximalaya.com, reject
+domain-suffix, adse.test.ximalaya.com, reject
+domain-suffix, adweb.test.ximalaya.com, reject
+domain-suffix, adweb.ximalaya.com, reject
+domain-suffix, linkeye.ximalaya.com, reject
+domain-suffix, location.ximalaya.com, reject
+domain-suffix, xdcs-collector.ximalaya.com, reject
+domain-suffix, ad.ximalaya.com, reject
+domain-suffix, adse.ximalaya.com, reject
+domain-suffix, adse.wsa.ximalaya.com, reject
+domain-suffix, adbehavior.wsa.ximalaya.com, reject
+domain-suffix, adsebs.ximalaya.com, reject
+domain-suffix, adbs.ximalaya.com, reject

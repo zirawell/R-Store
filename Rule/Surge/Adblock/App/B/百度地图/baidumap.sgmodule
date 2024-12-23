@@ -1,0 +1,7 @@
+[Rule]
+# > 百度地图 - BAIDUMAP
+domain, afd.baidu.com, reject
+domain, afdconf.baidu.com, reject
+domain, httpdns.baidubce.com, reject
+domain, lc.map.baidu.com, reject
+ip-cidr, 186.76.76.200/32, reject

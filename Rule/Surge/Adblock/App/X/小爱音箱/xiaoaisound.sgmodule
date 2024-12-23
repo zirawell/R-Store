@@ -1,0 +1,3 @@
+[Rule]
+# > 小爱音箱 - XIAOAISOUND
+domain-suffix, mistat.xiaomi.com, reject

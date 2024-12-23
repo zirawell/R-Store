@@ -1,0 +1,14 @@
+[Rule]
+# > 腾讯视频 - TXTV
+domain, info4.video.qq.com, reject
+domain, info6.video.qq.com, reject
+domain, vv.video.qq.com, reject
+domain, wxsmsdy.video.qq.com, reject
+domain, sdkconfig.video.qq.com, reject
+domain-suffix, video.mpush.qq.com, reject
+domain-suffix, video.wap.mpush.qq.com, reject
+domain-suffix, video.ureport.push.qq.com, reject
+domain-suffix, api.poll.video.qq.com, reject
+domain-suffix, livep.l.ott.video.qq.com, reject
+domain-suffix, news-l.play.ott.video.qq.com, reject
+domain-suffix, vlive.qqvideo.tc.qq.com, reject

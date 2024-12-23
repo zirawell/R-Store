@@ -1,0 +1,3 @@
+[Rule]
+# > 美图秀秀 - MEITU
+domain, adui.tg.meitu.com, reject

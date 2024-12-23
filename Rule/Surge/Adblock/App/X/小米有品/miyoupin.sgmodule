@@ -1,0 +1,3 @@
+[Rule]
+# > 小米有品 - MIYOUPIN
+domain, stat.youpin.mi.com, reject

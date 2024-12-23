@@ -1,0 +1,3 @@
+[Rule]
+# > 米家 - MIHOME
+domain, sdkconfig.ad.xiaomi.com, reject

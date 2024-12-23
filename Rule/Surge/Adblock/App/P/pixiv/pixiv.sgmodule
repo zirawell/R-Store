@@ -1,0 +1,3 @@
+[Rule]
+# > pixiv - PIXIV
+domain, open-pixon.ads-pixiv.net, reject

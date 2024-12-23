@@ -1,0 +1,32 @@
+[Rule]
+# > 微博 - WEIBO
+domain, huodong.weibo.cn, reject
+domain, bootpreload.uve.weibo.com, reject
+domain, datacollection.uve.weibo.com, reject
+domain, adpinpai.video.weibocdn.com, reject
+domain-suffix, fastimage.uve.weibo.com, reject
+domain-suffix, adimg.vue.weibo.com, reject
+domain-suffix, zymo.mps.weibo.com, reject
+domain-suffix, weibomingzi.com, reject
+domain-suffix, sdkapp.uve.weibo.com, reject
+domain-suffix, promote.biz.weibo.cn, reject
+domain-suffix, gw5.push.mcp.weibo.cn, reject
+domain-suffix, gw6.push.mcp.weibo.cn, reject
+domain-suffix, game.weibo.cn, reject
+domain-suffix, adimg.uve.weibo.com, reject
+domain-suffix, game.weibo.com, reject
+domain-suffix, ads.viber.com, reject
+domain-suffix, ads-d.viber.com, reject
+domain-suffix, ads.aws.viber.com, reject
+domain-suffix, alitui.weibo.com, reject
+domain-suffix, dp.im.weibo.cn, reject
+domain-suffix, click.uve.weibo.com, reject
+domain-suffix, wax.weibo.com, reject
+domain-suffix, wbapp.uve.weibo.com, reject
+domain-suffix, widget.weibo.com, reject
+domain-suffix, dsp.edm.weibo.cn, reject
+domain-suffix, alitui.weibo.com.cn, reject
+domain-suffix, tui.weibo.com, reject
+domain-suffix, wax.weibo.com.cn, reject
+domain-suffix, ad.weibo.com, reject
+domain-keyword, biz.weibo.com, reject

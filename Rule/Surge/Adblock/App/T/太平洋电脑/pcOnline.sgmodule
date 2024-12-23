@@ -1,0 +1,8 @@
+[Rule]
+# > 太平洋电脑 - PCONLINE
+domain, ad-analysis.pconline.com.cn, reject
+domain, iad0ssl.pcauto.com.cn, reject
+domain, iad0ssl.pconline.com.cn, reject
+domain, imgad0.pcauto.com.cn, reject
+domain, imgad0.pconline.com.cn, reject
+domain, ivy.pchouse.com.cn, reject

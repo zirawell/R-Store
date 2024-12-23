@@ -1,0 +1,8 @@
+[Rule]
+# > 小鹏汽车 - XPENG
+domain, applog-perf.uc.cn, reject
+domain, woodpecker.uc.cn, reject
+domain, collect.xiaopeng.com, reject
+domain, statistic.live.126.net, reject
+domain, lbs.netease.im, reject
+domain, httpdns.yunxindns.com, reject

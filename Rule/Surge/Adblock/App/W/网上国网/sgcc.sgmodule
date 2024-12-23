@@ -1,0 +1,4 @@
+[Rule]
+# > 网上国网 - SGCC
+domain, mdap.mpaas.cn-hangzhou.aliyuncs.com, reject
+domain, csc-apm.sgcc.com.cn, reject

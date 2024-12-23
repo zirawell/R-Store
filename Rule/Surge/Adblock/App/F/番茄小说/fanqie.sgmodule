@@ -1,0 +1,10 @@
+[Rule]
+# > 番茄小说 - FANQIE
+domain, content-open.douyin.com, reject
+domain, webcast-open.douyin.com, reject
+domain, lf-webcast-gr-sourcecdn.bytegecko.com, reject
+domain, lf3-reading.fqnovelstatic.com, reject
+domain, log5-applog.fqnovel.com, reject
+domain, mon11-misc.fqnovel.com, reject
+domain, rtlog5-applog.fqnovel.com, reject
+domain, zlink.ugsdk.cn, reject

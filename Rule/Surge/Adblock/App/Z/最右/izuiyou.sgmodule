@@ -1,0 +1,3 @@
+[Rule]
+# > 最右 - IZUIYOU
+domain, adapi.izuiyou.com, reject
