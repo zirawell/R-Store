@@ -1,0 +1,17 @@
+[Rule]
+# > trip - TRIP
+domain, firebaseinstallations.googleapis.com, reject
+domain, ocsp.pki.goog, reject
+domain, cpush.trip.com, reject
+domain, tcpgateway-sgp-trip.trip.com, reject
+domain, overseamobileap.ctrip.com, reject
+domain, ak-d.tripcdn.com, reject
+domain, easytomessage.com, reject
+domain, cpush.ctrip.com, reject
+ip-cidr, 162.14.145.13/32, reject
+ip-cidr, 162.14.137.26/32, reject
+ip-cidr, 103.143.160.209/32, reject
+ip-cidr, 210.13.85.204/32, reject
+domain-suffix, graph.facebook.com, reject
+domain-suffix, m.ctripins.com, reject
+domain-keyword, app.adjust, reject

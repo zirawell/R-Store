@@ -1,0 +1,3 @@
+[Rule]
+# > 朵朵校友圈 - DUODUO
+domain-suffix, ad.duoduo.link, reject

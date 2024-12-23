@@ -1,0 +1,3 @@
+[Rule]
+# > 腾讯新闻 - TXNEWS
+domain, news.ssp.qq.com, reject

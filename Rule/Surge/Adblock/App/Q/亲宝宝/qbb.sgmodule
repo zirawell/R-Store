@@ -1,0 +1,3 @@
+[Rule]
+# > 亲宝宝 - QBB
+domain-suffix, apilog.qbb6.com, reject

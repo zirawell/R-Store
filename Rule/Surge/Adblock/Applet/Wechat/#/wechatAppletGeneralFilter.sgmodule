@@ -1,0 +1,5 @@
+[Rule]
+# > 通用规则<微信小程序> - WechatAppletGeneralFilter
+domain-suffix, wxsnsdy.wxs.qq.com, reject
+domain-suffix, wxsmsdy.video.qq.com, reject
+domain-suffix, wxsnsdythumb.wxs.qq.com, reject

@@ -1,0 +1,3 @@
+[Rule]
+# > 银盛通 - YSEPAY
+domain, ad.ysepay.com, reject

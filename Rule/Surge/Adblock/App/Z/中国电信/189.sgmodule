@@ -1,0 +1,11 @@
+[Rule]
+# > 中国电信 - 189
+domain, ad.21cn.com, reject
+domain, ad.k.21cn.com, reject
+domain, admarket.21cn.com, reject
+domain, adshows.21cn.com, reject
+domain, appgoad.189.cn, reject
+domain, appupdates.189.cn, reject
+domain, appgo.189.cn, reject
+ip-cidr, 122.229.8.47/32, reject
+ip-cidr, 122.229.29.89/32, reject

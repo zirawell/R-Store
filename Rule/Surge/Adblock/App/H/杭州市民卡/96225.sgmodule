@@ -1,0 +1,3 @@
+[Rule]
+# > 杭州市民 - 96225
+domain, ads.iconntech.com, reject

@@ -1,0 +1,3 @@
+[Rule]
+# > 彩云天气 - CAIYUNAPP
+domain, ad.cyapi.cn, reject

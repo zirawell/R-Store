@@ -1,0 +1,4 @@
+[Rule]
+# > 同花顺 - TONGHUASHUN
+domain, adm.10jqka.com.cn, reject
+domain, stat.10jqka.com.cn, reject

@@ -1,0 +1,8 @@
+[Rule]
+# > 墨迹天气 - MOJI
+domain, ad.api.moji.com, reject
+domain, adlaunch.moji.com, reject
+domain, ads.mojicdn.com, reject
+domain-suffix, log.moji.com, reject
+domain-suffix, fds.api.moji.com, reject
+domain-suffix, me.api.moji.com, reject

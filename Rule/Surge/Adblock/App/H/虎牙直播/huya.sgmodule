@@ -1,0 +1,9 @@
+[Rule]
+# > 虎牙直播 - HUYA
+domain, live-ads.huya.com, reject
+domain, pp-cdnfile2pcdn.msstatic.com, reject
+domain, livewebbs2pcdn.msstatic.com, reject
+domain, huyafile.msstatic.com, reject
+domain, livewebbs2.msstatic.com, reject
+domain, business.msstatic.com, reject
+domain-suffix, v1d.szbdyd.com, reject

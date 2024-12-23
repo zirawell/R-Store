@@ -1,0 +1,5 @@
+[Rule]
+# > 百度贴吧 - BAIDUTIEBA
+ip-cidr, 180.76.76.200/32, reject
+domain, afd.baidu.com, reject
+domain, mobads.baidu.com, reject

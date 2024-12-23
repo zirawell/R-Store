@@ -1,0 +1,6 @@
+[Rule]
+# > 云闪付 - 95516
+domain, switch.cup.com.cn, reject
+domain, ads.cup.com.cn, reject
+domain, analytics.95516.com, reject
+domain, tysdk.95516.com, reject

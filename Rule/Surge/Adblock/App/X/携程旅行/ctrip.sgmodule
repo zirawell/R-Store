@@ -1,0 +1,11 @@
+[Rule]
+# > 携程旅行 - CTRIP
+domain, sofire.baidu.com, reject
+domain-suffix, cn-shanghai.nlb.aliyuncs.com, reject
+domain-suffix, tcpgateway-ali.ctrip.com, reject
+domain-suffix, volceapplog.com, reject
+ip-cidr, 210.13.85.204/32, reject
+ip-cidr, 116.196.84.232/32, reject
+ip-cidr, 114.80.56.98/32, reject
+ip-cidr, 162.14.145.54/32, reject
+ip-cidr, 162.14.137.43/32, reject

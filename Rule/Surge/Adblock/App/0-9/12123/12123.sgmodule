@@ -1,0 +1,7 @@
+[Rule]
+# > 12123 - 12123
+domain-suffix, v3.fstats.xyz, reject
+domain-suffix, wss.haoyundmn.com, reject
+domain-suffix, new.xiongzhangad.com, reject
+domain-suffix, alexametrics.com, reject
+domain-keyword, in-page-push, reject

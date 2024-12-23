@@ -1,0 +1,4 @@
+[Rule]
+# > 360SmartCamera - 360CAM
+domain, ad.jia.360.cn, reject
+domain, ad.iot.360.cn, reject

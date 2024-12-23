@@ -1,0 +1,17 @@
+[Rule]
+# > 美团 - MEITUAN
+ip-cidr, 103.37.155.60/32, reject
+domain, flowplus.meituan.net, reject
+domain, lx0.meituan.com, reject
+domain, hlx.meituan.com, reject
+domain-suffix, lx.meituan.net, reject
+domain-suffix, httpdns.meituan.com, reject
+domain-suffix, analytics.meituan.net, reject
+domain-suffix, meituan.xn, reject
+domain-suffix, meituan.yoga, reject
+domain-suffix, meituangov.cn, reject
+domain-suffix, wmlog.meituan.com, reject
+domain-suffix, ad.e.waimai.sankuai.com, reject
+domain-suffix, mads.meituan.com, reject
+domain-suffix, d.meituan.net, reject
+domain-keyword, report.meituan, reject

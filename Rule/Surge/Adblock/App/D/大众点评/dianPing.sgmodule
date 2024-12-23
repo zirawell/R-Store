@@ -1,0 +1,8 @@
+[Rule]
+# > 大众点评 - DIANPING
+domain, dpmtpush.dianping.com, reject
+domain, dynamicf.sankuai.com, reject
+domain-suffix, lx.meituan.net, reject
+domain, tte.meituan.com, reject
+ip-cidr, 101.32.16.204/32, reject
+ip-cidr, 119.29.126.137/32, reject

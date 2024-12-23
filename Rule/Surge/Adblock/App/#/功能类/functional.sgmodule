@@ -1,0 +1,14 @@
+[Rule]
+# > 安全浏览限制解除 - UNLOCKSAFE
+domain, lookup.api.bsb.baidu.com, reject
+domain, safebrowsing.g.applimg.com, reject
+domain, safebrowsing.googleapis.com, reject
+domain, safebrowsing.urlsec.qq.com, reject
+domain-suffix, safebrowsing.apple, reject
+domain-suffix, u3.ucweb.com, reject
+# > DNS拦截 - DNSINTERCEPT
+ip-cidr, 119.29.29.98/32, reject
+ip-cidr, 119.29.29.99/32, reject
+ip-cidr, 81.71.61.216/32, reject
+# > Adobe Flash China Special Edition - ADSEUNLOCK
+domain, geo2.adobe.com, reject

@@ -1,0 +1,7 @@
+[Rule]
+# > 趣兜风 - QDF
+domain, lwlog.laiwang.com, reject
+domain-suffix, yksdks.com, reject
+domain-suffix, cpatrk.net, reject
+domain-suffix, mobsurl.com, reject
+ip-cidr, 114.67.227.198/32, reject

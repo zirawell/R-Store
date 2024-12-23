@@ -1,0 +1,11 @@
+[Rule]
+# > 高德地图 - AMAP
+domain, amap-aos-info-nogw.amap.com, reject
+domain, free-aos-cdn-image.amap.com, reject
+domain, apiinit.amap.com, reject
+domain, icloud-amap.com, reject
+domain, optimus-ads.amap.com, reject
+domain-suffix, adiu.amap.com, reject
+domain-suffix, page.amap.com, reject
+domain-keyword, logs.amap.com, reject
+domain-keyword, ads.amap.com, reject

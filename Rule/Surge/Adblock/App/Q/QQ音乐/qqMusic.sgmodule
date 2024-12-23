@@ -1,0 +1,12 @@
+[Rule]
+# > QQ音乐 - QQMUSIC
+domain, ad.tencentmusic.com, reject
+domain, adcdn.tencentmusic.com, reject
+domain, adstats.tencentmusic.com, reject
+domain, adcdn6.tencentmusic.com, reject
+domain, adexpo.tencentmusic.com, reject
+domain, adclick.tencentmusic.com, reject
+domain, mc.tencentmusic.com, reject
+domain, report.tencentmusic.com, reject
+domain, monitor.music.qq.com, reject
+domain-suffix, imtmp.net, reject

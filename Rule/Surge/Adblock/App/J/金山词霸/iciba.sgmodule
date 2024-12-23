@@ -1,0 +1,10 @@
+[Rule]
+# > 金山词霸 - ICIBA
+domain, ad-stat.ksosoft.com, reject
+domain, img.auction-ads.wpscdn.cn, reject
+domain, counter.kingsoft.com, reject
+domain, counter.ksosoft.com, reject
+domain, minfo.wps.cn, reject
+domain, mobad.ijinshan.com, reject
+domain, ups.ksmobile.net, reject
+domain, ws.ksmobile.net, reject

@@ -1,0 +1,5 @@
+[Rule]
+# > 虎扑 - HUPU
+domain, adx.hupu.com, reject
+domain, adx-api.hupu.com, reject
+domain, goblin.hupu.com, reject

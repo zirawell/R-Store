@@ -1,0 +1,7 @@
+[Rule]
+# > 哔哩哔哩 - BILIBILI(PINK)
+domain-keyword, api.sobot.com, reject
+domain-suffix, cm.ad.bilibili.com, reject
+domain-suffix, cm.adcommon.bilibili.com, reject
+domain-suffix, cm.game.bilibili.com, reject
+domain-suffix, cm.track.biligame.bilibili.com, reject

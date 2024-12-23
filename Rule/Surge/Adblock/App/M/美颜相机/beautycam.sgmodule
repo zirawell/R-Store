@@ -1,0 +1,4 @@
+[Rule]
+# > 美颜相机 - BEAUTYCAM
+domain, aaid.uyunad.com, reject
+domain, adui.tg.meitu.com, reject
