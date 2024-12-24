@@ -1,5 +1,5 @@
-[Rule]
 # > 网易云音乐 - 163MUSIC
+[Rule]
 domain, ipv4.music.163.com, reject
 domain, ipv6.music.163.com, reject
 domain, iadmat.nosdn.127.net, reject

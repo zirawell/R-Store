@@ -1,5 +1,5 @@
-[Rule]
 # > 爱奇艺 - IQIYI
+[Rule]
 domain, api.iqiyi.com, reject
 domain, cr-status.iqiyi.com, reject
 domain, f74f7f7765f8a2f6.ngaa.net.cn, reject

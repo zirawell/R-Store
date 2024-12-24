@@ -1,4 +1,4 @@
-[Rule]
 # > 58同城 - 58
+[Rule]
 domain, track.58.com, reject
 domain, tracklog.58.com, reject

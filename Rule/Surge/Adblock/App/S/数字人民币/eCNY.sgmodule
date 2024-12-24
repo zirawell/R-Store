@@ -1,5 +1,5 @@
-[Rule]
 # > 数字人民币 - ECNY
+[Rule]
 ip-cidr, 1.202.85.193/32, reject
 domain, mdc.wallet.pbcdci.cn, reject
 domain, mdap.wallet.pbcdci.cn, reject

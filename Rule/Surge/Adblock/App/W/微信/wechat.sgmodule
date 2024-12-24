@@ -1,5 +1,5 @@
-[Rule]
 # > 微信 - WECHAT
+[Rule]
 domain, badjs.weixinbridge.com, reject
 domain, dns.weixin.qq.com.cn, reject
 domain-suffix, wxs.qq.com, reject

@@ -1,5 +1,5 @@
-[Rule]
 # > 高德地图 - AMAP
+[Rule]
 domain, amap-aos-info-nogw.amap.com, reject
 domain, free-aos-cdn-image.amap.com, reject
 domain, apiinit.amap.com, reject

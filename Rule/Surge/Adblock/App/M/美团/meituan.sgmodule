@@ -1,5 +1,5 @@
-[Rule]
 # > 美团 - MEITUAN
+[Rule]
 ip-cidr, 103.37.155.60/32, reject
 domain, flowplus.meituan.net, reject
 domain, lx0.meituan.com, reject

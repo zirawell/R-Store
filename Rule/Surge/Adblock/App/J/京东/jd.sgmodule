@@ -1,5 +1,5 @@
-[Rule]
 # > 京东 - JD
+[Rule]
 domain, dns.jd.com, reject
 domain, waapdg.jd.com, reject
 domain, dsp-x.jd.com, reject

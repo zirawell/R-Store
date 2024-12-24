@@ -1,5 +1,5 @@
-[Rule]
 # > 微博 - WEIBO
+[Rule]
 domain, huodong.weibo.cn, reject
 domain, bootpreload.uve.weibo.com, reject
 domain, datacollection.uve.weibo.com, reject

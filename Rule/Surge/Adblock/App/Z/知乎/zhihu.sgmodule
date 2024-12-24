@@ -1,5 +1,5 @@
-[Rule]
 # > 知乎 - ZHIHU
+[Rule]
 user-agent, AVOS*, reject
 domain, appcloud.zhihu.com, reject
 domain, appcloud2.in.zhihu.com, reject

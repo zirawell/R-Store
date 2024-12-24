@@ -1,5 +1,5 @@
-[Rule]
 # > 中关村在线 - ZOL
+[Rule]
 domain-suffix, apppv.zol.com.cn, reject
 domain-suffix, cpro.zol.com.cn, reject
 domain-suffix, dynamic.zol.com.cn, reject

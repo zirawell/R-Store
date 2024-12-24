@@ -1,5 +1,5 @@
-[Rule]
 # > 花生地铁 - WIFI8
+[Rule]
 domain-suffix, adfile.wifi8.com, reject
 domain-suffix, adnew.wifi8.com, reject
 domain-suffix, cmsapi.wifi8.com, reject

@@ -1,5 +1,5 @@
-[Rule]
 # > 汽车之家 - AUTOHOME
+[Rule]
 domain, rd.autohome.com.cn, reject
 domain, rdx.autohome.com.cn, reject
 domain, al.autohome.com.cn, reject

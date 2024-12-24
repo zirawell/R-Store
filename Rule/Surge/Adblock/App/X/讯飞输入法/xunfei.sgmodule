@@ -1,5 +1,5 @@
-[Rule]
 # > 讯飞输入法 - XUNFEI
+[Rule]
 domain-suffix, voiceads.cn, reject
 domain-suffix, voiceads.com, reject
 domain-suffix, iflyad.bj.openstorage.cn, reject

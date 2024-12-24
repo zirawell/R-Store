@@ -1,5 +1,5 @@
-[Rule]
 # > 趣兜风 - QDF
+[Rule]
 domain, lwlog.laiwang.com, reject
 domain-suffix, yksdks.com, reject
 domain-suffix, cpatrk.net, reject

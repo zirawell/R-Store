@@ -1,5 +1,5 @@
-[Rule]
 # > 今日头条 - TOUTIAO
+[Rule]
 domain-suffix, ad.toutiao.com, reject
 domain-suffix, dm.toutiao.com, reject
 domain-suffix, dsp.toutiao.com, reject

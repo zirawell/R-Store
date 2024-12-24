@@ -1,5 +1,5 @@
-[Rule]
 # > keep - KEEP
+[Rule]
 domain, hc-ssp.sm.cn, reject
 domain, apm.gotokeep.com, reject
 domain, kad.gotokeep.com, reject

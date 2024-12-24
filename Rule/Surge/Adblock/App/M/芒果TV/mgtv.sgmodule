@@ -1,5 +1,5 @@
-[Rule]
 # > 芒果TV - MGTV
+[Rule]
 domain, credits.bz.mgtv.com, reject
 domain, credits2.bz.mgtv.com, reject
 domain, credits3.bz.mgtv.com, reject

@@ -1,5 +1,5 @@
-[Rule]
 # > 番茄小说 - FANQIE
+[Rule]
 domain, content-open.douyin.com, reject
 domain, webcast-open.douyin.com, reject
 domain, lf-webcast-gr-sourcecdn.bytegecko.com, reject

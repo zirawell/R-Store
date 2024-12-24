@@ -1,5 +1,5 @@
-[Rule]
 # > 小鹏汽车 - XPENG
+[Rule]
 domain, applog-perf.uc.cn, reject
 domain, woodpecker.uc.cn, reject
 domain, collect.xiaopeng.com, reject

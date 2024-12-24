@@ -1,5 +1,5 @@
-[Rule]
 # > 搜狐 - SOHU
+[Rule]
 domain-suffix, ad.sohu.com, reject
 domain-suffix, ads.sohu.com, reject
 domain-suffix, aty.sohu.com, reject

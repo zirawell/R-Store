@@ -1,5 +1,5 @@
-[Rule]
 # > 太平洋电脑 - PCONLINE
+[Rule]
 domain, ad-analysis.pconline.com.cn, reject
 domain, iad0ssl.pcauto.com.cn, reject
 domain, iad0ssl.pconline.com.cn, reject

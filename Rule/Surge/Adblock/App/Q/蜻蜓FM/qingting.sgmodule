@@ -1,5 +1,5 @@
-[Rule]
 # > 蜻蜓FM - QINGTING
+[Rule]
 domain, ad.qingting.fm, reject
 domain, adlaunch.qingting.fm, reject
 domain, ad-cdn.qingting.fm, reject
