@@ -1,3 +1,3 @@
-[Rule]
 # > 领英 - LINKEDIN
+[Rule]
 domain-suffix, ads.linkedin.com, reject

@@ -1,4 +1,4 @@
-[Rule]
 # > snapchat - SNAPCHAT
+[Rule]
 domain, ads.snapchat.com, reject
 domain, adsapi.snapchat.com, reject

@@ -1,5 +1,5 @@
-[Rule]
 # > 拼多多 - PDD
+[Rule]
 ip-cidr, 81.69.208.12/32, reject
 ip-cidr, 81.69.130.131/32, reject
 ip-cidr, 81.69.105.56/32, reject

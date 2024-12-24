@@ -1,5 +1,5 @@
-[Rule]
 # > 优酷 - YOUKU
+[Rule]
 domain, amdc.m.youku.com, reject
 domain, apiv4-iyes.youku.com, reject
 domain, api.sm.cn, reject

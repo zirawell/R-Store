@@ -1,5 +1,5 @@
-[Rule]
 # > 哔哩哔哩(国际版) - BILIBILI(WHITE)
+[Rule]
 domain, ptom.caohua.com, reject
 domain, tracking.leiting.com, reject
 domain, ads.games.laohu.com, reject

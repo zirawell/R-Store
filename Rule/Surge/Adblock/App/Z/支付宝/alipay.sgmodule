@@ -1,5 +1,5 @@
-[Rule]
 # > 支付宝 - ALIPAY
+[Rule]
 domain, adgw.alipay.com, reject
 domain, amdc.alipay.com, reject
 domain, amdc-sibling.alipay.com.cn, reject

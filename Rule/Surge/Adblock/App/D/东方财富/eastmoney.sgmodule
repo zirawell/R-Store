@@ -1,4 +1,4 @@
-[Rule]
 # > 东方财富 - EASTMONEY
+[Rule]
 domain, emdcadvertise.eastmoney.com,reject
 domain, emdcadvertisepj.eastmoney.com, reject

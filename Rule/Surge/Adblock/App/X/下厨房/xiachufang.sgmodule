@@ -1,4 +1,4 @@
-[Rule]
 # > 下厨房 - XIACHUFANG
+[Rule]
 domain-suffix, baidu-union-js.xiachufang.com, reject
 domain-suffix, baidu-union-pos.xiachufang.com, reject

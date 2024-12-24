@@ -1,3 +1,3 @@
-[Rule]
 # > 马蜂窝 - MAFENGWO
+[Rule]
 domain-suffix, advert.mafengwo.cn, reject

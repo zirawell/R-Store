@@ -1,5 +1,5 @@
-[Rule]
 # > 酷狗音乐 - KUGOU
+[Rule]
 domain, ads.service.kugou.com, reject
 domain, adserviceretry.kugou.com, reject
 domain, adserviceretry.kglink.cn, reject

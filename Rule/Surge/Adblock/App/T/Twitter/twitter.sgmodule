@@ -1,5 +1,5 @@
-[Rule]
 # > twitter - TWITTER
+[Rule]
 domain, analytics.twitter.com, reject
 domain-suffix, ads-twitter.com, reject
 domain-suffix, p.twitter.com, reject

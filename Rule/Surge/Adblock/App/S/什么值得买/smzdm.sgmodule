@@ -1,5 +1,5 @@
-[Rule]
 # > 什么值得买 - SMZDM
+[Rule]
 domain, api.zuihuimai.com, reject
 domain, analytics-api.smzdm.com, reject
 domain, ynuf.aliapp.org, reject

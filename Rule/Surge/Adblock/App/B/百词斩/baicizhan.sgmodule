@@ -1,4 +1,4 @@
-[Rule]
 # > 百词斩 - BAICIZHAN
+[Rule]
 domain, advertise.baicizhan.com, reject
 domain, advertise.baicizhan.org, reject

@@ -1,4 +1,4 @@
-[Rule]
 # > 航旅纵横 - UMETRIP
+[Rule]
 domain, analytics.umetrip.com, reject
 domain, sensors.umetrip.com.cn, reject

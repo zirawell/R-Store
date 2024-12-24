@@ -1,5 +1,5 @@
-[Rule]
 # > 12123 - 12123
+[Rule]
 domain-suffix, v3.fstats.xyz, reject
 domain-suffix, wss.haoyundmn.com, reject
 domain-suffix, new.xiongzhangad.com, reject

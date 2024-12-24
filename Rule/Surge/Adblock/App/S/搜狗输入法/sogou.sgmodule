@@ -1,5 +1,5 @@
-[Rule]
 # > 搜狗输入法 - SOGOU
+[Rule]
 domain-suffix, adsence.sogou.com, reject
 domain-suffix, amfi.gou.sogou.com, reject
 domain-suffix, bazinga.mse.sogou.com, reject

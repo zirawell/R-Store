@@ -1,5 +1,5 @@
-[Rule]
 # > 埋堆堆 - MDD
+[Rule]
 domain, toblog.ctobsnssdk.com, reject
 domain, t-dsp.pinduoduo.com, reject
 domain, sdk1xyajs.data.kuiniuca.com, reject

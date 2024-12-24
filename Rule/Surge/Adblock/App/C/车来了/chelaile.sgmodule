@@ -1,5 +1,5 @@
-[Rule]
 # > 车来了 - CHELAILE
+[Rule]
 domain, atrace.chelaile.net.cn, reject
 domain, logs.chelaile.net.cn, reject
 domain, ad.chelaile.net.cn, reject

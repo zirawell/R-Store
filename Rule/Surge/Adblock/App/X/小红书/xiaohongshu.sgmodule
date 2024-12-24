@@ -1,5 +1,5 @@
-[Rule]
 # > 小红书 - XIAOHONGSHU
+[Rule]
 domain, ads-img-qc.xhscdn.com, reject
 domain, ads-video-al.xhscdn.com, reject
 domain, ads-video-qc.xhscdn.com, reject

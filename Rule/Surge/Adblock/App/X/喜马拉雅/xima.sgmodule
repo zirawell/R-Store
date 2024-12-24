@@ -1,5 +1,5 @@
-[Rule]
 # > 喜马拉雅 - XIMA
+[Rule]
 domain, adbehavior.ximalaya.com, reject
 domain, adwbs.ximalaya.com, reject
 domain-suffix, ad.test.ximalaya.com, reject

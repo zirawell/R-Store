@@ -1,5 +1,5 @@
-[Rule]
 # > 快手 - KUAISHOU
+[Rule]
 domain-suffix, e.kuaishou.com, reject
 domain-suffix, cm.downloader.commercial.kuaishou.com, reject
 domain-suffix, cm.ad.gifshow.com, reject

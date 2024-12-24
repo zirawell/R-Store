@@ -1,5 +1,5 @@
-[Rule]
 # > 携程旅行 - CTRIP
+[Rule]
 domain, sofire.baidu.com, reject
 domain-suffix, cn-shanghai.nlb.aliyuncs.com, reject
 domain-suffix, tcpgateway-ali.ctrip.com, reject
