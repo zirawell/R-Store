@@ -1,4 +1,5 @@
 # > 云闪付 - 95516
+
 [Rule]
 domain, switch.cup.com.cn, reject
 domain, ads.cup.com.cn, reject

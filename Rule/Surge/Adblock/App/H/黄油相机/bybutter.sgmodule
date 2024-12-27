@@ -1,4 +1,5 @@
 # > 黄油相机 - BYBUTTER
+
 [Rule]
 domain-suffix, anythinktech.com, reject
 domain-suffix, adkwai.com, reject

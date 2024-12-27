@@ -1,3 +1,4 @@
 # > 中国联通 - 10010
+
 [Rule]
 domain-suffix, ad.10010.com, reject

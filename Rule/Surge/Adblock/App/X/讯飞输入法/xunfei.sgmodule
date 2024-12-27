@@ -1,4 +1,5 @@
 # > 讯飞输入法 - XUNFEI
+
 [Rule]
 domain-suffix, voiceads.cn, reject
 domain-suffix, voiceads.com, reject

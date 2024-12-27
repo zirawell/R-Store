@@ -1,3 +1,4 @@
 # > youtube - YOUTUBE
+
 [Rule]
 domain, ads.youtube.com, reject

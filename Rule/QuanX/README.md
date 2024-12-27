@@ -78,7 +78,6 @@ R-Store/Rule/QuanX
 | Web    | 1 |
 
 ## Thanks To
-
 - [@app2smile](https://github.com/app2smile)
 - [@blackmatrix7](https://github.com/blackmatrix7)
 - [@DivineEngine](https://github.com/DivineEngine)

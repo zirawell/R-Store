@@ -1,4 +1,5 @@
 # > soul - SOUL
+
 [Rule]
 domain, ad-h5-cdn.soulapp.cn, reject
 domain, ad-h5-station-cdn.soulapp.cn, reject

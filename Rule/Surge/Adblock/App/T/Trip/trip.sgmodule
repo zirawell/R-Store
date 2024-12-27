@@ -1,4 +1,5 @@
 # > trip - TRIP
+
 [Rule]
 domain, firebaseinstallations.googleapis.com, reject
 domain, ocsp.pki.goog, reject

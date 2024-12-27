@@ -1,4 +1,5 @@
 # > 财新 - CAIXIN
+
 [Rule]
 domain-suffix, apollo.caixin.com, reject
 domain-suffix, logstat.caixin.com, reject

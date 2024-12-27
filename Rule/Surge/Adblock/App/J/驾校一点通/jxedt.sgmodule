@@ -1,4 +1,5 @@
 # > 驾校一点通 - JXEDT
+
 [Rule]
 domain, richmanapi.jxedt.com, reject
 domain, richmanmain.jxedt.com, reject

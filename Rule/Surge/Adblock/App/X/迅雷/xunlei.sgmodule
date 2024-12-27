@@ -1,4 +1,5 @@
 # > 迅雷 - XUNLEI
+
 [Rule]
 domain, adsp.xunlei.com, reject
 domain, etl.xlmc.sandai.net, reject

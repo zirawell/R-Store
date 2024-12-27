@@ -1,4 +1,5 @@
 # > QQ音乐 - QQMUSIC
+
 [Rule]
 domain, ad.tencentmusic.com, reject
 domain, adcdn.tencentmusic.com, reject

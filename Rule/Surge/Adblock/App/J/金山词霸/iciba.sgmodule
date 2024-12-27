@@ -1,4 +1,5 @@
 # > 金山词霸 - ICIBA
+
 [Rule]
 domain, ad-stat.ksosoft.com, reject
 domain, img.auction-ads.wpscdn.cn, reject
