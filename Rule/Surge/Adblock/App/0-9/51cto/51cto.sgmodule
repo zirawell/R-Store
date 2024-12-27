@@ -1,4 +1,5 @@
 # > 51cto - 51CTO
+
 [Rule]
 domain, smartop-sdkapi.jiguang.cn, reject
 domain, smartop-sdkapi-ipv6.jiguang.cn, reject

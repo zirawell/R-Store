@@ -1,4 +1,5 @@
 # > 墨迹天气 - MOJI
+
 [Rule]
 domain, ad.api.moji.com, reject
 domain, adlaunch.moji.com, reject

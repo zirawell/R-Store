@@ -1,4 +1,5 @@
 # > 网易有道词典 - 163YOUDAO
+
 [Rule]
 domain, gorgon.youdao.com, reject
 domain-suffix, a.youdao.com, reject

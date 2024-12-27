@@ -1,4 +1,5 @@
 # > 咪咕视频 - MIGUVIDEO
+
 [Rule]
 domain, ggic03.miguvideo.com, reject
 domain, ggmk.miguvideo.com, reject

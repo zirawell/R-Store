@@ -1,4 +1,5 @@
 # > 中国电信 - 189
+
 [Rule]
 domain, ad.21cn.com, reject
 domain, ad.k.21cn.com, reject

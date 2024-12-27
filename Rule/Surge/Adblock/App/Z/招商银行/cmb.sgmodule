@@ -1,4 +1,5 @@
 # > 招商银行 - CMBCHINA
+
 [Rule]
 domain, mbads.paas.cmbchina.com, reject
 domain, yl.zh.cmbchina.com, reject

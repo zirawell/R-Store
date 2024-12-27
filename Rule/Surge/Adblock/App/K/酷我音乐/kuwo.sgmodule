@@ -1,4 +1,5 @@
 # > 酷我音乐 - KUWO
+
 [Rule]
 domain-suffix, g.koowo.com, reject
 domain-suffix, c.kuwo.cn, reject

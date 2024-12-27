@@ -1,5 +1,22 @@
-[Rule]
 # > 广告联盟 - ADUNION
+# > 神策 - SENSORDATA
+# > GozenData - GOZENDATA
+# > 字节 - BYTEDANCE
+# > 快手 - KUAISHOU
+# > 友盟 - UMENG
+# > 谷歌 - GOOGLE
+# > 微软 - MICROSOFT
+# > 苹果 - APPLE
+# > 雅虎 - YAHOO
+# > 个推 - GETUI
+# > Unity3d - UNITY3D
+# > 腾讯 - TENCENT
+# > 百度 - BAIDU
+# > 阿里 - ALIBABA
+# > 网易 - NETEASE
+# > 新浪 - SINA
+
+[Rule]
 domain, adtracker.adfunlink.com, reject
 domain, init.supersonicads.com, reject
 domain, ws.tapjoyads.com, reject
@@ -58,13 +75,10 @@ domain-keyword, ads.g.doubleclick, reject
 domain-keyword, iflyad.bj.openstorage.cn, reject
 domain-keyword, bjimp.voiceads.cn, reject
 domain-keyword, sdk.1rtb.net, reject
-# > 神策 - SENSORDATA
 domain-keyword, sensorsdata.cn, reject
-# > GozenData - GOZENDATA
 domain-suffix, gozendata.com, reject
 domain-suffix, gzads.com, reject
 domain-suffix, gz-data.com, reject
-# > 字节 - BYTEDANCE
 domain, dig.zjurl.cn, reject
 domain, ad.zijieapi.com, reject
 domain, applog.zijieapi.com, reject
@@ -110,16 +124,13 @@ domain-keyword, asiad.byteactivity, reject
 domain-keyword, pangolin-sdk-toutiao, reject
 domain-keyword, pangolin.snssdk.com, reject
 domain-keyword, pglstatp-toutiao, reject
-# > 快手 - KUAISHOU
 domain, gdfp.gifshow.com, reject
 domain, open.kuaishou.com, reject
 domain, open.e.kuaishou.com, reject
 domain-suffix, kuaishouzt.com, reject
 domain-suffix, adukwai.com, reject
-# > 友盟 - UMENG
 domain-suffix, umeng.com, reject
 domain-suffix, umengcloud.com, reject
-# > 谷歌 - GOOGLE
 domain-suffix, googleadsserving.cn, reject
 domain-suffix, googleadservices.com, reject
 domain-suffix, googlecommerce.com, reject
@@ -132,12 +143,10 @@ domain-suffix, googletagmanager.com, reject
 domain-suffix, l.google.com, reject
 domain-keyword, pagead2.google, reject
 domain-keyword, ad.google, reject
-# > 微软 - MICROSOFT
 domain-suffix, ads1.msn.com, reject
 domain-suffix, ads2.msn.com, reject
 domain-keyword, ads.msn.com, reject
 domain-keyword, ads.microsoft.com, reject
-# > 苹果 - APPLE
 domain, advertising.apple.com, reject
 domain, api-adservices.apple.com, reject
 domain, apple.comscoreresearch.com, reject
@@ -156,7 +165,6 @@ domain, webproxy-advp.iad-apple.com.akadns.net, reject
 domain-suffix, advp.apple.com, reject
 domain-suffix, iad-apple.com, reject
 domain-suffix, iadsdk.apple.com, reject
-# > 雅虎 - YAHOO
 domain, admarketing.yahoo.net, reject
 domain, ads.auctions.yahoo.com, reject
 domain, ads.finance.yahoo.com, reject
@@ -165,15 +173,12 @@ domain-suffix, adspecs.yahoo.com, reject
 domain-suffix, advertising.yahoo.com, reject
 domain-suffix, gemini.yahoo.com, reject
 domain-keyword, ads.yahoo, reject
-# > 个推 - GETUI
 domain-suffix, mobileservice.cn, reject
 domain-suffix, getui.com, reject
 domain-suffix, getui.net, reject
 domain-suffix, gepush.com, reject
 domain-suffix, igexin.com, reject
-# > Unity3d - UNITY3D
 domain-suffix, unityads.unity3d.com, reject
-# > 腾讯 - TENCENT
 domain, dns.qq.com, reject
 domain, mazu.m.qq.com, reject
 domain, appsupport.qq.com, reject
@@ -273,7 +278,6 @@ domain-keyword, pgdt.gtimg.c, reject
 domain-keyword, trace.qq.com, reject
 domain-keyword, trace.video.qq.com, reject
 ip-cidr, 47.110.187.87/32, reject
-# > 百度 - BAIDU
 domain, als.baidu.com, reject
 domain, duclick.baidu.com, reject
 domain, mobads.baidu.com, reject
@@ -420,7 +424,6 @@ domain-suffix, yingxiao.baidu.com, reject
 domain-suffix, znsv.baidu.com, reject
 ip-cidr, 180.76.76.112/32, reject
 ip-cidr, 180.76.76.200/32, reject
-# > 阿里 - ALIBABA
 domain, o2o-ad-log-gateway.alibaba.com, reject
 domain, eco.taobao.com, reject
 domain, ossgw.alicdn.com, reject
@@ -441,7 +444,6 @@ domain-suffix, nbsdk-baichuan.alicdn.com, reject
 domain-suffix, strip.alicdn.com, reject
 domain-suffix, unidesk.alicdn.com, reject
 domain-keyword, dns.alidns.com, reject
-# > 网易 - NETEASE
 domain, nex.163.com, reject
 domain, iad.g.163.com, reject
 domain, n.3g.163.com, reject
@@ -452,7 +454,6 @@ domain, yt-adp.nosdn.127.net, reject
 domain, yt-adp.ws.126.net, reject
 domain-suffix, analytics.163.com, reject
 domain-suffix, httpdns.n.netease.com, reject
-# > 新浪 - SINA
 domain-suffix, ad.sina.com.cn, reject
 domain-suffix, ad4.sina.com.cn, reject
 domain-suffix, adbox.sina.com.cn, reject
