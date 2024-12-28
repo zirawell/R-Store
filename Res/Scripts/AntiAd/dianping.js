@@ -1,6 +1,7 @@
 /********************************
 Dianping Remove Ads - Version 1.0
 Please note that you may need to reinstall app for script to work.
+Works for version 11.28.3 and below. Version ID: 870198258
 
 QuantumultX rewrite link:
 https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/App/D/大众点评/rewrite/dianPing.conf
