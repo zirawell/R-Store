@@ -1,7 +1,7 @@
 # T
 <details>
 <summary>
-本目录共收录31个App，详情见如下：
+本目录共收录32个App，详情见如下：
 </summary>
 
 - [Talkatone](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/T/Talkatone)
@@ -25,6 +25,7 @@
 - [太平洋电脑](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/T/%E5%A4%AA%E5%B9%B3%E6%B4%8B%E7%94%B5%E8%84%91)
 - [太平洋知科技](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/T/%E5%A4%AA%E5%B9%B3%E6%B4%8B%E7%9F%A5%E7%A7%91%E6%8A%80)
 - [推栏](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/T/%E6%8E%A8%E6%A0%8F)
+- [推送加](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/T/%E6%8E%A8%E9%80%81%E5%8A%A0)
 - [淘宝](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/T/%E6%B7%98%E5%AE%9D)
 - [淘淘阅读](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/T/%E6%B7%98%E6%B7%98%E9%98%85%E8%AF%BB)
 - [淘票票](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/T/%E6%B7%98%E7%A5%A8%E7%A5%A8)
