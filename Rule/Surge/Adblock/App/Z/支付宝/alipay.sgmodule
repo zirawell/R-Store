@@ -3,6 +3,7 @@
 [Rule]
 domain, adgw.alipay.com, reject
 domain, amdc.alipay.com, reject
+domain, rtms.alipay.com, reject
 domain, amdc-sibling.alipay.com.cn, reject
 domain-suffix, mdap.alipay.com, reject
 domain-suffix, ynuf.alipay.com, reject
