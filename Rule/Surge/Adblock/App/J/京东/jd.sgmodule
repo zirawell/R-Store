@@ -13,7 +13,6 @@ domain-suffix, img-x.jd.com, reject
 domain-suffix, du.jd.com, reject
 domain-suffix, c-nfa.jd.com, reject
 domain-suffix, cm.jd.com, reject
-domain-keyword, policy.jd.com, reject
 domain-keyword, kepler.jd.com, reject
 domain-keyword, bdsp.x.jd.com, reject
 domain-keyword, keplerapi.jd.com, reject
