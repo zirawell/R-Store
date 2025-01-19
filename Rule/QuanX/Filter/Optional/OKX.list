@@ -1,0 +1,9 @@
+#!name=OKX Filter
+#!homepage=https://github.com/zirawell/R-Store
+#!raw-url=https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Filter/Optional/OKX.list
+#!tg-group=https://t.me/lanjieguanggao
+#!date=2024-11-08 10:24:00
+#!---------------------------------------------------------------------------------------------------------------
+HOST-SUFFIX, okex.com, OKX
+HOST-SUFFIX, oklink.com, OKX
+HOST-SUFFIX, okx.com, OKX
