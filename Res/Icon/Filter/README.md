@@ -1,5 +1,5 @@
 # Filter Icon Library
-This directory collects filters' icons.
+This directory stores filters' icons.
 
 ```
 Icon Parameters:
