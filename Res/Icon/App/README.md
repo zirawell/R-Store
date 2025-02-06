@@ -1,7 +1,11 @@
 # App Icon Library
-The directory collects app icons.
+This directory collects apps' icons.
 
-Icon Parameter:
-- Width: 108 pixels
-- Height: 108 pixels
-- Resolution: 72 pixels/inch
+```
+Icon Parameters:
+W: 108 pixels
+H: 108 pixels
+R: 72 pixels/inch
+
+W-Width, H-Height, R-Resolution
+```
