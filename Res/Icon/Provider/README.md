@@ -1,5 +1,5 @@
 # Provider Icon Library
-This directory collects providers' icons.
+This directory stores providers' icons.
 
 ```
 Icon Parameters:

@@ -1,5 +1,5 @@
 # Country Icon Library
-This directory collects countries' icons.
+This directory stores countries' icons.
 
 - R : Round Icons
 - S : Square Icons

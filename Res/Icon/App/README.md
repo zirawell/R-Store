@@ -1,5 +1,5 @@
 # App Icon Library
-This directory collects apps' icons.
+This directory stores apps' icons.
 
 ```
 Icon Parameters:
