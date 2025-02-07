@@ -1,0 +1,47 @@
+{
+  "name": "Country Round Icons",
+  "description": "collected by zirawell",
+  "time": "2025-02-07",
+  "icons": [
+    {
+      "name": "US",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/Country/R/US.png"
+    },
+    {
+      "name": "CN",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/Country/R/CN.png"
+    },
+    {
+      "name": "MO",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/Country/R/MO.png"
+    },
+    {
+      "name": "UN",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/Country/R/UN.png"
+    },
+    {
+      "name": "SG",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/Country/R/SG.png"
+    },
+    {
+      "name": "JP",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/Country/R/JP.png"
+    },
+    {
+      "name": "HK",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/Country/R/HK.png"
+    },
+    {
+      "name": "UK",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/Country/R/UK.png"
+    },
+    {
+      "name": "TW",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/Country/R/TW.png"
+    },
+    {
+      "name": "KR",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/Country/R/KR.png"
+    }
+  ]
+}

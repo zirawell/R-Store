@@ -1,0 +1,239 @@
+{
+  "name": "All Icons",
+  "description": "collected by zirawell",
+  "time": "2025-02-07",
+  "icons": [
+    {
+      "name": "gd",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/gd.png"
+    },
+    {
+      "name": "bilibili",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/bilibili.png"
+    },
+    {
+      "name": "nga",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/nga.png"
+    },
+    {
+      "name": "jhsh",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/jhsh.png"
+    },
+    {
+      "name": "sgcc",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/sgcc.png"
+    },
+    {
+      "name": "ctrip",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/ctrip.png"
+    },
+    {
+      "name": "bilibiliManga",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/bilibiliManga.png"
+    },
+    {
+      "name": "hzh",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/hzh.png"
+    },
+    {
+      "name": "US",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/Country/S/US.png"
+    },
+    {
+      "name": "TW",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/Country/S/TW.png"
+    },
+    {
+      "name": "UN",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/Country/S/UN.png"
+    },
+    {
+      "name": "US",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/Country/R/US.png"
+    },
+    {
+      "name": "HK",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/Country/S/HK.png"
+    },
+    {
+      "name": "MO",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/Country/R/MO.png"
+    },
+    {
+      "name": "UN",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/Country/R/UN.png"
+    },
+    {
+      "name": "EU",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/Country/S/EU.png"
+    },
+    {
+      "name": "RU",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/Country/S/RU.png"
+    },
+    {
+      "name": "SG",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/Country/S/SG.png"
+    },
+    {
+      "name": "UK",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/Country/S/UK.png"
+    },
+    {
+      "name": "HK",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/Country/R/HK.png"
+    },
+    {
+      "name": "UK",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/Country/R/UK.png"
+    },
+    {
+      "name": "TW",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/Country/R/TW.png"
+    },
+    {
+      "name": "KR",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/Country/R/KR.png"
+    },
+    {
+      "name": "KR",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/Country/S/KR.png"
+    },
+    {
+      "name": "CN",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/Country/R/CN.png"
+    },
+    {
+      "name": "SG",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/Country/R/SG.png"
+    },
+    {
+      "name": "JP",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/Country/R/JP.png"
+    },
+    {
+      "name": "JP",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/Country/S/JP.png"
+    },
+    {
+      "name": "Buzznet",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/Filter/Buzznet.png"
+    },
+    {
+      "name": "CMedia",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/Filter/CMedia.png"
+    },
+    {
+      "name": "OpenAI",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/Filter/OpenAI.png"
+    },
+    {
+      "name": "Netflix",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/Filter/Netflix.png"
+    },
+    {
+      "name": "Speedtest",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/Filter/Speedtest.png"
+    },
+    {
+      "name": "Linkedin",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/Filter/Linkedin.png"
+    },
+    {
+      "name": "Bilibili",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/Filter/Bilibili.png"
+    },
+    {
+      "name": "Apple",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/Filter/Apple.png"
+    },
+    {
+      "name": "AdBlock",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/Filter/AdBlock.png"
+    },
+    {
+      "name": "Outside",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/Filter/Outside.png"
+    },
+    {
+      "name": "Microsoft",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/Filter/Microsoft.png"
+    },
+    {
+      "name": "YouTube",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/Filter/YouTube.png"
+    },
+    {
+      "name": "Telegram",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/Filter/Telegram.png"
+    },
+    {
+      "name": "Twitter",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/Filter/Twitter.png"
+    },
+    {
+      "name": "Local",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/Filter/Local.png"
+    },
+    {
+      "name": "Paypal",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/Filter/Paypal.png"
+    },
+    {
+      "name": "Spotify",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/Filter/Spotify.png"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/Filter/Instagram.png"
+    },
+    {
+      "name": "Mainland",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/Filter/Mainland.png"
+    },
+    {
+      "name": "NetEase_Music",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/Filter/NetEase_Music.png"
+    },
+    {
+      "name": "GMedia",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/Filter/GMedia.png"
+    },
+    {
+      "name": "WeChat",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/Filter/WeChat.png"
+    },
+    {
+      "name": "Others",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/Filter/Others.png"
+    },
+    {
+      "name": "TikTok",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/Filter/TikTok.png"
+    },
+    {
+      "name": "Xqc",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/Provider/Xqc.png"
+    },
+    {
+      "name": "Flower",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/Provider/Flower.png"
+    },
+    {
+      "name": "Enet",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/Provider/Enet.png"
+    },
+    {
+      "name": "Mojie",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/Provider/Mojie.png"
+    },
+    {
+      "name": "Boom",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/Provider/Boom.png"
+    },
+    {
+      "name": "Cnix",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/Provider/Cnix.png"
+    }
+  ]
+}

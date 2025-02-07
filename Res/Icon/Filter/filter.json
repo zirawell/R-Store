@@ -1,0 +1,103 @@
+{
+  "name": "Filter Icons",
+  "description": "collected by zirawell",
+  "time": "2025-02-07",
+  "icons": [
+    {
+      "name": "Buzznet",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/Filter/Buzznet.png"
+    },
+    {
+      "name": "CMedia",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/Filter/CMedia.png"
+    },
+    {
+      "name": "OpenAI",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/Filter/OpenAI.png"
+    },
+    {
+      "name": "Netflix",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/Filter/Netflix.png"
+    },
+    {
+      "name": "Speedtest",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/Filter/Speedtest.png"
+    },
+    {
+      "name": "Linkedin",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/Filter/Linkedin.png"
+    },
+    {
+      "name": "Bilibili",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/Filter/Bilibili.png"
+    },
+    {
+      "name": "Apple",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/Filter/Apple.png"
+    },
+    {
+      "name": "AdBlock",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/Filter/AdBlock.png"
+    },
+    {
+      "name": "Outside",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/Filter/Outside.png"
+    },
+    {
+      "name": "Microsoft",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/Filter/Microsoft.png"
+    },
+    {
+      "name": "YouTube",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/Filter/YouTube.png"
+    },
+    {
+      "name": "Telegram",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/Filter/Telegram.png"
+    },
+    {
+      "name": "Twitter",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/Filter/Twitter.png"
+    },
+    {
+      "name": "Local",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/Filter/Local.png"
+    },
+    {
+      "name": "Paypal",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/Filter/Paypal.png"
+    },
+    {
+      "name": "Spotify",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/Filter/Spotify.png"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/Filter/Instagram.png"
+    },
+    {
+      "name": "Mainland",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/Filter/Mainland.png"
+    },
+    {
+      "name": "NetEase_Music",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/Filter/NetEase_Music.png"
+    },
+    {
+      "name": "GMedia",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/Filter/GMedia.png"
+    },
+    {
+      "name": "WeChat",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/Filter/WeChat.png"
+    },
+    {
+      "name": "Others",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/Filter/Others.png"
+    },
+    {
+      "name": "TikTok",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/Filter/TikTok.png"
+    }
+  ]
+}
