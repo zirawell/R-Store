@@ -1,0 +1,29 @@
+{
+  "name": "Provider Icons",
+  "icons": [
+    {
+      "name": "Xqc",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/Provider/Xqc.png"
+    },
+    {
+      "name": "Flower",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/Provider/Flower.png"
+    },
+    {
+      "name": "Enet",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/Provider/Enet.png"
+    },
+    {
+      "name": "Mojie",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/Provider/Mojie.png"
+    },
+    {
+      "name": "Boom",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/Provider/Boom.png"
+    },
+    {
+      "name": "Cnix",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/Provider/Cnix.png"
+    }
+  ]
+}

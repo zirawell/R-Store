@@ -1,0 +1,39 @@
+{
+  "name": "App Icons",
+  "description": "collected by zirawell",
+  "time": "2025-02-07",
+  "icons": [
+    {
+      "name": "gd",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/gd.png"
+    },
+    {
+      "name": "bilibili",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/bilibili.png"
+    },
+    {
+      "name": "nga",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/nga.png"
+    },
+    {
+      "name": "jhsh",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/jhsh.png"
+    },
+    {
+      "name": "sgcc",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/sgcc.png"
+    },
+    {
+      "name": "ctrip",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/ctrip.png"
+    },
+    {
+      "name": "bilibiliManga",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/bilibiliManga.png"
+    },
+    {
+      "name": "hzh",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/hzh.png"
+    }
+  ]
+}
