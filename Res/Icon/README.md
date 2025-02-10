@@ -1,5 +1,6 @@
 # Icon Library
 This directory stores various kinds of icons.
+Main from other projects, some from Internet.
 
 ## Directory Structure
 ```
@@ -36,3 +37,7 @@ https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/Filter/filter.j
 ```
 https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/Provider/provider.json
 ```
+
+### Source Icon Projects
+- [Hand-Painted-icon](https://github.com/Semporia/Hand-Painted-icon)
+- [mini](https://github.com/Orz-3/mini)
