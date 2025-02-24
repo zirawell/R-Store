@@ -20,7 +20,7 @@
 | 1 | [`QuanX`](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX) | 完善中 |
 | 2 | [`Surge`](https://github.com/zirawell/R-Store/tree/main/Rule/Surge) | 待建设 |
 
-### [`QuanX`](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX)规则
+### `QuanX`规则
 
 此项目中，[App](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App)目录下;
 
@@ -28,28 +28,15 @@
 
 高阶用户可以自行寻找所需的具体某个App的规则进行引用；
 
-如果不想根据单个App引用规则，本仓库也提供了无脑全部引用的形式
+如果不想根据单个App引用规则，本仓库也提供了一键导入:
 
-#### 全部App规则引用
-```
-https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/All/filter/appAdBlock.list
-https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/All/rewrite/appAdRewrite.conf
-```
-#### 全部微信小程序规则引用
-```
-https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/All/filter/wechatAdBlock.list
-https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/All/rewrite/wechatAdRewrite.conf
-```
-#### 全部支付宝小程序规则引用
-```
-https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/All/filter/alipayAdBlock.list
-https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/All/rewrite/alipayAdRewrite.conf
-```
-#### 以上全部规则引用
-```
-https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/All/filter/allAdBlock.list
-https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/All/rewrite/allAdRewrite.conf
-```
+- [全部规则](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FAll%2Ffilter%2FallAdBlock.list%2C%20tag%3DAdblock%22%5D%2C%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FAll%2Frewrite%2FallAdRewrite.conf%2C%20tag%3DAdblock%22%5D%7D)
+
+- [app规则](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FAll%2Ffilter%2FappAdBlock.list%2C%20tag%3DApp%22%5D%2C%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FAll%2Frewrite%2FappAdRewrite.conf%2C%20tag%3DApp%22%5D%7D)
+
+- [微信小程序](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FAll%2Ffilter%2FwechatAdBlock.list%2C%20tag%3DWechat%22%5D%2C%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FAll%2Frewrite%2FwechatAdRewrite.conf%2C%20tag%3DWechat%22%5D%7D)
+
+- [支付宝小程序](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FAll%2Ffilter%2FalipayAdBlock.list%2C%20tag%3DAlipay%22%5D%2C%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FAll%2Frewrite%2FalipayAdRewrite.conf%2C%20tag%3DAlipay%22%5D%7D)
 
 
 
