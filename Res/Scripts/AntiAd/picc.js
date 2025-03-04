@@ -18,7 +18,9 @@ const actions = {
     obj.data.templates = obj.data.templates.filter(e => !e.name?.match(/主轮播图|保险推荐|专享|腰封轮播图|浮标配置|二楼营销位|首页主题/));
   },
   'myPageConfigList': () => {
-    obj.data.YFList = [];
+    if (obj?.data?.YFList) {
+      obj.data.YFList = [];
+    }
   }
 };
 
