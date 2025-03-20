@@ -48,7 +48,7 @@ R-Store/Rule/QuanX
 ### Alipay Applet Index
 | I  | N  | D  | X  |
 |----|----|----|----|
-| A  | B  | C  | D  |
+| A  | B  | [C](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/Applet/Alipay/C)  | D  |
 | [E](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/Applet/Alipay/E)  | F  | G  | H  |
 | I  | J  | K  | L  |
 | M  | N  | O  | P  |
@@ -71,10 +71,10 @@ R-Store/Rule/QuanX
 
 | Type | Count |
 |----------|----------|
-| All    | 656 |
+| All    | 657 |
 | App    | 547 |
 | Wechat Applet| 106 |
-| Alipay Applet| 2 |
+| Alipay Applet| 3 |
 | Web    | 1 |
 
 ## Thanks To
