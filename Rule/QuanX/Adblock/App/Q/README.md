@@ -1,7 +1,7 @@
 # Q
 <details>
 <summary>
-本目录共收录20个App，详情见如下：
+本目录共收录21个App，详情见如下：
 </summary>
 
 - [QQ浏览器](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/Q/QQ%E6%B5%8F%E8%A7%88%E5%99%A8)
@@ -17,6 +17,7 @@
 - [去哪儿](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/Q/%E5%8E%BB%E5%93%AA%E5%84%BF)
 - [奇点阅读](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/Q/%E5%A5%87%E7%82%B9%E9%98%85%E8%AF%BB)
 - [奇瑞汽车](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/Q/%E5%A5%87%E7%91%9E%E6%B1%BD%E8%BD%A6)
+- [巧虎官方](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/Q/%E5%B7%A7%E8%99%8E%E5%AE%98%E6%96%B9)
 - [汽水音乐](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/Q/%E6%B1%BD%E6%B0%B4%E9%9F%B3%E4%B9%90)
 - [汽车之家](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/Q/%E6%B1%BD%E8%BD%A6%E4%B9%8B%E5%AE%B6)
 - [球迷报](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/Q/%E7%90%83%E8%BF%B7%E6%8A%A5)
