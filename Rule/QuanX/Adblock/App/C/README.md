@@ -15,7 +15,7 @@
 - [曹操专车](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/C/%E6%9B%B9%E6%93%8D%E4%B8%93%E8%BD%A6)
 - [潮玩宇宙](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/C/%E6%BD%AE%E7%8E%A9%E5%AE%87%E5%AE%99)
 - [磁力宅播放器](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/C/%E7%A3%81%E5%8A%9B%E5%AE%85%E6%92%AD%E6%94%BE%E5%99%A8)
-- [菜鸟裹裹](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/C/%E8%8F%9C%E9%B8%9F%E8%A3%B9%E8%A3%B9)
+- [菜鸟](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/C/%E8%8F%9C%E9%B8%9F)
 - [财新](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/C/%E8%B4%A2%E6%96%B0)
 - [财经杂志](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/C/%E8%B4%A2%E7%BB%8F%E6%9D%82%E5%BF%97)
 - [财联社](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/C/%E8%B4%A2%E8%81%94%E7%A4%BE)
