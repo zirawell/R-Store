@@ -14,7 +14,7 @@ const headopt = header["Operation-Type"] || header["operation-type"];
 const blockList = [
     "com.bankabc.recommendcenter.homepage.gethpadverinfo",
     "com.bankabc.credit.welfareCenter.getadverinfo",
-    "com.bankabc.credit.home.getCcocAdInfo",
+    //"com.bankabc.credit.home.getCcocAdInfo",
     "com.bankabc.credit.query.custbillqry.getadv",
     "com.abchina.mbank.common.homepage.getStartParam",
     "alipay.client.updateVersion"
