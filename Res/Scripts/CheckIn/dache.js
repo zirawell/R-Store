@@ -4,7 +4,7 @@ AmapDache CheckIn
 脚本名称：高德打车签到
 脚本兼容：Surge, QuantumultX
 脚本作者：@wf021325
-更新日期：2024/06/27
+更新日期：2025/01/05
 脚本来源：https://raw.githubusercontent.com/wf021325/qx/master/task/ampDache.js
 脚本说明：
 自动签到 地图APP/微信小程序、支付宝小程序
@@ -48,12 +48,11 @@ async function main() {
     intRSA(), intCryptoJS();
     const list = [
         {"name": "微信端", "node": "wechatMP", "channel": "h5_common", "actID": "53A31cHhhPJ", "playID": "53A3fQm9AM7"},
-        {"name": "APP端", "node": "Amap", "channel": "h5_common", "actID": "53m5Q2UjZ6J", "playID": "53m5Xt43PGU"},
+        {"name": "APP端", "node": "Amap", "channel": "h5_common", "actID": "5meYb12hBo9", "playID": "5meYb1k5sLh"},
         {"name": "支付宝", "node": "alipayMini", "channel": "alipay_mini", "actID": "53wHnt77TQ5", "playID": "53wHtx24q7u"}
     ];
     for (const index of list) {
-        const code = await checkIn(index);
-        if (code == '1') {
+        if (await checkIn(index)) {
             await signIn(index)
         }
     }
@@ -108,6 +107,10 @@ async function checkIn(list) {
     list.url = 'https://m5.amap.com/ws/car-place/show?'
     const {code, data, message} = await httpRequest(getReq(list));
     if (code == '1') {
+        if (!data.actID) {
+            pushMsg(`${list.name}->查询:请到福利中心查看活动是否存在(若存在请联系脚本作者更新)`);
+            return false;
+        }
         const today = $.time('MM月dd日')
         let foundItem = data?.playMap?.dailySign?.signList?.find(t => t?.date === today);//查找今天
         if (foundItem) {
@@ -117,12 +120,12 @@ async function checkIn(list) {
             //const isSign = foundItem.isSign;//isSign = 1 为签到过，懒得管了，让它再提交一次吧
             //$.log(`${$.toStr(foundItem)}  ${$.signTerm}|${$.signDay}|${isSign}`);
             //$.message += `${list.name}->查询:${today}  ${amount}里程\n`;
+            return true;
         }
     } else {
         _msg = `${list.name}->查询:${message}`
         pushMsg(_msg)
     }
-    return code;
 }
 //签到
 async function signIn(list) {
