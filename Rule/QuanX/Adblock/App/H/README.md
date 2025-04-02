@@ -1,7 +1,7 @@
 # H
 <details>
 <summary>
-本目录共收录27个App，详情见如下：
+本目录共收录28个App，详情见如下：
 </summary>
 
 - [华住会](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/H/%E5%8D%8E%E4%BD%8F%E4%BC%9A)
@@ -11,6 +11,7 @@
 - [华彩生活](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/H/%E5%8D%8E%E5%BD%A9%E7%94%9F%E6%B4%BB)
 - [合利宝展业通](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/H/%E5%90%88%E5%88%A9%E5%AE%9D%E5%B1%95%E4%B8%9A%E9%80%9A)
 - [和风天气](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/H/%E5%92%8C%E9%A3%8E%E5%A4%A9%E6%B0%94)
+- [哈富证券](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/H/%E5%93%88%E5%AF%8C%E8%AF%81%E5%88%B8)
 - [好体知](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/H/%E5%A5%BD%E4%BD%93%E7%9F%A5)
 - [好奇心日报](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/H/%E5%A5%BD%E5%A5%87%E5%BF%83%E6%97%A5%E6%8A%A5)
 - [好好住](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/H/%E5%A5%BD%E5%A5%BD%E4%BD%8F)
