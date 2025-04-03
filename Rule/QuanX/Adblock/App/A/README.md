@@ -4,19 +4,19 @@
 本目录共收录14个App，详情见如下：
 </summary>
 
-- [AcFun](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/A/AcFun)
-- [安吉星](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/A/%E5%AE%89%E5%90%89%E6%98%9F)
-- [安徽掌上10000](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/A/%E5%AE%89%E5%BE%BD%E6%8E%8C%E4%B8%8A10000)
-- [澳觅](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/A/%E6%BE%B3%E8%A7%85)
-- [爱企查](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/A/%E7%88%B1%E4%BC%81%E6%9F%A5)
-- [爱南宁](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/A/%E7%88%B1%E5%8D%97%E5%AE%81)
-- [爱回收](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/A/%E7%88%B1%E5%9B%9E%E6%94%B6)
-- [爱奇艺](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/A/%E7%88%B1%E5%A5%87%E8%89%BA)
-- [爱思助手](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/A/%E7%88%B1%E6%80%9D%E5%8A%A9%E6%89%8B)
-- [爱桐乡](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/A/%E7%88%B1%E6%A1%90%E4%B9%A1)
-- [爱美剧](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/A/%E7%88%B1%E7%BE%8E%E5%89%A7)
-- [爱范儿](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/A/%E7%88%B1%E8%8C%83%E5%84%BF)
-- [爱阅书香](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/A/%E7%88%B1%E9%98%85%E4%B9%A6%E9%A6%99)
-- [阿里云盘](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/App/A/%E9%98%BF%E9%87%8C%E4%BA%91%E7%9B%98)
+- [AcFun](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FA%2FAcFun%2Frewrite%2Facfun.conf%2C%20tag%3DAcFun%22%5D%7D)
+- [安吉星](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FA%2F%E5%AE%89%E5%90%89%E6%98%9F%2Frewrite%2Fonstar.conf%2C%20tag%3D%E5%AE%89%E5%90%89%E6%98%9F%22%5D%7D)
+- [安徽掌上10000](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FA%2F%E5%AE%89%E5%BE%BD%E6%8E%8C%E4%B8%8A10000%2Frewrite%2Fahzs10000.conf%2C%20tag%3D%E5%AE%89%E5%BE%BD%E6%8E%8C%E4%B8%8A10000%22%5D%7D)
+- [澳觅](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FA%2F%E6%BE%B3%E8%A7%85%2Frewrite%2Faomiapp.conf%2C%20tag%3D%E6%BE%B3%E8%A7%85%22%5D%7D)
+- [爱企查](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FA%2F%E7%88%B1%E4%BC%81%E6%9F%A5%2Frewrite%2Faiqicha.conf%2C%20tag%3D%E7%88%B1%E4%BC%81%E6%9F%A5%22%5D%7D)
+- [爱南宁](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FA%2F%E7%88%B1%E5%8D%97%E5%AE%81%2Frewrite%2Fnnapp.conf%2C%20tag%3D%E7%88%B1%E5%8D%97%E5%AE%81%22%5D%7D)
+- [爱回收](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FA%2F%E7%88%B1%E5%9B%9E%E6%94%B6%2Frewrite%2Faihuishou.conf%2C%20tag%3D%E7%88%B1%E5%9B%9E%E6%94%B6%22%5D%7D)
+- [爱奇艺](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FA%2F%E7%88%B1%E5%A5%87%E8%89%BA%2Ffilter%2Fiqiyi.list%2C%20tag%3D%E7%88%B1%E5%A5%87%E8%89%BA%22%5D%2C%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FA%2F%E7%88%B1%E5%A5%87%E8%89%BA%2Frewrite%2Fiqiyi.conf%2C%20tag%3D%E7%88%B1%E5%A5%87%E8%89%BA%22%5D%7D)
+- [爱思助手](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FA%2F%E7%88%B1%E6%80%9D%E5%8A%A9%E6%89%8B%2Frewrite%2Fi4.conf%2C%20tag%3D%E7%88%B1%E6%80%9D%E5%8A%A9%E6%89%8B%22%5D%7D)
+- [爱桐乡](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FA%2F%E7%88%B1%E6%A1%90%E4%B9%A1%2Frewrite%2Ftxcmapp.conf%2C%20tag%3D%E7%88%B1%E6%A1%90%E4%B9%A1%22%5D%7D)
+- [爱美剧](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FA%2F%E7%88%B1%E7%BE%8E%E5%89%A7%2Frewrite%2Fbjxkhc.conf%2C%20tag%3D%E7%88%B1%E7%BE%8E%E5%89%A7%22%5D%7D)
+- [爱范儿](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FA%2F%E7%88%B1%E8%8C%83%E5%84%BF%2Frewrite%2Fappso.conf%2C%20tag%3D%E7%88%B1%E8%8C%83%E5%84%BF%22%5D%7D)
+- [爱阅书香](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FA%2F%E7%88%B1%E9%98%85%E4%B9%A6%E9%A6%99%2Frewrite%2FiFreeTime.conf%2C%20tag%3D%E7%88%B1%E9%98%85%E4%B9%A6%E9%A6%99%22%5D%7D)
+- [阿里云盘](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FA%2F%E9%98%BF%E9%87%8C%E4%BA%91%E7%9B%98%2Ffilter%2Fadrive.list%2C%20tag%3D%E9%98%BF%E9%87%8C%E4%BA%91%E7%9B%98%22%5D%2C%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FA%2F%E9%98%BF%E9%87%8C%E4%BA%91%E7%9B%98%2Frewrite%2Fadrive.conf%2C%20tag%3D%E9%98%BF%E9%87%8C%E4%BA%91%E7%9B%98%22%5D%7D)
 
 </details>
