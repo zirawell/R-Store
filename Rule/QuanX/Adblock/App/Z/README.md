@@ -1,7 +1,7 @@
 # Z
 <details>
 <summary>
-本目录共收录40个App，详情见如下：
+本目录共收录40个App，详情见如下，单击导入对应配置：
 </summary>
 
 - [ZCOOL站酷](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FZ%2FZCOOL%E7%AB%99%E9%85%B7%2Frewrite%2Fzcool.conf%2C%20tag%3DZCOOL%E7%AB%99%E9%85%B7%22%5D%7D)

@@ -1,7 +1,7 @@
 # S
 <details>
 <summary>
-本目录共收录12个小程序，详情见如下：
+本目录共收录12个小程序，详情见如下，单击导入对应配置：
 </summary>
 
 - [上海地铁Metro大都会乘车码](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApplet%2FWechat%2FS%2F%E4%B8%8A%E6%B5%B7%E5%9C%B0%E9%93%81Metro%E5%A4%A7%E9%83%BD%E4%BC%9A%E4%B9%98%E8%BD%A6%E7%A0%81%2Frewrite%2Fshmetro.conf%2C%20tag%3D%E4%B8%8A%E6%B5%B7%E5%9C%B0%E9%93%81Metro%E5%A4%A7%E9%83%BD%E4%BC%9A%E4%B9%98%E8%BD%A6%E7%A0%81%22%5D%7D)

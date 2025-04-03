@@ -1,7 +1,7 @@
 # Z
 <details>
 <summary>
-本目录共收录5个小程序，详情见如下：
+本目录共收录5个小程序，详情见如下，单击导入对应配置：
 </summary>
 
 - [中国天气网](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApplet%2FWechat%2FZ%2F%E4%B8%AD%E5%9B%BD%E5%A4%A9%E6%B0%94%E7%BD%91%2Frewrite%2Fweather.conf%2C%20tag%3D%E4%B8%AD%E5%9B%BD%E5%A4%A9%E6%B0%94%E7%BD%91%22%5D%7D)
