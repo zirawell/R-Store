@@ -1,7 +1,7 @@
 # X
 <details>
 <summary>
-本目录共收录51个App，详情见如下，单击导入对应配置：
+本目录共收录52个App，详情见如下，单击导入对应配置：
 </summary>
 
 - [下厨房](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E4%B8%8B%E5%8E%A8%E6%88%BF%2Ffilter%2Fxiachufang.list%2C%20tag%3D%E4%B8%8B%E5%8E%A8%E6%88%BF%22%5D%2C%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E4%B8%8B%E5%8E%A8%E6%88%BF%2Frewrite%2Fxiachufang.conf%2C%20tag%3D%E4%B8%8B%E5%8E%A8%E6%88%BF%22%5D%7D)
@@ -11,6 +11,7 @@
 - [厦门航空](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E5%8E%A6%E9%97%A8%E8%88%AA%E7%A9%BA%2Frewrite%2Fxiamenair.conf%2C%20tag%3D%E5%8E%A6%E9%97%A8%E8%88%AA%E7%A9%BA%22%5D%7D)
 - [向日葵远程控制](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E5%90%91%E6%97%A5%E8%91%B5%E8%BF%9C%E7%A8%8B%E6%8E%A7%E5%88%B6%2Frewrite%2Fsunlogin.conf%2C%20tag%3D%E5%90%91%E6%97%A5%E8%91%B5%E8%BF%9C%E7%A8%8B%E6%8E%A7%E5%88%B6%22%5D%7D)
 - [喜马拉雅](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E5%96%9C%E9%A9%AC%E6%8B%89%E9%9B%85%2Ffilter%2Fxima.list%2C%20tag%3D%E5%96%9C%E9%A9%AC%E6%8B%89%E9%9B%85%22%5D%2C%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E5%96%9C%E9%A9%AC%E6%8B%89%E9%9B%85%2Frewrite%2Fxima.conf%2C%20tag%3D%E5%96%9C%E9%A9%AC%E6%8B%89%E9%9B%85%22%5D%7D)
+- [学信网](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E5%AD%A6%E4%BF%A1%E7%BD%91%2Ffilter%2Fchsi.list%2C%20tag%3D%E5%AD%A6%E4%BF%A1%E7%BD%91%22%5D%7D)
 - [小Biu智家](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E5%B0%8FBiu%E6%99%BA%E5%AE%B6%2Frewrite%2Fsuning.conf%2C%20tag%3D%E5%B0%8FBiu%E6%99%BA%E5%AE%B6%22%5D%7D)
 - [小佩宠物](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E5%B0%8F%E4%BD%A9%E5%AE%A0%E7%89%A9%2Frewrite%2Fpetkit.conf%2C%20tag%3D%E5%B0%8F%E4%BD%A9%E5%AE%A0%E7%89%A9%22%5D%7D)
 - [小利生活](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E5%B0%8F%E5%88%A9%E7%94%9F%E6%B4%BB%2Ffilter%2Fhelipay.list%2C%20tag%3D%E5%B0%8F%E5%88%A9%E7%94%9F%E6%B4%BB%22%5D%7D)
