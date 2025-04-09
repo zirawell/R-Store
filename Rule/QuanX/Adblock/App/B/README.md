@@ -1,7 +1,7 @@
 # B
 <details>
 <summary>
-本目录共收录32个App，详情见如下，单击导入对应配置：
+本目录共收录31个App，详情见如下，单击导入对应配置：
 </summary>
 
 - [Blued](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FB%2FBlued%2Frewrite%2Fblued.conf%2C%20tag%3DBlued%22%5D%7D)
@@ -29,7 +29,6 @@
 - [百度翻译](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FB%2F%E7%99%BE%E5%BA%A6%E7%BF%BB%E8%AF%91%2Frewrite%2Fbaidutranslate.conf%2C%20tag%3D%E7%99%BE%E5%BA%A6%E7%BF%BB%E8%AF%91%22%5D%7D)
 - [百度贴吧](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FB%2F%E7%99%BE%E5%BA%A6%E8%B4%B4%E5%90%A7%2Ffilter%2Fbaidutieba.list%2C%20tag%3D%E7%99%BE%E5%BA%A6%E8%B4%B4%E5%90%A7%22%5D%2C%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FB%2F%E7%99%BE%E5%BA%A6%E8%B4%B4%E5%90%A7%2Frewrite%2Fbaidutieba.conf%2C%20tag%3D%E7%99%BE%E5%BA%A6%E8%B4%B4%E5%90%A7%22%5D%7D)
 - [百度输入法](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FB%2F%E7%99%BE%E5%BA%A6%E8%BE%93%E5%85%A5%E6%B3%95%2Frewrite%2Fbaiduinput.conf%2C%20tag%3D%E7%99%BE%E5%BA%A6%E8%BE%93%E5%85%A5%E6%B3%95%22%5D%7D)
-- [百视TV](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FB%2F%E7%99%BE%E8%A7%86TV%2Frewrite%2Fbestv.conf%2C%20tag%3D%E7%99%BE%E8%A7%86TV%22%5D%7D)
 - [百词斩](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FB%2F%E7%99%BE%E8%AF%8D%E6%96%A9%2Ffilter%2Fbaicizhan.list%2C%20tag%3D%E7%99%BE%E8%AF%8D%E6%96%A9%22%5D%2C%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FB%2F%E7%99%BE%E8%AF%8D%E6%96%A9%2Frewrite%2Fbaicizhan.conf%2C%20tag%3D%E7%99%BE%E8%AF%8D%E6%96%A9%22%5D%7D)
 - [缤纷生活](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FB%2F%E7%BC%A4%E7%BA%B7%E7%94%9F%E6%B4%BB%2Frewrite%2Fbfsh.conf%2C%20tag%3D%E7%BC%A4%E7%BA%B7%E7%94%9F%E6%B4%BB%22%5D%7D)
 - [菠萝包轻小说](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FB%2F%E8%8F%A0%E8%90%9D%E5%8C%85%E8%BD%BB%E5%B0%8F%E8%AF%B4%2Frewrite%2Fsfacg.conf%2C%20tag%3D%E8%8F%A0%E8%90%9D%E5%8C%85%E8%BD%BB%E5%B0%8F%E8%AF%B4%22%5D%7D)
