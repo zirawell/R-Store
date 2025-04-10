@@ -22,8 +22,8 @@ if (!$response.body) $done({});
 let body = $response.body;
 let obj = JSON.parse(body);
 //EMS中国邮政物流速递
-if (url.includes("ump.ems.com.cn")){
-  obj.info.moduleJson = JSON.stringify(JSON.parse(obj.info.moduleJson).filter(item => !item.moduleName.includes("广告")));
+if (url.includes("ems.com.cn")){
+  obj.info.moduleJson = JSON.stringify(JSON.parse(obj.info.moduleJson).filter(item => !(item.moduleName.includes("广告")&&!item.moduleName.includes("轮播广告")));
 //小兔充充
 }else if(url.includes("mapi.xiaotucc.com")){
   if(url.includes("main_page/index/getActivity")){
