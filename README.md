@@ -38,10 +38,17 @@
 
 - [支付宝小程序](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FAll%2Ffilter%2FalipayAdBlock.list%2C%20tag%3DAlipay%22%5D%2C%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FAll%2Frewrite%2FalipayAdRewrite.conf%2C%20tag%3DAlipay%22%5D%7D)
 
+## 收录统计
 
+| Type | Count |
+|----------|----------|
+| 全部    | 665 |
+| App    | 552 |
+| 微信小程序| 109 |
+| 支付宝小程序| 3 |
+| 网站    | 1 |
 
 ## 特别鸣谢
-
 - [@app2smile](https://github.com/app2smile)
 - [@blackmatrix7](https://github.com/blackmatrix7)
 - [@DivineEngine](https://github.com/DivineEngine)
@@ -56,3 +63,4 @@
 - [@Maasea](https://github.com/Maasea)
 - [@ClydeTime](https://github.com/ClydeTime)
 - [@FoKit](https://github.com/FoKit)
+- [@Yuheng0101](https://github.com/Yuheng0101)
