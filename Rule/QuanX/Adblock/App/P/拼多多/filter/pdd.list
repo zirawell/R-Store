@@ -15,7 +15,7 @@ ip-cidr, 114.110.98.0/24, reject
 ip-cidr, 114.110.96.0/24, reject
 ip-cidr, 114.110.97.0/24, reject
 ip-cidr, 101.226.46.0/24, reject
-ip-cidr, 101.226.152.0/24, reject
+;ip-cidr, 101.226.152.0/24, reject
 ip-cidr, 180.97.42.0/24, reject
 ip-cidr, 212.129.220.0/24, reject
 host, titan.pinduoduo.com, reject
@@ -30,5 +30,7 @@ host, th.yangkeduo.com, reject
 host, meta.yangkeduo.com, reject
 host, meta.pinduoduo.com, reject
 host, m.pinduoduo.net, reject
-host, commimg-2.pddpic.com, reject
 host, commimg-1.pddpic.com, reject
+host, commimg-2.pddpic.com, reject
+host, promotion-1.pddpic.com, reject
+host, promotion-2.pddpic.com, reject
