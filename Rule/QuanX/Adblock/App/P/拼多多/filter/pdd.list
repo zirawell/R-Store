@@ -32,5 +32,7 @@ host, meta.pinduoduo.com, reject
 host, m.pinduoduo.net, reject
 host, commimg-1.pddpic.com, reject
 host, commimg-2.pddpic.com, reject
+host, commimg-3.pddpic.com, reject
 host, promotion-1.pddpic.com, reject
 host, promotion-2.pddpic.com, reject
+host, promotion-3.pddpic.com, reject
