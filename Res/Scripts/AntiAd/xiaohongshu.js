@@ -159,7 +159,7 @@ if (url.includes("/note/imagefeed") || url.includes("/note/feed")) {
           });
         }
         // 存储无水印视频链接
-        if (item?.id !== "" && item?.video_info_v2?.media?.stream?.h265?.[0]?.master_url !== "") {
+        if (item?.id && item.video_info_v2?.media?.stream?.h265?.length > 0 && item.video_info_v2.media.stream.h265[0].master_url) {
           let myData = {
             id: item.id,
             url: item.video_info_v2.media.stream.h265[0].master_url
@@ -170,7 +170,7 @@ if (url.includes("/note/imagefeed") || url.includes("/note/feed")) {
       $.setdata(JSON.stringify(newDatas), "redBookVideoFeed"); // 普通视频 写入持久化存储
       
       for (let item of obj.data) {
-        if (item?.id !== "" && item?.video_info_v2?.media?.stream?.h265?.[0]?.master_url !== "") {
+        if (item?.id && item.video_info_v2?.media?.stream?.h265?.length > 0 && item.video_info_v2.media.stream.h265[0].master_url) {
           let myData = {
             id: item.id,
             url: item.video_info_v2.media.stream.h265[0].master_url
