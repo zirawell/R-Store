@@ -50,6 +50,11 @@ if(url.indexOf("queryindexpage")!=-1){
     }
     obj.data.scenes = scenes;
   }
+// 我的页及购物车页推荐信息流
+}else if(url.indexOf("querytabfeedstream")!=-1){
+  if(obj?.data?.pageName && obj.data.pageName.includes("盒马商家")){
+    obj.data = {};
+  }
 }else{
   $done({});
 }
