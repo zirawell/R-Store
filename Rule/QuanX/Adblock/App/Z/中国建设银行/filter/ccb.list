@@ -1,3 +1,2 @@
 # > 中国建设银行 - CCB
-host, imageadv.ccb.com, direct
 host-keyword, adv.ccb.com, reject
