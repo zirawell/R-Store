@@ -1,7 +1,7 @@
 {
   "name": "All Icons",
   "description": "collected by zirawell",
-  "time": "2025-02-08",
+  "time": "2025-04-24",
   "icons": [
     {
       "name": "gd",
@@ -34,6 +34,10 @@
     {
       "name": "hzh",
       "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/hzh.png"
+    },
+    {
+      "name": "flyert",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/flyert.png"
     },
     {
       "name": "US",
