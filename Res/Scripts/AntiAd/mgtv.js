@@ -18,8 +18,8 @@ if (url.match(/icon/)) {
         big_promotion_center: {},
         active_center: {}
     }
-} else if(url.match(/index/)){
-    let filtData=Body.data.filter(e=>e.hasMore);
+} else if (url.match(/index/)) {
+    let filtData = Body.data.filter(e => e.hasMore);
     Body.data = filtData;
 }
-$done({ body: JSON.stringify(Body) })
+$done({body: JSON.stringify(Body)})

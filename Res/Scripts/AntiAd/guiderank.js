@@ -11,35 +11,35 @@ if (!$response.body) $done({});
 let body = $response.body;
 let obj = JSON.parse(body);
 let data = obj.data;
-if(data.countdownBanner){
+if (data.countdownBanner) {
   delete obj.data.countdownBanner;
 }
-if(data.newEvaluations){
+if (data.newEvaluations) {
   delete obj.data.newEvaluations;
 }
-if(data.freeToPayBannerPhotoUrl){
+if (data.freeToPayBannerPhotoUrl) {
   delete obj.data.freeToPayBannerPhotoUrl;
 }
-if(data.groupBuyingList){
+if (data.groupBuyingList) {
   delete obj.data.groupBuyingList;
 }
-if(data.multiCountdownBanner){
+if (data.multiCountdownBanner) {
   delete obj.data.multiCountdownBanner;
 }
-if(data.banners){
+if (data.banners) {
   delete obj.data.banners;
 }
-if(data.multiPlatformBanner){
+if (data.multiPlatformBanner) {
   delete obj.data.multiPlatformBanner;
 }
-if(data.specialSaleBannerPhotoUrl){
+if (data.specialSaleBannerPhotoUrl) {
   delete obj.data.specialSaleBannerPhotoUrl;
 }
-if(data.guide90Evaluation){
+if (data.guide90Evaluation) {
   delete obj.data.guide90Evaluation;
 }
-if(data.insurancePromotions){
+if (data.insurancePromotions) {
   delete obj.data.insurancePromotions;
 }
 body = JSON.stringify(obj);
-$done({ body });
+$done({body});

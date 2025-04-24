@@ -11,8 +11,8 @@ const url = $request.url;
 if (!$response.body) $done({});
 let body = $response.body;
 let obj = JSON.parse(body);
-if(obj?.adBannerList){
-  obj.adBannerList=[];
+if (obj?.adBannerList) {
+  obj.adBannerList = [];
 }
 body = JSON.stringify(obj);
-$done({ body });
+$done({body});

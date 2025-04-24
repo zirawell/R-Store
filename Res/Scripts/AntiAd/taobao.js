@@ -6,11 +6,12 @@ QuantumultX rewrite link:
 https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/App/T/淘宝/rewrite/taobao.conf
 
 ********************************/
+
 const url = $request.url;
 if (!$response.body) $done({});
 let body = $response.body;
 let obj = JSON.parse(body);
-if(url.includes("mtop.taobao.cloudvideo.video.query")){
+if (url.includes("mtop.taobao.cloudvideo.video.query")) {
   if (obj?.data?.duration) {
     obj.data.duration = "0";
   }
@@ -23,8 +24,8 @@ if(url.includes("mtop.taobao.cloudvideo.video.query")){
   if (obj?.data?.respTimeInMs) {
     obj.data.respTimeInMs = "3818332800000";
   }
-}else if(url.includes("mtop.taobao.wireless.home.splash.awesome.get")){
-	if (obj?.data?.containers?.splash_home_base) {
+} else if (url.includes("mtop.taobao.wireless.home.splash.awesome.get")) {
+  if (obj?.data?.containers?.splash_home_base) {
     let splash = obj.data.containers.splash_home_base;
     if (splash?.base?.sections?.length > 0) {
       for (let items of splash.base.sections) {
@@ -57,8 +58,8 @@ if(url.includes("mtop.taobao.cloudvideo.video.query")){
       }
     }
   }
-}else if(url.includes("poplayer.template.alibaba.com")){
-	if (obj?.res?.images?.length > 0) {
+} else if (url.includes("poplayer.template.alibaba.com")) {
+  if (obj?.res?.images?.length > 0) {
     obj.res.images = [];
   }
   if (obj?.res?.videos?.length > 0) {
@@ -72,4 +73,4 @@ if(url.includes("mtop.taobao.cloudvideo.video.query")){
   }
 }
 body = JSON.stringify(obj);
-$done({ body });
+$done({body});

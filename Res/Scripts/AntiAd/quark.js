@@ -49,7 +49,7 @@ var pathsToDelete = [
     "result.cms_quark_pan_scene.res_data.data[0].items[186]" // 开通网盘SVIP享无限次导出权益
 ];
 
-pathsToDelete.forEach(function(path) {
+pathsToDelete.forEach(function (path) {
     var parts = path.split('.');
     var current = json;
     for (var i = 0; i < parts.length; i++) {
@@ -62,4 +62,4 @@ pathsToDelete.forEach(function(path) {
     }
 });
 
-$done({ body: JSON.stringify(json) });
+$done({body: JSON.stringify(json)});

@@ -6,6 +6,7 @@ QuantumultX rewrite link:
 https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/App/L/旅途随身听/rewrite/1314zhilv.conf
 
 ********************************/
+
 const url = $request.url;
 if (!$response.body) $done({});
 let body = $response.body;
@@ -18,4 +19,4 @@ if (url.includes('/common/getJGQIconNew')) {
 }
 
 body = JSON.stringify(obj);
-$done({ body });
+$done({body});

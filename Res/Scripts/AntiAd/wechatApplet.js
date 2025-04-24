@@ -22,39 +22,39 @@ if (!$response.body) $done({});
 let body = $response.body;
 let obj = JSON.parse(body);
 //EMS中国邮政物流速递
-if (url.includes("ems.com.cn")){
+if (url.includes("ems.com.cn")) {
   obj.info.moduleJson = JSON.stringify(JSON.parse(obj.info.moduleJson).filter(item => !item.moduleName.includes("广告") || item.moduleName === "轮播广告"));
 //小兔充充
-}else if(url.includes("mapi.xiaotucc.com")){
-  if(url.includes("main_page/index/getActivity")){
+} else if (url.includes("mapi.xiaotucc.com")) {
+  if (url.includes("main_page/index/getActivity")) {
     delete obj.data.p3;
-  }else if(url.includes("mall/main")){
+  } else if (url.includes("mall/main")) {
     delete obj.data;
   }
 //全家微会员
-}else if(url.includes("minifm.maxxipoint.com")){
+} else if (url.includes("minifm.maxxipoint.com")) {
   delete obj.data.topBanner;
 //罗森点点
-}else if(url.includes("lawsonapi.yorentown.com")){
+} else if (url.includes("lawsonapi.yorentown.com")) {
   delete obj.data.homeButtonList;
   delete obj.data.dysmorphismPictureList;
 //茶颜悦色
-}else if(url.includes("miniapp.sexytea2013.com")){
+} else if (url.includes("miniapp.sexytea2013.com")) {
   delete obj.data.INDEX_SLOT_01;
   delete obj.data.INDEX_SLOT_02;
   obj.data?.INDEX_TOP_BANNER?.contents?.forEach(item => {
-    delete item.bubble; 
-    delete item.figure; 
+    delete item.bubble;
+    delete item.figure;
   });
 //CoCo点单+
-}else if(url.includes("coco-com.e.verystar.net")){
+} else if (url.includes("coco-com.e.verystar.net")) {
   delete obj.data.top_background_url;
   delete obj.data.bottom_banner_list;
 //滴滴青桔
-}else if(url.includes("htwkop.xiaojukeji.com")){
+} else if (url.includes("htwkop.xiaojukeji.com")) {
   delete obj.data.bannerInfoConfig;
 //M Stand
-}else if(url.includes("api.prod.dj.mstand.cn")){
+} else if (url.includes("api.prod.dj.mstand.cn")) {
   delete obj.data.homeNewsAdv.jumpValue;
   delete obj.data.homeDineInAdv;
   delete obj.data.homePickupAdv;
@@ -68,10 +68,10 @@ if (url.includes("ems.com.cn")){
   delete obj.data.homeCouponAdv;
   delete obj.data.homeCompanyAdv;
   delete obj.data.homeDeliveryAdv;
-}else if(url.includes("webapi.qmai.cn")){
-  
+} else if (url.includes("webapi.qmai.cn")) {
+
 //汇付天下商户服务
-}else if(url.includes("saas-ad.cloudpnr.com")){
+} else if (url.includes("saas-ad.cloudpnr.com")) {
   var ads = obj.data[0].ad_data;
   ads.forEach(function (adData) {
     adData.landing_page_url = "";
@@ -93,4 +93,4 @@ if (url.includes("ems.com.cn")){
 }
 
 body = JSON.stringify(obj);
-$done({ body });
+$done({body});

@@ -13,15 +13,15 @@ if (!$response.body) $done({});
 let obj = JSON.parse($response.body);
 
 if (
-  url.includes("/api/news/index") ||
-  url.includes("/api/topmenu/getfeeds")
+    url.includes("/api/news/index") ||
+    url.includes("/api/topmenu/getfeeds")
 ) {
   if (obj?.data?.list?.length > 0) {
     let list = obj.data.list;
     const newList = [];
     for (let item of list) {
       if (item?.feedContent?.smallTags?.some((i) =>
-        i?.text?.includes("广告"))
+          i?.text?.includes("广告"))
       ) {
         continue;
       }
@@ -34,4 +34,4 @@ if (
   }
 }
 
-$done({ body: JSON.stringify(obj) });
+$done({body: JSON.stringify(obj)});

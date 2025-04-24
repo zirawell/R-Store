@@ -9,7 +9,6 @@ https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/App/P
 
 ********************************/
 
-
 const url = $request.url;
 const body = $response.body;
 
@@ -34,7 +33,7 @@ try {
         }
     }
 
-    $done({ body: JSON.stringify(obj) });
+    $done({body: JSON.stringify(obj)});
 } catch (e) {
     console.error("JSON parsing error:", e);
     $done({});

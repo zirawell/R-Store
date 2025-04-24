@@ -6,6 +6,7 @@ QuantumultX rewrite link:
 https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/Applet/Wechat/W/问卷星/rewrite/wjx.conf
 
 ********************************/
+
 const resp = {};
 if (!$response.body) $done({});
 var parser = new DOMParser();

@@ -17,10 +17,10 @@ try {
   for (const [k, v] of Object.entries(body.data)) {
     if (v?.elements?.edges) {
       body.data[k].elements.edges = v.elements.edges.filter(
-        i =>
-          !['AdPost'].includes(i?.node?.__typename) &&
-          !i?.node?.cells?.some(j => j?.__typename === 'AdMetadataCell') &&
-          !i?.node?.adPayload
+          i =>
+              !['AdPost'].includes(i?.node?.__typename) &&
+              !i?.node?.cells?.some(j => j?.__typename === 'AdMetadataCell') &&
+              !i?.node?.adPayload
       );
     }
   }

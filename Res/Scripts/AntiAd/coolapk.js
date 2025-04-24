@@ -31,29 +31,29 @@ if (url.includes("/feed/detail")) {
 } else if (url.includes("/main/dataList")) {
   if (obj.data?.length > 0) {
     obj.data = obj.data.filter(
-      (item) =>
-        !(item.entityTemplate === "sponsorCard" || item.title === "精选配件")
+        (item) =>
+            !(item.entityTemplate === "sponsorCard" || item.title === "精选配件")
     );
   }
 } else if (url.includes("/main/indexV")) {
   if (obj.data?.length > 0) {
     obj.data = obj.data.filter(
-      (item) =>
-        !(
-          item.entityTemplate === "sponsorCard" ||
-          item.entityId === 8639 ||
-          item.entityId === 29349 ||
-          item.entityId === 33006 ||
-          item.entityId === 32557 ||
-          item.title.includes("值得买") ||
-          item.title.includes("红包")
-        )
+        (item) =>
+            !(
+                item.entityTemplate === "sponsorCard" ||
+                item.entityId === 8639 ||
+                item.entityId === 29349 ||
+                item.entityId === 33006 ||
+                item.entityId === 32557 ||
+                item.title.includes("值得买") ||
+                item.title.includes("红包")
+            )
     );
   }
 } else if (url.includes("/main/init")) {
   if (obj.data?.length > 0) {
     obj.data = obj.data.filter(
-      (item) => ![944, 945, 6390].includes(item?.entityId)
+        (item) => ![944, 945, 6390].includes(item?.entityId)
     );
   }
 } else if (url.includes("/page/dataList")) {
@@ -62,4 +62,4 @@ if (url.includes("/feed/detail")) {
   }
 }
 
-$done({ body: JSON.stringify(obj) });
+$done({body: JSON.stringify(obj)});

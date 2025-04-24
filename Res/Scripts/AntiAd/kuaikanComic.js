@@ -83,4 +83,4 @@ if (regexUnifiedFeed.test(url)) {
     obj = processUnifiedFeed(obj);
 }
 
-$done({ body: JSON.stringify(obj) });
+$done({body: JSON.stringify(obj)});

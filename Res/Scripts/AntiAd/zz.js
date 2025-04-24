@@ -6,6 +6,7 @@ QuantumultX rewrite link:
 https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/Applet/Wechat/Z/转转/rewrite/zhuanzhuan.conf
 
 ********************************/
+
 const url = $request.url;
 if (!$response.body) $done({});
 let body = $response.body;
@@ -27,4 +28,4 @@ if (obj?.respData?.rightOpera2) {
 	delete obj.respData.rightOpera2;
 }
 body = JSON.stringify(obj);
-$done({ body });
+$done({body});

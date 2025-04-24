@@ -6,18 +6,19 @@ QuantumultX rewrite link:
 https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/Applet/Alipay/E/饿了么/rewrite/eleme.conf
 
 ********************************/
+
 const url = $request.url;
 if (!$response.body) $done({});
 let body = $response.body;
 let obj = JSON.parse(body);
-if(url.includes("mtop.alsc.eleme.miniapp.homepage")){
-  if (obj.data?.data?.miniapp_suspension_template) {
+if (url.includes("mtop.alsc.eleme.miniapp.homepage")) {
+	if (obj.data?.data?.miniapp_suspension_template) {
 		delete obj.data.data.miniapp_suspension_template;
 	}
 	if (obj.data?.data?.frontend_suspension_template) {
 		delete obj.data.data.frontend_suspension_template;
 	}
-		
+
 }
 body = JSON.stringify(obj);
-$done({ body });
+$done({body});

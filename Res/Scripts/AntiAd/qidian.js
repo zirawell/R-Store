@@ -33,26 +33,26 @@ if (!body.Data) {
         //每日导读
         if (body.Data.Items?.length) {
             body.Data.Items = [];
-        } 
-    }else if (url.includes("/user/getaccountpage") && method === getMethod) {
+        }
+    } else if (url.includes("/user/getaccountpage") && method === getMethod) {
         //我的界面
         body.Data.Member = null;
         //福利中心
         if (body.Data.BenefitButtonList?.length) {
             body.Data.BenefitButtonList = [];
-        } 
+        }
         //我发布的
         if (body.Data.FunctionButtonList?.length) {
             body.Data.FunctionButtonList = [];
-        } 
+        }
         //帮助与客服
         if (body.Data.BottomButtonList?.length) {
             body.Data.BottomButtonList = [];
-        } 
+        }
         if (body.Data.AccountBalance?.Hints?.length) {
             body.Data.AccountBalance.Hints = [];
-        } 
-    }else if (url.includes("/assembly/toolbar") && method === getMethod) {
+        }
+    } else if (url.includes("/assembly/toolbar") && method === getMethod) {
         //活动按钮
         if (body.Data.Toolbar.Adv) {
             body.Data.Toolbar.Adv = {};
@@ -72,7 +72,7 @@ if (!body.Data) {
         if (body.Data.WolfEye === 1) {
             // 使5.9.196版本 tcp强制走https
             body.Data.WolfEye = 0;
-        } 
+        }
         // QDReader://Bookshelf 书架右下角悬浮活动
         if (body.Data.ActivityIcon?.Type !== 0) {
             $notification.post(noticeTitle, "起点-getconf", "ActivityIcon/Type字段错误");

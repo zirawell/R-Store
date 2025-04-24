@@ -6,6 +6,7 @@ QuantumultX rewrite link:
 https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/App/S/上银美好生活/rewrite/bosc.conf
 
 ********************************/
+
 const url = $request.url;
 const header = $request.headers;
 const headopt = header["Operation-Type"] || header["operation-type"];
@@ -20,5 +21,5 @@ const blockList = [
   "com.GLMobile.Customer.HomePageInfoQry"
 
 ];
-  
-blockList.includes(headopt)?$done({ status: "HTTP/1.1 404 Not Found" }):$done({});
+
+blockList.includes(headopt) ? $done({status: "HTTP/1.1 404 Not Found"}) : $done({});

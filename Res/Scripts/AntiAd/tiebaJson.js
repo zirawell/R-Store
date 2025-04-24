@@ -54,11 +54,11 @@ if (url.includes("tiebaads/commonbatch") && method === postMethod) {
     if (body.config?.switch) {
       for (const item of body.config.switch) {
         if (
-          [
-            "platform_csj_init",
-            "platform_ks_init",
-            "platform_gdt_init"
-          ].includes(item.name)
+            [
+              "platform_csj_init",
+              "platform_ks_init",
+              "platform_gdt_init"
+            ].includes(item.name)
         ) {
           item.type = "0";
           // 禁止初始化穿山甲/广点通/快手
@@ -124,14 +124,14 @@ if (url.includes("tiebaads/commonbatch") && method === postMethod) {
 }
 
 body = JSON.stringify(body);
-$done({ body });
+$done({body});
 
 function getUrlParamValue(url, queryName) {
   return Object.fromEntries(
-    url
-      .substring(url.indexOf("?") + 1)
-      .split("&")
-      .map((pair) => pair.split("="))
+      url
+          .substring(url.indexOf("?") + 1)
+          .split("&")
+          .map((pair) => pair.split("="))
   )[queryName];
 }
 

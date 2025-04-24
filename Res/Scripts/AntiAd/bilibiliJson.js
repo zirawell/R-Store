@@ -17,15 +17,15 @@ if (url.includes("/x/resource/show/tab/v2")) {
   if (obj?.data?.bottom?.length > 0) {
     const sortLists = ["首页", "动态", "我的"];
     obj.data.bottom = obj.data.bottom
-      .filter((i) => sortLists?.includes(i?.name))
-      .sort((a, b) => sortLists.indexOf(a?.name) - sortLists.indexOf(b?.name));
+        .filter((i) => sortLists?.includes(i?.name))
+        .sort((a, b) => sortLists.indexOf(a?.name) - sortLists.indexOf(b?.name));
   }
   // 首页导航栏
   if (obj?.data?.tab?.length > 0) {
     const sortLists = ["推荐", "热门", "影视", "动画"];
     obj.data.tab = obj.data.tab
-      .filter((i) => sortLists?.includes(i?.name))
-      .sort((a, b) => sortLists.indexOf(a?.name) - sortLists.indexOf(b?.name));
+        .filter((i) => sortLists?.includes(i?.name))
+        .sort((a, b) => sortLists.indexOf(a?.name) - sortLists.indexOf(b?.name));
   }
   // 右上角按钮
   if (obj?.data?.top?.length > 0) {
@@ -154,7 +154,7 @@ if (url.includes("/x/resource/show/tab/v2")) {
 } else if (url.includes("/x/v2/search/square")) {
   // 搜索框
   if (obj?.data) {
-    obj.data = { type: "history", title: "搜索历史", search_hotword_revision: 2 };
+    obj.data = {type: "history", title: "搜索历史", search_hotword_revision: 2};
   }
 } else if (url.includes("/x/v2/splash")) {
   // 开屏广告
@@ -208,11 +208,11 @@ if (url.includes("/x/resource/show/tab/v2")) {
   // 直播
   delete obj.data.activity_banner_info;
   if (obj?.data?.shopping_info) {
-    obj.data.shopping_info = { is_show: 0 };
+    obj.data.shopping_info = {is_show: 0};
   }
   if (obj?.data?.new_tab_info?.outer_list?.length > 0) {
     obj.data.new_tab_info.outer_list = obj.data.new_tab_info.outer_list.filter((i) => i?.biz_id !== 33);
   }
 }
 
-$done({ body: JSON.stringify(obj) });
+$done({body: JSON.stringify(obj)});

@@ -58,16 +58,16 @@ if (url.includes("frs/page")) {
   body = personalizedResIdlType.encode(personalizedResIdlObj).finish();
 } else if (url.includes("frs/generalTabList")) {
   let generalTabListResIdlType = tiebaRoot.lookupType(
-    "model.generaltablelist.GeneralTabListResIdl"
+      "model.generaltablelist.GeneralTabListResIdl"
   );
   let generalTabListResIdlObj = generalTabListResIdlType.decode(binaryBody);
   body = generalTabListResIdlType.encode(generalTabListResIdlObj).finish();
 }
 // body.byteLength 和 body.buffer.byteLength 不一定相同 (如帖子没有回复/少量回复时)
 if (isQuanX) {
-  $done({ bodyBytes: body.buffer.slice(body.byteOffset, body.byteLength + body.byteOffset) });
+  $done({bodyBytes: body.buffer.slice(body.byteOffset, body.byteLength + body.byteOffset)});
 } else {
-  $done({ body });
+  $done({body});
 }
 
 function removeLive(threadList) {

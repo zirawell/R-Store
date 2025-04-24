@@ -19,15 +19,15 @@ if (url.includes("ad.mcloud.139.com/advertapi/adv-filter/")) {
       let newBods = [];
       for (let item of obj.body) {
         if (
-          [
-            "APP-启动页",
-            "APP-我的-底部卡片",
-            "APP-我的-悬浮窗",
-            "APP-我的-文字链",
-            "APP-我的-活动推广专区",
-            "APP-相册上传界面-banner",
-            "APP-首页-云朵中心卡片"
-          ]?.includes(item?.adposname)
+            [
+              "APP-启动页",
+              "APP-我的-底部卡片",
+              "APP-我的-悬浮窗",
+              "APP-我的-文字链",
+              "APP-我的-活动推广专区",
+              "APP-相册上传界面-banner",
+              "APP-首页-云朵中心卡片"
+            ]?.includes(item?.adposname)
         ) {
           continue;
         }
@@ -59,4 +59,4 @@ if (url.includes("ad.mcloud.139.com/advertapi/adv-filter/")) {
   }
 }
 
-$done({ body: JSON.stringify(obj) });
+$done({body: JSON.stringify(obj)});

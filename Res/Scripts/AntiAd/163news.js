@@ -38,4 +38,4 @@ if (url.includes("/feed/dynamic/headline-list")) {
   }
 }
 body = JSON.stringify(obj);
-$done({ body });
+$done({body});

@@ -24,18 +24,18 @@ if (url.includes("/getRecV3")) {
     for (let i in obj.data.rec_card) {
       var v = obj.data.rec_card[i]
       if (v.card_banner) {
-          v.card_banner = removeAds(v.card_banner)
+        v.card_banner = removeAds(v.card_banner)
       }
     }
   }
-}else if (url.includes("/nc/m/list")) {
+} else if (url.includes("/nc/m/list")) {
   if (obj.data) {
     // 直播间悬浮窗
     delete obj.data.pendant_a;
     // 直播间宝箱
     delete obj.data.entrance_d;
   }
-}else if (url.includes("keyCodeSet=flow_config") {
+} else if (url.includes("keyCodeSet=flow_config")) {
   const keysToZero = {
     "greatGodGameSitterSwitch": 0, // 大神游戏陪玩
     "followMoreAnchorEntrance": 0, // 关注更多主播入口
@@ -52,4 +52,4 @@ if (url.includes("/getRecV3")) {
     }
   }
 }
-$done({ body: JSON.stringify(obj) });
+$done({body: JSON.stringify(obj)});

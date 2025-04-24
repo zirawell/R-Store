@@ -13,25 +13,25 @@ let body = $response.body;
 
 if (url.includes("ResourceBits")) {
   let obj = JSON.parse(body);
-  if(obj?.data?.metaData?.length > 0){
+  if (obj?.data?.metaData?.length > 0) {
     obj.data.metaData = obj.data.metaData.filter(item => item.key !== "banner");
   }
-  if(obj?.data?.RIGHTRED){
+  if (obj?.data?.RIGHTRED) {
     delete obj.data.RIGHTRED;
   }
-  if(obj?.data?.HOT){
+  if (obj?.data?.HOT) {
     delete obj.data.HOT;
   }
-  if(obj?.data?.F1){
+  if (obj?.data?.F1) {
     delete obj.data.F1;
   }
-  if(obj?.data?.BANNER){
+  if (obj?.data?.BANNER) {
     delete obj.data.BANNER;
   }
 
   body = JSON.stringify(obj);
-}else if(url.includes("get-page-resource")){
+} else if (url.includes("get-page-resource")) {
   body = body.replace(/_AD/g, "_AD0");
 }
 
-$done({ body });
+$done({body});

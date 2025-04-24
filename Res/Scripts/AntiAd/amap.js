@@ -98,15 +98,15 @@ if (url.includes("/aos/perception/publicTravel/beforeNavi")) {
   // 首页底部卡片
   if (obj?.data?.cardList?.length > 0) {
     obj.data.cardList = obj.data.cardList.filter(
-      (i) =>
-        i?.dataKey === "ContinueNavigationCard" || // 继续导航
-        i?.dataKey === "FrequentLocation" || // 常去地点
-        i?.dataKey === "LoginCard" // 登陆卡片
+        (i) =>
+            i?.dataKey === "ContinueNavigationCard" || // 继续导航
+            i?.dataKey === "FrequentLocation" || // 常去地点
+            i?.dataKey === "LoginCard" // 登陆卡片
     );
   }
   if (obj?.data?.mapBizList?.length > 0) {
     obj.data.mapBizList = obj.data.mapBizList.filter(
-      (i) => i?.dataKey === "FindCarVirtualCard" // 显示关联车辆位置
+        (i) => i?.dataKey === "FindCarVirtualCard" // 显示关联车辆位置
     );
   }
 } else if (url.includes("/perception/drive/routeInfo")) {
@@ -253,7 +253,7 @@ if (url.includes("/aos/perception/publicTravel/beforeNavi")) {
   if (obj?.data) {
     for (let i of items) {
       if (obj?.data?.[i]) {
-        obj.data[i] = { status: 1, version: "", value: "" };
+        obj.data[i] = {status: 1, version: "", value: ""};
       }
     }
   }
@@ -565,9 +565,9 @@ if (url.includes("/aos/perception/publicTravel/beforeNavi")) {
     if (obj?.tip_list?.length > 0) {
       for (let item of obj.tip_list) {
         if (
-          ["12"]?.includes(item?.tip?.datatype_spec) ||
-          ["ad", "poi_ad", "toplist"]?.includes(item?.tip?.result_type) ||
-          ["ad", "exct_query_sug_merge_theme", "query_sug_merge_theme", "sp"]?.includes(item?.tip?.task_tag)
+            ["12"]?.includes(item?.tip?.datatype_spec) ||
+            ["ad", "poi_ad", "toplist"]?.includes(item?.tip?.result_type) ||
+            ["ad", "exct_query_sug_merge_theme", "query_sug_merge_theme", "sp"]?.includes(item?.tip?.task_tag)
         ) {
           continue;
         } else {
@@ -632,4 +632,4 @@ if (url.includes("/aos/perception/publicTravel/beforeNavi")) {
   }
 }
 
-$done({ body: JSON.stringify(obj) });
+$done({body: JSON.stringify(obj)});

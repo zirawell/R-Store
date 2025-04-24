@@ -24,17 +24,17 @@ if (url.includes("/mtop.taobao.idlehome.home.nextfresh")) {
     });
 
     let excludeNames = ['fish_home_yunying_card_d3', 'idlefish_seafood_market', 'fish_home_chat_room'];
-    obj.data.sections = obj.data.sections.filter(function(section) {  
-      return !excludeNames.includes(section.template.name);  
+    obj.data.sections = obj.data.sections.filter(function (section) {
+      return !excludeNames.includes(section.template.name);
     });
   }
-}else if (url.includes("/mtop.taobao.idle.local.home")) {
+} else if (url.includes("/mtop.taobao.idle.local.home")) {
   if (obj.data?.sections) {
     obj.data.sections = obj.data.sections.filter(section => {
       return !(section.data && section.data.bizType === "AD");
     });
   }
-}else if (url.includes("/mtop.taobao.idle.home.whale.modulet")) {
+} else if (url.includes("/mtop.taobao.idle.home.whale.modulet")) {
   delete obj.data.container.sections;
 }
 

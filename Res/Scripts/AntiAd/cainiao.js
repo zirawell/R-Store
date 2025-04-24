@@ -53,15 +53,15 @@ if (url.includes(".guoguo.nbnetflow.ads.mshow")) {
     // 33927 绿色能量
     // 36649 回收旧物
     obj.data.result = obj.data.result.filter(
-      (i) =>
-        !(
-          i?.materialContentMapper?.adItemDetail ||
-          (i?.materialContentMapper?.bgImg && i?.materialContentMapper?.advRecGmtModifiedTime) ||
-          ["common_header_banner", "entertainment", "interests", "kuaishou_banner"]?.includes(
-            i?.materialContentMapper?.group_id
-          ) ||
-          ["29338", "29339", "32103", "33927", "36649"]?.includes(i?.id)
-        )
+        (i) =>
+            !(
+                i?.materialContentMapper?.adItemDetail ||
+                (i?.materialContentMapper?.bgImg && i?.materialContentMapper?.advRecGmtModifiedTime) ||
+                ["common_header_banner", "entertainment", "interests", "kuaishou_banner"]?.includes(
+                    i?.materialContentMapper?.group_id
+                ) ||
+                ["29338", "29339", "32103", "33927", "36649"]?.includes(i?.id)
+            )
     );
     for (let i of obj.data.result) {
       if (i?.materialContentMapper?.show_tips_content) {
@@ -81,12 +81,12 @@ if (url.includes(".guoguo.nbnetflow.ads.mshow")) {
     let ggContent = obj.data.result.content;
     if (ggContent?.middle?.length > 0) {
       ggContent.middle = ggContent.middle.filter(
-        (i) =>
-          ![
-            "guoguo_pickup_empty_page_relation_add", // 添加亲友
-            "guoguo_pickup_helper_feedback", // 反馈组件
-            "guoguo_pickup_helper_tip_view" // 取件小助手
-          ]?.includes(i?.template?.name)
+          (i) =>
+              ![
+                "guoguo_pickup_empty_page_relation_add", // 添加亲友
+                "guoguo_pickup_helper_feedback", // 反馈组件
+                "guoguo_pickup_helper_tip_view" // 取件小助手
+              ]?.includes(i?.template?.name)
       );
     }
   }
@@ -145,4 +145,4 @@ if (url.includes(".guoguo.nbnetflow.ads.mshow")) {
   }
 }
 
-$done({ body: JSON.stringify(obj) });
+$done({body: JSON.stringify(obj)});
