@@ -7,7 +7,7 @@ https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/Apple
 
 ********************************/
 
-if(!$request.body) $done({});
+if (!$request.body) $done({});
 let body = JSON.parse($request.body);
 const action = body.action;
 const blockIds = [
@@ -17,8 +17,8 @@ const blockIds = [
 	"ydmbcard.ydcard.activity.queryPopularize"
 ];
 
-if(blockIds.includes(action)){
-	$done({status:"HTTP/1.1 404 Not Found", body:"", headers:""});
-}else{
+if (blockIds.includes(action)) {
+	$done({status: "HTTP/1.1 404 Not Found", body: "", headers: ""});
+} else {
 	$done({});
 }

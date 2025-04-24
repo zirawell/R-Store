@@ -92,4 +92,4 @@ if (url.includes("/api/getsyscfg?")) {
   };
 }
 
-$done({ body: JSON.stringify(obj) });
+$done({body: JSON.stringify(obj)});

@@ -8,7 +8,6 @@ https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/App/R
 
 ********************************/
 
-
 const scriptName = "RRTV";
 const magicJS = new MagicJS(scriptName, "INFO");
 const rrtv_tab_home = /.*\/v3plus\/index\/channel\?pageNum=1&position=CHANNEL_INDEX/;

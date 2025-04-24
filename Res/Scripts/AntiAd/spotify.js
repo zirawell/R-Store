@@ -21,7 +21,7 @@ if (url.includes("/bootstrap/v1/bootstrap") && method === "POST") {
   let bootstrapResponseType = protobuf.Root.fromJSON(spotifyJson).lookupType("BootstrapResponse");
   let bootstrapResponseObj = bootstrapResponseType.decode(binaryBody);
   accountAttributesMapObj =
-    bootstrapResponseObj.ucsResponseV0.success.customization.success.accountAttributesSuccess.accountAttributes;
+      bootstrapResponseObj.ucsResponseV0.success.customization.success.accountAttributesSuccess.accountAttributes;
   processMapObj(accountAttributesMapObj);
   body = bootstrapResponseType.encode(bootstrapResponseObj).finish();
 } else if (url.includes("/user-customization-service/v1/customize") && method === "POST") {
@@ -33,42 +33,42 @@ if (url.includes("/bootstrap/v1/bootstrap") && method === "POST") {
 }
 
 if (isQuanX) {
-  $done({ bodyBytes: body.buffer.slice(body.byteOffset, body.byteLength + body.byteOffset) });
+  $done({bodyBytes: body.buffer.slice(body.byteOffset, body.byteLength + body.byteOffset)});
 } else {
-  $done({ body });
+  $done({body});
 }
 
 function processMapObj(accountAttributesMapObj) {
-  accountAttributesMapObj["player-license"] = { stringValue: "premium" };
-  accountAttributesMapObj["mobile"] = { boolValue: true };
-  accountAttributesMapObj["streaming-rules"] = { stringValue: "" };
-  accountAttributesMapObj["financial-product"] = { stringValue: "pr:premium,tc:0" };
-  accountAttributesMapObj["license-acceptance-grace-days"] = { longValue: 30 };
-  accountAttributesMapObj["mobile-login"] = { boolValue: true };
-  accountAttributesMapObj["name"] = { stringValue: "Spotify Premium" };
-  accountAttributesMapObj["on-demand"] = { boolValue: true };
-  accountAttributesMapObj["ads"] = { boolValue: false };
-  accountAttributesMapObj["catalogue"] = { stringValue: "premium" };
-  accountAttributesMapObj["high-bitrate"] = { boolValue: true };
-  accountAttributesMapObj["libspotify"] = { boolValue: true };
+  accountAttributesMapObj["player-license"] = {stringValue: "premium"};
+  accountAttributesMapObj["mobile"] = {boolValue: true};
+  accountAttributesMapObj["streaming-rules"] = {stringValue: ""};
+  accountAttributesMapObj["financial-product"] = {stringValue: "pr:premium,tc:0"};
+  accountAttributesMapObj["license-acceptance-grace-days"] = {longValue: 30};
+  accountAttributesMapObj["mobile-login"] = {boolValue: true};
+  accountAttributesMapObj["name"] = {stringValue: "Spotify Premium"};
+  accountAttributesMapObj["on-demand"] = {boolValue: true};
+  accountAttributesMapObj["ads"] = {boolValue: false};
+  accountAttributesMapObj["catalogue"] = {stringValue: "premium"};
+  accountAttributesMapObj["high-bitrate"] = {boolValue: true};
+  accountAttributesMapObj["libspotify"] = {boolValue: true};
   // 主页右下角的会员广告tab
-  accountAttributesMapObj["nft-disabled"] = { stringValue: "1" };
-  accountAttributesMapObj["shuffle"] = { boolValue: false };
-  accountAttributesMapObj["audio-quality"] = { stringValue: "1" };
-  accountAttributesMapObj["offline"] = { boolValue: true };
-  accountAttributesMapObj["pause-after"] = { longValue: 0 };
-  accountAttributesMapObj["can_use_superbird"] = { boolValue: true };
-  accountAttributesMapObj["type"] = { stringValue: "premium" };
+  accountAttributesMapObj["nft-disabled"] = {stringValue: "1"};
+  accountAttributesMapObj["shuffle"] = {boolValue: false};
+  accountAttributesMapObj["audio-quality"] = {stringValue: "1"};
+  accountAttributesMapObj["offline"] = {boolValue: true};
+  accountAttributesMapObj["pause-after"] = {longValue: 0};
+  accountAttributesMapObj["can_use_superbird"] = {boolValue: true};
+  accountAttributesMapObj["type"] = {stringValue: "premium"};
 
   // vip新增的
-  accountAttributesMapObj["loudness-levels"] = { stringValue: "1:-9.0,0.0,3.0:-2.0" };
-  accountAttributesMapObj["payments-initial-campaign"] = { stringValue: "web" };
-  accountAttributesMapObj["shuffle-eligible"] = { boolValue: true };
-  accountAttributesMapObj["unrestricted"] = { boolValue: true };
+  accountAttributesMapObj["loudness-levels"] = {stringValue: "1:-9.0,0.0,3.0:-2.0"};
+  accountAttributesMapObj["payments-initial-campaign"] = {stringValue: "web"};
+  accountAttributesMapObj["shuffle-eligible"] = {boolValue: true};
+  accountAttributesMapObj["unrestricted"] = {boolValue: true};
   // 儿童不宜
   // accountAttributesMapObj['filter-explicit-content'] = {boolValue : true};
   // 决定customize是否有效 有的用户没有此属性
-  accountAttributesMapObj["com.spotify.madprops.use.ucs.product.state"] = { boolValue: true };
+  accountAttributesMapObj["com.spotify.madprops.use.ucs.product.state"] = {boolValue: true};
 
   delete accountAttributesMapObj["ad-use-adlogic"];
   delete accountAttributesMapObj["ad-catalogues"];

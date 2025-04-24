@@ -19,7 +19,7 @@ const blockList = [
 ];
 
 if (blockList?.includes(headopt)) {
-  $done({ status: "HTTP/1.1 404 Not Found",body: "",headers: "" });
+    $done({status: "HTTP/1.1 404 Not Found", body: "", headers: ""});
 } else {
-  $done({});
+    $done({});
 }

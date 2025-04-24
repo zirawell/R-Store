@@ -22,14 +22,14 @@ try {
   mod_rsp = JSON.parse(rsp_body);
 
   const shouldDeleteData =
-    req_url.includes("/post/homepage/guide/card") ||
-    req_url.includes("/furion/position/content") ||
-    req_url.includes("/hot/soul/rank") ||
-    req_url.includes("/post/gift/list") ||
-    req_url.includes("/mobile/app/version/queryIos") ||
-    req_url.includes("/teenager/config") ||
-    req_url.includes("/winterfell/v2/getIpByDomain") ||
-    req_url.includes("/official/scene/module");
+      req_url.includes("/post/homepage/guide/card") ||
+      req_url.includes("/furion/position/content") ||
+      req_url.includes("/hot/soul/rank") ||
+      req_url.includes("/post/gift/list") ||
+      req_url.includes("/mobile/app/version/queryIos") ||
+      req_url.includes("/teenager/config") ||
+      req_url.includes("/winterfell/v2/getIpByDomain") ||
+      req_url.includes("/official/scene/module");
 
   const shouldModifyLimitInfo = req_url.includes("/chat/limitInfo") && mod_rsp.data && mod_rsp.data.limit !== undefined;
 

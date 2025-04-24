@@ -30,7 +30,7 @@ if (url.includes("/note/imagefeed") || url.includes("/note/feed")) {
         }
         if (item?.share_info?.function_entries?.length > 0) {
           // 下载限制
-          const addItem = { type: "video_download" };
+          const addItem = {type: "video_download"};
           let func = item.share_info.function_entries[0];
           if (func?.type !== "video_download") {
             // 向数组开头添加对象
@@ -69,7 +69,7 @@ if (url.includes("/note/imagefeed") || url.includes("/note/feed")) {
     replaceUrlContent(obj.data.datas, newDatas);
   } else {
     // 原始数据有问题 强制返回成功响应
-    obj = { code: 0, success: true, msg: "成功", data: { datas: newDatas } };
+    obj = {code: 0, success: true, msg: "成功", data: {datas: newDatas}};
   }
 } else if (url.includes("/search/banner_list")) {
   if (obj?.data) {
@@ -119,7 +119,7 @@ if (url.includes("/note/imagefeed") || url.includes("/note/feed")) {
   }
 // 信息流 视频
 } else if (url.includes("/note/videofeed")) {
-  if (url.includes("/v3/")){
+  if (url.includes("/v3/")) {
     if (obj?.data?.length > 0) {
       for (let item of obj.data) {
         if (item?.media_save_config) {
@@ -130,7 +130,7 @@ if (url.includes("/note/imagefeed") || url.includes("/note/feed")) {
         }
         if (item?.share_info?.function_entries?.length > 0) {
           // 下载限制
-          const additem = { type: "video_download" };
+          const additem = {type: "video_download"};
           let func = item.share_info.function_entries[0];
           if (func?.type !== "video_download") {
             // 向数组开头添加对象
@@ -139,7 +139,7 @@ if (url.includes("/note/imagefeed") || url.includes("/note/feed")) {
         }
       }
     }
-  }else if (url.includes("/v4/")){
+  } else if (url.includes("/v4/")) {
     let newDatas = [];
     let unlockDatas = [];
     if (obj?.data?.length > 0) {
@@ -168,7 +168,7 @@ if (url.includes("/note/imagefeed") || url.includes("/note/feed")) {
         }
       }
       $.setdata(JSON.stringify(newDatas), "redBookVideoFeed"); // 普通视频 写入持久化存储
-      
+
       for (let item of obj.data) {
         if (item?.id && item.video_info_v2?.media?.stream?.h265?.length > 0 && item.video_info_v2.media.stream.h265[0].master_url) {
           let myData = {
@@ -204,10 +204,10 @@ if (url.includes("/note/imagefeed") || url.includes("/note/feed")) {
         }
       }
     }
-    videoFeedUnlock = { notSave: "Y" };
+    videoFeedUnlock = {notSave: "Y"};
     $.setdata(JSON.stringify(videoFeedUnlock), "redBookVideoFeedUnlock");
   }
-  
+
 // 关注列表
 } else if (url.includes("/followfeed") && !url.includes("/user/followings")) {
   if (obj?.data?.items?.length > 0) {
@@ -240,13 +240,13 @@ if (url.includes("/note/imagefeed") || url.includes("/note/feed")) {
       // 信息流-直播
       if (item?.model_type === "live_v2") {
         continue;
-      // 信息流-赞助
+        // 信息流-赞助
       } else if (item.hasOwnProperty("ads_info")) {
         continue;
-      // 信息流-带货
+        // 信息流-带货
       } else if (item.hasOwnProperty("card_icon")) {
         continue;
-      // 信息流-商品
+        // 信息流-商品
       } else if (item?.note_attributes?.includes("goods")) {
         continue;
       } else {
@@ -349,10 +349,7 @@ if (url.includes("/note/imagefeed") || url.includes("/note/feed")) {
   }
 }
 
-$done({ body: JSON.stringify(obj) });
-
-
-
+$done({body: JSON.stringify(obj)});
 
 
 // 小红书画质增强：加载2K分辨率的图片

@@ -11,17 +11,17 @@ if (!$response.body) $done({});
 let body = $response.body;
 let obj = JSON.parse(body);
 // 删除 - 我的页面推广语
-if(obj.activity){
+if (obj.activity) {
   delete obj.activity;
 }
 // 删除 - 底栏商城入口
-if(obj.tab_conf["tab_360Mall"]){
+if (obj.tab_conf["tab_360Mall"]) {
   delete obj.tab_conf["tab_360Mall"];
 }
 // 删除 - 广告配置
-if(obj.ad_conf){
+if (obj.ad_conf) {
   delete obj.ad_conf;
 }
 
 body = JSON.stringify(obj);
-$done({ body });
+$done({body});

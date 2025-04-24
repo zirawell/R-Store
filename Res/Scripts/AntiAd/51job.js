@@ -10,6 +10,6 @@ https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/App/0
 if (!$response.body) $done({});
 let body = $response.body;
 let obj = JSON.parse(body);
-obj.resultbody.adsTabFeeds=[];
+obj.resultbody.adsTabFeeds = [];
 body = JSON.stringify(obj);
-$done({ body });
+$done({body});

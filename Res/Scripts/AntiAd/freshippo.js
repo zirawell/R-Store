@@ -9,9 +9,9 @@ https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/App/H
 
 const url = $request.url;
 if (!$response.body) $done({});
-let obj=JSON.parse($response.body);
+let obj = JSON.parse($response.body);
 // 首页
-if(url.indexOf("queryindexpage")!=-1){
+if (url.indexOf("queryindexpage") != -1) {
   const sceneTemplateId = [
     "509",
     "738"
@@ -26,7 +26,7 @@ if(url.indexOf("queryindexpage")!=-1){
     obj.data.scenes = scenes;
   }
 // 我的页
-}else if(url.indexOf("querymypage")!=-1){
+} else if (url.indexOf("querymypage") != -1) {
   const sceneTemplateId = [
     "906",
     "907",
@@ -51,12 +51,12 @@ if(url.indexOf("queryindexpage")!=-1){
     obj.data.scenes = scenes;
   }
 // 我的页及购物车页推荐信息流
-}else if(url.indexOf("querytabfeedstream")!=-1){
-  if(obj?.data?.pageName && obj.data.pageName.includes("盒马商家")){
+} else if (url.indexOf("querytabfeedstream") != -1) {
+  if (obj?.data?.pageName && obj.data.pageName.includes("盒马商家")) {
     obj.data = {};
   }
-}else{
+} else {
   $done({});
 }
-$done({body:JSON.stringify(obj)});
+$done({body: JSON.stringify(obj)});
 

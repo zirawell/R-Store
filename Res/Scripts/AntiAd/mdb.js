@@ -6,6 +6,7 @@ QuantumultX rewrite link:
 https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/App/M/买单吧/rewrite/creditCardBankComm.conf
 
 ********************************/
+
 const resp = {};
 if (!$response.body) $done({});
 // 买单吧-充值页面

@@ -6,8 +6,9 @@ QuantumultX rewrite link:
 https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/Applet/Wechat/T/台风路径/rewrite/tflj.conf
 
 ********************************/
+
 if (!$response.body) $done({});
 let resp = {};
 let body = $response.body;
-body = body.replace(/adConfig/g,"adConfig0").replace(/typhoonPopupConfig/g,"typhoonPopupConfig0").replace(/guidePoup/g,"guidePoup0");
-$done({ body });
+body = body.replace(/adConfig/g, "adConfig0").replace(/typhoonPopupConfig/g, "typhoonPopupConfig0").replace(/guidePoup/g, "guidePoup0");
+$done({body});

@@ -15,4 +15,4 @@ if (obj?.data?.bottom?.ad_info) {
   delete obj.data.bottom.ad_info;
 }
 body = JSON.stringify(obj);
-$done({ body });
+$done({body});

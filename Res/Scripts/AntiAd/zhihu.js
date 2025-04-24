@@ -111,12 +111,12 @@ if (url.includes("/answers/v2/") || url.includes("/articles/v2/")) {
 } else if (url.includes("/next-bff")) {
   if (obj?.data?.length > 0) {
     obj.data = obj.data.filter(
-      (i) =>
-        !(
-          i?.origin_data?.type?.includes("ad") ||
-          i?.origin_data?.resource_type?.includes("ad") ||
-          i?.origin_data?.next_guide?.title?.includes("推荐")
-        )
+        (i) =>
+            !(
+                i?.origin_data?.type?.includes("ad") ||
+                i?.origin_data?.resource_type?.includes("ad") ||
+                i?.origin_data?.next_guide?.title?.includes("推荐")
+            )
     );
   }
 } else if (url.includes("/next-data")) {
@@ -126,16 +126,16 @@ if (url.includes("/answers/v2/") || url.includes("/articles/v2/")) {
 } else if (url.includes("/next-render")) {
   if (obj?.data?.length > 0) {
     obj.data = obj.data.filter(
-      (i) =>
-        !(
-          i?.adjson ||
-          i?.biz_type_list?.includes("article") ||
-          i?.biz_type_list?.includes("content") ||
-          i?.business_type?.includes("paid") ||
-          i?.section_info ||
-          i?.tips ||
-          i?.type?.includes("ad")
-        )
+        (i) =>
+            !(
+                i?.adjson ||
+                i?.biz_type_list?.includes("article") ||
+                i?.biz_type_list?.includes("content") ||
+                i?.business_type?.includes("paid") ||
+                i?.section_info ||
+                i?.tips ||
+                i?.type?.includes("ad")
+            )
     );
   }
 } else if (url.includes("/questions/")) {
@@ -216,7 +216,7 @@ if (url.includes("/answers/v2/") || url.includes("/articles/v2/")) {
   }
 }
 
-$done({ body: JSON.stringify(obj) });
+$done({body: JSON.stringify(obj)});
 
 // 修复offset
 function fixPos(arr) {
@@ -227,9 +227,9 @@ function fixPos(arr) {
 
 function getUrlParamValue(url, queryName) {
   return Object.fromEntries(
-    url
-      .substring(url.indexOf("?") + 1)
-      .split("&")
-      .map((pair) => pair.split("="))
+      url
+          .substring(url.indexOf("?") + 1)
+          .split("&")
+          .map((pair) => pair.split("="))
   )[queryName];
 }

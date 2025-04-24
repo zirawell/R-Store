@@ -73,7 +73,7 @@ if (url.includes("/interface/sdk/sdkad.php")) {
       item.endtime = "2040-01-01 23:59:59";
     }
   }
-  $done({ body: JSON.stringify(obj) + "OK" });
+  $done({body: JSON.stringify(obj) + "OK"});
 } else {
   let obj = JSON.parse(body);
   if (url.includes("/2/cardlist")) {
@@ -369,19 +369,19 @@ if (url.includes("/interface/sdk/sdkad.php")) {
     if (obj?.cards?.length > 0) {
       if (obj?.cards?.[0]?.card_group?.length > 0) {
         obj.cards[0].card_group = obj.cards[0].card_group.filter(
-          (c) => !(c?.actionlog?.ext?.includes("ads_word") || c?.itemid?.includes("t:51") || c?.itemid?.includes("ads_word"))
+            (c) => !(c?.actionlog?.ext?.includes("ads_word") || c?.itemid?.includes("t:51") || c?.itemid?.includes("ads_word"))
         );
       }
       obj.cards = obj.cards.filter(
-        (i) =>
-          !(
-            i.itemid?.includes("feed_-_invite") || // 超话里的好友
-            i.itemid?.includes("infeed_friends_recommend") || // 好友关注
-            i.itemid?.includes("infeed_may_interest_in") || // 你可能感兴趣的超话
-            i.itemid?.includes("infeed_pagemanual3") || // 手动区域3
-            i.itemid?.includes("infeed_weibo_mall") || // 微博小店
-            i?.mblog?.mblogtypename?.includes("广告")
-          )
+          (i) =>
+              !(
+                  i.itemid?.includes("feed_-_invite") || // 超话里的好友
+                  i.itemid?.includes("infeed_friends_recommend") || // 好友关注
+                  i.itemid?.includes("infeed_may_interest_in") || // 你可能感兴趣的超话
+                  i.itemid?.includes("infeed_pagemanual3") || // 手动区域3
+                  i.itemid?.includes("infeed_weibo_mall") || // 微博小店
+                  i?.mblog?.mblogtypename?.includes("广告")
+              )
       );
     } else if (obj?.card_group?.length > 0) {
       obj.card_group = obj.card_group.filter((i) => i?.desc?.includes("你可能感兴趣的超话"));
@@ -530,15 +530,15 @@ if (url.includes("/interface/sdk/sdkad.php")) {
         } else if (itemId === "100505_-_top8") {
           if (item?.items?.length > 0) {
             item.items = item.items.filter(
-              (i) =>
-                i.itemId === "100505_-_album" || // 我的相册
-                i.itemId === "100505_-_like" || // 赞/收藏
-                i.itemId === "100505_-_watchhistory" || // 浏览记录
-                i.itemId === "100505_-_draft" // 草稿箱
-              // i.itemId === "100505_-_pay" || // 我的钱包
-              // i.itemId === "100505_-_ordercenter" || // 我的订单
-              // i.itemId === "100505_-_productcenter" || // 创作中心
-              // i.itemId === "100505_-_promote" || // 广告中心
+                (i) =>
+                    i.itemId === "100505_-_album" || // 我的相册
+                    i.itemId === "100505_-_like" || // 赞/收藏
+                    i.itemId === "100505_-_watchhistory" || // 浏览记录
+                    i.itemId === "100505_-_draft" // 草稿箱
+                // i.itemId === "100505_-_pay" || // 我的钱包
+                // i.itemId === "100505_-_ordercenter" || // 我的订单
+                // i.itemId === "100505_-_productcenter" || // 创作中心
+                // i.itemId === "100505_-_promote" || // 广告中心
             );
           }
           newItems.push(item);
@@ -1068,7 +1068,7 @@ if (url.includes("/interface/sdk/sdkad.php")) {
                     // 保留搜索框
                     if (ii?.data?.hotwords) {
                       // 删除热搜词
-                      ii.data.hotwords = [{ word: "搜索超话" }];
+                      ii.data.hotwords = [{word: "搜索超话"}];
                     }
                     newII.push(ii);
                   } else if (ii?.data?.itemid?.includes("poiRankList")) {
@@ -1230,7 +1230,7 @@ if (url.includes("/interface/sdk/sdkad.php")) {
       }
     }
   }
-  $done({ body: JSON.stringify(obj) });
+  $done({body: JSON.stringify(obj)});
 }
 
 // 判断信息流

@@ -44,12 +44,12 @@ if (url.includes("/vip")) {
     }
     if (url.includes("/vip/creator_user_center")) {
         obj.data = {};
-    }else if (url.includes("/vip/bottom_card_list")) {
-        if(obj?.data?.rows) {
+    } else if (url.includes("/vip/bottom_card_list")) {
+        if (obj?.data?.rows) {
             delete obj.data.rows;
         }
     }
-}else if (url.includes("/util/update") && obj.data) {
+} else if (url.includes("/util/update") && obj.data) {
     obj.data.operation_float = [];
     if (obj.data.ad_black_list) {
         delete obj.data.ad_black_list;
@@ -62,22 +62,22 @@ if (url.includes("/vip")) {
     if (obj.data.haojia_widget) {
         delete obj.data.haojia_widget;
     }
-}else if (url.includes("/util/loading") && obj && obj.data) {
+} else if (url.includes("/util/loading") && obj && obj.data) {
     delete obj.data;
-}else if (url.includes("/home/list") && obj.data.banner_v2) {
+} else if (url.includes("/home/list") && obj.data.banner_v2) {
     delete obj.data.banner_v2;
-}else if (url.includes("/home") && url.includes("homepage-api")) {
+} else if (url.includes("/home") && url.includes("homepage-api")) {
     obj.data.component = obj.data.component.filter((item) =>
         item.zz_type === "circular_banner" || item.zz_type === "fixed_banner" || item.zz_type === "filter" || item.zz_type === "list"
     );
     fixPos(obj.data.component);
-    if(obj.data && obj.data.functions){
+    if (obj.data && obj.data.functions) {
         obj.data.functions = obj.data.functions.filter((item) => item.type === "message");
-    fixPos(obj.data.functions);
+        fixPos(obj.data.functions);
     }
-}else if (url.includes("/publish/get_bubble") && obj.data) {
+} else if (url.includes("/publish/get_bubble") && obj.data) {
     delete obj.data;
-}else if (url.includes("/app/home") && obj.data) {
+} else if (url.includes("/app/home") && obj.data) {
     if (obj.data) {
         obj.data = obj.data.filter((item) => item.id === "40" || item.id === "20");
         fixPos(obj.data);

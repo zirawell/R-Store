@@ -8,13 +8,14 @@ QuantumultX rewrite link:
 https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/App/X/小黑盒/rewrite/xiaoheihe.conf
 
 ********************************/
+
 const url = $request.url;
 if (!$response.body) $done({});
 var json = JSON.parse($response.body);
 
 // 移除热点板块信息流广告
 if (json.result && json.result.links && Array.isArray(json.result.links)) {
-    json.result.links.forEach(function(link) {
+    json.result.links.forEach(function (link) {
         if (link.content_type === 27) {
             var propertiesToDelete = [
                 "title",
@@ -32,11 +33,11 @@ if (json.result && json.result.links && Array.isArray(json.result.links)) {
                 "ad_ratio"
             ];
 
-            propertiesToDelete.forEach(function(prop) {
+            propertiesToDelete.forEach(function (prop) {
                 delete link[prop];
             });
         }
     });
 }
 
-$done({ body: JSON.stringify(json) });
+$done({body: JSON.stringify(json)});

@@ -6,12 +6,13 @@ QuantumultX rewrite link:
 https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/App/B/宝宝树/rewrite/babytree.conf
 
 ********************************/
+
 const url = $request.url;
 if (!$response.body) $done({});
 let body = $response.body;
 let obj = JSON.parse(body);
-if(url.includes("/api/app_index/get_app_tab")){
-  if (obj?.data.selected_list?.length > 0) {
+if (url.includes("/api/app_index/get_app_tab")) {
+	if (obj?.data.selected_list?.length > 0) {
 		let tabs = [];
 		const items = [
 			"首页",
@@ -25,7 +26,7 @@ if(url.includes("/api/app_index/get_app_tab")){
 		}
 		obj.data.selected_list = tabs;
 	}
-}else if(url.includes("/api/cms_column")){
+} else if (url.includes("/api/cms_column")) {
 	if (obj?.data.list?.length > 0) {
 		obj.data.bucket_id = '';
 		obj.data.test_id = '';
@@ -34,4 +35,4 @@ if(url.includes("/api/app_index/get_app_tab")){
 	}
 }
 body = JSON.stringify(obj);
-$done({ body });
+$done({body});

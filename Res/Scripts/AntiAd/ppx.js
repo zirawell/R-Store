@@ -42,4 +42,4 @@ if (url.includes("/bds/user/check_in/")) {
   filterChannelModel();
 }
 
-$done({ body: JSON.stringify(obj) });
+$done({body: JSON.stringify(obj)});
