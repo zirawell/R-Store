@@ -1,15 +1,47 @@
 {
   "name": "All Icons",
   "description": "collected by zirawell",
-  "time": "2025-04-24",
+  "time": "2025-04-25",
   "icons": [
     {
-      "name": "gd",
-      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/gd.png"
+      "name": "52pj",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/52pj.png"
+    },
+    {
+      "name": "sgcc",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/sgcc.png"
+    },
+    {
+      "name": "tieba",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/tieba.png"
+    },
+    {
+      "name": "iqiyi",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/iqiyi.png"
+    },
+    {
+      "name": "xmly",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/xmly.png"
+    },
+    {
+      "name": "bilibiliManga",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/bilibiliManga.png"
+    },
+    {
+      "name": "amap",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/amap.png"
+    },
+    {
+      "name": "hzh",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/hzh.png"
     },
     {
       "name": "bilibili",
       "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/bilibili.png"
+    },
+    {
+      "name": "txtv",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/txtv.png"
     },
     {
       "name": "nga",
@@ -20,20 +52,8 @@
       "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/jhsh.png"
     },
     {
-      "name": "sgcc",
-      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/sgcc.png"
-    },
-    {
       "name": "ctrip",
       "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/ctrip.png"
-    },
-    {
-      "name": "bilibiliManga",
-      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/bilibiliManga.png"
-    },
-    {
-      "name": "hzh",
-      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/hzh.png"
     },
     {
       "name": "flyert",
