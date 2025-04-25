@@ -33,7 +33,7 @@ hostname = xmc.ximalaya.com
 
 [task_local]
 # 喜马拉雅-签到
-35 8 * * * https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/xmly.js, tag=喜马拉雅-签到, enabled=true
+35 8 * * * https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/xmly.js, tag=喜马拉雅-签到, img-url=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/xmly.png, enabled=true
 
 ********************************/
 

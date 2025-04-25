@@ -32,7 +32,7 @@ hostname = www.52pojie.cn
 
 [task_local]
 # 52pj-签到
-5 9 * * * https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/52pj.js, tag=52pj-签到, enabled=true
+5 9 * * * https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/52pj.js, tag=52pj-签到, img-url=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/52pj.png, enabled=true
 
 ********************************/
 

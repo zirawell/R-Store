@@ -18,9 +18,9 @@ AmapDache CheckIn
 hostname = *.amap.com
 
 [Script]
-高德打车-Cookie = type=http-response,pattern=^^https?:\/\/(m5(|-zb)|dache)\.amap\.com\/(ws\/yuece\/(act|openapi\/activity\/current)\/query|common\/(alipaymini|wxmini)\?_ENCRYPT=),script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/dache.js
+高德打车-Cookie = type=http-response,pattern=^^https?:\/\/(m5(|-zb)|dache)\.amap\.com\/(ws\/yuece\/(act|openapi\/activity\/current)\/query|common\/(alipaymini|wxmini)\?_ENCRYPT=),script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/amap.js
 
-高德打车-签到 = type=cron,cronexp=1 0 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/dache.js
+高德打车-签到 = type=cron,cronexp=1 0 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/amap.js
 
 -------------- Quantumult X 配置 --------------
 
@@ -29,11 +29,11 @@ hostname = *.amap.com
 
 [rewrite_local]
 # 高德打车-Cookie
-^https?:\/\/(m5(|-zb)|dache)\.amap\.com\/(ws\/yuece\/(act|openapi\/activity\/current)\/query|common\/(alipaymini|wxmini)\?_ENCRYPT=) url script-response-body https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/dache.js
+^https?:\/\/(m5(|-zb)|dache)\.amap\.com\/(ws\/yuece\/(act|openapi\/activity\/current)\/query|common\/(alipaymini|wxmini)\?_ENCRYPT=) url script-response-body https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/amap.js
 
 [task_local]
 # 高德打车-签到
-1 0 * * * https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/dache.js, tag=高德打车-签到, enabled=true
+1 0 * * * https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/amap.js, tag=高德打车-签到, img-url=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/amap.png, enabled=true
 
 ********************************/
 

@@ -38,7 +38,7 @@ hostname = vip.video.qq.com, pbaccess.video.qq.com
 
 [task_local]
 # 腾讯视频-签到
-0 5 * * * https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/txtv.js, tag=腾讯视频-签到, enabled=true
+0 5 * * * https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/txtv.js, tag=腾讯视频-签到, img-url=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/txtv.png, enabled=true
 
 ********************************/
 

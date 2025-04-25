@@ -29,7 +29,7 @@ hostname = www.flyert.com.cn
 
 [task_local]
 # 飞客-签到
-10 0 * * * https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/flyert.js, tag=飞客-签到, enabled=true
+10 0 * * * https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/flyert.js, tag=飞客-签到, img-url=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/flyert.png, enabled=true
 
 ********************************/
 
