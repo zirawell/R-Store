@@ -32,7 +32,7 @@ hostname = tiebac.baidu.com, c.tieba.baidu.com
 
 [task_local]
 # 百度贴吧-签到
-0 9 * * * https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/tieba.js, tag=百度贴吧-签到, enabled=true
+0 9 * * * https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/tieba.js, img-url=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/tieba.png, tag=百度贴吧-签到, enabled=true
 
 ********************************/
 

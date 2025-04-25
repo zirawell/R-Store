@@ -50,7 +50,7 @@ hostname = app.bilibili.com, m.bilibili.com
 
 [task_local]
 # 哔哩哔哩-签到
-30 7 * * * https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/bilibili.js, tag=哔哩哔哩-签到, enabled=true
+30 7 * * * https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/bilibili.js, tag=哔哩哔哩-签到, img-url=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/bilibili.png, enabled=true
 
 ********************************/
 

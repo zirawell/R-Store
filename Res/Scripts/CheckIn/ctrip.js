@@ -31,7 +31,7 @@ hostname = m.ctrip.com
 
 [task_local]
 # 携程旅行-签到
-5 0 * * * https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/ctrip.js, tag=携程旅行-签到, enabled=true
+5 0 * * * https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/ctrip.js, tag=携程旅行-签到, img-url=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/ctrip.png, enabled=true
 
 ********************************/
 

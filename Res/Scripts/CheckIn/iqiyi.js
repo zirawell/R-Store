@@ -32,7 +32,7 @@ hostname = passport.iqiyi.com
 
 [task_local]
 # 爱奇艺-签到
-0 9 * * * https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/iqiyi.js, tag=爱奇艺-签到, enabled=true
+0 9 * * * https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/iqiyi.js, tag=爱奇艺-签到, img-url=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/iqiyi.png, enabled=true
 
 ********************************/
 

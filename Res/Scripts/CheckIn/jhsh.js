@@ -30,7 +30,7 @@ hostname = yunbusiness.ccb.com
 
 [task_local]
 # 建行生活-签到
-17 7 * * * https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/jhsh.js, tag=建行生活-签到, enabled=true
+17 7 * * * https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/jhsh.js, tag=建行生活-签到, img-url=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/jhsh.png, enabled=true
 
 ********************************/
 

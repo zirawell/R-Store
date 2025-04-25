@@ -29,7 +29,7 @@ hostname = hweb-personalcenter.huazhu.com
 
 [task_local]
 # 华住会-签到
-5 0 * * * https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/hzh.js, tag=华住会-签到, enabled=true
+5 0 * * * https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/hzh.js, tag=华住会-签到, img-url=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/hzh.png, enabled=true
 
 ********************************/
 

@@ -33,7 +33,7 @@ hostname = ngabbs.com
 
 [task_local]
 # NGA-签到
-40 8 * * * https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/nga.js, tag=NGA-签到, enabled=true
+40 8 * * * https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/nga.js, tag=NGA-签到, img-url=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/nga.png, enabled=true
 
 ********************************/
 
