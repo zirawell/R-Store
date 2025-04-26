@@ -53,6 +53,7 @@ host-suffix, jpush.io, reject
 host-suffix, admobile.top, reject
 host-suffix, miaozhen.com, reject
 host-suffix, gentags.net, reject
+host-suffix, dcloud.net.cn, reject
 host-keyword, ads.g.doubleclick, reject
 host-keyword, iflyad.bj.openstorage.cn, reject
 host-keyword, bjimp.voiceads.cn, reject
