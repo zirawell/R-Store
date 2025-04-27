@@ -1,0 +1,62 @@
+{
+    "id": "R-Store.Res.Scripts.CheckIn",
+    "name": "Check-In-Gallery",
+    "description": "QX Check In Gallery",
+    "author": "@zirawell",
+    "repo": "https://github.com/zirawell/R-Store",
+    "task":
+    [
+        {
+            "config": "5 9 * * * https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/52pj.js, tag=52pj-签到, img-url=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/52pj.png",
+            "addons": "https://raw.githubusercontent.com/zirawell/R-Store/refs/heads/main/Rule/QuanX/Plugin/52pj.conf, tag=吾爱破解(获取Cookie)"
+        },
+        {
+            "config": "30 7 * * * https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/bilibili.js, tag=哔哩哔哩-签到, img-url=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/bilibili.png",
+            "addons": "https://raw.githubusercontent.com/zirawell/R-Store/refs/heads/main/Rule/QuanX/Plugin/bilibili.conf, tag=哔哩哔哩(获取Cookie)"
+        },
+        {
+            "config": "5 0 * * * https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/ctrip.js, tag=携程旅行-签到, img-url=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/ctrip.png",
+            "addons": "https://raw.githubusercontent.com/zirawell/R-Store/refs/heads/main/Rule/QuanX/Plugin/ctrip.conf, tag=携程旅行(获取Cookie)"
+        },
+        {
+            "config": "0 9 * * * https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/iqiyi.js, tag=爱奇艺-签到, img-url=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/iqiyi.png",
+            "addons": "https://raw.githubusercontent.com/zirawell/R-Store/refs/heads/main/Rule/QuanX/Plugin/iqiyi.conf, tag=爱奇艺(获取Cookie)"
+        },
+        {
+            "config": "17 7 * * * https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/jhsh.js, tag=建行生活-签到, img-url=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/jhsh.png",
+            "addons": "https://raw.githubusercontent.com/zirawell/R-Store/refs/heads/main/Rule/QuanX/Plugin/jhsh.conf, tag=建行生活(获取Cookie)"
+        },
+        {
+            "config": "40 8 * * * https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/nga.js, tag=NGA-签到, img-url=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/nga.png",
+            "addons": "https://raw.githubusercontent.com/zirawell/R-Store/refs/heads/main/Rule/QuanX/Plugin/nga.conf, tag=NGA(获取Cookie)"
+        },
+        {
+            "config": "0 9 * * * https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/tieba.js, tag=百度贴吧-签到, img-url=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/tieba.png",
+            "addons": "https://raw.githubusercontent.com/zirawell/R-Store/refs/heads/main/Rule/QuanX/Plugin/tieba.conf, tag=百度贴吧(获取Cookie)"
+        },
+        {
+            "config": "0 5 * * * https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/txtv.js, tag=腾讯视频-签到, img-url=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/txtv.png",
+            "addons": "https://raw.githubusercontent.com/zirawell/R-Store/refs/heads/main/Rule/QuanX/Plugin/txtv.conf, tag=腾讯视频(获取Cookie)"
+        },
+        {
+            "config": "1 0 * * * https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/amap.js, tag=高德打车-签到, img-url=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/amap.png",
+            "addons": "https://raw.githubusercontent.com/zirawell/R-Store/refs/heads/main/Rule/QuanX/Plugin/amap.conf, tag=高德打车(获取Cookie)"
+        },
+        {
+            "config": "35 8 * * * https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/xmly.js, tag=喜马拉雅-签到, img-url=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/xmly.png",
+            "addons": "https://raw.githubusercontent.com/zirawell/R-Store/refs/heads/main/Rule/QuanX/Plugin/xmly.conf, tag=喜马拉雅(获取Cookie)"
+        },
+        {
+            "config": "5 0 * * * https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/hzh.js, tag=华住会-签到, img-url=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/hzh.png",
+            "addons": "https://raw.githubusercontent.com/zirawell/R-Store/refs/heads/main/Rule/QuanX/Plugin/hzh.conf, tag=华住会(获取Cookie)"
+        },
+        {
+            "config": "0 9 * * * https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/bilibiliManga.js, tag=哔哩哔哩漫画-签到, img-url=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/bilibiliManga.png",
+            "addons": "https://raw.githubusercontent.com/zirawell/R-Store/refs/heads/main/Rule/QuanX/Plugin/bilibiliManga.conf, tag=哔哩哔哩漫画(获取Cookie)"
+        },
+        {
+            "config": "10 0 * * * https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/flyert.js, tag=飞客-签到, img-url=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/flyert.png",
+            "addons": "https://raw.githubusercontent.com/zirawell/R-Store/refs/heads/main/Rule/QuanX/Plugin/flyert.conf, tag=飞客(获取Cookie)"
+        }
+    ]
+}
