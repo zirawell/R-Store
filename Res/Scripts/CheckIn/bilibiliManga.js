@@ -31,7 +31,7 @@ hostname = app.bilibili.com
 
 [task_local]
 # 哔哩哔哩漫画-签到
-0 9 * * * https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/bilibiliManga.js, img-url=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/bilibiliManga.png, tag=哔哩哔哩漫画-签到
+0 9 * * * https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/bilibiliManga.js, tag=哔哩哔哩漫画-签到, img-url=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/bilibiliManga.png, enabled=true
 
 ********************************/
 
