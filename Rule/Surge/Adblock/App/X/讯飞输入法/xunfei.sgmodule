@@ -1,7 +1,7 @@
 # > 讯飞输入法 - XUNFEI
 
 [Rule]
-domain-suffix, voiceads.cn, reject
-domain-suffix, voiceads.com, reject
-domain-suffix, iflyad.bj.openstorage.cn, reject
-domain-keyword, ossp.voicecloud.cn, reject
+domain-suffix, voiceads.cn, reject, pre-matching
+domain-suffix, voiceads.com, reject, pre-matching
+domain-suffix, iflyad.bj.openstorage.cn, reject, pre-matching
+domain-keyword, ossp.voicecloud.cn, reject, pre-matching

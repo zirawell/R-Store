@@ -1,13 +1,13 @@
 # > QQ音乐 - QQMUSIC
 
 [Rule]
-domain, ad.tencentmusic.com, reject
-domain, adcdn.tencentmusic.com, reject
-domain, adstats.tencentmusic.com, reject
-domain, adcdn6.tencentmusic.com, reject
-domain, adexpo.tencentmusic.com, reject
-domain, adclick.tencentmusic.com, reject
-domain, mc.tencentmusic.com, reject
-domain, report.tencentmusic.com, reject
-domain, monitor.music.qq.com, reject
-domain-suffix, imtmp.net, reject
+domain, ad.tencentmusic.com, reject, pre-matching
+domain, adcdn.tencentmusic.com, reject, pre-matching
+domain, adstats.tencentmusic.com, reject, pre-matching
+domain, adcdn6.tencentmusic.com, reject, pre-matching
+domain, adexpo.tencentmusic.com, reject, pre-matching
+domain, adclick.tencentmusic.com, reject, pre-matching
+domain, mc.tencentmusic.com, reject, pre-matching
+domain, report.tencentmusic.com, reject, pre-matching
+domain, monitor.music.qq.com, reject, pre-matching
+domain-suffix, imtmp.net, reject, pre-matching

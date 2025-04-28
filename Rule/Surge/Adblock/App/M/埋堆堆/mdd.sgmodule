@@ -1,7 +1,7 @@
 # > 埋堆堆 - MDD
 
 [Rule]
-domain, toblog.ctobsnssdk.com, reject
-domain, t-dsp.pinduoduo.com, reject
-domain, sdk1xyajs.data.kuiniuca.com, reject
-domain, conf-darwin.xycdn.com, reject
+domain, toblog.ctobsnssdk.com, reject, pre-matching
+domain, t-dsp.pinduoduo.com, reject, pre-matching
+domain, sdk1xyajs.data.kuiniuca.com, reject, pre-matching
+domain, conf-darwin.xycdn.com, reject, pre-matching

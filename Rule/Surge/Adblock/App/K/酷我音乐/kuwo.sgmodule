@@ -1,17 +1,17 @@
 # > 酷我音乐 - KUWO
 
 [Rule]
-domain-suffix, g.koowo.com, reject
-domain-suffix, c.kuwo.cn, reject
-domain-suffix, wa.kuwo.cn, reject
-domain-suffix, mobilead.kuwo.cn, reject
-domain-suffix, rich.kuwo.cn, reject
-domain-suffix, deliver.kuwo.cn, reject
-domain-suffix, game.kuwo.cn, reject
-domain-suffix, kuwoyy.com, reject
-domain-suffix, kwmsg.kuwo.cn, reject
-domain-suffix, msclick2.kuwo.cn, reject
-domain-suffix, msphoneclick.kuwo.cn, reject
-domain-suffix, updatepage.kuwo.cn, reject
-domain-suffix, webstat.kuwo.cn, reject
-ip-cidr, 111.206.98.63/32, reject
+domain-suffix, g.koowo.com, reject, pre-matching
+domain-suffix, c.kuwo.cn, reject, pre-matching
+domain-suffix, wa.kuwo.cn, reject, pre-matching
+domain-suffix, mobilead.kuwo.cn, reject, pre-matching
+domain-suffix, rich.kuwo.cn, reject, pre-matching
+domain-suffix, deliver.kuwo.cn, reject, pre-matching
+domain-suffix, game.kuwo.cn, reject, pre-matching
+domain-suffix, kuwoyy.com, reject, pre-matching
+domain-suffix, kwmsg.kuwo.cn, reject, pre-matching
+domain-suffix, msclick2.kuwo.cn, reject, pre-matching
+domain-suffix, msphoneclick.kuwo.cn, reject, pre-matching
+domain-suffix, updatepage.kuwo.cn, reject, pre-matching
+domain-suffix, webstat.kuwo.cn, reject, pre-matching
+ip-cidr, 111.206.98.63/32, reject, pre-matching

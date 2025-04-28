@@ -1,6 +1,6 @@
 # > 财新 - CAIXIN
 
 [Rule]
-domain-suffix, apollo.caixin.com, reject
-domain-suffix, logstat.caixin.com, reject
-domain-suffix, promote.caixin.com, reject
+domain-suffix, apollo.caixin.com, reject, pre-matching
+domain-suffix, logstat.caixin.com, reject, pre-matching
+domain-suffix, promote.caixin.com, reject, pre-matching

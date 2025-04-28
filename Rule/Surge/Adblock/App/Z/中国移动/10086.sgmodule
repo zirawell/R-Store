@@ -1,4 +1,4 @@
 # > 中国移动 - 10086
 
 [Rule]
-ip-cidr, 120.240.95.37/32, reject
+ip-cidr, 120.240.95.37/32, reject, pre-matching

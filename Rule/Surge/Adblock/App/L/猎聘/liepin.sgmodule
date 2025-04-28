@@ -1,4 +1,4 @@
 # > 猎聘 - LIEPIN
 
 [Rule]
-domain, apmplus.volces.com, reject
+domain, apmplus.volces.com, reject, pre-matching

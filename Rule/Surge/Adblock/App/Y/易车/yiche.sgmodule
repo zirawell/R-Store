@@ -1,5 +1,5 @@
 # > 易车 - YICHE
 
 [Rule]
-domain, adx.yiche.com, reject
-domain, log.ycapp.yiche.com, reject
+domain, adx.yiche.com, reject, pre-matching
+domain, log.ycapp.yiche.com, reject, pre-matching

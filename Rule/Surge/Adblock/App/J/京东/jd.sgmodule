@@ -1,21 +1,21 @@
 # > 京东 - JD
 
 [Rule]
-domain, dns.jd.com, reject
-domain, waapdg.jd.com, reject
-domain, dsp-x.jd.com, reject
-domain, xlog.jd.com, reject
-domain, janapi.jd.com, reject
-domain, jdqd.jd.com, reject
-domain, dgstatic.jd.com, reject
-domain-suffix, jzt.jd.com, reject
-domain-suffix, img-x.jd.com, reject
-domain-suffix, du.jd.com, reject
-domain-suffix, c-nfa.jd.com, reject
-domain-suffix, cm.jd.com, reject
-domain-keyword, kepler.jd.com, reject
-domain-keyword, bdsp.x.jd.com, reject
-domain-keyword, keplerapi.jd.com, reject
-domain-keyword, mapi.m.jd.com, reject
-ip-cidr, 101.124.19.122/32, reject
-ip6-cidr, 2402:db40:5100:1011::5/128, reject
+domain, dns.jd.com, reject, pre-matching
+domain, waapdg.jd.com, reject, pre-matching
+domain, dsp-x.jd.com, reject, pre-matching
+domain, xlog.jd.com, reject, pre-matching
+domain, janapi.jd.com, reject, pre-matching
+domain, jdqd.jd.com, reject, pre-matching
+domain, dgstatic.jd.com, reject, pre-matching
+domain-suffix, jzt.jd.com, reject, pre-matching
+domain-suffix, img-x.jd.com, reject, pre-matching
+domain-suffix, du.jd.com, reject, pre-matching
+domain-suffix, c-nfa.jd.com, reject, pre-matching
+domain-suffix, cm.jd.com, reject, pre-matching
+domain-keyword, kepler.jd.com, reject, pre-matching
+domain-keyword, bdsp.x.jd.com, reject, pre-matching
+domain-keyword, keplerapi.jd.com, reject, pre-matching
+domain-keyword, mapi.m.jd.com, reject, pre-matching
+ip-cidr, 101.124.19.122/32, reject, pre-matching
+ip6-cidr, 2402:db40:5100:1011::5/128, reject, pre-matching

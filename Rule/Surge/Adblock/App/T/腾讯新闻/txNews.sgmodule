@@ -1,4 +1,4 @@
 # > 腾讯新闻 - TXNEWS
 
 [Rule]
-domain, news.ssp.qq.com, reject
+domain, news.ssp.qq.com, reject, pre-matching

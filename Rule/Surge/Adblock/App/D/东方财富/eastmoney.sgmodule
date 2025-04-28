@@ -2,4 +2,4 @@
 
 [Rule]
 domain, emdcadvertise.eastmoney.com,reject
-domain, emdcadvertisepj.eastmoney.com, reject
+domain, emdcadvertisepj.eastmoney.com, reject, pre-matching

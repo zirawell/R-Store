@@ -1,8 +1,8 @@
 # > 哔哩哔哩 - BILIBILI(PINK)
 
 [Rule]
-domain-keyword, api.sobot.com, reject
-domain-suffix, cm.ad.bilibili.com, reject
-domain-suffix, cm.adcommon.bilibili.com, reject
-domain-suffix, cm.game.bilibili.com, reject
-domain-suffix, cm.track.biligame.bilibili.com, reject
+domain-keyword, api.sobot.com, reject, pre-matching
+domain-suffix, cm.ad.bilibili.com, reject, pre-matching
+domain-suffix, cm.adcommon.bilibili.com, reject, pre-matching
+domain-suffix, cm.game.bilibili.com, reject, pre-matching
+domain-suffix, cm.track.biligame.bilibili.com, reject, pre-matching

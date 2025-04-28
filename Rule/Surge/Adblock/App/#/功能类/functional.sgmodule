@@ -3,13 +3,13 @@
 # > Adobe Flash China Special Edition - ADSEUNLOCK
 
 [Rule]
-domain, lookup.api.bsb.baidu.com, reject
-domain, safebrowsing.g.applimg.com, reject
-domain, safebrowsing.googleapis.com, reject
-domain, safebrowsing.urlsec.qq.com, reject
-domain-suffix, safebrowsing.apple, reject
-domain-suffix, u3.ucweb.com, reject
-ip-cidr, 119.29.29.98/32, reject
-ip-cidr, 119.29.29.99/32, reject
-ip-cidr, 81.71.61.216/32, reject
-domain, geo2.adobe.com, reject
+domain, lookup.api.bsb.baidu.com, reject, pre-matching
+domain, safebrowsing.g.applimg.com, reject, pre-matching
+domain, safebrowsing.googleapis.com, reject, pre-matching
+domain, safebrowsing.urlsec.qq.com, reject, pre-matching
+domain-suffix, safebrowsing.apple, reject, pre-matching
+domain-suffix, u3.ucweb.com, reject, pre-matching
+ip-cidr, 119.29.29.98/32, reject, pre-matching
+ip-cidr, 119.29.29.99/32, reject, pre-matching
+ip-cidr, 81.71.61.216/32, reject, pre-matching
+domain, geo2.adobe.com, reject, pre-matching

@@ -1,13 +1,13 @@
 # > 知乎 - ZHIHU
 
 [Rule]
-user-agent, AVOS*, reject
-domain, appcloud.zhihu.com, reject
-domain, appcloud2.in.zhihu.com, reject
-domain, crash2.zhihu.com, reject
-domain, mqtt.zhihu.com, reject
-domain, sugar.zhihu.com, reject
-domain, zxid-m.mobileservice.cn, reject
-ip-cidr, 103.41.167.237/32, reject
-ip-cidr, 118.89.204.198/32, reject
-ip6-cidr, 2402:4e00:1200:ed00:0:9089:6dac:96b6/128, reject
+user-agent, AVOS*, reject, pre-matching
+domain, appcloud.zhihu.com, reject, pre-matching
+domain, appcloud2.in.zhihu.com, reject, pre-matching
+domain, crash2.zhihu.com, reject, pre-matching
+domain, mqtt.zhihu.com, reject, pre-matching
+domain, sugar.zhihu.com, reject, pre-matching
+domain, zxid-m.mobileservice.cn, reject, pre-matching
+ip-cidr, 103.41.167.237/32, reject, pre-matching
+ip-cidr, 118.89.204.198/32, reject, pre-matching
+ip6-cidr, 2402:4e00:1200:ed00:0:9089:6dac:96b6/128, reject, pre-matching

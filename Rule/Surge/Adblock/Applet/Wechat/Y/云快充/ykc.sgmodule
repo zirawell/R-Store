@@ -1,0 +1,4 @@
+# > 云快充<微信小程序> - YKC
+
+[Rule]
+domain, et.ykccn.com, reject, pre-matching

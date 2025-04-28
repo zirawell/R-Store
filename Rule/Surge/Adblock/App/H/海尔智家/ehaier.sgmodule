@@ -1,4 +1,4 @@
 # > 海尔智家 - EHAIER
 
 [Rule]
-domain-suffix, ehaier.com, reject
+domain-suffix, ehaier.com, reject, pre-matching

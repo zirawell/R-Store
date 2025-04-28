@@ -1,4 +1,4 @@
 # > 杭州市民 - 96225
 
 [Rule]
-domain, ads.iconntech.com, reject
+domain, ads.iconntech.com, reject, pre-matching

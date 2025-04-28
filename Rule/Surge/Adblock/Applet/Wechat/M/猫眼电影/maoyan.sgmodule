@@ -1,4 +1,4 @@
 # > 猫眼电影<微信小程序> - MAOYAN
 
 [Rule]
-domain, ad.maoyan.com, reject
+domain, ad.maoyan.com, reject, pre-matching

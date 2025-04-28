@@ -1,5 +1,5 @@
 # > 航旅纵横 - UMETRIP
 
 [Rule]
-domain, analytics.umetrip.com, reject
-domain, sensors.umetrip.com.cn, reject
+domain, analytics.umetrip.com, reject, pre-matching
+domain, sensors.umetrip.com.cn, reject, pre-matching

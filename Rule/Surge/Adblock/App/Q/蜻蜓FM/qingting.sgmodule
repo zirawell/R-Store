@@ -1,6 +1,6 @@
 # > 蜻蜓FM - QINGTING
 
 [Rule]
-domain, ad.qingting.fm, reject
-domain, adlaunch.qingting.fm, reject
-domain, ad-cdn.qingting.fm, reject
+domain, ad.qingting.fm, reject, pre-matching
+domain, adlaunch.qingting.fm, reject, pre-matching
+domain, ad-cdn.qingting.fm, reject, pre-matching
