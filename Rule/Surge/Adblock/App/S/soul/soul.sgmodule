@@ -1,14 +1,14 @@
 # > soul - SOUL
 
 [Rule]
-domain, ad-h5-cdn.soulapp.cn, reject
-domain, ad-h5-station-cdn.soulapp.cn, reject
-domain, ad-r.soulapp.cn, reject
-domain, soul-ad.soulapp.cn, reject
-domain, ad-reward.soulapp.cn, reject
-domain-suffix, cdn.soulapp.cn, reject
-ip-cidr, 47.56.131.76/32, reject
-ip-cidr, 47.97.215.55/32, reject
-ip-cidr, 47.99.42.29/32, reject
-ip-cidr, 120.27.235.201/32, reject
-ip-cidr, 121.196.197.147/32, reject
+domain, ad-h5-cdn.soulapp.cn, reject, pre-matching
+domain, ad-h5-station-cdn.soulapp.cn, reject, pre-matching
+domain, ad-r.soulapp.cn, reject, pre-matching
+domain, soul-ad.soulapp.cn, reject, pre-matching
+domain, ad-reward.soulapp.cn, reject, pre-matching
+domain-suffix, cdn.soulapp.cn, reject, pre-matching
+ip-cidr, 47.56.131.76/32, reject, pre-matching
+ip-cidr, 47.97.215.55/32, reject, pre-matching
+ip-cidr, 47.99.42.29/32, reject, pre-matching
+ip-cidr, 120.27.235.201/32, reject, pre-matching
+ip-cidr, 121.196.197.147/32, reject, pre-matching

@@ -1,5 +1,5 @@
 # > 亲邻开门 - QINLIN
 
 [Rule]
-domain, mall-dsp2.qinlinkeji.com, reject
-domain, mallapi2.qinlinkeji.com, reject
+domain, mall-dsp2.qinlinkeji.com, reject, pre-matching
+domain, mallapi2.qinlinkeji.com, reject, pre-matching

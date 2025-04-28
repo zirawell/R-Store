@@ -1,31 +1,31 @@
 # > 淘宝 - TAOBAO
 
 [Rule]
-domain-suffix, apoll.m.taobao.com, reject
-domain-suffix, w.m.taobao.com, reject
-domain-suffix, re.m.taobao.com, reject
-domain-suffix, re.taobao.com, reject
-domain-suffix, agoodm.m.taobao.com, reject
-domain-suffix, ai.taobao.com, reject
-domain-suffix, api.waptest.taobao.com, reject
-domain-suffix, dsp.simba.taobao.com, reject
-domain-suffix, fav.simba.taobao.com, reject
-domain-suffix, m.simba.taobao.com, reject
-domain-suffix, mclick.simba.taobao.com, reject
-domain-suffix, redirect.simba.taobao.com, reject
-domain-suffix, simba.m.taobao.com, reject
-domain-suffix, srd.simba.taobao.com, reject
-domain-suffix, temai.taobao.com, reject
-domain-suffix, textlink.simba.taobao.com, reject
-domain-suffix, unitacs.m.taobao.com, reject
-domain-suffix, adashx4yt.m.taobao.com, reject
-domain-suffix, tns.simba.taobao.com, reject
-domain-suffix, click.mz.simba.taobao.com, reject
-domain-suffix, click.simba.taobao.com, reject
-domain-suffix, click.tz.simba.taobao.com, reject
-domain-suffix, stat.simba.taobao.com, reject
-domain-suffix, m-adash.m.taobao.com, reject
-domain-suffix, adashbc.m.taobao.com, reject
-domain-suffix, ut.taobao.com, reject
-domain-suffix, tunion-api.m.taobao.com, reject
-domain-suffix, acs4baichuan.m.taobao.com, reject
+domain-suffix, apoll.m.taobao.com, reject, pre-matching
+domain-suffix, w.m.taobao.com, reject, pre-matching
+domain-suffix, re.m.taobao.com, reject, pre-matching
+domain-suffix, re.taobao.com, reject, pre-matching
+domain-suffix, agoodm.m.taobao.com, reject, pre-matching
+domain-suffix, ai.taobao.com, reject, pre-matching
+domain-suffix, api.waptest.taobao.com, reject, pre-matching
+domain-suffix, dsp.simba.taobao.com, reject, pre-matching
+domain-suffix, fav.simba.taobao.com, reject, pre-matching
+domain-suffix, m.simba.taobao.com, reject, pre-matching
+domain-suffix, mclick.simba.taobao.com, reject, pre-matching
+domain-suffix, redirect.simba.taobao.com, reject, pre-matching
+domain-suffix, simba.m.taobao.com, reject, pre-matching
+domain-suffix, srd.simba.taobao.com, reject, pre-matching
+domain-suffix, temai.taobao.com, reject, pre-matching
+domain-suffix, textlink.simba.taobao.com, reject, pre-matching
+domain-suffix, unitacs.m.taobao.com, reject, pre-matching
+domain-suffix, adashx4yt.m.taobao.com, reject, pre-matching
+domain-suffix, tns.simba.taobao.com, reject, pre-matching
+domain-suffix, click.mz.simba.taobao.com, reject, pre-matching
+domain-suffix, click.simba.taobao.com, reject, pre-matching
+domain-suffix, click.tz.simba.taobao.com, reject, pre-matching
+domain-suffix, stat.simba.taobao.com, reject, pre-matching
+domain-suffix, m-adash.m.taobao.com, reject, pre-matching
+domain-suffix, adashbc.m.taobao.com, reject, pre-matching
+domain-suffix, ut.taobao.com, reject, pre-matching
+domain-suffix, tunion-api.m.taobao.com, reject, pre-matching
+domain-suffix, acs4baichuan.m.taobao.com, reject, pre-matching

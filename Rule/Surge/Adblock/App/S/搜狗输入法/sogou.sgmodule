@@ -1,49 +1,49 @@
 # > 搜狗输入法 - SOGOU
 
 [Rule]
-domain-suffix, adsence.sogou.com, reject
-domain-suffix, amfi.gou.sogou.com, reject
-domain-suffix, bazinga.mse.sogou.com, reject
-domain-suffix, brand.sogou.com, reject
-domain-suffix, bsiet.husky.sogou.com, reject
-domain-suffix, cpc.sogou.com, reject
-domain-suffix, fair.sogou.com, reject
-domain-suffix, files2.sogou.com, reject
-domain-suffix, epro.sogou.com, reject
-domain-suffix, shouji.sougou.com, reject
-domain-suffix, golden1.sogou.com, reject
-domain-suffix, goto.sogou.com, reject
-domain-suffix, inte.sogou.com, reject
-domain-suffix, lu.sogou.com, reject
-domain-suffix, uranus.sogou.com, reject
-domain-suffix, 123.sogou.com, reject
-domain-suffix, p3p.sogou.com, reject
-domain-suffix, pb.sogou.com, reject
-domain-suffix, pbd.sogou.com, reject
-domain-suffix, pv.sogou.com, reject
-domain-suffix, union.sogou.com, reject
-domain-suffix, wangmeng.sogou.com, reject
-domain-suffix, web.sogou.com, reject
-domain-suffix, ping.acc.sogou.com, reject
-domain-suffix, cjroq.bealge.sogou.com, reject
-domain-suffix, qhl.bealge.sogou.com, reject
-domain-suffix, rd.e.sogou.com, reject
-domain-suffix, psfq.gou.sogou.com, reject
-domain-suffix, gxe.husky.sogou.com, reject
-domain-suffix, rmoeu.mercury.sogou.com, reject
-domain-suffix, sw.mobile.sogou.com, reject
-domain-suffix, info.pinyin.sogou.com, reject
-domain-suffix, ping.pinyin.sogou.com, reject
-domain-suffix, pcxzo.pluto.sogou.com, reject
-domain-suffix, qxm.pluto.sogou.com, reject
-domain-suffix, push.sogou.com, reject
-domain-suffix, theta.sogou.com, reject
-domain-suffix, ht.www.sogou.com, reject
-domain-suffix, download.zhushou.sogou.com, reject
-domain-suffix, adstream.123.sogoucdn.com, reject
-domain-suffix, inte.sogoucdn.com, reject
-domain-suffix, lu.sogoucdn.com, reject
-domain-suffix, theta.sogoucdn.com, reject
-domain-suffix, galaxy.sogoucdn.com, reject
-domain-suffix, wan.sogoucdn.com, reject
-domain-keyword, wan.sogou.com, reject
+domain-suffix, adsence.sogou.com, reject, pre-matching
+domain-suffix, amfi.gou.sogou.com, reject, pre-matching
+domain-suffix, bazinga.mse.sogou.com, reject, pre-matching
+domain-suffix, brand.sogou.com, reject, pre-matching
+domain-suffix, bsiet.husky.sogou.com, reject, pre-matching
+domain-suffix, cpc.sogou.com, reject, pre-matching
+domain-suffix, fair.sogou.com, reject, pre-matching
+domain-suffix, files2.sogou.com, reject, pre-matching
+domain-suffix, epro.sogou.com, reject, pre-matching
+domain-suffix, shouji.sougou.com, reject, pre-matching
+domain-suffix, golden1.sogou.com, reject, pre-matching
+domain-suffix, goto.sogou.com, reject, pre-matching
+domain-suffix, inte.sogou.com, reject, pre-matching
+domain-suffix, lu.sogou.com, reject, pre-matching
+domain-suffix, uranus.sogou.com, reject, pre-matching
+domain-suffix, 123.sogou.com, reject, pre-matching
+domain-suffix, p3p.sogou.com, reject, pre-matching
+domain-suffix, pb.sogou.com, reject, pre-matching
+domain-suffix, pbd.sogou.com, reject, pre-matching
+domain-suffix, pv.sogou.com, reject, pre-matching
+domain-suffix, union.sogou.com, reject, pre-matching
+domain-suffix, wangmeng.sogou.com, reject, pre-matching
+domain-suffix, web.sogou.com, reject, pre-matching
+domain-suffix, ping.acc.sogou.com, reject, pre-matching
+domain-suffix, cjroq.bealge.sogou.com, reject, pre-matching
+domain-suffix, qhl.bealge.sogou.com, reject, pre-matching
+domain-suffix, rd.e.sogou.com, reject, pre-matching
+domain-suffix, psfq.gou.sogou.com, reject, pre-matching
+domain-suffix, gxe.husky.sogou.com, reject, pre-matching
+domain-suffix, rmoeu.mercury.sogou.com, reject, pre-matching
+domain-suffix, sw.mobile.sogou.com, reject, pre-matching
+domain-suffix, info.pinyin.sogou.com, reject, pre-matching
+domain-suffix, ping.pinyin.sogou.com, reject, pre-matching
+domain-suffix, pcxzo.pluto.sogou.com, reject, pre-matching
+domain-suffix, qxm.pluto.sogou.com, reject, pre-matching
+domain-suffix, push.sogou.com, reject, pre-matching
+domain-suffix, theta.sogou.com, reject, pre-matching
+domain-suffix, ht.www.sogou.com, reject, pre-matching
+domain-suffix, download.zhushou.sogou.com, reject, pre-matching
+domain-suffix, adstream.123.sogoucdn.com, reject, pre-matching
+domain-suffix, inte.sogoucdn.com, reject, pre-matching
+domain-suffix, lu.sogoucdn.com, reject, pre-matching
+domain-suffix, theta.sogoucdn.com, reject, pre-matching
+domain-suffix, galaxy.sogoucdn.com, reject, pre-matching
+domain-suffix, wan.sogoucdn.com, reject, pre-matching
+domain-keyword, wan.sogou.com, reject, pre-matching

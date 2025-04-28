@@ -1,6 +1,6 @@
 # > 微信 - WECHAT
 
 [Rule]
-domain, badjs.weixinbridge.com, reject
-domain, dns.weixin.qq.com.cn, reject
-domain-suffix, wxs.qq.com, reject
+domain, badjs.weixinbridge.com, reject, pre-matching
+domain, dns.weixin.qq.com.cn, reject, pre-matching
+domain-suffix, wxs.qq.com, reject, pre-matching

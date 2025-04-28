@@ -1,46 +1,46 @@
 # > 酷狗音乐 - KUGOU
 
 [Rule]
-domain, ads.service.kugou.com, reject
-domain, adserviceretry.kugou.com, reject
-domain, adserviceretry.kglink.cn, reject
-domain, adservice.kugou.com, reject
-domain, splashimgbssdl.yun.kugou.com, reject
-domain, serveraddr.service.kugou.com, reject
-domain, log.web.kugou.com, reject
-domain, mobilelog.kugou.com, reject
-domain-suffix, adsfile.bssdlbig.kugou.com, reject
-domain-suffix, adsfilebssdlbig.ali.kugou.com, reject
-domain-suffix, kgstaticdlbssdlbig.tx.kugou.com, reject
-domain-suffix, rtmretry.kugou.com, reject
-domain-suffix, rtmonitor.kugou.com, reject
-domain-suffix, rt-m.kugou.com, reject
-domain-suffix, channel.fanxing.kugou.com, reject
-domain-suffix, d.kugou.com, reject
-domain-suffix, downmobile.kugou.com, reject
-domain-suffix, gad.kugou.com, reject
-domain-suffix, game.kugou.com, reject
-domain-suffix, gamebox.kugou.com, reject
-domain-suffix, gcapi.sy.kugou.com, reject
-domain-suffix, gg.kugou.com, reject
-domain-suffix, install.kugou.com, reject
-domain-suffix, install2.kugou.com, reject
-domain-suffix, minidcsc.kugou.com, reject
-domain-suffix, mo.kugou.com, reject
-domain-suffix, msg.mobile.kugou.com, reject
-domain-suffix, mvads.kugou.com, reject
-domain-suffix, p.kugou.com, reject
-domain-suffix, push.mobile.kugou.com, reject
-domain-suffix, sdn.kugou.com, reject
-domain-suffix, song.fanxing.kugou.com, reject
-domain-suffix, update.mobile.kugou.com, reject
-domain-suffix, youxi.kugou.com, reject
-domain-keyword, stat.kugou.com, reject
-domain-keyword, statbak.kugou.com, reject
-domain-keyword, tracker.kugou.com, reject
-domain-keyword, searchrecommend.kugou.com, reject
-domain-keyword, nbcollectretry.kugou.com, reject
-domain-keyword, nbcollect.kugou.com, reject
-domain-keyword, c1img.ali.kugou.com, reject
-domain-keyword, logwebs.kugou.com, reject
-domain-keyword, trackercdnbj.kugou.com, reject
+domain, ads.service.kugou.com, reject, pre-matching
+domain, adserviceretry.kugou.com, reject, pre-matching
+domain, adserviceretry.kglink.cn, reject, pre-matching
+domain, adservice.kugou.com, reject, pre-matching
+domain, splashimgbssdl.yun.kugou.com, reject, pre-matching
+domain, serveraddr.service.kugou.com, reject, pre-matching
+domain, log.web.kugou.com, reject, pre-matching
+domain, mobilelog.kugou.com, reject, pre-matching
+domain-suffix, adsfile.bssdlbig.kugou.com, reject, pre-matching
+domain-suffix, adsfilebssdlbig.ali.kugou.com, reject, pre-matching
+domain-suffix, kgstaticdlbssdlbig.tx.kugou.com, reject, pre-matching
+domain-suffix, rtmretry.kugou.com, reject, pre-matching
+domain-suffix, rtmonitor.kugou.com, reject, pre-matching
+domain-suffix, rt-m.kugou.com, reject, pre-matching
+domain-suffix, channel.fanxing.kugou.com, reject, pre-matching
+domain-suffix, d.kugou.com, reject, pre-matching
+domain-suffix, downmobile.kugou.com, reject, pre-matching
+domain-suffix, gad.kugou.com, reject, pre-matching
+domain-suffix, game.kugou.com, reject, pre-matching
+domain-suffix, gamebox.kugou.com, reject, pre-matching
+domain-suffix, gcapi.sy.kugou.com, reject, pre-matching
+domain-suffix, gg.kugou.com, reject, pre-matching
+domain-suffix, install.kugou.com, reject, pre-matching
+domain-suffix, install2.kugou.com, reject, pre-matching
+domain-suffix, minidcsc.kugou.com, reject, pre-matching
+domain-suffix, mo.kugou.com, reject, pre-matching
+domain-suffix, msg.mobile.kugou.com, reject, pre-matching
+domain-suffix, mvads.kugou.com, reject, pre-matching
+domain-suffix, p.kugou.com, reject, pre-matching
+domain-suffix, push.mobile.kugou.com, reject, pre-matching
+domain-suffix, sdn.kugou.com, reject, pre-matching
+domain-suffix, song.fanxing.kugou.com, reject, pre-matching
+domain-suffix, update.mobile.kugou.com, reject, pre-matching
+domain-suffix, youxi.kugou.com, reject, pre-matching
+domain-keyword, stat.kugou.com, reject, pre-matching
+domain-keyword, statbak.kugou.com, reject, pre-matching
+domain-keyword, tracker.kugou.com, reject, pre-matching
+domain-keyword, searchrecommend.kugou.com, reject, pre-matching
+domain-keyword, nbcollectretry.kugou.com, reject, pre-matching
+domain-keyword, nbcollect.kugou.com, reject, pre-matching
+domain-keyword, c1img.ali.kugou.com, reject, pre-matching
+domain-keyword, logwebs.kugou.com, reject, pre-matching
+domain-keyword, trackercdnbj.kugou.com, reject, pre-matching

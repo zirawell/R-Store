@@ -1,5 +1,5 @@
 # > 同花顺 - TONGHUASHUN
 
 [Rule]
-domain, adm.10jqka.com.cn, reject
-domain, stat.10jqka.com.cn, reject
+domain, adm.10jqka.com.cn, reject, pre-matching
+domain, stat.10jqka.com.cn, reject, pre-matching

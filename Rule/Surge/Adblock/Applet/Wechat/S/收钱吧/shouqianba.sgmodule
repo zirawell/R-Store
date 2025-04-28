@@ -1,4 +1,4 @@
 # > 收钱吧<微信小程序> - SHOUQIANBA
 
 [Rule]
-domain, ads-shopping.shouqianba.com, reject
+domain, ads-shopping.shouqianba.com, reject, pre-matching

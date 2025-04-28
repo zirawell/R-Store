@@ -1,4 +1,4 @@
 # > 银盛通 - YSEPAY
 
 [Rule]
-domain, ad.ysepay.com, reject
+domain, ad.ysepay.com, reject, pre-matching

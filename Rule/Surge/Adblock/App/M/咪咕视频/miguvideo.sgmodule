@@ -1,10 +1,10 @@
 # > 咪咕视频 - MIGUVIDEO
 
 [Rule]
-domain, ggic03.miguvideo.com, reject
-domain, ggmk.miguvideo.com, reject
-domain, ggc.cmvideo.cn, reject
-domain, ggv.cmvideo.cn, reject
-domain, ggx.cmvideo.cn, reject
-domain, ggx03.miguvideo.com, reject
-domain-suffix, ad.cmvideo.cn, reject
+domain, ggic03.miguvideo.com, reject, pre-matching
+domain, ggmk.miguvideo.com, reject, pre-matching
+domain, ggc.cmvideo.cn, reject, pre-matching
+domain, ggv.cmvideo.cn, reject, pre-matching
+domain, ggx.cmvideo.cn, reject, pre-matching
+domain, ggx03.miguvideo.com, reject, pre-matching
+domain-suffix, ad.cmvideo.cn, reject, pre-matching

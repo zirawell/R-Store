@@ -1,4 +1,4 @@
 # > 最右 - IZUIYOU
 
 [Rule]
-domain, adapi.izuiyou.com, reject
+domain, adapi.izuiyou.com, reject, pre-matching

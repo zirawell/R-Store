@@ -1,61 +1,61 @@
 # > 优酷 - YOUKU
 
 [Rule]
-domain, amdc.m.youku.com, reject
-domain, apiv4-iyes.youku.com, reject
-domain, api.sm.cn, reject
-domain, huichuan-mc.sm.cn, reject
-domain, huichuan.sm.cn, reject
-domain, iyes.youku.com, reject
-domain, cad.youku.com, reject
-domain, pre-acs.youku.com, reject
-domain, m-vali.cp31.ott.cibntv.net, reject
-domain, vali-g1.cp31.ott.cibntv.net, reject
-domain, vali-ugc.cp31.ott.cibntv.net, reject
-domain, pl.cp31.ott.cibntv.net, reject
-domain, ykad-data.youku.com, reject
-domain, sealine.youku.com, reject
-domain, youku-acs.m.taobao.com, reject
-domain-suffix, ems.youku.com, reject
-domain-suffix, ad.mobile.youku.com, reject
-domain-suffix, ad.youku.com, reject
-domain-suffix, bdcode.youke.com, reject
-domain-suffix, atm.youku.com, reject
-domain-suffix, actives.youku.com, reject
-domain-suffix, ad.api.3g.tudou.com, reject
-domain-suffix, ad.api.3g.youku.com, reject
-domain-suffix, ad.api.mobile.youku.com, reject
-domain-suffix, a-dxk.play.api.3g.youku.com, reject
-domain-suffix, b.smartvideo.youku.com, reject
-domain-suffix, c.yes.youku.com, reject
-domain-suffix, m.yes.youku.com, reject
-domain-suffix, myes.youku.com, reject
-domain-suffix, das.api.youku.com, reject
-domain-suffix, das.mobile.youku.com, reject
-domain-suffix, dl.g.youku.com, reject
-domain-suffix, dmapp.youku.com, reject
-domain-suffix, gamex.mobile.youku.com, reject
-domain-suffix, hudong.pl.youku.com, reject
-domain-suffix, huodong.pl.youku.com, reject
-domain-suffix, huodong.vip.youku.com, reject
-domain-suffix, hz.youku.com, reject
-domain-suffix, l.ykimg.com, reject
-domain-suffix, l.youku.com, reject
-domain-suffix, lstat.youku.com, reject
-domain-suffix, mobilemsg.youku.com, reject
-domain-suffix, msg.youku.com, reject
-domain-suffix, passport-log.youku.com, reject
-domain-suffix, p-log.ykimg.com, reject
-domain-suffix, s.p.youku.com, reject
-domain-suffix, sdk.m.youku.com, reject
-domain-suffix, stat.youku.com, reject
-domain-suffix, store.tv.api.3g.youku.com, reject
-domain-suffix, store.xl.api.3g.youku.com, reject
-domain-suffix, tdrec.youku.com, reject
-domain-suffix, test.ott.youku.com, reject
-domain-suffix, urchin.lstat.youku.com, reject
-domain-suffix, val.api.youku.com, reject
-domain-suffix, wan.youku.com, reject
-domain-suffix, ykatr.youku.com, reject
-domain-suffix, ykrec.youku.com, reject
-domain-keyword, push.m.youku.com, reject
+domain, amdc.m.youku.com, reject, pre-matching
+domain, apiv4-iyes.youku.com, reject, pre-matching
+domain, api.sm.cn, reject, pre-matching
+domain, huichuan-mc.sm.cn, reject, pre-matching
+domain, huichuan.sm.cn, reject, pre-matching
+domain, iyes.youku.com, reject, pre-matching
+domain, cad.youku.com, reject, pre-matching
+domain, pre-acs.youku.com, reject, pre-matching
+domain, m-vali.cp31.ott.cibntv.net, reject, pre-matching
+domain, vali-g1.cp31.ott.cibntv.net, reject, pre-matching
+domain, vali-ugc.cp31.ott.cibntv.net, reject, pre-matching
+domain, pl.cp31.ott.cibntv.net, reject, pre-matching
+domain, ykad-data.youku.com, reject, pre-matching
+domain, sealine.youku.com, reject, pre-matching
+domain, youku-acs.m.taobao.com, reject, pre-matching
+domain-suffix, ems.youku.com, reject, pre-matching
+domain-suffix, ad.mobile.youku.com, reject, pre-matching
+domain-suffix, ad.youku.com, reject, pre-matching
+domain-suffix, bdcode.youke.com, reject, pre-matching
+domain-suffix, atm.youku.com, reject, pre-matching
+domain-suffix, actives.youku.com, reject, pre-matching
+domain-suffix, ad.api.3g.tudou.com, reject, pre-matching
+domain-suffix, ad.api.3g.youku.com, reject, pre-matching
+domain-suffix, ad.api.mobile.youku.com, reject, pre-matching
+domain-suffix, a-dxk.play.api.3g.youku.com, reject, pre-matching
+domain-suffix, b.smartvideo.youku.com, reject, pre-matching
+domain-suffix, c.yes.youku.com, reject, pre-matching
+domain-suffix, m.yes.youku.com, reject, pre-matching
+domain-suffix, myes.youku.com, reject, pre-matching
+domain-suffix, das.api.youku.com, reject, pre-matching
+domain-suffix, das.mobile.youku.com, reject, pre-matching
+domain-suffix, dl.g.youku.com, reject, pre-matching
+domain-suffix, dmapp.youku.com, reject, pre-matching
+domain-suffix, gamex.mobile.youku.com, reject, pre-matching
+domain-suffix, hudong.pl.youku.com, reject, pre-matching
+domain-suffix, huodong.pl.youku.com, reject, pre-matching
+domain-suffix, huodong.vip.youku.com, reject, pre-matching
+domain-suffix, hz.youku.com, reject, pre-matching
+domain-suffix, l.ykimg.com, reject, pre-matching
+domain-suffix, l.youku.com, reject, pre-matching
+domain-suffix, lstat.youku.com, reject, pre-matching
+domain-suffix, mobilemsg.youku.com, reject, pre-matching
+domain-suffix, msg.youku.com, reject, pre-matching
+domain-suffix, passport-log.youku.com, reject, pre-matching
+domain-suffix, p-log.ykimg.com, reject, pre-matching
+domain-suffix, s.p.youku.com, reject, pre-matching
+domain-suffix, sdk.m.youku.com, reject, pre-matching
+domain-suffix, stat.youku.com, reject, pre-matching
+domain-suffix, store.tv.api.3g.youku.com, reject, pre-matching
+domain-suffix, store.xl.api.3g.youku.com, reject, pre-matching
+domain-suffix, tdrec.youku.com, reject, pre-matching
+domain-suffix, test.ott.youku.com, reject, pre-matching
+domain-suffix, urchin.lstat.youku.com, reject, pre-matching
+domain-suffix, val.api.youku.com, reject, pre-matching
+domain-suffix, wan.youku.com, reject, pre-matching
+domain-suffix, ykatr.youku.com, reject, pre-matching
+domain-suffix, ykrec.youku.com, reject, pre-matching
+domain-keyword, push.m.youku.com, reject, pre-matching

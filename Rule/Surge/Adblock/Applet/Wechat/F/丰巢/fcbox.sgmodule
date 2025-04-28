@@ -1,4 +1,4 @@
 # > 丰巢<微信小程序> - FCBOX
 
 [Rule]
-domain, dsp.fcbox.com, reject
+domain, dsp.fcbox.com, reject, pre-matching

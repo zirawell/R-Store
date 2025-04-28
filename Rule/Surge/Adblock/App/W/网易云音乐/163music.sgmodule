@@ -1,12 +1,12 @@
 # > 网易云音乐 - 163MUSIC
 
 [Rule]
-domain, ipv4.music.163.com, reject
-domain, ipv6.music.163.com, reject
-domain, iadmat.nosdn.127.net, reject
-domain, iadmatapk.nosdn.127.net, reject
-domain, admusicpic.music.126.net, reject
-domain-suffix, 163jiasu.com, reject
-domain-suffix, httpdns.music.163.com, reject
-domain-suffix, iadmusicmatvideo.music.126.net, reject
-domain-suffix, iadmusicmat.music.126.net, reject
+domain, ipv4.music.163.com, reject, pre-matching
+domain, ipv6.music.163.com, reject, pre-matching
+domain, iadmat.nosdn.127.net, reject, pre-matching
+domain, iadmatapk.nosdn.127.net, reject, pre-matching
+domain, admusicpic.music.126.net, reject, pre-matching
+domain-suffix, 163jiasu.com, reject, pre-matching
+domain-suffix, httpdns.music.163.com, reject, pre-matching
+domain-suffix, iadmusicmatvideo.music.126.net, reject, pre-matching
+domain-suffix, iadmusicmat.music.126.net, reject, pre-matching

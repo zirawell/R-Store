@@ -1,5 +1,5 @@
 # > 360SmartCamera - 360CAM
 
 [Rule]
-domain, ad.jia.360.cn, reject
-domain, ad.iot.360.cn, reject
+domain, ad.jia.360.cn, reject, pre-matching
+domain, ad.iot.360.cn, reject, pre-matching

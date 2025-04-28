@@ -1,4 +1,4 @@
 # > JavDB - JAVDB
 
 [Rule]
-domain, api.liquidlink.cn, reject
+domain, api.liquidlink.cn, reject, pre-matching

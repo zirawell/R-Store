@@ -1,5 +1,5 @@
 # > 盯盯拍 - DDPAI
 
 [Rule]
-domain, api.htp.ad-scope.com.cn, reject
-domain, init.sms.mob.com, reject
+domain, api.htp.ad-scope.com.cn, reject, pre-matching
+domain, init.sms.mob.com, reject, pre-matching

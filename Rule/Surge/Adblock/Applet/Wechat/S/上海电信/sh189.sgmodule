@@ -1,4 +1,4 @@
 # > 上海电信<微信小程序> - SH189
 
 [Rule]
-domain, bigdata-behaviordata.189.cn, reject
+domain, bigdata-behaviordata.189.cn, reject, pre-matching
