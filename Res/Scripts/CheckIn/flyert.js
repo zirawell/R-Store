@@ -99,7 +99,7 @@ function getCookie(oldCookie) {
         }
         if (queryParam) {
             const params = {};
-            for (param of $request.url.split('?')[1].split('&')) {
+            for (param of queryParam.split('&')) {
                 params[param.split('=')[0]] = param.split('=')[1];
             }
             const paramVal = JSON.stringify(params);
