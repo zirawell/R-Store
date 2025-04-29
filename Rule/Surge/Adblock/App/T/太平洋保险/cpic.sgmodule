@@ -1,4 +1,4 @@
 # > 太平洋保险 - CPIC
 
 [Rule]
-domain, a.cpic.com.cn, reject, extended-matching, pre-matching
+DOMAIN, a.cpic.com.cn, REJECT, extended-matching, pre-matching

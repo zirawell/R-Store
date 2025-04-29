@@ -1,18 +1,18 @@
 # > 喜马拉雅 - XIMA
 
 [Rule]
-domain, adbehavior.ximalaya.com, reject, extended-matching, pre-matching
-domain, adwbs.ximalaya.com, reject, extended-matching, pre-matching
-domain-suffix, ad.test.ximalaya.com, reject, extended-matching, pre-matching
-domain-suffix, adse.test.ximalaya.com, reject, extended-matching, pre-matching
-domain-suffix, adweb.test.ximalaya.com, reject, extended-matching, pre-matching
-domain-suffix, adweb.ximalaya.com, reject, extended-matching, pre-matching
-domain-suffix, linkeye.ximalaya.com, reject, extended-matching, pre-matching
-domain-suffix, location.ximalaya.com, reject, extended-matching, pre-matching
-domain-suffix, xdcs-collector.ximalaya.com, reject, extended-matching, pre-matching
-domain-suffix, ad.ximalaya.com, reject, extended-matching, pre-matching
-domain-suffix, adse.ximalaya.com, reject, extended-matching, pre-matching
-domain-suffix, adse.wsa.ximalaya.com, reject, extended-matching, pre-matching
-domain-suffix, adbehavior.wsa.ximalaya.com, reject, extended-matching, pre-matching
-domain-suffix, adsebs.ximalaya.com, reject, extended-matching, pre-matching
-domain-suffix, adbs.ximalaya.com, reject, extended-matching, pre-matching
+DOMAIN, adbehavior.ximalaya.com, REJECT, extended-matching, pre-matching
+DOMAIN, adwbs.ximalaya.com, REJECT, extended-matching, pre-matching
+DOMAIN-suffix, ad.test.ximalaya.com, REJECT, extended-matching, pre-matching
+DOMAIN-suffix, adse.test.ximalaya.com, REJECT, extended-matching, pre-matching
+DOMAIN-suffix, adweb.test.ximalaya.com, REJECT, extended-matching, pre-matching
+DOMAIN-suffix, adweb.ximalaya.com, REJECT, extended-matching, pre-matching
+DOMAIN-suffix, linkeye.ximalaya.com, REJECT, extended-matching, pre-matching
+DOMAIN-suffix, location.ximalaya.com, REJECT, extended-matching, pre-matching
+DOMAIN-suffix, xdcs-collector.ximalaya.com, REJECT, extended-matching, pre-matching
+DOMAIN-suffix, ad.ximalaya.com, REJECT, extended-matching, pre-matching
+DOMAIN-suffix, adse.ximalaya.com, REJECT, extended-matching, pre-matching
+DOMAIN-suffix, adse.wsa.ximalaya.com, REJECT, extended-matching, pre-matching
+DOMAIN-suffix, adbehavior.wsa.ximalaya.com, REJECT, extended-matching, pre-matching
+DOMAIN-suffix, adsebs.ximalaya.com, REJECT, extended-matching, pre-matching
+DOMAIN-suffix, adbs.ximalaya.com, REJECT, extended-matching, pre-matching

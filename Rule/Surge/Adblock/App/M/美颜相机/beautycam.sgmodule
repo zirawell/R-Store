@@ -1,5 +1,5 @@
 # > 美颜相机 - BEAUTYCAM
 
 [Rule]
-domain, aaid.uyunad.com, reject, extended-matching, pre-matching
-domain, adui.tg.meitu.com, reject, extended-matching, pre-matching
+DOMAIN, aaid.uyunad.com, REJECT, extended-matching, pre-matching
+DOMAIN, adui.tg.meitu.com, REJECT, extended-matching, pre-matching

@@ -1,9 +1,9 @@
 # > 驾校一点通 - JXEDT
 
 [Rule]
-domain, richmanapi.jxedt.com, reject, extended-matching, pre-matching
-domain, richmanmain.jxedt.com, reject, extended-matching, pre-matching
-domain, richmanrules.jxedt.com, reject, extended-matching, pre-matching
-domain, richmanapi.ksedt.com, reject, extended-matching, pre-matching
-domain, richmanmain.ksedt.com, reject, extended-matching, pre-matching
-domain, richmanrules.ksedt.com, reject, extended-matching, pre-matching
+DOMAIN, richmanapi.jxedt.com, REJECT, extended-matching, pre-matching
+DOMAIN, richmanmain.jxedt.com, REJECT, extended-matching, pre-matching
+DOMAIN, richmanrules.jxedt.com, REJECT, extended-matching, pre-matching
+DOMAIN, richmanapi.ksedt.com, REJECT, extended-matching, pre-matching
+DOMAIN, richmanmain.ksedt.com, REJECT, extended-matching, pre-matching
+DOMAIN, richmanrules.ksedt.com, REJECT, extended-matching, pre-matching

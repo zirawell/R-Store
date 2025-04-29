@@ -1,5 +1,5 @@
 # > 东方财富 - EASTMONEY
 
 [Rule]
-domain, emdcadvertise.eastmoney.com,reject
-domain, emdcadvertisepj.eastmoney.com, reject, extended-matching, pre-matching
+DOMAIN, emdcadvertise.eastmoney.com,reject
+DOMAIN, emdcadvertisepj.eastmoney.com, REJECT, extended-matching, pre-matching

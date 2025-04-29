@@ -1,47 +1,47 @@
 # > 爱奇艺 - IQIYI
 
 [Rule]
-domain, api.iqiyi.com, reject, extended-matching, pre-matching
-domain, cr-status.iqiyi.com, reject, extended-matching, pre-matching
-domain, f74f7f7765f8a2f6.ngaa.net.cn, reject, extended-matching, pre-matching
-domain, ef-dongfeng.tanx.com, reject, extended-matching, pre-matching
-domain, iqiyim.adtrack.enlightent.cn, reject, extended-matching, pre-matching
-domain, t7z.cupid.iqiyi.com, reject, extended-matching, pre-matching
-domain, t7z.cupid.ptqy.gitv.tv, reject, extended-matching, pre-matching
-domain-suffix, cupid.iqiyi.com, reject, extended-matching, pre-matching
-domain-suffix, t7z.cupid.iqiyi.com, reject, extended-matching, pre-matching
-domain-suffix, static-s.iqiyi.com, reject, extended-matching, pre-matching
-domain-suffix, a.ckm.iqiyi.com, reject, extended-matching, pre-matching
-domain-suffix, ad.m.iqiyi.com, reject, extended-matching, pre-matching
-domain-suffix, afp.iqiyi.com, reject, extended-matching, pre-matching
-domain-suffix, api.cupid.iqiyi.com, reject, extended-matching, pre-matching
-domain-suffix, api.cupid.qiyi.com, reject, extended-matching, pre-matching
-domain-suffix, c.uaa.iqiyi.com, reject, extended-matching, pre-matching
-domain-suffix, cloudpush.iqiyi.com, reject, extended-matching, pre-matching
-domain-suffix, cm.passport.iqiyi.com, reject, extended-matching, pre-matching
-domain-suffix, count.game.pps.tv, reject, extended-matching, pre-matching
-domain-suffix, cupid.iqiyi.com, reject, extended-matching, pre-matching
-domain-suffix, emoticon.sns.iqiyi.com, reject, extended-matching, pre-matching
-domain-suffix, gamecenter.iqiyi.com, reject, extended-matching, pre-matching
-domain-suffix, mbdlog.iqiyi.com, reject, extended-matching, pre-matching
-domain-suffix, msg.iqiyi.com, reject, extended-matching, pre-matching
-domain-suffix, msg.video.qiyi.com, reject, extended-matching, pre-matching
-domain-suffix, msg2.video.qiyi.com, reject, extended-matching, pre-matching
-domain-suffix, static.g.iqiyi.com, reject, extended-matching, pre-matching
-domain-suffix, static.g.ppstream.com, reject, extended-matching, pre-matching
-domain-suffix, store.iqiyi.com, reject, extended-matching, pre-matching
-domain-suffix, tracker.sns.iqiyi.com, reject, extended-matching, pre-matching
-domain-suffix, yuedu.iqiyi.com, reject, extended-matching, pre-matching
-domain-suffix, msga.cupid.iqiyi.com, reject, extended-matching, pre-matching
-domain-suffix, nl.notice.iqiyi.com, reject, extended-matching, pre-matching
-domain-suffix, nl.rcd.iqiyi.com, reject, extended-matching, pre-matching
-domain-suffix, notice.iqiyi.com, reject, extended-matching, pre-matching
-domain-suffix, noxagile.duapp.com, reject, extended-matching, pre-matching
-domain-suffix, paopao.iqiyi.com, reject, extended-matching, pre-matching
-domain-suffix, policy.video.iqiyi.com, reject, extended-matching, pre-matching
-domain-suffix, ifacelog.iqiyi.com, reject, extended-matching, pre-matching
-ip-cidr, 203.107.63.154/32, reject, pre-matching
-ip-cidr, 101.227.97.240/32, reject, pre-matching
-ip-cidr, 101.227.200.11/32, reject, pre-matching
-ip-cidr, 101.227.200.28/32, reject, pre-matching
-ip-cidr, 124.192.153.42/32, reject, pre-matching
+DOMAIN, api.iqiyi.com, REJECT, extended-matching, pre-matching
+DOMAIN, cr-status.iqiyi.com, REJECT, extended-matching, pre-matching
+DOMAIN, f74f7f7765f8a2f6.ngaa.net.cn, REJECT, extended-matching, pre-matching
+DOMAIN, ef-dongfeng.tanx.com, REJECT, extended-matching, pre-matching
+DOMAIN, iqiyim.adtrack.enlightent.cn, REJECT, extended-matching, pre-matching
+DOMAIN, t7z.cupid.iqiyi.com, REJECT, extended-matching, pre-matching
+DOMAIN, t7z.cupid.ptqy.gitv.tv, REJECT, extended-matching, pre-matching
+DOMAIN-suffix, cupid.iqiyi.com, REJECT, extended-matching, pre-matching
+DOMAIN-suffix, t7z.cupid.iqiyi.com, REJECT, extended-matching, pre-matching
+DOMAIN-suffix, static-s.iqiyi.com, REJECT, extended-matching, pre-matching
+DOMAIN-suffix, a.ckm.iqiyi.com, REJECT, extended-matching, pre-matching
+DOMAIN-suffix, ad.m.iqiyi.com, REJECT, extended-matching, pre-matching
+DOMAIN-suffix, afp.iqiyi.com, REJECT, extended-matching, pre-matching
+DOMAIN-suffix, api.cupid.iqiyi.com, REJECT, extended-matching, pre-matching
+DOMAIN-suffix, api.cupid.qiyi.com, REJECT, extended-matching, pre-matching
+DOMAIN-suffix, c.uaa.iqiyi.com, REJECT, extended-matching, pre-matching
+DOMAIN-suffix, cloudpush.iqiyi.com, REJECT, extended-matching, pre-matching
+DOMAIN-suffix, cm.passport.iqiyi.com, REJECT, extended-matching, pre-matching
+DOMAIN-suffix, count.game.pps.tv, REJECT, extended-matching, pre-matching
+DOMAIN-suffix, cupid.iqiyi.com, REJECT, extended-matching, pre-matching
+DOMAIN-suffix, emoticon.sns.iqiyi.com, REJECT, extended-matching, pre-matching
+DOMAIN-suffix, gamecenter.iqiyi.com, REJECT, extended-matching, pre-matching
+DOMAIN-suffix, mbdlog.iqiyi.com, REJECT, extended-matching, pre-matching
+DOMAIN-suffix, msg.iqiyi.com, REJECT, extended-matching, pre-matching
+DOMAIN-suffix, msg.video.qiyi.com, REJECT, extended-matching, pre-matching
+DOMAIN-suffix, msg2.video.qiyi.com, REJECT, extended-matching, pre-matching
+DOMAIN-suffix, static.g.iqiyi.com, REJECT, extended-matching, pre-matching
+DOMAIN-suffix, static.g.ppstream.com, REJECT, extended-matching, pre-matching
+DOMAIN-suffix, store.iqiyi.com, REJECT, extended-matching, pre-matching
+DOMAIN-suffix, tracker.sns.iqiyi.com, REJECT, extended-matching, pre-matching
+DOMAIN-suffix, yuedu.iqiyi.com, REJECT, extended-matching, pre-matching
+DOMAIN-suffix, msga.cupid.iqiyi.com, REJECT, extended-matching, pre-matching
+DOMAIN-suffix, nl.notice.iqiyi.com, REJECT, extended-matching, pre-matching
+DOMAIN-suffix, nl.rcd.iqiyi.com, REJECT, extended-matching, pre-matching
+DOMAIN-suffix, notice.iqiyi.com, REJECT, extended-matching, pre-matching
+DOMAIN-suffix, noxagile.duapp.com, REJECT, extended-matching, pre-matching
+DOMAIN-suffix, paopao.iqiyi.com, REJECT, extended-matching, pre-matching
+DOMAIN-suffix, policy.video.iqiyi.com, REJECT, extended-matching, pre-matching
+DOMAIN-suffix, ifacelog.iqiyi.com, REJECT, extended-matching, pre-matching
+ip-cidr, 203.107.63.154/32, REJECT, pre-matching
+ip-cidr, 101.227.97.240/32, REJECT, pre-matching
+ip-cidr, 101.227.200.11/32, REJECT, pre-matching
+ip-cidr, 101.227.200.28/32, REJECT, pre-matching
+ip-cidr, 124.192.153.42/32, REJECT, pre-matching

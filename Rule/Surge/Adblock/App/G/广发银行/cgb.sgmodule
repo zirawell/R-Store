@@ -1,4 +1,4 @@
 # > 发现精彩 - 95508
 
 [Rule]
-domain, union.chinalifeonline.com.cn, reject, extended-matching, pre-matching
+DOMAIN, union.chinalifeonline.com.cn, REJECT, extended-matching, pre-matching

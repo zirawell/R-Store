@@ -1,4 +1,4 @@
 # > 平安口袋银行 - SDB
 
 [Rule]
-domain, dwtracking.jk.cn, reject, extended-matching, pre-matching
+DOMAIN, dwtracking.jk.cn, REJECT, extended-matching, pre-matching

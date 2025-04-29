@@ -1,4 +1,4 @@
 # > pixiv - PIXIV
 
 [Rule]
-domain, open-pixon.ads-pixiv.net, reject, extended-matching, pre-matching
+DOMAIN, open-pixon.ads-pixiv.net, REJECT, extended-matching, pre-matching

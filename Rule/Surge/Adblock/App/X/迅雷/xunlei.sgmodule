@@ -1,5 +1,5 @@
 # > 迅雷 - XUNLEI
 
 [Rule]
-domain, adsp.xunlei.com, reject, extended-matching, pre-matching
-domain, etl.xlmc.sandai.net, reject, extended-matching, pre-matching
+DOMAIN, adsp.xunlei.com, REJECT, extended-matching, pre-matching
+DOMAIN, etl.xlmc.sandai.net, REJECT, extended-matching, pre-matching

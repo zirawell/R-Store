@@ -1,10 +1,10 @@
 # > twitter - TWITTER
 
 [Rule]
-domain, analytics.twitter.com, reject, extended-matching, pre-matching
-domain-suffix, ads-twitter.com, reject, extended-matching, pre-matching
-domain-suffix, p.twitter.com, reject, extended-matching, pre-matching
-domain-suffix, scribe.twitter.com, reject, extended-matching, pre-matching
-domain-suffix, syndication.twitter.com, reject, extended-matching, pre-matching
-domain-suffix, syndication-o.twitter.com, reject, extended-matching, pre-matching
-domain-suffix, urls.api.twitter.com, reject, extended-matching, pre-matching
+DOMAIN, analytics.twitter.com, REJECT, extended-matching, pre-matching
+DOMAIN-suffix, ads-twitter.com, REJECT, extended-matching, pre-matching
+DOMAIN-suffix, p.twitter.com, REJECT, extended-matching, pre-matching
+DOMAIN-suffix, scribe.twitter.com, REJECT, extended-matching, pre-matching
+DOMAIN-suffix, syndication.twitter.com, REJECT, extended-matching, pre-matching
+DOMAIN-suffix, syndication-o.twitter.com, REJECT, extended-matching, pre-matching
+DOMAIN-suffix, urls.api.twitter.com, REJECT, extended-matching, pre-matching

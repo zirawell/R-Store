@@ -1,4 +1,4 @@
 # > 中国农业银行 - ABCHINA
 
 [Rule]
-domain, firefly.abchina.com.cn, reject, extended-matching, pre-matching
+DOMAIN, firefly.abchina.com.cn, REJECT, extended-matching, pre-matching

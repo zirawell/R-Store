@@ -1,7 +1,7 @@
 # > 快手 - KUAISHOU
 
 [Rule]
-domain-suffix, e.kuaishou.com, reject, extended-matching, pre-matching
-domain-suffix, cm.downloader.commercial.kuaishou.com, reject, extended-matching, pre-matching
-domain-suffix, cm.ad.gifshow.com, reject, extended-matching, pre-matching
-domain-suffix, cm.kwad.com, reject, extended-matching, pre-matching
+DOMAIN-suffix, e.kuaishou.com, REJECT, extended-matching, pre-matching
+DOMAIN-suffix, cm.downloader.commercial.kuaishou.com, REJECT, extended-matching, pre-matching
+DOMAIN-suffix, cm.ad.gifshow.com, REJECT, extended-matching, pre-matching
+DOMAIN-suffix, cm.kwad.com, REJECT, extended-matching, pre-matching

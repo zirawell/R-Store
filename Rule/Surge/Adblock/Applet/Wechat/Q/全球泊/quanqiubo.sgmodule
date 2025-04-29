@@ -1,4 +1,4 @@
 # > 全球泊<微信公众号> - QUANQIUBO
 
 [Rule]
-domain, api.zysdsk.cn, reject, extended-matching, pre-matching
+DOMAIN, api.zysdsk.cn, REJECT, extended-matching, pre-matching

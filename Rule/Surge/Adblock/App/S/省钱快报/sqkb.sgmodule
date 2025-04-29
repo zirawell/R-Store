@@ -1,4 +1,4 @@
 # > 省钱快报 - SQKB
 
 [Rule]
-domain, log.17gwx.com, reject, extended-matching, pre-matching
+DOMAIN, log.17gwx.com, REJECT, extended-matching, pre-matching

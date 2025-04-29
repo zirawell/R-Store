@@ -1,4 +1,4 @@
 # > 盛银小丫管家 - YSEPAY
 
 [Rule]
-domain, ads.ysepay.com, reject, extended-matching, pre-matching
+DOMAIN, ads.ysepay.com, REJECT, extended-matching, pre-matching

@@ -1,7 +1,7 @@
 # > 云闪付 - 95516
 
 [Rule]
-domain, switch.cup.com.cn, reject, extended-matching, pre-matching
-domain, ads.cup.com.cn, reject, extended-matching, pre-matching
-domain, analytics.95516.com, reject, extended-matching, pre-matching
-domain, tysdk.95516.com, reject, extended-matching, pre-matching
+DOMAIN, switch.cup.com.cn, REJECT, extended-matching, pre-matching
+DOMAIN, ads.cup.com.cn, REJECT, extended-matching, pre-matching
+DOMAIN, analytics.95516.com, REJECT, extended-matching, pre-matching
+DOMAIN, tysdk.95516.com, REJECT, extended-matching, pre-matching
