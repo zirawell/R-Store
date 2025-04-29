@@ -1,4 +1,4 @@
 # > 美图秀秀 - MEITU
 
 [Rule]
-domain, adui.tg.meitu.com, reject, pre-matching
+domain, adui.tg.meitu.com, reject, extended-matching, pre-matching

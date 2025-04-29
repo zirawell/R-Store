@@ -1,5 +1,5 @@
 # > 58同城 - 58
 
 [Rule]
-domain, track.58.com, reject, pre-matching
-domain, tracklog.58.com, reject, pre-matching
+domain, track.58.com, reject, extended-matching, pre-matching
+domain, tracklog.58.com, reject, extended-matching, pre-matching

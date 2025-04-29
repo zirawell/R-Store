@@ -1,12 +1,12 @@
 # > 宝宝树 - BABYTREE
 
 [Rule]
-domain, m.meitun.com, reject, pre-matching
-domain, adx.babytree.com, reject, pre-matching 
-domain, adx-backend.babytree.com, reject, pre-matching 
-domain, ads.babytree.com, reject, pre-matching 
-domain, bbtads.babytree.com, reject, pre-matching 
-domain, tracking.babytree.com, reject, pre-matching 
-domain, mobads-pre-config.cdn.bcebos.com, reject, pre-matching 
-domain, titan.babytree.com, reject, pre-matching
-domain, titan01.babytree.com, reject, pre-matching
+domain, m.meitun.com, reject, extended-matching, pre-matching
+domain, adx.babytree.com, reject, extended-matching, pre-matching 
+domain, adx-backend.babytree.com, reject, extended-matching, pre-matching 
+domain, ads.babytree.com, reject, extended-matching, pre-matching 
+domain, bbtads.babytree.com, reject, extended-matching, pre-matching 
+domain, tracking.babytree.com, reject, extended-matching, pre-matching 
+domain, mobads-pre-config.cdn.bcebos.com, reject, extended-matching, pre-matching 
+domain, titan.babytree.com, reject, extended-matching, pre-matching
+domain, titan01.babytree.com, reject, extended-matching, pre-matching

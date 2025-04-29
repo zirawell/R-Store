@@ -1,4 +1,4 @@
 # > 小米有品 - MIYOUPIN
 
 [Rule]
-domain, stat.youpin.mi.com, reject, pre-matching
+domain, stat.youpin.mi.com, reject, extended-matching, pre-matching

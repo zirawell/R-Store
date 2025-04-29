@@ -1,4 +1,4 @@
 # > 彩云天气 - CAIYUNAPP
 
 [Rule]
-domain, ad.cyapi.cn, reject, pre-matching
+domain, ad.cyapi.cn, reject, extended-matching, pre-matching

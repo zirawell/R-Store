@@ -1,9 +1,9 @@
 # > 太平洋电脑 - PCONLINE
 
 [Rule]
-domain, ad-analysis.pconline.com.cn, reject, pre-matching
-domain, iad0ssl.pcauto.com.cn, reject, pre-matching
-domain, iad0ssl.pconline.com.cn, reject, pre-matching
-domain, imgad0.pcauto.com.cn, reject, pre-matching
-domain, imgad0.pconline.com.cn, reject, pre-matching
-domain, ivy.pchouse.com.cn, reject, pre-matching
+domain, ad-analysis.pconline.com.cn, reject, extended-matching, pre-matching
+domain, iad0ssl.pcauto.com.cn, reject, extended-matching, pre-matching
+domain, iad0ssl.pconline.com.cn, reject, extended-matching, pre-matching
+domain, imgad0.pcauto.com.cn, reject, extended-matching, pre-matching
+domain, imgad0.pconline.com.cn, reject, extended-matching, pre-matching
+domain, ivy.pchouse.com.cn, reject, extended-matching, pre-matching

@@ -1,5 +1,5 @@
 # > Daum - DAUM
 
 [Rule]
-domain, track.tiara.daum.net, reject, pre-matching
-domain, track.tiara.kakao.com, reject, pre-matching
+domain, track.tiara.daum.net, reject, extended-matching, pre-matching
+domain, track.tiara.kakao.com, reject, extended-matching, pre-matching

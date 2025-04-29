@@ -1,4 +1,4 @@
 # > 学信网 - CHSI
 
 [Rule]
-domain, push.chsi.com.cn, reject, pre-matching
+domain, push.chsi.com.cn, reject, extended-matching, pre-matching

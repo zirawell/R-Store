@@ -1,8 +1,8 @@
 # > 百度地图 - BAIDUMAP
 
 [Rule]
-domain, afd.baidu.com, reject, pre-matching
-domain, afdconf.baidu.com, reject, pre-matching
-domain, httpdns.baidubce.com, reject, pre-matching
-domain, lc.map.baidu.com, reject, pre-matching
+domain, afd.baidu.com, reject, extended-matching, pre-matching
+domain, afdconf.baidu.com, reject, extended-matching, pre-matching
+domain, httpdns.baidubce.com, reject, extended-matching, pre-matching
+domain, lc.map.baidu.com, reject, extended-matching, pre-matching
 ip-cidr, 186.76.76.200/32, reject, pre-matching

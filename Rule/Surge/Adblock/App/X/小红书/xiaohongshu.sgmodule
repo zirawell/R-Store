@@ -1,7 +1,7 @@
 # > 小红书 - XIAOHONGSHU
 
 [Rule]
-domain, ads-img-qc.xhscdn.com, reject, pre-matching
-domain, ads-video-al.xhscdn.com, reject, pre-matching
-domain, ads-video-qc.xhscdn.com, reject, pre-matching
-domain, t-ads.xiaohongshu.com, reject, pre-matching
+domain, ads-img-qc.xhscdn.com, reject, extended-matching, pre-matching
+domain, ads-video-al.xhscdn.com, reject, extended-matching, pre-matching
+domain, ads-video-qc.xhscdn.com, reject, extended-matching, pre-matching
+domain, t-ads.xiaohongshu.com, reject, extended-matching, pre-matching

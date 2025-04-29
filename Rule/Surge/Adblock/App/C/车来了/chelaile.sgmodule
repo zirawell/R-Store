@@ -1,6 +1,6 @@
 # > 车来了 - CHELAILE
 
 [Rule]
-domain, atrace.chelaile.net.cn, reject, pre-matching
-domain, logs.chelaile.net.cn, reject, pre-matching
-domain, ad.chelaile.net.cn, reject, pre-matching
+domain, atrace.chelaile.net.cn, reject, extended-matching, pre-matching
+domain, logs.chelaile.net.cn, reject, extended-matching, pre-matching
+domain, ad.chelaile.net.cn, reject, extended-matching, pre-matching

@@ -1,23 +1,23 @@
 # > 芒果TV - MGTV
 
 [Rule]
-domain, credits.bz.mgtv.com, reject, pre-matching
-domain, credits2.bz.mgtv.com, reject, pre-matching
-domain, credits3.bz.mgtv.com, reject, pre-matching
-domain, dflow.bz.mgtv.com, reject, pre-matching
-domain, encounter.bz.mgtv.com, reject, pre-matching
-domain, floor.bz.mgtv.com, reject, pre-matching
-domain, layer.bz.mgtv.com, reject, pre-matching
-domain, vip.bz.mgtv.com, reject, pre-matching
-domain, mob.bz.mgtv.com, reject, pre-matching
-domain, rc-topic-api.bz.mgtv.com, reject, pre-matching
-domain, rprain.bz.mgtv.com, reject, pre-matching
-domain, rc-topic-api.bz.mgtv.com, reject, pre-matching
-domain-suffix, imgaliyun.res.mgtv.com, reject, pre-matching
-domain-suffix, pcvideoaliyun.titan.mgtv.com, reject, pre-matching
-domain-suffix, mobaliyun.res.mgtv.com, reject, pre-matching
-domain-suffix, pcvideoyd.titan.mgtv.com, reject, pre-matching
-domain-suffix, pcweb.v1.mgtv.com, reject, pre-matching
-domain-suffix, cmop.mgtv.com, reject, pre-matching
-domain-suffix, da.mgtv.com, reject, pre-matching
-domain-suffix, log.mgtv.com, reject, pre-matching
+domain, credits.bz.mgtv.com, reject, extended-matching, pre-matching
+domain, credits2.bz.mgtv.com, reject, extended-matching, pre-matching
+domain, credits3.bz.mgtv.com, reject, extended-matching, pre-matching
+domain, dflow.bz.mgtv.com, reject, extended-matching, pre-matching
+domain, encounter.bz.mgtv.com, reject, extended-matching, pre-matching
+domain, floor.bz.mgtv.com, reject, extended-matching, pre-matching
+domain, layer.bz.mgtv.com, reject, extended-matching, pre-matching
+domain, vip.bz.mgtv.com, reject, extended-matching, pre-matching
+domain, mob.bz.mgtv.com, reject, extended-matching, pre-matching
+domain, rc-topic-api.bz.mgtv.com, reject, extended-matching, pre-matching
+domain, rprain.bz.mgtv.com, reject, extended-matching, pre-matching
+domain, rc-topic-api.bz.mgtv.com, reject, extended-matching, pre-matching
+domain-suffix, imgaliyun.res.mgtv.com, reject, extended-matching, pre-matching
+domain-suffix, pcvideoaliyun.titan.mgtv.com, reject, extended-matching, pre-matching
+domain-suffix, mobaliyun.res.mgtv.com, reject, extended-matching, pre-matching
+domain-suffix, pcvideoyd.titan.mgtv.com, reject, extended-matching, pre-matching
+domain-suffix, pcweb.v1.mgtv.com, reject, extended-matching, pre-matching
+domain-suffix, cmop.mgtv.com, reject, extended-matching, pre-matching
+domain-suffix, da.mgtv.com, reject, extended-matching, pre-matching
+domain-suffix, log.mgtv.com, reject, extended-matching, pre-matching

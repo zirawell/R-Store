@@ -1,6 +1,6 @@
 # > speedtest - SPEEDTEST
 
 [Rule]
-domain, ads.pubmatic.com, reject, pre-matching
-domain, id.hadron.ad.gt, reject, pre-matching
-domain-keyword, -adsystem.com, reject, pre-matching
+domain, ads.pubmatic.com, reject, extended-matching, pre-matching
+domain, id.hadron.ad.gt, reject, extended-matching, pre-matching
+domain-keyword, -adsystem.com, reject, extended-matching, pre-matching

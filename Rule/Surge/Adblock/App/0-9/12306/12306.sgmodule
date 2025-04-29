@@ -1,4 +1,4 @@
 # > 12306 - 12306
 
 [Rule]
-domain, ad.12306.cn, reject, pre-matching
+domain, ad.12306.cn, reject, extended-matching, pre-matching

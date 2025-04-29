@@ -1,18 +1,18 @@
 # > 喜马拉雅 - XIMA
 
 [Rule]
-domain, adbehavior.ximalaya.com, reject, pre-matching
-domain, adwbs.ximalaya.com, reject, pre-matching
-domain-suffix, ad.test.ximalaya.com, reject, pre-matching
-domain-suffix, adse.test.ximalaya.com, reject, pre-matching
-domain-suffix, adweb.test.ximalaya.com, reject, pre-matching
-domain-suffix, adweb.ximalaya.com, reject, pre-matching
-domain-suffix, linkeye.ximalaya.com, reject, pre-matching
-domain-suffix, location.ximalaya.com, reject, pre-matching
-domain-suffix, xdcs-collector.ximalaya.com, reject, pre-matching
-domain-suffix, ad.ximalaya.com, reject, pre-matching
-domain-suffix, adse.ximalaya.com, reject, pre-matching
-domain-suffix, adse.wsa.ximalaya.com, reject, pre-matching
-domain-suffix, adbehavior.wsa.ximalaya.com, reject, pre-matching
-domain-suffix, adsebs.ximalaya.com, reject, pre-matching
-domain-suffix, adbs.ximalaya.com, reject, pre-matching
+domain, adbehavior.ximalaya.com, reject, extended-matching, pre-matching
+domain, adwbs.ximalaya.com, reject, extended-matching, pre-matching
+domain-suffix, ad.test.ximalaya.com, reject, extended-matching, pre-matching
+domain-suffix, adse.test.ximalaya.com, reject, extended-matching, pre-matching
+domain-suffix, adweb.test.ximalaya.com, reject, extended-matching, pre-matching
+domain-suffix, adweb.ximalaya.com, reject, extended-matching, pre-matching
+domain-suffix, linkeye.ximalaya.com, reject, extended-matching, pre-matching
+domain-suffix, location.ximalaya.com, reject, extended-matching, pre-matching
+domain-suffix, xdcs-collector.ximalaya.com, reject, extended-matching, pre-matching
+domain-suffix, ad.ximalaya.com, reject, extended-matching, pre-matching
+domain-suffix, adse.ximalaya.com, reject, extended-matching, pre-matching
+domain-suffix, adse.wsa.ximalaya.com, reject, extended-matching, pre-matching
+domain-suffix, adbehavior.wsa.ximalaya.com, reject, extended-matching, pre-matching
+domain-suffix, adsebs.ximalaya.com, reject, extended-matching, pre-matching
+domain-suffix, adbs.ximalaya.com, reject, extended-matching, pre-matching

@@ -1,5 +1,5 @@
 # > 招商银行 - CMBCHINA
 
 [Rule]
-domain, mbads.paas.cmbchina.com, reject, pre-matching
-domain, yl.zh.cmbchina.com, reject, pre-matching
+domain, mbads.paas.cmbchina.com, reject, extended-matching, pre-matching
+domain, yl.zh.cmbchina.com, reject, extended-matching, pre-matching

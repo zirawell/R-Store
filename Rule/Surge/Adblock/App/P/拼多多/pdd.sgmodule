@@ -20,23 +20,23 @@ ip-cidr, 101.226.46.0/24, reject, pre-matching
 ;ip-cidr, 101.226.152.0/24, reject, pre-matching
 ip-cidr, 180.97.42.0/24, reject, pre-matching
 ip-cidr, 212.129.220.0/24, reject, pre-matching
-domain, titan.pinduoduo.com, reject, pre-matching
-domain, apm.pinduoduo.com, reject, pre-matching
-domain, ta-a.pinduoduo.com, reject, pre-matching
-domain, ta.pinduoduo.com, reject, pre-matching
-domain, th-a.pinduoduo.com, reject, pre-matching
-domain, th-b.pinduoduo.com, reject, pre-matching
-domain, th.pinduoduo.com, reject, pre-matching
-domain, ta.yangkeduo.com, reject, pre-matching
-domain, th.yangkeduo.com, reject, pre-matching
-domain, meta.yangkeduo.com, reject, pre-matching
-domain, meta.pinduoduo.com, reject, pre-matching
-domain, m.pinduoduo.net, reject, pre-matching
-domain, commimg.pddpic.com, reject, pre-matching
-domain, commimg-1.pddpic.com, reject, pre-matching
-domain, commimg-2.pddpic.com, reject, pre-matching
-domain, commimg-3.pddpic.com, reject, pre-matching
-domain, promotion.pddpic.com, reject, pre-matching
-domain, promotion-1.pddpic.com, reject, pre-matching
-domain, promotion-2.pddpic.com, reject, pre-matching
-domain, promotion-3.pddpic.com, reject, pre-matching
+domain, titan.pinduoduo.com, reject, extended-matching, pre-matching
+domain, apm.pinduoduo.com, reject, extended-matching, pre-matching
+domain, ta-a.pinduoduo.com, reject, extended-matching, pre-matching
+domain, ta.pinduoduo.com, reject, extended-matching, pre-matching
+domain, th-a.pinduoduo.com, reject, extended-matching, pre-matching
+domain, th-b.pinduoduo.com, reject, extended-matching, pre-matching
+domain, th.pinduoduo.com, reject, extended-matching, pre-matching
+domain, ta.yangkeduo.com, reject, extended-matching, pre-matching
+domain, th.yangkeduo.com, reject, extended-matching, pre-matching
+domain, meta.yangkeduo.com, reject, extended-matching, pre-matching
+domain, meta.pinduoduo.com, reject, extended-matching, pre-matching
+domain, m.pinduoduo.net, reject, extended-matching, pre-matching
+domain, commimg.pddpic.com, reject, extended-matching, pre-matching
+domain, commimg-1.pddpic.com, reject, extended-matching, pre-matching
+domain, commimg-2.pddpic.com, reject, extended-matching, pre-matching
+domain, commimg-3.pddpic.com, reject, extended-matching, pre-matching
+domain, promotion.pddpic.com, reject, extended-matching, pre-matching
+domain, promotion-1.pddpic.com, reject, extended-matching, pre-matching
+domain, promotion-2.pddpic.com, reject, extended-matching, pre-matching
+domain, promotion-3.pddpic.com, reject, extended-matching, pre-matching

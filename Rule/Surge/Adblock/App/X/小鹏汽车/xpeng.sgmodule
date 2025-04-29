@@ -1,9 +1,9 @@
 # > 小鹏汽车 - XPENG
 
 [Rule]
-domain, applog-perf.uc.cn, reject, pre-matching
-domain, woodpecker.uc.cn, reject, pre-matching
-domain, collect.xiaopeng.com, reject, pre-matching
-domain, statistic.live.126.net, reject, pre-matching
-domain, lbs.netease.im, reject, pre-matching
-domain, httpdns.yunxindns.com, reject, pre-matching
+domain, applog-perf.uc.cn, reject, extended-matching, pre-matching
+domain, woodpecker.uc.cn, reject, extended-matching, pre-matching
+domain, collect.xiaopeng.com, reject, extended-matching, pre-matching
+domain, statistic.live.126.net, reject, extended-matching, pre-matching
+domain, lbs.netease.im, reject, extended-matching, pre-matching
+domain, httpdns.yunxindns.com, reject, extended-matching, pre-matching
