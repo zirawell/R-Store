@@ -4,6 +4,6 @@
 DOMAIN, ad.api.moji.com, REJECT, extended-matching, pre-matching
 DOMAIN, adlaunch.moji.com, REJECT, extended-matching, pre-matching
 DOMAIN, ads.mojicdn.com, REJECT, extended-matching, pre-matching
-DOMAIN-suffix, log.moji.com, REJECT, extended-matching, pre-matching
-DOMAIN-suffix, fds.api.moji.com, REJECT, extended-matching, pre-matching
-DOMAIN-suffix, me.api.moji.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, log.moji.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, fds.api.moji.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, me.api.moji.com, REJECT, extended-matching, pre-matching

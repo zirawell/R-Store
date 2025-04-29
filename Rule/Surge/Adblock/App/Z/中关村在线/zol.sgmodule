@@ -1,20 +1,20 @@
 # > 中关村在线 - ZOL
 
 [Rule]
-DOMAIN-suffix, apppv.zol.com.cn, REJECT, extended-matching, pre-matching
-DOMAIN-suffix, cpro.zol.com.cn, REJECT, extended-matching, pre-matching
-DOMAIN-suffix, dynamic.zol.com.cn, REJECT, extended-matching, pre-matching
-DOMAIN-suffix, imp.zol.com.cn, REJECT, extended-matching, pre-matching
-DOMAIN-suffix, js.zol.com.cn, REJECT, extended-matching, pre-matching
-DOMAIN-suffix, mstat.zol.com.cn, REJECT, extended-matching, pre-matching
-DOMAIN-suffix, pv.zol.com.cn, REJECT, extended-matching, pre-matching
-DOMAIN-suffix, pvc.zol.com.cn, REJECT, extended-matching, pre-matching
-DOMAIN-suffix, pvm.zol.com.cn, REJECT, extended-matching, pre-matching
-DOMAIN-suffix, pvmsite.zol.com.cn, REJECT, extended-matching, pre-matching
-DOMAIN-suffix, pvnapp.zol.com.cn, REJECT, extended-matching, pre-matching
-DOMAIN-suffix, pvsite.zol.com.cn, REJECT, extended-matching, pre-matching
-DOMAIN-suffix, pvtest.zol.com.cn, REJECT, extended-matching, pre-matching
-DOMAIN-suffix, wappv.zol.com.cn, REJECT, extended-matching, pre-matching
-DOMAIN-suffix, ydjs.zol.com.cn, REJECT, extended-matching, pre-matching
-DOMAIN-suffix, afp.zol-img.com.cn, REJECT, extended-matching, pre-matching
-DOMAIN-suffix, pic.zol-img.com.cn, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, apppv.zol.com.cn, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, cpro.zol.com.cn, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, dynamic.zol.com.cn, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, imp.zol.com.cn, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, js.zol.com.cn, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, mstat.zol.com.cn, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, pv.zol.com.cn, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, pvc.zol.com.cn, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, pvm.zol.com.cn, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, pvmsite.zol.com.cn, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, pvnapp.zol.com.cn, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, pvsite.zol.com.cn, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, pvtest.zol.com.cn, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, wappv.zol.com.cn, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, ydjs.zol.com.cn, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, afp.zol-img.com.cn, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, pic.zol-img.com.cn, REJECT, extended-matching, pre-matching

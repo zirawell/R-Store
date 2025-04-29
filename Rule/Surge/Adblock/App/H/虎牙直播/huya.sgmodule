@@ -7,4 +7,4 @@ DOMAIN, livewebbs2pcdn.msstatic.com, REJECT, extended-matching, pre-matching
 DOMAIN, huyafile.msstatic.com, REJECT, extended-matching, pre-matching
 DOMAIN, livewebbs2.msstatic.com, REJECT, extended-matching, pre-matching
 DOMAIN, business.msstatic.com, REJECT, extended-matching, pre-matching
-DOMAIN-suffix, v1d.szbdyd.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, v1d.szbdyd.com, REJECT, extended-matching, pre-matching

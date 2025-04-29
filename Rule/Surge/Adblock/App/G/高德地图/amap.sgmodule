@@ -6,7 +6,7 @@ DOMAIN, free-aos-cdn-image.amap.com, REJECT, extended-matching, pre-matching
 DOMAIN, apiinit.amap.com, REJECT, extended-matching, pre-matching
 DOMAIN, icloud-amap.com, REJECT, extended-matching, pre-matching
 DOMAIN, optimus-ads.amap.com, REJECT, extended-matching, pre-matching
-DOMAIN-suffix, adiu.amap.com, REJECT, extended-matching, pre-matching
-DOMAIN-suffix, page.amap.com, REJECT, extended-matching, pre-matching
-DOMAIN-keyword, logs.amap.com, REJECT, extended-matching, pre-matching
-DOMAIN-keyword, ads.amap.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, adiu.amap.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, page.amap.com, REJECT, extended-matching, pre-matching
+DOMAIN-KEYWORD, logs.amap.com, REJECT, extended-matching, pre-matching
+DOMAIN-KEYWORD, ads.amap.com, REJECT, extended-matching, pre-matching

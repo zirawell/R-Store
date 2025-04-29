@@ -1,4 +1,4 @@
 # > 买单吧 - BANKCOMM
 
 [Rule]
-DOMAIN-suffix, track.bankcomm.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, track.bankcomm.com, REJECT, extended-matching, pre-matching

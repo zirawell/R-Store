@@ -10,4 +10,4 @@ DOMAIN, adclick.tencentmusic.com, REJECT, extended-matching, pre-matching
 DOMAIN, mc.tencentmusic.com, REJECT, extended-matching, pre-matching
 DOMAIN, report.tencentmusic.com, REJECT, extended-matching, pre-matching
 DOMAIN, monitor.music.qq.com, REJECT, extended-matching, pre-matching
-DOMAIN-suffix, imtmp.net, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, imtmp.net, REJECT, extended-matching, pre-matching

@@ -8,14 +8,14 @@ DOMAIN, xlog.jd.com, REJECT, extended-matching, pre-matching
 DOMAIN, janapi.jd.com, REJECT, extended-matching, pre-matching
 DOMAIN, jdqd.jd.com, REJECT, extended-matching, pre-matching
 DOMAIN, dgstatic.jd.com, REJECT, extended-matching, pre-matching
-DOMAIN-suffix, jzt.jd.com, REJECT, extended-matching, pre-matching
-DOMAIN-suffix, img-x.jd.com, REJECT, extended-matching, pre-matching
-DOMAIN-suffix, du.jd.com, REJECT, extended-matching, pre-matching
-DOMAIN-suffix, c-nfa.jd.com, REJECT, extended-matching, pre-matching
-DOMAIN-suffix, cm.jd.com, REJECT, extended-matching, pre-matching
-DOMAIN-keyword, kepler.jd.com, REJECT, extended-matching, pre-matching
-DOMAIN-keyword, bdsp.x.jd.com, REJECT, extended-matching, pre-matching
-DOMAIN-keyword, keplerapi.jd.com, REJECT, extended-matching, pre-matching
-DOMAIN-keyword, mapi.m.jd.com, REJECT, extended-matching, pre-matching
-ip-cidr, 101.124.19.122/32, REJECT, pre-matching
-ip6-cidr, 2402:db40:5100:1011::5/128, REJECT, pre-matching
+DOMAIN-SUFFIX, jzt.jd.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, img-x.jd.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, du.jd.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, c-nfa.jd.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, cm.jd.com, REJECT, extended-matching, pre-matching
+DOMAIN-KEYWORD, kepler.jd.com, REJECT, extended-matching, pre-matching
+DOMAIN-KEYWORD, bdsp.x.jd.com, REJECT, extended-matching, pre-matching
+DOMAIN-KEYWORD, keplerapi.jd.com, REJECT, extended-matching, pre-matching
+DOMAIN-KEYWORD, mapi.m.jd.com, REJECT, extended-matching, pre-matching
+IP-CIDR, 101.124.19.122/32, REJECT, pre-matching
+IP-CIDR6, 2402:db40:5100:1011::5/128, REJECT, pre-matching

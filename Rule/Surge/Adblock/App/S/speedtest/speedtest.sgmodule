@@ -3,4 +3,4 @@
 [Rule]
 DOMAIN, ads.pubmatic.com, REJECT, extended-matching, pre-matching
 DOMAIN, id.hadron.ad.gt, REJECT, extended-matching, pre-matching
-DOMAIN-keyword, -adsystem.com, REJECT, extended-matching, pre-matching
+DOMAIN-KEYWORD, -adsystem.com, REJECT, extended-matching, pre-matching

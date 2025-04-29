@@ -6,7 +6,7 @@ DOMAIN, ipv6.music.163.com, REJECT, extended-matching, pre-matching
 DOMAIN, iadmat.nosdn.127.net, REJECT, extended-matching, pre-matching
 DOMAIN, iadmatapk.nosdn.127.net, REJECT, extended-matching, pre-matching
 DOMAIN, admusicpic.music.126.net, REJECT, extended-matching, pre-matching
-DOMAIN-suffix, 163jiasu.com, REJECT, extended-matching, pre-matching
-DOMAIN-suffix, httpdns.music.163.com, REJECT, extended-matching, pre-matching
-DOMAIN-suffix, iadmusicmatvideo.music.126.net, REJECT, extended-matching, pre-matching
-DOMAIN-suffix, iadmusicmat.music.126.net, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, 163jiasu.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, httpdns.music.163.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, iadmusicmatvideo.music.126.net, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, iadmusicmat.music.126.net, REJECT, extended-matching, pre-matching

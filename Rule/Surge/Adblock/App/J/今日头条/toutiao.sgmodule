@@ -1,14 +1,14 @@
 # > 今日头条 - TOUTIAO
 
 [Rule]
-DOMAIN-suffix, ad.toutiao.com, REJECT, extended-matching, pre-matching
-DOMAIN-suffix, dm.toutiao.com, REJECT, extended-matching, pre-matching
-DOMAIN-suffix, dsp.toutiao.com, REJECT, extended-matching, pre-matching
-DOMAIN-suffix, adshare.toutiao.com, REJECT, extended-matching, pre-matching
-DOMAIN-suffix, partner.toutiao.com, REJECT, extended-matching, pre-matching
-DOMAIN-suffix, track.toutiao.com, REJECT, extended-matching, pre-matching
-DOMAIN-keyword, s1.pstatp.com, REJECT, extended-matching, pre-matching
-DOMAIN-keyword, s2.pstatp.com, REJECT, extended-matching, pre-matching
-DOMAIN-keyword, s3.pstatp.com, REJECT, extended-matching, pre-matching
-DOMAIN-keyword, a3.pstatp.com, REJECT, extended-matching, pre-matching
-DOMAIN-keyword, a3.bytecdn.cn, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, ad.toutiao.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, dm.toutiao.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, dsp.toutiao.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, adshare.toutiao.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, partner.toutiao.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, track.toutiao.com, REJECT, extended-matching, pre-matching
+DOMAIN-KEYWORD, s1.pstatp.com, REJECT, extended-matching, pre-matching
+DOMAIN-KEYWORD, s2.pstatp.com, REJECT, extended-matching, pre-matching
+DOMAIN-KEYWORD, s3.pstatp.com, REJECT, extended-matching, pre-matching
+DOMAIN-KEYWORD, a3.pstatp.com, REJECT, extended-matching, pre-matching
+DOMAIN-KEYWORD, a3.bytecdn.cn, REJECT, extended-matching, pre-matching

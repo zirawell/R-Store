@@ -7,4 +7,4 @@ DOMAIN, ggc.cmvideo.cn, REJECT, extended-matching, pre-matching
 DOMAIN, ggv.cmvideo.cn, REJECT, extended-matching, pre-matching
 DOMAIN, ggx.cmvideo.cn, REJECT, extended-matching, pre-matching
 DOMAIN, ggx03.miguvideo.com, REJECT, extended-matching, pre-matching
-DOMAIN-suffix, ad.cmvideo.cn, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, ad.cmvideo.cn, REJECT, extended-matching, pre-matching

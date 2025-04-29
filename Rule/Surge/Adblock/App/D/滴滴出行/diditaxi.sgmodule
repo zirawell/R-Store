@@ -2,7 +2,7 @@
 
 [Rule]
 DOMAIN, adtrack.xiaojukeji.com, REJECT, extended-matching, pre-matching
-ip-cidr, 123.207.209.39/32, REJECT, pre-matching
-ip-cidr, 123.207.209.60/32, REJECT, pre-matching
-ip-cidr, 139.199.240.12/32, REJECT, pre-matching
-ip-cidr, 139.199.240.15/32, REJECT, pre-matching
+IP-CIDR, 123.207.209.39/32, REJECT, pre-matching
+IP-CIDR, 123.207.209.60/32, REJECT, pre-matching
+IP-CIDR, 139.199.240.12/32, REJECT, pre-matching
+IP-CIDR, 139.199.240.15/32, REJECT, pre-matching

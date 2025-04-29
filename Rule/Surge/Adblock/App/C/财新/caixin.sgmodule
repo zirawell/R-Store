@@ -1,6 +1,6 @@
 # > 财新 - CAIXIN
 
 [Rule]
-DOMAIN-suffix, apollo.caixin.com, REJECT, extended-matching, pre-matching
-DOMAIN-suffix, logstat.caixin.com, REJECT, extended-matching, pre-matching
-DOMAIN-suffix, promote.caixin.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, apollo.caixin.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, logstat.caixin.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, promote.caixin.com, REJECT, extended-matching, pre-matching

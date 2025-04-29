@@ -2,7 +2,7 @@
 
 [Rule]
 DOMAIN, lwlog.laiwang.com, REJECT, extended-matching, pre-matching
-DOMAIN-suffix, yksdks.com, REJECT, extended-matching, pre-matching
-DOMAIN-suffix, cpatrk.net, REJECT, extended-matching, pre-matching
-DOMAIN-suffix, mobsurl.com, REJECT, extended-matching, pre-matching
-ip-cidr, 114.67.227.198/32, REJECT, pre-matching
+DOMAIN-SUFFIX, yksdks.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, cpatrk.net, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, mobsurl.com, REJECT, extended-matching, pre-matching
+IP-CIDR, 114.67.227.198/32, REJECT, pre-matching

@@ -1,4 +1,4 @@
 # > 中国建设银行 - CCB
 
 [Rule]
-DOMAIN-keyword, adv.ccb.com, REJECT, extended-matching, pre-matching
+DOMAIN-KEYWORD, adv.ccb.com, REJECT, extended-matching, pre-matching

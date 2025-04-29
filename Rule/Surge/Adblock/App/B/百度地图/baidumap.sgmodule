@@ -5,4 +5,4 @@ DOMAIN, afd.baidu.com, REJECT, extended-matching, pre-matching
 DOMAIN, afdconf.baidu.com, REJECT, extended-matching, pre-matching
 DOMAIN, httpdns.baidubce.com, REJECT, extended-matching, pre-matching
 DOMAIN, lc.map.baidu.com, REJECT, extended-matching, pre-matching
-ip-cidr, 186.76.76.200/32, REJECT, pre-matching
+IP-CIDR, 186.76.76.200/32, REJECT, pre-matching

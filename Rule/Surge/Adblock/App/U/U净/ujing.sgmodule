@@ -1,4 +1,4 @@
 # > U净 - UJING
 
 [Rule]
-DOMAIN-suffix, ads.zhinengxiyifang.cn, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, ads.zhinengxiyifang.cn, REJECT, extended-matching, pre-matching

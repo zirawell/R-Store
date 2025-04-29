@@ -1,4 +1,4 @@
 # > 领英 - LINKEDIN
 
 [Rule]
-DOMAIN-suffix, ads.linkedin.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, ads.linkedin.com, REJECT, extended-matching, pre-matching

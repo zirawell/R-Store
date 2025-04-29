@@ -7,9 +7,9 @@ DOMAIN, lookup.api.bsb.baidu.com, REJECT, extended-matching, pre-matching
 DOMAIN, safebrowsing.g.applimg.com, REJECT, extended-matching, pre-matching
 DOMAIN, safebrowsing.googleapis.com, REJECT, extended-matching, pre-matching
 DOMAIN, safebrowsing.urlsec.qq.com, REJECT, extended-matching, pre-matching
-DOMAIN-suffix, safebrowsing.apple, REJECT, extended-matching, pre-matching
-DOMAIN-suffix, u3.ucweb.com, REJECT, extended-matching, pre-matching
-ip-cidr, 119.29.29.98/32, REJECT, pre-matching
-ip-cidr, 119.29.29.99/32, REJECT, pre-matching
-ip-cidr, 81.71.61.216/32, REJECT, pre-matching
+DOMAIN-SUFFIX, safebrowsing.apple, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, u3.ucweb.com, REJECT, extended-matching, pre-matching
+IP-CIDR, 119.29.29.98/32, REJECT, pre-matching
+IP-CIDR, 119.29.29.99/32, REJECT, pre-matching
+IP-CIDR, 81.71.61.216/32, REJECT, pre-matching
 DOMAIN, geo2.adobe.com, REJECT, extended-matching, pre-matching

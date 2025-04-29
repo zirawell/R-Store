@@ -1,16 +1,16 @@
 # > 搜狐 - SOHU
 
 [Rule]
-DOMAIN-suffix, ad.sohu.com, REJECT, extended-matching, pre-matching
-DOMAIN-suffix, ads.sohu.com, REJECT, extended-matching, pre-matching
-DOMAIN-suffix, aty.sohu.com, REJECT, extended-matching, pre-matching
-DOMAIN-suffix, adnet.sohu.com, REJECT, extended-matching, pre-matching
-DOMAIN-suffix, ad.mail.sohu.com, REJECT, extended-matching, pre-matching
-DOMAIN-suffix, corp.sohu.com, REJECT, extended-matching, pre-matching
-DOMAIN-suffix, cpc.sohu.com, REJECT, extended-matching, pre-matching
-DOMAIN-suffix, go.sohu.com, REJECT, extended-matching, pre-matching
-DOMAIN-suffix, hui.sohu.com, REJECT, extended-matching, pre-matching
-DOMAIN-suffix, suvset.sohu.com, REJECT, extended-matching, pre-matching
-DOMAIN-suffix, track.sohu.com, REJECT, extended-matching, pre-matching
-DOMAIN-suffix, 3rd.t.sohu.com, REJECT, extended-matching, pre-matching
-DOMAIN-suffix, 888.tv.sohu.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, ad.sohu.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, ads.sohu.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, aty.sohu.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, adnet.sohu.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, ad.mail.sohu.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, corp.sohu.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, cpc.sohu.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, go.sohu.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, hui.sohu.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, suvset.sohu.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, track.sohu.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, 3rd.t.sohu.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, 888.tv.sohu.com, REJECT, extended-matching, pre-matching

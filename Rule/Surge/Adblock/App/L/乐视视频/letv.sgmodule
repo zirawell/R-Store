@@ -5,4 +5,4 @@ DOMAIN, ark.letv.com, REJECT, extended-matching, pre-matching
 DOMAIN, emma-414870e223.huodonghezi.com, REJECT, extended-matching, pre-matching
 DOMAIN, g3.letv.com, REJECT, extended-matching, pre-matching
 DOMAIN, n.mark.letv.com, REJECT, extended-matching, pre-matching
-DOMAIN-suffix, webp2p.letv.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, webp2p.letv.com, REJECT, extended-matching, pre-matching

@@ -1,4 +1,4 @@
 # > 蓝基因 - LANJIYIN
 
 [Rule]
-DOMAIN-keyword, medicine.lanjiyin.com.cn, REJECT, extended-matching, pre-matching
+DOMAIN-KEYWORD, medicine.lanjiyin.com.cn, REJECT, extended-matching, pre-matching

@@ -5,6 +5,6 @@ DOMAIN, adgw.alipay.com, REJECT, extended-matching, pre-matching
 DOMAIN, amdc.alipay.com, REJECT, extended-matching, pre-matching
 DOMAIN, rtms.alipay.com, REJECT, extended-matching, pre-matching
 DOMAIN, amdc-sibling.alipay.com.cn, REJECT, extended-matching, pre-matching
-DOMAIN-suffix, mdap.alipay.com, REJECT, extended-matching, pre-matching
-DOMAIN-suffix, ynuf.alipay.com, REJECT, extended-matching, pre-matching
-DOMAIN-suffix, loggw.alipay.com.cn, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, mdap.alipay.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, ynuf.alipay.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, loggw.alipay.com.cn, REJECT, extended-matching, pre-matching

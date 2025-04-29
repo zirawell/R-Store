@@ -2,9 +2,9 @@
 
 [Rule]
 DOMAIN, analytics.twitter.com, REJECT, extended-matching, pre-matching
-DOMAIN-suffix, ads-twitter.com, REJECT, extended-matching, pre-matching
-DOMAIN-suffix, p.twitter.com, REJECT, extended-matching, pre-matching
-DOMAIN-suffix, scribe.twitter.com, REJECT, extended-matching, pre-matching
-DOMAIN-suffix, syndication.twitter.com, REJECT, extended-matching, pre-matching
-DOMAIN-suffix, syndication-o.twitter.com, REJECT, extended-matching, pre-matching
-DOMAIN-suffix, urls.api.twitter.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, ads-twitter.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, p.twitter.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, scribe.twitter.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, syndication.twitter.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, syndication-o.twitter.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, urls.api.twitter.com, REJECT, extended-matching, pre-matching

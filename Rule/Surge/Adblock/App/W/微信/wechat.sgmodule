@@ -3,4 +3,4 @@
 [Rule]
 DOMAIN, badjs.weixinbridge.com, REJECT, extended-matching, pre-matching
 DOMAIN, dns.weixin.qq.com.cn, REJECT, extended-matching, pre-matching
-DOMAIN-suffix, wxs.qq.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, wxs.qq.com, REJECT, extended-matching, pre-matching
