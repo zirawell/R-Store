@@ -1,4 +1,4 @@
 # > 花小猪打车<微信小程序> - HONGYIBO
 
 [Rule]
-domain, api.hongyibo.com.cn, reject, pre-matching
+domain, api.hongyibo.com.cn, reject, extended-matching, pre-matching

@@ -1,11 +1,11 @@
 # > 番茄小说 - FANQIE
 
 [Rule]
-domain, content-open.douyin.com, reject, pre-matching
-domain, webcast-open.douyin.com, reject, pre-matching
-domain, lf-webcast-gr-sourcecdn.bytegecko.com, reject, pre-matching
-domain, lf3-reading.fqnovelstatic.com, reject, pre-matching
-domain, log5-applog.fqnovel.com, reject, pre-matching
-domain, mon11-misc.fqnovel.com, reject, pre-matching
-domain, rtlog5-applog.fqnovel.com, reject, pre-matching
-domain, zlink.ugsdk.cn, reject, pre-matching
+domain, content-open.douyin.com, reject, extended-matching, pre-matching
+domain, webcast-open.douyin.com, reject, extended-matching, pre-matching
+domain, lf-webcast-gr-sourcecdn.bytegecko.com, reject, extended-matching, pre-matching
+domain, lf3-reading.fqnovelstatic.com, reject, extended-matching, pre-matching
+domain, log5-applog.fqnovel.com, reject, extended-matching, pre-matching
+domain, mon11-misc.fqnovel.com, reject, extended-matching, pre-matching
+domain, rtlog5-applog.fqnovel.com, reject, extended-matching, pre-matching
+domain, zlink.ugsdk.cn, reject, extended-matching, pre-matching

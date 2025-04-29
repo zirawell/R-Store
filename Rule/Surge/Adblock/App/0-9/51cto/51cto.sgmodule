@@ -1,5 +1,5 @@
 # > 51cto - 51CTO
 
 [Rule]
-domain, smartop-sdkapi.jiguang.cn, reject, pre-matching
-domain, smartop-sdkapi-ipv6.jiguang.cn, reject, pre-matching
+domain, smartop-sdkapi.jiguang.cn, reject, extended-matching, pre-matching
+domain, smartop-sdkapi-ipv6.jiguang.cn, reject, extended-matching, pre-matching

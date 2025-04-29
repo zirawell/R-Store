@@ -2,5 +2,5 @@
 
 [Rule]
 ip-cidr, 180.76.76.200/32, reject, pre-matching
-domain, afd.baidu.com, reject, pre-matching
-domain, mobads.baidu.com, reject, pre-matching
+domain, afd.baidu.com, reject, extended-matching, pre-matching
+domain, mobads.baidu.com, reject, extended-matching, pre-matching

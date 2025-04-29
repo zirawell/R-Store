@@ -1,6 +1,6 @@
 # > keep - KEEP
 
 [Rule]
-domain, hc-ssp.sm.cn, reject, pre-matching
-domain, apm.gotokeep.com, reject, pre-matching
-domain, kad.gotokeep.com, reject, pre-matching
+domain, hc-ssp.sm.cn, reject, extended-matching, pre-matching
+domain, apm.gotokeep.com, reject, extended-matching, pre-matching
+domain, kad.gotokeep.com, reject, extended-matching, pre-matching

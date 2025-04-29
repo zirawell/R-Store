@@ -1,5 +1,5 @@
 # > 斗鱼直播 - DOUYU
 
 [Rule]
-domain, stun1.douyucdn.cn, reject, pre-matching
-domain, stun1.qvb.qcloud.com, reject, pre-matching
+domain, stun1.douyucdn.cn, reject, extended-matching, pre-matching
+domain, stun1.qvb.qcloud.com, reject, extended-matching, pre-matching

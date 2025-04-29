@@ -1,10 +1,10 @@
 # > 支付宝 - ALIPAY
 
 [Rule]
-domain, adgw.alipay.com, reject, pre-matching
-domain, amdc.alipay.com, reject, pre-matching
-domain, rtms.alipay.com, reject, pre-matching
-domain, amdc-sibling.alipay.com.cn, reject, pre-matching
-domain-suffix, mdap.alipay.com, reject, pre-matching
-domain-suffix, ynuf.alipay.com, reject, pre-matching
-domain-suffix, loggw.alipay.com.cn, reject, pre-matching
+domain, adgw.alipay.com, reject, extended-matching, pre-matching
+domain, amdc.alipay.com, reject, extended-matching, pre-matching
+domain, rtms.alipay.com, reject, extended-matching, pre-matching
+domain, amdc-sibling.alipay.com.cn, reject, extended-matching, pre-matching
+domain-suffix, mdap.alipay.com, reject, extended-matching, pre-matching
+domain-suffix, ynuf.alipay.com, reject, extended-matching, pre-matching
+domain-suffix, loggw.alipay.com.cn, reject, extended-matching, pre-matching

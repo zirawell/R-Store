@@ -1,5 +1,5 @@
 # > snapchat - SNAPCHAT
 
 [Rule]
-domain, ads.snapchat.com, reject, pre-matching
-domain, adsapi.snapchat.com, reject, pre-matching
+domain, ads.snapchat.com, reject, extended-matching, pre-matching
+domain, adsapi.snapchat.com, reject, extended-matching, pre-matching

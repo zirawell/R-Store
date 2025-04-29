@@ -1,9 +1,9 @@
 # > 墨迹天气 - MOJI
 
 [Rule]
-domain, ad.api.moji.com, reject, pre-matching
-domain, adlaunch.moji.com, reject, pre-matching
-domain, ads.mojicdn.com, reject, pre-matching
-domain-suffix, log.moji.com, reject, pre-matching
-domain-suffix, fds.api.moji.com, reject, pre-matching
-domain-suffix, me.api.moji.com, reject, pre-matching
+domain, ad.api.moji.com, reject, extended-matching, pre-matching
+domain, adlaunch.moji.com, reject, extended-matching, pre-matching
+domain, ads.mojicdn.com, reject, extended-matching, pre-matching
+domain-suffix, log.moji.com, reject, extended-matching, pre-matching
+domain-suffix, fds.api.moji.com, reject, extended-matching, pre-matching
+domain-suffix, me.api.moji.com, reject, extended-matching, pre-matching

@@ -1,6 +1,6 @@
 # > Microsoft Outlook - OUTLOOK
 
 [Rule]
-domain, acdn.adnxs.com, reject, pre-matching
-domain, mediation.adnxs.com, reject, pre-matching
-domain, sin3-ib.adnxs.com, reject, pre-matching
+domain, acdn.adnxs.com, reject, extended-matching, pre-matching
+domain, mediation.adnxs.com, reject, extended-matching, pre-matching
+domain, sin3-ib.adnxs.com, reject, extended-matching, pre-matching

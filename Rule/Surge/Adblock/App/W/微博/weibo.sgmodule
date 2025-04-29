@@ -1,33 +1,33 @@
 # > 微博 - WEIBO
 
 [Rule]
-domain, huodong.weibo.cn, reject, pre-matching
-domain, bootpreload.uve.weibo.com, reject, pre-matching
-domain, datacollection.uve.weibo.com, reject, pre-matching
-domain, adpinpai.video.weibocdn.com, reject, pre-matching
-domain-suffix, fastimage.uve.weibo.com, reject, pre-matching
-domain-suffix, adimg.vue.weibo.com, reject, pre-matching
-domain-suffix, zymo.mps.weibo.com, reject, pre-matching
-domain-suffix, weibomingzi.com, reject, pre-matching
-domain-suffix, sdkapp.uve.weibo.com, reject, pre-matching
-domain-suffix, promote.biz.weibo.cn, reject, pre-matching
-domain-suffix, gw5.push.mcp.weibo.cn, reject, pre-matching
-domain-suffix, gw6.push.mcp.weibo.cn, reject, pre-matching
-domain-suffix, game.weibo.cn, reject, pre-matching
-domain-suffix, adimg.uve.weibo.com, reject, pre-matching
-domain-suffix, game.weibo.com, reject, pre-matching
-domain-suffix, ads.viber.com, reject, pre-matching
-domain-suffix, ads-d.viber.com, reject, pre-matching
-domain-suffix, ads.aws.viber.com, reject, pre-matching
-domain-suffix, alitui.weibo.com, reject, pre-matching
-domain-suffix, dp.im.weibo.cn, reject, pre-matching
-domain-suffix, click.uve.weibo.com, reject, pre-matching
-domain-suffix, wax.weibo.com, reject, pre-matching
-domain-suffix, wbapp.uve.weibo.com, reject, pre-matching
-domain-suffix, widget.weibo.com, reject, pre-matching
-domain-suffix, dsp.edm.weibo.cn, reject, pre-matching
-domain-suffix, alitui.weibo.com.cn, reject, pre-matching
-domain-suffix, tui.weibo.com, reject, pre-matching
-domain-suffix, wax.weibo.com.cn, reject, pre-matching
-domain-suffix, ad.weibo.com, reject, pre-matching
-domain-keyword, biz.weibo.com, reject, pre-matching
+domain, huodong.weibo.cn, reject, extended-matching, pre-matching
+domain, bootpreload.uve.weibo.com, reject, extended-matching, pre-matching
+domain, datacollection.uve.weibo.com, reject, extended-matching, pre-matching
+domain, adpinpai.video.weibocdn.com, reject, extended-matching, pre-matching
+domain-suffix, fastimage.uve.weibo.com, reject, extended-matching, pre-matching
+domain-suffix, adimg.vue.weibo.com, reject, extended-matching, pre-matching
+domain-suffix, zymo.mps.weibo.com, reject, extended-matching, pre-matching
+domain-suffix, weibomingzi.com, reject, extended-matching, pre-matching
+domain-suffix, sdkapp.uve.weibo.com, reject, extended-matching, pre-matching
+domain-suffix, promote.biz.weibo.cn, reject, extended-matching, pre-matching
+domain-suffix, gw5.push.mcp.weibo.cn, reject, extended-matching, pre-matching
+domain-suffix, gw6.push.mcp.weibo.cn, reject, extended-matching, pre-matching
+domain-suffix, game.weibo.cn, reject, extended-matching, pre-matching
+domain-suffix, adimg.uve.weibo.com, reject, extended-matching, pre-matching
+domain-suffix, game.weibo.com, reject, extended-matching, pre-matching
+domain-suffix, ads.viber.com, reject, extended-matching, pre-matching
+domain-suffix, ads-d.viber.com, reject, extended-matching, pre-matching
+domain-suffix, ads.aws.viber.com, reject, extended-matching, pre-matching
+domain-suffix, alitui.weibo.com, reject, extended-matching, pre-matching
+domain-suffix, dp.im.weibo.cn, reject, extended-matching, pre-matching
+domain-suffix, click.uve.weibo.com, reject, extended-matching, pre-matching
+domain-suffix, wax.weibo.com, reject, extended-matching, pre-matching
+domain-suffix, wbapp.uve.weibo.com, reject, extended-matching, pre-matching
+domain-suffix, widget.weibo.com, reject, extended-matching, pre-matching
+domain-suffix, dsp.edm.weibo.cn, reject, extended-matching, pre-matching
+domain-suffix, alitui.weibo.com.cn, reject, extended-matching, pre-matching
+domain-suffix, tui.weibo.com, reject, extended-matching, pre-matching
+domain-suffix, wax.weibo.com.cn, reject, extended-matching, pre-matching
+domain-suffix, ad.weibo.com, reject, extended-matching, pre-matching
+domain-keyword, biz.weibo.com, reject, extended-matching, pre-matching

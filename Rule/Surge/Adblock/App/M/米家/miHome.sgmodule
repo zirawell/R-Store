@@ -1,4 +1,4 @@
 # > 米家 - MIHOME
 
 [Rule]
-domain, sdkconfig.ad.xiaomi.com, reject, pre-matching
+domain, sdkconfig.ad.xiaomi.com, reject, extended-matching, pre-matching

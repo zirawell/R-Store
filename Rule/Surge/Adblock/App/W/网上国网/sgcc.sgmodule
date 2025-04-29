@@ -1,5 +1,5 @@
 # > 网上国网 - SGCC
 
 [Rule]
-domain, mdap.mpaas.cn-hangzhou.aliyuncs.com, reject, pre-matching
-domain, csc-apm.sgcc.com.cn, reject, pre-matching
+domain, mdap.mpaas.cn-hangzhou.aliyuncs.com, reject, extended-matching, pre-matching
+domain, csc-apm.sgcc.com.cn, reject, extended-matching, pre-matching

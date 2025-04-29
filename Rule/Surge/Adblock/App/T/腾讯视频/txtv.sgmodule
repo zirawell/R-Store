@@ -1,15 +1,15 @@
 # > 腾讯视频 - TXTV
 
 [Rule]
-domain, info4.video.qq.com, reject, pre-matching
-domain, info6.video.qq.com, reject, pre-matching
-domain, vv.video.qq.com, reject, pre-matching
-domain, wxsmsdy.video.qq.com, reject, pre-matching
-domain, sdkconfig.video.qq.com, reject, pre-matching
-domain-suffix, video.mpush.qq.com, reject, pre-matching
-domain-suffix, video.wap.mpush.qq.com, reject, pre-matching
-domain-suffix, video.ureport.push.qq.com, reject, pre-matching
-domain-suffix, api.poll.video.qq.com, reject, pre-matching
-domain-suffix, livep.l.ott.video.qq.com, reject, pre-matching
-domain-suffix, news-l.play.ott.video.qq.com, reject, pre-matching
-domain-suffix, vlive.qqvideo.tc.qq.com, reject, pre-matching
+domain, info4.video.qq.com, reject, extended-matching, pre-matching
+domain, info6.video.qq.com, reject, extended-matching, pre-matching
+domain, vv.video.qq.com, reject, extended-matching, pre-matching
+domain, wxsmsdy.video.qq.com, reject, extended-matching, pre-matching
+domain, sdkconfig.video.qq.com, reject, extended-matching, pre-matching
+domain-suffix, video.mpush.qq.com, reject, extended-matching, pre-matching
+domain-suffix, video.wap.mpush.qq.com, reject, extended-matching, pre-matching
+domain-suffix, video.ureport.push.qq.com, reject, extended-matching, pre-matching
+domain-suffix, api.poll.video.qq.com, reject, extended-matching, pre-matching
+domain-suffix, livep.l.ott.video.qq.com, reject, extended-matching, pre-matching
+domain-suffix, news-l.play.ott.video.qq.com, reject, extended-matching, pre-matching
+domain-suffix, vlive.qqvideo.tc.qq.com, reject, extended-matching, pre-matching

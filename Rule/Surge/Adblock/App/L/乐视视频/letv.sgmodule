@@ -1,8 +1,8 @@
 # > 乐视视频 - LETV
 
 [Rule]
-domain, ark.letv.com, reject, pre-matching
-domain, emma-414870e223.huodonghezi.com, reject, pre-matching
-domain, g3.letv.com, reject, pre-matching
-domain, n.mark.letv.com, reject, pre-matching
-domain-suffix, webp2p.letv.com, reject, pre-matching
+domain, ark.letv.com, reject, extended-matching, pre-matching
+domain, emma-414870e223.huodonghezi.com, reject, extended-matching, pre-matching
+domain, g3.letv.com, reject, extended-matching, pre-matching
+domain, n.mark.letv.com, reject, extended-matching, pre-matching
+domain-suffix, webp2p.letv.com, reject, extended-matching, pre-matching

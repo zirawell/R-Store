@@ -1,6 +1,6 @@
 # > 飞常准 - VARIFLIGHT
 
 [Rule]
-domain, adv-adlog.variflight.com, reject, pre-matching
-domain, adv-ads.variflight.com, reject, pre-matching
-domain, app-ad.variflight.com, reject, pre-matching
+domain, adv-adlog.variflight.com, reject, extended-matching, pre-matching
+domain, adv-ads.variflight.com, reject, extended-matching, pre-matching
+domain, app-ad.variflight.com, reject, extended-matching, pre-matching

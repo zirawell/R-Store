@@ -2,5 +2,5 @@
 
 [Rule]
 ip-cidr, 1.202.85.193/32, reject, pre-matching
-domain, mdc.wallet.pbcdci.cn, reject, pre-matching
-domain, mdap.wallet.pbcdci.cn, reject, pre-matching
+domain, mdc.wallet.pbcdci.cn, reject, extended-matching, pre-matching
+domain, mdap.wallet.pbcdci.cn, reject, extended-matching, pre-matching

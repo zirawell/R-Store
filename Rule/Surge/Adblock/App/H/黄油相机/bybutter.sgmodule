@@ -1,6 +1,6 @@
 # > 黄油相机 - BYBUTTER
 
 [Rule]
-domain-suffix, anythinktech.com, reject, pre-matching
-domain-suffix, adkwai.com, reject, pre-matching
-domain-suffix, mob.com, reject, pre-matching
+domain-suffix, anythinktech.com, reject, extended-matching, pre-matching
+domain-suffix, adkwai.com, reject, extended-matching, pre-matching
+domain-suffix, mob.com, reject, extended-matching, pre-matching

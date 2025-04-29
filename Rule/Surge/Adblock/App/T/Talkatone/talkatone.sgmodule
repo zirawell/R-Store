@@ -1,4 +1,4 @@
 # > Talkatone - TALKATONE
 
 [Rule]
-domain-suffix, tappx.com, reject, pre-matching
+domain-suffix, tappx.com, reject, extended-matching, pre-matching

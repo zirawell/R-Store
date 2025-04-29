@@ -1,31 +1,31 @@
 # > 网易有道词典 - 163YOUDAO
 
 [Rule]
-domain, gorgon.youdao.com, reject, pre-matching
-domain-suffix, a.youdao.com, reject, pre-matching
-domain-suffix, c.youdao.com, reject, pre-matching
-domain-suffix, dsp.youdao.com, reject, pre-matching
-domain-suffix, union.youdao.com, reject, pre-matching
-domain-suffix, conv.youdao.com, reject, pre-matching
-domain-suffix, dsp-click.youdao.com, reject, pre-matching
-domain-suffix, dsp-impr.youdao.com, reject, pre-matching
-domain-suffix, dsp-impr2.youdao.com, reject, pre-matching
-domain-suffix, gorgon.youdao.com, reject, pre-matching
-domain-suffix, log-yex.youdao.com, reject, pre-matching
-domain-suffix, rlogs.youdao.com, reject, pre-matching
-domain-suffix, log.yex.youdao.com, reject, pre-matching
-domain-suffix, impservice.youdao.com, reject, pre-matching
-domain-suffix, impservice2.youdao.com, reject, pre-matching
-domain-suffix, clkservice.youdao.com, reject, pre-matching
-domain-suffix, clkservice2.dict.youdao.com, reject, pre-matching
-domain-suffix, clkservice.mail.youdao.com, reject, pre-matching
-domain-suffix, clkservice.union.youdao.com, reject, pre-matching
-domain-suffix, ydpushserver.youdao.com, reject, pre-matching
-domain-suffix, nc004x.corp.youdao.com, reject, pre-matching
-domain-suffix, nc045x.corp.youdao.com, reject, pre-matching
-domain-suffix, qt002x.corp.youdao.com, reject, pre-matching
-domain-suffix, tb060x.corp.youdao.com, reject, pre-matching
-domain-suffix, tb104x.corp.youdao.com, reject, pre-matching
-domain-suffix, impservice.dictapp.youdao.com, reject, pre-matching
-domain-suffix, impservice-test.dictapp.youdao.com, reject, pre-matching
-domain-suffix, impservicetest.dictapp.youdao.com, reject, pre-matching
+domain, gorgon.youdao.com, reject, extended-matching, pre-matching
+domain-suffix, a.youdao.com, reject, extended-matching, pre-matching
+domain-suffix, c.youdao.com, reject, extended-matching, pre-matching
+domain-suffix, dsp.youdao.com, reject, extended-matching, pre-matching
+domain-suffix, union.youdao.com, reject, extended-matching, pre-matching
+domain-suffix, conv.youdao.com, reject, extended-matching, pre-matching
+domain-suffix, dsp-click.youdao.com, reject, extended-matching, pre-matching
+domain-suffix, dsp-impr.youdao.com, reject, extended-matching, pre-matching
+domain-suffix, dsp-impr2.youdao.com, reject, extended-matching, pre-matching
+domain-suffix, gorgon.youdao.com, reject, extended-matching, pre-matching
+domain-suffix, log-yex.youdao.com, reject, extended-matching, pre-matching
+domain-suffix, rlogs.youdao.com, reject, extended-matching, pre-matching
+domain-suffix, log.yex.youdao.com, reject, extended-matching, pre-matching
+domain-suffix, impservice.youdao.com, reject, extended-matching, pre-matching
+domain-suffix, impservice2.youdao.com, reject, extended-matching, pre-matching
+domain-suffix, clkservice.youdao.com, reject, extended-matching, pre-matching
+domain-suffix, clkservice2.dict.youdao.com, reject, extended-matching, pre-matching
+domain-suffix, clkservice.mail.youdao.com, reject, extended-matching, pre-matching
+domain-suffix, clkservice.union.youdao.com, reject, extended-matching, pre-matching
+domain-suffix, ydpushserver.youdao.com, reject, extended-matching, pre-matching
+domain-suffix, nc004x.corp.youdao.com, reject, extended-matching, pre-matching
+domain-suffix, nc045x.corp.youdao.com, reject, extended-matching, pre-matching
+domain-suffix, qt002x.corp.youdao.com, reject, extended-matching, pre-matching
+domain-suffix, tb060x.corp.youdao.com, reject, extended-matching, pre-matching
+domain-suffix, tb104x.corp.youdao.com, reject, extended-matching, pre-matching
+domain-suffix, impservice.dictapp.youdao.com, reject, extended-matching, pre-matching
+domain-suffix, impservice-test.dictapp.youdao.com, reject, extended-matching, pre-matching
+domain-suffix, impservicetest.dictapp.youdao.com, reject, extended-matching, pre-matching

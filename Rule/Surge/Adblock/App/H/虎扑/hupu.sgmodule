@@ -1,6 +1,6 @@
 # > 虎扑 - HUPU
 
 [Rule]
-domain, adx.hupu.com, reject, pre-matching
-domain, adx-api.hupu.com, reject, pre-matching
-domain, goblin.hupu.com, reject, pre-matching
+domain, adx.hupu.com, reject, extended-matching, pre-matching
+domain, adx-api.hupu.com, reject, extended-matching, pre-matching
+domain, goblin.hupu.com, reject, extended-matching, pre-matching
