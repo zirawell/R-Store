@@ -1,11 +1,11 @@
 # > 金山词霸 - ICIBA
 
 [Rule]
-domain, ad-stat.ksosoft.com, reject, extended-matching, pre-matching
-domain, img.auction-ads.wpscdn.cn, reject, extended-matching, pre-matching
-domain, counter.kingsoft.com, reject, extended-matching, pre-matching
-domain, counter.ksosoft.com, reject, extended-matching, pre-matching
-domain, minfo.wps.cn, reject, extended-matching, pre-matching
-domain, mobad.ijinshan.com, reject, extended-matching, pre-matching
-domain, ups.ksmobile.net, reject, extended-matching, pre-matching
-domain, ws.ksmobile.net, reject, extended-matching, pre-matching
+DOMAIN, ad-stat.ksosoft.com, REJECT, extended-matching, pre-matching
+DOMAIN, img.auction-ads.wpscdn.cn, REJECT, extended-matching, pre-matching
+DOMAIN, counter.kingsoft.com, REJECT, extended-matching, pre-matching
+DOMAIN, counter.ksosoft.com, REJECT, extended-matching, pre-matching
+DOMAIN, minfo.wps.cn, REJECT, extended-matching, pre-matching
+DOMAIN, mobad.ijinshan.com, REJECT, extended-matching, pre-matching
+DOMAIN, ups.ksmobile.net, REJECT, extended-matching, pre-matching
+DOMAIN, ws.ksmobile.net, REJECT, extended-matching, pre-matching

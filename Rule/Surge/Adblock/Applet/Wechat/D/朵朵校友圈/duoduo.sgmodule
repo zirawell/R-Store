@@ -1,4 +1,4 @@
 # > 朵朵校友圈 - DUODUO
 
 [Rule]
-domain-suffix, ad.duoduo.link, reject, extended-matching, pre-matching
+DOMAIN-SUFFIX, ad.duoduo.link, REJECT, extended-matching, pre-matching

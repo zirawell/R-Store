@@ -1,18 +1,18 @@
 # > trip - TRIP
 
 [Rule]
-domain, firebaseinstallations.googleapis.com, reject, extended-matching, pre-matching
-domain, ocsp.pki.goog, reject, extended-matching, pre-matching
-domain, cpush.trip.com, reject, extended-matching, pre-matching
-domain, tcpgateway-sgp-trip.trip.com, reject, extended-matching, pre-matching
-domain, overseamobileap.ctrip.com, reject, extended-matching, pre-matching
-domain, ak-d.tripcdn.com, reject, extended-matching, pre-matching
-domain, easytomessage.com, reject, extended-matching, pre-matching
-domain, cpush.ctrip.com, reject, extended-matching, pre-matching
-ip-cidr, 162.14.145.13/32, reject, pre-matching
-ip-cidr, 162.14.137.26/32, reject, pre-matching
-ip-cidr, 103.143.160.209/32, reject, pre-matching
-ip-cidr, 210.13.85.204/32, reject, pre-matching
-domain-suffix, graph.facebook.com, reject, extended-matching, pre-matching
-domain-suffix, m.ctripins.com, reject, extended-matching, pre-matching
-domain-keyword, app.adjust, reject, extended-matching, pre-matching
+DOMAIN, firebaseinstallations.googleapis.com, REJECT, extended-matching, pre-matching
+DOMAIN, ocsp.pki.goog, REJECT, extended-matching, pre-matching
+DOMAIN, cpush.trip.com, REJECT, extended-matching, pre-matching
+DOMAIN, tcpgateway-sgp-trip.trip.com, REJECT, extended-matching, pre-matching
+DOMAIN, overseamobileap.ctrip.com, REJECT, extended-matching, pre-matching
+DOMAIN, ak-d.tripcdn.com, REJECT, extended-matching, pre-matching
+DOMAIN, easytomessage.com, REJECT, extended-matching, pre-matching
+DOMAIN, cpush.ctrip.com, REJECT, extended-matching, pre-matching
+IP-CIDR, 162.14.145.13/32, REJECT, pre-matching
+IP-CIDR, 162.14.137.26/32, REJECT, pre-matching
+IP-CIDR, 103.143.160.209/32, REJECT, pre-matching
+IP-CIDR, 210.13.85.204/32, REJECT, pre-matching
+DOMAIN-SUFFIX, graph.facebook.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, m.ctripins.com, REJECT, extended-matching, pre-matching
+DOMAIN-KEYWORD, app.adjust, REJECT, extended-matching, pre-matching

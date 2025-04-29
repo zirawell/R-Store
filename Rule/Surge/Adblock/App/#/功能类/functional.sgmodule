@@ -3,13 +3,13 @@
 # > Adobe Flash China Special Edition - ADSEUNLOCK
 
 [Rule]
-domain, lookup.api.bsb.baidu.com, reject, extended-matching, pre-matching
-domain, safebrowsing.g.applimg.com, reject, extended-matching, pre-matching
-domain, safebrowsing.googleapis.com, reject, extended-matching, pre-matching
-domain, safebrowsing.urlsec.qq.com, reject, extended-matching, pre-matching
-domain-suffix, safebrowsing.apple, reject, extended-matching, pre-matching
-domain-suffix, u3.ucweb.com, reject, extended-matching, pre-matching
-ip-cidr, 119.29.29.98/32, reject, pre-matching
-ip-cidr, 119.29.29.99/32, reject, pre-matching
-ip-cidr, 81.71.61.216/32, reject, pre-matching
-domain, geo2.adobe.com, reject, extended-matching, pre-matching
+DOMAIN, lookup.api.bsb.baidu.com, REJECT, extended-matching, pre-matching
+DOMAIN, safebrowsing.g.applimg.com, REJECT, extended-matching, pre-matching
+DOMAIN, safebrowsing.googleapis.com, REJECT, extended-matching, pre-matching
+DOMAIN, safebrowsing.urlsec.qq.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, safebrowsing.apple, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, u3.ucweb.com, REJECT, extended-matching, pre-matching
+IP-CIDR, 119.29.29.98/32, REJECT, pre-matching
+IP-CIDR, 119.29.29.99/32, REJECT, pre-matching
+IP-CIDR, 81.71.61.216/32, REJECT, pre-matching
+DOMAIN, geo2.adobe.com, REJECT, extended-matching, pre-matching

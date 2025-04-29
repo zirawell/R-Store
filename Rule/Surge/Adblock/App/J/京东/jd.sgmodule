@@ -1,21 +1,21 @@
 # > 京东 - JD
 
 [Rule]
-domain, dns.jd.com, reject, extended-matching, pre-matching
-domain, waapdg.jd.com, reject, extended-matching, pre-matching
-domain, dsp-x.jd.com, reject, extended-matching, pre-matching
-domain, xlog.jd.com, reject, extended-matching, pre-matching
-domain, janapi.jd.com, reject, extended-matching, pre-matching
-domain, jdqd.jd.com, reject, extended-matching, pre-matching
-domain, dgstatic.jd.com, reject, extended-matching, pre-matching
-domain-suffix, jzt.jd.com, reject, extended-matching, pre-matching
-domain-suffix, img-x.jd.com, reject, extended-matching, pre-matching
-domain-suffix, du.jd.com, reject, extended-matching, pre-matching
-domain-suffix, c-nfa.jd.com, reject, extended-matching, pre-matching
-domain-suffix, cm.jd.com, reject, extended-matching, pre-matching
-domain-keyword, kepler.jd.com, reject, extended-matching, pre-matching
-domain-keyword, bdsp.x.jd.com, reject, extended-matching, pre-matching
-domain-keyword, keplerapi.jd.com, reject, extended-matching, pre-matching
-domain-keyword, mapi.m.jd.com, reject, extended-matching, pre-matching
-ip-cidr, 101.124.19.122/32, reject, pre-matching
-ip6-cidr, 2402:db40:5100:1011::5/128, reject, pre-matching
+DOMAIN, dns.jd.com, REJECT, extended-matching, pre-matching
+DOMAIN, waapdg.jd.com, REJECT, extended-matching, pre-matching
+DOMAIN, dsp-x.jd.com, REJECT, extended-matching, pre-matching
+DOMAIN, xlog.jd.com, REJECT, extended-matching, pre-matching
+DOMAIN, janapi.jd.com, REJECT, extended-matching, pre-matching
+DOMAIN, jdqd.jd.com, REJECT, extended-matching, pre-matching
+DOMAIN, dgstatic.jd.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, jzt.jd.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, img-x.jd.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, du.jd.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, c-nfa.jd.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, cm.jd.com, REJECT, extended-matching, pre-matching
+DOMAIN-KEYWORD, kepler.jd.com, REJECT, extended-matching, pre-matching
+DOMAIN-KEYWORD, bdsp.x.jd.com, REJECT, extended-matching, pre-matching
+DOMAIN-KEYWORD, keplerapi.jd.com, REJECT, extended-matching, pre-matching
+DOMAIN-KEYWORD, mapi.m.jd.com, REJECT, extended-matching, pre-matching
+IP-CIDR, 101.124.19.122/32, REJECT, pre-matching
+IP-CIDR6, 2402:db40:5100:1011::5/128, REJECT, pre-matching

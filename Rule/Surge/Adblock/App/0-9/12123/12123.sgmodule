@@ -1,8 +1,8 @@
 # > 12123 - 12123
 
 [Rule]
-domain-suffix, v3.fstats.xyz, reject, extended-matching, pre-matching
-domain-suffix, wss.haoyundmn.com, reject, extended-matching, pre-matching
-domain-suffix, new.xiongzhangad.com, reject, extended-matching, pre-matching
-domain-suffix, alexametrics.com, reject, extended-matching, pre-matching
-domain-keyword, in-page-push, reject, extended-matching, pre-matching
+DOMAIN-SUFFIX, v3.fstats.xyz, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, wss.haoyundmn.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, new.xiongzhangad.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, alexametrics.com, REJECT, extended-matching, pre-matching
+DOMAIN-KEYWORD, in-page-push, REJECT, extended-matching, pre-matching

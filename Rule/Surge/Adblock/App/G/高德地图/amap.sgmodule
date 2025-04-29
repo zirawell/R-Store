@@ -1,12 +1,12 @@
 # > 高德地图 - AMAP
 
 [Rule]
-domain, amap-aos-info-nogw.amap.com, reject, extended-matching, pre-matching
-domain, free-aos-cdn-image.amap.com, reject, extended-matching, pre-matching
-domain, apiinit.amap.com, reject, extended-matching, pre-matching
-domain, icloud-amap.com, reject, extended-matching, pre-matching
-domain, optimus-ads.amap.com, reject, extended-matching, pre-matching
-domain-suffix, adiu.amap.com, reject, extended-matching, pre-matching
-domain-suffix, page.amap.com, reject, extended-matching, pre-matching
-domain-keyword, logs.amap.com, reject, extended-matching, pre-matching
-domain-keyword, ads.amap.com, reject, extended-matching, pre-matching
+DOMAIN, amap-aos-info-nogw.amap.com, REJECT, extended-matching, pre-matching
+DOMAIN, free-aos-cdn-image.amap.com, REJECT, extended-matching, pre-matching
+DOMAIN, apiinit.amap.com, REJECT, extended-matching, pre-matching
+DOMAIN, icloud-amap.com, REJECT, extended-matching, pre-matching
+DOMAIN, optimus-ads.amap.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, adiu.amap.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, page.amap.com, REJECT, extended-matching, pre-matching
+DOMAIN-KEYWORD, logs.amap.com, REJECT, extended-matching, pre-matching
+DOMAIN-KEYWORD, ads.amap.com, REJECT, extended-matching, pre-matching

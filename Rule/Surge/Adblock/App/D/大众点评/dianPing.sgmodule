@@ -1,11 +1,11 @@
 # > 大众点评 - DIANPING
 
 [Rule]
-domain, r.dianping.com, reject, extended-matching, pre-matching
-domain, tte.meituan.com, reject, extended-matching, pre-matching
-domain, dpmtpush.dianping.com, reject, extended-matching, pre-matching
-domain, dynamicf.sankuai.com, reject, extended-matching, pre-matching
-domain, live-monitor-broker.sankuai.com, reject, extended-matching, pre-matching
-domain-suffix, lx.meituan.net, reject, extended-matching, pre-matching
-ip-cidr, 101.32.16.204/32, reject, pre-matching
-ip-cidr, 119.29.126.137/32, reject, pre-matching
+DOMAIN, r.dianping.com, REJECT, extended-matching, pre-matching
+DOMAIN, tte.meituan.com, REJECT, extended-matching, pre-matching
+DOMAIN, dpmtpush.dianping.com, REJECT, extended-matching, pre-matching
+DOMAIN, dynamicf.sankuai.com, REJECT, extended-matching, pre-matching
+DOMAIN, live-monitor-broker.sankuai.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, lx.meituan.net, REJECT, extended-matching, pre-matching
+IP-CIDR, 101.32.16.204/32, REJECT, pre-matching
+IP-CIDR, 119.29.126.137/32, REJECT, pre-matching

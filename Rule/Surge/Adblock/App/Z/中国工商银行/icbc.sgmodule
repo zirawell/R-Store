@@ -1,5 +1,5 @@
 # > 中国工商银行 - ICBC
 
 [Rule]
-domain, pageviewp.icbc.com.cn, reject, extended-matching, pre-matching
-domain-suffix, mall.icbc.com.cn, reject, extended-matching, pre-matching
+DOMAIN, pageviewp.icbc.com.cn, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, mall.icbc.com.cn, REJECT, extended-matching, pre-matching

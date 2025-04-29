@@ -1,4 +1,4 @@
 # > 中国联通 - 10010
 
 [Rule]
-domain-suffix, ad.10010.com, reject, extended-matching, pre-matching
+DOMAIN-SUFFIX, ad.10010.com, REJECT, extended-matching, pre-matching

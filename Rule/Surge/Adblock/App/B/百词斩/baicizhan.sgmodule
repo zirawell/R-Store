@@ -1,5 +1,5 @@
 # > 百词斩 - BAICIZHAN
 
 [Rule]
-domain, advertise.baicizhan.com, reject, extended-matching, pre-matching
-domain, advertise.baicizhan.org, reject, extended-matching, pre-matching
+DOMAIN, advertise.baicizhan.com, REJECT, extended-matching, pre-matching
+DOMAIN, advertise.baicizhan.org, REJECT, extended-matching, pre-matching

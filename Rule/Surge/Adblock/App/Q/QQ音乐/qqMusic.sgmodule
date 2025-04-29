@@ -1,13 +1,13 @@
 # > QQ音乐 - QQMUSIC
 
 [Rule]
-domain, ad.tencentmusic.com, reject, extended-matching, pre-matching
-domain, adcdn.tencentmusic.com, reject, extended-matching, pre-matching
-domain, adstats.tencentmusic.com, reject, extended-matching, pre-matching
-domain, adcdn6.tencentmusic.com, reject, extended-matching, pre-matching
-domain, adexpo.tencentmusic.com, reject, extended-matching, pre-matching
-domain, adclick.tencentmusic.com, reject, extended-matching, pre-matching
-domain, mc.tencentmusic.com, reject, extended-matching, pre-matching
-domain, report.tencentmusic.com, reject, extended-matching, pre-matching
-domain, monitor.music.qq.com, reject, extended-matching, pre-matching
-domain-suffix, imtmp.net, reject, extended-matching, pre-matching
+DOMAIN, ad.tencentmusic.com, REJECT, extended-matching, pre-matching
+DOMAIN, adcdn.tencentmusic.com, REJECT, extended-matching, pre-matching
+DOMAIN, adstats.tencentmusic.com, REJECT, extended-matching, pre-matching
+DOMAIN, adcdn6.tencentmusic.com, REJECT, extended-matching, pre-matching
+DOMAIN, adexpo.tencentmusic.com, REJECT, extended-matching, pre-matching
+DOMAIN, adclick.tencentmusic.com, REJECT, extended-matching, pre-matching
+DOMAIN, mc.tencentmusic.com, REJECT, extended-matching, pre-matching
+DOMAIN, report.tencentmusic.com, REJECT, extended-matching, pre-matching
+DOMAIN, monitor.music.qq.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, imtmp.net, REJECT, extended-matching, pre-matching

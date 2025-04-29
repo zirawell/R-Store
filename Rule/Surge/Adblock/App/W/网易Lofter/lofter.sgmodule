@@ -1,4 +1,4 @@
 # > 网易LOFTER - LOFTER
 
 [Rule]
-domain-suffix, ad.lofter.com, reject, extended-matching, pre-matching
+DOMAIN-SUFFIX, ad.lofter.com, REJECT, extended-matching, pre-matching

@@ -1,4 +1,4 @@
 # > 闪送<微信小程序> - SHANSONG
 
 [Rule]
-domain, ads.ishansong.com, reject, extended-matching, pre-matching
+DOMAIN, ads.ishansong.com, REJECT, extended-matching, pre-matching

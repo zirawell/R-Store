@@ -1,5 +1,5 @@
 # > 下厨房 - XIACHUFANG
 
 [Rule]
-domain-suffix, baidu-union-js.xiachufang.com, reject, extended-matching, pre-matching
-domain-suffix, baidu-union-pos.xiachufang.com, reject, extended-matching, pre-matching
+DOMAIN-SUFFIX, baidu-union-js.xiachufang.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, baidu-union-pos.xiachufang.com, REJECT, extended-matching, pre-matching

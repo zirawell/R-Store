@@ -1,8 +1,8 @@
 # > 哔哩哔哩(国际版) - BILIBILI(WHITE)
 
 [Rule]
-domain, ptom.caohua.com, reject, extended-matching, pre-matching
-domain, tracking.leiting.com, reject, extended-matching, pre-matching
-domain, ads.games.laohu.com, reject, extended-matching, pre-matching
-domain, shark-tracer.netease.com, reject, extended-matching, pre-matching
-ip-cidr, 203.107.1.1/24, reject, pre-matching
+DOMAIN, ptom.caohua.com, REJECT, extended-matching, pre-matching
+DOMAIN, tracking.leiting.com, REJECT, extended-matching, pre-matching
+DOMAIN, ads.games.laohu.com, REJECT, extended-matching, pre-matching
+DOMAIN, shark-tracer.netease.com, REJECT, extended-matching, pre-matching
+IP-CIDR, 203.107.1.1/24, REJECT, pre-matching

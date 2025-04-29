@@ -1,4 +1,4 @@
 # > 360儿童卫士 - 360KIDS
 
 [Rule]
-domain, ad.life.360.cn, reject, extended-matching, pre-matching
+DOMAIN, ad.life.360.cn, REJECT, extended-matching, pre-matching

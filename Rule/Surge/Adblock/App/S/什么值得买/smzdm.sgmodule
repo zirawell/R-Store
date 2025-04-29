@@ -1,6 +1,6 @@
 # > 什么值得买 - SMZDM
 
 [Rule]
-domain, api.zuihuimai.com, reject, extended-matching, pre-matching
-domain, analytics-api.smzdm.com, reject, extended-matching, pre-matching
-domain, ynuf.aliapp.org, reject, extended-matching, pre-matching
+DOMAIN, api.zuihuimai.com, REJECT, extended-matching, pre-matching
+DOMAIN, analytics-api.smzdm.com, REJECT, extended-matching, pre-matching
+DOMAIN, ynuf.aliapp.org, REJECT, extended-matching, pre-matching

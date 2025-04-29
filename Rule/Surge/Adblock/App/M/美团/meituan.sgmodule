@@ -1,18 +1,18 @@
 # > 美团 - MEITUAN
 
 [Rule]
-ip-cidr, 103.37.155.60/32, reject, pre-matching
-domain, flowplus.meituan.net, reject, extended-matching, pre-matching
-domain, lx0.meituan.com, reject, extended-matching, pre-matching
-domain, hlx.meituan.com, reject, extended-matching, pre-matching
-domain-suffix, lx.meituan.net, reject, extended-matching, pre-matching
-domain-suffix, httpdns.meituan.com, reject, extended-matching, pre-matching
-domain-suffix, analytics.meituan.net, reject, extended-matching, pre-matching
-domain-suffix, meituan.xn, reject, extended-matching, pre-matching
-domain-suffix, meituan.yoga, reject, extended-matching, pre-matching
-domain-suffix, meituangov.cn, reject, extended-matching, pre-matching
-domain-suffix, wmlog.meituan.com, reject, extended-matching, pre-matching
-domain-suffix, ad.e.waimai.sankuai.com, reject, extended-matching, pre-matching
-domain-suffix, mads.meituan.com, reject, extended-matching, pre-matching
-domain-suffix, d.meituan.net, reject, extended-matching, pre-matching
-domain-keyword, report.meituan, reject, extended-matching, pre-matching
+IP-CIDR, 103.37.155.60/32, REJECT, pre-matching
+DOMAIN, flowplus.meituan.net, REJECT, extended-matching, pre-matching
+DOMAIN, lx0.meituan.com, REJECT, extended-matching, pre-matching
+DOMAIN, hlx.meituan.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, lx.meituan.net, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, httpdns.meituan.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, analytics.meituan.net, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, meituan.xn, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, meituan.yoga, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, meituangov.cn, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, wmlog.meituan.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, ad.e.waimai.sankuai.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, mads.meituan.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, d.meituan.net, REJECT, extended-matching, pre-matching
+DOMAIN-KEYWORD, report.meituan, REJECT, extended-matching, pre-matching

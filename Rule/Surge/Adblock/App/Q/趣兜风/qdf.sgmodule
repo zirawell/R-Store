@@ -1,8 +1,8 @@
 # > 趣兜风 - QDF
 
 [Rule]
-domain, lwlog.laiwang.com, reject, extended-matching, pre-matching
-domain-suffix, yksdks.com, reject, extended-matching, pre-matching
-domain-suffix, cpatrk.net, reject, extended-matching, pre-matching
-domain-suffix, mobsurl.com, reject, extended-matching, pre-matching
-ip-cidr, 114.67.227.198/32, reject, pre-matching
+DOMAIN, lwlog.laiwang.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, yksdks.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, cpatrk.net, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, mobsurl.com, REJECT, extended-matching, pre-matching
+IP-CIDR, 114.67.227.198/32, REJECT, pre-matching

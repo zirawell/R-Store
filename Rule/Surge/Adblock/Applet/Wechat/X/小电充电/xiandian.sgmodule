@@ -1,5 +1,5 @@
 # > 小电充电<微信小程序> - XIAODIAN
 
 [Rule]
-domain, smarket.dian.so, reject, extended-matching, pre-matching
-domain, file.dian.so, reject, extended-matching, pre-matching
+DOMAIN, smarket.dian.so, REJECT, extended-matching, pre-matching
+DOMAIN, file.dian.so, REJECT, extended-matching, pre-matching

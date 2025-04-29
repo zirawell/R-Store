@@ -1,4 +1,4 @@
 # > 脉脉 - MAIMAI
 
 [Rule]
-domain-suffix, track.mm.taou.com, reject, extended-matching, pre-matching
+DOMAIN-SUFFIX, track.mm.taou.com, REJECT, extended-matching, pre-matching

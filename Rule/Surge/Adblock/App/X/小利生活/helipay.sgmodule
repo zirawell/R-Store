@@ -1,4 +1,4 @@
 # > 小利生活 - HELIPAY
 
 [Rule]
-domain-keyword, mpos-pic.helipay.com, reject, extended-matching, pre-matching
+DOMAIN-KEYWORD, mpos-pic.helipay.com, REJECT, extended-matching, pre-matching

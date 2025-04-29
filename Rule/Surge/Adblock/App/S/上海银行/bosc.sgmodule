@@ -1,7 +1,7 @@
 # > 上海银行 - BOSC
 
 [Rule]
-domain-suffix, pmbanalysis.bosc.cn, reject, extended-matching, pre-matching
-domain-suffix, pmbmpush.bosc.cn, reject, extended-matching, pre-matching
-domain-suffix, pmbservice.bosc.cn, reject, extended-matching, pre-matching
-domain-suffix, pmbservice2.bosc.cn, reject, extended-matching, pre-matching
+DOMAIN-SUFFIX, pmbanalysis.bosc.cn, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, pmbmpush.bosc.cn, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, pmbservice.bosc.cn, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, pmbservice2.bosc.cn, REJECT, extended-matching, pre-matching

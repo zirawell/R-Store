@@ -1,4 +1,4 @@
 # > 360智慧生活 - 360LIFE
 
 [Rule]
-domain, ad.iot.360.cn, reject, extended-matching, pre-matching
+DOMAIN, ad.iot.360.cn, REJECT, extended-matching, pre-matching

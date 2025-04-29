@@ -1,4 +1,4 @@
 # > 上海交通卡 - SPTCC
 
 [Rule]
-domain-suffix, medproad.com, reject, extended-matching, pre-matching
+DOMAIN-SUFFIX, medproad.com, REJECT, extended-matching, pre-matching

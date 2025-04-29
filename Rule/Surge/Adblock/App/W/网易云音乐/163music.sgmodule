@@ -1,12 +1,12 @@
 # > 网易云音乐 - 163MUSIC
 
 [Rule]
-domain, ipv4.music.163.com, reject, extended-matching, pre-matching
-domain, ipv6.music.163.com, reject, extended-matching, pre-matching
-domain, iadmat.nosdn.127.net, reject, extended-matching, pre-matching
-domain, iadmatapk.nosdn.127.net, reject, extended-matching, pre-matching
-domain, admusicpic.music.126.net, reject, extended-matching, pre-matching
-domain-suffix, 163jiasu.com, reject, extended-matching, pre-matching
-domain-suffix, httpdns.music.163.com, reject, extended-matching, pre-matching
-domain-suffix, iadmusicmatvideo.music.126.net, reject, extended-matching, pre-matching
-domain-suffix, iadmusicmat.music.126.net, reject, extended-matching, pre-matching
+DOMAIN, ipv4.music.163.com, REJECT, extended-matching, pre-matching
+DOMAIN, ipv6.music.163.com, REJECT, extended-matching, pre-matching
+DOMAIN, iadmat.nosdn.127.net, REJECT, extended-matching, pre-matching
+DOMAIN, iadmatapk.nosdn.127.net, REJECT, extended-matching, pre-matching
+DOMAIN, admusicpic.music.126.net, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, 163jiasu.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, httpdns.music.163.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, iadmusicmatvideo.music.126.net, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, iadmusicmat.music.126.net, REJECT, extended-matching, pre-matching

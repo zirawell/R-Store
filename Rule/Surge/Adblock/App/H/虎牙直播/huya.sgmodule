@@ -1,10 +1,10 @@
 # > 虎牙直播 - HUYA
 
 [Rule]
-domain, live-ads.huya.com, reject, extended-matching, pre-matching
-domain, pp-cdnfile2pcdn.msstatic.com, reject, extended-matching, pre-matching
-domain, livewebbs2pcdn.msstatic.com, reject, extended-matching, pre-matching
-domain, huyafile.msstatic.com, reject, extended-matching, pre-matching
-domain, livewebbs2.msstatic.com, reject, extended-matching, pre-matching
-domain, business.msstatic.com, reject, extended-matching, pre-matching
-domain-suffix, v1d.szbdyd.com, reject, extended-matching, pre-matching
+DOMAIN, live-ads.huya.com, REJECT, extended-matching, pre-matching
+DOMAIN, pp-cdnfile2pcdn.msstatic.com, REJECT, extended-matching, pre-matching
+DOMAIN, livewebbs2pcdn.msstatic.com, REJECT, extended-matching, pre-matching
+DOMAIN, huyafile.msstatic.com, REJECT, extended-matching, pre-matching
+DOMAIN, livewebbs2.msstatic.com, REJECT, extended-matching, pre-matching
+DOMAIN, business.msstatic.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, v1d.szbdyd.com, REJECT, extended-matching, pre-matching

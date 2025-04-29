@@ -1,17 +1,17 @@
 # > 酷我音乐 - KUWO
 
 [Rule]
-domain-suffix, g.koowo.com, reject, extended-matching, pre-matching
-domain-suffix, c.kuwo.cn, reject, extended-matching, pre-matching
-domain-suffix, wa.kuwo.cn, reject, extended-matching, pre-matching
-domain-suffix, mobilead.kuwo.cn, reject, extended-matching, pre-matching
-domain-suffix, rich.kuwo.cn, reject, extended-matching, pre-matching
-domain-suffix, deliver.kuwo.cn, reject, extended-matching, pre-matching
-domain-suffix, game.kuwo.cn, reject, extended-matching, pre-matching
-domain-suffix, kuwoyy.com, reject, extended-matching, pre-matching
-domain-suffix, kwmsg.kuwo.cn, reject, extended-matching, pre-matching
-domain-suffix, msclick2.kuwo.cn, reject, extended-matching, pre-matching
-domain-suffix, msphoneclick.kuwo.cn, reject, extended-matching, pre-matching
-domain-suffix, updatepage.kuwo.cn, reject, extended-matching, pre-matching
-domain-suffix, webstat.kuwo.cn, reject, extended-matching, pre-matching
-ip-cidr, 111.206.98.63/32, reject, pre-matching
+DOMAIN-SUFFIX, g.koowo.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, c.kuwo.cn, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, wa.kuwo.cn, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, mobilead.kuwo.cn, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, rich.kuwo.cn, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, deliver.kuwo.cn, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, game.kuwo.cn, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, kuwoyy.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, kwmsg.kuwo.cn, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, msclick2.kuwo.cn, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, msphoneclick.kuwo.cn, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, updatepage.kuwo.cn, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, webstat.kuwo.cn, REJECT, extended-matching, pre-matching
+IP-CIDR, 111.206.98.63/32, REJECT, pre-matching

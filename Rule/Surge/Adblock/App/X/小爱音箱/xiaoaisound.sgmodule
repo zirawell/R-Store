@@ -1,4 +1,4 @@
 # > 小爱音箱 - XIAOAISOUND
 
 [Rule]
-domain-suffix, mistat.xiaomi.com, reject, extended-matching, pre-matching
+DOMAIN-SUFFIX, mistat.xiaomi.com, REJECT, extended-matching, pre-matching

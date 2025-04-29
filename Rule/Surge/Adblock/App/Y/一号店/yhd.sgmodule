@@ -1,5 +1,5 @@
 # > 一号店 - YHD
 
 [Rule]
-domain-suffix, api.dsp.yhd.com, reject, extended-matching, pre-matching
-domain-suffix, tracker.yhd.com, reject, extended-matching, pre-matching
+DOMAIN-SUFFIX, api.dsp.yhd.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, tracker.yhd.com, REJECT, extended-matching, pre-matching

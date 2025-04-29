@@ -1,4 +1,4 @@
 # > 马蜂窝 - MAFENGWO
 
 [Rule]
-domain-suffix, advert.mafengwo.cn, reject, extended-matching, pre-matching
+DOMAIN-SUFFIX, advert.mafengwo.cn, REJECT, extended-matching, pre-matching
