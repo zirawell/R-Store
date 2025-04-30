@@ -1,1 +1,9 @@
+# > 天猫养车 - TMYC
 
+[Map Local]
+^https?:\/\/api\.ncarzone\.com\/superapi\/canary\/appHomeFacade\/getNewUserPlateActivity data-type=text data="" status-code=200
+^https?:\/\/api\.ncarzone\.com\/superapi\/canary\/bannerFacade\/app\/list data-type=text data="" status-code=200
+^https?:\/\/api\.ncarzone\.com\/superapi\/canary\/popupDialogFacade\/popupDialogList data-type=text data="" status-code=200
+
+[MITM]
+hostname= %APPEND% api.ncarzone.com

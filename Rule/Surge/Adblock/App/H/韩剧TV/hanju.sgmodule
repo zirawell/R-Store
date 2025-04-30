@@ -1,1 +1,8 @@
+# > 韩剧TV - HANJUTV
 
+[URL Rewrite]
+^https?:\/\/gfp\.veta\.naver\.com\/adcall\? - reject
+^https?:\/\/api\.hanju\.koudaibaobao\.com\/api\/carp\/kp\? - reject
+
+[MITM]
+hostname= %APPEND% gfp.veta.naver.com, api.hanju.koudaibaobao.com

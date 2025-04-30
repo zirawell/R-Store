@@ -1,1 +1,7 @@
+# > 作业帮 - ZYBANG
 
+[Map Local]
+^https?:\/\/(syh|www)\.zybang\.com\/adx\/ data-type=text data="" status-code=200
+
+[MITM]
+hostname= %APPEND% syh.zybang.com, www.zybang.com

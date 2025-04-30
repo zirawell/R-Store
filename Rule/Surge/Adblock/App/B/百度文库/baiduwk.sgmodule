@@ -1,1 +1,7 @@
+# > 百度文库 - BAIDUWK
 
+[Map Local]
+^https?:\/\/appwk\.baidu\.com\/xpage\/interface\/wknaad data-type=text data="" status-code=200
+
+[MITM]
+hostname= %APPEND% appwk.baidu.com

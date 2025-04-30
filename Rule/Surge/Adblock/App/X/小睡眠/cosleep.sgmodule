@@ -1,1 +1,7 @@
+# > 小睡眠 - COSLEEP
 
+[Map Local]
+^https?:\/\/api\.psy-1\.com\/cosleep\/startup data-type=text data="" status-code=200
+
+[MITM]
+hostname= %APPEND% api.psy-1.com

@@ -1,1 +1,10 @@
+# > 大麦 - DAMAI
 
+[URL Rewrite]
+^https?:\/\/amdc\.m\.taobao\.com\/amdc\/mobileDispatch\?appkey=23782110 - reject
+
+[Map Local]
+^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.damai\.wireless\.home\.welcome data-type=text data="" status-code=200
+
+[MITM]
+hostname= %APPEND% acs.m.taobao.com, amdc.m.taobao.com

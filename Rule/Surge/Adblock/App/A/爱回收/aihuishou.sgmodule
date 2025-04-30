@@ -1,1 +1,7 @@
+# > 爱回收 - AIHUISHOU
 
+[URL Rewrite]
+^https?:\/\/gw\.aihuishou\.com\/app-portal\/home\/getadvertisement - reject
+
+[MITM]
+hostname= %APPEND% gw.aihuishou.com

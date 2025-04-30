@@ -2,3 +2,18 @@
 
 [Rule]
 DOMAIN-SUFFIX, advert.mafengwo.cn, REJECT, extended-matching, pre-matching
+
+[URL Rewrite]
+^https?:\/\/mapi\.mafengwo\.cn\/(travelguide\/)?ad - reject
+^https?:\/\/mapi\.mafengwo\.cn\/widget\/note\/get_widget_note - reject
+^https?:\/\/mapi\.mafengwo\.cn\/system\/push\/get_local_push_config - reject
+
+[Map Local]
+^https?:\/\/mapi\.mafengwo\.cn\/system\/update\/check_update data-type=text data="{}" status-code=200
+^https?:\/\/mapi\.mafengwo\.cn\/system\/config\/(?>get|mark)_(?>push|alert)_config data-type=text data="{}" status-code=200
+
+[Script]
+type=http-response,pattern=^https?:\/\/mapi\.mafengwo\.cn\/user\/profile\/get_(?>list|profile),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/mafengwo.js
+
+[MITM]
+hostname= %APPEND% mapi.mafengwo.cn

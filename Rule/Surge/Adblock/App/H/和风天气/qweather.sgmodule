@@ -1,1 +1,7 @@
+# > 和风天气 - QWEATHER
 
+[Map Local]
+^https?:\/\/hfapp-service\.qweather\.net\/v\d\.\d\/app\/ad\/list data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% hfapp-service.qweather.net

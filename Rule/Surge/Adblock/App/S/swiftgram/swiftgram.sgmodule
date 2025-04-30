@@ -1,1 +1,7 @@
+# > swiftgram - SWIFTGRAM
 
+[Body Rewrite]
+http-response ^https?:\/\/api\.swiftgram\.app\/v0\/settings announcements_data random_body
+
+[MITM]
+hostname= %APPEND% api.swiftgram.app

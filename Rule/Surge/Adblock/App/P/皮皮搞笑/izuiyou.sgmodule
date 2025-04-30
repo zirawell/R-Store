@@ -1,1 +1,7 @@
+# > 皮皮搞笑 - IZUIYOU
 
+[Map Local]
+^https?:\/\/adapi\.izuiyou\.com\/ad\/fetch_api_ads\? data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% adapi.izuiyou.com

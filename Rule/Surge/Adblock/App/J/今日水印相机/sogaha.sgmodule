@@ -1,1 +1,7 @@
+# > 今日水印相机 - SOGAHA
 
+[Map Local]
+^https?:\/\/api\.sogaha\.cn\/ssp\/ad\/get\?ip data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% api.sogaha.cn

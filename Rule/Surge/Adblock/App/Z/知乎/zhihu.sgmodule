@@ -11,3 +11,46 @@ DOMAIN, zxid-m.mobileservice.cn, REJECT, extended-matching, pre-matching
 IP-CIDR, 103.41.167.237/32, REJECT, pre-matching
 IP-CIDR, 118.89.204.198/32, REJECT, pre-matching
 IP-CIDR6, 2402:4e00:1200:ed00:0:9089:6dac:96b6/128, REJECT, pre-matching
+
+[URL Rewrite]
+^https?:\/\/api\.zhihu\.com\/unlimited\/go\/my_card - reject
+^https?:\/\/www\.zhihu\.com\/appview\/v\d\/zhmore - reject
+^https?:\/\/api\.zhihu\.com\/appview\/api\/v\d\/answers\/\d+\/recommendations - reject
+^https?:\/\/api\.zhihu\.com\/\w+\/\d+\/comments\/featured-comment-ad - reject
+^https?:\/\/api\.zhihu\.com\/ab\/api\/v\d\/products\/zhihu\/platforms\/ios\/config - reject
+^https?:\/\/www\.zhihu\.com\/api\/v\d\/hot_recommendation - reject
+^https?:\/\/www\.zhihu\.com\/api\/v\d\/mcn\/v\d\/linkcards\? - reject
+^https?:\/\/www\.zhihu\.com\/api\/v\d/(questions|anwsers)\/\d+/related-readings - reject
+^https?:\/\/www\.zhihu\.com\/commercial_api\/banners_v\d\/mobile_banner - reject
+^https?:\/\/zhuanlan\.zhihu\.com\/api\/articles\/\d+\/recommendation - reject
+
+[Body Rewrite]
+http-response ^https?:\/\/api\.zhihu\.com\/search\/recommend_query\/v2\? "recommend_queries":\{.+\} "recommend_queries":{}
+
+[Map Local]
+^https?:\/\/api\.zhihu\.com\/commercial_api\/(banners_v\d\/app_topstory_banner|launch_v|real_time_launch_v) data-type=text data="{}" status-code=200
+^https?:\/\/api\.zhihu\.com\/content-distribution-core\/bubble\/common\/settings data-type=text data="{}" status-code=200
+^https?:\/\/api\.zhihu\.com\/(moments\/lastread|drama\/hot-drama-list) data-type=text data="{}" status-code=200
+^https?:\/\/api\.zhihu\.com\/root\/window data-type=text data="{}" status-code=200
+^https?:\/\/api\.zhihu\.com\/me\/guides data-type=text data="{}" status-code=200
+^https?:\/\/api\.zhihu\.com\/feed\/render\/revisit\/current_reading data-type=text data="{}" status-code=200
+^https?:\/\/api\.zhihu\.com\/search\/preset_words data-type=text data="{}" status-code=200
+^https?:\/\/www\.zhihu\.com\/api\/v\d\/search\/related_queries\/(answer|article)\/\d+ data-type=text data="{}" status-code=200
+^https?:\/\/api\.zhihu\.com\/comment_v\d\/answers\/\d+\/list-headers data-type=text data="{}" status-code=200
+^https?:\/\/api\.zhihu\.com\/v\d\.\d\/topics\/answer\/\d+\/relation data-type=text data="{}" status-code=200
+^https?:\/\/api\.zhihu\.com\/ad data-type=text data="{}" status-code=200
+^https?:\/\/appcloud2\.zhihu\.com\/v\d\/resource\?group_name=mp data-type=text data="{}" status-code=200
+^https?:\/\/api\.zhihu\.com\/distribute\/rhea\/qa_ad_card\/h5\/recommendation\? data-type=text data="{}" status-code=200
+
+[Script]
+type=http-response,pattern=^https?:\/\/api\.zhihu\.com\/commercial_api\/app_float_layer,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/zhihu.js
+type=http-response,pattern=^https?:\/\/api\.zhihu\.com\/(moments_v\d|topstory\/recommend(_v\d)?),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/zhihu.js
+type=http-response,pattern=^https?:\/\/api\.zhihu\.com\/v2\/topstory\/hot-lists\/everyone-seeing\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/zhihu.js
+type=http-response,pattern=^https?:\/\/api\.zhihu\.com\/next-(bff|data|render)\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/zhihu.js
+type=http-response,pattern=^https?:\/\/api\.zhihu\.com\/(v\d\/)?questions\/\d+\/(feeds|answers)\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/zhihu.js
+type=http-response,pattern=^https?:\/\/www\.zhihu\.com\/api\/v\d\/(answers|articles)\/\d+\/recommendations?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/zhihu.js
+type=http-response,pattern=^https?:\/\/appcloud2\.zhihu\.com\/v\d\/config,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/zhihu.js
+type=http-response,pattern=^https?:\/\/m-cloud\.zhihu\.com\/api\/cloud\/config\/all\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/zhihu.js
+
+[MITM]
+hostname= %APPEND% api.zhihu.com, www.zhihu.com, appcloud2.zhihu.com, m-cloud.zhihu.com, zhuanlan.zhihu.com

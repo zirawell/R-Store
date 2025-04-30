@@ -1,1 +1,10 @@
+# > 杭州市民卡 - HZSMK
 
+[Rule]
+DOMAIN, ads.iconntech.com, REJECT, extended-matching, pre-matching
+
+[URL Rewrite]
+^https?:\/\/smkmp\.96225\.com\/smkcenter\/ad/ - reject
+
+[MITM]
+hostname= %APPEND% smkmp.96225.com

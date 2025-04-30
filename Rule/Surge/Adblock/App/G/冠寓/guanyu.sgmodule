@@ -1,1 +1,7 @@
+# > 冠寓 - GUANYU
 
+[URL Rewrite]
+^https?:\/\/guanyu\.longfor\.com\/app-server\/api\/v\d\/main\/start - reject
+
+[MITM]
+hostname= %APPEND% guanyu.longfor.com

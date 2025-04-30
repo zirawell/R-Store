@@ -1,1 +1,10 @@
+# > 我爱卡社区管家 - 51CREDIT
 
+[Map Local]
+^https?:\/\/api\.51credit\.com\/app\/popup\/appPopup data-type=text data="{}" status-code=200
+^https?:\/\/api\.51credit\.com\/ks\/a\/list\? data-type=text data="{}" status-code=200
+^https?:\/\/api\.51credit\.com\/bbs\/app\/api\/v\d\/topic\/chat data-type=text data="{}" status-code=200
+^https?:\/\/api\.51credit\.com\/bbs\/app\/api\/v\d\/task\/operationalCredit data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% api.51credit.com

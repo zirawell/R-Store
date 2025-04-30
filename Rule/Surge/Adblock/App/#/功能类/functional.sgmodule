@@ -1,6 +1,7 @@
 # > 安全浏览限制解除 - UNLOCKSAFE
 # > DNS拦截 - DNSINTERCEPT
 # > Adobe Flash China Special Edition - ADSEUNLOCK
+# > 功能类 - FUNCTIONAL
 
 [Rule]
 DOMAIN, lookup.api.bsb.baidu.com, REJECT, extended-matching, pre-matching
@@ -13,3 +14,9 @@ IP-CIDR, 119.29.29.98/32, REJECT, pre-matching
 IP-CIDR, 119.29.29.99/32, REJECT, pre-matching
 IP-CIDR, 81.71.61.216/32, REJECT, pre-matching
 DOMAIN, geo2.adobe.com, REJECT, extended-matching, pre-matching
+
+[Map Local]
+^https?:\/\/119\.29\.29\.29\/d\?dn data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% 119.29.29.29

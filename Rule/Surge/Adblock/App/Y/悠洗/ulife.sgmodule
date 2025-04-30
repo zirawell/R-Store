@@ -1,1 +1,11 @@
+# > 悠洗 - ULIFE
 
+[Map Local]
+^https?:\/\/api\.ulife\.group\/signintask\/adServing data-type=text data="{}" status-code=200
+^https?:\/\/api\.ulife\.group\/auth\/account\/getUpgradeStrategy data-type=text data="{}" status-code=200
+^https?:\/\/api\.ulife\.group\/market\/frontEntrance\/getThirdAdvertising data-type=text data="{}" status-code=200
+^https?:\/\/api\.ulife\.group\/market\/memberCard\/listMemberCard\?isShowSecondaryCard=1 data-type=text data="{}" status-code=200
+^https?:\/\/api\.ulife\.group\/auth\/account\/entrance data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% api.ulife.group

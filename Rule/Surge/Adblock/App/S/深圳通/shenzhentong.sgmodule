@@ -1,1 +1,7 @@
+# > 深圳通 - SHENZHENTONG
 
+[Map Local]
+^https?:\/\/ecard\.shenzhentong\.com\/wxweb\/bwxppub2\/QryAdvertList\.do data-type=text data="" status-code=200
+
+[MITM]
+hostname= %APPEND% ecard.shenzhentong.com

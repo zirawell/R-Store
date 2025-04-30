@@ -1,1 +1,7 @@
+# > 水印相机 - XIANGJI
 
+[Map Local]
+^https?:\/\/api\.xiangji\.qq\.com\/splash$ data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% api.xiangji.qq.com

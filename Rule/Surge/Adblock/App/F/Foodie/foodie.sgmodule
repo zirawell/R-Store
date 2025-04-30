@@ -1,1 +1,7 @@
+# > Foodie - FOODIE
 
+[Map Local]
+^https?:\/\/foodie-api\.yiruikecorp\.com\/v\d\/(banner|notice)\/overview data-type=text data="" status-code=200
+
+[MITM]
+hostname= %APPEND% foodie-api.yiruikecorp.com

@@ -1,1 +1,7 @@
+# > 简讯 - TIPSOON
 
+[Map Local]
+^https?:\/\/api\.tipsoon\.com\/api\/v\d\/top\/ad data-type=tiny-gif status-code=200
+
+[MITM]
+hostname= %APPEND% api.tipsoon.com

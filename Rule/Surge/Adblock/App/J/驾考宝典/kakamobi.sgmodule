@@ -1,1 +1,19 @@
+# > 驾考宝典 - KAKAMOBI
 
+[URL Rewrite]
+^https?:\/\/\w+\.kakamobi\.cn\/api\/open\/v\d\/advert-sdk\/ - reject
+^https?:\/\/mcbd\.maiche\.com\/api\/open\/v\d\/user\/get-popup-window - reject
+
+[Map Local]
+^https?:\/\/swallow\.kakamobi\.cn\/api\/open\/config\/get-config data-type=text data="{}" status-code=200
+^https?:\/\/monkey\.kakamobi\.cn\/api\/open\/live\/get-recommend-live-protocol data-type=text data="{}" status-code=200
+^https?:\/\/jiaxiao-awd\.kakamobi\.cn\/api\/h5\/v\d\/home-lead-advertise\/abtest data-type=text data="{}" status-code=200
+^https?:\/\/jiakao-misc\.kakamobi\.cn\/api\/open\/my-tab-config\/(?>banner|selection)-list data-type=text data="{}" status-code=200
+^https?:\/\/squirrel\.kakamobi\.cn\/api\/open\/recommend-goods\/get-my-page-banner data-type=text data="{}" status-code=200
+^https?:\/\/monkey\.kakamobi\.cn\/api\/open\/live-room\/get-resource data-type=text data="{}" status-code=200
+^https?:\/\/cheyouquan\.kakamobi\.com\/api\/open\/group\/recommend-subscribe-tag data-type=text data="{}" status-code=200
+^https?:\/\/mcbd\.maiche\.com\/api\/open\/v\d\/jiakao-business\/get-naben-advert data-type=text data="{}" status-code=200
+^https?:\/\/smart\.789\.image\.mucang\.cn\/advert data-type=tiny-gif status-code=200
+
+[MITM]
+hostname= %APPEND% *.kakamobi.cn, cheyouquan.kakamobi.com, mcbd.maiche.com, smart.789.image.mucang.cn

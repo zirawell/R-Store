@@ -1,1 +1,8 @@
+# > 一淘 - YITAO
 
+[URL Rewrite]
+^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.etao\.noah\.query\/.+tao_splash - reject
+^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.alimama\.etao\.config\.query\/.+?etao_advertise - reject
+
+[MITM]
+hostname= %APPEND% acs.m.taobao.com

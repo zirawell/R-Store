@@ -1,1 +1,10 @@
+# > 无他相机 - WUTA
 
+[URL Rewrite]
+^https?:\/\/res-release\.wuta-cam\.com\/json\/ads_component_cache - reject
+
+[Map Local]
+^https?:\/\/api-release\.wuta-cam\.com\/ad_tree data-type=text data="" status-code=200
+
+[MITM]
+hostname= %APPEND% api-release.wuta-cam.com, res-release.wuta-cam.com

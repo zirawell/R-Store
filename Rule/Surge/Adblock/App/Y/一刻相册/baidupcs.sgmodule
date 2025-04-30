@@ -1,1 +1,7 @@
+# > 一刻相册 - BAIDUPCS
 
+[Map Local]
+^https?:\/\/issuecdn\.baidupcs\.com\/issue\/netdisk\/ts_ad\/ data-type=text data="" status-code=200
+
+[MITM]
+hostname= %APPEND% issuecdn.baidupcs.com

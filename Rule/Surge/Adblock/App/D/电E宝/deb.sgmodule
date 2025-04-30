@@ -1,1 +1,7 @@
+# > 电E宝 - DIANEBAO
 
+[Map Local]
+^https?:\/\/app\.95598pay\.com\/debapi\/adsite\/ data-type=text data="" status-code=200
+
+[MITM]
+hostname= %APPEND% app.95598pay.com

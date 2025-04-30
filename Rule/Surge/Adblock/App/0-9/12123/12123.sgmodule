@@ -6,3 +6,9 @@ DOMAIN-SUFFIX, wss.haoyundmn.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, new.xiongzhangad.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, alexametrics.com, REJECT, extended-matching, pre-matching
 DOMAIN-KEYWORD, in-page-push, REJECT, extended-matching, pre-matching
+
+[URL Rewrite]
+^https?:\/\/gab\.122\.gov\.cn\/eapp\/m\/sysquery\/adver - reject
+
+[MITM]
+hostname= %APPEND% gab.122.gov.cn

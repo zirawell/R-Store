@@ -1,1 +1,7 @@
+# > 携程旅行<微信小程序> - CTRIP
 
+[Map Local]
+^https?:\/\/m\.ctrip\.com\/restapi\/soa\d\/\d+\/(?>tripAds|queryWeChatHotEvent) data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% m.ctrip.com

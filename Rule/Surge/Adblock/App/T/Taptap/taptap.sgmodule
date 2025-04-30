@@ -1,1 +1,7 @@
+# > Taptap - TAPTAP
 
+[Map Local]
+^https?:\/\/api\.taptapdada\.com\/startup-logo\/v\d\/combo data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% api.taptapdada.com

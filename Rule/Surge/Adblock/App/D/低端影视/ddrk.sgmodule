@@ -1,1 +1,10 @@
+# > 低端影视 - DDRK
 
+[Map Local]
+^https?:\/\/img\.ddrk\.me\/ad190824 data-type=tiny-gif status-code=200
+^https?:\/\/img\.ddrk\.me\/cover\.png data-type=tiny-gif status-code=200
+^https?:\/\/ddrk\.me\/image\/logo_footer\.png data-type=tiny-gif status-code=200
+^https?:\/\/ddrk\.me\/wp-content\/plugins\/advanced-floating-content-lite\/public\/images\/close\.png data-type=tiny-gif status-code=200
+
+[MITM]
+hostname= %APPEND% img.ddrk.me, ddrk.me

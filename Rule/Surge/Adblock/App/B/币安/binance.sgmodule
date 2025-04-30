@@ -1,1 +1,7 @@
+# > 币安 - BINANCE
 
+[Map Local]
+^https?:\/\/www\.(binance|yingwangtech)\.(com|info|net)\/bapi\/composite\/v\d\/public\/market\/holiday-atmosphere data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% www.binance.info, www.yingwangtech.net, www.binance.com

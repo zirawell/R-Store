@@ -1,1 +1,11 @@
+# > 吉祥航空 - JUNEYAOAIR 
 
+[URL Rewrite]
+^https?:\/\/hoapp\.juneyaoair\.com\/data\/index\/(?>queryPopUpWinPic|getLoadPic|getRecommendProduct) - reject
+
+[Map Local]
+^https?:\/\/hoapp\.juneyaoair\.com\/data\/index\/getPictureList data-type=tiny-gif status-code=200
+^https?:\/\/hoapp\.juneyaoair\.com\/version data-type=text data="" status-code=200
+
+[MITM]
+hostname= %APPEND% hoapp.juneyaoair.com

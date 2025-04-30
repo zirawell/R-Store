@@ -1,1 +1,7 @@
+# > 首旅如家 - HOMEINNS
 
+[URL Rewrite]
+^https?:\/\/app\.homeinns\.com\/api\/landing - reject
+
+[MITM]
+hostname= %APPEND% app.homeinns.com

@@ -1,1 +1,18 @@
+# > 中国人保 - PICC
 
+[URL Rewrite]
+^https?:\/\/zgrb\.epicc\.com\.cn\/G-HAPP\/h\/headlines\/queryHeadlines - reject
+
+[Body Rewrite]
+http-response ^https?:\/\/zgrb\.epicc\.com\.cn\/G-HAPP\/headLine\/headLineInit data data0
+
+[Map Local]
+^https?:\/\/zgrb\.epicc\.com\.cn\/G-HAPP\/a\/update\/startupPage data-type=text data="{}" status-code=200
+^https?:\/\/zgrb\.epicc\.com\.cn\/G-HAPP\/a\/config\/windowsintegration\/getMessage data-type=text data="{}" status-code=200
+
+[Script]
+type=http-response,pattern=^https?:\/\/zgrb\.epicc\.com\.cn\/G-HAPP\/a\/config\/homeInit,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/picc.js
+type=http-response,pattern=^https?:\/\/zgrb\.epicc\.com\.cn\/G-HAPP\/mpageconfig\/myPageConfigList,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/picc.js
+
+[MITM]
+hostname= %APPEND% zgrb.epicc.com.cn

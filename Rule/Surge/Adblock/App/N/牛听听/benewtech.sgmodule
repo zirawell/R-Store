@@ -1,1 +1,8 @@
+# > 牛听听 - BENEWTECH
 
+[Map Local]
+^https?:\/\/gateway\.benewtech\.cn\/resources-app\/app\/startup\/prepage data-type=text data="{}" status-code=200
+^https?:\/\/ntt-app\.benewtech\.cn\/v\d\/user\/\d+\/messages\/event data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% gateway.benewtech.cn, ntt-app.benewtech.cn

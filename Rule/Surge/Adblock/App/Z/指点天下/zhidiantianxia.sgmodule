@@ -1,1 +1,7 @@
+# > 指点天下 - ZHIDIANTIANXIA
 
+[URL Rewrite]
+^https?:\/\/zua\.zhidiantianxia\.cn\/api\/adverts - reject
+
+[MITM]
+hostname= %APPEND% zua.zhidiantianxia.cn

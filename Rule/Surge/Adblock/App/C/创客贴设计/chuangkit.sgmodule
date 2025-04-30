@@ -1,1 +1,7 @@
+# > 创客贴设计 - CHUANGKIT
 
+[Map Local]
+^https?:\/\/gw\.chuangkit\.com\/team\/app\/common\/ad\/ data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% gw.chuangkit.com

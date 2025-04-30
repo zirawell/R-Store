@@ -1,1 +1,8 @@
+# > 每日优鲜 - MISSFRESH
 
+[URL Rewrite]
+^https?:\/\/j-image\.missfresh\.cn\/img_(.+)\.gif$ - reject
+^https?:\/\/j-image\.missfresh\.cn\/img_(.+)\.(jpg|jpeg|gif|png)\?iopcmd=convert&dst=webp&q=85$ - reject
+
+[MITM]
+hostname= %APPEND% j-image.missfresh.cn

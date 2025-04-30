@@ -1,1 +1,8 @@
+# > 百果园<微信小程序> - PAGODA
 
+[Map Local]
+^https?:\/\/dsxcx\.tencent-prod\.pagoda\.com\.cn\/exc\/wxapp\/homePage\/v\d\/get(?>HomeLaunchDialog|Floating) data-type=text data="{}" status-code=200
+^https?:\/\/eshop-api-wx-mini\.eshop\.tencent-prod\.pagoda\.com\.cn\/api\/v\d\/memberPage\/launchDialog data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% dsxcx.tencent-prod.pagoda.com.cn, eshop-api-wx-mini.eshop.tencent-prod.pagoda.com.cn

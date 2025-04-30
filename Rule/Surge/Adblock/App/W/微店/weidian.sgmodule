@@ -1,1 +1,7 @@
+# > 微店 - WEIDIAN
 
+[Map Local]
+^https?:\/\/thor\.weidian\.com\/ares\/home\.splash data-type=text data="" status-code=200
+
+[MITM]
+hostname= %APPEND% thor.weidian.com

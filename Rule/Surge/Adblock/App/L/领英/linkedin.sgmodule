@@ -2,3 +2,12 @@
 
 [Rule]
 DOMAIN-SUFFIX, ads.linkedin.com, REJECT, extended-matching, pre-matching
+
+[URL Rewrite]
+^https?:\/\/www\.linkedin\.com\/voyager\/api\/voyagerConfiguration - reject
+
+[Map Local]
+^https?:\/\/www\.linkedin\.com\/voyager\/api\/graphql\?queryId=voyagerAdstracking data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% www.linkedin.com

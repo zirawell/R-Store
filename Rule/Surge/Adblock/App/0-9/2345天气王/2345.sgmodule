@@ -1,1 +1,7 @@
+# > 2345天气王 - 2345
 
+[Map Local]
+^https?:\/\/tianqi\.2345\.com\/api\/content\/getContentFeeds data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% tianqi.2345.com

@@ -1,1 +1,7 @@
+# > 故宫博物馆<微信小程序> - GUGONGMINI
 
+[Map Local]
+^https?:\/\/gugongmini\.dpm\.org\.cn\/gugong_applet\/open-screen data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% gugongmini.dpm.org.cn

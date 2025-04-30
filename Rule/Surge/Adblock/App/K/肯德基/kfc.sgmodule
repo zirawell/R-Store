@@ -1,1 +1,10 @@
+# > 肯德基 - KFC
 
+[URL Rewrite]
+^https?:\/\/res\.kfc\.com.\cn\/advertisement - reject
+
+[Map Local]
+^https?:\/\/res\.kfc\.com\.cn\/CRM\/kfcad\/apphome data-type=text data="" status-code=200
+
+[MITM]
+hostname= %APPEND% res.kfc.com.cn

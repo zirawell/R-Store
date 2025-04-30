@@ -1,1 +1,7 @@
+# > 奇瑞汽车 - CHERY
 
+[Map Local]
+^https?:\/\/mobile-consumer-sapp\.chery\.cn\/web\/position\/getShowList\?displayPlatform=1&tabType=0& data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% mobile-consumer-sapp.chery.cn

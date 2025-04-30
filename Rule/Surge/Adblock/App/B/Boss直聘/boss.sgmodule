@@ -1,1 +1,9 @@
+# > Boss直聘 - BOSS
 
+[Map Local]
+^https?:\/\/api-ios\.zhipin\.com\/api\/zpCommon\/user\/startupAd data-type=text data="{}" status-code=200
+^https?:\/\/api-ios\.zhipin\.com\/api\/zpCommon\/upgrade\/check data-type=text data="{}" status-code=200
+^https?:\/\/apm-ios\.zhipin\.com\/api\/zpApm\/ios\/gray\/release\/check data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% ap*-ios.zhipin.com

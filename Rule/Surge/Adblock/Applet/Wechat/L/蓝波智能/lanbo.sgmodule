@@ -1,1 +1,7 @@
+# > 蓝波智能（智慧停车）<微信公众号> - LANBO
 
+[Map Local]
+^https?:\/\/wx\.ymiot\.net\/Static\/\w+\/advert data-type=text data="" status-code=200
+
+[MITM]
+hostname= %APPEND% wx.ymiot.net

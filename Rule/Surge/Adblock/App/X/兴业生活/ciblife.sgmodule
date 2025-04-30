@@ -1,1 +1,7 @@
+# > 兴业生活 - CIBLIFE
 
+[URL Rewrite]
+^https?:\/\/file\.cibfintech\.com\/file\/M0[1-9]{1}\/.*\.zip - reject
+
+[MITM]
+hostname= %APPEND% file.cibfintech.com

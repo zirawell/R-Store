@@ -1,1 +1,10 @@
+# > 旅途随身听 - 1314ZHILV
 
+[Map Local]
+^https?:\/\/www\.1314zhilv\.com\/ltsstnew\/(guideScenic\/getRecentlyUpdatedScenic|city\/getWeatherByCityName) data-type=text data="{}" status-code=200
+
+[Script]
+type=http-response,pattern=^https?:\/\/www\.1314zhilv\.com\/ltsstnew\/(common\/getJGQIconNew|city\/getAllBannelByCity),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/ltsst.js
+
+[MITM]
+hostname= %APPEND% www.1314zhilv.com

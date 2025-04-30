@@ -1,1 +1,7 @@
+# > 小Biu智家 - SUNING
 
+[Map Local]
+^https?:\/\/shcss\.suning\.com\/shcss-web\/api\/appImage\/queryAppImage data-type=text data="" status-code=200
+
+[MITM]
+hostname= %APPEND% shcss.suning.com

@@ -1,1 +1,7 @@
+# > 福享太平 - TAIPING
 
+[Map Local]
+^https?:\/\/ecloud\.tppension\.cntaiping\.com\/fxtpplatform\/common\/anonymous\/common\/page\/queryStartPage data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% ecloud.tppension.cntaiping.com

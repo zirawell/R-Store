@@ -2,3 +2,9 @@
 
 [Rule]
 DOMAIN, stat.youpin.mi.com, REJECT, extended-matching, pre-matching
+
+[Map Local]
+^https?:\/\/shopapi\.io\.mi\.com\/mtop\/mf\/resource\/homePage\/pageConfig data-type=text data="" status-code=200
+
+[MITM]
+hostname= %APPEND% shopapi.io.mi.com

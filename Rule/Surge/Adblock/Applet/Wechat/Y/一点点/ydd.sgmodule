@@ -1,1 +1,8 @@
+# > 一点点<微信小程序> - YDD
 
+[Map Local]
+^https?:\/\/cappapi\.alittle-tea\.com\/open\?method=catering\.set\.ad\.initial data-type=text data="{}" status-code=200
+^https?:\/\/alittle-tea\.oss-cn-shanghai\.aliyuncs\.com\/images\/platform\/alittle data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% cappapi.alittle-tea.com, alittle-tea.oss-cn-shanghai.aliyuncs.com

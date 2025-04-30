@@ -1,1 +1,7 @@
+# > 半月谈 - BANYUETANAPP
 
+[Map Local]
+^https?:\/\/www\.banyuetanapp\.com\/byt-api\/ad\/getAdvertList\?adSpaceId=100000002 data-type=text data="" status-code=200
+
+[MITM]
+hostname= %APPEND% www.banyuetanapp.com

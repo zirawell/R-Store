@@ -1,1 +1,7 @@
+# > 映客直播 - INKE
 
+[URL Rewrite]
+^https?:\/\/service\.busi\.inke\.cn\/api\/flash\/screen - reject
+
+[MITM]
+hostname= %APPEND% service.busi.inke.cn

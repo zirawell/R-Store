@@ -3,3 +3,9 @@
 [Rule]
 DOMAIN, mall-dsp2.qinlinkeji.com, REJECT, extended-matching, pre-matching
 DOMAIN, mallapi2.qinlinkeji.com, REJECT, extended-matching, pre-matching
+
+[URL Rewrite]
+^https?:\/\/qadx\.qinlinad\.com\/ad\/ - reject
+
+[MITM]
+hostname= %APPEND% qadx.qinlinad.com

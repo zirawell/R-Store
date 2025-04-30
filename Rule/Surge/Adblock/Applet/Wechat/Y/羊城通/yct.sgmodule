@@ -1,1 +1,7 @@
+# > 羊城通<微信小程序> - YCT
 
+[Map Local]
+^https?:\/\/r2\.gzyct\.com\/qrcode\/advert data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% r2.gzyct.com

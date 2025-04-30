@@ -1,1 +1,7 @@
+# > 交通银行<微信小程序> - BANKCOMM
 
+[URL Rewrite]
+^https?:\/\/creditcardapp\.bankcomm\.com\/cnsvPmpaMdbcardWeb\/page\/getGuidePageAds - reject
+
+[MITM]
+hostname= %APPEND% creditcardapp.bankcomm.com

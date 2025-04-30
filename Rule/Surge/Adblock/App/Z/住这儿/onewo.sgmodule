@@ -1,1 +1,7 @@
+# > 住这儿 - ONEWO
 
+[Map Local]
+^https?:\/\/z\.onewo\.com\/passer\/api\/ads\/ data-type=text data="" status-code=200
+
+[MITM]
+hostname= %APPEND% z.onewo.com

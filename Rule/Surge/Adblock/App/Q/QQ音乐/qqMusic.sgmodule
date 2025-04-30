@@ -11,3 +11,14 @@ DOMAIN, mc.tencentmusic.com, REJECT, extended-matching, pre-matching
 DOMAIN, report.tencentmusic.com, REJECT, extended-matching, pre-matching
 DOMAIN, monitor.music.qq.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, imtmp.net, REJECT, extended-matching, pre-matching
+
+[URL Rewrite]
+^https?:\/\/y\.gtimg\.cn\/music\/common\/upload\/t_splash_info - reject
+^https?:\/\/music\.y\.qq\.com\/maproxy\/getPbCompressAd - reject
+
+[Map Local]
+^https?:\/\/y\.gtimg\.cn\/music\/common\/upload\/kg_ad data-type=tiny-gif status-code=200
+^https?:\/\/y\.gtimg\.cn\/music\/common\/upload\/targeted_ads data-type=tiny-gif status-code=200
+
+[MITM]
+hostname= %APPEND% y.gtimg.cn, music.y.qq.com

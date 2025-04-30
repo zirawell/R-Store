@@ -1,1 +1,7 @@
+# > i3综合社区 - I3ZH
 
+[Body Rewrite]
+http-response ^https?:\/\/www\.i3zh\.com cm-pop-up-banners random_body
+
+[MITM]
+hostname= %APPEND% www.i3zh.com

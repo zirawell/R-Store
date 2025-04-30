@@ -1,1 +1,7 @@
+# > 曹操出行<微信小程序> - CAOCAO
 
+[Map Local]
+^https?:\/\/minicap\.caocaokeji\.cn\/advert-bss\/pullAdvert data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% minicap.caocaokeji.cn

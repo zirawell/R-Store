@@ -1,1 +1,7 @@
+# > 秒拍 - MIAOPAI
 
+[URL Rewrite]
+^https?:\/\/b-api\.ins\.miaopai\.com\/\d\/ad/ - reject
+
+[MITM]
+hostname= %APPEND% b-api.ins.miaopai.com

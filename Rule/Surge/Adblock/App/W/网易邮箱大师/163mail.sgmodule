@@ -1,1 +1,12 @@
+# > 网易邮箱大师 - 163MAIL
 
+[URL Rewrite]
+^https?:\/\/appconf\.mail\.163\.com\/mailmaster\/api\/http\/urlConfig\.do$ - reject
+^https?:\/\/client\.mail\.163\.com\/apptrack\/confinfo\/(?>searchMultiAds|showAds) - reject
+^https?:\/\/support\.you\.163\.com\/xhr\/boot\/getBootMedia - reject
+
+[Map Local]
+^https?:\/\/appconf\.mail\.163\.com\/mmad data-type=text data="" status-code=200
+
+[MITM]
+hostname= %APPEND% appconf.mail.163.com, client.mail.163.com, support.you.163.com

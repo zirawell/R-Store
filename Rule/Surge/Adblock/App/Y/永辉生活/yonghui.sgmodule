@@ -1,1 +1,7 @@
+# > 永辉生活 - YONGHUI
 
+[Map Local]
+^https?:\/\/api\.yonghuivip\.com\/web\/shensuan\/ad\/getAd data-type=text data="" status-code=200
+
+[MITM]
+hostname= %APPEND% api.yonghuivip.com

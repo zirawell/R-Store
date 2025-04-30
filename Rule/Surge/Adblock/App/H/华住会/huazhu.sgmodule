@@ -1,1 +1,14 @@
+# > 华住会 - HUAZHU
 
+[URL Rewrite]
+^https?:\/\/appapi\.huazhu\.com:\d+\/client\/app\/getAppStartPage\/ - reject
+
+[Map Local]
+^https?:\/\/hweb-hotel\.huazhu\.com\/home\/queryRecommond data-type=text data="{}" status-code=200
+^https?:\/\/hweb-hotel\.huazhu\.com\/{1,2}home\/(?>queryNewNotice|querySelectHotel|queryHotelBrand|queryMall|huazhuWorld) data-type=text data="" status-code=200
+^https?:\/\/hweb-manager\.huazhu\.com\/notice\/getAppPopupNotifyAlert data-type=text data="{}" status-code=200
+^https?:\/\/hweb-manager\.huazhu\.com\/bundle\/upgrade\/check data-type=text data="{}" status-code=200
+^https?:\/\/hweb-manager\.huazhu\.com\/hotels\/ad\/ data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% appapi.huazhu.com, hweb-hotel.huazhu.com, hweb-manager.huazhu.com,

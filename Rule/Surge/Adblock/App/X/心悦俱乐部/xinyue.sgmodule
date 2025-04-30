@@ -1,1 +1,7 @@
+# > 心悦俱乐部 - XINYUE
 
+[Map Local]
+^https?:\/\/bgw\.xinyue\.qq\.com\/xyapi\.PageService\/GetIndexPopFlash data-type=text data="" status-code=200
+
+[MITM]
+hostname= %APPEND% bgw.xinyue.qq.com

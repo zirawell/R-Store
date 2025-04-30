@@ -1,1 +1,14 @@
+# > 叮咚买菜 - DDXQ
 
+[URL Rewrite]
+^https?:\/\/maicai\.api\.ddxq\.mobi\/advert\/ - reject
+^https?:\/\/maicai\.api\.ddxq\.mobi\/homeApi\/getHomeAdPop - reject
+
+[Body Rewrite]
+http-response ^https?:\/\/maicai\.api\.ddxq\.mobi\/homeApi\/newDetails suspension random_body
+
+[Map Local]
+^https?:\/\/maicai\.api\.ddxq\.mobi\/vip\/getVipAd data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% maicai.api.ddxq.mobi

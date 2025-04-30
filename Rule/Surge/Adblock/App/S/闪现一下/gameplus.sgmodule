@@ -1,1 +1,7 @@
+# > 闪现一下 - GAMEPLUS
 
+[Map Local]
+^https?:\/\/api\.gameplus\.qq\.com\/community\.OnloadSrv\/GetPreloadScreenInfo data-type=text data="" status-code=200
+
+[MITM]
+hostname= %APPEND% api.gameplus.qq.com

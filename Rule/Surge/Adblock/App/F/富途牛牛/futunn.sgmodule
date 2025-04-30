@@ -1,1 +1,11 @@
+# > 富途牛牛 - FUTUNN
 
+[URL Rewrite]
+^https?:\/\/api\.futunn\.com\/v\d\/ad - reject
+^https?:\/\/api\d?\.futunn\.com\/ad - reject
+^https?:\/\/api\.futunn\.com\/treasure-chest\/box-data - reject
+^https?:\/\/api\.futunn\.com\/v\d\/config\/promote-config - reject
+^https?:\/\/api\.futunn\.com\/v\d\/optimus\/my-homepage-config - reject
+
+[MITM]
+hostname= %APPEND% api*.futunn.com

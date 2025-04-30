@@ -1,1 +1,7 @@
+# > 小特 - XIAOTE
 
+[Body Rewrite]
+http-response ^https?:\/\/lcen\.xiaote\.net\/api\/graphql screenSplashAd random-response
+
+[MITM]
+hostname= %APPEND% lcen.xiaote.net

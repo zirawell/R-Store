@@ -1,1 +1,7 @@
+# > 火猫 - HUOMAO
 
+[URL Rewrite]
+^https?:\/\/api\.huomao\.com\/channels\/loginAd - reject
+
+[MITM]
+hostname= %APPEND% api.huomao.com

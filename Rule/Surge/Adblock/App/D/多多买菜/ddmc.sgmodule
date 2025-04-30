@@ -1,1 +1,7 @@
+# > 多多买菜 - DDMC
 
+[Body Rewrite]
+http-response ^https?:\/\/mobile\.yangkeduo\.com\/proxy\/api\/api\/express\/post\/waybill\/red_packet\/goods_list$ "list":\[.+\] "list":[]
+
+[MITM]
+hostname= %APPEND% mobile.yangkeduo.com

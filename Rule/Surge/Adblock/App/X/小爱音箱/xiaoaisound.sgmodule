@@ -2,3 +2,13 @@
 
 [Rule]
 DOMAIN-SUFFIX, mistat.xiaomi.com, REJECT, extended-matching, pre-matching
+
+[URL Rewrite]
+^https?:\/\/info\.mina\.xiaoaisound\.com\/advertise(?!\/banner) - reject
+^https?:\/\/info\.mina\.xiaoaisound\.com\/payGuide\/userCenter - reject
+
+[Map Local]
+^https?:\/\/info\.mina\.xiaoaisound\.com\/popup data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% info.mina.xiaoaisound.com

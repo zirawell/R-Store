@@ -1,1 +1,7 @@
+# > 机核网 - GCORES
 
+[Map Local]
+^https?:\/\/www\.gcores\.com\/gapi\/v\d\/app-start-pages\?page data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% www.gcores.com

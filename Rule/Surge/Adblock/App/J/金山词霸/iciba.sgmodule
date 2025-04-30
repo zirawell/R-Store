@@ -9,3 +9,13 @@ DOMAIN, minfo.wps.cn, REJECT, extended-matching, pre-matching
 DOMAIN, mobad.ijinshan.com, REJECT, extended-matching, pre-matching
 DOMAIN, ups.ksmobile.net, REJECT, extended-matching, pre-matching
 DOMAIN, ws.ksmobile.net, REJECT, extended-matching, pre-matching
+
+[URL Rewrite]
+^https?:\/\/dict-mobile\.iciba\.com\/interface\/index\.php\?.+(?>c=ad|collectFeedsAdShowCount|KSFeedsAdCardViewController) - reject
+^https?:\/\/mobile-pic\.cache\.iciba\.com\/feeds_ad\/ - reject
+
+[Map Local]
+^https?:\/\/service\.iciba\.com\/popo\/open\/screens\/v\d\?adjson data-type=text data="" status-code=200
+
+[MITM]
+hostname= %APPEND% dict-mobile.iciba.com, mobile-pic.cache.iciba.com, service.iciba.com

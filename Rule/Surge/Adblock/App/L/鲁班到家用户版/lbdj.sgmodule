@@ -1,1 +1,7 @@
+# > 鲁班到家用户版 - LBDJ
 
+[Map Local]
+^https?:\/\/order-app-api\.lbdj\.com\/lbdj\/apporder\/ad\/ data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% order-app-api.lbdj.com

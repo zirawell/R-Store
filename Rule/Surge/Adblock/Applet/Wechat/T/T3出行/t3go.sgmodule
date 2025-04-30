@@ -1,1 +1,8 @@
+# > T3出行<微信小程序> - T3GO
 
+[Map Local]
+^https?:\/\/passenger\.t3go\.cn\/passenger-activity-api\/notoken\/api\/v\d\/resource\/getSource data-type=text data="{}" status-code=200
+^https?:\/\/passenger\.t3go\.cn\/(solution\-|common\-)?(passenger\-)?(activity\-|app\-)?api\/notoken\/(trip\/)?api\/(home\/|common\/)?(v\d\/)?(ad\/getNegativescreen|solution\/passenger\/open\/getHomeMenu|leftmenu|getHomeInfoGlobal) data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% passenger.t3go.cn

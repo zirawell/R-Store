@@ -1,1 +1,8 @@
+# > 东方航空 - CEAIR
 
+[Map Local]
+^https?:\/\/app\.ceair\.com\/customize\/security\/update data-type=text data="" status-code=200
+^https?:\/\/app\.ceair\.com\/customize\/main\/adScreen data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% app.ceair.com

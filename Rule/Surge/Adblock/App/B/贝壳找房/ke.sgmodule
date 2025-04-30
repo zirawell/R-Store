@@ -1,1 +1,7 @@
+# > 贝壳找房 - KE
 
+[URL Rewrite]
+^https?:\/\/apps\.api\.ke\.com\/config\/config\/(?>bootpage|getactivityconfig) - reject
+
+[MITM]
+hostname= %APPEND% apps.api.ke.com

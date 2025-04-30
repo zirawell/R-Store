@@ -1,1 +1,7 @@
+# > 达达快送<微信小程序> - IMDADA
 
+[Map Local]
+^https?:\/\/supplier-api\.imdada\.cn\/fe\/public\/ad\/spot\?forwardServiceName=growth-activity data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% supplier-api.imdada.cn

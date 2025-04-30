@@ -1,1 +1,7 @@
+# > 小熊美术 - XIAOXIONGMEISHU
 
+[URL Rewrite]
+^https?:\/\/www\.xiaoxiongmeishu\.com\/api\/(home\/v\d\/config\/appInit|s\/v\d\/popup\/createCouponPopup) - reject
+
+[MITM]
+hostname= %APPEND% www.xiaoxiongmeishu.com

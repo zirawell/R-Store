@@ -16,3 +16,29 @@ DOMAIN-SUFFIX, ad.e.waimai.sankuai.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, mads.meituan.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, d.meituan.net, REJECT, extended-matching, pre-matching
 DOMAIN-KEYWORD, report.meituan, REJECT, extended-matching, pre-matching
+
+[URL Rewrite]
+^https?:\/\/apimobile\.meituan\.com\/appupdate - reject
+^https?:\/\/img\.meituan\.net\/bizad - reject
+^https?:\/\/p\d\.meituan\.net\/(display|mmc)\/ - reject
+^https?:\/\/apimobile\.meituan\.com\/appupdate\/mach\/checkUpdate? - reject
+^https?:\/\/apimobile\.meituan\.com\/group\/v\d\/recommend\/unity\/recommends - reject
+^https?:\/\/www\.meituan\.com\/api\/v\d\/appstatus\? - reject
+^https?:\/\/s3plus\.meituan\.net\/v\d\/mss_\w+\/waimai-alita\/\w+\.zip$ - reject
+^https?:\/\/s3plus\.meituan\.net\/v\d\/mss_\w+\/brandcpt - reject
+^https?:\/\/sqt\.meituan\.com\/s\/gateway\/mweb\/api\/marketingResource\/show - reject
+
+[Map Local]
+^https?:\/\/img\.meituan\.net\/(adunion|display|midas)\/.+\.(gif|jpg)\.webp$ data-type=tiny-gif status-code=200
+^https?:\/\/img\.meituan\.net\/groceryimages\/\w+\.gif data-type=tiny-gif status-code=200
+^https?:\/\/img\.meituan\.net\/groceryimages\/\w+\.png@220w_220h_1e_1l data-type=tiny-gif status-code=200
+^https?:\/\/p\d\.meituan\.net\/movie\/.+?\.jpg\?may_covertWebp data-type=tiny-gif status-code=200
+^https?:\/\/p[1-9]{1}\.meituan\.net\/linglong\/\w+(?!.*%(4088h_88w|40115h_115w)_1e_1l)\.(?>gif|jpg|webp|png)(?!.*@(100w_100h|150w_150h|1284w|1200w_0h)) data-type=tiny-gif status-code=200
+^https?:\/\/p\d\.meituan\.net\/linglong\/(?!88a67c|20ad6b|f084a7|1cc20d|c31784|3f03f8|374276|d1c1f6|5f7e3c|2bc17f|f35609|86c8cd|46c1cf|ad5446|1df9e4)\w+\.png\.webp@1284w_1l$ data-type=tiny-gif status-code=200
+^https?:\/\/p\d\.meituan\.net\/travelcube\/(?!1d4a663|52e9bfc|29a6227|412c4ac|6ee35c4|13bf0bf|ab8692e|6858b1d).+@100w_100h data-type=tiny-gif status-code=200
+^https?:\/\/p\d\.meituan\.net\/(\d+\.\d+\.\d+\/)?wmbanner\/(?!fb51b9d|4e9d3c4).+\.gif data-type=tiny-gif status-code=200
+^https?:\/\/(s3plus|flowplus)\.meituan\.net\/v\d\/\w+\/linglong\/.+\.(?>gif|jpg|mp4) data-type=tiny-gif status-code=200
+^https?:\/\/portal-portm\.meituan\.com\/horn_ios data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% apimobile.meituan.com, img.meituan.net, p*.meituan.net, apimobile.meituan.com, www.meituan.com, s3plus.meituan.net, flowplus.meituan.net, portal-portm.meituan.com, sqt.meituan.com

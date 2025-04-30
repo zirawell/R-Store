@@ -1,1 +1,7 @@
+# > 中国银行 - BOC
 
+[Map Local]
+^https?:\/\/mbs\.boc\.cn\/ubas-mgateway-static\/images\/advertType\/.+.jpg data-type=text data="" status-code=200
+
+[MITM]
+hostname= %APPEND% mbs.boc.cn

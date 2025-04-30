@@ -1,1 +1,8 @@
+# > 小米打印 - MIPRINT
 
+[Map Local]
+^https?:\/\/api-miprint\.hannto\.com\/v\d\/c\/res\/app\/ad\/\?app_version data-type=text data="{}" status-code=200
+^https?:\/\/api\.indeedpower\.com\/v\d\/m\/edu\/module\/homepage_banner\/\?randomStr data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% api-miprint.hannto.com, api.indeedpower.com

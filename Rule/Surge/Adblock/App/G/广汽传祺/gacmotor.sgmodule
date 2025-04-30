@@ -1,1 +1,8 @@
+# > 广汽传祺 - GACMOTOR
 
+[Map Local]
+^https?:\/\/gsp\.gacmotor\.com\/gateway\/webapi\/baseinfo\/advertise\/getAdvertiseByPositionCode\?positionCode=1 data-type=text data="{}" status-code=200
+^https?:\/\/gsp\.gacmotor\.com\/gateway\/app-api\/app\/version\/latestupdate\?flatform=2&innerVersion= data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% gsp.gacmotor.com

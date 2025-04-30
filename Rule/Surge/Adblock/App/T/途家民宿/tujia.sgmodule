@@ -1,1 +1,13 @@
+# > 途家民宿 - TUJIA
 
+[URL Rewrite]
+^https?:\/\/client\.tujia\.com\/bnbapp-node\/app\/(promotion\/popup\/getpopupups\/bnb|portal\/getStartPictureAdvertising) - reject
+
+[Body Rewrite]
+http-response ^https?:\/\/client\.tujia\.com\/bnbapp-node\/app\/portal\/getportalconfig\/bnb\/v\d "banners":\[.+\], "banners":[],
+
+[Map Local]
+^https?:\/\/client\.tujia\.com\/bnbapp-node data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% client.tujia.com

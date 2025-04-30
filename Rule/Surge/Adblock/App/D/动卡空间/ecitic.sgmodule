@@ -1,1 +1,8 @@
+# > 动卡空间 - ECITIC
 
+[Map Local]
+^https?:\/\/ump\.sz\.creditcard\.ecitic\.com\/citiccard\/cm-ump\/ump-gateway\/ump-net-app\/ump-net-app\/adv data-type=text data="{}" status-code=200
+^https?:\/\/m\.creditcard\.ecitic\.com\/citiccard\/mbk\/appspace-getway\/getWay\/dkkj-system-web\/system\/v\d\/init-config data-type=text data="" status-code=200
+
+[MITM]
+hostname= %APPEND% ump.sz.creditcard.ecitic.com, m.creditcard.ecitic.com

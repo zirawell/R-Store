@@ -1,1 +1,7 @@
+# > 旅法师营地 - IYINGDI
 
+[Map Local]
+^https?:\/\/www\.iyingdi\.cn\/ad data-type=text data="" status-code=200
+
+[MITM]
+hostname= %APPEND% www.iyingdi.cn

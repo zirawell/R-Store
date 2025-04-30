@@ -1,1 +1,10 @@
+# > QQ钱包 - QIANBAO
 
+[URL Rewrite]
+^https?:\/\/m\.qianbao\.qq\.com\/pages\/walletHome\?invisible - reject
+
+[Map Local]
+^https?:\/\/m\.qianbao\.qq\.com\/services\/walletHome\/get(?>QQshop|Game|Foot)Data data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% m.qianbao.qq.com

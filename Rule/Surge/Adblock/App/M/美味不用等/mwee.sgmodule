@@ -1,1 +1,7 @@
+# > 美味不用等 - MWEE
 
+[URL Rewrite]
+^https?:\/\/capi\.mwee\.cn\/app-api\/V\d{2}\/app\/(?>ad|getstartad) - reject
+
+[MITM]
+hostname= %APPEND% capi.mwee.cn

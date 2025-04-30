@@ -1,1 +1,7 @@
+# > 天翼云盘 - 189CLOUD
 
+[Map Local]
+^https?:\/\/api\.cloud\.189\.cn\/guns\/(img\/recommendedPosition|getOpenscreenBanners) data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% api.cloud.189.cn

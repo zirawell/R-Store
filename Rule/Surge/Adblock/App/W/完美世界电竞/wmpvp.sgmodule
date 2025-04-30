@@ -1,1 +1,7 @@
+# > 完美世界电竞 - WMPVP
 
+[URL Rewrite]
+^https?:\/\/api\.wmpvp\.com\/api\/v\d\/config\/promote - reject
+
+[MITM]
+hostname= %APPEND% api.wmpvp.com

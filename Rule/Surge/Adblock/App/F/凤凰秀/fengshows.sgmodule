@@ -1,1 +1,10 @@
+# > 凤凰秀 - FENGSHOWS
 
+[URL Rewrite]
+^https?:\/\/dsa-mfp\.fengshows\.cn\/mfp\/mfpMultipleDelivery\.do\?.+?adunitid - reject
+
+[Map Local]
+^https?:\/\/api\.fengshows\.com\/api\/launchAD data-type=tiny-gif status-code=200
+
+[MITM]
+hostname= %APPEND% dsa-mfp.fengshows.cn, api.fengshows.com

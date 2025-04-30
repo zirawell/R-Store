@@ -1,1 +1,7 @@
+# > 爱桐乡 - TXCMAPP
 
+[Map Local]
+^https?:\/\/mapi\.txcmapp\.com\/api\/open\/atx2\/ad\.php data-type=text data="" status-code=200
+
+[MITM]
+hostname= %APPEND% mapi.txcmapp.com

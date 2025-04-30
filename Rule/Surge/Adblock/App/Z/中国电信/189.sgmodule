@@ -10,3 +10,12 @@ DOMAIN, appupdates.189.cn, REJECT, extended-matching, pre-matching
 DOMAIN, appgo.189.cn, REJECT, extended-matching, pre-matching
 IP-CIDR, 122.229.8.47/32, REJECT, pre-matching
 IP-CIDR, 122.229.29.89/32, REJECT, pre-matching
+
+[URL Rewrite]
+^https?:\/\/cloud\.189\.cn\/include\/splash\/ - reject
+
+[Map Local]
+^https?:\/\/zt-app\.go189\.cn\/zt-app\/welcome\/.*?Animation data-type=tiny-gif status-code=200
+
+[MITM]
+hostname= %APPEND% cloud.189.cn, zt-app.go189.cn

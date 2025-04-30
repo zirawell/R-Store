@@ -1,1 +1,7 @@
+# > QQ浏览器 - QQBROWSER
 
+[URL Rewrite]
+^https?:\/\/us\.l\.qq\.com\/exapp - reject
+
+[MITM]
+hostname= %APPEND% us.l.qq.com

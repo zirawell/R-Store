@@ -1,1 +1,9 @@
+# > 腾讯地图 - TXMAPS
 
+[Map Local]
+^https?:\/\/4gimg\.map\.qq\.com\/mwaSplash\/ data-type=text data="" status-code=200
+^https?:\/\/3gimg\.qq\.com\/tencentMapTouch\/app\/activity\/ data-type=text data="" status-code=200
+^https?:\/\/3gimg\.qq\.com\/tencentMapTouch\/splash\/ data-type=text data="" status-code=200
+
+[MITM]
+hostname= %APPEND% 4gimg.map.qq.com, 3gimg.qq.com

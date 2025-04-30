@@ -1,1 +1,7 @@
+# > 安徽掌上10000 - AHZS10000
 
+[Map Local]
+^https?:\/\/www\.ahzs10000\.com\/palmhall\/client\/base\/newVerson_getStartUp\.action data-type=text data="" status-code=200
+
+[MITM]
+hostname= %APPEND% www.ahzs10000.com

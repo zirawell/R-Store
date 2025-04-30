@@ -23,3 +23,10 @@ DOMAIN-SUFFIX, push.app.autohome.com.cn, REJECT, extended-matching, pre-matching
 DOMAIN-KEYWORD, collectionpv.che168.com, REJECT, extended-matching, pre-matching
 DOMAIN-KEYWORD, adproxy.autohome.com, REJECT, extended-matching, pre-matching
 DOMAIN-KEYWORD, applogapi.autohome.com, REJECT, extended-matching, pre-matching
+
+[Map Local]
+^https?:\/\/pcmx\.autohome\.com\.cn\/queryCreativeList data-type=text data="{}" status-code=200
+^https?:\/\/app2\.autoimg\.cn\/apppdfs\/ data-type=tiny-gif status-code=200
+
+[MITM]
+hostname= %APPEND% pcmx.autohome.com.cn, app2.autoimg.cn

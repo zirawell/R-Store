@@ -1,1 +1,7 @@
+# > 猿辅导 - YUANFUDAO
 
+[Map Local]
+^https?:\/\/xyst\.yuanfudao\.com\/iphone\/splashesV\d data-type=text data="" status-code=200
+
+[MITM]
+hostname= %APPEND% xyst.yuanfudao.com

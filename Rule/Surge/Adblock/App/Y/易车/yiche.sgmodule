@@ -3,3 +3,10 @@
 [Rule]
 DOMAIN, adx.yiche.com, REJECT, extended-matching, pre-matching
 DOMAIN, log.ycapp.yiche.com, REJECT, extended-matching, pre-matching
+
+[Map Local]
+^https?:\/\/api\.ycapp\.yiche\.com\/\w+\/getadlist data-type=tiny-gif status-code=200
+^https?:\/\/cheyouapi\.ycapp\.yiche\.com\/appforum\/getusermessagecount data-type=tiny-gif status-code=200
+
+[MITM]
+hostname= %APPEND% api.ycapp.yiche.com, cheyouapi.ycapp.yiche.com

@@ -1,1 +1,7 @@
+# > TubeMax - TUBEMAX
 
+[URL Rewrite]
+^https?:\/\/.*\.i18n-pglstatp\.com\/obj\/ad-pattern-sg - reject
+
+[MITM]
+hostname= %APPEND% *.i18n-pglstatp.com

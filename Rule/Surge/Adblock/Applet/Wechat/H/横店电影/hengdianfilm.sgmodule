@@ -1,1 +1,11 @@
+# > 横店电影<微信小程序> - HENGDIANFILM
 
+[URL Rewrite]
+^https?:\/\/api\.hengdianfilm\.com\/\/cinema\/queryAvailableBannerInfo\/1 https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Data/hengdian.json 302
+
+[Map Local]
+^https?:\/\/api\.hengdianfilm\.com\/\/cinema\/queryAvailableBannerInfo\/2\?cid= data-type=text data="{}" status-code=200
+^https?:\/\/api\.hengdianfilm\.com\/\/cinema\/queryAvailableBannerInfo\/4\?cid= data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% api.hengdianfilm.com

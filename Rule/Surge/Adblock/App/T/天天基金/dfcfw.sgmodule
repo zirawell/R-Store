@@ -1,1 +1,10 @@
+# > 天天基金 - DFCFW
 
+[URL Rewrite]
+^https?:\/\/appactive\.1234567\.com\.cn\/AppoperationApi\/OperationService\/GetAppStartImg - reject
+
+[Map Local]
+^https?:\/\/j5\.dfcfw\.com\/WG\/(app)?conf\/202[0-9]{5}/.*.(?>jpg|png) data-type=text data="" status-code=200
+
+[MITM]
+hostname= %APPEND% j5.dfcfw.com, appactive.1234567.com.cn

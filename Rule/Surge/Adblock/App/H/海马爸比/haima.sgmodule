@@ -1,1 +1,7 @@
+# > 海马爸比 - HAIMA
 
+[Map Local]
+^https?:\/\/39\.98\.135\.211\/admin\/filter\/crowdFunding\/getNewProductData data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% 39.98.135.211

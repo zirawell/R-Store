@@ -1,1 +1,7 @@
+# > 新片场 - XINPIANCHANG
 
+[Map Local]
+^https?:\/\/app\.xinpianchang\.com\/open_screen data-type=text data="" status-code=200
+
+[MITM]
+hostname= %APPEND% app.xinpianchang.com

@@ -1,1 +1,8 @@
+# > 漫画人 - MANHUAREN
 
+[URL Rewrite]
+^https?:\/\/.*mangaapi\.manhuaren\.\w{2,4}\/v\d\/public\/(?>getStartUpMessage|getStartPageAds|getShelfActivity) - reject
+^https?:\/\/.*mangaapi\.manhuaren\.\w{2,4}\/v\d\/ad - reject
+
+[MITM]
+hostname= %APPEND% *mangaapi.manhuaren.*

@@ -1,1 +1,7 @@
+# > 全民K歌 - QMKG
 
+[Map Local]
+^https?:\/\/y\.gtimg\.cn\/music\/common\/\/upload\/kg_ad\/.+?\d{3,4}x\d{4} data-type=text data="" status-code=200
+
+[MITM]
+hostname= %APPEND% y.gtimg.cn

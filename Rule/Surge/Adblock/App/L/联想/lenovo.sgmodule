@@ -1,1 +1,7 @@
+# > 联想 - LENOVO
 
+[URL Rewrite]
+^https?:\/\/api\.club\.lenovo\.cn\/common\/open_ad - reject
+
+[MITM]
+hostname= %APPEND% api.club.lenovo.cn

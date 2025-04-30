@@ -1,1 +1,10 @@
+# > 向日葵 - SUNLOGIN
 
+[URL Rewrite]
+^https?:\/\/slapi\.oray\.net\/(client\/)?ad - reject
+
+[Map Local]
+^https?:\/\/client-api-v\d\.oray\.com\/materials\/(?>SLCC_IOS_STARTUP|SLCC_IOS_DEVICE|SUNLOGIN_CLIENT_IOS_PROMOTION) data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% client-api-v*.oray.com, slapi.oray.net

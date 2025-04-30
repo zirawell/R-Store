@@ -1,0 +1,19 @@
+# > 通用规则<微信小程序> - WechatAppletGeneral
+
+[Rule]
+DOMAIN-SUFFIX, wxsnsdy.wxs.qq.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, wxsmsdy.video.qq.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, wxsnsdythumb.wxs.qq.com, REJECT, extended-matching, pre-matching
+
+[URL Rewrite]
+^https?:\/\/(?>webapi|miniapp)\.qmai\.cn\/web\/cmk-center\/marketing\/canvas\/advert - reject
+
+[Map Local]
+^https?:\/\/mp\.weixin\.qq\.com\/wapad\/getaddata\?action=getad data-type=text data="" status-code=200
+^https?:\/\/mp\.weixin\.qq\.com\/wapad\/reportaddata\?action=exposure_report data-type=text data="" status-code=200
+
+[Script]
+type=http-response,pattern=^https?:\/\/(?>webapi|miniapp)\.qmai\.cn\/web\/catering([0-9]-apiserver)?\/advertising\/ad\/advertiseInfo,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/qmai.js
+
+[MITM]
+hostname= %APPEND% mp.weixin.qq.com, webapi.qmai.cn, miniapp.qmai.cn

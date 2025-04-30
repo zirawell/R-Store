@@ -1,1 +1,9 @@
+# > 51信用卡管家 - U51
 
+[Map Local]
+^https?:\/\/api\.u51\.com\/rs-resys\/api\/v\d\/recommend data-type=text data="{}" status-code=200
+^https?:\/\/api\.u51\.com\/liabilitygateway\/api\/v\d\/homepage\/liabilityline data-type=text data="{}" status-code=200
+^https?:\/\/api\.u51\.com\/generic-config-gateway\/api\/v\d\/creditpage-config data-type=file data="https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Data/u51.json"
+
+[MITM]
+hostname= %APPEND% api.u51.com

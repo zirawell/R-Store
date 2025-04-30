@@ -1,1 +1,7 @@
+# > 中信银行 - CITICBANK
 
+[Map Local]
+^https?:\/\/imcs\.citicbank\.com\/cloud\/([a-fA-F0-9]{32})\.(jpg|jpeg|png)\?width=[0-9]{4}&height=[0-9]{4} data-type=text data="" status-code=200
+
+[MITM]
+hostname= %APPEND% imcs.citicbank.com

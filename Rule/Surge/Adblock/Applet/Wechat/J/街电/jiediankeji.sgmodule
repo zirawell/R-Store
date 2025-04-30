@@ -1,1 +1,7 @@
+# > 街电<微信小程序> - JIEDIANKEJI
 
+[Map Local]
+^https?:\/\/s\.jiediankeji\.com\/adv data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% s.jiediankeji.com

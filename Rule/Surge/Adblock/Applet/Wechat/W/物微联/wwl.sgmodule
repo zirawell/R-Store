@@ -1,1 +1,7 @@
+# > 物微联<微信公众号> - WWL
 
+[Map Local]
+^https?:\/\/new\.wwldz\.com\/wechat\/ad\/ data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% new.wwldz.com

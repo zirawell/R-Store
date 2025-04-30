@@ -1,1 +1,7 @@
+# > 古茗茶饮点单<微信小程序> - GUMING
 
+[Map Local]
+^https?:\/\/newton\.gumingnc\.com\/newton-buyer\/newton\/buyer\/(ump|touch|external\/front) data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% newton.gumingnc.com

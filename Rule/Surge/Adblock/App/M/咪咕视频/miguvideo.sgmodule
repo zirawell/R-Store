@@ -8,3 +8,10 @@ DOMAIN, ggv.cmvideo.cn, REJECT, extended-matching, pre-matching
 DOMAIN, ggx.cmvideo.cn, REJECT, extended-matching, pre-matching
 DOMAIN, ggx03.miguvideo.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, ad.cmvideo.cn, REJECT, extended-matching, pre-matching
+
+[Map Local]
+^https?:\/\/gg\w+?\.cmvideo\.cn\/v\d\/iflyad\/ data-type=text data="" status-code=200
+^https?:\/\/ggic\d?\.cmvideo\.cn\/ad\/ data-type=text data="" status-code=200
+
+[MITM]
+hostname= %APPEND% gg*.cmvideo.cn

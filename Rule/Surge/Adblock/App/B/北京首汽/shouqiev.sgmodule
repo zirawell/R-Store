@@ -1,1 +1,7 @@
+# > 北京首汽 - SHOUQIEV
 
+[URL Rewrite]
+^https?:\/\/gateway\.shouqiev\.com(:\d+)?\/fsda\/app\/bootImage\.json - reject
+
+[MITM]
+hostname= %APPEND% gateway.shouqiev.com

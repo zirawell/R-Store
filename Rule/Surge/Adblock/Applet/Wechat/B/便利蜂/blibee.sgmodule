@@ -1,1 +1,7 @@
+# > 便利蜂<微信小程序> - BLIBEE
 
+[Map Local]
+^https?:\/\/api\.blibee\.com\/cvsnotify-api\/cvs\/notify\/app\/banner\/v\d+$ data-type=text data="" status-code=200
+
+[MITM]
+hostname= %APPEND% api.blibee.com

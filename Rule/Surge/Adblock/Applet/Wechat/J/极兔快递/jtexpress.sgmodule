@@ -1,1 +1,7 @@
+# > 极兔快递<微信小程序> - JTEXPRESS
 
+[Map Local]
+^https?:\/\/applets\.jtexpress\.com\.cn data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% applets.jtexpress.com.cn

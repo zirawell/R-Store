@@ -1,1 +1,7 @@
+# > 广汽本田 - GHAC
 
+[Map Local]
+^https?:\/\/gha\.ghac\.cn\:\w+\/base\/app\/api\/ad\/query data-type=text data="" status-code=200
+
+[MITM]
+hostname= %APPEND% gha.ghac.cn

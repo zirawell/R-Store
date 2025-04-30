@@ -1,1 +1,8 @@
+# > 牛津高阶词典第10版 - OXADMIN
 
+[Map Local]
+^https?:\/\/oxadmin\.cp\.com\.cn\/api\/hot\/index data-type=text data="{}" status-code=200
+^https?:\/\/oxadmin\.cp\.com\.cn\/api\/advertise\/banner data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% oxadmin.cp.com.cn

@@ -1,4 +1,8 @@
-# > 发现精彩 - 95508
+# > 广发银行 - 95508
 
-[Rule]
-DOMAIN, union.chinalifeonline.com.cn, REJECT, extended-matching, pre-matching
+[Map Local]
+^https?:\/\/static\.95508\.com\/icppweb\/images\/modelMaterial\/(advertising|accurate)\/202\d{5}\/.*.(?>png|jpg) data-type=text data="" status-code=200
+^https?:\/\/mps\.95508\.com\/mps\/club\/cardPortals\/adv\/\d{25}\.(?>png|jpg) data-type=tiny-gif status-code=200
+
+[MITM]
+hostname= %APPEND% static.95508.com, mps.95508.com

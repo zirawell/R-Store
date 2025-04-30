@@ -1,1 +1,7 @@
+# > 漫客栈 - MKZ
 
+[URL Rewrite]
+^https?:\/\/base\.mkzcdn\.com\/advert - reject
+
+[MITM]
+hostname= %APPEND% base.mkzcdn.com

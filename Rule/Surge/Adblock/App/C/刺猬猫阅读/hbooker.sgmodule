@@ -1,1 +1,7 @@
+# > 刺猬猫阅读 - HBOOKER
 
+[URL Rewrite]
+^https?:\/\/app\.hbooker\.com\/setting\/get_startpage_url_list - reject
+
+[MITM]
+hostname= %APPEND% app.hbooker.com

@@ -2,3 +2,22 @@
 
 [Rule]
 DOMAIN-SUFFIX, track.bankcomm.com, REJECT, extended-matching, pre-matching
+
+[URL Rewrite]
+^https?:\/\/creditcard.*\.bankcomm\.(com|cn)\/.*Ads\.do - reject
+^https?:\/\/creditcardapp\.bankcomm\.(com|cn)\/mappweb_interaction\/common\/globalNotify - reject
+^https?:\/\/creditcardapp\.bankcomm\.(com|cn)\/mappweb_interaction\/qryHighRiskUser - reject
+^https?:\/\/creditcardapp\.bankcomm\.(com|cn)\/mappweb_collection - reject
+
+[Map Local]
+^https?:\/\/creditcard\.bankcomm\.(com|cn)\/tfimg\/public00\/M00\/4C\/6F data-type=tiny-gif status-code=200
+^https?:\/\/creditcard\.bankcomm\.(com|cn)\/tofimg\/bucket-pj-btss-tfcn-dmz\/OSS-F\/a8f2e8 data-type=tiny-gif status-code=200
+^https?:\/\/creditcardapp\.bankcomm\.(com|cn)\/CnsvMdbaptFinclipWeb data-type=text data="{}" status-code=200
+^https?:\/\/creditcardapp\.bankcomm\.(com|cn)\/mappweb_interaction\/appInfo\/appNewestVersion data-type=text data="" status-code=200
+^https?:\/\/creditcardapp\.bankcomm\.(com|cn)\/mappweb\/homepage(\/discovery)?\/promote data-type=text data="{}" status-code=200
+
+[Script]
+type=http-response,pattern=^https?:\/\/creditcardapp\.bankcomm\.(com|cn)\/rcg\/index\.html\?callbackurl=rcg\/index\.html&orclogin=1&,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/mdb.js
+
+[MITM]
+hostname= %APPEND% *.bankcomm.com, *.bankcomm.cn

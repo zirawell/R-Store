@@ -1,1 +1,7 @@
+# > 来疯 - LAIFENG
 
+[URL Rewrite]
+^https?:\/\/api\.laifeng\.com\/v\d\/start\/ads - reject
+
+[MITM]
+hostname= %APPEND% api.laifeng.com

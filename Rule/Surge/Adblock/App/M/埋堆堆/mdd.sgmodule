@@ -5,3 +5,15 @@ DOMAIN, toblog.ctobsnssdk.com, REJECT, extended-matching, pre-matching
 DOMAIN, t-dsp.pinduoduo.com, REJECT, extended-matching, pre-matching
 DOMAIN, sdk1xyajs.data.kuiniuca.com, REJECT, extended-matching, pre-matching
 DOMAIN, conf-darwin.xycdn.com, REJECT, extended-matching, pre-matching
+
+[URL Rewrite]
+^https?:\/\/tower\.ubixioe\.com\/mob\/mediation - reject
+
+[Map Local]
+^https?:\/\/sfo\.mddcloud\.com\.cn\/api\/v\d\/sfo\/popup_displays data-type=text data="{}" status-code=200
+^https?:\/\/mob\.mddcloud\.com\.cn\/api\/(ad|advert)\/ data-type=text data="" status-code=200
+^https?:\/\/mob\.mddcloud\.com\.cn\/adApi\/advert\/(?>first|third)part\/advertList data-type=text data="{}" status-code=200
+^https?:\/\/mobads-pre-config\.cdn\.bcebos\.com\/preload data-type=text data="" status-code=200
+
+[MITM]
+hostname= %APPEND% sfo.mddcloud.com.cn, mob.mddcloud.com.cn, mobads-pre-config.cdn.bcebos.com,tower.ubixioe.com

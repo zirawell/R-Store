@@ -1,1 +1,7 @@
+# > 233网校 - 233
 
+[Map Local]
+^https?:\/\/japi\.233\.com\/ess-ecms-api\/advert data-type=text data="" status-code=200
+
+[MITM]
+hostname= %APPEND% japi.233.com

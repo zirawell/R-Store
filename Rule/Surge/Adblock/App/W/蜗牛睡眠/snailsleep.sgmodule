@@ -1,1 +1,8 @@
+# > 蜗牛睡眠 - SNAILSLEEP
 
+[URL Rewrite]
+^https?:\/\/snailsleep\.net\/snail\/v\d\/adTask\/ - reject
+^https?:\/\/snailsleep\.net\/snail\/v\d\/screen\/qn\/get\? - reject
+
+[MITM]
+hostname= %APPEND% snailsleep.net

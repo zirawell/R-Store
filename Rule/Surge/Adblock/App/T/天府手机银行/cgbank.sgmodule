@@ -1,1 +1,7 @@
+# > 天府手机银行 - CGBANK
 
+[Map Local]
+^https?:\/\/cgbank\.oss-cn-shenzhen\.aliyuncs\.com\/visual\/advertisingImg\/.+.jpg data-type=text data="" status-code=200
+
+[MITM]
+hostname= %APPEND% cgbank.oss-cn-shenzhen.aliyuncs.com

@@ -10,3 +10,17 @@ IP-CIDR, 116.196.84.232/32, REJECT, pre-matching
 IP-CIDR, 114.80.56.98/32, REJECT, pre-matching
 IP-CIDR, 162.14.145.54/32, REJECT, pre-matching
 IP-CIDR, 162.14.137.43/32, REJECT, pre-matching
+
+[URL Rewrite]
+^https?:\/\/m\.ctrip\.com\/restapi\/.*\/getTimeZoneServerIpList - reject
+^https?:\/\/m\.ctrip\.com\/restapi\/.*\/tripAds - reject
+^https?:\/\/m\.ctrip\.com\/restapi\/.*\/getAdsList - reject
+^https?:\/\/m\.ctrip\.com\/restapi\/.*\/getAppConfig - reject
+^https?:\/\/m\.ctrip\.com\/restapi\/.*\/incrQueryTrans - reject
+^https?:\/\/m\.ctrip\.com\/restapi\/.*\/getDiscardUbts - reject
+^https?:\/\/m\.ctrip\.com\/html5\/webresource\/js\/iscroll\.js$ - reject
+^https?:\/\/ma-adx\.ctrip\.com\/_ma\.gif - reject
+^https?:\/\/mbd\.baidu\.com\/newspage\/api\/getmobads\?page\=landingshare - reject
+
+[MITM]
+hostname= %APPEND% m.ctrip.com, ma-adx.ctrip.com, mbd.baidu.com

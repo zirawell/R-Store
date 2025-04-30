@@ -1,1 +1,7 @@
+# > 华彩生活 - HXB
 
+[Map Local]
+^https?:\/\/static\.creditcard\.hxb\.com\.cn\/mcube\/apps\/group\d\/M00\/00\/2[A-Z0-9]{1}\/amRG7WO.+\.jpg data-type=text data="" status-code=200
+
+[MITM]
+hostname= %APPEND% static.creditcard.hxb.com.cn

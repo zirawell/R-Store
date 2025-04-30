@@ -1,1 +1,7 @@
+# > WiFi万能钥匙 - WIFI188
 
+[Map Local]
+^https?:\/\/cds\.wifi188\.com\/feeds\.sec data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% cds.wifi188.com

@@ -1,1 +1,7 @@
+# > 全家便利店 - FAMILYMART
 
+[URL Rewrite]
+^https?:\/\/fmapp\.chinafamilymart\.com\.cn\/api\/app\/biz\/base\/appversion\/latest - reject
+
+[MITM]
+hostname= %APPEND% fmapp.chinafamilymart.com.cn

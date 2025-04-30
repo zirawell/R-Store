@@ -1,1 +1,11 @@
+# > 识货 - SHIHUO
 
+[URL Rewrite]
+^https?:\/\/sh-gateway\.shihuo\.cn\/v\d\/services\/sh-adapi\/home\/(?>screen|ad) - reject
+
+[Map Local]
+^https?:\/\/www\.shihuo\.cn\/app\d\/saveAppInfo data-type=text data="" status-code=200
+^https?:\/\/static\.shihuocdn\.cn\/admin\/imgs/202[0-9]{5}\/[a-z0-9]{32}_(513x777|750x1624)\.png data-type=text data="" status-code=200
+
+[MITM]
+hostname= %APPEND% www.shihuo.cn, sh-gateway.shihuo.cn, static.shihuocdn.cn

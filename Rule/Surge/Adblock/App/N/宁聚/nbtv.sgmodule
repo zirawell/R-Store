@@ -1,1 +1,8 @@
+# > 宁聚 - NBTV
 
+[Map Local]
+^https?:\/\/api\.nj\.nbtv\.cn\/v\d\/advertise data-type=text data="" status-code=200
+^https?:\/\/api\.nj\.nbtv\.cn\/v\d\/common\/system-boot-inform\/detail data-type=text data="" status-code=200
+
+[MITM]
+hostname= %APPEND% api.nj.nbtv.cn

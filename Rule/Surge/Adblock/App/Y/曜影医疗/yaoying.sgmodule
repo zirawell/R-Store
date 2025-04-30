@@ -1,1 +1,8 @@
+# > 曜影医疗 - YAOYING
 
+[Map Local]
+^https?:\/\/userpms-api\.suh\.cn\/apt\/api\/bannar\/PageList\? data-type=text data="{}" status-code=200
+^https?:\/\/patient-api\.suh\.cn\/apt\/api\/userinfo\/GetNotice\? data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% userpms-api.suh.cn, patient-api.suh.cn

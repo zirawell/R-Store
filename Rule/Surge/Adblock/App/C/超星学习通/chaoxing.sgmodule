@@ -1,1 +1,7 @@
+# > 超星学习通 - CHAOXING
 
+[URL Rewrite]
+^https?:\/\/learn\.chaoxing\.com\/apis\/service\/appConfig\? - reject
+
+[MITM]
+hostname= %APPEND% learn.chaoxing.com

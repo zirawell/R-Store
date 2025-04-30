@@ -1,1 +1,7 @@
+# > 澎湃新闻 - THEPAPER
 
+[URL Rewrite]
+^https?:\/\/adpai\.thepaper\.cn\/.+&ad= - reject
+
+[MITM]
+hostname= %APPEND% adpai.thepaper.cn

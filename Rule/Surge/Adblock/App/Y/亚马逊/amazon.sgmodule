@@ -1,1 +1,7 @@
+# > 亚马逊 - AMAZON
 
+[Map Local]
+^https?:\/\/api-cslp-emt\.amazon\.cn\/gateway\/(?>recommend|content\/widget\/popup|config\/getUpdatePopupConfig) data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% api-cslp-emt.amazon.cn

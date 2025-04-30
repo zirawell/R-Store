@@ -1,1 +1,7 @@
+# > 友邻优课 - YLYK
 
+[Map Local]
+^https?:\/\/new-app-api\.ylyk\.com\/v\d\/user\/myinfo\/adviser data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% new-app-api.ylyk.com

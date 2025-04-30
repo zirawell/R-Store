@@ -1,1 +1,7 @@
+# > 厦门航空 - XIAMENAIR
 
+[URL Rewrite]
+^https?:\/\/mobileapi\.xiamenair\.com\/mobile-starter - reject
+
+[MITM]
+hostname= %APPEND% mobileapi.xiamenair.com

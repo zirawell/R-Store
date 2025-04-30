@@ -1,1 +1,12 @@
+# > 网易严选 - 163YANXUAN
 
+[URL Rewrite]
+^https?:\/\/support\.you\.163\.com\/appversync\/check - reject
+^https?:\/\/m\.you\.163\.com\/activity\/popWindow - reject
+^https?:\/\/yanxuan\.nosdn\.127\.net\/.*\.mp4 - reject
+
+[Map Local]
+^https?:\/\/support\.you\.163\.com\/xhr\/boot\/getBootMedia data-type=text data="" status-code=200
+
+[MITM]
+hostname= %APPEND% support.you.163.com, m.you.163.com, yanxuan.nosdn.127.net

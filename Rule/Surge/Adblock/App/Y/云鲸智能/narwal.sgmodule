@@ -1,1 +1,9 @@
+# > 云鲸智能 - NARWAL
 
+[Map Local]
+^https?:\/\/cn-app\.narwaltech\.com\/operate\/appPosition\/listSplash\?resourceIds=narwal_splash_screen data-type=text data="{}" status-code=200
+^https?:\/\/cn-app\.narwaltech\.com\/operate\/cactivity\/listByResourceIds\?resourceIds=index_banner data-type=text data="{}" status-code=200
+^https?:\/\/cn-app\.narwaltech\.com\/operate\/cactivity\/listByResourceIds\?resourceIds=user_center_banner data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% cn-app.narwaltech.com

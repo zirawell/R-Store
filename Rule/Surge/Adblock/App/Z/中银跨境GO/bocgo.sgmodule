@@ -1,1 +1,7 @@
+# > 中银跨境GO - BOCGO
 
+[Map Local]
+^https?:\/\/openapi\.boc\.cn\/unlogin\/app\/cbsp\/query_ad_list data-type=text data="" status-code=200
+
+[MITM]
+hostname= %APPEND% openapi.boc.cn

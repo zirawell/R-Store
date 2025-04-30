@@ -1,1 +1,7 @@
+# > 开源中国 - OSCHINA
 
+[Map Local]
+^https?:\/\/www\.oschina\.net\/action\/apiv\d\/get_launcher data-type=tiny-gif status-code=200
+
+[MITM]
+hostname= %APPEND% www.oschina.net

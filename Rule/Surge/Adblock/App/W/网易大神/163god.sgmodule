@@ -1,1 +1,10 @@
+# > 网易大神 - 163GOD
 
+[URL Rewrite]
+^https?:\/\/god\.gameyw\.netease\.com\/v\d\/ad - reject
+
+[Map Local]
+^https?:\/\/ok\.166\.net\/reunionpub\/202[2-9]{1}-[0-9]{2}-[0-9]{2}\/ntesgod_cms\/.*.jpg$ data-type=text data="" status-code=200
+
+[MITM]
+hostname= %APPEND% god.gameyw.netease.com, ok.166.net

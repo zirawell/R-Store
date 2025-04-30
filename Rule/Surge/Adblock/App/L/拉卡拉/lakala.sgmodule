@@ -1,1 +1,10 @@
+# > 拉卡拉 - LAKALA
 
+[Map Local]
+^https?:\/\/lamb\.lakala\.com\/lamo\/adv\/access\/queryMaterialUrl data-type=text data="{}" status-code=200
+^https?:\/\/wallet\.lakala\.com\/m\/lama\/mgt\/activity\/bank\/query\/list data-type=text data="{}" status-code=200
+^https?:\/\/wallet\.lakala\.com\/m\/a\/lama\/mgt\/activity\/biz\/query\/byMerInfo data-type=text data="{}" status-code=200
+^https?:\/\/wallet\.lakala\.com\/m\/a\/message\/v\d\/fetchMsgList data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% lamb.lakala.com, wallet.lakala.com

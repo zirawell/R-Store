@@ -1,1 +1,10 @@
+# > 涨乐财富通 - ZHANGLE
 
+[Map Local]
+^https?:\/\/c\.zhangle\.com\/pic\/mktg\/diversity\/.+\.jpg$ data-type=text data="{}" status-code=200
+^https?:\/\/live\.inst-service\.htsc\.com\/live data-type=text data="{}" status-code=200
+^https?:\/\/geetest\.htsc\.com:\d+\/pre_get_token data-type=text data="" status-code=200
+^https?:\/\/119\.29\.29\.98\/d data-type=text data="" status-code=200
+
+[MITM]
+hostname= %APPEND% c.zhangle.com, live.inst-service.htsc.com, geetest.htsc.com, 119.29.29.98

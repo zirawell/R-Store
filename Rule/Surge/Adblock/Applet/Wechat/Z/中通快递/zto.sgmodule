@@ -1,1 +1,10 @@
+# > 中通快递<微信小程序> - ZTO
 
+[URL Rewrite]
+^https?:\/\/fscdn\.zto\.com\/fs1 - reject
+
+[Map Local]
+^https?:\/\/hdgateway\.zto\.com\/(?>getApolloConfig|track|getAdInfo|listJumperShow) data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% hdgateway.zto.com, fscdn.zto.com

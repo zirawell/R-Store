@@ -1,1 +1,7 @@
+# > 爱范儿 - APPSO
 
+[URL Rewrite]
+^https?:\/\/sso\.ifanr\.com\/jiong\/IOS\/appso\/splash\/ - reject
+
+[MITM]
+hostname= %APPEND% sso.ifanr.com

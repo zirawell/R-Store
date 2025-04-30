@@ -1,1 +1,7 @@
+# > 易校园 - YIXIAOYUAN
 
+[Map Local]
+^https?:\/\/compus\.xiaofubao\.com\/compus\/advertising\/getStartupAdvertising data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% compus.xiaofubao.com

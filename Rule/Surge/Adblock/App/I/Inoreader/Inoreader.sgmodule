@@ -1,1 +1,7 @@
+# > Inoreader - INOREADER
 
+[URL Rewrite]
+^https?:\/\/www\.inoreader\.com\/adv\/ - reject
+
+[MITM]
+hostname= %APPEND% www.inoreader.com

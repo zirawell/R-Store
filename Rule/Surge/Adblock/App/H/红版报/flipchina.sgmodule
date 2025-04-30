@@ -1,1 +1,7 @@
+# > 红版报 - FLIPCHINA
 
+[URL Rewrite]
+^https?:\/\/fbchina\.flipchina\.cn\/v\d\/ad\/query - reject
+
+[MITM]
+hostname= %APPEND% fbchina.flipchina.cn

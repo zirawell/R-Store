@@ -10,3 +10,23 @@ DOMAIN-SUFFIX, 163jiasu.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, httpdns.music.163.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, iadmusicmatvideo.music.126.net, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, iadmusicmat.music.126.net, REJECT, extended-matching, pre-matching
+
+[Map Local]
+^https?:\/\/interface\d?\.music\.163\.com\/w?e?api\/(?>ad|abtest|store|mlog) data-type=text data="{}" status-code=200
+^https?:\/\/interface\d?\.music\.163\.com\/w?e?api\/(side-bar\/mini-program\/music-service\/account|delivery\/(?>batch-deliver|deliver)|moment\/tab\/info\/get|yunbei\/account\/entrance\/get) data-type=text data="{}" status-code=200
+^https?:\/\/interface\d?\.music\.163\.com\/w?e?api\/(search\/(chart|default|rcmd\/keyword|specialkeyword)|(resource-exposure\/|middle\/clientcfg\/config)|activity\/bonus\/playpage\/time\/query) data-type=text data="{}" status-code=200
+^https?:\/\/interface\d?\.music\.163\.com\/w?e?api\/(comment\/(feed\/inserted)|hotcomment\/collect|tips\/v\d\/get|mlivestream\/entrance\/playpage|link\/(position\/show\/strategy|scene\/show)|ios\/version|v\d\/content\/exposure\/comment\/banner) data-type=text data="{}" status-code=200
+^https?:\/\/interface\d?\.music\.163\.com\/w?e?api\/(resource\/comments?\/musiciansaid|community\/friends\/fans-group\/artist\/group\/get|user\/sub\/artist|music\/songshare\/text\/recommend\/get|mine\/applet\/redpoint|resniche\/position\/play\/new\/get) data-type=text data="{}" status-code=200
+^https?:\/\/interface\d?\.music\.163\.com\/w?e?api\/(vipcenter\/tspopup\/get|vipauth\/app\/auth|music-vip-membership\/client\/vip\/info|zone\/songplay\/entry\/get) data-type=text data="{}" status-code=200
+
+[Script]
+type=http-response,pattern=^https?:\/\/interface\d?\.music\.163\.com\/w?e?api\/(batch|v\d\/resource\/comment\/floor\/get),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/163music.js
+type=http-response,pattern=^https?:\/\/interface\d?\.music\.163\.com\/w?e?api\/link\/home\/framework\/tab,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/163music.js
+type=http-response,pattern=^https?:\/\/interface\d?\.music\.163\.com\/w?e?api\/(homepage\/block\/page|link\/page\/rcmd\/(resource\/show|block\/resource\/multi\/refresh)),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/163music.js
+type=http-response,pattern=^https?:\/\/interface\d?\.music\.163\.com\/w?e?api\/link\/page\/discovery\/resource\/show,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/163music.js
+type=http-response,pattern=^https?:\/\/interface\d?\.music\.163\.com\/w?e?api\/song\/play\/more\/list\/v\d,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/163music.js
+type=http-response,pattern=^https?:\/\/interface\d?\.music\.163\.com\/w?e?api\/link\/position\/show\/resource,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/163music.js
+type=http-response,pattern=^https?:\/\/interface\d?\.music\.163\.com\/w?e?api\/user\/follow\/users\/mixed\/get,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/163music.js
+
+[MITM]
+hostname= %APPEND% interface*.music.163.com

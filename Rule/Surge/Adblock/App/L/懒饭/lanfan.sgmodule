@@ -1,1 +1,7 @@
+# > 懒饭 - LANFAN
 
+[URL Rewrite]
+^https?:\/\/lanfanapp\.com\/api\/v\d\/ads\/ - reject
+
+[MITM]
+hostname= %APPEND% lanfanapp.com

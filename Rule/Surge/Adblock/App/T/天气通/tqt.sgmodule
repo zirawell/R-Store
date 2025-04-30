@@ -1,1 +1,8 @@
+# > 天气通 - TQT
 
+[URL Rewrite]
+^https?:\/\/tqt\.weibo\.cn\/overall\/redirect\.php\?r=(?>tqt_sdkad|tqtad) - reject
+^https?:\/\/tqt\.weibo\.cn\/.*advert - reject
+
+[MITM]
+hostname= %APPEND% tqt.weibo.cn

@@ -1,1 +1,7 @@
+# > 北京银行 - BANKOFBEIJING
 
+[Map Local]
+^https?:\/\/cdnmobibank\.bankofbeijing\.com\.cn\/cdn\/MarketingCloud\/.+\/.+\/99_1\/.+\.jpg data-type=text data="" status-code=200
+
+[MITM]
+hostname= %APPEND% cdnmobibank.bankofbeijing.com.cn

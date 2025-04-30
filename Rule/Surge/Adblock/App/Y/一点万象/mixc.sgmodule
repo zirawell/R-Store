@@ -1,1 +1,7 @@
+# > 一点万象 - MIXC
 
+[Map Local]
+^https?:\/\/app\.mixcapp\.com\/mixc\/api\/v\d\/ad data-type=text data="" status-code=200
+
+[MITM]
+hostname= %APPEND% app.mixcapp.com

@@ -1,1 +1,7 @@
+# > 浙里办 - ZJZWFW
 
+[Map Local]
+^https?:\/\/portal\.zjzwfw\.gov\.cn\/app_api\/appHome\/selectStartPic data-type=text data="" status-code=200
+
+[MITM]
+hostname= %APPEND% portal.zjzwfw.gov.cn

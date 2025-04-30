@@ -1,1 +1,7 @@
+# > e代驾 - EDAIJIA
 
+[Map Local]
+^https?:\/\/pic\.edaijia\.cn\/adsplash\/ data-type=text data="" status-code=200
+
+[MITM]
+hostname= %APPEND% pic.edaijia.cn

@@ -8,3 +8,13 @@ DOMAIN, huyafile.msstatic.com, REJECT, extended-matching, pre-matching
 DOMAIN, livewebbs2.msstatic.com, REJECT, extended-matching, pre-matching
 DOMAIN, business.msstatic.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, v1d.szbdyd.com, REJECT, extended-matching, pre-matching
+
+[URL Rewrite]
+^https?:\/\/cdn\.wup\.huya\.com\/launch\/queryHttpDns$ - reject
+^https?:\/\/business\.msstatic\.com\/advertiser\/material - reject
+
+[Map Local]
+^https?:\/\/cdnfile1\.msstatic\.com\/cdnfile\/appad\/ data-type=tiny-gif status-code=200
+
+[MITM]
+hostname= %APPEND% cdn.wup.huya.com, business.msstatic.com, cdnfile1.msstatic.com

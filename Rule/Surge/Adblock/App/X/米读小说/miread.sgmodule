@@ -1,1 +1,9 @@
+# > 米读小说 - MIREAD
 
+[URL Rewrite]
+^https?:\/\/apiwz\.midukanshu\.com\/advert\/getPopup$ - reject
+^https?:\/\/apiwz\.midukanshu\.com\/advert\/treasureInfo$ - reject
+^https?:\/\/apiwz\.midukanshu\.com\/config\/getAds$ - reject
+
+[MITM]
+hostname= %APPEND% apiwz.midukanshu.com

@@ -1,1 +1,7 @@
+# > 本来生活 - BENLAILIFE
 
+[Map Local]
+^https?:\/\/img0[1-9]{1}\.benlailife\.com\/AppHomePageImage\/upload\/files\/.*.jpg data-type=text data="" status-code=200
+
+[MITM]
+hostname= %APPEND% img0*.benlailife.com

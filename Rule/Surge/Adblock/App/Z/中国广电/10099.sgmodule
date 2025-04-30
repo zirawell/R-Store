@@ -1,1 +1,7 @@
+# > 中国广电 - 10099
 
+[Map Local]
+^https?:\/\/app\.10099\.com\.cn\/contact-web\/api\/version\/getFlashScreenPage data-type=text data="" status-code=200
+
+[MITM]
+hostname= %APPEND% app.10099.com.cn

@@ -1,1 +1,14 @@
+# > 随手记 - FEIDEE
 
+[URL Rewrite]
+^https?:\/\/tg\.feidee\.com\/online_ad\/api\/search - reject
+^https?:\/\/yunmk\.feidee\.net\/cab-market-ws\/market\/v\d\/contents - reject
+^https?:\/\/api\.feidee\.net\/v\d\/configs\/client\/configs - reject
+^https?:\/\/yun\.feidee\.net\/cab-periodic-activity-ws\/terminal\/v\d\/members\/status - reject
+
+[Map Local]
+^https?:\/\/tg\.feidee\.com\/vis-ad-engine-ws\/api\/v\d\/ads\/ data-type=text data="{}" status-code=200
+^https?:\/\/tg\.feidee\.com\/vis-ad-engine-ws\/api\/show data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% tg.feidee.com, yunmk.feidee.net, api.feidee.net, yun.feidee.net

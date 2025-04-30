@@ -1,1 +1,18 @@
+# > 掌上生活 - CMBCC
 
+[URL Rewrite]
+^https?:\/\/intellicc\.\w+\.cmbchina\.com\/Edge\/api\/mlife\.intelli\.adrender\.api\.AdWork - reject
+^https?:\/\/intellicc\.\w+\.cmbchina\.com\/Edge\/api\/mlife\.intelli\.render\.api\.render\/getDynamicDataSec - reject
+^https?:\/\/.*mbasecc\.\w+\.cmbchina\.com\/Edge\/api\/mlife\.clientface\.clientservice\.api\.preloadService\/preload - reject
+^https?:\/\/.*mbasecc\.\w+\.cmbchina\.com\/Edge\/api\/mlife\.clientface\.clientservice\.api\.advertiseService\/preCacheAdvertiseSec - reject
+
+[Body Rewrite]
+http-response ^https?:\/\/res\.cc\.cmbimg\.com\/fsp\/File\/ClientFacePublic\/\w+\.DAT$ widget widget0
+
+[Map Local]
+^https?:\/\/mars\.ccc\.cmbchina\.com\/MarsReceiver data-type=text data="{}" status-code=200
+^https?:\/\/marscc\.bcs\.cmbchina\.com\/MarsReceiver data-type=text data="{}" status-code=200
+^https?:\/\/intellicc\.\w+\.cmbchina\.com\/Edge\/api\/mlife\.intelli\.render\.api\.RecommendRenderControllerApi\/getRecommendResult data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% mars.ccc.cmbchina.com, marscc.bcs.cmbchina.com, intellicc.b*s.cmbchina.com, *mbasecc.b*s.cmbchina.com

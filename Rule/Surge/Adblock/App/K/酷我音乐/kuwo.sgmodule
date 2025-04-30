@@ -15,3 +15,24 @@ DOMAIN-SUFFIX, msphoneclick.kuwo.cn, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, updatepage.kuwo.cn, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, webstat.kuwo.cn, REJECT, extended-matching, pre-matching
 IP-CIDR, 111.206.98.63/32, REJECT, pre-matching
+
+[URL Rewrite]
+^https?:\/\/wapi\.kuwo\.cn\/openapi\/v\d\/album\/adBar - reject
+^https?:\/\/wapi\.kuwo\.cn\/openapi\/v\d\/user\/freeMode - reject
+^https?:\/\/wapi\.kuwo\.cn\/openapi\/v\d\/app\/(?>pasterAdvert|startup) - reject
+^https?:\/\/wapi\.kuwo\.cn\/openapi\/v\d\/app\/newMenuList\/menuListInfo - reject
+^https?:\/\/vip\d\.kuwo\.cn\/vip\/v\d\/sysinfo\?op=getRePayAndDoPayBox - reject
+
+[Map Local]
+^https?:\/\/appi\.kuwo\.cn\/kuwopay\/personal\/cells data-type=text data="{}" status-code=200
+^https?:\/\/audiobookpay\.kuwo\.cn\/a\.p\?op=get_advertright_endtime data-type=text data="{}" status-code=200
+
+[Script]
+type=http-response,pattern=^https?:\/\/(mgxhtj|nmobi|searchrecterm)\.kuwo\.cn\/(mgxh|mobi|recterm)\.s,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/Unlock/kuwo.js
+type=http-response,pattern=^https?:\/\/audiobookpay\.kuwo\.cn\/a\.p,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/Unlock/kuwo.js
+type=http-response,pattern=^https?:\/\/musicpay\.kuwo\.cn\/music\.pay,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/Unlock/kuwo.js
+type=http-response,pattern=^https?:\/\/vip\d\.kuwo\.cn\/vip\/(enc\/user\/vip\?op=ui|v\d\/theme\?op=gd),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/Unlock/kuwo.js
+type=http-response,pattern=^https?:\/\/vip\d\.kuwo\.cn\/vip\/v\d\/user\/vip\?op=ui,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/Unlock/kuwo.js
+
+[MITM]
+hostname= %APPEND% wapi.kuwo.cn, appi.kuwo.cn, audiobookpay.kuwo.cn, mgxhtj.kuwo.cn, nmobi.kuwo.cn, searchrecterm.kuwo.cn, musicpay.kuwo.cn, vip*.kuwo.cn

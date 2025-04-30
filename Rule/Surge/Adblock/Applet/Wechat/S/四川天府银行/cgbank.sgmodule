@@ -1,1 +1,11 @@
+# > 四川天府银行<微信小程序> - CGBANK
 
+[Body Rewrite]
+http-response ^https?:\/\/chl\.tf\.cn\/channelmg\/sys\/socso\/order\/queryOrderInfo "imgUrl" "imgUrl0"
+
+[Map Local]
+^https?:\/\/chl\.tf\.cn\/channelmg\/sys\/socso\/socsonew\/queryIsRealNameAdertInfo data-type=text data="{}" status-code=200
+^https?:\/\/wechat\.tf\.cn\/mini-financial\/model\/queryPopup data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% chl.tf.cn, wechat.tf.cn

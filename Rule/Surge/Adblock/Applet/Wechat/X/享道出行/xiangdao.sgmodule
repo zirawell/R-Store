@@ -1,1 +1,7 @@
+# > 享道出行<微信小程序> - XIANGDAO
 
+[Map Local]
+^https?:\/\/passengerapi\.saicmobility\.com\/(ad\/requestAd|pay\/v\d\/queryOpenedCouponPackages) data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% passengerapi.saicmobility.com

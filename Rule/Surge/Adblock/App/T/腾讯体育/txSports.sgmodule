@@ -1,1 +1,8 @@
+# > 腾讯体育 - TXSPORTS
 
+[URL Rewrite]
+^https?:\/\/news\.ssp\.qq\.com\/app - reject
+^https?:\/\/sports3\.gtimg\.com\/community\/20cf93884470434eaf38b2e77ab7796a\.png - reject
+
+[MITM]
+hostname= %APPEND% news.ssp.qq.com, sports3.gtimg.com

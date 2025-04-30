@@ -1,1 +1,19 @@
+# > 百度输入法 - BAIDUINPUT
 
+[URL Rewrite]
+^https?:\/\/r6\.mo\.baidu\.com\/res\/file/advertisement\/files\/.+\.jpg - reject
+^https?:\/\/res\.mi\.baidu\.com\/imeres\/ime-res\/advertisement\/files\/.+\.jpg - reject
+^https?:\/\/mime\.baidu\.com\/v\d\/activity\/advertisementnonrealtime - reject
+^https?:\/\/mime\.baidu\.com\/v\d\/start_screen_ads\/list - reject
+^https?:\/\/mime\.baidu\.com\/v\d\/hotpatch\/check\?hotpatch - reject
+^https?:\/\/mime\.baidu\.com\/v\d\/IosStart\/getStartInfo - reject
+
+[Map Local]
+^https?:\/\/mime\.baidu\.com\/v\d\/start_screen_ads/list data-type=text data="{}" status-code=200
+^https?:\/\/mime\.baidu\.com\/sapi\/v\d\/lccorpus\/(?>applist|pannellist) data-type=text data="{}" status-code=200
+^https?:\/\/mime\.baidu\.com\/sapi\/v\d\/circle\/joinedlist data-type=text data="{}" status-code=200
+^https?:\/\/mime\.baidu\.com\/commer\/pocket_api\/enterprise_list data-type=text data="{}" status-code=200
+^https?:\/\/mbd\.baidu\.com\/ccs\/v\d\/start\/confsync\?appname=baidu_input data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% r6.mo.baidu.com, res.mi.baidu.com, mime.baidu.com, mbd.baidu.com

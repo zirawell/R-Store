@@ -1,1 +1,7 @@
+# > 美柚<微信小程序> - SEEYOUYIMA
 
+[Map Local]
+^https?:\/\/wxproj\.seeyouyima\.com\/data\/today_tips data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% wxproj.seeyouyima.com

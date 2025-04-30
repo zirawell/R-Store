@@ -1,1 +1,7 @@
+# > 妈妈网孕育 - MAMA
 
+[Map Local]
+^https?:\/\/qimg\.cdnmama\.com\/rd data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% qimg.cdnmama.com

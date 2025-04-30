@@ -1,1 +1,7 @@
+# > 菜鸟裹裹<支付宝小程序> - CAINIAO
 
+[Map Local]
+^https?:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.cainiao\.guoguo\.nbnetflow\.ads data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% guide-acs.m.taobao.com

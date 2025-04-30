@@ -2,3 +2,10 @@
 
 [Rule]
 DOMAIN, adapi.izuiyou.com, REJECT, extended-matching, pre-matching
+
+[URL Rewrite]
+^https?:\/\/api\.izuiyou\.com\/ad\/ - reject
+^https?:\/\/mercury-gateway\.ixiaochuan\.cn\/mercury\/v\d\/ad\/ - reject
+
+[MITM]
+hostname= %APPEND% api.izuiyou.com, mercury-gateway.ixiaochuan.cn

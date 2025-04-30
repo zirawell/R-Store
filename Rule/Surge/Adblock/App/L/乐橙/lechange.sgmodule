@@ -1,1 +1,7 @@
+# > 乐橙 - LECHANGE
 
+[URL Rewrite]
+^https?:\/\/dl-cu-hz\.lechange\.cn\/oms-online\/advertisementPush - reject
+
+[MITM]
+hostname= %APPEND% dl-cu-hz.lechange.cn

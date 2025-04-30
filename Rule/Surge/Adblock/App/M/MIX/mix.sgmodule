@@ -1,1 +1,7 @@
+# > MIX - MIX
 
+[URL Rewrite]
+^https?:\/\/dispatcher\.camera360\.com\/api\/v\d\/list$ - reject
+
+[MITM]
+hostname= %APPEND% dispatcher.camera360.com

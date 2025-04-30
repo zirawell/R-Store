@@ -1,1 +1,7 @@
+# > 扫描全能王 - CAMSCANNER
 
+[Map Local]
+^https?:\/\/api\.intsig\.net\/user\/cs\/operating\/app\/get_startpic\/ data-type=text data="" status-code=200
+
+[MITM]
+hostname= %APPEND% api.intsig.net

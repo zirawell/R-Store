@@ -1,1 +1,7 @@
+# > 界面新闻 - JIEMIAN
 
+[URL Rewrite]
+^https?:\/\/img\.jiemian\.com\/ads\/ - reject
+
+[MITM]
+hostname= %APPEND% img.jiemian.com

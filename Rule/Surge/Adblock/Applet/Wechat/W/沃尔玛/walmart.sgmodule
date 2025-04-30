@@ -1,1 +1,10 @@
+# > 沃尔玛<微信小程序> - WALMART
 
+[Map Local]
+^https?:\/\/mapi\.ghsmpwalmart\.com\/api\d\/ec\/navigation\/page\/getPageActivityTab data-type=text data="{}" status-code=200
+^https?:\/\/mapi\.ghsmpwalmart\.com\/api\d\/ec\/navigation\/spread\/querySpreadList data-type=text data="{}" status-code=200
+^https?:\/\/mapi\.ghsmpwalmart\.com\/api\d\/ec\/navigation\/user\/getAdvertisementPlayModuleInfo data-type=text data="{}" status-code=200
+^https?:\/\/mapi\.ghsmpwalmart\.com\/api\d\/ec\/user\/couponPackage\/couponPackageAccess data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% mapi.ghsmpwalmart.com

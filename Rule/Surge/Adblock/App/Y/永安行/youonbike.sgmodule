@@ -1,1 +1,7 @@
+# > 永安行 - YOUONBIKE
 
+[Map Local]
+^https?:\/\/api5\.youonbike\.com\/ibike-rest-service\/user\/fun_IBF_GetAdvert data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% api5.youonbike.com

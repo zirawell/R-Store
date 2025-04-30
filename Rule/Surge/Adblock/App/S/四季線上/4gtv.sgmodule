@@ -1,1 +1,7 @@
+# > 四季線上 - 4GTV
 
+[Map Local]
+^https?:\/\/service\.4gtv\.tv\/4gtv\/Data\/(?>GetAD|ADLog) data-type=text data="" status-code=200
+
+[MITM]
+hostname= %APPEND% service.4gtv.tv

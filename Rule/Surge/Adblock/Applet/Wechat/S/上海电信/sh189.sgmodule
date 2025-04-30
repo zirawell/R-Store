@@ -2,3 +2,13 @@
 
 [Rule]
 DOMAIN, bigdata-behaviordata.189.cn, REJECT, extended-matching, pre-matching
+
+[URL Rewrite]
+^https?:\/\/m\.sh\.189\.cn\/business-appletapi\/packBinds\/getAadvertisement - reject
+
+[Map Local]
+^https?:\/\/m\.sh\.189\.cn\/business-appletapi\/applet\/query\/(?>items|banners|getAdItemList) data-type=text data="{}" status-code=200
+^https?:\/\/m\.sh\.189\.cn\/business-appletapi\/packageQuery\/(?>getUserAdvertising|getLiveSessionList|getTopBannerData|getssplabelinfo|getsspmaterielinfo|sspQueryOperationInfo) data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% m.sh.189.cn

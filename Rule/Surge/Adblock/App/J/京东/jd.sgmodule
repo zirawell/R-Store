@@ -19,3 +19,20 @@ DOMAIN-KEYWORD, keplerapi.jd.com, REJECT, extended-matching, pre-matching
 DOMAIN-KEYWORD, mapi.m.jd.com, REJECT, extended-matching, pre-matching
 IP-CIDR, 101.124.19.122/32, REJECT, pre-matching
 IP-CIDR6, 2402:db40:5100:1011::5/128, REJECT, pre-matching
+
+[URL Rewrite]
+^https?:\/\/api\.m\.jd\.com\/openUpgrade - reject
+^https?:\/\/\w{32}\.jddebug\.com\/diagnose\? - reject
+^https?:\/\/storage\.360buyimg\.com\/app\.m\.jd\.com\/lottie - reject
+^https?:\/\/storage\.360buyimg\.com\/dynamicConfig\/binary - reject
+^https?:\/\/img\d+\.360buyimg\.com\/jddjadvertise\/ - reject
+
+[Map Local]
+^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=(?>searchBoxWord|xview2Config|stationPullService|getWidget|widget|hybrid|jdDiscoveryRedPoint|queryMaterialAdverts) data-type=text data="" status-code=200
+^https?:\/\/(bdsp-x|dsp-x)\.jd\.com\/adx\/ data-type=text data="" status-code=200
+
+[Script]
+type=http-response,pattern=^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=(?>deliverLayer|getTabHomeInfo|myOrderInfo|orderTrackBusiness|personinfoBusiness|start|welcomeHome),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/jd.js
+
+[MITM]
+hostname= %APPEND% api.m.jd.com, *.jddebug.com, bdsp-x.jd.com, dsp-x.jd.com, storage.360buyimg.com, img*.360buyimg.com

@@ -1,1 +1,8 @@
+# > 工银E生活 - ELIFE
 
+[Map Local]
+^https?:\/\/pv\.elife\.icbc\.com\.cn\/OFSTPV\/utm\.gif data-type=text data="" status-code=200
+^https?:\/\/elife\.icbc\.com\.cn\/OFSTNEWBASE\/floorinfo\/getStartupPages data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% pv.elife.icbc.com.cn

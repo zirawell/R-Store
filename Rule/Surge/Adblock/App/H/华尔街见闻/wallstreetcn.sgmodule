@@ -1,1 +1,9 @@
+# > 华尔街见闻 - WALLSTREETCN
 
+[URL Rewrite]
+^https?:\/\/api-one-wscn\.awtmt\.com\/apiv\d\/advertising\/ - reject
+^https?:\/\/api\.wallstreetcn\.com\/apiv\d\/advertising\/ - reject
+^https?:\/\/api\.wallstcn\.com\/apiv\d\/advertising\/ - reject
+
+[MITM]
+hostname= %APPEND% api-one-wscn.awtmt.com, api.wallstreetcn.com, api.wallstcn.com

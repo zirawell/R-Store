@@ -1,1 +1,11 @@
+# > 苏宁易购 - SUNING
 
+[URL Rewrite]
+^https?:\/\/mpcs\.suning\.com\/mpcs\/dm\/getDmInfo - reject
+
+[Map Local]
+^https?:\/\/image\.suning\.cn\/uimg\/ma\/ad\/ data-type=text data="" status-code=200
+^https?:\/\/luckman\.suning\.com\/luck-web\/policy\/v\d\/msf\/index\.do data-type=text data="" status-code=200
+
+[MITM]
+hostname= %APPEND% mpcs.suning.com, image.suning.com, luckman.suning.com

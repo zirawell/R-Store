@@ -3,3 +3,9 @@
 [Rule]
 DOMAIN, advertise.baicizhan.com, REJECT, extended-matching, pre-matching
 DOMAIN, advertise.baicizhan.org, REJECT, extended-matching, pre-matching
+
+[Map Local]
+^https?:\/\/7n\.bczcdn\.com\/launchad\/ data-type=text data="" status-code=200
+
+[MITM]
+hostname= %APPEND% 7n.bczcdn.com

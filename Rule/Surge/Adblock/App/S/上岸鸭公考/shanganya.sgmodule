@@ -1,1 +1,10 @@
+# > 上岸鸭公考 - SHANGANYA
 
+[URL Rewrite]
+^https?:\/\/apigateway\.gaodun\.com\/common-app\/portal\/v\d\/\w+\/pop - reject
+
+[Map Local]
+^https?:\/\/apigateway\.gaodun\.com\/common-app\/version data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% apigateway.gaodun.com

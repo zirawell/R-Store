@@ -1,1 +1,7 @@
+# > 中国大学MOOC - MOOC
 
+[Map Local]
+^https?:\/\/www\.icourse163\.org\/.*?(Advertisement) data-type=tiny-gif status-code=200
+
+[MITM]
+hostname= %APPEND% www.icourse163.org

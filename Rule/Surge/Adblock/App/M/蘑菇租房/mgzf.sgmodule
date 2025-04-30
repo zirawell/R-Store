@@ -1,1 +1,7 @@
+# > 蘑菇租房 - MGZF
 
+[URL Rewrite]
+^https?:\/\/api\.mgzf\.com\/renter-operation\/home\/startHomePage - reject
+
+[MITM]
+hostname= %APPEND% api.mgzf.com

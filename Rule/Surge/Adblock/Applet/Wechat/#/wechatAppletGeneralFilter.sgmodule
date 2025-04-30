@@ -1,6 +1,0 @@
-# > 通用规则<微信小程序> - WechatAppletGeneralFilter
-
-[Rule]
-DOMAIN-SUFFIX, wxsnsdy.wxs.qq.com, REJECT, extended-matching, pre-matching
-DOMAIN-SUFFIX, wxsmsdy.video.qq.com, REJECT, extended-matching, pre-matching
-DOMAIN-SUFFIX, wxsnsdythumb.wxs.qq.com, REJECT, extended-matching, pre-matching

@@ -1,1 +1,7 @@
+# > 韭菜公社 - JIUCAIGONGSHE
 
+[Map Local]
+^https?:\/\/jiucaigongshe\.oss-cn-beijing\.aliyuncs\.com\/[A-Z0-9]{8}-[A-Z0-9]{4}-[A-Z0-9]{4}-[A-Z0-9]{4}-[A-Z0-9]{12}\.png data-type=text data="" status-code=200
+
+[MITM]
+hostname= %APPEND% jiucaigongshe.oss-cn-beijing.aliyuncs.com

@@ -1,1 +1,8 @@
+# > 广州地铁乘车码<微信小程序> - ALENABLE
 
+[Map Local]
+^https?:\/\/apis\.alenable\.com\/mall\/v\d\/api\/mall\/skin\/user\/get data-type=text data="{}" status-code=200
+^https?:\/\/apis\.alenable\.com\/ycx\/v\d\/api\/adPut data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% apis.alenable.com

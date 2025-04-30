@@ -1,1 +1,10 @@
+# > 朴朴超市 - PUPU
 
+[URL Rewrite]
+^https?:\/\/j1\.pupuapi\.com\/client\/marketing\/banner\/v\d\?position - reject
+
+[Map Local]
+^https?:\/\/j1\.pupuapi\.com\/client\/marketing\/advertisement\/ data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% j1.pupuapi.com

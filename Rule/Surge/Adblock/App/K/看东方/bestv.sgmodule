@@ -1,1 +1,7 @@
+# > 看东方(百视TV) - BESTV
 
+[URL Rewrite]
+^https?:\/\/bp-api\.bestv\.com\.cn\/cms\/api\/free\/open\/advertising - reject
+
+[MITM]
+hostname= %APPEND% bp-api.bestv.com.cn

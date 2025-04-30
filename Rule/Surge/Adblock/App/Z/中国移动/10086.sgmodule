@@ -2,3 +2,11 @@
 
 [Rule]
 IP-CIDR, 120.240.95.37/32, REJECT, pre-matching
+
+[URL Rewrite]
+^https?:\/\/(client\.)?app(\.coc)?\.10086\.cn\/biz-orange\/DN\/init\/startInit - reject
+^https?:\/\/(client\.)?app(\.coc)?\.10086\.cn\/biz-orange\/DN\/explorePage\/getAdverList - reject
+^https?:\/\/(client\.)?app(\.coc)?\.10086\.cn\/biz-orange\/DN\/emotionMarket - reject
+
+[MITM]
+hostname= %APPEND% client.app.coc.10086.cn, app.10086.cn

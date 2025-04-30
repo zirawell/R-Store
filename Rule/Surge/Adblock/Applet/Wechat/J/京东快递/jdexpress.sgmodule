@@ -1,1 +1,11 @@
+# > 京东快递<微信小程序> - JDEXPRESS
 
+[Map Local]
+^https?:\/\/lop-proxy\.jd\.com\/BeaconFireApi\/queryMarketingRecommendRuleConfigInfo data-type=text data="{}" status-code=200
+^https?:\/\/lop-proxy\.jd\.com\/home\/banner data-type=text data="{}" status-code=200
+^https?:\/\/lop-proxy\.jd\.com\/order\/getCarbonIntegral data-type=text data="{}" status-code=200
+^https?:\/\/lop-proxy\.jd\.com\/csat\/getNPSQuestionnaire data-type=text data="{}" status-code=200
+^https?:\/\/lop-proxy\.jd\.com\/search\/getQuestionnaireByOrderInfo data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% lop-proxy.jd.com

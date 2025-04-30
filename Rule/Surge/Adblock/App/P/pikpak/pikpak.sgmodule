@@ -1,1 +1,7 @@
+# > pikpak - PIKPAK
 
+[URL Rewrite]
+^https?:\/\/access\.mypikpak\.com\/access_controller\/v\d\/area_accessible - reject
+
+[MITM]
+hostname= %APPEND% access.mypikpak.com

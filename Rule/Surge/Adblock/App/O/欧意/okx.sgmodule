@@ -1,1 +1,7 @@
+# > 欧意 - OKX
 
+[URL Rewrite]
+^https?:\/\/www\.okx\.com\/v\d\/support\/home\/app\/updateInfo - reject
+
+[MITM]
+hostname= %APPEND% www.okx.com

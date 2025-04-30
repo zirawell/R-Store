@@ -1,1 +1,7 @@
+# > 分期乐 - FENQILE
 
+[Map Local]
+^https?:\/\/fm\.fenqile\.com\/routev\d\/other\/(startImg|getfloatAd)\.json data-type=tiny-gif status-code=200
+
+[MITM]
+hostname= %APPEND% fm.fenqile.com

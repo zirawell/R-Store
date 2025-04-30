@@ -1,1 +1,7 @@
+# > 京东云无线宝 - JDCLOUD
 
+[Map Local]
+^https?:\/\/router-app-api\.jdcloud\.com\/v\d\/board\/routerAppSplash data-type=text data="" status-code=200
+
+[MITM]
+hostname= %APPEND% router-app-api.jdcloud.com

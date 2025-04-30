@@ -1,1 +1,11 @@
+# > 配音秀 - PEIYINXIU
 
+[Script]
+type=http-response,pattern=^https?:\/\/iosapi\.peiyinxiu\.com\/Api\/Film\/GetConfigValue,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/dubbingShow.js
+type=http-response,pattern=^https?:\/\/iosapi\.peiyinxiu\.com\/Api\/live\/LiveList,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/dubbingShow.js
+type=http-response,pattern=^https?:\/\/iosapi\.peiyinxiu\.com\/api\/live\/FollowList,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/dubbingShow.js
+type=http-response,pattern=^https?:\/\/iosapi\.peiyinxiu\.com\/Api\/Friend\/GetRecommendUsers,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/dubbingShow.js
+type=http-response,pattern=^https?:\/\/iosapi\.peiyinxiu\.com\/api\/Union\/HomeData,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/dubbingShow.js
+
+[MITM]
+hostname= %APPEND% iosapi.peiyinxiu.com

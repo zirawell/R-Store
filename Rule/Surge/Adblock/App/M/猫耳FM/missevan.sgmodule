@@ -1,1 +1,7 @@
+# > 猫耳FM - MISSEVAN
 
+[URL Rewrite]
+^https?:\/\/app\.missevan\.com\/site\/launch\? - reject
+
+[MITM]
+hostname= %APPEND% app.missevan.com

@@ -4,3 +4,15 @@
 DOMAIN, adx.hupu.com, REJECT, extended-matching, pre-matching
 DOMAIN, adx-api.hupu.com, REJECT, extended-matching, pre-matching
 DOMAIN, goblin.hupu.com, REJECT, extended-matching, pre-matching
+
+[URL Rewrite]
+^https?:\/\/goblin\.hupu\.com\/.+\/interfaceAd\/ - reject
+
+[Map Local]
+^https?:\/\/games\.mobileapi\.hupu\.com(\/.+)?\/(interfaceAd|status\/init) data-type=text data="" status-code=200
+^https?:\/\/du\.hupucdn\.com\/\w+h\d{4} data-type=tiny-gif status-code=200
+^https?:\/\/i\d\.hoopchina\.com\.cn\/blogfile\/.+_\d{3}x\d{4} data-type=tiny-gif status-code=200
+^https?:\/\/business\.msstatic\.com\/advertiser data-type=text data="" status-code=200
+
+[MITM]
+hostname= %APPEND% games.mobileapi.hupu.com, goblin.hupu.com, du.hupucdn.com, i*.hoopchina.com.cn, business.msstatic.com

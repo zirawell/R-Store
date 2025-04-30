@@ -1,1 +1,10 @@
+# > 汽水音乐 - QISHUI
 
+[URL Rewrite]
+^https?:\/\/lf-cdn-tos\.bytescm\.com\/obj\/static\/ad\/ - reject
+
+[Map Local]
+^https?:\/\/webcast-open\.douyin\.com\/webcast\/openapi\/feed\/ data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% webcast-open.douyin.com, lf-cdn-tos.bytescm.com

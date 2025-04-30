@@ -2,3 +2,13 @@
 
 [Rule]
 DOMAIN, news.ssp.qq.com, REJECT, extended-matching, pre-matching
+
+[URL Rewrite]
+^https?:\/\/r\.inews\.qq\.com\/(?>adsBlacklist|getFullScreenPic|getQQNewsRemoteConfig) - reject
+^https?:\/\/r\.inews\.qq\.com\/(?>getBannerAds|getNewsRemoteConfig|getSplash|searchHotCatList|upLoadLoc) - reject
+
+[Script]
+type=http-response,pattern=^https?:\/\/r\.inews\.qq\.com\/gw\/page\/(?>event_detail|channel_feed),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/txnews.js
+
+[MITM]
+hostname= %APPEND% r.inews.qq.com

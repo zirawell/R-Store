@@ -1,1 +1,7 @@
+# > 美团众包 - MEITUANZB
 
+[Map Local]
+^https?:\/\/peisongapi\.meituan\.com\/client\/getInitiateImage data-type=text data="" status-code=200
+
+[MITM]
+hostname= %APPEND% peisongapi.meituan.com
