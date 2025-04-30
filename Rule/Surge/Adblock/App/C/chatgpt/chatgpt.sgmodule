@@ -1,6 +1,7 @@
 # > chatgpt - CHATGPT
 
 [Map Local]
+# 旧版本解除强制更新
 ^https?:\/\/ios\.chat\.openai\.com\/public-api\/mobile\/app_support_status data-type=text data="{}" status-code=200
 
 [MITM]

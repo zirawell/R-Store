@@ -6,7 +6,9 @@
 
 [Map Local]
 ^https?:\/\/mapi\.appvipshop\.com\/vips-mobile\/rest\/activity\/advertisement\/get data-type=text data="" status-code=200
+# APP+小程序弹窗广告
 ^https?:\/\/mapi\.appvipshop\.com\/vips-mobile\/rest\/layout\/productList\/eventData\/v data-type=text data="" status-code=200
+# 右下角悬浮窗，需手动关闭广告一次
 ^https?:\/\/mapi\.appvipshop\.com\/vips-mobile\/rest\/activity\/coupon\/float_entrance\/get\?api_key data-type=text data="" status-code=200
 
 [MITM]

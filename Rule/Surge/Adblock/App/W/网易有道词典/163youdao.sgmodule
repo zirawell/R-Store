@@ -31,19 +31,28 @@ DOMAIN-SUFFIX, impservice-test.dictapp.youdao.com, REJECT, extended-matching, pr
 DOMAIN-SUFFIX, impservicetest.dictapp.youdao.com, REJECT, extended-matching, pre-matching
 
 [Map Local]
+# 翻译广告
 ^https?:\/\/dict\.youdao\.com\/course\/tab\/translateTab data-type=text data="{}" status-code=200
+# 首次查词弹窗
 ^https?:\/\/api-overmind\.youdao\.com\/openapi\/get\/luna\/dict\/dict-mobile\/prod\/dictCommonConfig data-type=text data="{}" status-code=200
+# 首页弹窗
 ^https?:\/\/cdke\.youdao\.com\/course\d\/recommend\/dict\/startup data-type=text data="{}" status-code=200
+# 搜索预想
 ^https?:\/\/dict\.youdao\.com\/commonsearch data-type=text data="{}" status-code=200
+# 会员优惠券弹窗
 ^https?:\/\/dict\.youdao\.com\/vip\/activity\/couponinfo data-type=text data="{}" status-code=200
+# 首页左上角福利中心
 ^https?:\/\/dict\.youdao\.com\/dictusertask\/system data-type=text data="{}" status-code=200
+# 会员界面横幅广告
 ^https?:\/\/dictvip-business\.youdao\.com\/home\/ad data-type=text data="{}" status-code=200
+# 其他
 ^https?:\/\/oimage\w\d\.ydstatic\.com\.+adpublish data-type=tiny-gif status-code=200
 ^https?:\/\/dsp-impr2\.youdao\.com\/adload data-type=text data="" status-code=200
 ^https?:\/\/impservice\.dictapp\.youdao\.com\/imp\/request data-type=tiny-gif status-code=200
 ^https?:\/\/oral\.youdao\.com\/oral\/adInfo data-type=tiny-gif status-code=200
 
 [Script]
+# 首页净化，学习Tab界面净化，首页听读训练净化
 type=http-response,pattern=^https?:\/\/dict\.youdao\.com\/(homepage\/promotion|course\/tab\/home|homepage\/tile),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/youdao.js
 
 [MITM]

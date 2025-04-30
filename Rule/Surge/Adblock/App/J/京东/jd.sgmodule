@@ -21,6 +21,7 @@ IP-CIDR, 101.124.19.122/32, REJECT, pre-matching
 IP-CIDR6, 2402:db40:5100:1011::5/128, REJECT, pre-matching
 
 [URL Rewrite]
+# 屏蔽强制更新
 ^https?:\/\/api\.m\.jd\.com\/openUpgrade - reject
 ^https?:\/\/\w{32}\.jddebug\.com\/diagnose\? - reject
 ^https?:\/\/storage\.360buyimg\.com\/app\.m\.jd\.com\/lottie - reject

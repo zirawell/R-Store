@@ -1,6 +1,7 @@
 # > 工银E生活<微信小程序> - ICBCELIFE
 
 [Map Local]
+# ⚠️域名[elife.icbc.com.cn]可能会导致App端部分功能无法使用，请自行选择是否需要
 ^https?:\/\/elife\.icbc\.com\.cn\/OFSTNEWBASE\/floorinfo\/(getStartupMantleFlatingFloor|getMantlePages) data-type=text data="" status-code=200
 
 [MITM]

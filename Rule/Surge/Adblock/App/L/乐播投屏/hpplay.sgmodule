@@ -1,10 +1,15 @@
 # > 乐播投屏 - HPPLAY
 
 [Map Local]
+# 首页-弹窗
 ^https?:\/\/saas\.hpplay\.cn\/api\/lebo-desk\/endpoint\/app-resource\/app_home_pop_up data-type=text data="{}" status-code=200
+# 首页-顶部横幅推广
 ^https?:\/\/saas\.hpplay\.cn\/api\/lebo-desk\/endpoint\/app-resource\/app_home_tips data-type=text data="{}" status-code=200
+# 首页-底部横幅推广
 ^https?:\/\/saas\.hpplay\.cn\/api\/lebo-desk\/endpoint\/app-resource\/app_index_operate2 data-type=text data="{}" status-code=200
+# 首页-全网热投榜
 ^https?:\/\/saas\.hpplay\.cn\/api\/lebo-rabbit\/app-card\/list data-type=text data="{}" status-code=200
+# 我的页面-横幅推广
 ^https?:\/\/saas\.hpplay\.cn\/api\/lebo-desk\/endpoint\/app-resource\/app-user-banner data-type=text data="{}" status-code=200
 
 [MITM]

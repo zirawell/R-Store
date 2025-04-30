@@ -1,8 +1,11 @@
 # > 云鲸智能 - NARWAL
 
 [Map Local]
+#开屏广告 
 ^https?:\/\/cn-app\.narwaltech\.com\/operate\/appPosition\/listSplash\?resourceIds=narwal_splash_screen data-type=text data="{}" status-code=200
+#设备横幅广告
 ^https?:\/\/cn-app\.narwaltech\.com\/operate\/cactivity\/listByResourceIds\?resourceIds=index_banner data-type=text data="{}" status-code=200
+#我的横幅广告 
 ^https?:\/\/cn-app\.narwaltech\.com\/operate\/cactivity\/listByResourceIds\?resourceIds=user_center_banner data-type=text data="{}" status-code=200
 
 [MITM]

@@ -1,17 +1,22 @@
 # > 中国人保 - PICC
 
 [URL Rewrite]
+# 人保头条
 ^https?:\/\/zgrb\.epicc\.com\.cn\/G-HAPP\/h\/headlines\/queryHeadlines - reject
 
 [Body Rewrite]
 http-response ^https?:\/\/zgrb\.epicc\.com\.cn\/G-HAPP\/headLine\/headLineInit data data0
 
 [Map Local]
+# 启动开屏
 ^https?:\/\/zgrb\.epicc\.com\.cn\/G-HAPP\/a\/update\/startupPage data-type=text data="{}" status-code=200
+# 弹窗广告
 ^https?:\/\/zgrb\.epicc\.com\.cn\/G-HAPP\/a\/config\/windowsintegration\/getMessage data-type=text data="{}" status-code=200
 
 [Script]
+# 主页面
 type=http-response,pattern=^https?:\/\/zgrb\.epicc\.com\.cn\/G-HAPP\/a\/config\/homeInit,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/picc.js
+# 我的页面
 type=http-response,pattern=^https?:\/\/zgrb\.epicc\.com\.cn\/G-HAPP\/mpageconfig\/myPageConfigList,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/picc.js
 
 [MITM]

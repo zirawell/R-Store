@@ -6,26 +6,42 @@ DOMAIN, apm.gotokeep.com, REJECT, extended-matching, pre-matching
 DOMAIN, kad.gotokeep.com, REJECT, extended-matching, pre-matching
 
 [URL Rewrite]
+# 屏蔽应用内弹窗
 ^https?:\/\/api\.gotokeep\.com\/guide-webapp\/v\d\/popup\/getPopUp - reject
+# 屏蔽部分启动弹窗
 ^https?:\/\/api\.gotokeep\.com\/kprime\/v\d\/popups\/primeGuide - reject
+# 屏蔽开屏广告请求
 ^https?:\/\/kad\.gotokeep\.com\/op-engine-webapp\/v\d\/ad - reject
+# 屏蔽青少年弹窗
 ^https?:\/\/api.gotokeep.com/cauchy/growth/init - reject
+# 屏蔽搜索栏自动填充词
 ^https?:\/\/api\.gotokeep\.com\/search\/v\d\/default\/keyword\/list - reject
+# 屏蔽热词
 ^https?:\/\/api\.gotokeep\.com\/search\/v\d\/hotword\/list - reject
+# 屏蔽hotCourse
 ^https?:\/\/api\.gotokeep\.com\/search\/v\d\/hotCourse\/list - reject
+# 屏蔽adwebapp
 ^https?:\/\/api\.gotokeep\.com\/op-engine-webapp\/v\d\/ad - reject
+# 屏蔽广告预加载
 ^https?:\/\/api\.gotokeep\.com\/ads - reject
+# 屏蔽adbox
 ^https?:\/\/api\.gotokeep\.com\/training\/box\/config - reject
+# 屏蔽更新
 ^https?:\/\/api\.gotokeep\.com\/anno\/v\d\/upgrade\/check - reject
 
 [Map Local]
 ^https?:\/\/static1\.keepcdn\.com\/ark_optimus\/202\d\/*\/*\/.*.(?>png|jpg) data-type=text data="" status-code=200
 
 [Script]
+# 我的页面去推广
 type=http-response,pattern=^https?:\/\/api\.gotokeep\.com\/athena\/v\d\/people\/my$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/keep.js
+# 应用底部栏净化
 type=http-response,pattern=^https?:\/\/api\.gotokeep\.com\/config\/v\d\/basic,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/keep.js
+# 发现页处理
 type=http-response,pattern=^https?:\/\/api\.gotokeep\.com\/homepage\/v\d\/tab,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/keep.js
+# 课程预览页广告
 type=http-response,pattern=^https?:\/\/api\.gotokeep\.com\/nuocha\/course\/v\d/\w+\/preview,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/keep.js
+# 我的运动页面去除下方推荐
 type=http-response,pattern=^https?:\/\/api\.gotokeep\.com\/sportpage\/sport\/v\d\/mysport,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/keep.js
 
 [MITM]

@@ -1,6 +1,7 @@
 # > 特来电<微信小程序> - TELD
 
 [Map Local]
+# ATMS-MissioncenterSlideshow - 我的页中部横幅
 ^https?:\/\/sg\.teld\.cn\/api\/invoke\?SID=(?>CMS-GetMpAdList|OMP-Monitor-FrontendSend|CMS-GetMPBannerByType|ATMS-MissioncenterSlideshow) data-type=text data="{}" status-code=200
 
 [MITM]
