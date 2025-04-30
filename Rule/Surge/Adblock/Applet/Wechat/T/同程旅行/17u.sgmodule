@@ -14,7 +14,7 @@
 ^https?:\/\/wx\.17u\.cn\/platformpubapi\/customer\/lead\/getInfo data-type=text data="{}" status-code=200
 ^https?:\/\/wx\.17u\.cn\/vacation\/webapp\/tailor\/miniHomeConfig data-type=text data="{}" status-code=200
 ^https?:\/\/wx\.17u\.cn\/wireless\/monitor\/wx\/common\/compressevent data-type=text data="{}" status-code=200
-^https?:\/\/\w+\.sh\.wxgateway\.com\/xcxhomeapi\((aggregator\/index)|(home\/(?>screen|banner|converge)))$ data-type=text data="{}" status-code=200
+^https?:\/\/\w+\.sh\.wxgateway\.com\/xcxhomeapi\/((aggregator\/index)|(home\/(?>screen|banner|converge)))$ data-type=text data="{}" status-code=200
 
 [MITM]
 hostname= %APPEND% wx.17u.cn, *.sh.wxgateway.com
