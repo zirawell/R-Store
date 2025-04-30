@@ -18,7 +18,7 @@
 | 序号        | 配置主页                                                    | 目前进度|
 | :--------- | :----------------------------------------------------------| :-- |
 | 1 | [`QuanX`](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX) | 完善中 |
-| 2 | [`Surge`](https://github.com/zirawell/R-Store/tree/main/Rule/Surge) | 待建设 |
+| 2 | [`Surge`](https://github.com/zirawell/R-Store/tree/main/Rule/Surge) | 完善中 |
 
 ### `QuanX`规则
 
