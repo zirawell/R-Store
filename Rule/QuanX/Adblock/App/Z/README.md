@@ -1,7 +1,7 @@
 # Z
 <details>
 <summary>
-本目录共收录40个App，详情见如下，单击导入对应配置：
+本目录共收录41个App，详情见如下，单击导入对应配置：
 </summary>
 
 - [ZCOOL站酷](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FZ%2FZCOOL%E7%AB%99%E9%85%B7%2Frewrite%2Fzcool.conf%2C%20tag%3DZCOOL%E7%AB%99%E9%85%B7%22%5D%7D)
@@ -27,6 +27,7 @@
 - [作业帮](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FZ%2F%E4%BD%9C%E4%B8%9A%E5%B8%AE%2Frewrite%2Fzybang.conf%2C%20tag%3D%E4%BD%9C%E4%B8%9A%E5%B8%AE%22%5D%7D)
 - [招商银行](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FZ%2F%E6%8B%9B%E5%95%86%E9%93%B6%E8%A1%8C%2Ffilter%2Fcmb.list%2C%20tag%3D%E6%8B%9B%E5%95%86%E9%93%B6%E8%A1%8C%22%5D%2C%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FZ%2F%E6%8B%9B%E5%95%86%E9%93%B6%E8%A1%8C%2Frewrite%2Fcmb.conf%2C%20tag%3D%E6%8B%9B%E5%95%86%E9%93%B6%E8%A1%8C%22%5D%7D)
 - [指点天下](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FZ%2F%E6%8C%87%E7%82%B9%E5%A4%A9%E4%B8%8B%2Frewrite%2Fzhidiantianxia.conf%2C%20tag%3D%E6%8C%87%E7%82%B9%E5%A4%A9%E4%B8%8B%22%5D%7D)
+- [掌上京彩](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FZ%2F%E6%8E%8C%E4%B8%8A%E4%BA%AC%E5%BD%A9%2Frewrite%2Fbobcc.conf%2C%20tag%3D%E6%8E%8C%E4%B8%8A%E4%BA%AC%E5%BD%A9%22%5D%7D)
 - [掌上公交](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FZ%2F%E6%8E%8C%E4%B8%8A%E5%85%AC%E4%BA%A4%2Frewrite%2Fmygolbs.conf%2C%20tag%3D%E6%8E%8C%E4%B8%8A%E5%85%AC%E4%BA%A4%22%5D%7D)
 - [掌上生活](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FZ%2F%E6%8E%8C%E4%B8%8A%E7%94%9F%E6%B4%BB%2Frewrite%2Fcmbcc.conf%2C%20tag%3D%E6%8E%8C%E4%B8%8A%E7%94%9F%E6%B4%BB%22%5D%7D)
 - [掌上英雄联盟](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FZ%2F%E6%8E%8C%E4%B8%8A%E8%8B%B1%E9%9B%84%E8%81%94%E7%9B%9F%2Frewrite%2Fmlol.conf%2C%20tag%3D%E6%8E%8C%E4%B8%8A%E8%8B%B1%E9%9B%84%E8%81%94%E7%9B%9F%22%5D%7D)
