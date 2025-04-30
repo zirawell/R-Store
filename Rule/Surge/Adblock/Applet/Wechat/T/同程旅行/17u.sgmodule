@@ -6,10 +6,15 @@
 [Map Local]
 ^https?:\/\/wx\.17u\.cn\/wxocbdapi\/adService data-type=text data="{}" status-code=200
 ^https?:\/\/wx\.17u\.cn\/homemarketapi\/(aggregator\/index|search\/recommend) data-type=text data="{}" status-code=200
-^https?:\/\/wx\.17u\.cn\/wechatmypubapi\/myInfo\/(?>aorderRemind|icons|memberShow|messageBox) data-type=text data="{}" status-code=200
-^https?:\/\/wx\.17u\.cn\/mytourapi\/(mytrip\/blankflight|blankpage\/recommendList) data-type=text data="{}" status-code=200
+^https?:\/\/wx\.17u\.cn\/wechatmypubapi\/myInfo\/(?>orderRemind|icons|memberShow|memberInfo|messageBox) data-type=text data="{}" status-code=200
+^https?:\/\/wx\.17u\.cn\/mytourapi\/mytrip\/(?>blankflight|toptips) data-type=text data="{}" status-code=200
+^https?:\/\/wx\.17u\.cn\/mytourapi\/blankpage\/recommendList data-type=text data="{}" status-code=200
+^https?:\/\/wx\.17u\.cn\/mytourapi\/recommendation\/arriveCity data-type=text data="{}" status-code=200
 ^https?:\/\/wx\.17u\.cn\/membermessageuserapi\/(message\/list|category\/getCategory) data-type=text data="{}" status-code=200
 ^https?:\/\/wx\.17u\.cn\/platformpubapi\/customer\/lead\/getInfo data-type=text data="{}" status-code=200
+^https?:\/\/wx\.17u\.cn\/vacation\/webapp\/tailor\/miniHomeConfig data-type=text data="{}" status-code=200
+^https?:\/\/wx\.17u\.cn\/wireless\/monitor\/wx\/common\/compressevent data-type=text data="{}" status-code=200
+^https?:\/\/\w+\.sh\.wxgateway\.com\/xcxhomeapi\((aggregator\/index)|(home\/(?>screen|banner|converge)))$ data-type=text data="{}" status-code=200
 
 [MITM]
-hostname= %APPEND% wx.17u.cn
+hostname= %APPEND% wx.17u.cn, *.sh.wxgateway.com
