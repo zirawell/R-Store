@@ -23,7 +23,6 @@ IP-CIDR, 119.29.126.137/32, REJECT, pre-matching
 ^https?:\/\/awp-assets\.meituan\.net\/hfe\/fep\/\w+\.json - reject
 ^https?:\/\/s3plus\.meituan\.net\/ocean-blk-index\/index\/blk_conf - reject
 ^https?:\/\/ddplus\.meituan\.net\/v\d\/mss_\w+\/(ehc|titansx|ddblue)\/ - reject
-^https?:\/\/mars\.meituan\.com\/locate\/v\d\/sdk\/loc - reject
 
 [Map Local]
 ^https?:\/\/mapi\.dianping\.com\/mapi\/intelliindex data-type=text data="{}" status-code=200
@@ -37,4 +36,4 @@ type=http-response,pattern=^https?:\/\/img\.meituan\.net\/dpmobile\/,requires-bo
 type=http-response,pattern=^https?:\/\/ddplus\.meituan\.net\/v\d\/mss_\w+\/picassovc,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/dianping.js
 
 [MITM]
-hostname= %APPEND% 103.37.155.60, *.dianping.com, img.meituan.net, p.meituan.com, rms.meituan.com, www.dpfile.com, awp-assets.meituan.net, s3plus.meituan.net, p*.meituan.net, ddplus.meituan.net, mars.meituan.com
+hostname= %APPEND% 103.37.155.60, *.dianping.com, img.meituan.net, p.meituan.com, rms.meituan.com, www.dpfile.com, awp-assets.meituan.net, s3plus.meituan.net, p*.meituan.net, ddplus.meituan.net
