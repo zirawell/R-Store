@@ -1,0 +1,108 @@
+#!name=分流修正
+#!homepage=https://github.com/zirawell/R-Store
+#!raw-url=https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/Surge/Revision/Revision.sgmodule
+#!tg-group=https://t.me/lanjieguanggao
+#!date=2024-10-24 10:24:00
+#!---------------------------------------------------------------------------------------------------------------
+
+
+#------------------>A<------------------
+#anti-ad
+DOMAIN-KEYWORD, anti-ad.net, DIRECT
+#Alibaba
+DOMAIN, log.mmstat.com, DIRECT
+DOMAIN, sycm.mmstat.com, DIRECT
+#爱影视
+DOMAIN, static.jssp.tv, DIRECT
+DOMAIN, lain.bgm.tv, DIRECT
+DOMAIN, tiao.cjkypo.com, DIRECT
+DOMAIN, ok.zuidapic.com, DIRECT
+DOMAIN, ts.thefilehosting.com, DIRECT
+DOMAIN, deo.shopeemobile.com, DIRECT
+DOMAIN, m3u8.255tv.tk, DIRECT
+DOMAIN, m3u8.mstopq.com, DIRECT
+DOMAIN, ain.bgm.tv, DIRECT
+DOMAIN-KEYWORD, vip.lz-cdn, DIRECT
+DOMAIN-KEYWORD, ax1x.com, DIRECT
+DOMAIN-KEYWORD, o.lencr.org, DIRECT
+DOMAIN-KEYWORD, ttcdn-tos.kkimg.cc, DIRECT
+
+#------------------>D<------------------
+#大师兄影视
+DOMAIN, sdk.alibaba.com.ailbaba.me, DIRECT
+DOMAIN, img.ffzypic.com, DIRECT
+DOMAIN, img.liangzipic.com, DIRECT
+DOMAIN, img.bfzypic.com, DIRECT
+DOMAIN, img.kuaikanzy.net, DIRECT
+DOMAIN, vip.imgffzy.com, DIRECT
+DOMAIN, vip.ffzyread.com, DIRECT
+DOMAIN, cdn.jsdelivr.net, DIRECT
+DOMAIN, image.maimn.com, DIRECT
+DOMAIN-KEYWORD, bfzycdn.com, DIRECT
+DOMAIN-KEYWORD, vip.kuaikan-cdn, DIRECT
+DOMAIN-KEYWORD, vip.ffzy-play, DIRECT
+DOMAIN-KEYWORD, vip.ffzy-online, DIRECT
+
+#------------------>J<------------------
+#中国建设银行
+DOMAIN, imageadv.ccb.com, DIRECT
+
+#------------------>M<------------------
+#美团
+DOMAIN, maplocatesdksnapshot.dreport.meituan.net, DIRECT
+
+#------------------>P<------------------
+#苹果推送服务
+DOMAIN-KEYWORD, push.apple.com, DIRECT
+#苹果时间同步
+DOMAIN, time.apple.com, DIRECT
+#苹果天气服务
+DOMAIN-KEYWORD, weather-edge.apple.com, DIRECT
+DOMAIN-KEYWORD, weather-adge.apple.com, DIRECT
+DOMAIN-SUFFIX, weather-data.apple.com, DIRECT
+DOMAIN-SUFFIX, weather-map.apple.com, DIRECT
+DOMAIN-SUFFIX, weather-analytics-events.apple.com, DIRECT
+#苹果内购服务
+DOMAIN-KEYWORD, buy.itunes.apple.com, DIRECT
+#苹果icloud
+DOMAIN-KEYWORD, icloud.com, DIRECT
+#苹果输入法相关服务
+DOMAIN-KEYWORD, api.smoot.apple, DIRECT
+#苹果iMessage服务
+DOMAIN, init.ess.apple.com, DIRECT
+#苹果其他服务
+DOMAIN-KEYWORD, ssl.apple.com, DIRECT
+DOMAIN-KEYWORD, humb.apple.com, DIRECT
+DOMAIN, smp-device-content.apple.com, DIRECT
+DOMAIN-KEYWORD, api-adservices.apple.com, DIRECT
+DOMAIN-KEYWORD, ls.apple.com, DIRECT
+DOMAIN-KEYWORD, gsa.apple.com, DIRECT
+DOMAIN-KEYWORD, ess.apple.com, DIRECT
+#苹果appstore
+DOMAIN, itunes.apple.com, DIRECT
+
+#------------------>Q<------------------
+#QQ空间
+DOMAIN-KEYWORD, ctc.qzs.qzone.qq.com, DIRECT
+
+
+#------------------>S<------------------
+#Strava
+DOMAIN, analytics.strava.com, DIRECT
+
+#------------------>T<------------------
+#Tencent
+DOMAIN, fairplay.l.qq.com, DIRECT
+DOMAIN, livew.l.qq.com, DIRECT
+DOMAIN, vd.l.qq.com, DIRECT
+DOMAIN, vi.l.qq.com, DIRECT
+
+#------------------>U<------------------
+#Umeng
+DOMAIN, msg.umeng.com, DIRECT
+DOMAIN, msg.umengcloud.com, DIRECT
+
+#------------------>X<------------------
+#携程
+DOMAIN-KEYWORD, aw-s.tripcdn.com, DIRECT
+DOMAIN-KEYWORD, trip.com, DIRECT
