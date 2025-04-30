@@ -1,3 +1,3 @@
 # > 东方财富 - EASTMONEY
-host, emdcadvertise.eastmoney.com,reject
+host, emdcadvertise.eastmoney.com, reject
 host, emdcadvertisepj.eastmoney.com, reject
