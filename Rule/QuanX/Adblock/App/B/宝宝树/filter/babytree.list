@@ -1,10 +1,10 @@
 # > 宝宝树 - BABYTREE
 host, m.meitun.com, reject
-host, adx.babytree.com, reject 
-host, adx-backend.babytree.com, reject 
-host, ads.babytree.com, reject 
-host, bbtads.babytree.com, reject 
-host, tracking.babytree.com, reject 
-host, mobads-pre-config.cdn.bcebos.com, reject 
+host, adx.babytree.com, reject
+host, adx-backend.babytree.com, reject
+host, ads.babytree.com, reject
+host, bbtads.babytree.com, reject
+host, tracking.babytree.com, reject
+host, mobads-pre-config.cdn.bcebos.com, reject
 host, titan.babytree.com, reject
 host, titan01.babytree.com, reject

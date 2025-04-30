@@ -2,12 +2,12 @@
 
 [Rule]
 DOMAIN, m.meitun.com, REJECT, extended-matching, pre-matching
-DOMAIN, adx.babytree.com, REJECT, extended-matching, pre-matching 
-DOMAIN, adx-backend.babytree.com, REJECT, extended-matching, pre-matching 
-DOMAIN, ads.babytree.com, REJECT, extended-matching, pre-matching 
-DOMAIN, bbtads.babytree.com, REJECT, extended-matching, pre-matching 
-DOMAIN, tracking.babytree.com, REJECT, extended-matching, pre-matching 
-DOMAIN, mobads-pre-config.cdn.bcebos.com, REJECT, extended-matching, pre-matching 
+DOMAIN, adx.babytree.com, REJECT, extended-matching, pre-matching
+DOMAIN, adx-backend.babytree.com, REJECT, extended-matching, pre-matching
+DOMAIN, ads.babytree.com, REJECT, extended-matching, pre-matching
+DOMAIN, bbtads.babytree.com, REJECT, extended-matching, pre-matching
+DOMAIN, tracking.babytree.com, REJECT, extended-matching, pre-matching
+DOMAIN, mobads-pre-config.cdn.bcebos.com, REJECT, extended-matching, pre-matching
 DOMAIN, titan.babytree.com, REJECT, extended-matching, pre-matching
 DOMAIN, titan01.babytree.com, REJECT, extended-matching, pre-matching
 
