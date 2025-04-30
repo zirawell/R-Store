@@ -14,6 +14,7 @@ IP-CIDR, 120.27.235.201/32, REJECT, pre-matching
 IP-CIDR, 121.196.197.147/32, REJECT, pre-matching
 
 [URL Rewrite]
+# 国际版
 ^https?:\/\/api-global\.soulapp\.me\/app\/open\/get - reject
 
 [Map Local]

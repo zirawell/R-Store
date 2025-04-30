@@ -4,6 +4,7 @@
 DOMAIN-SUFFIX, medproad.com, REJECT, extended-matching, pre-matching
 
 [URL Rewrite]
+# MITM域名中添加 itunes.apple.com 可屏蔽更新通知
 ^https?:\/\/jiguang\.sptcc\.com\/smartop\/\d/getEvent - reject
 ^https?:\/\/online\.sptcc\.com:\d+\/handapp_app\/(?>ActivityGetServlet|queryWebUrlConfig) - reject
 ^https?:\/\/online\.sptcc\.com:\d+\/handapp_zx\/rss_info - reject

@@ -23,20 +23,30 @@ DOMAIN-SUFFIX, da.mgtv.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, log.mgtv.com, REJECT, extended-matching, pre-matching
 
 [URL Rewrite]
+# 无用请求
 ^https?:\/\/[\d\.]+:\d{5}\/\?cmd=indexes - reject
 
 [Map Local]
+# 首页左上角推广
 ^https?:\/\/[\d\.]+\/odin\/c\d\/(channel\/ads|skin\/config)\? data-type=text data="{}" status-code=200
+# 底部tab红点
 ^https?:\/\/damang\.api\.mgtv\.com\/station\/album\/red\/dot\? data-type=text data="{}" status-code=200
+# 播放器界面
 ^https?:\/\/hb-boom\.api\.mgtv\.com\/release\/pullReleaseInfo data-type=text data="{}" status-code=200
+# 升级弹窗
 ^https?:\/\/mobile\.api\.mgtv\.com\/v\d\/mobile\/checkUpdate\? data-type=text data="{}" status-code=200
+# 搜索框填充词
 ^https?:\/\/mobileso\.bz\.mgtv\.com\/spotlight\/search\/v\d\? data-type=text data="{}" status-code=200
 
 [Script]
+# 我的页面
 type=http-response,pattern=^https?:\/\/me\.bz\.mgtv\.com\/v\d\/module\/list\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/cntv.js
+# 首页信息流,顶部tab
 type=http-response,pattern=^https?:\/\/mob-st\.bz\.mgtv\.com\/odin\/c\d\/channel\/index\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/cntv.js
 type=http-response,pattern=^https?:\/\/dc2?\.bz\.mgtv\.com\/dynamic\/v\d\/channel\/(index|vrsList)\/\w,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/cntv.js
+# 底部tab
 type=http-response,pattern=^https?:\/\/mobile\.api\.mgtv\.com\/mobile\/config\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/cntv.js
+# 播放详情页
 type=http-response,pattern=^https?:\/\/mobile\.api\.mgtv\.com\/v\d+\/video\/info\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/cntv.js
 type=http-response,pattern=^https?:\/\/mobile-thor\.api\.mgtv\.com\/v\d\/vod\/info\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/cntv.js
 type=http-response,pattern=^https?:\/\/mobileso\.bz\.mgtv\.com\/mobile\/recommend\/v\d\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/cntv.js

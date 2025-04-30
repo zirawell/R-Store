@@ -1,10 +1,13 @@
 # > 小蚕霸王餐 - XCBWC
 
 [Header Rewrite]
+# 红包推广
 http-request ^https?:\/\/gw\.xiaocantech\.com\/rpc header-replace-regex 'methodname' '.*(GetBannerList|IsShowOrderAwardPopup|UserLifeShopList|BrandBannerList|GetPromotionGlobalCfg)' 'null'
 
 [Map Local]
+# 更新弹窗
 ^https?:\/\/gw\.xiaocantech\.com\/g\/pa data-type=text data="{}" status-code=200
+# 首页横幅推广
 ^https?:\/\/web2\.realtech-inc\.com\/oss\/xc-app-assets\/configs\/common\/theme data-type=text data="{}" status-code=200
 
 [MITM]

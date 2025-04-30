@@ -2,16 +2,26 @@
 
 [URL Rewrite]
 ^https?:\/\/180\.76\.76\.112\/v\d\/ - reject
+# 首页 - 轮播图
 ^https?:\/\/aiqicha\.baidu\.com\/app\/bannerPicAjax - reject
+# 首页 - 悬浮部件
 ^https?:\/\/aiqicha\.baidu\.com\/app\/getPopConfigAjax - reject
+# 首页 - 热门话题
 ^https?:\/\/aiqicha\.baidu\.com\/app\/getHotTopicAjax - reject
+# 首页 - 每日早报
 ^https?:\/\/aiqicha\.baidu\.com\/app\/getNewsReportAjax - reject
+# 首页 - 专家讲堂
 ^https?:\/\/aiqicha\.baidu\.com\/app\/getExpertVideoAjax - reject
+# 首页 - 热门快讯
 ^https?:\/\/aiqicha\.baidu\.com\/apps\/getHotRecommendV\dAjax - reject
+# 首页 - 底部登录横幅
 ^https?:\/\/aiqicha\.baidu\.com\/m\/getLoginWordsAjax - reject
+# 首页 - 弹窗
 ^https?:\/\/aiqicha\.baidu\.com\/app\/getAppPopSettingAjax - reject
 ^https?:\/\/aiqicha\.baidu\.com\/app\/commonstatusAjax - reject
+# 首页 - 精选监控
 ^https?:\/\/aiqicha\.baidu\.com\/apps\/getHomeMonitorDataAjax - reject
+# 首页 - 搜索栏大家都在搜
 ^https?:\/\/aiqicha\.baidu\.com\/apps\/searchRecommendAjax - reject
 
 [Map Local]

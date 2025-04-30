@@ -6,6 +6,7 @@ DOMAIN, ads.ysepay.com, REJECT, extended-matching, pre-matching
 [URL Rewrite]
 ^https?:\/\/ya-sdn\.ysepay\.com\/ma_gate\/advertisement - reject
 ^https?:\/\/ya-sdn\.ysepay\.com\/ma_gate\/popupAds - reject
+# 屏蔽更新
 ^https?:\/\/ya-sdn\.ysepay\.com\/ma_gate\/version\/updateAppVersion - reject
 
 [MITM]

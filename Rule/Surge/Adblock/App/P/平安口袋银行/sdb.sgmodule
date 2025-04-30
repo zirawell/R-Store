@@ -8,13 +8,16 @@ DOMAIN, dwtracking.jk.cn, REJECT, extended-matching, pre-matching
 
 [Map Local]
 ^https?:\/\/cdn\.sdb\.com\.cn\/app_com\/adversdk data-type=text data="" status-code=200
+# 屏蔽更新（测试功能）
 ^https:\/\/cdn\.sdb\.com\.cn\/ibank\/upgrade\/plugins\/upgradefile\.ios\.simplify data-type=text data="" status-code=200
 ^https?:\/\/cdn\.sdb\.com\.cn\/widget\/magic-module-sprite\/general-banner data-type=text data="{}" status-code=200
 ^https?:\/\/cdn\.sdb\.com\.cn\/widget\/magic-module-sprite\/dialog-normal data-type=text data="{}" status-code=200
 ^https?:\/\/cdn\.sdb\.com\.cn\/widget\/pb\/pb-plugins-recomend-content data-type=text data="{}" status-code=200
 ^https?:\/\/cdn\.sdb\.com\.cn\/widget\/pb\/pb-plugins-rec-content-list data-type=text data="{}" status-code=200
 ^https?:\/\/cdn\.sdb\.com\.cn\/widget\/pb\/pb-plugins-rec-mivideo data-type=text data="{}" status-code=200
+# 信用卡-精彩活动模块
 ;^https?:\/\/cdn\.sdb\.com\.cn\/widget\/magic-module-sprite\/four-rectangle-grid data-type=text data="{}" status-code=200
+# 信用卡-平安好物模块
 ;^https?:\/\/cdn\.sdb\.com\.cn\/widget\/magic-module-sprite\/goods-module data-type=text data="{}" status-code=200
 ^https?:\/\/rsb\.pingan\.com\.cn\/brcp\/stp\/cust\/mobile\/source\/upgrade data-type=text data="{}" status-code=200
 ^https?:\/\/rsb\.pingan\.com\.cn\/brcp\/bds\/cust\/ygfz\/up data-type=text data="{}" status-code=200

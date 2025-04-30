@@ -8,10 +8,13 @@
 http-response ^https?:\/\/waimai-guide\.ele\.me\/\w+\/mtop\.venus\.shopresourceservice\.getshopresource posterList random_body
 
 [Map Local]
+# 屏蔽更新提示
 ^https?:\/\/yunbusiness\.ccb\.com\/basic_service\/txCtrl\?txcode=A3341SB16 data-type=text data="" status-code=200
+# 屏蔽新人礼包
 ^https?:\/\/yunbusiness\.ccb\.com\/clp_service\/txCtrl\?txcode=A3341C147 data-type=text data="" status-code=200
 ^https?:\/\/yunbusiness\.ccb\.com\/clp_service\/txCtrl\?txcode=A3341A(?>002|006|009|119) data-type=text data="" status-code=200
 ^https?:\/\/yunbusiness\.ccb\.com\/basic_service\/txCtrl\?txcode=A3341AB05 data-type=file data="https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Data/jhshA3341AB05.json"
+# 外卖(饿了么)
 ^https?:\/\/waimai-guide\.ele\.me\/\w+\/mtop\.alsc\.eleme\.\w+\.trigger\.respond data-type=text data="{}" status-code=200
 
 [Script]

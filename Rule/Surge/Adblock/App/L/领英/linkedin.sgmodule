@@ -4,6 +4,7 @@
 DOMAIN-SUFFIX, ads.linkedin.com, REJECT, extended-matching, pre-matching
 
 [URL Rewrite]
+# 屏蔽更新
 ^https?:\/\/www\.linkedin\.com\/voyager\/api\/voyagerConfiguration - reject
 
 [Map Local]

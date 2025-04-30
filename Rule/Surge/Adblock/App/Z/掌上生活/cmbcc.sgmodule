@@ -10,6 +10,7 @@
 http-response ^https?:\/\/res\.cc\.cmbimg\.com\/fsp\/File\/ClientFacePublic\/\w+\.DAT$ widget widget0
 
 [Map Local]
+# ⚠️域名[res.cc.cmbimg.com]可能会导致App端部分功能无法使用，请自行选择是否需要
 ^https?:\/\/mars\.ccc\.cmbchina\.com\/MarsReceiver data-type=text data="{}" status-code=200
 ^https?:\/\/marscc\.bcs\.cmbchina\.com\/MarsReceiver data-type=text data="{}" status-code=200
 ^https?:\/\/intellicc\.\w+\.cmbchina\.com\/Edge\/api\/mlife\.intelli\.render\.api\.RecommendRenderControllerApi\/getRecommendResult data-type=text data="{}" status-code=200

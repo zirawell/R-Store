@@ -1,9 +1,13 @@
 # > 沃尔玛<微信小程序> - WALMART
 
 [Map Local]
+# 首页角标
 ^https?:\/\/mapi\.ghsmpwalmart\.com\/api\d\/ec\/navigation\/page\/getPageActivityTab data-type=text data="{}" status-code=200
+# 首页弹窗
 ^https?:\/\/mapi\.ghsmpwalmart\.com\/api\d\/ec\/navigation\/spread\/querySpreadList data-type=text data="{}" status-code=200
+# 我的页横幅
 ^https?:\/\/mapi\.ghsmpwalmart\.com\/api\d\/ec\/navigation\/user\/getAdvertisementPlayModuleInfo data-type=text data="{}" status-code=200
+# 我的页省钱卡
 ^https?:\/\/mapi\.ghsmpwalmart\.com\/api\d\/ec\/user\/couponPackage\/couponPackageAccess data-type=text data="{}" status-code=200
 
 [MITM]
