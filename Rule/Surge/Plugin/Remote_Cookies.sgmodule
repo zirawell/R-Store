@@ -1,0 +1,36 @@
+#! 此远程订阅用于解决QX任务脚本的cookie获取，仅适用于QX 1.0.10及更高版本，您可在使用后手动将其禁用，以避免无意义的MITM。
+#! Source - https://raw.githubusercontent.com/ClydeTime/Quantumult/main/Task/Remote_Cookie.sgmodule
+
+[Script]
+# 爱奇艺 Cookie
+type=http-request,pattern=^https?:\/\/passport\.iqiyi\.com\/apis\/user\/,requires-body=0,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/iqiyi.js
+# 吾爱破解 Cookie
+type=http-request,pattern=^https?:\/\/www\.52pojie\.cn\/home\.php\?,requires-body=0,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/52pj.js
+# 百度贴吧 Cookie
+type=http-request,pattern=^https?:\/\/(c\.)?tieba(c)?\.baidu\.com\/c\/u\/follow\/getFoldedMessageUserInfo,requires-body=0,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/tieba.js
+# BiliBili Cookie
+type=http-request,pattern=^https?:\/\/app\.bilibili\.com\/x\/resource\/fingerprint\?,requires-body=0,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/bilibili.js
+type=http-request,pattern=^https?:\/\/m.bilibili.com/$,requires-body=0,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/bilibili.js
+# BiliBiliManga Cookie
+type=http-request,pattern=^https?:\/\/app\.bilibili\.com\/x\/v2\/account\/myinfo,requires-body=0,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/bilibiliManga.js
+# 喜马拉雅 Cookie
+type=http-request,pattern=^https?:\/\/xmc\.ximalaya\.com\/xmlymain-login-web\/login\/,requires-body=0,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/xmly.js
+# 腾讯视频 Cookie
+type=http-request,pattern=^https?:\/\/vip\.video\.qq\.com\/rpc\/trpc\.new_task_system\.task_system\.TaskSystem\/ReadTaskList\?,requires-body=0,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/txtv.js
+type=http-request,pattern=^https?:\/\/pbaccess\.video\.qq\.com\/trpc\.videosearch\.hot_rank\.HotRankServantHttp\/HotRankHttp,requires-body=0,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/txtv.js
+type=http-request,pattern=^https?:\/\/pbaccess\.video\.qq.\com\/trpc\.video_account_login\.web_login_trpc\.WebLoginTrpc\/NewRefresh,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/txtv.js
+# NGA玩家社区 Cookie
+type=http-request,pattern=^https?:\/\/ngabbs.com\/nuke.php$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/nga.js
+# 建行生活 Cookie
+type=http-request,pattern=^https?:\/\/yunbusiness\.ccb\.com\/(clp_coupon|clp_service)\/txCtrl\?txcode=(A3341A038|autoLogin),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/jhsh.js
+# 高德打车 Cookie
+type=http-response,pattern=^https?:\/\/(m5(|-zb)|dache)\.amap\.com\/(ws\/yuece\/(act|openapi\/activity\/current)\/query|common\/(alipaymini|wxmini)\?_ENCRYPT=),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/amap.js
+# 携程旅行 Cookie
+type=http-response,pattern=^https?:\/\/m\.ctrip\.com\/restapi\/soa2\/\d+\/[a-zA-Z]+Login(?:$|\?),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/ctrip.js
+# 华住会 Cookie
+type=http-request,pattern=^https?:\/\/hweb-personalcenter\.huazhu\.com\/login\/autoLogin$,requires-body=0,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/hzh.js
+# 飞客 Cookie
+type=http-request,pattern=^https?:\/\/www\.flyert\.com\.cn\/api\/mobile\/index\.php\?module=getdata&.*,requires-body=0,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/flyert.js
+
+[MITM]
+hostname= %APPEND% passport.iqiyi.com, www.52pojie.cn, tiebac.baidu.com, c.tieba.baidu.com, app.bilibili.com, m.bilibili.com, xmc.ximalaya.com, vip.video.qq.com, pbaccess.video.qq.com, ngabbs.com, yunbusiness.ccb.com, *.amap.com, m.ctrip.com, hweb-personalcenter.huazhu.com, www.flyert.com.cn

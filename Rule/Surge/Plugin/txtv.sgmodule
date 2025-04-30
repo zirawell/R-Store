@@ -1,0 +1,11 @@
+#! Description: 此远程订阅用于解决QX任务脚本的cookie获取，
+#! Name: 腾讯视频 Cookie
+#! Source: https://raw.githubusercontent.com/zirawell/R-Store/refs/heads/main/Rule/Surge/Plugin/txtv.sgmodule
+
+[Script]
+type=http-request,pattern=^https?:\/\/vip\.video\.qq\.com\/rpc\/trpc\.new_task_system\.task_system\.TaskSystem\/ReadTaskList\?,requires-body=0,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/txtv.js
+type=http-request,pattern=^https?:\/\/pbaccess\.video\.qq\.com\/trpc\.videosearch\.hot_rank\.HotRankServantHttp\/HotRankHttp,requires-body=0,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/txtv.js
+type=http-request,pattern=^https?:\/\/pbaccess\.video\.qq.\com\/trpc\.video_account_login\.web_login_trpc\.WebLoginTrpc\/NewRefresh,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/txtv.js
+
+[MITM]
+hostname= %APPEND% vip.video.qq.com, pbaccess.video.qq.com
