@@ -1,1 +1,8 @@
+# > 无忧行 - JEGOTRIP
 
+[URL Rewrite]
+^https?:\/\/push\.it\.10086\.cn\/mc\/receipt\/iosBadge - reject
+^https?:\/\/oss\.jegotrip\.com\.cn\/\/appSyncimage - reject
+
+[MITM]
+hostname= %APPEND% push.it.10086.cn, oss.jegotrip.com.cn

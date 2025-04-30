@@ -1,1 +1,7 @@
+# > 老乡鸡<微信小程序> - LXJ
 
+[Map Local]
+^https?:\/\/member\.lxjchina\.com\.cn\/mini-server\/home\/page\/banner data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% member.lxjchina.com.cn

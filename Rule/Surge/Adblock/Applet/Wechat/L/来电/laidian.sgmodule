@@ -1,1 +1,7 @@
+# > 来电<微信小程序> - LAIDIAN
 
+[Map Local]
+^https?:\/\/mobile-api\.imlaidian\.com\/api\/args data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% mobile-api.imlaidian.com

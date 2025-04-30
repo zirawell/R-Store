@@ -1,1 +1,7 @@
+# > fitdays - FITDAYS
 
+[URL Rewrite]
+^https?:\/\/open\.fitdays\.cn\/uploads\/ad\/ - reject
+
+[MITM]
+hostname= %APPEND% open.fitdays.cn

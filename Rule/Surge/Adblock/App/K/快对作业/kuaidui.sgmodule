@@ -1,1 +1,10 @@
+# > 快对作业 - KUAIDUI
 
+[Map Local]
+^https?:\/\/c\.kuaiduizuoye\.com\/adx\/impress data-type=text data="{}" status-code=200
+^https?:\/\/www\.kuaiduizuoye\.com\/init\/ad\/ data-type=text data="{}" status-code=200
+^https?:\/\/www\.kuaiduizuoye\.com\/kdapi\/conf\/appbanners data-type=text data="{}" status-code=200
+^https?:\/\/apivip\.kuaiduizuoye\.com\/viponline\/scancode\/mycard data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% c.kuaiduizuoye.com, www.kuaiduizuoye.com, apivip.kuaiduizuoye.com

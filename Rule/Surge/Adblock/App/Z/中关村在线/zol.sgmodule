@@ -18,3 +18,9 @@ DOMAIN-SUFFIX, wappv.zol.com.cn, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, ydjs.zol.com.cn, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, afp.zol-img.com.cn, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, pic.zol-img.com.cn, REJECT, extended-matching, pre-matching
+
+[Map Local]
+^https?:\/\/apicloud\.zol\.com\.cn\/Article\/WapLaunchLogo data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% apicloud.zol.com.cn

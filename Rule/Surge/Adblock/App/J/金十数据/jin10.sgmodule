@@ -1,1 +1,7 @@
+# > 金十数据 - JIN10
 
+[URL Rewrite]
+^https?:\/\/jad-api\.jin10\.com\/ad - reject
+
+[MITM]
+hostname= %APPEND% jad-api.jin10.com

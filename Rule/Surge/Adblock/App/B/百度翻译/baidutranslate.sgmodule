@@ -1,1 +1,8 @@
+# > 百度翻译 - BAIDUTRANSLATE
 
+[URL Rewrite]
+^https?:\/\/mime\.baidu\.com\/v\d\/IosStart\/getStartInfo - reject
+^https?:\/\/mime\.baidu\.com\/v\d\/activity\/advertisement - reject
+
+[MITM]
+hostname= %APPEND% mime.baidu.com

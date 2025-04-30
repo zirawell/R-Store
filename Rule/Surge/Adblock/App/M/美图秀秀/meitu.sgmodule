@@ -2,3 +2,9 @@
 
 [Rule]
 DOMAIN, adui.tg.meitu.com, REJECT, extended-matching, pre-matching
+
+[URL Rewrite]
+^https?:\/\/mea\.meitudata\.com\/kaiping - reject
+
+[MITM]
+hostname= %APPEND% mea.meitudata.com

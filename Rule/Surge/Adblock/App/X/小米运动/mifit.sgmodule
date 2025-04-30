@@ -1,1 +1,7 @@
+# > 小米运动 - MIFIT
 
+[Map Local]
+^https?:\/\/api-mifit(-\w+)?\.huami\.com\/discovery\/mi\/discovery\/.+?_ad data-type=text data="" status-code=200
+
+[MITM]
+hostname= %APPEND% api-mifit*.huami.com

@@ -1,1 +1,7 @@
+# > 首汽约车<微信小程序> - 01ZHUANCHE
 
+[Map Local]
+^https?:\/\/gw-passenger-wap\.01zhuanche\.com\/gw-passenger-wap\/zhuanche-passenger-token\/commonSkipToken\/common\/getAdList data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% gw-passenger-wap.01zhuanche.com

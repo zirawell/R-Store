@@ -1,1 +1,7 @@
+# > 慢慢买 - MANMANBUY
 
+[Map Local]
+^https?:\/\/apapia-sqk\.manmanbuy\.com\/index_json\.ashx$ data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% apapia-sqk.manmanbuy.com

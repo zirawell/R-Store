@@ -1,1 +1,7 @@
+# > 一起考教师 - 17KJS
 
+[URL Rewrite]
+^https?:\/\/api\.17kjs\.com\/meta\/ads_targets - reject
+
+[MITM]
+hostname= %APPEND% api.17kjs.com

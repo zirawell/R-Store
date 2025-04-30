@@ -1,1 +1,7 @@
+# > 中国天气网<微信小程序> - WEATHER
 
+[Map Local]
+^https?:\/\/e\.weather\.com\.cn\/weChat\/typhoonNull\.json data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% e.weather.com.cn

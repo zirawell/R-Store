@@ -1,1 +1,8 @@
+# > 小熊拦截 - XIAOXIONG
 
+[URL Rewrite]
+^https?:\/\/spamblocker-api\.zeekstudio\.com\/profile - reject
+^https?:\/\/spamblocker-api\.zeekstudio\.com\/checkVersion - reject
+
+[MITM]
+hostname= %APPEND% spamblocker-api.zeekstudio.com

@@ -1,1 +1,7 @@
+# > 财联社 - CLS
 
+[URL Rewrite]
+^https?:\/\/api3\.cls\.cn\/v\d\/boot\/ad - reject
+
+[MITM]
+hostname= %APPEND% api3.cls.cn

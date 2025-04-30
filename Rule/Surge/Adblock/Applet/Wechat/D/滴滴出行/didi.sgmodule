@@ -1,1 +1,10 @@
+# > 滴滴出行<微信小程序> - DIDI
 
+[URL Rewrite]
+^https?:\/\/capis(-\d)?\.didapinche\.com\/adbase - reject
+
+[Map Local]
+^https?:\/\/conf\.diditaxi\.com\.cn\/homepage\/v\d\/core data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% capis*.didapinche.com, conf.diditaxi.com.cn

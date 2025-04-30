@@ -1,1 +1,7 @@
+# > 平安壹钱包 - 1QIANBAO
 
+[Map Local]
+^https?:\/\/mobile\.1qianbao\.com\/mtp-web\/ui\/op_common_query_business_yqb\.json data-type=text data="" status-code=200
+
+[MITM]
+hostname= %APPEND% mobile.1qianbao.com

@@ -1,1 +1,9 @@
+# > 奈雪点单<微信小程序> - NAIXUE
 
+[Map Local]
+^https?:\/\/tm-api\.pin-dao\.cn\/home\/api\/index\/activeConfig\/ data-type=text data="{}" status-code=200
+^https?:\/\/tm-api\.pin-dao\.cn\/home\/api\/resource\/config\/homeBannerNodes data-type=text data="{}" status-code=200
+^https?:\/\/tm-api\.pin-dao\.cn\/activity\/.*\/pop data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% tm-api.pin-dao.cn

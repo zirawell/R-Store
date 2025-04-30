@@ -1,1 +1,11 @@
+# > ONE·一个 - ONE
 
+[URL Rewrite]
+^https?:\/\/app\.api\.d3yuiw4\.com\/api\/app\/ad - reject
+^https?:\/\/api\.21ec74\.com\/v\d\.\d\/ad - reject
+
+[Map Local]
+^https?:\/\/v\d\.wufazhuce\.com:\w+\/api\/adpreloadlist data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% v*.wufazhuce.com, app.api.d3yuiw4.com, api.21ec74.com

@@ -1,1 +1,7 @@
+# > 美团充电宝<微信小程序> - MEITUANCDB
 
+[Map Local]
+^https?:\/\/cdb\.meituan\.com\/marketing\/source\/getPageSlotList data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% cdb.meituan.com

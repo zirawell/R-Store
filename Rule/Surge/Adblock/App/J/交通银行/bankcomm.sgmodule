@@ -1,1 +1,10 @@
+# > 交通银行 - BANKCOMM
 
+[URL Rewrite]
+^https?:\/\/download1\.bankcomm\.com\/mobs6-inner\/offline\/static\/releaseConf - reject
+
+[Map Local]
+^https?:\/\/download1\.bankcomm\.com\/chngweb\/CHNRCSP\/media data-type=text data="" status-code=200
+
+[MITM]
+hostname= %APPEND% download1.bankcomm.com

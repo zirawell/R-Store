@@ -1,1 +1,7 @@
+# > 巧虎官方 - QIAOHU
 
+[Map Local]
+^https?:\/\/tv\.qiaohuapp\.com\/api\/v\d\.\d\/advert data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% tv.qiaohuapp.com

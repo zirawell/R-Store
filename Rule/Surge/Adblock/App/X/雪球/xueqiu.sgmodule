@@ -1,1 +1,20 @@
+# > 雪球 - XUEQIU
 
+[URL Rewrite]
+^https?:\/\/api\.xueqiu\.com\/brand\/search\/ - reject
+^https?:\/\/api\.xueqiu\.com\/lightsnow\/launch\/plan\/bee\/query - reject
+^https?:\/\/api\.xueqiu\.com\/lightsnow\/optional\/banner\/query - reject
+^https?:\/\/api\.xueqiu\.com\/livestream\/structure\/live\/hotCard - reject
+^https?:\/\/open\.xueqiu\.com\/mpaas\/config\/content\?.+(?>cube_detail_bottom_operation_trade_button|home_visitor_relation_config) - reject
+^https?:\/\/(api|promo)\.xueqiu\.com\/promotion\/(?>display_cache|display_ad|feed_display|search_ad) - reject
+
+[Map Local]
+^https?:\/\/api\.xueqiu\.com\/snowpard\/launch_strategy\/query data-type=text data="{}" status-code=200
+^https?:\/\/api\.xueqiu\.com\/ucprofile\/api\/user\/batchGetUserBasicInfo data-type=text data="{}" status-code=200
+^https?:\/\/api\.xueqiu\.com\/recommend-proxy\/card\/portfolio_tab_symbol data-type=text data="{}" status-code=200
+^https?:\/\/api\.xueqiu\.com\/recommend-proxy\/card\/zj_card\.json\?feed_id=207 data-type=text data="{}" status-code=200
+^https?:\/\/xqimg\.imedao\.com\/[a-z0-9]{24}\.jpg$ data-type=text data="" status-code=200
+^https?:\/\/stock\.xueqiu\.com\/v\d\/stock\/group\/recommend\/default\/list data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% api.xueqiu.com, xqimg.imedao.com, open.xueqiu.com, stock.xueqiu.com, promo.xueqiu.com

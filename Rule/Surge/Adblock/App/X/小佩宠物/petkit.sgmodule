@@ -1,1 +1,7 @@
+# > 小佩宠物 - PETKIT
 
+[Map Local]
+^https?:\/\/api\.petkit\.cn.*device\/relatedProductsInfo data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% api.petkit.cn

@@ -1,1 +1,7 @@
+# > 小站 - ZHAN
 
+[Map Local]
+^https?:\/\/tiku\.zhan\.com\/Common\/newAd\/ data-type=text data="" status-code=200
+
+[MITM]
+hostname= %APPEND% tiku.zhan.com

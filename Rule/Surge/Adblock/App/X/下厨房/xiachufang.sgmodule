@@ -3,3 +3,9 @@
 [Rule]
 DOMAIN-SUFFIX, baidu-union-js.xiachufang.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, baidu-union-pos.xiachufang.com, REJECT, extended-matching, pre-matching
+
+[URL Rewrite]
+^https?:\/\/api\.xiachufang\.com\/v\d\/ad/ - reject
+
+[MITM]
+hostname= %APPEND% api.xiachufang.com

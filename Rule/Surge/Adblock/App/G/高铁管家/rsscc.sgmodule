@@ -1,1 +1,10 @@
+# > 高铁管家 - GTGJ
 
+[URL Rewrite]
+^https?:\/\/[a-z]*\.rsscc\.com\/[a-z]*\/adver - reject
+
+[Map Local]
+^https?:\/\/cdn\.133\.cn\/md\/gtgj\/.+\/.+720x1280 data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% *.rsscc.com, cdn.133.cn

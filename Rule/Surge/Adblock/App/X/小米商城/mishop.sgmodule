@@ -1,1 +1,15 @@
+# > 小米商城 - MISHOP
 
+[Map Local]
+^https?:\/\/api\.m\.mi\.com\/v\d\/app\/start data-type=text data="" status-code=200
+^https?:\/\/shop-api\.retail\.mi\.com\/mtop\/navi\/(rec\/merge\/|skywheel\/mishop\/splash) data-type=text data="{}" status-code=200
+^https?:\/\/api\.m\.mi\.com\/v\d\/app\/popup_info$ data-type=text data="{}" status-code=200
+^https?:\/\/api\.m\.mi\.com\/v\d\/misearch\/search_input$ data-type=text data="{}" status-code=200
+^https?:\/\/api\.m\.mi\.com\/v\d\/search\/search_default$ data-type=text data="{}" status-code=200
+^https?:\/\/api\.m\.mi\.com\/v\d\/home\/page_feed(_v5)?$ data-type=text data="{}" status-code=200
+
+[Script]
+type=http-response,pattern=^https?:\/\/api\.m\.mi\.com\/v\d\/order\/expressView,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/mishop.js
+
+[MITM]
+hostname= %APPEND% api.m.mi.com, shop-api.retail.mi.com

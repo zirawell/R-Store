@@ -1,1 +1,8 @@
+# > 自如 - ZIROOM
 
+[Map Local]
+^https?:\/\/ztoread\.ziroom\.com\/foka-card-api\/popup\/v\d\/get data-type=text data="{}" status-code=200
+^https?:\/\/ztoread\.ziroom\.com\/ymerApi\/v\d\/index\/open data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% ztoread.ziroom.com

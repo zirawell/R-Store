@@ -1,1 +1,7 @@
+# > e充电 - ECHARGENET
 
+[Map Local]
+^https?:\/\/cdn-evone-ceph\.echargenet\.com\/gw-emas-cdn\/63c4e3b558bb610008969f89 data-type=text data="" status-code=200
+
+[MITM]
+hostname= %APPEND% cdn-evone-ceph.echargenet.com

@@ -1,1 +1,12 @@
+# > 春秋航空 - CHAIR
 
+[URL Rewrite]
+^https?:\/\/gaia\.ch\.com\/ECProduct\/popupWindow - reject
+^https?:\/\/gaia\.ch\.com\/ECProduct\/homePageRevision\/queryRecommendInfo - reject
+^https?:\/\/gaia\.ch\.com\/ECPromotion\/appFlash - reject
+
+[Map Local]
+^https?:\/\/appmedia\.springairlines\.com\/cmsstatic\/.*\.gif data-type=tiny-gif status-code=200
+
+[MITM]
+hostname= %APPEND% gaia.ch.com, appmedia.springairlines.com

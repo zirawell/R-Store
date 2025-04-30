@@ -1,1 +1,7 @@
+# > 希尔顿荣誉客会 - HILTON
 
+[Map Local]
+^https?:\/\/wcprd\.hilton\.com\.cn\/app-middleware\/graphql\?type=splashAd data-type=text data="" status-code=200
+
+[MITM]
+hostname= %APPEND% wcprd.hilton.com.cn

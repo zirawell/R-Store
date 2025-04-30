@@ -1,1 +1,7 @@
+# > 猪八戒 - ZBJ
 
+[Map Local]
+^https?:\/\/fastbuyer\.zbj\.com\/configure\/screenAdConfig\/ data-type=text data="" status-code=200
+
+[MITM]
+hostname= %APPEND% fastbuyer.zbj.com

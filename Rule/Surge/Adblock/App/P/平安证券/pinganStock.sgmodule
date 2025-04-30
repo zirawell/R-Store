@@ -1,1 +1,7 @@
+# > 平安证券 - PINGANSTOCK
 
+[Map Local]
+^https?:\/\/pacdn\.m\.stock\.pingan\.com\/images\/ data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% pacdn.m.stock.pingan.com

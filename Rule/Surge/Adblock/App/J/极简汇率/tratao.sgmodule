@@ -1,1 +1,7 @@
+# > 极简汇率 - TRATAO
 
+[URL Rewrite]
+^https?:\/\/explorer\.tratao\.com\/api\/client\/v\d\/xtransfer\/ad\/ - reject
+
+[MITM]
+hostname= %APPEND% explorer.tratao.com

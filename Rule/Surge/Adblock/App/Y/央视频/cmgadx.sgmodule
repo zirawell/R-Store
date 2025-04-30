@@ -1,1 +1,7 @@
+# > 央视频 - CMGADX
 
+[Map Local]
+^https?:\/\/cdn\.cmgadx\.com\/sdk\/pool\/\w+\.json data-type=text data="" status-code=200
+
+[MITM]
+hostname= %APPEND% cdn.cmgadx.com

@@ -1,1 +1,7 @@
+# > 好体知 - BODIVIS
 
+[Map Local]
+^https?:\/\/www\.bodivis\.com\.cn\/app\/splash data-type=text data="" status-code=200
+
+[MITM]
+hostname= %APPEND% www.bodivis.com.cn

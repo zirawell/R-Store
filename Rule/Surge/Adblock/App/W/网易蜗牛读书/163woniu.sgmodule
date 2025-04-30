@@ -1,1 +1,8 @@
+# > 网易蜗牛读书 - 163WONIU
 
+[Map Local]
+^https?:\/\/easyreadfs\.nosdn\.127\.net\/ad-material\/ data-type=text data="" status-code=200
+^https?:\/\/p\.du\.163\.com\/ad\/ data-type=text data="" status-code=200
+
+[MITM]
+hostname= %APPEND% easyreadfs.nosdn.127.net, p.du.163.com

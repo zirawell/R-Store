@@ -1,1 +1,7 @@
+# > 众邦银行 - ZBANK
 
+[Map Local]
+^https?:\/\/direct\.z-bank\.com\/portal\/AdvertImageDownLoad4Mobile data-type=text data="" status-code=200
+
+[MITM]
+hostname= %APPEND% direct.z-bank.com

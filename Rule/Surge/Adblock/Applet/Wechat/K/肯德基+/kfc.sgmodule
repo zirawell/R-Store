@@ -1,1 +1,8 @@
+# > 肯德基+<微信小程序> - KFC
 
+[Map Local]
+^https?:\/\/dynamicad\.kfc\.com\.cn\/api data-type=text data="{}" status-code=200
+^https?:\/\/res\.kfc\.com\.cn\/CRM\/kfcad\/custom_v\d\/wxapp data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% dynamicad.kfc.com.cn, res.kfc.com.cn

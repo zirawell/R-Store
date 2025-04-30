@@ -1,1 +1,7 @@
+# > 奇点阅读 - QI
 
+[Map Local]
+^https?:\/\/apps\.teamair\.cn\/app\/version data-type=file data="https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Data/qi.json"
+
+[MITM]
+hostname= %APPEND% apps.teamair.cn

@@ -1,1 +1,7 @@
+# > 苏周到 - SUZHOU
 
+[Map Local]
+^https?:\/\/szdmobile\.suzhou\.gov\.cn\/thirdapp-center\/appUpdate\/update data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% szdmobile.suzhou.gov.cn

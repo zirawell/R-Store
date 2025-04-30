@@ -1,1 +1,7 @@
+# > 兴业证券优理宝 - XYZQ
 
+[Map Local]
+^https?:\/\/static.xyzq.cn\/image\/splash\/ data-type=text data="" status-code=200
+
+[MITM]
+hostname= %APPEND% static.xyzq.cn

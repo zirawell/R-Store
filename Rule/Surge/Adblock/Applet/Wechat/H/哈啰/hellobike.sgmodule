@@ -1,1 +1,7 @@
+# > 哈啰<微信小程序> - HELLOBIKE
 
+[Map Local]
+^https?:\/\/api\.hellobike\.com\/api\?adx data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% api.hellobike.com

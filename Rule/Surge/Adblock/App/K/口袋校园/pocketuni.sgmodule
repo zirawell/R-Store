@@ -1,1 +1,7 @@
+# > 口袋校园 - POCKETUNI
 
+[Map Local]
+^https?:\/\/pocketuni\.net\/\?app=api&mod=Message&act=ad data-type=text data="" status-code=200
+
+[MITM]
+hostname= %APPEND% pocketuni.net

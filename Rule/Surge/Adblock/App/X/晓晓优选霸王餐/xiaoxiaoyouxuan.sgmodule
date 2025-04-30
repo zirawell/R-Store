@@ -1,1 +1,11 @@
+# > 晓晓优选霸王餐 - XXYX
 
+[URL Rewrite]
+^https?:\/\/xxyx-client-api\.xiaoxiaoyouxuan\.com\/agent_ad - reject
+^https?:\/\/xxyx-client-api\.xiaoxiaoyouxuan\.com\/activity\/show - reject
+
+[Map Local]
+^https?:\/\/xxyx-client-api\.xiaoxiaoyouxuan\.com\/vajra data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% xxyx-client-api.xiaoxiaoyouxuan.com

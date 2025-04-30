@@ -1,1 +1,7 @@
+# > 国美电器 - GOME
 
+[URL Rewrite]
+^https?:\/\/prom\.mobile\.gome\.com\.cn\/mobile\/promotion\/promscms\/\w+\.jsp - reject
+
+[MITM]
+hostname= %APPEND% prom.mobile.gome.com.cn

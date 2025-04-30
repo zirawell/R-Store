@@ -1,1 +1,7 @@
+# > 育之有道 - HYDLIGHT
 
+[URL Rewrite]
+^https?:\/\/admin\.hydlight\.com\/api\/week_watching\/getIndexAdvInfo - reject
+
+[MITM]
+hostname= %APPEND% admin.hydlight.com

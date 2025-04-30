@@ -1,1 +1,8 @@
+# > 兴业银行手机银行 - CIB
 
+[Map Local]
+^https?:\/\/images\.cib\.com\.cn\/commons\/uploads\/commons\/[a-zA-Z0-9]{32}\.jpg\?ver=20221[1-2]{1} data-type=text data="" status-code=200
+^https?:\/\/images\.cib\.com\.cn\/commons\/uploads\/commons\/[a-zA-Z0-9]{32}\.jpg\?ver=20230[1-9]{1} data-type=text data="" status-code=200
+
+[MITM]
+hostname= %APPEND% images.cib.com.cn

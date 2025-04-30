@@ -5,3 +5,9 @@ DOMAIN, switch.cup.com.cn, REJECT, extended-matching, pre-matching
 DOMAIN, ads.cup.com.cn, REJECT, extended-matching, pre-matching
 DOMAIN, analytics.95516.com, REJECT, extended-matching, pre-matching
 DOMAIN, tysdk.95516.com, REJECT, extended-matching, pre-matching
+
+[URL Rewrite]
+^https?:\/\/wallet\.95516\.com(:10533)?\/s\/wl\/icon\/large\/1 - reject
+
+[MITM]
+hostname= %APPEND% wallet.95516.com

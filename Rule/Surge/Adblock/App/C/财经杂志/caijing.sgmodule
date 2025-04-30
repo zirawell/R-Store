@@ -1,1 +1,8 @@
+# > 财经杂志 - CAIJINGMOBILE
 
+[URL Rewrite]
+^https?:\/\/api\.caijingmobile\.com\/(ad|advert)\/ - reject
+^https?:\/\/m\.caijing\.com\.cn\/startup_ad_ios - reject
+
+[MITM]
+hostname= %APPEND% api.caijingmobile.com, m.caijing.com.cn

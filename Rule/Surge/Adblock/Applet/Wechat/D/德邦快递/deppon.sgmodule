@@ -1,1 +1,7 @@
+# > 德邦快递<微信小程序> - DEPPON
 
+[Map Local]
+^https?:\/\/www\.deppon\.com\/gwapi\/memberService\/eco\/member\/grade\/commonInterface data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% www.deppon.com

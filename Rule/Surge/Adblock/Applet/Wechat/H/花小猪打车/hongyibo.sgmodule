@@ -2,3 +2,9 @@
 
 [Rule]
 DOMAIN, api.hongyibo.com.cn, REJECT, extended-matching, pre-matching
+
+[Map Local]
+^https?:\/\/res\.hongyibo\.com\.cn\/os\/gs\/resapi\/activity data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% res.hongyibo.com.cn

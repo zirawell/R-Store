@@ -1,1 +1,7 @@
+# > 票根 - PIAOGEN
 
+[Map Local]
+^https?:\/\/pss\.txffp\.com\/piaogen\/images\/launchScreen/ data-type=text data="" status-code=200
+
+[MITM]
+hostname= %APPEND% pss.txffp.com

@@ -1,1 +1,7 @@
+# > 四川航空 - SICHUANAIR
 
+[Map Local]
+^https?:\/\/mapi\.sichuanair\.com\/zt\/tribeport\/encrypt_translate_key data-type=text data="" status-code=200
+
+[MITM]
+hostname= %APPEND% mapi.sichuanair.com

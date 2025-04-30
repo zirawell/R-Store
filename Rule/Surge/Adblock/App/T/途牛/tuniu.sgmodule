@@ -1,1 +1,7 @@
+# > 途牛 - TUNIU
 
+[Map Local]
+^https?:\/\/m\.tuniu\.com\/api\/operation\/splash\/ data-type=text data="" status-code=200
+
+[MITM]
+hostname= %APPEND% m.tuniu.com

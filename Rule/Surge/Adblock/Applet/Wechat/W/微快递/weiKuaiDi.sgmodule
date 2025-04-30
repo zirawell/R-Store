@@ -1,1 +1,7 @@
+# > 微快递<微信小程序> - WEIKUAIDI
 
+[Map Local]
+^https?:\/\/api\.kuaidihelp\.com\/g_order_core\/v\d\/mina\/User\/getBannerList data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% api.kuaidihelp.com

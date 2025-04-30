@@ -1,1 +1,10 @@
+# > 闪动校园 - SDXY
 
+[Map Local]
+^https?:\/\/api\.huachenjie\.com\/run-front\/(ad|ai\/getAICategory|home\/sports\/getPopup) data-type=text data="{}" status-code=200
+^https?:\/\/ad\.shunchangzhixing\.com\/getAd data-type=text data="{}" status-code=200
+^https?:\/\/open\.e\.kuaishou\.cn\/rest\/e\/v\d\/open data-type=text data="{}" status-code=200
+^https?:\/\/zlsdk\.1rtb\.net\/sdk\/req_ad\?sdk_version=\d+\.\d+\.\d+\.\d+&device_os=iOS&accept_ad_type=\d+&app_id=\d+&pid=\d+&sdk_version_code=\d+ data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% api.huachenjie.com, open.e.kuaishou.cn, ad.shunchangzhixing.com, zlsdk.1rtb.net

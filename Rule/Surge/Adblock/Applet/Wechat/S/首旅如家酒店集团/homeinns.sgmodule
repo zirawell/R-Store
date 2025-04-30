@@ -1,1 +1,8 @@
+# > 首旅如家酒店集团<微信小程序> - HOMEINNS
 
+[Map Local]
+^https?:\/\/wx\.bthhotels\.com\/miniapp\/weixin\/v\d\/home\/index_banner data-type=text data="{}" status-code=200
+^https?:\/\/app\.homeinns\.com\/api\/v\d\/(?>index|local) data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% wx.bthhotels.com, app.homeinns.com

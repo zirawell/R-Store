@@ -1,1 +1,8 @@
+# > 马卡龙玩图 - VERSAAI
 
+[Map Local]
+^https?:\/\/app\.api\.versa-ai\.com\/launch\/ads\? data-type=text data="" status-code=200
+^https?:\/\/static01\.versa-ai\.com\/upload\/ec0ba51d68f9\/.*.jpg data-type=text data="" status-code=200
+
+[MITM]
+hostname= %APPEND% app.api.versa-ai.com, static01.versa-ai.com

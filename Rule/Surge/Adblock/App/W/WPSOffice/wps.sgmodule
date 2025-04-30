@@ -1,1 +1,11 @@
+# > WPSOffice - WPS
 
+[URL Rewrite]
+^https?:\/\/ios\.wps\.cn\/ad-statistics-service - reject
+
+[Map Local]
+^https?:\/\/mobile-pic\.cache\.iciba\.com\/feeds_ad\/ data-type=text data="" status-code=200
+^https?:\/\/\w+\.kingsoft-office-service\.com\/ad data-type=text data="" status-code=200
+
+[MITM]
+hostname= %APPEND% ios.wps.cn, mobile-pic.cache.iciba.com, *.kingsoft-office-service.com

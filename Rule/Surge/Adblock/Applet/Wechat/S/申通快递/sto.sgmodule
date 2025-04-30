@@ -1,1 +1,8 @@
+# > 申通快递<微信小程序> - STO
 
+[Map Local]
+^https?:\/\/customer-app\.sto\.cn\/api\/app\/banner\/banner data-type=text data="{}" status-code=200
+^https?:\/\/sto-customer-app\.oss-cn-shanghai\.aliyuncs\.com\/images data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% customer-app.sto.cn, sto-customer-app.oss-cn-shanghai.aliyuncs.com

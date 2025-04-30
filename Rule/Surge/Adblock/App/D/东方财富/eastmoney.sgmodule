@@ -3,3 +3,9 @@
 [Rule]
 DOMAIN, emdcadvertise.eastmoney.com,reject
 DOMAIN, emdcadvertisepj.eastmoney.com, REJECT, extended-matching, pre-matching
+
+[Map Local]
+^https?:\/\/swdlcdn\.eastmoney\.com\/app\/adimg\/ data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% swdlcdn.eastmoney.com

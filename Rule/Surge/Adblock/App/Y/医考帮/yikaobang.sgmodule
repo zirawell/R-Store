@@ -1,1 +1,9 @@
+# > 医考帮 - YIKAOBANG
 
+[URL Rewrite]
+^https?:\/\/api\.yikaobang\.com\.cn\/client\/main\/homePageSmallAd - reject
+^https?:\/\/api\.yikaobang\.com\.cn\/index\.php\/Client\/main\/startPage - reject
+^https?:\/\/api\.yikaobang\.com\.cn\/index\.php\/version\/version\/check - reject
+
+[MITM]
+hostname= %APPEND% api.yikaobang.com.cn

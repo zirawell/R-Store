@@ -1,1 +1,7 @@
+# > 长城炼金术 - CGWS
 
+[Map Local]
+^https?:\/\/fintechappdr\.cgws\.com\/api\/business-operation\/app\/a\/flash\/window\/get\?type=2 data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% fintechappdr.cgws.com

@@ -1,1 +1,10 @@
+# > 威锋 - WEIFENG
 
+[URL Rewrite]
+^https?:\/\/api\.wfdata\.club\/v\d\/yesfeng\/(?>infoCenterAd|yesList) - reject
+
+[Map Local]
+^https?:\/\/api\.feng\.com\/v\d\/advertisement\/ data-type=text data="" status-code=200
+
+[MITM]
+hostname= %APPEND% api.wfdata.club, api.feng.com

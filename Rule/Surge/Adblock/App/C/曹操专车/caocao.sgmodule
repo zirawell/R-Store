@@ -1,1 +1,10 @@
+# > 曹操专车 - CAOCAOKEJI
 
+[URL Rewrite]
+^https?:\/\/cap\.caocaokeji\.cn\/advert-bss\/ - reject
+
+[Map Local]
+^https?:\/\/ptmpcap\.caocaokeji\.cn\/advert-bss\/ data-type=tiny-gif status-code=200
+
+[MITM]
+hostname= %APPEND% ptmpcap.caocaokeji.cn, cap.caocaokeji.cn

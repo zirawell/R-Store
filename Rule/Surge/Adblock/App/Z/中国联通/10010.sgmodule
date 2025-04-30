@@ -2,3 +2,12 @@
 
 [Rule]
 DOMAIN-SUFFIX, ad.10010.com, REJECT, extended-matching, pre-matching
+
+[Map Local]
+^https?:\/\/m\.client\.10010\.com\/mobileService\/(activity|customer)\/(?>accountListData|get_client_adv|get_startadv) data-type=tiny-gif status-code=200
+^https?:\/\/m\.client\.10010\.com\/mobileService\/customer\/getclientconfig\.htm data-type=text data="{}" status-code=200
+^https?:\/\/m\.client\.10010\.com\/uniAdmsInterface\/(?>getHomePageAd|getWelcomeAd) data-type=tiny-gif status-code=200
+^https?:\/\/res\.mall\.10010\.cn\/mall\/common\/js\/fa\.js?referer= data-type=tiny-gif status-code=200
+
+[MITM]
+hostname= %APPEND% m.client.10010.com, res.mall.10010.cn

@@ -4,3 +4,29 @@
 DOMAIN, hc-ssp.sm.cn, REJECT, extended-matching, pre-matching
 DOMAIN, apm.gotokeep.com, REJECT, extended-matching, pre-matching
 DOMAIN, kad.gotokeep.com, REJECT, extended-matching, pre-matching
+
+[URL Rewrite]
+^https?:\/\/api\.gotokeep\.com\/guide-webapp\/v\d\/popup\/getPopUp - reject
+^https?:\/\/api\.gotokeep\.com\/kprime\/v\d\/popups\/primeGuide - reject
+^https?:\/\/kad\.gotokeep\.com\/op-engine-webapp\/v\d\/ad - reject
+^https?:\/\/api.gotokeep.com/cauchy/growth/init - reject
+^https?:\/\/api\.gotokeep\.com\/search\/v\d\/default\/keyword\/list - reject
+^https?:\/\/api\.gotokeep\.com\/search\/v\d\/hotword\/list - reject
+^https?:\/\/api\.gotokeep\.com\/search\/v\d\/hotCourse\/list - reject
+^https?:\/\/api\.gotokeep\.com\/op-engine-webapp\/v\d\/ad - reject
+^https?:\/\/api\.gotokeep\.com\/ads - reject
+^https?:\/\/api\.gotokeep\.com\/training\/box\/config - reject
+^https?:\/\/api\.gotokeep\.com\/anno\/v\d\/upgrade\/check - reject
+
+[Map Local]
+^https?:\/\/static1\.keepcdn\.com\/ark_optimus\/202\d\/*\/*\/.*.(?>png|jpg) data-type=text data="" status-code=200
+
+[Script]
+type=http-response,pattern=^https?:\/\/api\.gotokeep\.com\/athena\/v\d\/people\/my$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/keep.js
+type=http-response,pattern=^https?:\/\/api\.gotokeep\.com\/config\/v\d\/basic,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/keep.js
+type=http-response,pattern=^https?:\/\/api\.gotokeep\.com\/homepage\/v\d\/tab,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/keep.js
+type=http-response,pattern=^https?:\/\/api\.gotokeep\.com\/nuocha\/course\/v\d/\w+\/preview,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/keep.js
+type=http-response,pattern=^https?:\/\/api\.gotokeep\.com\/sportpage\/sport\/v\d\/mysport,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/keep.js
+
+[MITM]
+hostname= %APPEND% static1.keepcdn.com, api.gotokeep.com, kad.gotokeep.com

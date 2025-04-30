@@ -1,1 +1,7 @@
+# > 快狗打车搬家<微信小程序> - KUAIGOU
 
+[Map Local]
+^https?:\/\/suyun-guest\.daojia\.com\/api\/kuaigou\/banjia\/review data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% suyun-user.daojia.com

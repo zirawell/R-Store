@@ -1,1 +1,8 @@
+# > 公考雷达 - GONGKAOLEIDA
 
+[URL Rewrite]
+^https?:\/\/api\.gongkaoleida\.com\/api\/v\d\/ad\/info - reject
+^https?:\/\/api\.gongkaoleida\.com\/api\/\w+\/sets\/getAppVersion - reject
+
+[MITM]
+hostname= %APPEND% api.gongkaoleida.com

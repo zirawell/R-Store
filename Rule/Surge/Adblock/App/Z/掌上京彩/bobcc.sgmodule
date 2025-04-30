@@ -1,0 +1,7 @@
+# > 掌上京彩 - BOBCC
+
+[Map Local]
+^https?:\/\/cdn-xyk-app\.bankofbeijing\.com\.cn\/cdn\/resource\/image\/advertise data-type=text data="" status-code=200
+
+[MITM]
+hostname= %APPEND% cdn-xyk-app.bankofbeijing.com.cn

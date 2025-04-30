@@ -1,1 +1,7 @@
+# > 爱南宁 - NNAPP
 
+[URL Rewrite]
+^https?:\/\/nnapp\.cloudbae\.cn(:\d+)?\/mc\/api\/advert - reject
+
+[MITM]
+hostname= %APPEND% nnapp.cloudbae.cn

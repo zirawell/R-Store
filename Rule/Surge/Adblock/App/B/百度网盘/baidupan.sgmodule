@@ -1,1 +1,24 @@
+# > 百度网盘 - BAIDUPAN
 
+[URL Rewrite]
+^https?:\/\/pan\.baidu\.com\/rest\/\d\.\d\/pcs\/ad - reject
+^https?:\/\/pan\.baidu\.com\/act\/v\d\/(bchannel|welfare)\/list - reject
+^https?:\/\/pan\.baidu\.com\/act\/api\/activityentry - reject
+^https?:\/\/pan\.baidu\.com\/pmall\/order\/privilege\/info - reject
+^https?:\/\/pan\.baidu\.com\/rest\/.+\/pcs\/adx - reject
+^https?:\/\/pan\.baidu\.com\/api\/useractivity\/activity - reject
+^https?:\/\/pan\.baidu\.com\/api\/certuser\/get - reject
+^https?:\/\/pan\.baidu\.com\/component\/view\/(1510|1130)\?vip - reject
+^https?:\/\/ndstatic\.cdn\.bcebos\.com\/activity\/welfare - reject
+^https?:\/\/staticsns\.cdn\.bcebos\.com\/amis\/.+/banner.png - reject
+^https?:\/\/issuecdn\.baidupcs\.com\/issue\/netdisk\/guanggao - reject
+^https?:\/\/update\.pan\.baidu\.com\/statistics - reject
+^https?:\/\/fc-video\.cdn\.bcebos\.com - reject
+^https?:\/\/rp\.hpplay\.cn\/logouts - reject
+
+[Script]
+type=http-response,pattern=^https?:\/\/pan\.baidu\.com\/api\/getsyscfg\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/baiduPan.js
+type=http-response,pattern=^https?:\/\/pan\.baidu\.com\/rest\/\d\.\d\/membership\/user,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/baiduPan.js
+
+[MITM]
+hostname= %APPEND% pan.baidu.com, ndstatic.cdn.bcebos.com, staticsns.cdn.bcebos.com, issuecdn.baidupcs.com, update.pan.baidu.com, fc-video.cdn.bcebos.com, rp.hpplay.cn

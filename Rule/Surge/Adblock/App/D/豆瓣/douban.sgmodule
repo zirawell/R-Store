@@ -1,1 +1,8 @@
+# > 豆瓣 - DOUBAN
 
+[URL Rewrite]
+^https?:\/\/api\.douban\.com\/v\d\/app_ads\/ - reject
+^https?:\/\/api\.douban\.com\/b.*\/common_ads\? - reject
+
+[MITM]
+hostname= %APPEND% api.douban.com

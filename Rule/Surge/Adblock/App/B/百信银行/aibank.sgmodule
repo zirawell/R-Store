@@ -1,1 +1,7 @@
+# > 百信银行 - AIBANK
 
+[Map Local]
+^https?:\/\/mres\.aibank\.com\/app\/resource\/cim\/cim0000001\/.+\.jpg data-type=text data="" status-code=200
+
+[MITM]
+hostname= %APPEND% mres.aibank.com

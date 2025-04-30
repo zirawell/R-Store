@@ -1,1 +1,7 @@
+# > omofun - OMOFUN
 
+[URL Rewrite]
+^https?:\/\/103\.91\.210\.141\:2515\/xgapp\.php\/v\d\/top_notice - reject
+
+[MITM]
+hostname= %APPEND% 103.91.210.141

@@ -1,1 +1,10 @@
+# > 问卷星<微信小程序> - WJX
 
+[Map Local]
+^https?:\/\/image\.wjx\.cn\/joinnew\/js\/joinawardactivitymobo data-type=text data="{}" status-code=200
+
+[Script]
+type=http-response,pattern=^https?:\/\/kaoshi\.wjx\.top\/wjx\/join\/completemobile,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/wjx.js
+
+[MITM]
+hostname= %APPEND% image.wjx.cn, kaoshi.wjx.top

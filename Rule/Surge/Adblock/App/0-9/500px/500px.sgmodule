@@ -1,1 +1,7 @@
+# > 500px - 500PX
 
+[Map Local]
+^https?:\/\/500px\.com\.cn\/community\/apk\/downloadApk data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% 500px.com.cn

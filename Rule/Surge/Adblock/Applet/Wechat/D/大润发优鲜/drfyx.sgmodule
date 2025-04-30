@@ -1,1 +1,12 @@
+# > 大润发优鲜<微信小程序> - DRFYX
 
+[Body Rewrite]
+http-response ^https?:\/\/membase-yxapp\.feiniu\.com\/misc\/memberIndex myADArray myADArray0
+
+[Map Local]
+^https?:\/\/www-yxapp\.feiniu\.com\/home\/popupWindow data-type=text data="{}" status-code=200
+^https?:\/\/search-yxapp\.feiniu\.com\/recommend\/general\/FreshRecBuyAgain data-type=text data="{}" status-code=200
+^https?:\/\/search-yxapp\.feiniu\.com\/recommend\/memberIndexGoodsList data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% www-yxapp.feiniu.com, search-yxapp.feiniu.com, membase-yxapp.feiniu.com

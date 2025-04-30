@@ -1,1 +1,7 @@
+# > 印享星<微信小程序> - YXX
 
+[Map Local]
+^https?:\/\/crm\.scpgroup\.com\.cn\/yinli-minapp\/api\/v\d\/ads data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% crm.scpgroup.com.cn

@@ -1,1 +1,11 @@
+# > 嘀嗒出行 - DIDA
 
+[URL Rewrite]
+^https?:\/\/capis(-\w+)?\.didapinche\.com\/ad\/ - reject
+
+[Map Local]
+^https?:\/\/capis(-\w+)?\.didapinche\.com\/publish\/api\/upgrade data-type=text data="{}" status-code=200
+^https?:\/\/www\.didapinche\.com\/app\/adstat\/ data-type=text data="" status-code=200
+
+[MITM]
+hostname= %APPEND% capis*.didapinche.com, www.didapinche.com

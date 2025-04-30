@@ -1,1 +1,7 @@
+# > 天府通 - TFT
 
+[Map Local]
+^https?:\/\/ams-cdn\.cdtft\.cn\/prod\/tft-ams data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% ams-cdn.cdtft.cn

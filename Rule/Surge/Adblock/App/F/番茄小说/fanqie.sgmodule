@@ -9,3 +9,20 @@ DOMAIN, log5-applog.fqnovel.com, REJECT, extended-matching, pre-matching
 DOMAIN, mon11-misc.fqnovel.com, REJECT, extended-matching, pre-matching
 DOMAIN, rtlog5-applog.fqnovel.com, REJECT, extended-matching, pre-matching
 DOMAIN, zlink.ugsdk.cn, REJECT, extended-matching, pre-matching
+
+[URL Rewrite]
+^https?:\/\/.+\.pstatp\.com\/(obj|img)\/ad - reject
+^https?:\/\/.+\.pstatp\.com\/(obj|img)\/web\.business\.image\/.+ - reject
+^https?:\/\/gurd\.snssdk\.com\/src\/server\/v\d\/package - reject
+^https?:\/\/.+\.byteimg.com/tos-cn-i-1yzifmftcy\/(.+)-jpeg\.jpeg - reject
+^https?:\/\/.+\.pstatp\.com\/obj\/mosaic-legacy\/.+\?from\=ad - reject
+^https?:\/\/.+\.pstatp\.com\/bytecom\/resource\/track_log\/src\/.+ - reject
+^https?:\/\/.+\.snssdk\.com\/video\/play\/1\/toutiao\/.+\/mp4 - reject
+^https?:\/\/.+\.snssdk.com\/api\/ad\/.+ - reject
+^https?:\/\/.+\.byteimg\.com\/ad-app-package - reject
+^https?:\/\/.+\.byteimg\.com\/web\.business\.image - reject
+^https?:\/\/lf-cdn-tos\.bytescm\.com\/obj\/static\/ad - reject
+^https?:\/\/tnc3-alisc1\.zijieapi\.com\/get_domains - reject
+
+[MITM]
+hostname= %APPEND% *.pangolin-sdk-toutiao.*, *.pstatp.com, *.pstatp.com.*, *.pglstatp-toutiao.com.*, *.pglstatp-toutiao.com, gurd.snssdk.com, gurd.snssdk.com.*, *default.ixigua.com, lf-cdn-tos.bytescm.com, tnc3-alisc1.zijieapi.com

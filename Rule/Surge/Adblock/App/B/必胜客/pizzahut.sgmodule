@@ -1,1 +1,10 @@
+# > 必胜客 - PIZZAHUT
 
+[URL Rewrite]
+^https?:\/\/res\.pizzahut\.com\.cn\/CRM\/phad\/apphome\/apphome - reject
+
+[Map Local]
+^https?:\/\/res\.pizzahut\.com\.cn\/CRM\/phad\/member\/app\/member data-type=text data="" status-code=200
+
+[MITM]
+hostname= %APPEND% res.pizzahut.com.cn

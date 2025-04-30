@@ -1,1 +1,14 @@
+# > 发现精彩 - 95508
 
+[Rule]
+DOMAIN, union.chinalifeonline.com.cn, REJECT, extended-matching, pre-matching
+
+[URL Rewrite]
+^https?:\/\/static\.95508\.com\/mmg\/images\/ads\/(?!(2024031|20241205)) - reject
+
+[Map Local]
+^https?:\/\/static\.95508\.com\/mmg\/ciop\/sysabbr\/cmep\/images\/(app)?popupads data-type=text data="{}" status-code=200
+^https?:\/\/static\.95508\.com\/mmg\/ciop\/202402\/button\/.*\.gif$ data-type=tiny-gif status-code=200
+
+[MITM]
+hostname= %APPEND% static.95508.com

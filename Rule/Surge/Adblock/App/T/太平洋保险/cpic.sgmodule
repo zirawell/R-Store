@@ -2,3 +2,6 @@
 
 [Rule]
 DOMAIN, a.cpic.com.cn, REJECT, extended-matching, pre-matching
+
+[MITM]
+hostname= %APPEND% 

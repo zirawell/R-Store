@@ -1,1 +1,7 @@
+# > 工银E生活<微信小程序> - ICBCELIFE
 
+[Map Local]
+^https?:\/\/elife\.icbc\.com\.cn\/OFSTNEWBASE\/floorinfo\/(getStartupMantleFlatingFloor|getMantlePages) data-type=text data="" status-code=200
+
+[MITM]
+hostname= %APPEND% 

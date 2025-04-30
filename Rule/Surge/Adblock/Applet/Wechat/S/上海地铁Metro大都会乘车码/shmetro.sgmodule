@@ -1,1 +1,7 @@
+# > 上海地铁Metro大都会乘车码<微信小程序> - SHMETRO
 
+[Map Local]
+^https?:\/\/dock\.tenchii\.com\/DockCard\/api\/mini\/card\/list data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% dock.tenchii.com

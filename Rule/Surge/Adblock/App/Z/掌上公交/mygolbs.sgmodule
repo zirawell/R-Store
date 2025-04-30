@@ -1,1 +1,7 @@
+# > 掌上公交 - MYGOLBS
 
+[Map Local]
+^https?:\/\/quanguo\.mygolbs\.com:\d+\/MyBusServer\/servlet\/MyGoServer\.HttpPool\.HttpHandlerServlet data-type=text data="" status-code=200
+
+[MITM]
+hostname= %APPEND% quanguo.mygolbs.com

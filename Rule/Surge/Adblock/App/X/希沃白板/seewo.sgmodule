@@ -1,1 +1,7 @@
+# > 希沃白板 - SEEWO
 
+[Map Local]
+^https?:\/\/cstore-en-public-tx\.seewo\.com\/easinote\d_public data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% cstore-en-public-tx.seewo.com

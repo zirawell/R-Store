@@ -1,1 +1,7 @@
+# > 杭州公交 - IBUSCLOUD
 
+[URL Rewrite]
+^https?:\/\/m\.ibuscloud\.com\/v\d\/app\/getStartPage - reject
+
+[MITM]
+hostname= %APPEND% m.ibuscloud.com

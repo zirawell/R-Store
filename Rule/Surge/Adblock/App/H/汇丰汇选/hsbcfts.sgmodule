@@ -1,1 +1,7 @@
+# > 汇丰汇选 - HSBCFTS
 
+[Map Local]
+^https?:\/\/m\.prod\.app\.hsbcfts\.com\.cn\/api\/sapp\/biz\/config\/open\/queryappversion\?channelCode= data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% m.prod.app.hsbcfts.com.cn

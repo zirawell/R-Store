@@ -1,1 +1,8 @@
+# > 超级课程表 - SUPER
 
+[URL Rewrite]
+^https?:\/\/182\.92\.244\.70\/d\/json - reject
+^https?:\/\/ad\.myfriday\.cn\/d\/json - reject
+
+[MITM]
+hostname= %APPEND% 182.92.244.70, ad.myfriday.cn

@@ -1,1 +1,8 @@
+# > AcFun - ACFUN
 
+[URL Rewrite]
+^https?:\/\/api-new\.app\.acfun\.cn\/rest\/app\/flash\/screen\/ - reject
+^https?:\/\/aes\.acfun\.cn\/s\?adzones - reject
+
+[MITM]
+hostname= %APPEND% aes.acfun.cn, api-new.app.acfun.cn

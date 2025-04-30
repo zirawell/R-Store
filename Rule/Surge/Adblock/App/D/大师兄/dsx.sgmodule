@@ -1,1 +1,13 @@
+# > 大师兄 - DSX
 
+[Body Rewrite]
+http-response ^https?:\/\/adservice\.sigmob\.cn\/extconfig false true
+
+[Map Local]
+^https?:\/\/sdk\.alibaba\.com\.ailbaba\.me\/xgapp\.php\/v\d\/version data-type=text data="" status-code=200
+^https?:\/\/sdk\.alibaba\.com\.ailbaba\.me\/xgapp\.php\/v\d\/advert\?position=[^2]+ data-type=text data="" status-code=200
+^https?:\/\/sdk\.alibaba\.com\.ailbaba\.me\/xgapp\.php\/v\d\/top_notice\? data-type=text data="" status-code=200
+^https?:\/\/sdk\.alibaba\.com\.ailbaba\.me\/(dsx|xgapp)\.php\/v\d\/(top_notice\?|version|advert\?position=[^2]+) data-type=text data="" status-code=200
+
+[MITM]
+hostname= %APPEND% sdk.alibaba.com.ailbaba.me, adservice.sigmob.cn

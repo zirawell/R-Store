@@ -1,1 +1,10 @@
+# > 国家地理 - NGCHINA
 
+[URL Rewrite]
+^https?:\/\/dili\.bdatu\.com\/jiekou\/ad\/ - reject
+
+[Map Local]
+^https?:\/\/wap\.ngchina\.cn\/news\/adverts\/ data-type=text data="" status-code=200
+
+[MITM]
+hostname= %APPEND% dili.bdatu.com, wap.ngchina.cn

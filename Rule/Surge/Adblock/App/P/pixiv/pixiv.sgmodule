@@ -2,3 +2,10 @@
 
 [Rule]
 DOMAIN, open-pixon.ads-pixiv.net, REJECT, extended-matching, pre-matching
+
+[Map Local]
+^https?:\/\/d\.socdm\.com\/adsv\/ data-type=text data="{}" status-code=200
+^https?:\/\/app-api\.pixiv\.net\/v\d\/application-info\/ios data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% d.socdm.com, app-api.pixiv.net

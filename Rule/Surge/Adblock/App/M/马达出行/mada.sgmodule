@@ -1,1 +1,10 @@
+# > 马达出行 - MADA
 
+[Map Local]
+^https?:\/\/mada-travel\.17u\.cn\/mdapi\/config\/ads data-type=text data="{}" status-code=200
+^https?:\/\/mada-travel\.17u\.cn\/mdapi\/config\/mine data-type=text data="{}" status-code=200
+^https?:\/\/mada-travel\.17u\.cn\/mdapi\/config\/tabAct data-type=text data="{}" status-code=200
+^https?:\/\/ebk\.17u\.cn\/tctrafficappversionadmin\/api\/getLatestVersionApp data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% mada-travel.17u.cn, ebk.17u.cn

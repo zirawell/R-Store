@@ -1,1 +1,15 @@
+# > 同程旅行<微信小程序> - 17U
 
+[URL Rewrite]
+^https?:\/\/wx\.17u\.cn\/xcxhomeapi\/((aggregator\/index)|(home\/(?>screen|banner|converge)))$ - reject
+
+[Map Local]
+^https?:\/\/wx\.17u\.cn\/wxocbdapi\/adService data-type=text data="{}" status-code=200
+^https?:\/\/wx\.17u\.cn\/homemarketapi\/(aggregator\/index|search\/recommend) data-type=text data="{}" status-code=200
+^https?:\/\/wx\.17u\.cn\/wechatmypubapi\/myInfo\/(?>aorderRemind|icons|memberShow|messageBox) data-type=text data="{}" status-code=200
+^https?:\/\/wx\.17u\.cn\/mytourapi\/(mytrip\/blankflight|blankpage\/recommendList) data-type=text data="{}" status-code=200
+^https?:\/\/wx\.17u\.cn\/membermessageuserapi\/(message\/list|category\/getCategory) data-type=text data="{}" status-code=200
+^https?:\/\/wx\.17u\.cn\/platformpubapi\/customer\/lead\/getInfo data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% wx.17u.cn

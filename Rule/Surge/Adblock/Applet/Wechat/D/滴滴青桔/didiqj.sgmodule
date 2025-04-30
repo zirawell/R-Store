@@ -1,1 +1,11 @@
+# > 滴滴青桔<微信小程序> - DIDIQJ
 
+[Map Local]
+^https?:\/\/htwkop\.xiaojukeji\.com\/gateway\?api=cms\.htw\.delivery data-type=text data="{}" status-code=200
+^https?:\/\/htwkop\.xiaojukeji\.com\/gateway\?api=hm\.fa\.(?>combineHomepageInfo|mallRecommend) data-type=text data="{}" status-code=200
+
+[Script]
+type=http-response,pattern=^https?:\/\/htwkop\.xiaojukeji\.com\/gateway\?api=hm\.fa\.homeConfig,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/wechatApplet.js
+
+[MITM]
+hostname= %APPEND% htwkop.xiaojukeji.com

@@ -1,1 +1,7 @@
+# > TopWidgets - TOPWIDGETS
 
+[URL Rewrite]
+^https?:\/\/top-widgets-api\.xiaozujian\.com\/api\/ad\/config - reject
+
+[MITM]
+hostname= %APPEND% top-widgets-api.xiaozujian.com

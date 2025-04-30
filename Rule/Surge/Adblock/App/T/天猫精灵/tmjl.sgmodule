@@ -1,1 +1,10 @@
+# > 天猫精灵 - TMJL
 
+[URL Rewrite]
+^https?:\/\/zconfig\.alibabausercontent\.com\/zconfig - reject
+
+[Map Local]
+^https?:\/\/ossgw.alicdn.com\/creatives-assets\/image\/ data-type=text data="" status-code=200
+
+[MITM]
+hostname= %APPEND% ossgw.alicdn.com, zconfig.alibabausercontent.com

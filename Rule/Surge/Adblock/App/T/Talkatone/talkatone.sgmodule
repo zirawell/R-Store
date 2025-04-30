@@ -2,3 +2,10 @@
 
 [Rule]
 DOMAIN-SUFFIX, tappx.com, REJECT, extended-matching, pre-matching
+
+[Map Local]
+^https?:\/\/alt-r\.my\.com\/mobile data-type=text data="{}" status-code=200
+^https?:\/\/imgx\.jampp\.com\/imgsrv\/tn data-type=tiny-gif status-code=200
+
+[MITM]
+hostname= %APPEND% alt-r.my.com, imgx.jampp.com

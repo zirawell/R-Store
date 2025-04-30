@@ -1,1 +1,8 @@
+# > 粉笔 - FENBI
 
+[Map Local]
+^https?:\/\/tiku\.fenbi\.com\/activity\/app\/launcher data-type=text data="{}" status-code=200
+^https?:\/\/market-api\.fenbi\.com\/iphone\/v\d\/assistant\/entrance\/show data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% tiku.fenbi.com, market-api.fenbi.com

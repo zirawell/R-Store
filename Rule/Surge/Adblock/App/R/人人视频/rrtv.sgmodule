@@ -1,1 +1,21 @@
+# > 人人视频 - RRTV
 
+[URL Rewrite]
+^https?:\/\/api\.rr\.tv\/.*?Version - reject
+
+[Map Local]
+^https?:\/\/api\.rr\.tv\/storage\/business\/rootName\/app\/homePage\?dataType=JSON data-type=text data="{}" status-code=200
+
+[Script]
+type=http-response,pattern=^https?:\/\/api\.rr\.tv\/\w{3}\/level\/info,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/rrtv.js
+type=http-response,pattern=^https?:\/\/api\.rr\.tv\/v3plus\/index\/channel\?pageNum=1&position=CHANNEL_MY,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/rrtv.js
+type=http-response,pattern=^https?:\/\/api\.rr\.tv\/v3plus\/index\/channel\?pageNum=1&position=CHANNEL_INDEX,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/rrtv.js
+type=http-response,pattern=^https?:\/\/api\.rr\.tv\/ad\/getAll,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/rrtv.js
+type=http-response,pattern=^https?:\/\/api\.rr\.tv\/app\/config\/h5NativeBar,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/rrtv.js
+type=http-response,pattern=^https?:\/\/api\.rr\.tv\/drama\/app\/get_combined_drama_detail,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/rrtv.js
+type=http-response,pattern=^https?:\/\/api\.rr\.tv\/watch\/v\d,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/rrtv.js
+type=http-response,pattern=^https?:\/\/api\.rr\.tv\/user\/privilege\/list,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/rrtv.js
+type=http-response,pattern=^https?:\/\/api\.rr\.tv\/user\/profile,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/rrtv.js
+
+[MITM]
+hostname= %APPEND% api.rr.tv

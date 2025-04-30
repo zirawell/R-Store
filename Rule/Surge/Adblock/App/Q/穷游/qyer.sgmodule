@@ -1,1 +1,11 @@
+# > 穷游 - QYER
 
+[URL Rewrite]
+^https?:\/\/open\.qyer\.com\/qyer\/config\/get - reject
+^https?:\/\/media\.qyer\.com\/ad\/ - reject
+
+[Map Local]
+^https?:\/\/open\.qyer\.com\/qyer\/startpage\/ data-type=text data="" status-code=200
+
+[MITM]
+hostname= %APPEND% open.qyer.com, media.qyer.com

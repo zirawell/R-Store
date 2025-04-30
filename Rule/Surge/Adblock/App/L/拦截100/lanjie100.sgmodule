@@ -1,1 +1,7 @@
+# > 拦截100 - LANJIE100
 
+[URL Rewrite]
+^https?:\/\/tagit\.hyhuo\.com\/recover\/list - reject
+
+[MITM]
+hostname= %APPEND% tagit.hyhuo.com

@@ -1,1 +1,10 @@
+# > 淘票票 - TAOPIAOPIAO
 
+[URL Rewrite]
+^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.film\.mtopadvertiseapi\.(queryadvertise|queryloadingbanner)\/ - reject
+
+[Map Local]
+^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.film\.life\.popup\.get\/ data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% acs.m.taobao.com

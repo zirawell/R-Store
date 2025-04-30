@@ -1,1 +1,7 @@
+# > 灵锡 - LINXI
 
+[URL Rewrite]
+^https?:\/\/api\.internetofcity\.cn\/api\/resource\/anon\/popups\/(?>getSplashList|getList) - reject
+
+[MITM]
+hostname= %APPEND% api.internetofcity.cn

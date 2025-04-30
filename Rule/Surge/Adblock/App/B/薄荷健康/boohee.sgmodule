@@ -1,1 +1,25 @@
+# > 薄荷健康 - BOOHEE
 
+[URL Rewrite]
+^https?:\/\/.*\.boohee\.(?>cn|com).*(?>notification_template|advertisements|share_contents|app_square|plugins|notifications|start_up_with_ad|float_ad|data_file_entrance) - reject
+^https?:\/\/api\.boohee\.com\/app-interface\/v\d\/ad\/info - reject
+
+[Body Rewrite]
+http-response ^https?:\/\/api\.boohee\.com\/meta-interface\/v\d\/index\/record_index articles random_body
+
+[Map Local]
+^https?:\/\/api\.boohee\.com\/shop-interface\/api\/v\d\/home\/index data-type=text data="{}" status-code=200
+^https?:\/\/bohe\.sfo-tx-shanghai-01\.saas\.sensorsdata\.cn\/api\/v\d\/sfo\/user_popup_configs data-type=text data="{}" status-code=200
+^https?:\/\/api\.boohee\.com\/meta-interface\/v\d\/index\/(?>discover_chosen|page_float_bubbles|sensor-banners|tool_buttons) data-type=text data="{}" status-code=200
+^https?:\/\/api\.boohee\.com\/app-interface\/v\d\/record\/record_tool(_pop)?_ad data-type=text data="{}" status-code=200
+^https?:\/\/api\.boohee\.com\/app-interface\/v\d\/search\/search\? data-type=text data="{}" status-code=200
+^https?:\/\/status\.boohee\.com\/api\/v\d\/merged_messages$ data-type=text data="{}" status-code=200
+
+[Script]
+type=http-response,pattern=^https?:\/\/api\.boohee\.com\/meta-interface\/v\d\/index\/plaza-flow\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/boohee.js
+type=http-response,pattern=^https?:\/\/api\.boohee\.com\/meta-interface\/v\d\/index\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/boohee.js
+type=http-response,pattern=^https?:\/\/api\.boohee\.com\/meta-interface\/v\d\/index\/plaza\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/boohee.js
+type=http-response,pattern=^https?:\/\/api\.boohee\.com\/open-interface\/v\d\/string\/market_page\?title=metabolism_config$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/boohee.js
+
+[MITM]
+hostname= %APPEND% *.boohee.com, *.boohee.cn, bohe.sfo-tx-shanghai-01.saas.sensorsdata.cn

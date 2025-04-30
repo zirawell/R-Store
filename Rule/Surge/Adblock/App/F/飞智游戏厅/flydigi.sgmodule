@@ -1,1 +1,7 @@
+# > 飞智游戏厅 - FLYDIGI
 
+[URL Rewrite]
+^https?:\/\/api\.flydigi\.com\/\w+\/v\d\/ad - reject
+
+[MITM]
+hostname= %APPEND% api.flydigi.com

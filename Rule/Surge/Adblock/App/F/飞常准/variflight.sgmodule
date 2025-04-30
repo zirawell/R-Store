@@ -4,3 +4,11 @@
 DOMAIN, adv-adlog.variflight.com, REJECT, extended-matching, pre-matching
 DOMAIN, adv-ads.variflight.com, REJECT, extended-matching, pre-matching
 DOMAIN, app-ad.variflight.com, REJECT, extended-matching, pre-matching
+
+[URL Rewrite]
+^https?:\/\/api\.cdmcaac\.com\/ad - reject
+^https?:\/\/app\.variflight\.com(\/v\d)?\/ad - reject
+^https?:\/\/app\.variflight\.com\/flight\/getIosAdToken - reject
+
+[MITM]
+hostname= %APPEND% api.cdmcaac.com, app.variflight.com

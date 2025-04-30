@@ -1,1 +1,7 @@
+# > 潮玩宇宙 - LUCKLYWORLD
 
+[Map Local]
+^https?:\/\/ios-api\.lucklyworld\.com\/v\d\/api\/config\/startup data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% ios-api.lucklyworld.com

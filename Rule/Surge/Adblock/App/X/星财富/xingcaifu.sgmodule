@@ -1,1 +1,7 @@
+# > 星财富 - XINGCAIFU
 
+[Map Local]
+^https?:\/\/operationapi\.fosunhanig\.com\/ad\/v\d\/(?>PopupAdList|ScreenAdList|BannerList) data-type=text data="" status-code=200
+
+[MITM]
+hostname= %APPEND% operationapi.fosunhanig.com

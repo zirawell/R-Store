@@ -1,1 +1,7 @@
+# > 途虎养车<微信小程序> - TUHU
 
+[Map Local]
+^https?:\/\/mkt-gateway\.tuhu\.cn\/mkt-scene-marketing-service\/api\/scene\/queryScheme data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% mkt-gateway.tuhu.cn

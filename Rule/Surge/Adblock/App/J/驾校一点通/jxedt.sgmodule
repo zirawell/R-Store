@@ -7,3 +7,14 @@ DOMAIN, richmanrules.jxedt.com, REJECT, extended-matching, pre-matching
 DOMAIN, richmanapi.ksedt.com, REJECT, extended-matching, pre-matching
 DOMAIN, richmanmain.ksedt.com, REJECT, extended-matching, pre-matching
 DOMAIN, richmanrules.ksedt.com, REJECT, extended-matching, pre-matching
+
+[URL Rewrite]
+^https?:\/\/api\.jxedt\.com\/ad\/ - reject
+
+[Map Local]
+^https?:\/\/api\.jxedt\.com\/jump\/EMiCcDNp data-type=tiny-gif status-code=200
+^https?:\/\/gouche\.ksedt\.com\/config\/popup\/ data-type=text data="{}" status-code=200
+^https?:\/\/op\.ksedt\.com\/jxedtLive\/liveIntroduceResource data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% api.jxedt.com, gouche.ksedt.com, op.ksedt.com

@@ -2,3 +2,12 @@
 
 [Rule]
 DOMAIN, apmplus.volces.com, REJECT, extended-matching, pre-matching
+
+[Map Local]
+^https?:\/\/api-c\.liepin\.com\/api\/com\.liepin\.pupa\.discover\.city\.get-ad-comps data-type=text data="{}" status-code=200
+^https?:\/\/api-ac\.liepin\.com\/api\/com\.liepin\.cyclops\.live\.get-ad-cards data-type=text data="{}" status-code=200
+^https?:\/\/api-ac\.liepin\.com\/api\/com\.liepin\.pupa\.discover\.click-tab data-type=text data="{}" status-code=200
+^https?:\/\/api-wanda\.liepin\.com\/api\/com\.liepin\.cbp\.baizhong\.op\.v\d-show-4app data-type=text data="" status-code=200
+
+[MITM]
+hostname= %APPEND% api-c.liepin.com, api-ac.liepin.com, api-wanda.liepin.com

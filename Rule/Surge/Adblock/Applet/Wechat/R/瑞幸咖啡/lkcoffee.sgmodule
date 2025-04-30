@@ -1,1 +1,8 @@
+# > 瑞幸咖啡<微信小程序> - LKCOFFEE
 
+[Map Local]
+^https?:\/\/capi\.lkcoffee\.com\/resource\/m\/order\/orderBanner data-type=text data="{}" status-code=200
+^https?:\/\/capi\.lkcoffee\.com\/resource\/market\/receiveCoupon\/receiveCouponPop data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% capi.lkcoffee.com

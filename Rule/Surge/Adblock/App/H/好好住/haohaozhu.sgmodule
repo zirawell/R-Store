@@ -1,1 +1,7 @@
+# > 好好住 - HAOHAOZHU
 
+[URL Rewrite]
+^https?:\/\/api\.haohaozhu\.cn\/index\.php\/home\/AppInit\/getStartPhoto - reject
+
+[MITM]
+hostname= %APPEND% api.haohaozhu.cn

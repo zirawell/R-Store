@@ -1,1 +1,8 @@
+# > 迅游加速器 - XUNYOU
 
+[Map Local]
+^https?:\/\/portal-xunyou\.qingcdn\.com\/api\/v\d\/\w+\/ads\/ data-type=text data="" status-code=200
+^https?:\/\/portal-xunyou\.qingcdn\.com\/api\/v\d\/\w+\/configs\/(?>splash_ad|ad_urls) data-type=text data="" status-code=200
+
+[MITM]
+hostname= %APPEND% portal-xunyou.qingcdn.com

@@ -1,1 +1,8 @@
+# > 华图在线 - HUATU
 
+[Map Local]
+^https?:\/\/yyfapi\.huatu\.com\/common\/ad\/resource\/home data-type=text data="{}" status-code=200
+^https?:\/\/ocfapi\.huatu\.com\/api\/user\/get_my_suggest data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% yyfapi.huatu.com, ocfapi.huatu.com

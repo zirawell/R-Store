@@ -1,1 +1,11 @@
+# > 人民日报 - PEOPLEAPP
 
+[URL Rewrite]
+^https?:\/\/app\.peopleapp\.com\/Api\/\d+/HomeApi\/(?>adv|getAdvertImage) - reject
+^https?:\/\/stat\.peopleapp\.com\/ - reject
+
+[Map Local]
+^https?:\/\/adstatic\.peopleapp\.com\/upload\/AppLoad\/.*.(?>jpg|png) data-type=text data="" status-code=200
+
+[MITM]
+hostname= %APPEND% app.peopleapp.com, stat.peopleapp.com, adstatic.peopleapp.com

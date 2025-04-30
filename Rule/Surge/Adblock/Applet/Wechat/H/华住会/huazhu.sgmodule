@@ -1,1 +1,7 @@
+# > 华住会<微信小程序> - HUAZHU
 
+[Map Local]
+^https?:\/\/api-fouth-mem\.huazhu\.com\/api\/rights\/bannerList data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% api-fouth-mem.huazhu.com

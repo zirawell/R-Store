@@ -1,1 +1,7 @@
+# > Upwork - UPWORK
 
+[Map Local]
+^https?:\/\/www\.upwork\.com\/api\/v\d\/client-app-config\/platform\/ios\/app\/freelancer\/version data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% www.upwork.com

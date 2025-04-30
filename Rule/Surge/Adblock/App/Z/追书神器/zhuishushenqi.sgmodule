@@ -1,1 +1,10 @@
+# > 追书神器 - ZHUISHUSHENQI
 
+[Map Local]
+^https?:\/\/(api|b)\.zhuishushenqi\.com\/advert data-type=text data="" status-code=200
+^https?:\/\/api\.zhuishushenqi\.com\/splashes\/ios data-type=text data="" status-code=200
+^https?:\/\/api\.zhuishushenqi\.com\/notification\/shelfMessage data-type=text data="" status-code=200
+^https?:\/\/api\.zhuishushenqi\.com\/user\/bookshelf-updated data-type=text data="" status-code=200
+
+[MITM]
+hostname= %APPEND% api.zhuishushenqi.com, b.zhuishushenqi.com

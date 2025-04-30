@@ -1,1 +1,13 @@
+# > 唯品会 - VIPSHOP
 
+[URL Rewrite]
+^https?:\/\/b\.appsimg\.com\/upload\/momin - reject
+^https?:\/\/mapi\.appvipshop\.com\/vips-mobile\/rest\/iosAdInfo\/report - reject
+
+[Map Local]
+^https?:\/\/mapi\.appvipshop\.com\/vips-mobile\/rest\/activity\/advertisement\/get data-type=text data="" status-code=200
+^https?:\/\/mapi\.appvipshop\.com\/vips-mobile\/rest\/layout\/productList\/eventData\/v data-type=text data="" status-code=200
+^https?:\/\/mapi\.appvipshop\.com\/vips-mobile\/rest\/activity\/coupon\/float_entrance\/get\?api_key data-type=text data="" status-code=200
+
+[MITM]
+hostname= %APPEND% b.appsimg.com, mapi.appvipshop.com

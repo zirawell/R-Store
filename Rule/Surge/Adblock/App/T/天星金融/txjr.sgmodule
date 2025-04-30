@@ -1,1 +1,9 @@
+# > 天星金融 - TXJR
 
+[URL Rewrite]
+^https?:\/\/t1\.market\.xiaomi\.com\/thumbnail\/webp\/w1170q100\/ - reject
+^https?:\/\/api\.jr\.mi\.com\/jr\/api\/playScreen - reject
+^https?:\/\/api\.jr\.mi\.com\/v\d\/adv - reject
+
+[MITM]
+hostname= %APPEND% t1.market.xiaomi.com, api.jr.mi.com

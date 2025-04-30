@@ -1,1 +1,20 @@
+# > 起点读书 - QIDIAN
 
+[URL Rewrite]
+^https?:\/\/mage(v\d)?\.if\.qidian\.com\/argus\/api\/v\d\/bookshelf\/getad - reject
+^https?:\/\/mage(v\d)?\.if\.qidian\.com\/argus\/api\/v\d\/client\/getsplashscreen - reject
+^https?:\/\/mage(v\d)?\.if\.qidian\.com\/argus\/api\/v\d\/client\/iosad - reject
+
+[Map Local]
+^https?:\/\/qidian\.qpic\.cn\/qidian_common data-type=tiny-gif status-code=200
+^https?:\/\/mage(v\d)?\.if\.qidian\.com\/Atom\.axd\/Api\/Client\/GetConfIOS data-type=tiny-gif status-code=200
+^https?:\/\/mage(v\d)?\.if\.qidian\.com\/argus\/api\/v\d\/adv data-type=text data="{}" status-code=200
+^https?:\/\/mage(v\d)?\.if\.qidian\.com\/argus\/api\/v\d\/bookshelf\/refresh data-type=text data="" status-code=200
+^https?:\/\/mage(v\d)?\.if\.qidian\.com\/argus\/api\/v\d\/bookshelf\/getTopOperation data-type=text data="{}" status-code=200
+^https?:\/\/mage(v\d)?\.if\.qidian\.com\/argus\/api\/v\d\/followsubscribe data-type=text data="{}" status-code=200
+
+[Script]
+type=http-response,pattern=^https?:\/\/mage(v\d)?\.if\.qidian\.com\/argus\/api\/v\d\/(deeplink\/geturl|client\/getconf|bookshelf\/getHoverAdv|dailyrecommend\/getdailyrecommend|assembly\/toolbar|user\/getaccountpage),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/qidian.js
+
+[MITM]
+hostname= %APPEND% qidian.qpic.cn, mage.if.qidian.com, magev*.if.qidian.com

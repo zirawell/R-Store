@@ -1,1 +1,8 @@
+# > 安吉星 - ONSTAR
 
+[Map Local]
+^https?:\/\/www\.onstar\.com\.cn\/mssos\/sos\/social\/v\d\/community\/article\/page data-type=text data="{}" status-code=200
+^https?:\/\/api\.shanghaionstar\.com\/sos\/contentinfo\/v\d\/public\/landingpage data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% www.onstar.com.cn, api.shanghaionstar.com

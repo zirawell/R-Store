@@ -1,1 +1,11 @@
+# > 苏e行 - BWTON
 
+[Map Local]
+^https?:\/\/ad\.shunchangzhixing\.com\/getAd data-type=text data="{}" status-code=200
+^https?:\/\/api\.bwton\.com\/bas\/ad data-type=text data="" status-code=200
+^https?:\/\/api\.bwton\.com\/bff\/app\/h5\/v\d\/station\/goods data-type=text data="{}" status-code=200
+^https?:\/\/api\.bwton\.com\/bff\/app\/index\/goods data-type=text data="{}" status-code=200
+^https?:\/\/api\.bwton\.com\/bff\/app\/index\/recommend data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% ad.shunchangzhixing.com, api.bwton.com

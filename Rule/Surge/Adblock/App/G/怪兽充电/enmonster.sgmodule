@@ -1,1 +1,7 @@
+# > 怪兽充电 - ENMONSTER
 
+[Map Local]
+https?:\/\/awg\.enmonster\.com\/apa\/(advert\/demand\/home\/poster|index\/advert\/skin) data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% awg.enmonster.com

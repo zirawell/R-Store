@@ -2,3 +2,9 @@
 
 [Rule]
 DOMAIN, ads.ishansong.com, REJECT, extended-matching, pre-matching
+
+[Map Local]
+^https?:\/\/miniprogram\.ishansong\.com\/cms\/faq\/query data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% miniprogram.ishansong.com

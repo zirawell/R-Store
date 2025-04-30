@@ -1,1 +1,7 @@
+# > 香山智能 - SENSSUN
 
+[URL Rewrite]
+^https?:\/\/shealthyapi\.senssun\.com\/v\d\/app\/banner\/findByType\?type=bottom$ - reject
+
+[MITM]
+hostname= %APPEND% shealthyapi.senssun.com

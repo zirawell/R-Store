@@ -1,1 +1,7 @@
+# > 每日万年历 - MRWNL
 
+[URL Rewrite]
+^https?:\/\/app-cdn\.2q10\.com\/app\/ical\/honored\? - reject
+
+[MITM]
+hostname= %APPEND% app-cdn.2q10.com

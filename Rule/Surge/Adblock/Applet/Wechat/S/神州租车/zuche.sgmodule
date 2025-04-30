@@ -1,1 +1,8 @@
+# > 神州租车<微信小程序> - ZUCHE
 
+[Map Local]
+^https?:\/\/apiproxy\.zuche\.com\/resource\/carrctapi\/home\/marketing data-type=text data="{}" status-code=200
+^https?:\/\/apiproxy\.zuche\.com\/resource\/carrctapi\/home\/page\/advertising data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% apiproxy.zuche.com

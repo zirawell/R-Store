@@ -1,1 +1,12 @@
+# > 万词王 - WANCIWANG
 
+[URL Rewrite]
+^https?:\/\/wanciwangdata\.oss-cn-\w+\.aliyuncs\.com\/startup\/resource\/content - reject
+
+[Map Local]
+^https?:\/\/recite\.perfectlingo\.com\/api\/recite\/app-act\/act-list data-type=text data="{}" status-code=200
+^https?:\/\/recite\.perfectlingo\.com\/api\/recite\/content-recommend\/v\d\/get-by-uid data-type=text data="{}" status-code=200
+^https?:\/\/recite\.perfectlingo\.com\/api\/recite\/floating-window\/v\d\/get-show data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% wanciwangdata.oss-cn-*.aliyuncs.com, recite.perfectlingo.com

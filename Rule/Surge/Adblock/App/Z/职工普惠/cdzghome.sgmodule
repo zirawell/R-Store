@@ -1,1 +1,7 @@
+# > 职工普惠 - CDZGHOME
 
+[Map Local]
+^https?:\/\/preprod\.cdzghome\.com:\d+\/banner\/bootUp data-type=text data="" status-code=200
+
+[MITM]
+hostname= %APPEND% preprod.cdzghome.com

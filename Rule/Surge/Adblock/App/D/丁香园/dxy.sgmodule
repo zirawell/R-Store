@@ -1,1 +1,7 @@
+# > 丁香园 - DXY
 
+[URL Rewrite]
+^https?:\/\/dq\.dxy\.cn\/api\.php\?action=getpostbanners - reject
+
+[MITM]
+hostname= %APPEND% dq.dxy.cn

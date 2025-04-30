@@ -2,3 +2,25 @@
 
 [Rule]
 DOMAIN-SUFFIX, apilog.qbb6.com, REJECT, extended-matching, pre-matching
+
+[URL Rewrite]
+^https?:\/\/stlib\.qbb6\.com\/wclt\/js\/core\/popup - reject
+^https?:\/\/api\.qbb6\.com\/baby\/relative\/visited - reject
+^https?:\/\/api\.qbb6\.com\/commons\/check\/app\/update - reject
+^https?:\/\/api\.qbb6\.com\/remind\/unread_count\/get - reject
+
+[Map Local]
+^https?:\/\/stlib\.qbb6\.com\/content\/\w+\.webp data-type=tiny-gif status-code=200
+^https?:\/\/api\.qbb6\.com\/ad\/ data-type=text data="" status-code=200
+^https?:\/\/api\.qbb6\.com\/baby\/and\/litclass\/list\/get data-type=text data="{}" status-code=200
+^https?:\/\/api\.qbb6\.com\/commons\/self\/button\/group\/get data-type=text data="{}" status-code=200
+^https?:\/\/api\.qbb6\.com\/commons\/testflight\/check\/update data-type=text data="{}" status-code=200
+^https?:\/\/api\.qbb6\.com\/commons\/widget\/info\/get data-type=text data="{}" status-code=200
+^https?:\/\/apipt\.qbb6\.com\/parenting\/pt\/home\/post\/card\/get data-type=text data="{}" status-code=200
+^https?:\/\/apicommunity\.qbb6\.com\/community\/category\/list\/get data-type=text data="{}" status-code=200
+
+[Script]
+type=http-response,pattern=^https?:\/\/webapi\.qbb6\.com\/h5\/api\/lib\/internal\/append\/get,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/qbb.js
+
+[MITM]
+hostname= %APPEND% stlib.qbb6.com, api.qbb6.com, apipt.qbb6.com, apicommunity.qbb6.com, webapi.qbb6.com

@@ -1,1 +1,8 @@
+# > 民生银行 - CMBC
 
+[Map Local]
+^https?:\/\/www\.cmbc\.com\.cn\/m\/image\/loadingpage\/ data-type=text data="" status-code=200
+^https?:\/\/www\.cmbc\.com\.cn\/m\/image\/banner\/.*.png data-type=text data="" status-code=200
+
+[MITM]
+hostname= %APPEND% www.cmbc.com.cn

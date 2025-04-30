@@ -2,3 +2,9 @@
 
 [Rule]
 DOMAIN-SUFFIX, ad.lofter.com, REJECT, extended-matching, pre-matching
+
+[Map Local]
+^https?:\/\/lofter\.lf127\.net\/ad data-type=text data="" status-code=200
+
+[MITM]
+hostname= %APPEND% lofter.lf127.net

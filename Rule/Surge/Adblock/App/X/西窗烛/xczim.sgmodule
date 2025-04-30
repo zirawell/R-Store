@@ -1,1 +1,7 @@
+# > 西窗烛 - XCZIM
 
+[URL Rewrite]
+^https?:\/\/lchttpapi\.xczim\.com\/\d\.\d\/functions\/getLaunchImageForIOS - reject
+
+[MITM]
+hostname= %APPEND% lchttpapi.xczim.com

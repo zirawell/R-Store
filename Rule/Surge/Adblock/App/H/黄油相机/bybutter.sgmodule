@@ -4,3 +4,9 @@
 DOMAIN-SUFFIX, anythinktech.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, adkwai.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, mob.com, REJECT, extended-matching, pre-matching
+
+[URL Rewrite]
+^https?:\/\/api\d\.bybutter\.com\/v\d\/app\/placements\/\d\/advertisements - reject
+
+[MITM]
+hostname= %APPEND% api*.bybutter.com

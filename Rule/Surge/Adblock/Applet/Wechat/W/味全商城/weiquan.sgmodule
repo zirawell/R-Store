@@ -1,1 +1,7 @@
+# > 味全商城<微信小程序> - WEIQUAN
 
+[Map Local]
+^https?:\/\/consumer-api\.quncrm\.com\/v\d\/ec\/(splashWeappPage|marketing\/visibleEnterStoreWelfares) data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% consumer-api.quncrm.com

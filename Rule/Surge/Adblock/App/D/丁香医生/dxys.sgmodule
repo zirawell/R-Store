@@ -1,1 +1,7 @@
+# > 丁香医生 - DXYS
 
+[URL Rewrite]
+^https?:\/\/dxy\.com\/app\/i\/ask\/biz\/feed\/launch - reject
+
+[MITM]
+hostname= %APPEND% dxy.com

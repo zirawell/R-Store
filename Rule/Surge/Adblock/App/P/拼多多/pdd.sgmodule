@@ -40,3 +40,31 @@ DOMAIN, promotion.pddpic.com, REJECT, extended-matching, pre-matching
 DOMAIN, promotion-1.pddpic.com, REJECT, extended-matching, pre-matching
 DOMAIN, promotion-2.pddpic.com, REJECT, extended-matching, pre-matching
 DOMAIN, promotion-3.pddpic.com, REJECT, extended-matching, pre-matching
+
+[URL Rewrite]
+^https?:\/\/api\.(pinduoduo|yangkeduo)\.com\/api\/cappuccino\/splash - reject
+^https?:\/\/mobile\.yangkeduo\.com\/layer\/app_upgrade_popup - reject
+^https?:\/\/api\.pinduoduo\.com\/api\/ktt_gateway\/activity\/feeds\/personal_home_page\/ - reject
+^https?:\/\/api\.pinduoduo\.com\/api\/alexa\/goods\/back_up - reject
+
+[Map Local]
+^https?:\/\/api\.pinduoduo\.com\/api\/aquarius\/hungary\/global\/app_popup data-type=text data="{}" status-code=200
+^https?:\/\/api\.pinduoduo\.com\/api\/flow\/hungary\/window\/global data-type=text data="{}" status-code=200
+^https?:\/\/api\.pinduoduo\.com\/search_hotquery data-type=text data="{}" status-code=200
+^https?:\/\/api\.pinduoduo\.com\/api\/zaire_biz\/chat\/resource\/get_list_data data-type=text data="{}" status-code=200
+^https?:\/\/api\.pinduoduo\.com\/api\/brand-olay\/goods_detail\/bybt_guide data-type=text data="{}" status-code=200
+^https?:\/\/api\.pinduoduo\.com\/api\/engels\/reviews\/require\/append data-type=text data="{}" status-code=200
+^https?:\/\/api\.pinduoduo\.com\/api\/caterham\/v\d\/query\/my_order_group data-type=text data="{}" status-code=200
+^https?:\/\/api\.pinduoduo\.com\/api\/caterham\/v\d\/query\/likes data-type=text data="{}" status-code=200
+^https?:\/\/api\.pinduoduo\.com\/api\/caterham\/v\d\/query\/personal data-type=text data="{}" status-code=200
+^https?:\/\/api\.pinduoduo\.com\/api\/caterham\/v\d\/query\/new_chat_group data-type=text data="{}" status-code=200
+^https?:\/\/api\.yangkeduo\.com\/api\/ant\/entry\/navigate data-type=text data="{}" status-code=200
+^https?:\/\/api\.pinduoduo\.com\/api\/barrow\/query data-type=text data="{}" status-code=200
+^https?:\/\/api\.pinduoduo\.com\/api\/pdd_live_moore_main_lego data-type=text data="{}" status-code=200
+
+[Script]
+type=http-response,pattern=^https?:\/\/api\.pinduoduo\.com\/api\/oak\/integration\/render,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/pdd.js
+type=http-response,pattern=^https?:\/\/api\.pinduoduo\.com\/api\/alexa\/\w+\/hub,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/pdd.js
+
+[MITM]
+hostname= %APPEND% api.pinduoduo.com, api.yangkeduo.com, mobile.yangkeduo.com

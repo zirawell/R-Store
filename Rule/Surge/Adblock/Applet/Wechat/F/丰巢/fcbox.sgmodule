@@ -2,3 +2,9 @@
 
 [Rule]
 DOMAIN, dsp.fcbox.com, REJECT, extended-matching, pre-matching
+
+[URL Rewrite]
+^https?:\/\/webchatapp\.fcbox\.com\/fcboxactivityweb\/api\/v\d\/clientPage - reject
+
+[MITM]
+hostname= %APPEND% webchatapp.fcbox.com

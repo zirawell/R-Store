@@ -1,1 +1,7 @@
+# > 友邦友享 - AIA
 
+[Map Local]
+^https?:\/\/e-static\.aia\.com\.cn\/kyh\/resourcefolder\/ads data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% e-static.aia.com.cn

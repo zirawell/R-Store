@@ -1,1 +1,7 @@
+# > 菜鸟速递<微信小程序> - CAINIAO
 
+[Map Local]
+^https?:\/\/cn-acs\.m\.cainiao\.com\/h5\/mtop\.cainiao\.guoguo\.tdwxgateway\.ads data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% cn-acs.m.cainiao.com

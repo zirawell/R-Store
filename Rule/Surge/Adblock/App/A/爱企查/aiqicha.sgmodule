@@ -1,1 +1,21 @@
+# > 爱企查 - AIQICHA
 
+[URL Rewrite]
+^https?:\/\/180\.76\.76\.112\/v\d\/ - reject
+^https?:\/\/aiqicha\.baidu\.com\/app\/bannerPicAjax - reject
+^https?:\/\/aiqicha\.baidu\.com\/app\/getPopConfigAjax - reject
+^https?:\/\/aiqicha\.baidu\.com\/app\/getHotTopicAjax - reject
+^https?:\/\/aiqicha\.baidu\.com\/app\/getNewsReportAjax - reject
+^https?:\/\/aiqicha\.baidu\.com\/app\/getExpertVideoAjax - reject
+^https?:\/\/aiqicha\.baidu\.com\/apps\/getHotRecommendV\dAjax - reject
+^https?:\/\/aiqicha\.baidu\.com\/m\/getLoginWordsAjax - reject
+^https?:\/\/aiqicha\.baidu\.com\/app\/getAppPopSettingAjax - reject
+^https?:\/\/aiqicha\.baidu\.com\/app\/commonstatusAjax - reject
+^https?:\/\/aiqicha\.baidu\.com\/apps\/getHomeMonitorDataAjax - reject
+^https?:\/\/aiqicha\.baidu\.com\/apps\/searchRecommendAjax - reject
+
+[Map Local]
+^https?:\/\/b2baifanfan\.baidu\.com\/crm\/web\/b2b\/im\/common\/getConfigByDeviceNum data-type=text data="" status-code=200
+
+[MITM]
+hostname= %APPEND% 180.76.76.112, aiqicha.baidu.com, b2baifanfan.baidu.com

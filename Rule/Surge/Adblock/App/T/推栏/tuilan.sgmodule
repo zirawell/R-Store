@@ -1,1 +1,7 @@
+# > 推栏 - TUILAN
 
+[Map Local]
+^https?:\/\/m\.pvp\.xoyo\.com\/conf\/server-mapping data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% m.pvp.xoyo.com

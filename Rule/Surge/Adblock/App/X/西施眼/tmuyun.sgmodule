@@ -1,1 +1,8 @@
+# > 西施眼 - TMUYUN
 
+[Map Local]
+^https?:\/\/vapp\.tmuyun\.com\/api\/app_start_page\/list\/new data-type=text data="{}" status-code=200
+^https?:\/\/vapp\.tmuyun\.com\/api\/buoy\/list data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% vapp.tmuyun.com

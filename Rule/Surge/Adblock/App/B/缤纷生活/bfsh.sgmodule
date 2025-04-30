@@ -1,1 +1,7 @@
+# > 缤纷生活 - BFSH
 
+[Map Local]
+^https?:\/\/mlife\.jf365\.boc\.cn\/AppPrj\/FirstPic\.do\?txnId=2PIC000001 data-type=text data="" status-code=200
+
+[MITM]
+hostname= %APPEND% mlife.jf365.boc.cn

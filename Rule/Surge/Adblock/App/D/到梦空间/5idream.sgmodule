@@ -1,1 +1,9 @@
+# > 到梦空间 - 5IDREAM
 
+[Map Local]
+^https?:\/\/appdmkj\.5idream\.net\/appPic\/homepage data-type=text data="{}" status-code=200
+^https?:\/\/appdmkj\.5idream\.net\/v\d\/login\/message\/tip data-type=text data="{}" status-code=200
+^https?:\/\/appdmkj\.5idream\.net\/v\d\/user\/advertising\/list data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% appdmkj.5idream.net

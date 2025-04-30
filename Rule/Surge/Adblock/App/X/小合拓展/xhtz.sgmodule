@@ -1,1 +1,7 @@
+# > 小合拓展 - XHTZ
 
+[Map Local]
+^https?:\/\/xhtz.oss-cn-guangzhou\.aliyuncs\.com\/home\/member\/.+\.png$ data-type=text data="" status-code=200
+
+[MITM]
+hostname= %APPEND% xhtz.oss-cn-guangzhou.aliyuncs.com

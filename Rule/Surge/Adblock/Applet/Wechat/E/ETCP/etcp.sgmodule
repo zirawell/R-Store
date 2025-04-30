@@ -1,1 +1,10 @@
+# > ETCP<微信小程序> - ETCP
 
+[URL Rewrite]
+^https?:\/\/ife\.etcp\.cn\/api\/v[0-9]\/advertisement - reject
+
+[Map Local]
+^https?:\/\/static\.etcp\.cn\/json\/advertisment data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% ife.etcp.cn, static.etcp.cn

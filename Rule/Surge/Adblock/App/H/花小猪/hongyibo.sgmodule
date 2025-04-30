@@ -1,1 +1,7 @@
+# > 花小猪 - HONGYIBO
 
+[Map Local]
+^https?:\/\/res\.hongyibo\.com\.cn\/os\/gs\/resapi\/activity\/mget\?_t data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% res.hongyibo.com.cn

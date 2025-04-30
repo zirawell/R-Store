@@ -1,1 +1,8 @@
+# > 星巴克<微信小程序> - STARBUCKS
 
+[Map Local]
+^https?:\/\/3pp\.starbucks\.com\.cn\/wxmem\/popup data-type=text data="{}" status-code=200
+^https?:\/\/3pp\.starbucks\.com\.cn\/wxmem\/index\/(?>banner|global) data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% 3pp.starbucks.com.cn

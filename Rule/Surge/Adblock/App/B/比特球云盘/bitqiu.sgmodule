@@ -1,1 +1,7 @@
+# > 比特球云盘 - BITQIU
 
+[URL Rewrite]
+^https?:\/\/pan-api\.bitqiu\.com\/activity\/getPromoteGuide - reject
+
+[MITM]
+hostname= %APPEND% pan-api.bitqiu.com

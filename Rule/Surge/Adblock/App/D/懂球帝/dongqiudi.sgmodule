@@ -1,1 +1,7 @@
+# > 懂球帝 - DONGQIUDI
 
+[URL Rewrite]
+^https?:\/\/ap\.(dongqiudi|dongdianqiu)\.com\/plat\/v - reject
+
+[MITM]
+hostname= %APPEND% ap.dongqiudi.com, ap.dongdianqiu.com

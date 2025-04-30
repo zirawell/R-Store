@@ -2,3 +2,9 @@
 
 [Rule]
 DOMAIN, ad.iot.360.cn, REJECT, extended-matching, pre-matching
+
+[URL Rewrite]
+^https?:\/\/app\.home\.360\.cn\/v\d\/config\/custom_config - reject
+
+[MITM]
+hostname= %APPEND% app.home.360.cn

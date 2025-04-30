@@ -3,3 +3,12 @@
 [Rule]
 DOMAIN, api.htp.ad-scope.com.cn, REJECT, extended-matching, pre-matching
 DOMAIN, init.sms.mob.com, REJECT, extended-matching, pre-matching
+
+[URL Rewrite]
+^https?:\/\/appgw\.ddpai\.com.*\/ad\/list.* - reject
+
+[Map Local]
+^https?:\/\/apphw\.ddpai\.com:\d+\/onroad\/api\/v\d\/\w+\/list data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% appgw.ddpai.com, apphw.ddpai.com

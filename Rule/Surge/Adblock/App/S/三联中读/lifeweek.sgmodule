@@ -1,1 +1,7 @@
+# > 三联中读 - LIFEWEEK
 
+[URL Rewrite]
+^https?:\/\/apis\.lifeweek\.com\.cn\/api\/baseConfig\/getIosNewConfig - reject
+
+[MITM]
+hostname= %APPEND% apis.lifeweek.com.cn

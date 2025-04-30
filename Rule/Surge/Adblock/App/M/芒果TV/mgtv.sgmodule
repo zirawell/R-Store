@@ -21,3 +21,25 @@ DOMAIN-SUFFIX, pcweb.v1.mgtv.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, cmop.mgtv.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, da.mgtv.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, log.mgtv.com, REJECT, extended-matching, pre-matching
+
+[URL Rewrite]
+^https?:\/\/[\d\.]+:\d{5}\/\?cmd=indexes - reject
+
+[Map Local]
+^https?:\/\/[\d\.]+\/odin\/c\d\/(channel\/ads|skin\/config)\? data-type=text data="{}" status-code=200
+^https?:\/\/damang\.api\.mgtv\.com\/station\/album\/red\/dot\? data-type=text data="{}" status-code=200
+^https?:\/\/hb-boom\.api\.mgtv\.com\/release\/pullReleaseInfo data-type=text data="{}" status-code=200
+^https?:\/\/mobile\.api\.mgtv\.com\/v\d\/mobile\/checkUpdate\? data-type=text data="{}" status-code=200
+^https?:\/\/mobileso\.bz\.mgtv\.com\/spotlight\/search\/v\d\? data-type=text data="{}" status-code=200
+
+[Script]
+type=http-response,pattern=^https?:\/\/me\.bz\.mgtv\.com\/v\d\/module\/list\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/cntv.js
+type=http-response,pattern=^https?:\/\/mob-st\.bz\.mgtv\.com\/odin\/c\d\/channel\/index\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/cntv.js
+type=http-response,pattern=^https?:\/\/dc2?\.bz\.mgtv\.com\/dynamic\/v\d\/channel\/(index|vrsList)\/\w,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/cntv.js
+type=http-response,pattern=^https?:\/\/mobile\.api\.mgtv\.com\/mobile\/config\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/cntv.js
+type=http-response,pattern=^https?:\/\/mobile\.api\.mgtv\.com\/v\d+\/video\/info\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/cntv.js
+type=http-response,pattern=^https?:\/\/mobile-thor\.api\.mgtv\.com\/v\d\/vod\/info\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/cntv.js
+type=http-response,pattern=^https?:\/\/mobileso\.bz\.mgtv\.com\/mobile\/recommend\/v\d\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/cntv.js
+
+[MITM]
+hostname= %APPEND% *.mgtv.com

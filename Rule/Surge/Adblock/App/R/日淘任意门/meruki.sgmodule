@@ -1,1 +1,7 @@
+# > 日淘任意门 - MERUKI
 
+[Map Local]
+^https?:\/\/app\.meruki\.cn\/\?n=Sig\.Front\.AppFront\.GetOpenAdDoorzo data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% app.meruki.cn

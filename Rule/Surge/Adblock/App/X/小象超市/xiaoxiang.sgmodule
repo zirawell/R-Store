@@ -1,1 +1,8 @@
+# > 小象超市 - XIAOXIANG
 
+[Map Local]
+^https?:\/\/mall\.meituan\.com\/api\/c\/homepage\/splash data-type=text data="{}" status-code=200
+^https?:\/\/mall\.meituan\.com\/api\/c\/homepage\/bubble\/operate\/info data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% mall.meituan.com

@@ -15,6 +15,14 @@
 # > 阿里 - ALIBABA
 # > 网易 - NETEASE
 # > 新浪 - SINA
+# > 腾讯系 - TENCENT
+# > 百度系 - BAIDU
+# > 拼多多系 - PDD
+# > 阿里系 - ALIBABA
+# > 网易系 - NETEASE
+# > 谷歌系 - GOOGLE
+# > 贝塔科技 - FOTOABLE
+# > 蓝卡科技 - BLUECARD
 
 [Rule]
 DOMAIN, adtracker.adfunlink.com, REJECT, extended-matching, pre-matching
@@ -493,3 +501,51 @@ DOMAIN-SUFFIX, s.img.mix.sina.com.cn, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, u1.img.mobile.sina.cn, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, motu.p4p.sina.com.cn, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, count.video.sina.com.cn, REJECT, extended-matching, pre-matching
+
+[URL Rewrite]
+^https?:\/\/fcvbjbcebos\.baidu\.com\/.+.mp4 - reject
+^https?:\/\/cover\.baidu\.com\/cover\/page\/dspSwitchAds\/ - reject
+^https?:\/\/update\.pan\.baidu\.com\/statistics - reject
+^https?:\/\/log.+?baidu\.com - reject
+^https?:\/\/www.baidu.com\/?action=static&ms=1&version=css_page_2@0.*? - reject
+^https?:\/\/video-dsp\.pddpic\.com\/market-dsp-video\/ - reject
+^https?:\/\/t-dsp\.pinduoduo\.com\/dspcb\/i\/mrk_union - reject
+^https?:\/\/images\.pinduoduo\.com\/(mrk|marketing_api)\/ - reject
+^https?:\/\/(gw|heic)\.alicdn\.com\/mt\/ - reject
+^https?:\/\/(gw|heic)\.alicdn\.com\/t(?>f|p)s\/.+\d{3,4}-\d{4} - reject
+^https?:\/\/(gw|heic)\.alicdn\.com\/imgextra\/\w{2}\/\w+!+(?!600000000(5412|6148|4021|5802))\d*-\d-tps-(?!1035)\d{3,4}-(?!570)\d{3,4}\.(?>jpg|png)_(1\d{3}|9\d{2})x(1\d{3}|9\d{2})q\d0\.jpg_\.(?>heic|webp) - reject
+^https?:\/\/img1.126.net\/.+dpi=\w{7,8} - reject
+^https?:\/\/img1.126.net\/channel14\/ - reject
+^https?:\/\/nex.163.com\/q - reject
+^https?:\/\/g1.163.com\/madfeedback - reject
+^https?:\/\/c\.m\.163\.com\/nc\/gl\/ - reject
+
+[Map Local]
+^https?:\/\/api2\.helper\.qq\.com\/game\/buttons data-type=tiny-gif status-code=200
+^https?:\/\/imgcache\.qq\.com\/qqlive\/ data-type=tiny-gif status-code=200
+^https?:\/\/vv\.video\.qq\.com\/getvmind\? data-type=text data="" status-code=200
+^https?:\/\/qt\.qq\.com\/lua\/mengyou\/get_splash_screen_info data-type=text data="" status-code=200
+^https?:\/\/y\.gtimg\.cn\/music\/.*?_Ad/\d+\.png data-type=tiny-gif status-code=200
+^https?:\/\/splashqqlive\.gtimg\.com\/website\/\d{6} data-type=tiny-gif status-code=200
+^https?:\/\/qzonestyle\.gtimg\.cn\/qzone\/biz\/gdt\/mob\/sdk\/ios\/v\d\/ data-type=tiny-gif status-code=200
+^https?:\/\/discuz\.gtimg\.cn\/cloud\/scripts\/discuz_tips data-type=tiny-gif status-code=200
+^https?:\/\/bla\.gtimg\.com\/qqlive\/\d{6}.+?\.png data-type=tiny-gif status-code=200
+^https?:\/\/mmgr\.gtimg\.com\/gjsmall\/qiantu\/upload\/ data-type=tiny-gif status-code=200
+^https?:\/\/mmgr\.gtimg\.com\/gjsmall\/qqpim\/public\/ios\/splash\/.+?\/\d{4}_\d{4} data-type=tiny-gif status-code=200
+^https?:\/\/bk\.bingo\.qq\.com\/bk\/crx\/data\/videoAd data-type=text data="{}" status-code=200
+^https?:\/\/afd\.baidu\.com\/afd\/entry data-type=tiny-gif status-code=200
+^https?:\/\/issuecdn\.baidupcs\.com\/issue\/netdisk\/guanggao\/ data-type=text data="" status-code=200
+^https?:\/\/[\s\S]*\.baidu\.com/.*?ad[xs]\.php data-type=tiny-gif status-code=200
+^https?:\/\/t\d{2}\.baidu\.com data-type=tiny-gif status-code=200
+^https?:\/\/g\.alicdn\.com\/(?>alilog|trace) data-type=text data="" status-code=200
+^https?:\/\/yixiu-abtest\.alicdn\.com\/ut-abtest\/config data-type=text data="{}" status-code=200
+^https?:\/\/www\.google\.com\/ads data-type=text data="{}" status-code=200
+^https?:\/\/cdn\.api\.fotoable\.com\/Advertise\/ data-type=text data="" status-code=200
+^https?:\/\/cloud\.bluecardsoft\.com\/yuntingad\/ data-type=text data="{}" status-code=200
+
+[Script]
+type=http-response,pattern=^https?:\/\/amdc\.m\.taobao\.com\/amdc\/mobileDispatch$,requires-body=0,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/amdc.js
+type=http-response,pattern=^https?:\/\/g\.alicdn\.com\/.*o2o-ad,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/alicdn.js
+
+[MITM]
+hostname= %APPEND% api2.helper.qq.com, imgcache.qq.com, mtteve.beacon.qq.com, vv.video.qq.com, qt.qq.com, y.gtimg.cn, splashqqlive.gtimg.com, qzonestyle.gtimg.cn, discuz.gtimg.cn, bla.gtimg.com, mmgr.gtimg.com, bk.bingo.qq.com, www.baidu.com, fcvbjbcebos.baidu.com, cover.baidu.com, afd.baidu.com, issuecdn.baidupcs.com, update.pan.baidu.com, video-dsp.pddpic.com, t-dsp.pinduoduo.com, images.pinduoduo.com, amdc.m.taobao.com, gw.alicdn.com, heic.alicdn.com, g.alicdn.com, yixiu-abtest.alicdn.com, img1.126.net, nex.163.com, g1.163.com, c.m.163.com, www.google.com, cdn.api.fotoable.com, cloud.bluecardsoft.com

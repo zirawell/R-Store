@@ -1,1 +1,7 @@
+# > U净生活<微信小程序> - ZHINENGXIYIFANG
 
+[URL Rewrite]
+^https?:\/\/api-marketing\.zhinengxiyifang\.cn\/api\/v\d\/cloudcode\/wechat\/bid - reject
+
+[MITM]
+hostname= %APPEND% api-marketing.zhinengxiyifang.cn

@@ -1,1 +1,7 @@
+# > 吉林银行 - JLBANK
 
+[Map Local]
+^https?:\/\/cdn\.jlbank\.com\.cn\/jlstaticresource\/APPSTART data-type=text data="" status-code=200
+
+[MITM]
+hostname= %APPEND% cdn.jlbank.com.cn

@@ -1,1 +1,7 @@
+# > 看理想 - VISTOPIA
 
+[URL Rewrite]
+^https?:\/\/api\.vistopia\.com\.cn\/api\/v\d\/home\/advertisement - reject
+
+[MITM]
+hostname= %APPEND% api.vistopia.com.cn

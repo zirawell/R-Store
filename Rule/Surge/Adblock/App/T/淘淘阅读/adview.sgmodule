@@ -1,1 +1,7 @@
+# > 淘淘阅读 - ADVIEW
 
+[URL Rewrite]
+^https?:\/\/bid\.adview\.cn\/agent\/getAd - reject
+
+[MITM]
+hostname= %APPEND% bid.adview.cn

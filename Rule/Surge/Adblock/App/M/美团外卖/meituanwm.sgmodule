@@ -1,1 +1,11 @@
+# > 美团外卖 - MEITUANWM
 
+[URL Rewrite]
+^https?:\/\/wmapi\.meituan\.com\/api\/v\d+\/(?>loadInfo|openscreen|startpicture) - reject
+^https?:\/\/p\d\.meituan\.net\/cell - reject
+
+[Map Local]
+^https?:\/\/s3plus\.meituan\.net\/v\d\/mss_\w+\/goku\/(?>lottie|lucency) data-type=tiny-gif status-code=200
+
+[MITM]
+hostname= %APPEND% wmapi.meituan.com, p*.meituan.net, s3plus.meituan.net

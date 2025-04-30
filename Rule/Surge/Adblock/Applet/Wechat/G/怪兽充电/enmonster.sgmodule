@@ -1,1 +1,7 @@
+# > 怪兽充电<微信小程序> - ENMONSTER
 
+[URL Rewrite]
+^https?:\/\/aag\.enmonster\.com\/apa\/index\/advert\/skin - reject
+
+[MITM]
+hostname= %APPEND% aag.enmonster.com

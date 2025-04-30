@@ -1,1 +1,8 @@
+# > 一汽大众 - FAWVW
 
+[Map Local]
+^https?:\/\/one-app-h5\.faw-vw\.com\/prod-api\/mobile\/one-app\/general\/public\/v\d\/official_activity\/get_animation_putaway_list\?appkey data-type=text data="" status-code=200
+^https?:\/\/one-app-h5\.faw-vw\.com\/prod-api\/mobile\/one-app\/general\/public\/v\d\/first_page\/get_carousel_list?appkey data-type=text data="" status-code=200
+
+[MITM]
+hostname= %APPEND% one-app-h5.faw-vw.com

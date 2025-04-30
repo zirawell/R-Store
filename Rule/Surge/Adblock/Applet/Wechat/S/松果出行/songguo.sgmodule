@@ -1,1 +1,7 @@
+# > 松果出行<微信小程序> - SONGGUO
 
+[Map Local]
+^https?:\/\/api\.songguo7\.com\/(\w{3})?mp\/v\d\/misc\/(?>toast|user_operate_info|unlock_without_order|unlock_operate_info) data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% api.songguo7.com
