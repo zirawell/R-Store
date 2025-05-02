@@ -18,5 +18,10 @@ DOMAIN, geo2.adobe.com, REJECT, extended-matching, pre-matching
 [Map Local]
 ^https?:\/\/119\.29\.29\.29\/d\?dn data-type=text data="{}" status-code=200
 
+[Header Rewrite]
+# 解决github速率限制返回429问题
+http-request ^https?:\/\/github\.com\/ header-replace Accept-Language en-us
+http-request ^https?:\/\/(raw|gist)\.githubusercontent\.com\/ header-replace Accept-Language en-us
+
 [MITM]
-hostname= %APPEND% 119.29.29.29
+hostname= %APPEND% 119.29.29.29, raw.githubusercontent.com, gist.githubusercontent.com, github.com
