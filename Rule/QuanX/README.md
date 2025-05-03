@@ -37,7 +37,7 @@ R-Store/Rule/QuanX
 ### Wechat Applet Index
 | I  | N  | D  | X  |
 |----|----|----|----|
-| A  | [B](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/Applet/Wechat/B)  | [C](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/Applet/Wechat/C)  | [D](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/Applet/Wechat/D)  |
+| [A](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/Applet/Wechat/A)  | [B](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/Applet/Wechat/B)  | [C](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/Applet/Wechat/C)  | [D](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/Applet/Wechat/D)  |
 | [E](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/Applet/Wechat/E)  | [F](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/Applet/Wechat/F)  | [G](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/Applet/Wechat/G)  | [H](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/Applet/Wechat/H)  |
 | I  | [J](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/Applet/Wechat/J)  | [K](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/Applet/Wechat/K)  | [L](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/Applet/Wechat/L)  |
 | [M](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/Applet/Wechat/M)  | [N](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/Applet/Wechat/N)  | O  | [P](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/Applet/Wechat/P)  |
@@ -71,9 +71,9 @@ R-Store/Rule/QuanX
 
 | Type | Count |
 |----------|----------|
-| All    | 670 |
+| All    | 671 |
 | App    | 553 |
-| Wechat Applet| 113 |
+| Wechat Applet| 114 |
 | Alipay Applet| 3 |
 | Web    | 1 |
 
