@@ -1,0 +1,7 @@
+# > 复游会<微信小程序> - FOLIDAY
+
+[Script]
+type=http-response,pattern=^https?:\/\/apis\.folidaymall\.com\/online\/capi\/component\/getPageComponents,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/foliday.js
+
+[MITM]
+hostname= %APPEND% apis.folidaymall.com
