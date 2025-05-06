@@ -93,6 +93,7 @@ host, tosv.boe.byted.org, reject
 host, tosv.byted.org, reject
 host, mssdk.volces.com, reject
 host, mssdk-bu.bytedance.com, reject
+host, volceapplog.com, reject
 host-suffix, pangle.io, reject
 host-suffix, ic.snssdk.com, reject
 host-suffix, analytics.snssdk.com, reject
