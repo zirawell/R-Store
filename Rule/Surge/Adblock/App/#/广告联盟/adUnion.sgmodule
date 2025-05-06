@@ -116,6 +116,7 @@ DOMAIN, tosv.boe.byted.org, REJECT, extended-matching, pre-matching
 DOMAIN, tosv.byted.org, REJECT, extended-matching, pre-matching
 DOMAIN, mssdk.volces.com, REJECT, extended-matching, pre-matching
 DOMAIN, mssdk-bu.bytedance.com, REJECT, extended-matching, pre-matching
+DOMAIN, volceapplog.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, pangle.io, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, ic.snssdk.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, analytics.snssdk.com, REJECT, extended-matching, pre-matching
