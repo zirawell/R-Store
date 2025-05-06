@@ -1,7 +1,7 @@
 # X
 <details>
 <summary>
-本目录共收录52个App，详情见如下，单击导入对应配置：
+本目录共收录53个App，详情见如下，单击导入对应配置：
 </summary>
 
 - [下厨房](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E4%B8%8B%E5%8E%A8%E6%88%BF%2Ffilter%2Fxiachufang.list%2C%20tag%3D%E4%B8%8B%E5%8E%A8%E6%88%BF%22%5D%2C%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E4%B8%8B%E5%8E%A8%E6%88%BF%2Frewrite%2Fxiachufang.conf%2C%20tag%3D%E4%B8%8B%E5%8E%A8%E6%88%BF%22%5D%7D)
@@ -16,6 +16,7 @@
 - [小佩宠物](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E5%B0%8F%E4%BD%A9%E5%AE%A0%E7%89%A9%2Frewrite%2Fpetkit.conf%2C%20tag%3D%E5%B0%8F%E4%BD%A9%E5%AE%A0%E7%89%A9%22%5D%7D)
 - [小利生活](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E5%B0%8F%E5%88%A9%E7%94%9F%E6%B4%BB%2Ffilter%2Fhelipay.list%2C%20tag%3D%E5%B0%8F%E5%88%A9%E7%94%9F%E6%B4%BB%22%5D%7D)
 - [小合拓展](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E5%B0%8F%E5%90%88%E6%8B%93%E5%B1%95%2Frewrite%2Fxhtz.conf%2C%20tag%3D%E5%B0%8F%E5%90%88%E6%8B%93%E5%B1%95%22%5D%7D)
+- [小宇宙](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E5%B0%8F%E5%AE%87%E5%AE%99%2Frewrite%2Fxiaoyuzhoufm.conf%2C%20tag%3D%E5%B0%8F%E5%AE%87%E5%AE%99%22%5D%7D)
 - [小熊拦截](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E5%B0%8F%E7%86%8A%E6%8B%A6%E6%88%AA%2Frewrite%2Fxiaoxiong.conf%2C%20tag%3D%E5%B0%8F%E7%86%8A%E6%8B%A6%E6%88%AA%22%5D%7D)
 - [小熊美术](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E5%B0%8F%E7%86%8A%E7%BE%8E%E6%9C%AF%2Frewrite%2Fxiaoxiongmeishu.conf%2C%20tag%3D%E5%B0%8F%E7%86%8A%E7%BE%8E%E6%9C%AF%22%5D%7D)
 - [小爱音箱](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E5%B0%8F%E7%88%B1%E9%9F%B3%E7%AE%B1%2Ffilter%2Fxiaoaisound.list%2C%20tag%3D%E5%B0%8F%E7%88%B1%E9%9F%B3%E7%AE%B1%22%5D%2C%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E5%B0%8F%E7%88%B1%E9%9F%B3%E7%AE%B1%2Frewrite%2Fxiaoaisound.conf%2C%20tag%3D%E5%B0%8F%E7%88%B1%E9%9F%B3%E7%AE%B1%22%5D%7D)
