@@ -1,0 +1,7 @@
+# > 小宇宙 - XIAOYUZHOUFM
+
+[Map Local]
+^https?:\/\/api\.xiaoyuzhoufm\.com\/v\d\/flash-screen data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% api.xiaoyuzhoufm.com
