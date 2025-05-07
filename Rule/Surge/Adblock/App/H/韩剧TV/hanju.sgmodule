@@ -1,5 +1,9 @@
 # > 韩剧TV - HANJUTV
 
+[Rule]
+DOMAIN, da.bridgeturbo.com, REJECT, extended-matching, pre-matching
+DOMAIN, adx-os.bridgeturbo.com, REJECT, extended-matching, pre-matching
+
 [URL Rewrite]
 ^https?:\/\/gfp\.veta\.naver\.com\/adcall\? - reject
 ^https?:\/\/api\.hanju\.koudaibaobao\.com\/api\/carp\/kp\? - reject
