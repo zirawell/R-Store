@@ -1,0 +1,7 @@
+# > 美团<微信小程序> - MEITUAN
+
+[Map Local]
+^https?:\/\/web\.meituan\.com\/api\/miniprogram\/index\/aggregate data-type=file data="https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Data/mt_aggregate.json"
+
+[MITM]
+hostname= %APPEND% web.meituan.com
