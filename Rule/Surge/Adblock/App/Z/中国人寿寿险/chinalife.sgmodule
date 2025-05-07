@@ -1,0 +1,7 @@
+# > 中国人寿寿险 - CHINALIFE
+
+[Map Local]
+^https:\/\/ecssmobile\.e-chinalife\.com(:\d+)?\/ecss\/web\/appupdate\/customization\/getFlashScreenInfo data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% ecssmobile.e-chinalife.com
