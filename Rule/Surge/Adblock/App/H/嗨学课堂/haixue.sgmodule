@@ -1,0 +1,7 @@
+# > 嗨学课堂 - HAIXUE
+
+[Map Local]
+^https?:\/\/www\.haixue\.com\/advert\/app\/adInfo\/v\d\/queryAdByPositionCode data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% www.haixue.com
