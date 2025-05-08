@@ -12,7 +12,6 @@ host, api-p0.yksdks.com, reject
 host, api.share.mob.com, reject
 host, api.verify.mob.com, reject
 host, log-verify.mob.com, reject
-host, sdk.push.mob.com, reject
 host, api.adnet.mob.com, reject
 host, dig.bdurl.net, reject
 host, g1.tagtic.cn, reject

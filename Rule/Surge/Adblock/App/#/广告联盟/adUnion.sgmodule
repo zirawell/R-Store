@@ -38,7 +38,6 @@ DOMAIN, api-p0.yksdks.com, REJECT, extended-matching, pre-matching
 DOMAIN, api.share.mob.com, REJECT, extended-matching, pre-matching
 DOMAIN, api.verify.mob.com, REJECT, extended-matching, pre-matching
 DOMAIN, log-verify.mob.com, REJECT, extended-matching, pre-matching
-DOMAIN, sdk.push.mob.com, REJECT, extended-matching, pre-matching
 DOMAIN, api.adnet.mob.com, REJECT, extended-matching, pre-matching
 DOMAIN, dig.bdurl.net, REJECT, extended-matching, pre-matching
 DOMAIN, g1.tagtic.cn, REJECT, extended-matching, pre-matching
