@@ -2,13 +2,13 @@
 
 [Map Local]
 # 开屏广告
-^https?:\/\/api\.xiaoyuzhoufm\.com\/v\d\/flash-screen data-type=text data="{}" status-code=200
+^https?:\/\/api\.xiaoyuzhoufm\.com\/v\d\/flash- data-type=text data="{}" status-code=200
 # ai总结
 ^https?:\/\/api\.xiaoyuzhoufm\.com\/v\d\/ai-summary data-type=text data="{}" status-code=200
 # 会员横幅设为不可点击
 ^https?:\/\/api\.xiaoyuzhoufm\.com\/v\d\/membership\/platform data-type=text data="{}" status-code=200
 # 移除搜索框内容
-^https?:\/\/api\.xiaoyuzhoufm\.com\/v\d\/search data-type=text data="{}" status-code=200
+^https?:\/\/api\.xiaoyuzhoufm\.com\/v\d\/search\/get-(?>preset|express) data-type=text data="{}" status-code=200
 ^https?:\/\/api\.xiaoyuzhoufm\.com\/v\d\/category\/list-daily-suggestion data-type=text data="{}" status-code=200
 
 [MITM]
