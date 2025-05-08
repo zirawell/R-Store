@@ -1,0 +1,7 @@
+# > Clubmed<微信小程序> - CLUBMED
+
+[Map Local]
+^https?:\/\/clubmed\.bd\.clubmedmnp\.com\/miniorder\/api\/basic\/common data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% clubmed.bd.clubmedmnp.com
