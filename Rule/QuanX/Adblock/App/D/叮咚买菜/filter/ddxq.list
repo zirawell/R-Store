@@ -1,0 +1,4 @@
+# > 叮咚买菜 - DDXQ
+host, trackercollect.ddxq.mobi, reject
+host, ddfs-public.ddimg.mobi, reject
+host, rttrack.ddxq.mobi, reject
