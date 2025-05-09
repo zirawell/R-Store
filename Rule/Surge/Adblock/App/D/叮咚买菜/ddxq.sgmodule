@@ -15,5 +15,8 @@ http-response ^https?:\/\/maicai\.api\.ddxq\.mobi\/homeApi\/newDetails suspensio
 [Map Local]
 ^https?:\/\/maicai\.api\.ddxq\.mobi\/vip\/getVipAd data-type=text data="{}" status-code=200
 
+[Script]
+type=http-response,pattern=^https?:\/\/maicai\.api\.ddxq\.mobi\/homeApi\/(?>bottomNavi|homeFlowDetail),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/ddxq.js
+
 [MITM]
 hostname= %APPEND% maicai.api.ddxq.mobi
