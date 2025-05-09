@@ -1,5 +1,10 @@
 # > 叮咚买菜 - DDXQ
 
+[Rule]
+DOMAIN, trackercollect.ddxq.mobi, REJECT, extended-matching, pre-matching
+DOMAIN, ddfs-public.ddimg.mobi, REJECT, extended-matching, pre-matching
+DOMAIN, rttrack.ddxq.mobi, REJECT, extended-matching, pre-matching
+
 [URL Rewrite]
 ^https?:\/\/maicai\.api\.ddxq\.mobi\/advert\/ - reject
 ^https?:\/\/maicai\.api\.ddxq\.mobi\/homeApi\/getHomeAdPop - reject
