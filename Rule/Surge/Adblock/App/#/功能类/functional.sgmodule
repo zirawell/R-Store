@@ -24,4 +24,4 @@ http-request ^https?:\/\/github\.com\/ header-replace Accept-Language en-us
 http-request ^https?:\/\/(raw|gist)\.githubusercontent\.com\/ header-replace Accept-Language en-us
 
 [MITM]
-hostname= %APPEND% 119.29.29.29, raw.githubusercontent.com, gist.githubusercontent.com, github.com
+hostname= %APPEND% 119.29.29.*, raw.githubusercontent.com, gist.githubusercontent.com, github.com
