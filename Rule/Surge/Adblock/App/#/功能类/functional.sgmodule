@@ -16,7 +16,7 @@ IP-CIDR, 81.71.61.216/32, REJECT, pre-matching
 DOMAIN, geo2.adobe.com, REJECT, extended-matching, pre-matching
 
 [Map Local]
-^https?:\/\/119\.29\.29\.29\/d\?dn data-type=text data="{}" status-code=200
+^https?:\/\/119\.29\.29\.\d+\/d\?dn data-type=text data="" status-code=200
 
 [Header Rewrite]
 # 解决github速率限制返回429问题
