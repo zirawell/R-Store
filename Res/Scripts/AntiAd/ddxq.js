@@ -20,7 +20,7 @@ if (url.includes("/homeApi/bottomNavi")) {
 		obj.data.bottom_list = obj.data.bottom_list.filter(item => item.type !== 'eatwhat');
 	}
 // 首页推荐流优化
-}else if (url.includes("homeApi/homeFlowDetail")) {
+} else if (url.includes("/homeApi/homeFlowDetail")) {
 	if (obj.data?.list?.length > 0) {
 		obj.data.list = obj.data.list.map(item => {
             if (item.multi_advertise_data_list?.length > 0) {
@@ -30,6 +30,11 @@ if (url.includes("/homeApi/bottomNavi")) {
             }
             return item;
         }).filter(Boolean);
+	}
+// 右下角AI角标
+} else if (url.includes("/tool/getConfig")) {
+	if (obj.data?.ai_enter_config){
+		delete obj.data.ai_enter_config;
 	}
 }
 body = JSON.stringify(obj);
