@@ -4,7 +4,7 @@ Checkout Source - https://raw.githubusercontent.com/app2smile/rules/master/js/qq
 Please note that you may need to reinstall app for script to work.
 
 QuantumultX rewrite link:
-https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/App/T/腾讯新闻/rewrite/txNews.conf
+https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/App/T/腾讯新闻/rewrite/txnews.conf
 
 ********************************/
 
