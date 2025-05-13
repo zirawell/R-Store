@@ -1,7 +1,7 @@
 # M
 <details>
 <summary>
-本目录共收录30个App，详情见如下，单击导入对应配置：
+本目录共收录31个App，详情见如下，单击导入对应配置：
 </summary>
 
 - [MIX](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FM%2FMIX%2Frewrite%2Fmix.conf%2C%20tag%3DMIX%22%5D%7D)
@@ -26,6 +26,7 @@
 - [美团众包](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FM%2F%E7%BE%8E%E5%9B%A2%E4%BC%97%E5%8C%85%2Frewrite%2Fmeituanzb.conf%2C%20tag%3D%E7%BE%8E%E5%9B%A2%E4%BC%97%E5%8C%85%22%5D%7D)
 - [美团外卖](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FM%2F%E7%BE%8E%E5%9B%A2%E5%A4%96%E5%8D%96%2Frewrite%2Fmeituanwm.conf%2C%20tag%3D%E7%BE%8E%E5%9B%A2%E5%A4%96%E5%8D%96%22%5D%7D)
 - [美图秀秀](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FM%2F%E7%BE%8E%E5%9B%BE%E7%A7%80%E7%A7%80%2Ffilter%2Fmeitu.list%2C%20tag%3D%E7%BE%8E%E5%9B%BE%E7%A7%80%E7%A7%80%22%5D%2C%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FM%2F%E7%BE%8E%E5%9B%BE%E7%A7%80%E7%A7%80%2Frewrite%2Fmeitu.conf%2C%20tag%3D%E7%BE%8E%E5%9B%BE%E7%A7%80%E7%A7%80%22%5D%7D)
+- [美柚](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FM%2F%E7%BE%8E%E6%9F%9A%2Frewrite%2Fseeyouyima.conf%2C%20tag%3D%E7%BE%8E%E6%9F%9A%22%5D%7D)
 - [美颜相机](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FM%2F%E7%BE%8E%E9%A2%9C%E7%9B%B8%E6%9C%BA%2Ffilter%2Fbeautycam.list%2C%20tag%3D%E7%BE%8E%E9%A2%9C%E7%9B%B8%E6%9C%BA%22%5D%7D)
 - [脉脉](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FM%2F%E8%84%89%E8%84%89%2Ffilter%2Fmaimai.list%2C%20tag%3D%E8%84%89%E8%84%89%22%5D%2C%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FM%2F%E8%84%89%E8%84%89%2Frewrite%2Fmaimai.conf%2C%20tag%3D%E8%84%89%E8%84%89%22%5D%7D)
 - [芒果TV](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FM%2F%E8%8A%92%E6%9E%9CTV%2Ffilter%2Fmgtv.list%2C%20tag%3D%E8%8A%92%E6%9E%9CTV%22%5D%2C%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FM%2F%E8%8A%92%E6%9E%9CTV%2Frewrite%2Fmgtv.conf%2C%20tag%3D%E8%8A%92%E6%9E%9CTV%22%5D%7D)

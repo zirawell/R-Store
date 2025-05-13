@@ -1,0 +1,9 @@
+# > 美柚 - SEEYOUYIMA
+
+[URL Rewrite]
+^https?:\/\/x\.seeyouyima\.com\/adx\/staticstics\? - reject
+^https?:\/\/axxd\.xmseeyouyima\.com\/ad - reject
+^https?:\/\/axxd\.xmseeyouyima\.com\/.*getad\? - reject
+
+[MITM]
+hostname= %APPEND% x.seeyouyima.com, axxd.xmseeyouyima.com
