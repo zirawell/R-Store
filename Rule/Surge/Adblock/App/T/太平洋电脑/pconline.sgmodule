@@ -1,0 +1,20 @@
+# > 太平洋电脑 - PCONLINE
+
+[Rule]
+DOMAIN, ad-analysis.pconline.com.cn, REJECT, extended-matching, pre-matching
+DOMAIN, iad0ssl.pcauto.com.cn, REJECT, extended-matching, pre-matching
+DOMAIN, iad0ssl.pconline.com.cn, REJECT, extended-matching, pre-matching
+DOMAIN, imgad0.pcauto.com.cn, REJECT, extended-matching, pre-matching
+DOMAIN, imgad0.pconline.com.cn, REJECT, extended-matching, pre-matching
+DOMAIN, ivy.pchouse.com.cn, REJECT, extended-matching, pre-matching
+
+[URL Rewrite]
+^https?:\/\/mrobot\.(?>pcauto|pconline)\.com\.cn\/v\d\/ad - reject
+^https?:\/\/mrobot\.(?>pcauto|pconline)\.com\.cn\/xsp\/s\/auto\/info\/(ad|preload) - reject
+^https?:\/\/agent-count\.(?>pcauto|pconline)\.com\.cn\/counter\/adAnalyse\/ - reject
+
+[Map Local]
+^https?:\/\/mrobot\.(?>pcauto|pconline)\.com\.cn\/s\/onlineinfo\/ad\/ data-type=text data="" status-code=200
+
+[MITM]
+hostname= %APPEND% mrobot.pconline.com.cn, mrobot.pcauto.com.cn, agent-count.pconline.com.cn, agent-count.pcauto.com.cn
