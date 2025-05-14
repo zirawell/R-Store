@@ -32,10 +32,6 @@ DOMAIN, th.yangkeduo.com, REJECT, extended-matching, pre-matching
 DOMAIN, meta.yangkeduo.com, REJECT, extended-matching, pre-matching
 DOMAIN, meta.pinduoduo.com, REJECT, extended-matching, pre-matching
 DOMAIN, m.pinduoduo.net, REJECT, extended-matching, pre-matching
-DOMAIN, commimg.pddpic.com, REJECT, extended-matching, pre-matching
-DOMAIN, commimg-1.pddpic.com, REJECT, extended-matching, pre-matching
-DOMAIN, commimg-2.pddpic.com, REJECT, extended-matching, pre-matching
-DOMAIN, commimg-3.pddpic.com, REJECT, extended-matching, pre-matching
 DOMAIN, promotion.pddpic.com, REJECT, extended-matching, pre-matching
 DOMAIN, promotion-1.pddpic.com, REJECT, extended-matching, pre-matching
 DOMAIN, promotion-2.pddpic.com, REJECT, extended-matching, pre-matching

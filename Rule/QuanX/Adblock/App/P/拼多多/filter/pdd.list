@@ -30,10 +30,6 @@ host, th.yangkeduo.com, reject
 host, meta.yangkeduo.com, reject
 host, meta.pinduoduo.com, reject
 host, m.pinduoduo.net, reject
-host, commimg.pddpic.com, reject
-host, commimg-1.pddpic.com, reject
-host, commimg-2.pddpic.com, reject
-host, commimg-3.pddpic.com, reject
 host, promotion.pddpic.com, reject
 host, promotion-1.pddpic.com, reject
 host, promotion-2.pddpic.com, reject
