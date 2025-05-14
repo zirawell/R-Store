@@ -1,7 +1,7 @@
 # > 前程无忧51job - 51JOB
 
 [URL Rewrite]
-# 营销广告
+# 开屏及营销广告
 ^https?:\/\/appapi\.51job(app)?\.com\/api\/market\/(?>adtrace|get_launch|get_prompt) - reject
 # 顶部弹窗
 ^https?:\/\/cupid\.51job(app)?\.com\/open\/guide\/home-page-top - reject
