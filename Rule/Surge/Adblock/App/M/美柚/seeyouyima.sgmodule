@@ -1,5 +1,8 @@
 # > 美柚 - SEEYOUYIMA
 
+[Rule]
+DOMAIN, ad.seeyouyima.com, REJECT, extended-matching, pre-matching
+
 [URL Rewrite]
 ^https?:\/\/x\.seeyouyima\.com\/adx\/staticstics\? - reject
 ^https?:\/\/axxd\.xmseeyouyima\.com\/ad - reject
