@@ -7,9 +7,28 @@ https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/App/0
 
 ********************************/
 
+const url = $request.url;
 if (!$response.body) $done({});
 let body = $response.body;
 let obj = JSON.parse(body);
-obj.resultbody.adsTabFeeds = [];
+// 首页信息流净化
+if (url.includes("job-tab-dynamic")) {
+	if (obj.resultbody?.adsTabFeeds && obj.resultbody.adsTabFeeds.length > 0) {
+		delete obj.resultbody.adsTabFeeds;
+	}
+// 我的页净化
+} else if (url.includes("my-page")) {
+	// VIP开通栏
+	if (obj.resultbody?.vipInfo) {
+		obj.resultbody.vipInfo.isVip = true;
+	}
+	if (obj.resultbody?.rightsGuidanceCopy) {
+		delete obj.resultbody.rightsGuidanceCopy;
+	}
+	// 求职工具
+	if (obj.resultbody?.jobToolInfoList && obj.resultbody.jobToolInfoList.length > 0) {
+		delete obj.resultbody.jobToolInfoList;
+	}
+}
 body = JSON.stringify(obj);
 $done({body});
