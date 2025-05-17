@@ -15,8 +15,8 @@ IP-CIDR, 119.29.29.99/32, REJECT, pre-matching
 IP-CIDR, 81.71.61.216/32, REJECT, pre-matching
 DOMAIN, geo2.adobe.com, REJECT, extended-matching, pre-matching
 
-[Map Local]
-^https?:\/\/119\.29\.29\.\d+\/d\?dn data-type=text data="" status-code=200
+[URL Rewrite]
+^https?:\/\/119\.29\.29\.\d+\/d\?dn=[a-z0-9]+&clientip=\d&ttl=\d&query=1&id=\d+&sdk=\d+_\d+\.\d+\.\d+&alg=des http://119.29.29.$0/d?dn=$1&clientip=$2&ttl=$3&query=0&id=$4&sdk=$5_$6.$7.$8&alg=des 302
 
 [Header Rewrite]
 # 解决github速率限制返回429问题
