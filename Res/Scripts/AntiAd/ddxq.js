@@ -36,6 +36,14 @@ if (url.includes("/homeApi/bottomNavi")) {
 	if (obj.data?.ai_enter_config){
 		delete obj.data.ai_enter_config;
 	}
+// 我的页-营销栏去除及工具栏简化
+} else if (url.includes("/user/queryMyPage")) {
+	if (obj.data?.advertList?.length > 0){
+		delete obj.data.advertList;
+	}
+	if (obj.data?.links?.length > 0) {
+        obj.data.links.splice(10);
+    }
 }
 body = JSON.stringify(obj);
 $done({body});

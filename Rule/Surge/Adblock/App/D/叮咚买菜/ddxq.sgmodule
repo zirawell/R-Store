@@ -6,18 +6,36 @@ DOMAIN, ddfs-public.ddimg.mobi, REJECT, extended-matching, pre-matching
 DOMAIN, rttrack.ddxq.mobi, REJECT, extended-matching, pre-matching
 
 [URL Rewrite]
+# 开屏广告
 ^https?:\/\/maicai\.api\.ddxq\.mobi\/advert\/ - reject
+# 首页弹窗
 ^https?:\/\/maicai\.api\.ddxq\.mobi\/homeApi\/getHomeAdPop - reject
+# 我的页VIP栏净化
+^https?:\/\/gw\.api\.ddxq\.mobi\/vip-app-service\/vip\/my\/page\/advertising - reject
 
 [Body Rewrite]
+# 首页悬浮窗
 http-response ^https?:\/\/maicai\.api\.ddxq\.mobi\/homeApi\/newDetails suspension random_body
 
 [Map Local]
+# VIP开通弹窗
 ^https?:\/\/maicai\.api\.ddxq\.mobi\/vip\/getVipAd data-type=text data="{}" status-code=200
+# 我的页弹窗(暂未启用)
+^https:\/\/maicai\.api\.ddxq\.mobi\/homeApi\/queryMyPagePopup data-type=text data="{}" status-code=200
+# 我的页-猜你喜欢
+^https?:\/\/maicai\.api\.ddxq\.mobi\/homeApi\/userLike data-type=text data="{}" status-code=200
+# 购物车顶部VIP横条
+^https?:\/\/maicai\.api\.ddxq\.mobi\/cart\/vipGuide data-type=text data="{}" status-code=200
+# 购物车-猜你喜欢
+^https?:\/\/maicai\.api\.ddxq\.mobi\/order\/getRecommend data-type=text data="{}" status-code=200
 
 [Script]
+# 首页推荐流优化,AI栏去除,右下角浮标
 type=http-response,pattern=^https?:\/\/maicai\.api\.ddxq\.mobi\/homeApi\/(?>bottomNavi|homeFlowDetail),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/ddxq.js
+# 右下角AI
 type=http-response,pattern=^https?:\/\/maicai\.api\.ddxq\.mobi\/tool\/getConfig,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/ddxq.js
+# 我的页净化
+type=http-response,pattern=^https?:\/\/user\.api\.ddxq\.mobi\/userportal-service\/api\/v\d\/user\/queryMyPage,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/ddxq.js
 
 [MITM]
-hostname= %APPEND% maicai.api.ddxq.mobi
+hostname= %APPEND% maicai.api.ddxq.mobi, gw.api.ddxq.mobi, user.api.ddxq.mobi
