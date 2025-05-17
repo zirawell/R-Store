@@ -27,6 +27,8 @@ if (url.includes("/homeApi/bottomNavi")) {
                 return null;
             } else if (item.small_image?.includes("ddfs-public.ddimg.mobi")) {
                 return null;
+            } else if (item.ads?.length > 0) {
+                return null;
             }
             return item;
         }).filter(Boolean);
@@ -35,6 +37,14 @@ if (url.includes("/homeApi/bottomNavi")) {
 } else if (url.includes("/tool/getConfig")) {
 	if (obj.data?.ai_enter_config){
 		delete obj.data.ai_enter_config;
+	}
+// 我的页-营销栏及工具栏简化
+} else if (url.includes("/user/queryMyPage")) {
+	if (obj.data?.advertList?.length > 0) {
+		obj.data.advertList = obj.data.advertList.filter(e => e.title?.match(/福利中心|叮咚榜单|查添加剂|好货百科/));
+	}
+	if (obj.data?.links?.length > 0) {
+		obj.data.links.splice(10);
 	}
 }
 body = JSON.stringify(obj);
