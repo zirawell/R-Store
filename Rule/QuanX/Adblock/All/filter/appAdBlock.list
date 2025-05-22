@@ -1,11 +1,11 @@
 #!name=App-广告拦截合集-分流规则
 #!desc=某些规则要清除缓存或者重新安装APP，拦截广告才会生效！
-#!count=支持约1297个分流规则
+#!count=支持约1300个分流规则
 #!author=zirawell
 #!homepage=https://github.com/zirawell/R-Store
 #!raw-url=https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/All/filter/appAdBlock.list
 #!tg-group=https://t.me/lanjieguanggao
-#!date=2025-05-15 10:01:04
+#!date=2025-05-22 10:34:39
 #!proxy-select=reject
 #!---------------------------------------------------------------------------------------------------------------
 ip-cidr, 1.202.85.193/32, reject
@@ -511,6 +511,7 @@ host, zxid-m.mobileservice.cn, reject
 host-suffix, 10086.cn.baidu.cdn.yiwk.com, reject
 host-suffix, 123.sogou.com, reject
 host-suffix, 163jiasu.com, reject
+host-suffix, 1rtb.net, reject
 host-suffix, 33.autohome.com.cn, reject
 host-suffix, 360baidus.com, reject
 host-suffix, 3rd.t.sohu.com, reject
@@ -608,6 +609,7 @@ host-suffix, adver.qq.com, reject
 host-suffix, advert.mafengwo.cn, reject
 host-suffix, advertising.yahoo.com, reject
 host-suffix, advp.apple.com, reject
+host-suffix, adwangmai.com, reject
 host-suffix, adweb.test.ximalaya.com, reject
 host-suffix, adweb.ximalaya.com, reject
 host-suffix, aecpm.alicdn.com, reject
@@ -1232,6 +1234,7 @@ host-suffix, wxsnsdy.tc.qq.com, reject
 host-suffix, xdcs-collector.ximalaya.com, reject
 host-suffix, ydjs.zol.com.cn, reject
 host-suffix, ydpushserver.youdao.com, reject
+host-suffix, yfanads.com, reject
 host-suffix, yingxiao.baidu.com, reject
 host-suffix, ykatr.youku.com, reject
 host-suffix, ykrec.youku.com, reject

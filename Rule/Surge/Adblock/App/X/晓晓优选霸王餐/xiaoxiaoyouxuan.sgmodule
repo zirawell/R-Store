@@ -1,5 +1,10 @@
 # > 晓晓优选霸王餐 - XXYX
 
+[Rule]
+DOMAIN-SUFFIX, yfanads.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, 1rtb.net, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, adwangmai.com, REJECT, extended-matching, pre-matching
+
 [URL Rewrite]
 ^https?:\/\/xxyx-client-api\.xiaoxiaoyouxuan\.com\/agent_ad - reject
 ^https?:\/\/xxyx-client-api\.xiaoxiaoyouxuan\.com\/activity\/show - reject
