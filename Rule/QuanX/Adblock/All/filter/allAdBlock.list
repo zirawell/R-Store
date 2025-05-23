@@ -1,11 +1,11 @@
 #!name=全部-广告拦截合集-分流规则
 #!desc=某些规则要清除缓存或者重新安装APP，拦截广告才会生效！
-#!count=支持约1317个分流规则
+#!count=支持约1319个分流规则
 #!author=zirawell
 #!homepage=https://github.com/zirawell/R-Store
 #!raw-url=https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/All/filter/allAdBlock.list
 #!tg-group=https://t.me/lanjieguanggao
-#!date=2025-05-22 10:34:39
+#!date=2025-05-23 15:14:30
 #!proxy-select=reject
 #!---------------------------------------------------------------------------------------------------------------
 ip-cidr, 1.202.85.193/32, reject
@@ -306,6 +306,7 @@ host, iadctest.qwapi.com, reject
 host, iadmat.nosdn.127.net, reject
 host, iadmatapk.nosdn.127.net, reject
 host, iadmoo.apple.com, reject
+host, iadsdk.qtlcdn.com.cdnmg.com, reject
 host, iadworkbench.apple.com, reject
 host, ichannel.snssdk.com, reject
 host, icloud-amap.com, reject
@@ -1162,6 +1163,7 @@ host-suffix, theta.sogoucdn.com, reject
 host-suffix, tk.baidu.com, reject
 host-suffix, tkweb.baidu.com, reject
 host-suffix, tns.simba.taobao.com, reject
+host-suffix, tobidad.cn, reject
 host-suffix, toolbar.baidu.com, reject
 host-suffix, tpns.qq.com, reject
 host-suffix, tpns.tencent.com, reject

@@ -1,0 +1,13 @@
+# > 挖财记账 - WACAI
+
+[Rule]
+DOMAIN, adservice.sigmob.cn, REJECT, extended-matching, pre-matching
+DOMAIN, iadsdk.qtlcdn.com.cdnmg.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, tobidad.cn, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, iadsdk.apple.com, REJECT, extended-matching, pre-matching
+
+[URL Rewrite]
+^https?:\/\/jz\.wacaijizhang\.com\/api\/banners - reject
+
+[MITM]
+hostname= %APPEND% jz.wacaijizhang.com
