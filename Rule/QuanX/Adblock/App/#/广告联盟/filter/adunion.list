@@ -21,6 +21,7 @@ host, img.adnyg.com.w.kunlungr.com, reject
 host, sdownload.stargame.com, reject
 host, app-analytics-services.com, reject
 host-suffix, ttayy.cn, reject
+host-suffix, tobidad.cn, reject
 host-suffix, zhengxiaoliu.top, reject
 host-suffix, shuzilm.cn, reject
 host-suffix, u51.me, reject
