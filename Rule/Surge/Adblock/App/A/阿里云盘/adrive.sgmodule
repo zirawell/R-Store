@@ -8,8 +8,8 @@ IP-CIDR, 203.107.1.0/24, REJECT, pre-matching
 ^https?:\/\/api\.alipan\.com\/adrive\/v\d\/file\/getTopFolders data-type=text data="{}" status-code=200
 
 [Script]
-type=http-response,pattern=^https?:\/\/member\.alipan\.com\/v\d\/users\/onboard_list,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/adrive.js
-type=http-response,pattern=^https?:\/\/api\.alipan\.com\/apps\/v\d\/users\/home\/(?>news|widgets),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/adrive.js
+adrive = type=http-response,pattern=^https?:\/\/member\.alipan\.com\/v\d\/users\/onboard_list,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/adrive.js
+adrive = type=http-response,pattern=^https?:\/\/api\.alipan\.com\/apps\/v\d\/users\/home\/(?>news|widgets),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/adrive.js
 
 [MITM]
 hostname= %APPEND% member.alipan.com, api.alipan.com

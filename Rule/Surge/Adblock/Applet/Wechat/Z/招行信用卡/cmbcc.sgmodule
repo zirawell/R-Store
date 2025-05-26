@@ -1,8 +1,8 @@
 # > 招行信用卡<微信小程序> - CMBCC
 
 [Script]
-type=http-response,pattern=^https?:\/\/xyk\.cmbchina\.com\/WebAppConfigService\/get(Page)?ResourceBits,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/cmbcc.js
-type=http-response,pattern=^https?:\/\/weclub\.ccc\.cmbchina\.com\/SCRMMiniAppCenterNode\/resource\/gateway\/get-page-resource,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/cmbcc.js
+cmbcc = type=http-response,pattern=^https?:\/\/xyk\.cmbchina\.com\/WebAppConfigService\/get(Page)?ResourceBits,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/cmbcc.js
+cmbcc = type=http-response,pattern=^https?:\/\/weclub\.ccc\.cmbchina\.com\/SCRMMiniAppCenterNode\/resource\/gateway\/get-page-resource,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/cmbcc.js
 
 [MITM]
 hostname= %APPEND% xyk.cmbchina.com, weclub.ccc.cmbchina.com

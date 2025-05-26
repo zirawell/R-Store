@@ -5,7 +5,7 @@
 ^https?:\/\/social\.blued\.cn\/users\/no_auth\/benefit data-type=text data="{}" status-code=200
 
 [Script]
-type=http-response,pattern=^https?:\/\/social\.blued\.cn\/users\/.+\/more\/ios\?v=\d,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/blued.js
+blued = type=http-response,pattern=^https?:\/\/social\.blued\.cn\/users\/.+\/more\/ios\?v=\d,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/blued.js
 
 [MITM]
 hostname= %APPEND% social.blued.cn

@@ -24,10 +24,10 @@ http-response ^https?:\/\/ut\.xiaojukeji\.com\/ut\/kappa\/api\/owner\/index bann
 ^https?:\/\/conf\.diditaxi\.com\.cn\/homepage\/v\d\/other\/fast data-type=text data="{}" status-code=200
 
 [Script]
-type=http-response,pattern=^https?:\/\/conf\.diditaxi\.com\.cn\/homepage\/v\d\/core,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/didi.js
-type=http-response,pattern=^https?:\/\/conf\.diditaxi\.com\.cn\/ota\/na\/yuantu\/infoList,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/didi.js
-type=http-response,pattern=^https?:\/\/common\.diditaxi\.com\.cn\/common\/v\d\/usercenter\/me,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/didi.js
-type=http-response,pattern=^https?:\/\/api\.udache\.com\/gulfstream\/pre-sale\/v\d\/other\/pGetSceneList,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/didi.js
+diditaxi = type=http-response,pattern=^https?:\/\/conf\.diditaxi\.com\.cn\/homepage\/v\d\/core,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/didi.js
+diditaxi = type=http-response,pattern=^https?:\/\/conf\.diditaxi\.com\.cn\/ota\/na\/yuantu\/infoList,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/didi.js
+diditaxi = type=http-response,pattern=^https?:\/\/common\.diditaxi\.com\.cn\/common\/v\d\/usercenter\/me,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/didi.js
+diditaxi = type=http-response,pattern=^https?:\/\/api\.udache\.com\/gulfstream\/pre-sale\/v\d\/other\/pGetSceneList,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/didi.js
 
 [MITM]
 hostname= %APPEND% hd.xiaojukeji.com, ct.xiaojukeji.com, res.xiaojukeji.com, as.xiaojukeji.com, freight.xiaojukeji.com, ut.xiaojukeji.com, api.udache.com, conf.diditaxi.com.cn, common.diditaxi.com.cn

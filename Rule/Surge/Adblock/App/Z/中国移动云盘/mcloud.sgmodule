@@ -7,7 +7,7 @@
 ^https?:\/\/middle\.yun\.139\.com\/openapi\/cardConfig\/queryCardInfoV data-type=text data="" status-code=200
 
 [Script]
-type=http-response,pattern=^https?:\/\/jzts\.cmpassport\.com\/personalized\/getPushContent,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/cloud139.js
+mcloud = type=http-response,pattern=^https?:\/\/jzts\.cmpassport\.com\/personalized\/getPushContent,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/cloud139.js
 
 [MITM]
 hostname= %APPEND% mcmm.caiyun.feixin.10086.cn, mrp.mcloud.139.com, ad.mcloud.139.com, middle.yun.139.com, jzts.cmpassport.com

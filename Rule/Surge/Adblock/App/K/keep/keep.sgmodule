@@ -34,15 +34,15 @@ DOMAIN, kad.gotokeep.com, REJECT, extended-matching, pre-matching
 
 [Script]
 # 我的页面去推广
-type=http-response,pattern=^https?:\/\/api\.gotokeep\.com\/athena\/v\d\/people\/my$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/keep.js
+keep = type=http-response,pattern=^https?:\/\/api\.gotokeep\.com\/athena\/v\d\/people\/my$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/keep.js
 # 应用底部栏净化
-type=http-response,pattern=^https?:\/\/api\.gotokeep\.com\/config\/v\d\/basic,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/keep.js
+keep = type=http-response,pattern=^https?:\/\/api\.gotokeep\.com\/config\/v\d\/basic,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/keep.js
 # 发现页处理
-type=http-response,pattern=^https?:\/\/api\.gotokeep\.com\/homepage\/v\d\/tab,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/keep.js
+keep = type=http-response,pattern=^https?:\/\/api\.gotokeep\.com\/homepage\/v\d\/tab,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/keep.js
 # 课程预览页广告
-type=http-response,pattern=^https?:\/\/api\.gotokeep\.com\/nuocha\/course\/v\d/\w+\/preview,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/keep.js
+keep = type=http-response,pattern=^https?:\/\/api\.gotokeep\.com\/nuocha\/course\/v\d/\w+\/preview,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/keep.js
 # 我的运动页面去除下方推荐
-type=http-response,pattern=^https?:\/\/api\.gotokeep\.com\/sportpage\/sport\/v\d\/mysport,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/keep.js
+keep = type=http-response,pattern=^https?:\/\/api\.gotokeep\.com\/sportpage\/sport\/v\d\/mysport,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/keep.js
 
 [MITM]
 hostname= %APPEND% static1.keepcdn.com, api.gotokeep.com, kad.gotokeep.com

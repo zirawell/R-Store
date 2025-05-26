@@ -57,15 +57,15 @@ DOMAIN-SUFFIX, adbs.ximalaya.com, REJECT, extended-matching, pre-matching
 
 [Script]
 # 首页顶部去除直播
-type=http-response,pattern=^https?:\/\/.*\.xima.*\.com\/discovery-category\/customCategories,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/xmly.js
+xima = type=http-response,pattern=^https?:\/\/.*\.xima.*\.com\/discovery-category\/customCategories,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/xmly.js
 # 屏蔽首页横幅_Ad
-type=http-response,pattern=^https?:\/\/.*\.xima.*\.com\/focus-mobile\/focusPic,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/xmly.js
+xima = type=http-response,pattern=^https?:\/\/.*\.xima.*\.com\/focus-mobile\/focusPic,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/xmly.js
 # 屏蔽首页动态_Ad
-type=http-response,pattern=^https?:\/\/.*\.xima.*\.com\/discovery-feed\/v\d\/mix,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/xmly.js
+xima = type=http-response,pattern=^https?:\/\/.*\.xima.*\.com\/discovery-feed\/v\d\/mix,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/xmly.js
 # 屏蔽Tab页滚动_Ad
-type=http-response,pattern=^https?:\/\/.*\.xima.*\.com\/discovery-category\/v\d/category,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/xmly.js
+xima = type=http-response,pattern=^https?:\/\/.*\.xima.*\.com\/discovery-category\/v\d/category,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/xmly.js
 # 去除我的页面Ad_Tag
-type=http-response,pattern=^https?:\/\/.*\.xima.*\.com\/mobile-user\/v\d\/homePage,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/xmly.js
+xima = type=http-response,pattern=^https?:\/\/.*\.xima.*\.com\/mobile-user\/v\d\/homePage,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/xmly.js
 
 [MITM]
 hostname= %APPEND% *.xima*.*.com, *.xmcdn.com

@@ -17,7 +17,7 @@ http-response ^https?:\/\/zone\.guiderank-app\.com\/guiderank-web\/app\/common\/
 ^https?:\/\/zone\.guiderank-app\.com\/guiderank-web\/app\/personal\/getPersonPageInfo data-type=text data="{}" status-code=200
 
 [Script]
-type=http-response,pattern=^https?:\/\/zone\.guiderank-app\.com\/guiderank-web\/app\/home\/getHomePageV,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/guiderank.js
+guiderank = type=http-response,pattern=^https?:\/\/zone\.guiderank-app\.com\/guiderank-web\/app\/home\/getHomePageV,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/guiderank.js
 
 [MITM]
 hostname= %APPEND% zone.guiderank-app.com

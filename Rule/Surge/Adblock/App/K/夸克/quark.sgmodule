@@ -7,7 +7,7 @@
 ^https?:\/\/stars\.shuqireader\.com\/kkios\/render\/load\/resource\/appConfig data-type=text data="{}" status-code=200
 
 [Script]
-type=http-response,pattern=^https?:\/\/open-cms-api\.quark\.cn\/open-cms,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/quark.js
+quark = type=http-response,pattern=^https?:\/\/open-cms-api\.quark\.cn\/open-cms,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/quark.js
 
 [MITM]
 hostname= %APPEND% huichuan.sm.cn, stars.shuqireader.com, open-cms-api.quark.cn

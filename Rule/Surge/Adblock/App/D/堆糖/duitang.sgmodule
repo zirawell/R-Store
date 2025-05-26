@@ -6,7 +6,7 @@
 ^https?:\/\/(www|api)\.duitang\.com\/napi\/ad data-type=text data="{}" status-code=200
 
 [Script]
-type=http-response,pattern=^https?:\/\/(www|api)\.duitang\.com\/napi\/settings\/,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/duitang.js
+duitang = type=http-response,pattern=^https?:\/\/(www|api)\.duitang\.com\/napi\/settings\/,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/duitang.js
 
 [MITM]
 hostname= %APPEND% api.duitang.com, www.duitang.com

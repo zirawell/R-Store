@@ -13,15 +13,15 @@ DOMAIN, popup.dushu365.com, REJECT, extended-matching, pre-matching
 ^https?:\/\/g(.*)\.dushu365\.com\/order-orchestration\/orderWeb\/exchange\/v\d+\/showExchangeButton - reject
 
 [Script]
-type=http-response,pattern=^https?:\/\/g(.*)\.dushu365\.com\/chief-orch\/home\/bookPortal\/v105\/category,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/dushu365.js
-type=http-response,pattern=^https?:\/\/g(.*)\.dushu365\.com\/abtest-front\/banner-modular\/get,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/dushu365.js
-type=http-response,pattern=^https?:\/\/g(.*)\.dushu365\.com\/resource-orchestration-system\/book\/channel\/v100\/info,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/dushu365.js
-type=http-response,pattern=^https?:\/\/g(.*)\.dushu365\.com\/fs-member\/user\/profile\/v100\/detail,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/dushu365.js
-type=http-response,pattern=^https?:\/\/g(.*)\.dushu365\.com\/chief-orch\/home\/bookPortal\/v111\/forApp,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/dushu365.js
-type=http-response,pattern=^https?:\/\/g(.*)\.dushu365\.com\/sns-orchestration-system\/homePage\/api\/v100\/myPage,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/dushu365.js
-type=http-response,pattern=^https?:\/\/g(.*)\.dushu365\.com\/task-orchestration\/taskCenter\/api\/v101\/taskList,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/dushu365.js
-type=http-response,pattern=^https?:\/\/g(.*)\.dushu365\.com\/resource-orchestration-system\/book\/v101\/content,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/dushu365.js
-type=http-response,pattern=^https?:\/\/g(.*)\.dushu365\.com\/user-orchestration\/user\/api\/v101\/ceiltip,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/dushu365.js
+dushu365 = type=http-response,pattern=^https?:\/\/g(.*)\.dushu365\.com\/chief-orch\/home\/bookPortal\/v105\/category,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/dushu365.js
+dushu365 = type=http-response,pattern=^https?:\/\/g(.*)\.dushu365\.com\/abtest-front\/banner-modular\/get,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/dushu365.js
+dushu365 = type=http-response,pattern=^https?:\/\/g(.*)\.dushu365\.com\/resource-orchestration-system\/book\/channel\/v100\/info,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/dushu365.js
+dushu365 = type=http-response,pattern=^https?:\/\/g(.*)\.dushu365\.com\/fs-member\/user\/profile\/v100\/detail,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/dushu365.js
+dushu365 = type=http-response,pattern=^https?:\/\/g(.*)\.dushu365\.com\/chief-orch\/home\/bookPortal\/v111\/forApp,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/dushu365.js
+dushu365 = type=http-response,pattern=^https?:\/\/g(.*)\.dushu365\.com\/sns-orchestration-system\/homePage\/api\/v100\/myPage,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/dushu365.js
+dushu365 = type=http-response,pattern=^https?:\/\/g(.*)\.dushu365\.com\/task-orchestration\/taskCenter\/api\/v101\/taskList,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/dushu365.js
+dushu365 = type=http-response,pattern=^https?:\/\/g(.*)\.dushu365\.com\/resource-orchestration-system\/book\/v101\/content,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/dushu365.js
+dushu365 = type=http-response,pattern=^https?:\/\/g(.*)\.dushu365\.com\/user-orchestration\/user\/api\/v101\/ceiltip,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/dushu365.js
 
 [MITM]
 hostname= %APPEND% g*.dushu365.com

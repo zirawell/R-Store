@@ -26,7 +26,7 @@ DOMAIN, titan01.babytree.com, REJECT, extended-matching, pre-matching
 ^https?:\/\/mapiweb\.babytree\.com\/newapi\/luban\/behavior\/receive data-type=text data="" status-code=200
 
 [Script]
-type=http-response,pattern=^https?:\/\/go\.babytree\.com\/go_pregnancy\/api\/(?>app_index|cms_column),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/babytree.js
+babytree = type=http-response,pattern=^https?:\/\/go\.babytree\.com\/go_pregnancy\/api\/(?>app_index|cms_column),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/babytree.js
 
 [MITM]
 hostname= %APPEND% go.babytree.com, api.babytree.com, plough.babytree.com, mapiweb.babytree.com

@@ -16,10 +16,10 @@ http-response ^https?:\/\/api\.boohee\.com\/meta-interface\/v\d\/index\/record_i
 ^https?:\/\/status\.boohee\.com\/api\/v\d\/merged_messages$ data-type=text data="{}" status-code=200
 
 [Script]
-type=http-response,pattern=^https?:\/\/api\.boohee\.com\/meta-interface\/v\d\/index\/plaza-flow\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/boohee.js
-type=http-response,pattern=^https?:\/\/api\.boohee\.com\/meta-interface\/v\d\/index\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/boohee.js
-type=http-response,pattern=^https?:\/\/api\.boohee\.com\/meta-interface\/v\d\/index\/plaza\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/boohee.js
-type=http-response,pattern=^https?:\/\/api\.boohee\.com\/open-interface\/v\d\/string\/market_page\?title=metabolism_config$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/boohee.js
+boohee = type=http-response,pattern=^https?:\/\/api\.boohee\.com\/meta-interface\/v\d\/index\/plaza-flow\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/boohee.js
+boohee = type=http-response,pattern=^https?:\/\/api\.boohee\.com\/meta-interface\/v\d\/index\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/boohee.js
+boohee = type=http-response,pattern=^https?:\/\/api\.boohee\.com\/meta-interface\/v\d\/index\/plaza\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/boohee.js
+boohee = type=http-response,pattern=^https?:\/\/api\.boohee\.com\/open-interface\/v\d\/string\/market_page\?title=metabolism_config$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/boohee.js
 
 [MITM]
 hostname= %APPEND% *.boohee.com, *.boohee.cn, bohe.sfo-tx-shanghai-01.saas.sensorsdata.cn

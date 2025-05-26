@@ -4,9 +4,9 @@
 ;^https?:\/\/api\.coolapk\.com\/v\d\/search\?.*type=hotSearch data-type=text data="{}" status-code=200
 
 [Script]
-type=http-response,pattern=^https?:\/\/api\.coolapk\.com\/v\d\/feed\/(detail|replyList)\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/coolapk.js
-type=http-response,pattern=^https?:\/\/api\.coolapk\.com\/v\d\/main\/(?>dataList|indexV|init),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/coolapk.js
-type=http-response,pattern=^https?:\/\/api\.coolapk\.com\/v\d\/page\/dataList\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/coolapk.js
+coolapk = type=http-response,pattern=^https?:\/\/api\.coolapk\.com\/v\d\/feed\/(detail|replyList)\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/coolapk.js
+coolapk = type=http-response,pattern=^https?:\/\/api\.coolapk\.com\/v\d\/main\/(?>dataList|indexV|init),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/coolapk.js
+coolapk = type=http-response,pattern=^https?:\/\/api\.coolapk\.com\/v\d\/page\/dataList\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/coolapk.js
 
 [MITM]
 hostname= %APPEND% api.coolapk.com
