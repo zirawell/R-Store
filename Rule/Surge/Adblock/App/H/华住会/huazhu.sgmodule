@@ -7,7 +7,7 @@
 [Map Local]
 # 推荐信息
 ^https?:\/\/hweb-hotel\.huazhu\.com\/home\/queryRecommond data-type=text data="{}" status-code=200
-# 华住世界: huazhuWorld
+# 新客专享: queryNewNotice | 天天特惠四方格: querySelectHotel | 华住品牌: queryHotelBrand | 华住商城: queryMall | 华住世界: huazhuWorld
 ^https?:\/\/hweb-hotel\.huazhu\.com\/{1,2}home\/(?>queryNewNotice|querySelectHotel|queryHotelBrand|queryMall|huazhuWorld) data-type=text data="" status-code=200
 # 弹窗广告
 ^https?:\/\/hweb-manager\.huazhu\.com\/notice\/getAppPopupNotifyAlert data-type=text data="{}" status-code=200
@@ -17,4 +17,4 @@
 ^https?:\/\/hweb-manager\.huazhu\.com\/hotels\/ad\/ data-type=text data="{}" status-code=200
 
 [MITM]
-hostname= %APPEND% appapi.huazhu.com, hweb-hotel.huazhu.com, hweb-manager.huazhu.com,
+hostname= %APPEND% appapi.huazhu.com, hweb-hotel.huazhu.com, hweb-manager.huazhu.com
