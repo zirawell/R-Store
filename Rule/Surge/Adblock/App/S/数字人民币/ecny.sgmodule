@@ -1,7 +1,7 @@
 # > 数字人民币 - ECNY
 
 [Rule]
-IP-CIDR, 1.202.85.193/32, REJECT, pre-matching
+IP-CIDR, 1.202.85.193/32, REJECT, no-resolve, pre-matching
 DOMAIN, mdc.wallet.pbcdci.cn, REJECT, extended-matching, pre-matching
 DOMAIN, mdap.wallet.pbcdci.cn, REJECT, extended-matching, pre-matching
 

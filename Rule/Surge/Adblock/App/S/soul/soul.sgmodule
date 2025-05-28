@@ -7,11 +7,11 @@ DOMAIN, ad-r.soulapp.cn, REJECT, extended-matching, pre-matching
 DOMAIN, soul-ad.soulapp.cn, REJECT, extended-matching, pre-matching
 DOMAIN, ad-reward.soulapp.cn, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, cdn.soulapp.cn, REJECT, extended-matching, pre-matching
-IP-CIDR, 47.56.131.76/32, REJECT, pre-matching
-IP-CIDR, 47.97.215.55/32, REJECT, pre-matching
-IP-CIDR, 47.99.42.29/32, REJECT, pre-matching
-IP-CIDR, 120.27.235.201/32, REJECT, pre-matching
-IP-CIDR, 121.196.197.147/32, REJECT, pre-matching
+IP-CIDR, 47.56.131.76/32, REJECT, no-resolve, pre-matching
+IP-CIDR, 47.97.215.55/32, REJECT, no-resolve, pre-matching
+IP-CIDR, 47.99.42.29/32, REJECT, no-resolve, pre-matching
+IP-CIDR, 120.27.235.201/32, REJECT, no-resolve, pre-matching
+IP-CIDR, 121.196.197.147/32, REJECT, no-resolve, pre-matching
 
 [URL Rewrite]
 # 国际版

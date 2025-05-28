@@ -1,25 +1,25 @@
 # > 拼多多 - PDD
 
 [Rule]
-IP-CIDR, 81.69.208.12/32, REJECT, pre-matching
-IP-CIDR, 81.69.130.131/32, REJECT, pre-matching
-IP-CIDR, 81.69.105.56/32, REJECT, pre-matching
-IP-CIDR, 101.35.204.35/32, REJECT, pre-matching
-IP-CIDR, 101.35.212.35/32, REJECT, pre-matching
-IP-CIDR, 111.29.42.213/32, REJECT, pre-matching
-IP-CIDR, 114.110.99.5/32, REJECT, pre-matching
-IP-CIDR, 117.185.244.212/32, REJECT, pre-matching
-IP-CIDR, 121.5.84.85/32, REJECT, pre-matching
-IP-CIDR, 175.24.144.100/32, REJECT, pre-matching
-IP-CIDR, 180.163.214.155/32, REJECT, pre-matching
-IP-CIDR, 49.235.102.0/24, REJECT, pre-matching
-IP-CIDR, 114.110.98.0/24, REJECT, pre-matching
-IP-CIDR, 114.110.96.0/24, REJECT, pre-matching
-IP-CIDR, 114.110.97.0/24, REJECT, pre-matching
-IP-CIDR, 101.226.46.0/24, REJECT, pre-matching
-;IP-CIDR, 101.226.152.0/24, REJECT, pre-matching
-IP-CIDR, 180.97.42.0/24, REJECT, pre-matching
-IP-CIDR, 212.129.220.0/24, REJECT, pre-matching
+IP-CIDR, 81.69.208.12/32, REJECT, no-resolve, pre-matching
+IP-CIDR, 81.69.130.131/32, REJECT, no-resolve, pre-matching
+IP-CIDR, 81.69.105.56/32, REJECT, no-resolve, pre-matching
+IP-CIDR, 101.35.204.35/32, REJECT, no-resolve, pre-matching
+IP-CIDR, 101.35.212.35/32, REJECT, no-resolve, pre-matching
+IP-CIDR, 111.29.42.213/32, REJECT, no-resolve, pre-matching
+IP-CIDR, 114.110.99.5/32, REJECT, no-resolve, pre-matching
+IP-CIDR, 117.185.244.212/32, REJECT, no-resolve, pre-matching
+IP-CIDR, 121.5.84.85/32, REJECT, no-resolve, pre-matching
+IP-CIDR, 175.24.144.100/32, REJECT, no-resolve, pre-matching
+IP-CIDR, 180.163.214.155/32, REJECT, no-resolve, pre-matching
+IP-CIDR, 49.235.102.0/24, REJECT, no-resolve, pre-matching
+IP-CIDR, 114.110.98.0/24, REJECT, no-resolve, pre-matching
+IP-CIDR, 114.110.96.0/24, REJECT, no-resolve, pre-matching
+IP-CIDR, 114.110.97.0/24, REJECT, no-resolve, pre-matching
+IP-CIDR, 101.226.46.0/24, REJECT, no-resolve, pre-matching
+;IP-CIDR, 101.226.152.0/24, REJECT, no-resolve, pre-matching
+IP-CIDR, 180.97.42.0/24, REJECT, no-resolve, pre-matching
+IP-CIDR, 212.129.220.0/24, REJECT, no-resolve, pre-matching
 DOMAIN, titan.pinduoduo.com, REJECT, extended-matching, pre-matching
 DOMAIN, apm.pinduoduo.com, REJECT, extended-matching, pre-matching
 DOMAIN, ta-a.pinduoduo.com, REJECT, extended-matching, pre-matching

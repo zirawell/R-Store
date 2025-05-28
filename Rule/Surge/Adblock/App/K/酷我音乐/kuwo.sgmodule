@@ -14,7 +14,7 @@ DOMAIN-SUFFIX, msclick2.kuwo.cn, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, msphoneclick.kuwo.cn, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, updatepage.kuwo.cn, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, webstat.kuwo.cn, REJECT, extended-matching, pre-matching
-IP-CIDR, 111.206.98.63/32, REJECT, pre-matching
+IP-CIDR, 111.206.98.63/32, REJECT, no-resolve, pre-matching
 
 [URL Rewrite]
 # 广告

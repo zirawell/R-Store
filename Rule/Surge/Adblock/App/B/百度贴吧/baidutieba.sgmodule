@@ -1,7 +1,7 @@
 # > 百度贴吧 - BAIDUTIEBA
 
 [Rule]
-IP-CIDR, 180.76.76.200/32, REJECT, pre-matching
+IP-CIDR, 180.76.76.200/32, REJECT, no-resolve, pre-matching
 DOMAIN, afd.baidu.com, REJECT, extended-matching, pre-matching
 DOMAIN, mobads.baidu.com, REJECT, extended-matching, pre-matching
 

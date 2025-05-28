@@ -17,8 +17,8 @@ DOMAIN-KEYWORD, kepler.jd.com, REJECT, extended-matching, pre-matching
 DOMAIN-KEYWORD, bdsp.x.jd.com, REJECT, extended-matching, pre-matching
 DOMAIN-KEYWORD, keplerapi.jd.com, REJECT, extended-matching, pre-matching
 DOMAIN-KEYWORD, mapi.m.jd.com, REJECT, extended-matching, pre-matching
-IP-CIDR, 101.124.19.122/32, REJECT, pre-matching
-IP-CIDR6, 2402:db40:5100:1011::5/128, REJECT, pre-matching
+IP-CIDR, 101.124.19.122/32, REJECT, no-resolve, pre-matching
+IP-CIDR6, 2402:db40:5100:1011::5/128, REJECT, no-resolve, pre-matching
 
 [URL Rewrite]
 # 屏蔽强制更新

@@ -1,7 +1,7 @@
 # > 阿里云盘 - ADRIVE
 
 [Rule]
-IP-CIDR, 203.107.1.0/24, REJECT, pre-matching
+IP-CIDR, 203.107.1.0/24, REJECT, no-resolve, pre-matching
 
 [Map Local]
 ^https?:\/\/member\.alipan\.com\/v\d\/activity\/sign_in_(?>info|luckyBottle) data-type=text data="{}" status-code=200

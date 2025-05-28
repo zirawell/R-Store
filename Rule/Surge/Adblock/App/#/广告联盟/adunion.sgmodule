@@ -244,7 +244,6 @@ DOMAIN-SUFFIX, activeqq.3g.qq.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, rqd.qq.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, tpns.qq.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, tpns.tencent.com, REJECT, extended-matching, pre-matching
-DOMAIN-SUFFIX, tetrack.qq.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, ugdtimg.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, gdtimg.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, gdt.qq.com, REJECT, extended-matching, pre-matching
@@ -286,8 +285,9 @@ DOMAIN-SUFFIX, tajs.qq.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, fusion.qq.com, REJECT, extended-matching, pre-matching
 DOMAIN-KEYWORD, pgdt.gtimg.c, REJECT, extended-matching, pre-matching
 DOMAIN-KEYWORD, trace.qq.com, REJECT, extended-matching, pre-matching
+DOMAIN-KEYWORD, track.qq.com, REJECT, extended-matching, pre-matching
 DOMAIN-KEYWORD, trace.video.qq.com, REJECT, extended-matching, pre-matching
-IP-CIDR, 47.110.187.87/32, REJECT, pre-matching
+IP-CIDR, 47.110.187.87/32, REJECT, no-resolve, pre-matching
 DOMAIN, als.baidu.com, REJECT, extended-matching, pre-matching
 DOMAIN, duclick.baidu.com, REJECT, extended-matching, pre-matching
 DOMAIN, mobads.baidu.com, REJECT, extended-matching, pre-matching
@@ -432,8 +432,8 @@ DOMAIN-SUFFIX, wisepush.video.baidu.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, wm.baidu.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, yingxiao.baidu.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, znsv.baidu.com, REJECT, extended-matching, pre-matching
-IP-CIDR, 180.76.76.112/32, REJECT, pre-matching
-IP-CIDR, 180.76.76.200/32, REJECT, pre-matching
+IP-CIDR, 180.76.76.112/32, REJECT, no-resolve, pre-matching
+IP-CIDR, 180.76.76.200/32, REJECT, no-resolve, pre-matching
 DOMAIN, o2o-ad-log-gateway.alibaba.com, REJECT, extended-matching, pre-matching
 DOMAIN, eco.taobao.com, REJECT, extended-matching, pre-matching
 DOMAIN, ossgw.alicdn.com, REJECT, extended-matching, pre-matching

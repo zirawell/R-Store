@@ -5,4 +5,4 @@ DOMAIN, ptom.caohua.com, REJECT, extended-matching, pre-matching
 DOMAIN, tracking.leiting.com, REJECT, extended-matching, pre-matching
 DOMAIN, ads.games.laohu.com, REJECT, extended-matching, pre-matching
 DOMAIN, shark-tracer.netease.com, REJECT, extended-matching, pre-matching
-IP-CIDR, 203.107.1.1/24, REJECT, pre-matching
+IP-CIDR, 203.107.1.1/24, REJECT, no-resolve, pre-matching

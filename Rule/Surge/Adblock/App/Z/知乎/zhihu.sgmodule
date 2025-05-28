@@ -8,9 +8,9 @@ DOMAIN, crash2.zhihu.com, REJECT, extended-matching, pre-matching
 DOMAIN, mqtt.zhihu.com, REJECT, extended-matching, pre-matching
 DOMAIN, sugar.zhihu.com, REJECT, extended-matching, pre-matching
 DOMAIN, zxid-m.mobileservice.cn, REJECT, extended-matching, pre-matching
-IP-CIDR, 103.41.167.237/32, REJECT, pre-matching
-IP-CIDR, 118.89.204.198/32, REJECT, pre-matching
-IP-CIDR6, 2402:4e00:1200:ed00:0:9089:6dac:96b6/128, REJECT, pre-matching
+IP-CIDR, 103.41.167.237/32, REJECT, no-resolve, pre-matching
+IP-CIDR, 118.89.204.198/32, REJECT, no-resolve, pre-matching
+IP-CIDR6, 2402:4e00:1200:ed00:0:9089:6dac:96b6/128, REJECT, no-resolve, pre-matching
 
 [URL Rewrite]
 ^https?:\/\/api\.zhihu\.com\/unlimited\/go\/my_card - reject

@@ -1,7 +1,7 @@
 # > 中国移动 - 10086
 
 [Rule]
-IP-CIDR, 120.240.95.37/32, REJECT, pre-matching
+IP-CIDR, 120.240.95.37/32, REJECT, no-resolve, pre-matching
 
 [URL Rewrite]
 ^https?:\/\/(client\.)?app(\.coc)?\.10086\.cn\/biz-orange\/DN\/init\/startInit - reject

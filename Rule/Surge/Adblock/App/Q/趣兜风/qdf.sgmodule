@@ -5,7 +5,7 @@ DOMAIN, lwlog.laiwang.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, yksdks.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, cpatrk.net, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, mobsurl.com, REJECT, extended-matching, pre-matching
-IP-CIDR, 114.67.227.198/32, REJECT, pre-matching
+IP-CIDR, 114.67.227.198/32, REJECT, no-resolve, pre-matching
 
 [Map Local]
 ^https?:\/\/online\.aicarmap\.com\/club\/api\/user\/updateloc data-type=text data="{}" status-code=200
