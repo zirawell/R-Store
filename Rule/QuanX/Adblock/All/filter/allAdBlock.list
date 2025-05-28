@@ -1,11 +1,11 @@
 #!name=全部-广告拦截合集-分流规则
 #!desc=某些规则要清除缓存或者重新安装APP，拦截广告才会生效！
-#!count=支持约1319个分流规则
+#!count=支持约1322个分流规则
 #!author=zirawell
 #!homepage=https://github.com/zirawell/R-Store
 #!raw-url=https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/All/filter/allAdBlock.list
 #!tg-group=https://t.me/lanjieguanggao
-#!date=2025-05-28 15:38:49
+#!date=2025-05-28 15:53:36
 #!proxy-select=reject
 #!---------------------------------------------------------------------------------------------------------------
 ip-cidr, 1.202.85.193/32, reject
@@ -54,6 +54,7 @@ ip-cidr, 180.163.214.155/32, reject
 ip-cidr, 180.76.76.112/32, reject
 ip-cidr, 180.76.76.200/32, reject
 ip-cidr, 180.97.42.0/24, reject
+ip-cidr, 183.201.213.194/24, reject
 ip-cidr, 186.76.76.200/32, reject
 ip-cidr, 203.107.1.0/24, reject
 ip-cidr, 203.107.1.1/24, reject
@@ -75,6 +76,7 @@ host, a.cpic.com.cn, reject
 host, aaid.uyunad.com, reject
 host, abtest3-misc.zijieapi.com, reject
 host, acdn.adnxs.com, reject
+host, activity.video.qq.com, reject
 host, ad-analysis.pconline.com.cn, reject
 host, ad-api.4pyun.com, reject
 host, ad-cdn.qingting.fm, reject
@@ -494,6 +496,7 @@ host, tte.meituan.com, reject
 host, twns.p2ptun.qq.com, reject
 host, tysdk.95516.com, reject
 host, ug.snssdk.com, reject
+host, ugchsy.gtimg.com, reject
 host, union.chinalifeonline.com.cn, reject
 host, ups.ksmobile.net, reject
 host, vali-g1.cp31.ott.cibntv.net, reject
@@ -848,7 +851,6 @@ host-suffix, gamecenter.iqiyi.com, reject
 host-suffix, gamex.mobile.youku.com, reject
 host-suffix, gcapi.sy.kugou.com, reject
 host-suffix, gdt.qq.com, reject
-host-suffix, gdtimg.com, reject
 host-suffix, gemini.yahoo.com, reject
 host-suffix, gen.alicdn.com, reject
 host-suffix, gentags.net, reject
@@ -1183,7 +1185,6 @@ host-suffix, u3.ucweb.com, reject
 host-suffix, u51.me, reject
 host-suffix, ubixioe.com, reject
 host-suffix, ucstat.baidu.com, reject
-host-suffix, ugdtimg.com, reject
 host-suffix, ulic.baidu.com, reject
 host-suffix, ulog.imap.baidu.com, reject
 host-suffix, umeng.com, reject
@@ -1270,6 +1271,7 @@ host-keyword, -lq.snssdk.com, reject
 host-keyword, -normal-lq.zijieapi.com, reject
 host-keyword, -pack.byteimg.com, reject
 host-keyword, -tos.pstatp.com, reject
+host-keyword, 1258344696.file.myqcloud.com, reject
 host-keyword, a3.bytecdn.cn, reject
 host-keyword, a3.pstatp.com, reject
 host-keyword, ad-sign.byteimg.com, reject
@@ -1291,6 +1293,7 @@ host-keyword, bjimp.voiceads.cn, reject
 host-keyword, c1img.ali.kugou.com, reject
 host-keyword, collectionpv.che168.com, reject
 host-keyword, dns.alidns.com, reject
+host-keyword, gdtimg.com, reject
 host-keyword, iflyad.bj.openstorage.cn, reject
 host-keyword, in-page-push, reject
 host-keyword, kepler.jd.com, reject

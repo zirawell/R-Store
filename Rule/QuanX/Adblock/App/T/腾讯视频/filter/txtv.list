@@ -2,8 +2,10 @@
 host, info4.video.qq.com, reject
 host, info6.video.qq.com, reject
 host, vv.video.qq.com, reject
+host, ugchsy.gtimg.com, reject
 host, wxsmsdy.video.qq.com, reject
 host, sdkconfig.video.qq.com, reject
+host, activity.video.qq.com, reject
 host-suffix, video.mpush.qq.com, reject
 host-suffix, video.wap.mpush.qq.com, reject
 host-suffix, video.ureport.push.qq.com, reject
@@ -11,3 +13,5 @@ host-suffix, api.poll.video.qq.com, reject
 host-suffix, livep.l.ott.video.qq.com, reject
 host-suffix, news-l.play.ott.video.qq.com, reject
 host-suffix, vlive.qqvideo.tc.qq.com, reject
+host-keyword, 1258344696.file.myqcloud.com, reject
+ip-cidr, 183.201.213.194/24, reject

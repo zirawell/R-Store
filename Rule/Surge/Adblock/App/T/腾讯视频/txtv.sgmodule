@@ -4,8 +4,10 @@
 DOMAIN, info4.video.qq.com, REJECT, extended-matching, pre-matching
 DOMAIN, info6.video.qq.com, REJECT, extended-matching, pre-matching
 DOMAIN, vv.video.qq.com, REJECT, extended-matching, pre-matching
+DOMAIN, ugchsy.gtimg.com, REJECT, extended-matching, pre-matching
 DOMAIN, wxsmsdy.video.qq.com, REJECT, extended-matching, pre-matching
 DOMAIN, sdkconfig.video.qq.com, REJECT, extended-matching, pre-matching
+DOMAIN, activity.video.qq.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, video.mpush.qq.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, video.wap.mpush.qq.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, video.ureport.push.qq.com, REJECT, extended-matching, pre-matching
@@ -13,6 +15,8 @@ DOMAIN-SUFFIX, api.poll.video.qq.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, livep.l.ott.video.qq.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, news-l.play.ott.video.qq.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, vlive.qqvideo.tc.qq.com, REJECT, extended-matching, pre-matching
+DOMAIN-KEYWORD, 1258344696.file.myqcloud.com, REJECT, extended-matching, pre-matching
+IP-CIDR, 183.201.213.194/24, REJECT, no-resolve, pre-matching
 
 [URL Rewrite]
 ^https?:\/\/apd-vlive\.apdcdn\.tc\.qq\.com\/vmind\.qqvideo\.tc\.qq\.com\/\w+ - reject

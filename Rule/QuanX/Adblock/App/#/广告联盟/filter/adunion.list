@@ -230,8 +230,6 @@ host-suffix, activeqq.3g.qq.com, reject
 host-suffix, rqd.qq.com, reject
 host-suffix, tpns.qq.com, reject
 host-suffix, tpns.tencent.com, reject
-host-suffix, ugdtimg.com, reject
-host-suffix, gdtimg.com, reject
 host-suffix, gdt.qq.com, reject
 host-suffix, mdt.qq.com, reject
 host-suffix, bugly.qq.com, reject
@@ -269,6 +267,7 @@ host-suffix, pingma.qq.com, reject
 host-suffix, pingtcss.qq.com, reject
 host-suffix, tajs.qq.com, reject
 host-suffix, fusion.qq.com, reject
+host-keyword, gdtimg.com, reject
 host-keyword, pgdt.gtimg.c, reject
 host-keyword, trace.qq.com, reject
 host-keyword, track.qq.com, reject
