@@ -210,6 +210,10 @@ DOMAIN, adsmind.apdcdn.tc.qq.com, REJECT, extended-matching, pre-matching
 DOMAIN, adsmind.tc.qq.com, REJECT, extended-matching, pre-matching
 DOMAIN, wa.gtimg.com, REJECT, extended-matching, pre-matching
 DOMAIN, livep.l.t002.ottcn.com, REJECT, extended-matching, pre-matching
+DOMAIN, iacc.qq.com, REJECT, extended-matching, pre-matching
+DOMAIN, tux.qq.com, REJECT, extended-matching, pre-matching
+DOMAIN, aegis.qq.com, REJECT, extended-matching, pre-matching
+DOMAIN, rdelivery.qq.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, e.qq.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, l.qq.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, ad.qq.com, REJECT, extended-matching, pre-matching
@@ -257,6 +261,7 @@ DOMAIN-SUFFIX, mfm.video.qq.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, mini2015.qq.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, monitor.uu.qq.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, mqqad.cs0309.html5.qq.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, static-res.qq.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, mqqad.html5.qq.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, mqqadr.reader.qq.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, news.mpush.qq.com, REJECT, extended-matching, pre-matching

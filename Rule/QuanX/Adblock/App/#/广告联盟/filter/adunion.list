@@ -196,6 +196,10 @@ host, adsmind.apdcdn.tc.qq.com, reject
 host, adsmind.tc.qq.com, reject
 host, wa.gtimg.com, reject
 host, livep.l.t002.ottcn.com, reject
+host, iacc.qq.com, reject
+host, tux.qq.com, reject
+host, aegis.qq.com, reject
+host, rdelivery.qq.com, reject
 host-suffix, e.qq.com, reject
 host-suffix, l.qq.com, reject
 host-suffix, ad.qq.com, reject
@@ -243,6 +247,7 @@ host-suffix, mfm.video.qq.com, reject
 host-suffix, mini2015.qq.com, reject
 host-suffix, monitor.uu.qq.com, reject
 host-suffix, mqqad.cs0309.html5.qq.com, reject
+host-suffix, static-res.qq.com, reject
 host-suffix, mqqad.html5.qq.com, reject
 host-suffix, mqqadr.reader.qq.com, reject
 host-suffix, news.mpush.qq.com, reject
