@@ -44,11 +44,11 @@ hostname = vip.video.qq.com, pbaccess.video.qq.com
 
 const $ = new Env("腾讯视频");
 
-let txspCookie = $.getItem('txspCookie') || "";
-let txspRefreshCookie = $.getItem('txspRefreshCookie') || "";
-let txspRefreshBody = $.getItem('txspRefreshBody') || "";
-let dayOfGetMonthTicket = $.getItem('dayOfGetMonthTicket') || 1;
-let isSkipTxspCheckIn = ($.getItem('isSkipTxspCheckIn') !== undefined && $.getItem('isSkipTxspCheckIn') !== '') ? JSON.parse($.getItem('isSkipTxspCheckIn')) : false;
+let txspCookie = $.getdata('txspCookie') || "";
+let txspRefreshCookie = $.getdata('txspRefreshCookie') || "";
+let txspRefreshBody = $.getdata('txspRefreshBody') || "";
+let dayOfGetMonthTicket = $.getdata('dayOfGetMonthTicket') || 1;
+let isSkipTxspCheckIn = ($.getdata('isSkipTxspCheckIn') !== undefined && $.getdata('isSkipTxspCheckIn') !== '') ? JSON.parse($.getdata('isSkipTxspCheckIn')) : false;
 
 let currentVersion = "v1.0.3", latestVersion = "";
 let nickname = "";
