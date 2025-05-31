@@ -16,6 +16,7 @@ IP-CIDR, 186.76.76.200/32, REJECT, no-resolve, pre-matching
 ^https?:\/\/tb2\.bdstatic\.com\/tb\/mobile\/spb\/widget\/jump data-type=tiny-gif status-code=200
 ^https?:\/\/ss0\.bdstatic\.com/.+?_\d{3}_\d{4}\.jpg data-type=text data="" status-code=200
 ^https?:\/\/gss0\.bdstatic\.com\/.+?\/static\/wiseindex\/img\/bd_red_packet\.png data-type=tiny-gif status-code=200
+^https?:\/\/newclient\.map\.baidu\.com\/feed\/govui\/rich_content data-type=text data="{}" status-code=200
 
 [Script]
 baidumap = type=http-response,pattern=^https?:\/\/newclient\.map\.baidu\.com\/client\/phpui2\/\?qt=ads,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/baiduMap.js
