@@ -368,9 +368,9 @@ function imageEnhance(jsonStr) {
 
 function replaceUrlContent(collectionA, collectionB) {
   collectionA.forEach(itemA => {
-    const matchingItemB = collectionB.find(itemB => itemB.file_id === itemA.file_id);
-    if (matchingItemB) {
-      itemA.url = itemA.url.replace(/(.*)\.mp4/, `${matchingItemB.url.match(/(.*)\.mp4/)[1]}.mp4`);
+    const itemB = collectionB.find(itemB => itemB.file_id === itemA.file_id);
+    if (itemB) {
+      itemA.url = itemA.url !== "" ? itemA.url.replace(/(.*)\.mp4/, `${itemB.url.match(/(.*)\.mp4/)[1]}.mp4`) : itemB.url;
     }
   });
 }
