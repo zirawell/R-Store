@@ -4,7 +4,7 @@ Checkout Source - https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scr
 Please note that you may need to reinstall app for script to work.
 
 QuantumultX rewrite link:
-https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/App/X/喜马拉雅/rewrite/xima.conf
+https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/App/X/喜马拉雅/rewrite/xmly.conf
 
 ********************************/
 

@@ -1,4 +1,4 @@
-# > 喜马拉雅 - XIMA
+# > 喜马拉雅 - XMLY
 host, adbehavior.ximalaya.com, reject
 host, adwbs.ximalaya.com, reject
 host-suffix, ad.test.ximalaya.com, reject
