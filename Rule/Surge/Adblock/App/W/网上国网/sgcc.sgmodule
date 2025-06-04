@@ -10,6 +10,7 @@ DOMAIN, csc-apm.sgcc.com.cn, REJECT, extended-matching, pre-matching
 ^https?:\/\/(?>csc|osg)-service\.sgcc\.com\.cn:\d+\/.*\/inner\/cache - reject
 
 [Map Local]
+^https?:\/\/(?>csc|osg)-service\.sgcc\.com\.cn:\d+\/emss-pfa-homepage-front\/member data-type=text data="{}" status-code=200
 ^https?:\/\/(?>csc|osg)-service\.sgcc\.com\.cn:\d+\/emss-pfa-appset-front\/bootpageoutter\/ data-type=text data="{}" status-code=200
 ^https?:\/\/(?>csc|osg)-service\.sgcc\.com\.cn:\d+\/.*\/app_api\/selectInfoByCondition data-type=text data="{}" status-code=200
 
