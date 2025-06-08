@@ -4,8 +4,10 @@
 ^https?:\/\/ios\.wps\.cn\/ad-statistics-service - reject
 
 [Map Local]
-^https?:\/\/mobile-pic\.cache\.iciba\.com\/feeds_ad\/ data-type=text data="" status-code=200
 ^https?:\/\/\w+\.kingsoft-office-service\.com\/ad data-type=text data="" status-code=200
+^https?:\/\/tiance\.wps\.cn\/dce\/exec\/api\/market\/activity data-type=text data="{}" status-code=200
+# 外区订阅弹窗
+^https?:\/\/ovs-shopwindow-server.*\.wps\.com\/api\/v\d\/shop_window\/type\/ios data-type=text data="{}" status-code=200
 
 [MITM]
-hostname= %APPEND% ios.wps.cn, mobile-pic.cache.iciba.com, *.kingsoft-office-service.com
+hostname= %APPEND% ios.wps.cn, *.kingsoft-office-service.com, tiance.wps.cn, ovs-shopwindow-server*.wps.com
