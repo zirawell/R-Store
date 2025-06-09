@@ -1,0 +1,9 @@
+# > 丰巢 - FCBOX
+
+[URL Rewrite]
+^https?:\/\/dsp\.fcbox\.com\/adSearch\/get\? - reject
+^https?:\/\/external\.fcbox\.com\/wxgw\/post\/suggestion\/query - reject
+;^https?:\/\/consumer\.fcbox\.com\/v\d\/ad\/ - reject
+
+[MITM]
+hostname= %APPEND% dsp.fcbox.com, external.fcbox.com
