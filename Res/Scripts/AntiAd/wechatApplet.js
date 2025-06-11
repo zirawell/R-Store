@@ -36,8 +36,33 @@ if (url.includes("ems.com.cn")) {
   delete obj.data.topBanner;
 //罗森点点
 } else if (url.includes("lawsonapi.yorentown.com")) {
-  delete obj.data.homeButtonList;
-  delete obj.data.dysmorphismPictureList;
+  // 处理预购列表
+  if (url.includes("/home/getReservation")) {
+      if (obj?.data) {
+          obj.data = {};
+      }
+  // 处理推荐列表
+  } else if (url.includes("/home/getRecommendations")) {
+      if (obj?.data) {
+          obj.data = {};
+      }
+  // 处理首页banner推广
+  } else if (url.includes("/home/getConfigInfo")) {
+      if (obj?.data?.dysmorphismPictureList) {
+          obj.data.dysmorphismPictureList = [];
+      }
+  // 处理首页栏目
+  } else if (url.includes("/mina/systemSetting")) {
+      if (obj?.data) {
+          obj.data = obj.data.map(item => {
+              if (item.type === 'HOMETAB') {
+                  item.openFlg = false;
+                  item.typeValue = {};
+              }
+              return item;
+          });
+      }
+  }
 //茶颜悦色
 } else if (url.includes("miniapp.sexytea2013.com")) {
   delete obj.data.INDEX_SLOT_01;
