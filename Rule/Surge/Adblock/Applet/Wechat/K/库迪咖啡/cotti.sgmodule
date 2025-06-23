@@ -1,9 +1,7 @@
 # > 库迪咖啡<微信小程序> - COTTI
 
 [Map Local]
-^https?:\/\/gateway\.cotticoffee\.com\/cotti-capi\/customer\/position\/list\?code=new-float-common data-type=text data="{}" status-code=200
-^https?:\/\/gateway\.cotticoffee\.com\/cotti-capi\/customer\/position\/list\?code=cotti-(?>window|float)-common data-type=text data="{}" status-code=200
-^https?:\/\/gateway\.cotticoffee\.com\/cotti-capi\/customer\/position\/list\?code=cotti-order-share-(?>window|float) data-type=text data="{}" status-code=200
+^https?:\/\/gateway\.cotticoffee\.com\/cotti-capi\/customer\/position\/list\?code=.+-(?>window|float) data-type=text data="{}" status-code=200
 ^https?:\/\/gateway\.cotticoffee\.com\/cotti-capi\/customer\/position\/list\?code=v\d-cotti-order-detail-banner data-type=text data="{}" status-code=200
 ^https?:\/\/gateway\.cotticoffee\.com\/cotti-capi\/customer\/position\/list\?code=cotti-launch-window data-type=text data="{}" status-code=200
 ^https?:\/\/gateway\.cotticoffee\.com\/cotti-capi\/customer\/position\/adSortList data-type=text data="{}" status-code=200
