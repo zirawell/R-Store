@@ -3,9 +3,9 @@
 [Rule]
 IP-CIDR, 103.37.155.60/32, REJECT, no-resolve, pre-matching
 DOMAIN, flowplus.meituan.net, REJECT, extended-matching, pre-matching
-DOMAIN, lx0.meituan.com, REJECT, extended-matching, pre-matching
+;DOMAIN, lx0.meituan.com, REJECT, extended-matching, pre-matching
 DOMAIN, hlx.meituan.com, REJECT, extended-matching, pre-matching
-DOMAIN-SUFFIX, lx.meituan.net, REJECT, extended-matching, pre-matching
+;DOMAIN-SUFFIX, lx.meituan.net, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, httpdns.meituan.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, analytics.meituan.net, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, meituan.xn, REJECT, extended-matching, pre-matching
