@@ -6,7 +6,7 @@ DOMAIN, tte.meituan.com, REJECT, extended-matching, pre-matching
 DOMAIN, dpmtpush.dianping.com, REJECT, extended-matching, pre-matching
 DOMAIN, dynamicf.sankuai.com, REJECT, extended-matching, pre-matching
 DOMAIN, live-monitor-broker.sankuai.com, REJECT, extended-matching, pre-matching
-DOMAIN-SUFFIX, lx.meituan.net, REJECT, extended-matching, pre-matching
+;DOMAIN-SUFFIX, lx.meituan.net, REJECT, extended-matching, pre-matching
 IP-CIDR, 101.32.16.204/32, REJECT, no-resolve, pre-matching
 IP-CIDR, 119.29.126.137/32, REJECT, no-resolve, pre-matching
 
