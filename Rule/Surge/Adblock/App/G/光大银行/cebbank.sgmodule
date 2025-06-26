@@ -1,7 +1,0 @@
-# > 光大银行 - CEBBANK
-
-[Map Local]
-^https?:\/\/mobile\.cebbank\.com\/cebclient\/ClientNoticeList data-type=text data="" status-code=200
-
-[MITM]
-hostname= %APPEND% mobile.cebbank.com
