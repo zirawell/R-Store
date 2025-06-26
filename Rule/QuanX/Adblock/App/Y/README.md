@@ -1,7 +1,7 @@
 # Y
 <details>
 <summary>
-本目录共收录34个App，详情见如下，单击导入对应配置：
+本目录共收录33个App，详情见如下，单击导入对应配置：
 </summary>
 
 - [Youtube](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FY%2FYoutube%2Ffilter%2Fyoutube.list%2C%20tag%3DYoutube%22%5D%2C%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FY%2FYoutube%2Frewrite%2Fyoutube.conf%2C%20tag%3DYoutube%22%5D%7D)
@@ -37,6 +37,5 @@
 - [萤石云视频](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FY%2F%E8%90%A4%E7%9F%B3%E4%BA%91%E8%A7%86%E9%A2%91%2Frewrite%2Fys7.conf%2C%20tag%3D%E8%90%A4%E7%9F%B3%E4%BA%91%E8%A7%86%E9%A2%91%22%5D%7D)
 - [邮储信用卡](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FY%2F%E9%82%AE%E5%82%A8%E4%BF%A1%E7%94%A8%E5%8D%A1%2Frewrite%2Fpsbc.conf%2C%20tag%3D%E9%82%AE%E5%82%A8%E4%BF%A1%E7%94%A8%E5%8D%A1%22%5D%7D)
 - [银盛通](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FY%2F%E9%93%B6%E7%9B%9B%E9%80%9A%2Ffilter%2Fysepay.list%2C%20tag%3D%E9%93%B6%E7%9B%9B%E9%80%9A%22%5D%7D)
-- [阳光惠生活](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FY%2F%E9%98%B3%E5%85%89%E6%83%A0%E7%94%9F%E6%B4%BB%2Frewrite%2Fcebbank.conf%2C%20tag%3D%E9%98%B3%E5%85%89%E6%83%A0%E7%94%9F%E6%B4%BB%22%5D%7D)
 
 </details>

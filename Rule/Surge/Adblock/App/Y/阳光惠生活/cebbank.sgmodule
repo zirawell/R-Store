@@ -1,7 +1,0 @@
-# > 阳光惠生活 - CEBBANK
-
-[Map Local]
-^https?:\/\/yghsh\.cebbank\.com\/static\/picture\/.*.jpg data-type=text data="" status-code=200
-
-[MITM]
-hostname= %APPEND% yghsh.cebbank.com
