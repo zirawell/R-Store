@@ -1,11 +1,10 @@
 # Z
 <details>
 <summary>
-本目录共收录42个App，详情见如下，单击导入对应配置：
+本目录共收录41个App，详情见如下，单击导入对应配置：
 </summary>
 
 - [ZCOOL站酷](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FZ%2FZCOOL%E7%AB%99%E9%85%B7%2Frewrite%2Fzcool.conf%2C%20tag%3DZCOOL%E7%AB%99%E9%85%B7%22%5D%7D)
-- [中信银行](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FZ%2F%E4%B8%AD%E4%BF%A1%E9%93%B6%E8%A1%8C%2Frewrite%2Fciticbank.conf%2C%20tag%3D%E4%B8%AD%E4%BF%A1%E9%93%B6%E8%A1%8C%22%5D%7D)
 - [中关村在线](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FZ%2F%E4%B8%AD%E5%85%B3%E6%9D%91%E5%9C%A8%E7%BA%BF%2Ffilter%2Fzol.list%2C%20tag%3D%E4%B8%AD%E5%85%B3%E6%9D%91%E5%9C%A8%E7%BA%BF%22%5D%2C%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FZ%2F%E4%B8%AD%E5%85%B3%E6%9D%91%E5%9C%A8%E7%BA%BF%2Frewrite%2Fzol.conf%2C%20tag%3D%E4%B8%AD%E5%85%B3%E6%9D%91%E5%9C%A8%E7%BA%BF%22%5D%7D)
 - [中国人保](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FZ%2F%E4%B8%AD%E5%9B%BD%E4%BA%BA%E4%BF%9D%2Frewrite%2Fpicc.conf%2C%20tag%3D%E4%B8%AD%E5%9B%BD%E4%BA%BA%E4%BF%9D%22%5D%7D)
 - [中国人寿寿险](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FZ%2F%E4%B8%AD%E5%9B%BD%E4%BA%BA%E5%AF%BF%E5%AF%BF%E9%99%A9%2Frewrite%2Fchinalife.conf%2C%20tag%3D%E4%B8%AD%E5%9B%BD%E4%BA%BA%E5%AF%BF%E5%AF%BF%E9%99%A9%22%5D%7D)
