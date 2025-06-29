@@ -1,4 +1,13 @@
-# > 中国广电 - 10099
+#!name=中国广电 - 10099
+#!desc=中国广电去广告
+#!openUrl=https://apps.apple.com/app/id1643456835
+#!author=zirawell[https://github.com/zirawell]
+#!tag=去广告
+#!system=iOS
+#!surge_version=5.14.2(Build3405,SDK18.2)
+#!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
+#!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/10099.png
+#!date=2025-06-30
 
 [Map Local]
 ^https?:\/\/app\.10099\.com\.cn\/contact-web\/api\/version\/getFlashScreenPage data-type=text data="" status-code=200

@@ -1,4 +1,13 @@
-# > 我爱卡社区管家 - 51CREDIT
+#!name=我爱卡社区管家 - 51CREDIT
+#!desc=我爱卡社区管家去广告
+#!openUrl=https://apps.apple.com/app/id1459840448
+#!author=zirawell[https://github.com/zirawell]
+#!tag=去广告
+#!system=iOS
+#!surge_version=5.14.2(Build3405,SDK18.2)
+#!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
+#!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/51credit.png
+#!date=2025-06-30
 
 [Map Local]
 ^https?:\/\/api\.51credit\.com\/app\/popup\/appPopup data-type=text data="{}" status-code=200

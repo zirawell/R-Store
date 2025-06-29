@@ -1,4 +1,13 @@
-# > 快递100 - KUAIDI100
+#!name=快递100 - KUAIDI100
+#!desc=快递100去广告
+#!openUrl=https://apps.apple.com/app/id458270120
+#!author=zirawell[https://github.com/zirawell]
+#!tag=去广告
+#!system=iOS
+#!surge_version=5.14.2(Build3405,SDK18.2)
+#!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
+#!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/kuaidi100.png
+#!date=2025-06-30
 
 [URL Rewrite]
 ^https?:\/\/p\.kuaidi100\.com\/mobile\/mobileapi\.do - reject
