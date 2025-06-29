@@ -1,4 +1,13 @@
-# > 薄荷健康 - BOOHEE
+#!name=薄荷健康 - BOOHEE
+#!desc=薄荷健康去广告
+#!openUrl=https://apps.apple.com/app/id457856023
+#!author=zirawell[https://github.com/zirawell]
+#!tag=去广告
+#!system=iOS
+#!surge_version=5.14.2(Build3405,SDK18.2)
+#!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
+#!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/boohee.png
+#!date=2025-06-30
 
 [URL Rewrite]
 ^https?:\/\/.*\.boohee\.(?>cn|com).*(?>notification_template|advertisements|share_contents|app_square|plugins|notifications|start_up_with_ad|float_ad|data_file_entrance) - reject

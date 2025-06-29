@@ -1,4 +1,13 @@
-# > 小鹏汽车 - XPENG
+#!name=小鹏汽车 - XPENG
+#!desc=小鹏汽车去广告
+#!openUrl=https://apps.apple.com/app/id1331318404
+#!author=zirawell[https://github.com/zirawell]
+#!tag=去广告
+#!system=iOS
+#!surge_version=5.14.2(Build3405,SDK18.2)
+#!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
+#!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/xpeng.png
+#!date=2025-06-30
 
 [Rule]
 DOMAIN, applog-perf.uc.cn, REJECT, extended-matching, pre-matching

@@ -1,4 +1,13 @@
-# > 美团外卖 - MEITUANWM
+#!name=美团外卖 - MEITUANWM
+#!desc=美团外卖去广告
+#!openUrl=https://apps.apple.com/app/id737310995
+#!author=zirawell[https://github.com/zirawell]
+#!tag=去广告
+#!system=iOS
+#!surge_version=5.14.2(Build3405,SDK18.2)
+#!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
+#!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/meituanwm.png
+#!date=2025-06-30
 
 [URL Rewrite]
 ^https?:\/\/wmapi\.meituan\.com\/api\/v\d+\/(?>loadInfo|openscreen|startpicture) - reject

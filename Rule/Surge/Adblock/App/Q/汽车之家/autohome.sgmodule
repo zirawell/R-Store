@@ -1,4 +1,13 @@
-# > 汽车之家 - AUTOHOME
+#!name=汽车之家 - AUTOHOME
+#!desc=汽车之家去广告
+#!openUrl=https://apps.apple.com/app/id385919493
+#!author=zirawell[https://github.com/zirawell]
+#!tag=去广告
+#!system=iOS
+#!surge_version=5.14.2(Build3405,SDK18.2)
+#!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
+#!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/autohome.png
+#!date=2025-06-30
 
 [Rule]
 DOMAIN, rd.autohome.com.cn, REJECT, extended-matching, pre-matching

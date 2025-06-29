@@ -1,4 +1,13 @@
-# > 郑好办 - ZZZWFW
+#!name=郑好办 - ZZZWFW
+#!desc=郑好办去广告
+#!openUrl=https://apps.apple.com/app/id1502268233
+#!author=zirawell[https://github.com/zirawell]
+#!tag=去广告
+#!system=iOS
+#!surge_version=5.14.2(Build3405,SDK18.2)
+#!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
+#!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/zzzwfw.png
+#!date=2025-06-30
 
 [Body Rewrite]
 http-response ^https?:\/\/app-izz\.zhengzhou\.gov\.cn:10019\/bizgw\/gateway\.do "imgUrl19_5x9":".+?" "imgUrl19_5x9":""
