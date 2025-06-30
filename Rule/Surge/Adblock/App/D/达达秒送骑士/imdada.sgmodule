@@ -1,4 +1,4 @@
-# > 达达骑士版 - IMDADA
+# > 达达秒送骑士 - IMDADA
 
 [Map Local]
 ^https?:\/\/delivery-api\.imdada\.cn\/\w+\/dada\/promote\/imax\?privacyParam data-type=text data="{}" status-code=200
