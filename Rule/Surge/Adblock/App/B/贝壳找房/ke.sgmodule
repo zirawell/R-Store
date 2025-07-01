@@ -1,4 +1,13 @@
-# > 贝壳找房 - KE
+#!name=贝壳找房 - KE
+#!desc=贝壳找房去广告
+#!openUrl=https://apps.apple.com/app/id1347663353
+#!author=zirawell[https://github.com/zirawell]
+#!tag=去广告
+#!system=iOS
+#!surge_version=5.14.2(Build3405,SDK18.2)
+#!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
+#!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/ke.png
+#!date=2025-07-01
 
 [URL Rewrite]
 ^https?:\/\/apps\.api\.ke\.com\/config\/config\/(?>bootpage|getactivityconfig) - reject
