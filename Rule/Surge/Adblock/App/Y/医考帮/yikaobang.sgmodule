@@ -1,4 +1,13 @@
-# > 医考帮 - YIKAOBANG
+#!name=医考帮 - YIKAOBANG
+#!desc=医考帮去广告
+#!openUrl=https://apps.apple.com/app/id1312142829
+#!author=zirawell[https://github.com/zirawell]
+#!tag=去广告
+#!system=iOS
+#!surge_version=5.14.2(Build3405,SDK18.2)
+#!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
+#!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/yikaobang.png
+#!date=2025-07-01
 
 [URL Rewrite]
 ^https?:\/\/api\.yikaobang\.com\.cn\/client\/main\/homePageSmallAd - reject
