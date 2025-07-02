@@ -1,0 +1,11 @@
+# > 波点音乐 - BODIAN
+
+[Map Local]
+^https?:\/\/bd-api\.kuwo\.cn\/api\/service\/finds\/module\?moduleId data-type=text data="{}" status-code=200
+^https?:\/\/bd-api\.kuwo\.cn\/api\/service\/banner\/myPage\?uid data-type=text data="{}" status-code=200
+^https?:\/\/bd-api\.kuwo\.cn\/api\/play\/listening\/entrance\/music\?musicId data-type=text data="{}" status-code=200
+^https?:\/\/h5app\.kuwo\.cn\/m\/kwtemplatePage\/index\.html\?id=1157&app=bodianhdzx data-type=text data="{}" status-code=200
+^https?:\/\/h5app\.kuwo\.cn\/m\/bdvipact2205\/index\.html\?fromsrc=huodong data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% bd-api.kuwo.cn, h5app.kuwo.cn
