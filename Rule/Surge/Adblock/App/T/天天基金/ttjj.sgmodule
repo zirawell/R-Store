@@ -1,4 +1,4 @@
-# > 天天基金 - DFCFW
+# > 天天基金 - TTJJ
 
 [URL Rewrite]
 ^https?:\/\/appactive\.1234567\.com\.cn\/AppoperationApi\/OperationService\/GetAppStartImg - reject
