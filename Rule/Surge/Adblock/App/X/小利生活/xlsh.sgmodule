@@ -1,4 +1,4 @@
-# > 小利生活 - HELIPAY
+# > 小利生活 - XLSH
 
 [Rule]
 DOMAIN-KEYWORD, mpos-pic.helipay.com, REJECT, extended-matching, pre-matching
