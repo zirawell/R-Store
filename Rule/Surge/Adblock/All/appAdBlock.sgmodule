@@ -2601,8 +2601,8 @@ https?:\/\/awg\.enmonster\.com\/apa\/(advert\/demand\/home\/poster|index\/advert
 ^https?:\/\/img\.ddrk\.me\/ad190824 data-type=tiny-gif status-code=200
 ^https?:\/\/mobile-api2011\.elong\.com\/ad(?>v|gateway) data-type=text data="" status-code=200
 ^https?:\/\/mime\.baidu\.com\/sapi\/v\d\/lccorpus\/(?>applist|pannellist) data-type=text data="{}" status-code=200
-^https?:\/\/apisvr\.iyunmai\.com\/api\/ios\/apps\/get-online-parameter-list data-type=file data="https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Data/iyunmai.json"
 ^https?:\/\/tiku\.fenbi\.com\/activity\/app\/launcher data-type=text data="{}" status-code=200
+^https?:\/\/apisvr\.iyunmai\.com\/api\/ios\/apps\/get-online-parameter-list data-type=file data="https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Data/iyunmai.json"
 ^https?:\/\/apivip\.kuaiduizuoye\.com\/viponline\/scancode\/mycard data-type=text data="{}" status-code=200
 ^https?:\/\/mage(v\d)?\.if\.qidian\.com\/Atom\.axd\/Api\/Client\/GetConfIOS data-type=tiny-gif status-code=200
 ^https?:\/\/39\.98\.135\.211\/admin\/filter\/advert\/getAdvertLists data-type=text data="{}" status-code=200
