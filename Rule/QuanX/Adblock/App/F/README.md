@@ -1,7 +1,7 @@
 # F
 <details>
 <summary>
-本目录共收录15个App，详情见如下，单击导入对应配置：
+本目录共收录16个App，详情见如下，单击导入对应配置：
 </summary>
 
 - [Foodie](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FF%2FFoodie%2Frewrite%2Ffoodie.conf%2C%20tag%3DFoodie%22%5D%7D)
@@ -13,6 +13,7 @@
 - [富途牛牛](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FF%2F%E5%AF%8C%E9%80%94%E7%89%9B%E7%89%9B%2Frewrite%2Ffutunn.conf%2C%20tag%3D%E5%AF%8C%E9%80%94%E7%89%9B%E7%89%9B%22%5D%7D)
 - [帆书](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FF%2F%E5%B8%86%E4%B9%A6%2Ffilter%2Fdushu365.list%2C%20tag%3D%E5%B8%86%E4%B9%A6%22%5D%2C%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FF%2F%E5%B8%86%E4%B9%A6%2Frewrite%2Fdushu365.conf%2C%20tag%3D%E5%B8%86%E4%B9%A6%22%5D%7D)
 - [番茄小说](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FF%2F%E7%95%AA%E8%8C%84%E5%B0%8F%E8%AF%B4%2Ffilter%2Ffanqie.list%2C%20tag%3D%E7%95%AA%E8%8C%84%E5%B0%8F%E8%AF%B4%22%5D%2C%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FF%2F%E7%95%AA%E8%8C%84%E5%B0%8F%E8%AF%B4%2Frewrite%2Ffanqie.conf%2C%20tag%3D%E7%95%AA%E8%8C%84%E5%B0%8F%E8%AF%B4%22%5D%7D)
+- [福享太平](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FF%2F%E7%A6%8F%E4%BA%AB%E5%A4%AA%E5%B9%B3%2Frewrite%2Ftaiping.conf%2C%20tag%3D%E7%A6%8F%E4%BA%AB%E5%A4%AA%E5%B9%B3%22%5D%7D)
 - [粉笔](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FF%2F%E7%B2%89%E7%AC%94%2Frewrite%2Ffenbi.conf%2C%20tag%3D%E7%B2%89%E7%AC%94%22%5D%7D)
 - [返利网](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FF%2F%E8%BF%94%E5%88%A9%E7%BD%91%2Frewrite%2F51fanli.conf%2C%20tag%3D%E8%BF%94%E5%88%A9%E7%BD%91%22%5D%7D)
 - [飞客茶馆](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FF%2F%E9%A3%9E%E5%AE%A2%E8%8C%B6%E9%A6%86%2Frewrite%2Fflyert.conf%2C%20tag%3D%E9%A3%9E%E5%AE%A2%E8%8C%B6%E9%A6%86%22%5D%7D)
