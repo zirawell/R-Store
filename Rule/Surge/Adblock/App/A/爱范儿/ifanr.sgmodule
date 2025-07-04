@@ -1,4 +1,4 @@
-# > 爱范儿 - APPSO
+# > 爱范儿 - IFANR
 
 [URL Rewrite]
 ^https?:\/\/sso\.ifanr\.com\/jiong\/IOS\/appso\/splash\/ - reject
