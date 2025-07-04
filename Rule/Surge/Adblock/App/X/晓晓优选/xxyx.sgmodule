@@ -1,4 +1,4 @@
-# > 晓晓优选霸王餐 - XXYX
+# > 晓晓优选 - XXYX
 
 [Rule]
 DOMAIN-SUFFIX, yfanads.com, REJECT, extended-matching, pre-matching
