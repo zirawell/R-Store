@@ -912,7 +912,6 @@ DOMAIN-SUFFIX, impservice.dictapp.youdao.com, REJECT, extended-matching, pre-mat
 DOMAIN-SUFFIX, impservice.youdao.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, impservice2.youdao.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, impservicetest.dictapp.youdao.com, REJECT, extended-matching, pre-matching
-DOMAIN-SUFFIX, imtmp.net, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, info.pinyin.sogou.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, install.kugou.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, install2.kugou.com, REJECT, extended-matching, pre-matching

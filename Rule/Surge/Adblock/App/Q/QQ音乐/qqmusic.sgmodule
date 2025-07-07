@@ -12,14 +12,29 @@
 [Rule]
 DOMAIN, ad.tencentmusic.com, REJECT, extended-matching, pre-matching
 DOMAIN, adcdn.tencentmusic.com, REJECT, extended-matching, pre-matching
-DOMAIN, adstats.tencentmusic.com, REJECT, extended-matching, pre-matching
 DOMAIN, adcdn6.tencentmusic.com, REJECT, extended-matching, pre-matching
+DOMAIN, adstats.tencentmusic.com, REJECT, extended-matching, pre-matching
 DOMAIN, adexpo.tencentmusic.com, REJECT, extended-matching, pre-matching
 DOMAIN, adclick.tencentmusic.com, REJECT, extended-matching, pre-matching
 DOMAIN, mc.tencentmusic.com, REJECT, extended-matching, pre-matching
 DOMAIN, report.tencentmusic.com, REJECT, extended-matching, pre-matching
 DOMAIN, monitor.music.qq.com, REJECT, extended-matching, pre-matching
-DOMAIN-SUFFIX, imtmp.net, REJECT, extended-matching, pre-matching
+DOMAIN, stat.y.qq.com, REJECT, extended-matching, pre-matching
+DOMAIN, tmead.y.qq.com, REJECT, extended-matching, pre-matching
+DOMAIN, mazu.m.qq.com, REJECT, extended-matching, pre-matching
+DOMAIN, rdelivery.qq.com, REJECT, extended-matching, pre-matching
+DOMAIN, tp2p.kg.qq.com, REJECT, extended-matching, pre-matching
+DOMAIN, twns.p2ptun.qq.com, REJECT, extended-matching, pre-matching
+DOMAIN, aegis.qq.com, REJECT, extended-matching, pre-matching
+DOMAIN, vv.video.qq.com, REJECT, extended-matching, pre-matching
+DOMAIN, iadsdk.qtlcdn.com.cdnmg.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, l.qq.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, mdt.qq.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, wup.imtt.qq.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, e.qq.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, d3g.qq.com, REJECT, extended-matching, pre-matching
+DOMAIN-KEYWORD, gdtimg.com, REJECT, extended-matching, pre-matching
+DOMAIN-KEYWORD, trace.qq.com, REJECT, extended-matching, pre-matching
 
 [URL Rewrite]
 ^https?:\/\/y\.gtimg\.cn\/music\/common\/upload\/t_splash_info - reject
