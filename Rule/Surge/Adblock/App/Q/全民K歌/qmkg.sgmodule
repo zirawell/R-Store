@@ -1,4 +1,14 @@
-# > 全民K歌 - QMKG
+#!name=全民K歌 - QMKG
+#!desc=全民K歌-你其实很会唱歌
+#!openUrl=https://apps.apple.com/app/id910513149
+#!bundleId=com.tencent.QQKSong
+#!author=zirawell[https://github.com/zirawell]
+#!tag=去广告
+#!system=iOS
+#!surge_version=5.14.2(Build3405,SDK18.2)
+#!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
+#!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/qmkg.png
+#!date=2025-07-08
 
 [Map Local]
 ^https?:\/\/y\.gtimg\.cn\/music\/common\/\/upload\/kg_ad\/.+?\d{3,4}x\d{4} data-type=text data="" status-code=200

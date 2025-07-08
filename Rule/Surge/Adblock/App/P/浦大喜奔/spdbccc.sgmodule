@@ -1,13 +1,14 @@
 #!name=浦大喜奔 - SPDBCCC
-#!desc=浦大喜奔去广告
+#!desc=浦大喜奔-浦发银行信用卡
 #!openUrl=https://apps.apple.com/app/id974428942
+#!bundleId=spdbccc.com.cn
 #!author=zirawell[https://github.com/zirawell]
 #!tag=去广告
 #!system=iOS
 #!surge_version=5.14.2(Build3405,SDK18.2)
 #!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
 #!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/spdbccc.png
-#!date=2025-06-30
+#!date=2025-07-08
 
 [Map Local]
 ^https?:\/\/image\.spdbccc\.com\.cn\/group\d\/M00\/[A-Z0-9]{2}\/[A-Z0-9]{2}\/.+(?>4038|0571|M511|V-008|g549|b0628|fg817|5w501|Jo341|Z4583|oo845|i4905|MY245|YU472|Y401|w428|s000) data-type=text data="{}" status-code=200

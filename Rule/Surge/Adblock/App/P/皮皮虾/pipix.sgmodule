@@ -1,13 +1,14 @@
 #!name=皮皮虾 - PIPIX
-#!desc=皮皮虾去广告
+#!desc=皮皮虾 - 年轻人聚集的内容互动社区
 #!openUrl=https://apps.apple.com/app/id1393912676
+#!bundleId=com.bd.iphone.super
 #!author=zirawell[https://github.com/zirawell]
 #!tag=去广告
 #!system=iOS
 #!surge_version=5.14.2(Build3405,SDK18.2)
 #!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
 #!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/pipix.png
-#!date=2025-06-30
+#!date=2025-07-08
 
 [Script]
 pipix = type=http-response,pattern=^https?:\/\/.+\.pipix\.com\/bds\/feed\/channel_list\/,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/ppx.js

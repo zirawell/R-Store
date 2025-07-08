@@ -1,13 +1,14 @@
 #!name=起点读书 - QIDIAN
-#!desc=起点读书去广告
+#!desc=起点读书-看小说听书追漫画的阅读神器
 #!openUrl=https://apps.apple.com/app/id534174796
+#!bundleId=m.qidian.QDReaderAppStore
 #!author=zirawell[https://github.com/zirawell]
 #!tag=去广告
 #!system=iOS
 #!surge_version=5.14.2(Build3405,SDK18.2)
 #!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
 #!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/qidian.png
-#!date=2025-06-30
+#!date=2025-07-08
 
 [URL Rewrite]
 ^https?:\/\/mage(v\d)?\.if\.qidian\.com\/argus\/api\/v\d\/bookshelf\/getad - reject

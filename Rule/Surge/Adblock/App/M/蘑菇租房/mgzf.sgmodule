@@ -1,4 +1,14 @@
-# > 蘑菇租房 - MGZF
+#!name=蘑菇租房 - MGZF
+#!desc=蘑菇租房-掌上租房找房软件
+#!openUrl=https://apps.apple.com/app/id1267702701
+#!bundleId=com.mgzf.renter
+#!author=zirawell[https://github.com/zirawell]
+#!tag=去广告
+#!system=iOS
+#!surge_version=5.14.2(Build3405,SDK18.2)
+#!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
+#!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/mgzf.png
+#!date=2025-07-08
 
 [URL Rewrite]
 ^https?:\/\/api\.mgzf\.com\/renter-operation\/home\/startHomePage - reject

@@ -1,4 +1,14 @@
-# > 和风天气 - QWEATHER
+#!name=和风天气 - QWEATHER
+#!desc=和风天气
+#!openUrl=https://apps.apple.com/app/id1461458147
+#!bundleId=com.heweather.weatherapp
+#!author=zirawell[https://github.com/zirawell]
+#!tag=去广告
+#!system=iOS
+#!surge_version=5.14.2(Build3405,SDK18.2)
+#!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
+#!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/qweather.png
+#!date=2025-07-08
 
 [Map Local]
 ^https?:\/\/hfapp-service\.qweather\.net\/v\d\.\d\/app\/ad\/list data-type=text data="{}" status-code=200

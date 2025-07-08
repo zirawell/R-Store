@@ -1,13 +1,14 @@
 #!name=金山词霸 - ICIBA
-#!desc=金山词霸去广告
+#!desc=金山词霸-高中四六级考研等英语学习软件
 #!openUrl=https://apps.apple.com/app/id348737611
+#!bundleId=com.kingsoft.powerwordBeta
 #!author=zirawell[https://github.com/zirawell]
 #!tag=去广告
 #!system=iOS
 #!surge_version=5.14.2(Build3405,SDK18.2)
 #!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
 #!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/iciba.png
-#!date=2025-06-30
+#!date=2025-07-08
 
 [Rule]
 DOMAIN, ad-stat.ksosoft.com, REJECT, extended-matching, pre-matching
