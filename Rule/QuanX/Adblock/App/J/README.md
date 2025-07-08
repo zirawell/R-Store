@@ -1,7 +1,7 @@
 # J
 <details>
 <summary>
-本目录共收录27个App，详情见如下，单击导入对应配置：
+本目录共收录28个App，详情见如下，单击导入对应配置：
 </summary>
 
 - [JavDB](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FJ%2FJavDB%2Ffilter%2Fjavdb.list%2C%20tag%3DJavDB%22%5D%2C%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FJ%2FJavDB%2Frewrite%2Fjavdb.conf%2C%20tag%3DJavDB%22%5D%7D)
@@ -18,6 +18,7 @@
 - [加油广东](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FJ%2F%E5%8A%A0%E6%B2%B9%E5%B9%BF%E4%B8%9C%2Frewrite%2Fgdoil.conf%2C%20tag%3D%E5%8A%A0%E6%B2%B9%E5%B9%BF%E4%B8%9C%22%5D%7D)
 - [吉林银行](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FJ%2F%E5%90%89%E6%9E%97%E9%93%B6%E8%A1%8C%2Frewrite%2Fjlbank.conf%2C%20tag%3D%E5%90%89%E6%9E%97%E9%93%B6%E8%A1%8C%22%5D%7D)
 - [吉祥航空](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FJ%2F%E5%90%89%E7%A5%A5%E8%88%AA%E7%A9%BA%2Frewrite%2Fjuneyaoair.conf%2C%20tag%3D%E5%90%89%E7%A5%A5%E8%88%AA%E7%A9%BA%22%5D%7D)
+- [嘉会医疗](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FJ%2F%E5%98%89%E4%BC%9A%E5%8C%BB%E7%96%97%2Frewrite%2Fjiahui.conf%2C%20tag%3D%E5%98%89%E4%BC%9A%E5%8C%BB%E7%96%97%22%5D%7D)
 - [建行生活](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FJ%2F%E5%BB%BA%E8%A1%8C%E7%94%9F%E6%B4%BB%2Frewrite%2Fccblife.conf%2C%20tag%3D%E5%BB%BA%E8%A1%8C%E7%94%9F%E6%B4%BB%22%5D%7D)
 - [捷停车](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FJ%2F%E6%8D%B7%E5%81%9C%E8%BD%A6%2Frewrite%2Fjparking.conf%2C%20tag%3D%E6%8D%B7%E5%81%9C%E8%BD%A6%22%5D%7D)
 - [机核](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FJ%2F%E6%9C%BA%E6%A0%B8%2Frewrite%2Fgcores.conf%2C%20tag%3D%E6%9C%BA%E6%A0%B8%22%5D%7D)

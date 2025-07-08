@@ -1,0 +1,7 @@
+# > 嘉会医疗 - JIAHUI
+
+[URL Rewrite]
+^https?:\/\/api\.jiahui\.com\/app-rest\/app\/notice\/getAppNotice - reject
+
+[MITM]
+hostname= %APPEND% api.jiahui.com
