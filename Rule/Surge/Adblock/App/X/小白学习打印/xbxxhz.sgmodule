@@ -1,4 +1,14 @@
-# > 小白学习打印 - XBXXHZ
+#!name=小白学习打印 - XBXXHZ
+#!desc=小白学习打印-手机打印，教辅试卷错题整理
+#!openUrl=https://apps.apple.com/app/id1495752671
+#!bundleId=com.xbxxhz.box
+#!author=zirawell[https://github.com/zirawell]
+#!tag=去广告
+#!system=iOS
+#!surge_version=5.14.2(Build3405,SDK18.2)
+#!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
+#!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/xbxxhz.png
+#!date=2025-07-08
 
 [URL Rewrite]
 ^https?:\/\/api\.xbxxhz\.com\/big_data\/v\d\/home_pages - reject

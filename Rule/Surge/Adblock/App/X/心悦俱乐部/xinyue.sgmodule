@@ -1,4 +1,14 @@
-# > 心悦俱乐部 - XINYUE
+#!name=心悦俱乐部 - XINYUE
+#!desc=心悦俱乐部
+#!openUrl=https://apps.apple.com/app/id1156439976
+#!bundleId=com.tencent.tgclub
+#!author=zirawell[https://github.com/zirawell]
+#!tag=去广告
+#!system=iOS
+#!surge_version=5.14.2(Build3405,SDK18.2)
+#!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
+#!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/xinyue.png
+#!date=2025-07-08
 
 [Map Local]
 ^https?:\/\/bgw\.xinyue\.qq\.com\/xyapi\.PageService\/GetIndexPopFlash data-type=text data="" status-code=200

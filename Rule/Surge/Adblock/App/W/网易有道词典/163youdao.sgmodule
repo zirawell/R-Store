@@ -1,4 +1,14 @@
-# > 网易有道词典 - 163YOUDAO
+#!name=网易有道词典 - 163YOUDAO
+#!desc=网易有道词典-工作学习必备
+#!openUrl=https://apps.apple.com/app/id353115739
+#!bundleId=youdaoPro
+#!author=zirawell[https://github.com/zirawell]
+#!tag=去广告
+#!system=iOS
+#!surge_version=5.14.2(Build3405,SDK18.2)
+#!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
+#!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/163youdao.png
+#!date=2025-07-08
 
 [Rule]
 DOMAIN, gorgon.youdao.com, REJECT, extended-matching, pre-matching

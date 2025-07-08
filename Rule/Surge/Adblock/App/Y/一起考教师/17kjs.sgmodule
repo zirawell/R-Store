@@ -1,4 +1,14 @@
-# > 一起考教师 - 17KJS
+#!name=一起考教师 - 17KJS
+#!desc=一起考教师-教资教师资格证教师招聘备考题库
+#!openUrl=https://apps.apple.com/app/id1492845146
+#!bundleId=com.zhangshangyuanding.YiQiTeacher
+#!author=zirawell[https://github.com/zirawell]
+#!tag=去广告
+#!system=iOS
+#!surge_version=5.14.2(Build3405,SDK18.2)
+#!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
+#!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/17kjs.png
+#!date=2025-07-08
 
 [URL Rewrite]
 ^https?:\/\/api\.17kjs\.com\/meta\/ads_targets - reject

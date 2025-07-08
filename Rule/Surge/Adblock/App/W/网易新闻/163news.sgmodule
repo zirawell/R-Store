@@ -1,13 +1,14 @@
 #!name=网易新闻 - 163NEWS
-#!desc=网易新闻去广告
+#!desc=网易新闻-头条新闻视频资讯平台
 #!openUrl=https://apps.apple.com/app/id425349261
+#!bundleId=com.netease.news
 #!author=zirawell[https://github.com/zirawell]
 #!tag=去广告
 #!system=iOS
 #!surge_version=5.14.2(Build3405,SDK18.2)
 #!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
 #!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/163news.png
-#!date=2025-06-30
+#!date=2025-07-08
 
 [Map Local]
 ^https?:\/\/c\.m\.163\.com\/nc\/gl\/ data-type=text data="" status-code=200

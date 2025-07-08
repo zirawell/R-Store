@@ -1,13 +1,14 @@
 #!name=云鲸智能 - NARWAL
-#!desc=云鲸智能去广告
+#!desc=云鲸智能
 #!openUrl=https://apps.apple.com/app/id1462004352
+#!bundleId=com.narwelrobots.www
 #!author=zirawell[https://github.com/zirawell]
 #!tag=去广告
 #!system=iOS
 #!surge_version=5.14.2(Build3405,SDK18.2)
 #!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
 #!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/narwal.png
-#!date=2025-06-30
+#!date=2025-07-08
 
 [Map Local]
 #开屏广告 

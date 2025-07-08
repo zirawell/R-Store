@@ -1,4 +1,14 @@
-# > 微店 - WEIDIAN
+#!name=微店 - WEIDIAN
+#!desc=微店
+#!openUrl=https://apps.apple.com/app/id860384719
+#!bundleId=com.koudai.weidian.buyer
+#!author=zirawell[https://github.com/zirawell]
+#!tag=去广告
+#!system=iOS
+#!surge_version=5.14.2(Build3405,SDK18.2)
+#!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
+#!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/weidian.png
+#!date=2025-07-08
 
 [Map Local]
 ^https?:\/\/thor\.weidian\.com\/ares\/home\.splash data-type=text data="" status-code=200

@@ -1,13 +1,14 @@
 #!name=一号店 - YHD
-#!desc=一号店去广告
-#!openUrl=https://apps.apple.com/app/id427457043
+#!desc=T11-城市生鲜一号店，让吃好变简单
+#!openUrl=https://apps.apple.com/app/id1459072166
+#!bundleId=com.jy.t11
 #!author=zirawell[https://github.com/zirawell]
 #!tag=去广告
 #!system=iOS
 #!surge_version=5.14.2(Build3405,SDK18.2)
 #!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
 #!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/yhd.png
-#!date=2025-06-30
+#!date=2025-07-08
 
 [Rule]
 DOMAIN-SUFFIX, api.dsp.yhd.com, REJECT, extended-matching, pre-matching

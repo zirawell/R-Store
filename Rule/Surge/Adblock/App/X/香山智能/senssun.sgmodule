@@ -1,4 +1,14 @@
-# > 香山智能 - SENSSUN
+#!name=香山智能 - SENSSUN
+#!desc=香山智能
+#!openUrl=https://apps.apple.com/app/id1529852280
+#!bundleId=com.senssun.shealth
+#!author=zirawell[https://github.com/zirawell]
+#!tag=去广告
+#!system=iOS
+#!surge_version=5.14.2(Build3405,SDK18.2)
+#!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
+#!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/senssun.png
+#!date=2025-07-08
 
 [URL Rewrite]
 ^https?:\/\/shealthyapi\.senssun\.com\/v\d\/app\/banner\/findByType\?type=bottom$ - reject
