@@ -1,13 +1,14 @@
 #!name=哔哩哔哩 - BILIBILI(PINK)
-#!desc=哔哩哔哩去广告
+#!desc=哔哩哔哩-弹幕番剧直播高清视频
 #!openUrl=https://apps.apple.com/app/id736536022
+#!bundleId=tv.danmaku.bilianime
 #!author=zirawell[https://github.com/zirawell]
 #!tag=去广告
 #!system=iOS
 #!surge_version=5.14.2(Build3405,SDK18.2)
 #!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
 #!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/bilibili.png
-#!date=2025-06-30
+#!date=2025-07-08
 
 [Rule]
 DOMAIN-KEYWORD, api.sobot.com, REJECT, extended-matching, pre-matching

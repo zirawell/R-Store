@@ -1,4 +1,14 @@
-# > 中国人寿寿险 - CHINALIFE
+#!name=中国人寿寿险 - CHINALIFE
+#!desc=中国人寿寿险
+#!openUrl=https://apps.apple.com/app/id765577833
+#!bundleId=com.e-chinalife.ecssmobile
+#!author=zirawell[https://github.com/zirawell]
+#!tag=去广告
+#!system=iOS
+#!surge_version=5.14.2(Build3405,SDK18.2)
+#!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
+#!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/chinalife.png
+#!date=2025-07-08
 
 [Map Local]
 ^https:\/\/ecssmobile\.e-chinalife\.com(:\d+)?\/ecss\/web\/appupdate\/customization\/getFlashScreenInfo data-type=text data="{}" status-code=200

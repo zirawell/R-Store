@@ -1,4 +1,14 @@
-# > 掌阅 - IREADER
+#!name=掌阅 - IREADER
+#!desc=掌阅 - 引领品质阅读
+#!openUrl=https://apps.apple.com/app/id463150061
+#!bundleId=com.zhangyue.zyiReader.iReader
+#!author=zirawell[https://github.com/zirawell]
+#!tag=去广告
+#!system=iOS
+#!surge_version=5.14.2(Build3405,SDK18.2)
+#!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
+#!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/ireader.png
+#!date=2025-07-08
 
 [Map Local]
 ^https?:\/\/ih2\.ireader\.com\/zyapi\/bookstore\/ad\/ data-type=text data="" status-code=200

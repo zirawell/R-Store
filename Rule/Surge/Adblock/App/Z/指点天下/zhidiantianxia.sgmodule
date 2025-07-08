@@ -1,4 +1,14 @@
-# > 指点天下 - ZHIDIANTIANXIA
+#!name=指点天下 - ZHIDIANTIANXIA
+#!desc=指点天下
+#!openUrl=https://apps.apple.com/app/id1408524463
+#!bundleId=com.aixiaoyuan.pointworld
+#!author=zirawell[https://github.com/zirawell]
+#!tag=去广告
+#!system=iOS
+#!surge_version=5.14.2(Build3405,SDK18.2)
+#!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
+#!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/zhidiantianxia.png
+#!date=2025-07-08
 
 [URL Rewrite]
 ^https?:\/\/zua\.zhidiantianxia\.cn\/api\/adverts - reject

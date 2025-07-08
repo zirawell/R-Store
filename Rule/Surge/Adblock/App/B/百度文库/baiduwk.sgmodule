@@ -1,13 +1,14 @@
 #!name=百度文库 - BAIDUWK
-#!desc=百度文库去广告
+#!desc=百度文库-DeepSeek R1联网满血版
 #!openUrl=https://apps.apple.com/app/id426340811
+#!bundleId=com.baidu.Wenku
 #!author=zirawell[https://github.com/zirawell]
 #!tag=去广告
 #!system=iOS
 #!surge_version=5.14.2(Build3405,SDK18.2)
 #!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
 #!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/baiduwk.png
-#!date=2025-06-30
+#!date=2025-07-08
 
 [Map Local]
 ^https?:\/\/appwk\.baidu\.com\/xpage\/interface\/wknaad data-type=text data="" status-code=200
