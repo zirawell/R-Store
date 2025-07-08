@@ -1,13 +1,14 @@
 #!name=京东金融 - JDJR
-#!desc=京东金融去广告
+#!desc=京东金融-理财借贷分期保险一站式平台
 #!openUrl=https://apps.apple.com/app/id895682747
+#!bundleId=com.jd.jinrong
 #!author=zirawell[https://github.com/zirawell]
 #!tag=去广告
 #!system=iOS
 #!surge_version=5.14.2(Build3405,SDK18.2)
 #!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
 #!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/jdjr.png
-#!date=2025-06-30
+#!date=2025-07-08
 
 [URL Rewrite]
 ^https?:\/\/ms\.jr\.jd\.com\/gw\/generic\/aladdin\/(new)?na\/m\/(?>getLoadingPicture|getPageMutilDataForHomePage|getTopCard|getBottomNavigation) - reject

@@ -1,13 +1,14 @@
 #!name=扫描全能王 - CAMSCANNER
-#!desc=扫描全能王去广告
+#!desc=扫描全能王-手机扫描仪 & PDF图片转文字
 #!openUrl=https://apps.apple.com/app/id388627783
+#!bundleId=com.intsig.CamScannerLite
 #!author=zirawell[https://github.com/zirawell]
 #!tag=去广告
 #!system=iOS
 #!surge_version=5.14.2(Build3405,SDK18.2)
 #!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
 #!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/camscanner.png
-#!date=2025-06-30
+#!date=2025-07-08
 
 [Map Local]
 ^https?:\/\/api\.intsig\.net\/user\/cs\/operating\/app\/get_startpic\/ data-type=text data="" status-code=200

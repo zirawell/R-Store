@@ -1,13 +1,14 @@
 #!name=途虎养车 - TUHU
-#!desc=途虎养车去广告
+#!desc=途虎养车 - 专业汽车保养平台
 #!openUrl=https://apps.apple.com/app/id943708006
+#!bundleId=tuhu.cn.main
 #!author=zirawell[https://github.com/zirawell]
 #!tag=去广告
 #!system=iOS
 #!surge_version=5.14.2(Build3405,SDK18.2)
 #!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
 #!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/tuhu.png
-#!date=2025-07-02
+#!date=2025-07-08
 
 [URL Rewrite]
 ^https?:\/\/mkt-gateway\.tuhu\.cn\/mkt-cms\/circle\/recommend\/ - reject

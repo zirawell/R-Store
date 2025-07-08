@@ -1,4 +1,14 @@
-# > 华彩生活 - HXB
+#!name=华彩生活 - HXB
+#!desc=华彩生活
+#!openUrl=https://apps.apple.com/app/id1152954857
+#!bundleId=com.HuaXiaBank.HuaCard
+#!author=zirawell[https://github.com/zirawell]
+#!tag=去广告
+#!system=iOS
+#!surge_version=5.14.2(Build3405,SDK18.2)
+#!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
+#!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/hxb.png
+#!date=2025-07-08
 
 [Map Local]
 ^https?:\/\/static\.creditcard\.hxb\.com\.cn\/mcube\/apps\/group\d\/M00\/00\/2[A-Z0-9]{1}\/amRG7WO.+\.jpg data-type=text data="" status-code=200

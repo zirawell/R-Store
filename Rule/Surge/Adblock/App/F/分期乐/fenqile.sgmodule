@@ -1,13 +1,14 @@
 #!name=分期乐 - FENQILE
-#!desc=分期乐去广告
+#!desc=分期乐
 #!openUrl=https://apps.apple.com/app/id906611031
+#!bundleId=com.fenqile.phone
 #!author=zirawell[https://github.com/zirawell]
 #!tag=去广告
 #!system=iOS
 #!surge_version=5.14.2(Build3405,SDK18.2)
 #!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
 #!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/fenqile.png
-#!date=2025-07-02
+#!date=2025-07-08
 
 [Map Local]
 ^https?:\/\/fm\.fenqile\.com\/routev\d\/other\/(startImg|getfloatAd)\.json data-type=tiny-gif status-code=200

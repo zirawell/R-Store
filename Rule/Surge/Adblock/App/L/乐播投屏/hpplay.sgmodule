@@ -1,4 +1,14 @@
-# > 乐播投屏 - HPPLAY
+#!name=乐播投屏 - HPPLAY
+#!desc=乐播投屏 - 屏幕镜像&多屏互动会议投屏神器
+#!openUrl=https://apps.apple.com/app/id1116038378
+#!bundleId=com.hpplay.tvassistant
+#!author=zirawell[https://github.com/zirawell]
+#!tag=去广告
+#!system=iOS
+#!surge_version=5.14.2(Build3405,SDK18.2)
+#!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
+#!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/hpplay.png
+#!date=2025-07-08
 
 [Map Local]
 # 首页-弹窗

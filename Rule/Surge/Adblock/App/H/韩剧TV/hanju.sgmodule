@@ -1,13 +1,14 @@
 #!name=韩剧TV - HANJUTV
-#!desc=韩剧TV去广告
+#!desc=韩剧TV-热门高清韩剧短剧视频
 #!openUrl=https://apps.apple.com/app/id6471320153
+#!bundleId=com.yyth.SlideShort
 #!author=zirawell[https://github.com/zirawell]
 #!tag=去广告
 #!system=iOS
 #!surge_version=5.14.2(Build3405,SDK18.2)
 #!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
 #!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/hanju.png
-#!date=2025-06-30
+#!date=2025-07-08
 
 [Rule]
 DOMAIN, da.bridgeturbo.com, REJECT, extended-matching, pre-matching

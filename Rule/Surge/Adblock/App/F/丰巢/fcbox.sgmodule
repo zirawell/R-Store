@@ -1,13 +1,14 @@
 #!name=丰巢 - FCBOX
-#!desc=丰巢去广告
+#!desc=丰巢-寄快递|洗护|家政|存包
 #!openUrl=https://apps.apple.com/app/id1259763050
+#!bundleId=com.fcbox.hiveconsumer
 #!author=zirawell[https://github.com/zirawell]
 #!tag=去广告
 #!system=iOS
 #!surge_version=5.14.2(Build3405,SDK18.2)
 #!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
 #!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/fcbox.png
-#!date=2025-06-30
+#!date=2025-07-08
 
 [URL Rewrite]
 ^https?:\/\/dsp\.fcbox\.com\/adSearch\/get\? - reject

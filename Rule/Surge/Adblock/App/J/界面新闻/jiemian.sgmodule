@@ -1,13 +1,14 @@
 #!name=界面新闻 - JIEMIAN
-#!desc=界面新闻去广告
+#!desc=界面新闻-原创财经新闻领跑者
 #!openUrl=https://apps.apple.com/app/id930342070
+#!bundleId=com.jiemian.news
 #!author=zirawell[https://github.com/zirawell]
 #!tag=去广告
 #!system=iOS
 #!surge_version=5.14.2(Build3405,SDK18.2)
 #!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
 #!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/jiemian.png
-#!date=2025-06-30
+#!date=2025-07-08
 
 [URL Rewrite]
 ^https?:\/\/img\.jiemian\.com\/ads\/ - reject

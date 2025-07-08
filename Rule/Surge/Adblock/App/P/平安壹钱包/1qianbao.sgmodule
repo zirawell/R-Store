@@ -1,4 +1,14 @@
-# > 平安壹钱包 - 1QIANBAO
+#!name=平安壹钱包 - 1QIANBAO
+#!desc=平安壹钱包 - 高收益理财神器
+#!openUrl=https://apps.apple.com/app/id745097904
+#!bundleId=com.pinganfu.yqb.youqian
+#!author=zirawell[https://github.com/zirawell]
+#!tag=去广告
+#!system=iOS
+#!surge_version=5.14.2(Build3405,SDK18.2)
+#!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
+#!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/1qianbao.png
+#!date=2025-07-08
 
 [Map Local]
 ^https?:\/\/mobile\.1qianbao\.com\/mtp-web\/ui\/op_common_query_business_yqb\.json data-type=text data="" status-code=200

@@ -1,4 +1,14 @@
-# > 旅法师营地 - IYINGDI
+#!name=旅法师营地 - IYINGDI
+#!desc=旅法师营地-炉石传说和漫威终极逆转卡组攻略
+#!openUrl=https://apps.apple.com/app/id716483205
+#!bundleId=com.iplaymtg.MTG
+#!author=zirawell[https://github.com/zirawell]
+#!tag=去广告
+#!system=iOS
+#!surge_version=5.14.2(Build3405,SDK18.2)
+#!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
+#!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/iyingdi.png
+#!date=2025-07-08
 
 [Map Local]
 ^https?:\/\/www\.iyingdi\.cn\/ad data-type=text data="" status-code=200

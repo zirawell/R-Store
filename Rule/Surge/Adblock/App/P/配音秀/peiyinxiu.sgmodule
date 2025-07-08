@@ -1,4 +1,14 @@
-# > 配音秀 - PEIYINXIU
+#!name=配音秀 - PEIYINXIU
+#!desc=配音秀-配音Pia戏交友
+#!openUrl=https://apps.apple.com/app/id746925035
+#!bundleId=com.happyteam.dubbingshow
+#!author=zirawell[https://github.com/zirawell]
+#!tag=去广告
+#!system=iOS
+#!surge_version=5.14.2(Build3405,SDK18.2)
+#!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
+#!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/peiyinxiu.png
+#!date=2025-07-08
 
 [Script]
 # 首页-底部弹窗

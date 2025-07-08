@@ -1,4 +1,14 @@
-# > 口袋校园 - POCKETUNI
+#!name=口袋校园 - POCKETUNI
+#!desc=PU口袋校园
+#!openUrl=https://apps.apple.com/app/id685777413
+#!bundleId=com.tiangongwang.PocketUni
+#!author=zirawell[https://github.com/zirawell]
+#!tag=去广告
+#!system=iOS
+#!surge_version=5.14.2(Build3405,SDK18.2)
+#!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
+#!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/pocketuni.png
+#!date=2025-07-08
 
 [Map Local]
 ^https?:\/\/pocketuni\.net\/\?app=api&mod=Message&act=ad data-type=text data="" status-code=200

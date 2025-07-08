@@ -1,13 +1,14 @@
 #!name=山姆会员商店 - SAMSCLUB
-#!desc=山姆会员商店去广告
+#!desc=山姆会员商店
 #!openUrl=https://apps.apple.com/app/id818237113
+#!bundleId=cn.samsclub.iphone
 #!author=zirawell[https://github.com/zirawell]
 #!tag=去广告
 #!system=iOS
 #!surge_version=5.14.2(Build3405,SDK18.2)
 #!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
 #!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/samsclub.png
-#!date=2025-06-30
+#!date=2025-07-08
 
 [URL Rewrite]
 ^https?:\/\/api-sams\.walmartmobile\.cn\/api\/v\d\/sams\/sams-user\/(window\/getGoUpPlus|screen_promotion\/get) - reject

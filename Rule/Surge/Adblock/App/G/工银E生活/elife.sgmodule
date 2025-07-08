@@ -1,13 +1,14 @@
-#!name=工银E生活 - ELIFE
-#!desc=工银E生活去广告
+#!name=工银e生活 - ELIFE
+#!desc=工银e生活
 #!openUrl=https://apps.apple.com/app/id1044166783
+#!bundleId=com.icbc.elife
 #!author=zirawell[https://github.com/zirawell]
 #!tag=去广告
 #!system=iOS
 #!surge_version=5.14.2(Build3405,SDK18.2)
 #!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
 #!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/elife.png
-#!date=2025-06-30
+#!date=2025-07-08
 
 [Map Local]
 # ⚠️域名[elife.icbc.com.cn]可能会导致App端部分功能无法使用，请自行选择是否需要

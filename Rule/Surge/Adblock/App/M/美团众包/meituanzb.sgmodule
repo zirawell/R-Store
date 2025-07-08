@@ -1,13 +1,14 @@
 #!name=美团众包 - MEITUANZB
-#!desc=美团众包去广告
+#!desc=美团众包-兼职轻松赚，送餐好帮手
 #!openUrl=https://apps.apple.com/app/id1067251466
+#!bundleId=com.meituan.banma.crowdsource
 #!author=zirawell[https://github.com/zirawell]
 #!tag=去广告
 #!system=iOS
 #!surge_version=5.14.2(Build3405,SDK18.2)
 #!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
 #!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/meituanzb.png
-#!date=2025-06-30
+#!date=2025-07-08
 
 [Map Local]
 ^https?:\/\/peisongapi\.meituan\.com\/client\/getInitiateImage data-type=text data="" status-code=200

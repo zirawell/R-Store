@@ -1,4 +1,14 @@
-# > 识货 - SHIHUO
+#!name=识货 - SHIHUO
+#!desc=识货-上识货，查全网低价
+#!openUrl=https://apps.apple.com/app/id875177200
+#!bundleId=com.hupu.shihuo
+#!author=zirawell[https://github.com/zirawell]
+#!tag=去广告
+#!system=iOS
+#!surge_version=5.14.2(Build3405,SDK18.2)
+#!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
+#!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/shihuo.png
+#!date=2025-07-08
 
 [URL Rewrite]
 ^https?:\/\/sh-gateway\.shihuo\.cn\/v\d\/services\/sh-adapi\/home\/(?>screen|ad) - reject
