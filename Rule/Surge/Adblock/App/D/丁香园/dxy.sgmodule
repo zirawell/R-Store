@@ -1,13 +1,14 @@
 #!name=丁香园 - DXY
-#!desc=丁香园去广告
+#!desc=丁香园 - 助力中国医生成长
 #!openUrl=https://apps.apple.com/app/id493466318
+#!bundleId=cn.dxy.iDxyer
 #!author=zirawell[https://github.com/zirawell]
 #!tag=去广告
 #!system=iOS
 #!surge_version=5.14.2(Build3405,SDK18.2)
 #!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
 #!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/dxy.png
-#!date=2025-06-30
+#!date=2025-07-08
 
 [URL Rewrite]
 ^https?:\/\/dq\.dxy\.cn\/api\.php\?action=getpostbanners - reject

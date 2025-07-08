@@ -1,0 +1,20 @@
+#!name=曹操出行 - CAOCAO
+#!desc=曹操出行-打车网约车专车顺风车平台
+#!openUrl=https://apps.apple.com/app/id1034208598
+#!bundleId=com.caocao.customer
+#!author=zirawell[https://github.com/zirawell]
+#!tag=去广告
+#!system=iOS
+#!surge_version=5.14.2(Build3405,SDK18.2)
+#!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
+#!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/caocao.png
+#!date=2025-07-08
+
+[URL Rewrite]
+^https?:\/\/cap\.caocaokeji\.cn\/advert-bss\/ - reject
+
+[Map Local]
+^https?:\/\/ptmpcap\.caocaokeji\.cn\/advert-bss\/ data-type=tiny-gif status-code=200
+
+[MITM]
+hostname= %APPEND% ptmpcap.caocaokeji.cn, cap.caocaokeji.cn

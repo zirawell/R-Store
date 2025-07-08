@@ -1,4 +1,14 @@
-# > 菠萝包轻小说 - SFACG
+#!name=菠萝包轻小说 - SFACG
+#!desc=菠萝包轻小说-二次元阅读神器
+#!openUrl=https://apps.apple.com/app/id928785539
+#!bundleId=com.sfacg.SFReader
+#!author=zirawell[https://github.com/zirawell]
+#!tag=去广告
+#!system=iOS
+#!surge_version=5.14.2(Build3405,SDK18.2)
+#!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
+#!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/sfacg.png
+#!date=2025-07-08
 
 [URL Rewrite]
 ^https?:\/\/api\.sfacg\.com\/ioscfg - reject

@@ -1,13 +1,14 @@
 #!name=百度网盘 - BAIDUPAN
-#!desc=百度网盘去广告
+#!desc=百度网盘
 #!openUrl=https://apps.apple.com/app/id547166701
+#!bundleId=com.baidu.netdisk
 #!author=zirawell[https://github.com/zirawell]
 #!tag=去广告
 #!system=iOS
 #!surge_version=5.14.2(Build3405,SDK18.2)
 #!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
 #!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/baidupan.png
-#!date=2025-06-30
+#!date=2025-07-08
 
 [URL Rewrite]
 ^https?:\/\/pan\.baidu\.com\/rest\/\d\.\d\/pcs\/ad - reject

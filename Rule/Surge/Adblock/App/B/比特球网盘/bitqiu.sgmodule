@@ -1,4 +1,14 @@
-# > 比特球网盘 - BITQIU
+#!name=比特球网盘 - BITQIU
+#!desc=比特球网盘-宅磁力,链接下载,云端播放器
+#!openUrl=https://apps.apple.com/app/id1388178609
+#!bundleId=com.bitqiu.pan
+#!author=zirawell[https://github.com/zirawell]
+#!tag=去广告
+#!system=iOS
+#!surge_version=5.14.2(Build3405,SDK18.2)
+#!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
+#!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/bitqiu.png
+#!date=2025-07-08
 
 [URL Rewrite]
 ^https?:\/\/pan-api\.bitqiu\.com\/activity\/getPromoteGuide - reject

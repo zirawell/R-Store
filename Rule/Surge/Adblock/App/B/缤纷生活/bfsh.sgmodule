@@ -1,4 +1,14 @@
-# > 缤纷生活 - BFSH
+#!name=缤纷生活 - BFSH
+#!desc=缤纷生活
+#!openUrl=https://apps.apple.com/app/id525635672
+#!bundleId=com.bocforms.MobileLife
+#!author=zirawell[https://github.com/zirawell]
+#!tag=去广告
+#!system=iOS
+#!surge_version=5.14.2(Build3405,SDK18.2)
+#!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
+#!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/bfsh.png
+#!date=2025-07-08
 
 [Map Local]
 ^https?:\/\/mlife\.jf365\.boc\.cn\/AppPrj\/FirstPic\.do\?txnId=2PIC000001 data-type=text data="" status-code=200
