@@ -1,4 +1,14 @@
-# > 兴业证券优理宝 - XYZQ
+#!name=兴业证券优理宝 - XYZQ
+#!desc=兴业证券优理宝-股票交易，基金理财
+#!openUrl=https://apps.apple.com/app/id645811920
+#!bundleId=com.xyzq.iIndustrial
+#!author=zirawell[https://github.com/zirawell]
+#!tag=去广告
+#!system=iOS
+#!surge_version=5.14.2(Build3405,SDK18.2)
+#!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
+#!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/xyzq.png
+#!date=2025-07-08
 
 [Map Local]
 ^https?:\/\/static.xyzq.cn\/image\/splash\/ data-type=text data="" status-code=200

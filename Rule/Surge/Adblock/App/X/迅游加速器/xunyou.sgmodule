@@ -1,4 +1,14 @@
-# > 迅游加速器 - XUNYOU
+#!name=迅游加速器 - XUNYOU
+#!desc=迅游加速器 - 全球游戏网络加速助手
+#!openUrl=https://apps.apple.com/app/id1032660607
+#!bundleId=com.subao.GameMaster
+#!author=zirawell[https://github.com/zirawell]
+#!tag=去广告
+#!system=iOS
+#!surge_version=5.14.2(Build3405,SDK18.2)
+#!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
+#!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/xunyou.png
+#!date=2025-07-08
 
 [Map Local]
 ^https?:\/\/portal-xunyou\.qingcdn\.com\/api\/v\d\/\w+\/ads\/ data-type=text data="" status-code=200

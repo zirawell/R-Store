@@ -1,13 +1,14 @@
 #!name=云闪付 - 95516
-#!desc=云闪付去广告
+#!desc=云闪付-银行业统一移动支付App
 #!openUrl=https://apps.apple.com/app/id600273928
+#!bundleId=com.unionpay.chsp
 #!author=zirawell[https://github.com/zirawell]
 #!tag=去广告
 #!system=iOS
 #!surge_version=5.14.2(Build3405,SDK18.2)
 #!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
 #!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/unionpay.png
-#!date=2025-06-30
+#!date=2025-07-08
 
 [Rule]
 DOMAIN, switch.cup.com.cn, REJECT, extended-matching, pre-matching
