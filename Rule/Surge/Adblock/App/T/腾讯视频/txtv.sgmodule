@@ -1,5 +1,5 @@
 #!name=腾讯视频 - TXTV
-#!desc=腾讯视频-《脱口秀和Ta的朋友们2》全网独播
+#!desc=腾讯视频-《诡秘之主》全网独播
 #!openUrl=https://apps.apple.com/app/id458318329
 #!bundleId=com.tencent.live4iphone
 #!author=zirawell[https://github.com/zirawell]
@@ -8,7 +8,7 @@
 #!surge_version=5.14.2(Build3405,SDK18.2)
 #!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
 #!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/txtv.png
-#!date=2025-07-08
+#!date=2025-07-09
 
 [Rule]
 DOMAIN, info4.video.qq.com, REJECT, extended-matching, pre-matching

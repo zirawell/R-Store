@@ -85,9 +85,7 @@ DOMAIN-SUFFIX, wxsnsdythumb.wxs.qq.com, REJECT, extended-matching, pre-matching
 ^https?:\/\/capi\.lkcoffee\.com\/resource\/market\/receiveCoupon\/receiveCouponPop data-type=text data="{}" status-code=200
 ^https?:\/\/alittle-tea\.oss-cn-shanghai\.aliyuncs\.com\/images\/platform\/alittle data-type=text data="{}" status-code=200
 ^https?:\/\/api\.blibee\.com\/cvsnotify-api\/cvs\/notify\/app\/banner\/v\d+$ data-type=text data="" status-code=200
-^https?:\/\/gateway\.cotticoffee\.com\/cotti-capi\/customer\/position\/list\?code=.+-(?>window|float) data-type=text data="{}" status-code=200
 ^https?:\/\/npay\.meituan\.com\/conch\/walletv\d\/wechat-pop-window data-type=text data="{}" status-code=200
-^https?:\/\/gateway\.cotticoffee\.com\/cotti-capi\/customer\/position\/list\?code=v\d-cotti-order-detail-banner data-type=text data="{}" status-code=200
 ^https?:\/\/daijia\.kuaidadi\.com\/gateway\?api=prado\.cms\.delivery\.batch&apiVe data-type=text data="{}" status-code=200
 ^https?:\/\/service\.haiersmarthomes\.com\/management\/banner\/getBannerList\?source=4 data-type=text data="{}" status-code=200
 ^https?:\/\/s\.jiediankeji\.com\/adv data-type=text data="{}" status-code=200
@@ -110,7 +108,6 @@ DOMAIN-SUFFIX, wxsnsdythumb.wxs.qq.com, REJECT, extended-matching, pre-matching
 ^https?:\/\/wx\.maoyan\.com\/maoyansh\/myshow\/ajax\/ad\/detail data-type=text data="{}" status-code=200
 ^https?:\/\/suyun-guest\.daojia\.com\/api\/kuaigou\/banjia\/review data-type=text data="{}" status-code=200
 ^https?:\/\/wxapp\.bestwehotel\.com\/\w+\/app-mini\/trip-hotel-banner\/activity\/getActivityInfo data-type=text data="{}" status-code=200
-^https?:\/\/gateway\.cotticoffee\.com\/cotti-capi\/customer\/position\/list\?code=cotti-launch-window data-type=text data="{}" status-code=200
 ^https?:\/\/passenger\.t3go\.cn\/(solution\-|common\-)?(passenger\-)?(activity\-|app\-)?api\/notoken\/(trip\/)?api\/(home\/|common\/)?(v\d\/)?(ad\/getNegativescreen|solution\/passenger\/open\/getHomeMenu|leftmenu|getHomeInfoGlobal) data-type=text data="{}" status-code=200
 ^https?:\/\/minicap\.caocaokeji\.cn\/advert-bss\/pullAdvert data-type=text data="{}" status-code=200
 ^https?:\/\/wx\.17u\.cn\/membermessageuserapi\/(message\/list|category\/getCategory) data-type=text data="{}" status-code=200
@@ -208,6 +205,7 @@ wechatAppletGeneral = type=http-response,pattern=^https?:\/\/(?>webapi|miniapp)\
 wjx = type=http-response,pattern=^https?:\/\/kaoshi\.wjx\.top\/wjx\/join\/completemobile,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/wjx.js
 xiaotucc = type=http-response,pattern=^https?:\/\/mapi\.xiaotucc\.com\/(mall\/main|\w+\/main_page\/index\/getActivity),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/wechatApplet.js
 cloudpnr = type=http-response,pattern=^https?:\/\/saas-ad\.cloudpnr\.com\/huifuad-base-api\/api\/tactics\/ad,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/wechatApplet.js
+cotti = type=http-response,pattern=^https?:\/\/gateway\.cotticoffee\.com\/cotti-capi\/customer\/position\/list$,requires-body=0,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/cotti.js
 yunda = type=http-request,pattern=^https?:\/\/mbpxapi\.yundasys\.com(:\d+)?\/gateway\/interface,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/yunda.js
 ems = type=http-response,pattern=^https?:\/\/ump\.ems\.com\.cn\/new-generation-extend\/redis\/pageInfoByChannel,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/wechatApplet.js
 meituanwm = type=http-response,pattern=^https?:\/\/web\.meituan\.com\/api\/miniprogram\/index\/aggregate,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/meituanwm.js
