@@ -1,6 +1,0 @@
-# > 12123 - 12123
-host-suffix, v3.fstats.xyz, reject
-host-suffix, wss.haoyundmn.com, reject
-host-suffix, new.xiongzhangad.com, reject
-host-suffix, alexametrics.com, reject
-host-keyword, in-page-push, reject
