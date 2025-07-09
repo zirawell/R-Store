@@ -1,4 +1,14 @@
-# > 机核 - GCORES
+#!name=机核 - GCORES
+#!desc=机核-探索热爱
+#!openUrl=https://apps.apple.com/app/id1095283476
+#!bundleId=com.g-cores.GCGameMedia
+#!author=zirawell[https://github.com/zirawell]
+#!tag=去广告
+#!system=iOS
+#!surge_version=5.14.2(Build3405,SDK18.2)
+#!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
+#!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/gcores.png
+#!date=2025-07-09
 
 [Map Local]
 ^https?:\/\/www\.gcores\.com\/gapi\/v\d\/app-start-pages\?page data-type=text data="{}" status-code=200

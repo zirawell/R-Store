@@ -1,4 +1,14 @@
-# > 中国电信 - 189
+#!name=中国电信 - 189
+#!desc=中国电信-全国统一官方服务平台
+#!openUrl=https://apps.apple.com/app/id513836029
+#!bundleId=CtClient
+#!author=zirawell[https://github.com/zirawell]
+#!tag=去广告
+#!system=iOS
+#!surge_version=5.14.2(Build3405,SDK18.2)
+#!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
+#!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/189.png
+#!date=2025-07-09
 
 [Rule]
 DOMAIN, ad.21cn.com, REJECT, extended-matching, pre-matching
