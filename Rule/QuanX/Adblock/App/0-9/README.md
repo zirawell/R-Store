@@ -1,10 +1,9 @@
 # 0-9
 <details>
 <summary>
-本目录共收录13个App，详情见如下，单击导入对应配置：
+本目录共收录12个App，详情见如下，单击导入对应配置：
 </summary>
 
-- [12123](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2F0-9%2F12123%2Ffilter%2F12123.list%2C%20tag%3D12123%22%5D%2C%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2F0-9%2F12123%2Frewrite%2F12123.conf%2C%20tag%3D12123%22%5D%7D)
 - [12306](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2F0-9%2F12306%2Ffilter%2F12306.list%2C%20tag%3D12306%22%5D%2C%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2F0-9%2F12306%2Frewrite%2F12306.conf%2C%20tag%3D12306%22%5D%7D)
 - [21经济网](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2F0-9%2F21%E7%BB%8F%E6%B5%8E%E7%BD%91%2Frewrite%2F21jingji.conf%2C%20tag%3D21%E7%BB%8F%E6%B5%8E%E7%BD%91%22%5D%7D)
 - [233网校](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2F0-9%2F233%E7%BD%91%E6%A0%A1%2Frewrite%2F233.conf%2C%20tag%3D233%E7%BD%91%E6%A0%A1%22%5D%7D)
