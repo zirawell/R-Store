@@ -1,4 +1,14 @@
-# > 233网校 - 233
+#!name=233网校 - 233
+#!desc=233网校-在线职业教育学习考证平台
+#!openUrl=https://apps.apple.com/app/id964104520
+#!bundleId=com.233.Examda233
+#!author=zirawell[https://github.com/zirawell]
+#!tag=去广告
+#!system=iOS
+#!surge_version=5.14.2(Build3405,SDK18.2)
+#!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
+#!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/233.png
+#!date=2025-07-10
 
 [Map Local]
 ^https?:\/\/japi\.233\.com\/ess-ecms-api\/advert data-type=text data="" status-code=200

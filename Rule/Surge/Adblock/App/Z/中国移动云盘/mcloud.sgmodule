@@ -1,4 +1,14 @@
-# > 中国移动云盘 - MCLOUD
+#!name=中国移动云盘 - MCLOUD
+#!desc=中国移动云盘-全民不限速
+#!openUrl=https://apps.apple.com/app/id1618137934
+#!bundleId=cn.10086.mobileClouds
+#!author=zirawell[https://github.com/zirawell]
+#!tag=去广告
+#!system=iOS
+#!surge_version=5.14.2(Build3405,SDK18.2)
+#!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
+#!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/mcloud.png
+#!date=2025-07-10
 
 [Map Local]
 ^https?:\/\/mcmm\.caiyun\.feixin\.10086\.cn:\d+\/mcmm\/api\/(IAdvert|v\d\/getAdverts) data-type=text data="" status-code=200
