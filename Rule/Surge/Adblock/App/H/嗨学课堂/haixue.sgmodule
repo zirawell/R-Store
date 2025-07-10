@@ -1,4 +1,14 @@
-# > 嗨学课堂 - HAIXUE
+#!name=嗨学课堂 - HAIXUE
+#!desc=嗨学课堂-一建二建注安造价法考注会药师消防考证题库直播
+#!openUrl=https://apps.apple.com/app/id1073018397
+#!bundleId=com.haixue.app.haixue
+#!author=zirawell[https://github.com/zirawell]
+#!tag=去广告
+#!system=iOS
+#!surge_version=5.14.2(Build3405,SDK18.2)
+#!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
+#!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/haixue.png
+#!date=2025-07-10
 
 [Map Local]
 ^https?:\/\/www\.haixue\.com\/advert\/app\/adInfo\/v\d\/queryAdByPositionCode data-type=text data="{}" status-code=200

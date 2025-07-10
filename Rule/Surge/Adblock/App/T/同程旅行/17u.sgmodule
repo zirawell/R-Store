@@ -1,4 +1,14 @@
-# > 同程旅行 - 17U
+#!name=同程旅行 - 17U
+#!desc=同程旅行-订酒店机票火车票,低价打车
+#!openUrl=https://apps.apple.com/app/id475966832
+#!bundleId=com.tongcheng.iphone
+#!author=zirawell[https://github.com/zirawell]
+#!tag=去广告
+#!system=iOS
+#!surge_version=5.14.2(Build3405,SDK18.2)
+#!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
+#!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/17u.png
+#!date=2025-07-10
 
 [Rule]
 DOMAIN, vstlog.17usoft.com, REJECT, extended-matching, pre-matching

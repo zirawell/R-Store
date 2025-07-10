@@ -1,4 +1,14 @@
-# > 漫画人 - MANHUAREN
+#!name=漫画人 - MANHUAREN
+#!desc=漫画人极速版-看动漫画大全平台
+#!openUrl=https://apps.apple.com/app/id1093094653
+#!bundleId=com.ilike2.manhuaren
+#!author=zirawell[https://github.com/zirawell]
+#!tag=去广告
+#!system=iOS
+#!surge_version=5.14.2(Build3405,SDK18.2)
+#!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
+#!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/manhuaren.png
+#!date=2025-07-10
 
 [URL Rewrite]
 ^https?:\/\/.*mangaapi\.manhuaren\.\w{2,4}\/v\d\/public\/(?>getStartUpMessage|getStartPageAds|getShelfActivity) - reject

@@ -1,4 +1,14 @@
-# > Inoreader - INOREADER
+#!name=Inoreader - INOREADER
+#!desc=Inoreader: News & RSS reader
+#!openUrl=https://apps.apple.com/app/id892355414
+#!bundleId=com.innologica.inoreader
+#!author=zirawell[https://github.com/zirawell]
+#!tag=去广告
+#!system=iOS
+#!surge_version=5.14.2(Build3405,SDK18.2)
+#!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
+#!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/inoreader.png
+#!date=2025-07-10
 
 [URL Rewrite]
 ^https?:\/\/www\.inoreader\.com\/adv\/ - reject
