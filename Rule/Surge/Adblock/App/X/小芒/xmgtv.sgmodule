@@ -1,4 +1,4 @@
-#!name=小芒 - MGTV
+#!name=小芒 - XMGTV
 #!desc=小芒
 #!openUrl=https://apps.apple.com/app/id1540247980
 #!bundleId=com.mg.ec
@@ -7,7 +7,7 @@
 #!system=iOS
 #!surge_version=5.14.2(Build3405,SDK18.2)
 #!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
-#!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/mgtv.png
+#!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/xmgtv.png
 #!date=2025-07-10
 
 [Map Local]
