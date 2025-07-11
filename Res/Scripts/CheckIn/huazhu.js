@@ -14,9 +14,9 @@ HuaZhuHui CheckIn
 hostname = hweb-personalcenter.huazhu.com
 
 [Script]
-华住会-Cookie = type=http-request,pattern=^https?:\/\/hweb-personalcenter\.huazhu\.com\/login\/autoLogin$,requires-body=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/hzh.js
+华住会-Cookie = type=http-request,pattern=^https?:\/\/hweb-personalcenter\.huazhu\.com\/login\/autoLogin$,requires-body=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/huazhu.js
 
-华住会-签到 = type=cron,cronexp=5 0 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/hzh.js
+华住会-签到 = type=cron,cronexp=5 0 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/huazhu.js
 
 -------------- Quantumult X 配置 --------------
 
@@ -25,11 +25,11 @@ hostname = hweb-personalcenter.huazhu.com
 
 [rewrite_local]
 # 华住会-Cookie
-^https?:\/\/hweb-personalcenter\.huazhu\.com\/login\/autoLogin$ url script-request-header https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/hzh.js
+^https?:\/\/hweb-personalcenter\.huazhu\.com\/login\/autoLogin$ url script-request-header https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/huazhu.js
 
 [task_local]
 # 华住会-签到
-5 0 * * * https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/hzh.js, tag=华住会-签到, img-url=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/hzh.png, enabled=true
+5 0 * * * https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/huazhu.js, tag=华住会-签到, img-url=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/huazhu.png, enabled=true
 
 ********************************/
 
