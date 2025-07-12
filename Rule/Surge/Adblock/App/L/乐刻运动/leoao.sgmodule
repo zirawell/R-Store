@@ -1,4 +1,14 @@
-# > 乐刻运动 - LEOAO
+#!name=乐刻运动 - LEOAO
+#!desc=乐刻运动
+#!openUrl=https://apps.apple.com/app/id1116555378
+#!bundleId=com.leoao.mobileapp
+#!author=zirawell[https://github.com/zirawell]
+#!tag=去广告
+#!system=iOS
+#!surge_version=5.14.2(Build3405,SDK18.2)
+#!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
+#!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/leoao.png
+#!date=2025-07-11
 
 [Map Local]
 ^https?:\/\/lens\.leoao\.com\/lens\/conduct\/app\/rpc\/v\d\/com\.lefit\.dubbo\.cms\.api\.front\.AppAdvertisingFrontService\/getAppAdvertisingNew data-type=text data="{}" status-code=200
