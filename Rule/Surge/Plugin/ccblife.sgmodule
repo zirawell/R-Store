@@ -10,7 +10,7 @@
 #!date=2025-07-10
 
 [Script]
-jhsh = type=http-request,pattern=^https?:\/\/yunbusiness\.ccb\.com\/(clp_coupon|clp_service)\/txCtrl\?txcode=(A3341A038|autoLogin),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/ccblife.js
+ccblife = type=http-request,pattern=^https?:\/\/yunbusiness\.ccb\.com\/(clp_coupon|clp_service)\/txCtrl\?txcode=(A3341A038|autoLogin),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/ccblife.js
 
 [MITM]
 hostname= %APPEND% yunbusiness.ccb.com
