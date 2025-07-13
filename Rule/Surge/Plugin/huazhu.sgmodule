@@ -10,7 +10,7 @@
 #!date=2025-07-10
 
 [Script]
-hzh = type=http-request,pattern=^https?:\/\/hweb-personalcenter\.huazhu\.com\/login\/autoLogin$,requires-body=0,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/huazhu.js
+huazhu = type=http-request,pattern=^https?:\/\/hweb-personalcenter\.huazhu\.com\/login\/autoLogin$,requires-body=0,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/CheckIn/huazhu.js
 
 [MITM]
 hostname= %APPEND% hweb-personalcenter.huazhu.com
