@@ -1,4 +1,14 @@
-# > crunchyroll - CRUNCHYROLL
+#!name=crunchyroll - CRUNCHYROLL
+#!desc=Crunchyroll
+#!openUrl=https://apps.apple.com/app/id329913454
+#!bundleId=com.crunchyroll.iphone
+#!author=zirawell[https://github.com/zirawell]
+#!tag=去广告
+#!system=iOS
+#!surge_version=5.14.2(Build3405,SDK18.2)
+#!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
+#!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/crunchyroll.png
+#!date=2025-07-11
 
 [Body Rewrite]
 http-response ^https?:\/\/beta-api\.crunchyroll\.com\/cms offset_ms":\d+ offset_ms":99999999999999
