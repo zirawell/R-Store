@@ -1,7 +1,7 @@
 {
   "name": "All Icons",
   "description": "collected by zirawell",
-  "time": "2025-07-10",
+  "time": "2025-07-14",
   "icons": [
     {
       "name": "tmyc",
@@ -38,6 +38,10 @@
     {
       "name": "familymart",
       "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/checked/familymart.png"
+    },
+    {
+      "name": "haixue",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/checked/haixue.png"
     },
     {
       "name": "bankofbeijing",
@@ -132,6 +136,10 @@
       "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/checked/amap.png"
     },
     {
+      "name": "reddit",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/checked/reddit.png"
+    },
+    {
       "name": "tubemax",
       "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/checked/tubemax.png"
     },
@@ -154,6 +162,10 @@
     {
       "name": "dingda",
       "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/checked/dingda.png"
+    },
+    {
+      "name": "inoreader",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/checked/inoreader.png"
     },
     {
       "name": "citicbank",
@@ -258,10 +270,6 @@
     {
       "name": "sptcc",
       "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/checked/sptcc.png"
-    },
-    {
-      "name": "line",
-      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/line.png"
     },
     {
       "name": "caiyunapp",
@@ -378,6 +386,10 @@
     {
       "name": "mrwnl",
       "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/checked/mrwnl.png"
+    },
+    {
+      "name": "quda",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/checked/quda.png"
     },
     {
       "name": "zhidiantianxia",
@@ -528,6 +540,10 @@
       "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/checked/jxedt.png"
     },
     {
+      "name": "spotify",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/checked/spotify.png"
+    },
+    {
       "name": "txcmapp",
       "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/checked/txcmapp.png"
     },
@@ -568,10 +584,6 @@
       "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/checked/soul.png"
     },
     {
-      "name": "haixue",
-      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/haixue.png"
-    },
-    {
       "name": "unionpay",
       "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/checked/unionpay.png"
     },
@@ -594,10 +606,6 @@
     {
       "name": "beautycam",
       "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/checked/beautycam.png"
-    },
-    {
-      "name": "iqushangwang",
-      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/checked/iqushangwang.png"
     },
     {
       "name": "hanju",
@@ -776,10 +784,6 @@
       "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/checked/boss.png"
     },
     {
-      "name": "inoreader",
-      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/inoreader.png"
-    },
-    {
       "name": "xczim",
       "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/checked/xczim.png"
     },
@@ -850,6 +854,10 @@
     {
       "name": "topwidgets",
       "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/topwidgets.png"
+    },
+    {
+      "name": "txmaps",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/checked/txmaps.png"
     },
     {
       "name": "12306",
@@ -946,6 +954,10 @@
     {
       "name": "dianshihome",
       "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/dianshihome.png"
+    },
+    {
+      "name": "txsports",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/checked/txsports.png"
     },
     {
       "name": "ccblife",
@@ -1048,6 +1060,10 @@
       "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/checked/mihoyo.png"
     },
     {
+      "name": "trip",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/checked/trip.png"
+    },
+    {
       "name": "douyu",
       "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/checked/douyu.png"
     },
@@ -1146,6 +1162,10 @@
     {
       "name": "grcbank",
       "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/checked/grcbank.png"
+    },
+    {
+      "name": "kuaidui",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/checked/kuaidui.png"
     },
     {
       "name": "iyingdi",
@@ -1256,6 +1276,10 @@
       "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/checked/autohome.png"
     },
     {
+      "name": "line",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/checked/line.png"
+    },
+    {
       "name": "kuwo",
       "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/checked/kuwo.png"
     },
@@ -1302,10 +1326,6 @@
     {
       "name": "quark",
       "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/checked/quark.png"
-    },
-    {
-      "name": "txsports",
-      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/txsports.png"
     },
     {
       "name": "189cloud",
@@ -1500,10 +1520,6 @@
       "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/checked/shenzhentong.png"
     },
     {
-      "name": "trip",
-      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/trip.png"
-    },
-    {
       "name": "pipi",
       "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/checked/pipi.png"
     },
@@ -1620,10 +1636,6 @@
       "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/checked/yhd.png"
     },
     {
-      "name": "txmaps",
-      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/txmaps.png"
-    },
-    {
       "name": "fenbi",
       "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/checked/fenbi.png"
     },
@@ -1632,16 +1644,16 @@
       "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/checked/csair.png"
     },
     {
+      "name": "xmgtv",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/checked/xmgtv.png"
+    },
+    {
       "name": "hupu",
       "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/checked/hupu.png"
     },
     {
       "name": "abc",
       "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/checked/abc.png"
-    },
-    {
-      "name": "reddit",
-      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/reddit.png"
     },
     {
       "name": "ctrip",
@@ -1742,6 +1754,10 @@
     {
       "name": "zhihu",
       "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/checked/zhihu.png"
+    },
+    {
+      "name": "xbiu",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/checked/xbiu.png"
     },
     {
       "name": "csvw",
