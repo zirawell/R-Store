@@ -1,0 +1,21 @@
+#!name=鳳凰秀 - FENGSHOWS
+#!desc=鳳凰秀-鳳凰衛視官方客戶端
+#!openUrl=https://apps.apple.com/app/id1300009032
+#!bundleId=com.phoenixtv.videoapp
+#!author=zirawell[https://github.com/zirawell]
+#!tag=去广告
+#!system=iOS
+#!surge_version=5.14.2(Build3405,SDK18.2)
+#!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
+#!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/fengshows.png
+#!date=2025-07-14
+
+
+[URL Rewrite]
+^https?:\/\/dsa-mfp\.fengshows\.cn\/mfp\/mfpMultipleDelivery\.do\?.+?adunitid - reject
+
+[Map Local]
+^https?:\/\/api\.fengshows\.com\/api\/launchAD data-type=tiny-gif status-code=200
+
+[MITM]
+hostname= %APPEND% dsa-mfp.fengshows.cn, api.fengshows.com
