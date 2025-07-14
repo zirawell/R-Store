@@ -3,7 +3,7 @@ Flyert Remove Ads - Version 1.0
 Please note that you may need to reinstall app for script to work.
 
 QuantumultX rewrite link:
-https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/App/F/飞客茶馆/rewrite/flyertrip.conf
+https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/App/F/飞客/rewrite/flyertrip.conf
 
 ********************************/
 
