@@ -4,7 +4,7 @@ WechatApplet Remove Ads - Version 1.0
 Please note that you may need to clean applet caches for script to work.
 
 QuantumultX rewrite link:
-https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/Applet/Wechat/N/NOWWA挪瓦咖啡/rewrite/nowwa.conf
+https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/Applet/Wechat/N/挪瓦咖啡/rewrite/nowwa.conf
 https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/Applet/Wechat/H/汇付天下商户服务/rewrite/cloudpnr.conf
 https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/Applet/Wechat/M/MStand/rewrite/mstand.conf
 https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/Applet/Wechat/C/CoCo点单+/rewrite/coco.conf

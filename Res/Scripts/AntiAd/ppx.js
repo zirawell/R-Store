@@ -1,9 +1,9 @@
 /********************************
-Pipix Remove Ads - Version 1.0
+PPX Remove Ads - Version 1.0
 Please note that you may need to reinstall app for script to work.
 
 QuantumultX rewrite link:
-https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/App/P/皮皮虾/rewrite/pipix.conf
+https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/App/P/皮皮虾/rewrite/ppx.conf
 
 ********************************/
 
