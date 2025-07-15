@@ -1,7 +1,7 @@
 {
   "name": "All Icons",
   "description": "collected by zirawell",
-  "time": "2025-07-14",
+  "time": "2025-07-15",
   "icons": [
     {
       "name": "tmyc",
@@ -148,6 +148,10 @@
       "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/checked/iyunmai.png"
     },
     {
+      "name": "zsgj",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/checked/zsgj.png"
+    },
+    {
       "name": "bosclife",
       "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/checked/bosclife.png"
     },
@@ -220,10 +224,6 @@
       "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/checked/10099.png"
     },
     {
-      "name": "spdb",
-      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/spdb.png"
-    },
-    {
       "name": "weibo",
       "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/checked/weibo.png"
     },
@@ -238,6 +238,10 @@
     {
       "name": "dzh",
       "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/checked/dzh.png"
+    },
+    {
+      "name": "xiaoxiang",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/checked/xiaoxiang.png"
     },
     {
       "name": "cpic",
@@ -736,10 +740,6 @@
       "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/checked/wechat.png"
     },
     {
-      "name": "xiaoxiang",
-      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/xiaoxiang.png"
-    },
-    {
       "name": "kfc",
       "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/checked/kfc.png"
     },
@@ -762,10 +762,6 @@
     {
       "name": "kuaishou",
       "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/checked/kuaishou.png"
-    },
-    {
-      "name": "missfresh",
-      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/missfresh.png"
     },
     {
       "name": "ccb",
@@ -946,10 +942,6 @@
     {
       "name": "sichuanair",
       "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/checked/sichuanair.png"
-    },
-    {
-      "name": "pipix",
-      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/checked/pipix.png"
     },
     {
       "name": "dianshihome",
@@ -1288,6 +1280,10 @@
       "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/checked/wanciwang.png"
     },
     {
+      "name": "spdb",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/checked/spdb.png"
+    },
+    {
       "name": "xiachufang",
       "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/checked/xiachufang.png"
     },
@@ -1440,10 +1436,6 @@
       "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/checked/4gtv.png"
     },
     {
-      "name": "mygolbs",
-      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/checked/mygolbs.png"
-    },
-    {
       "name": "163yanxuan",
       "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/checked/163yanxuan.png"
     },
@@ -1482,6 +1474,10 @@
     {
       "name": "piaogen",
       "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/piaogen.png"
+    },
+    {
+      "name": "ppx",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/checked/ppx.png"
     },
     {
       "name": "bydwc",
