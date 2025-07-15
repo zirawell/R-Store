@@ -1,4 +1,14 @@
-# > 小象超市 - XIAOXIANG
+#!name=小象超市 - XIAOXIANG
+#!desc=小象超市-原美团买菜
+#!openUrl=https://apps.apple.com/app/id1444411068
+#!bundleId=com.baobaoaichi.imaicai
+#!author=zirawell[https://github.com/zirawell]
+#!tag=去广告
+#!system=iOS
+#!surge_version=5.14.2(Build3405,SDK18.2)
+#!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
+#!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/xiaoxiang.png
+#!date=2025-07-15
 
 [Map Local]
 ^https?:\/\/mall\.meituan\.com\/api\/c\/homepage\/splash data-type=text data="{}" status-code=200
