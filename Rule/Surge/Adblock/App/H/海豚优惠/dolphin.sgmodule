@@ -1,7 +1,0 @@
-# > 海豚优惠 - TOWNMALLS
-
-[URL Rewrite]
-^https?:\/\/.*\.townmalls\.cn:1890\/mossapi\/mossp\.BannerManager\/activityList.* - reject
-
-[MITM]
-hostname= %APPEND% *.townmalls.com
