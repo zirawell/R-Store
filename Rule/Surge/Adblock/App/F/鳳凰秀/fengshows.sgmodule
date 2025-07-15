@@ -10,7 +10,6 @@
 #!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/fengshows.png
 #!date=2025-07-14
 
-
 [URL Rewrite]
 ^https?:\/\/dsa-mfp\.fengshows\.cn\/mfp\/mfpMultipleDelivery\.do\?.+?adunitid - reject
 
