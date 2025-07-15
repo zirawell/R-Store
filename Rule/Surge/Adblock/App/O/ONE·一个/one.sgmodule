@@ -1,4 +1,14 @@
-# > ONE·一个 - ONE
+#!name=ONE·一个 - ONE
+#!desc=一个
+#!openUrl=https://apps.apple.com/app/id539190656
+#!bundleId=com.chii.iOne
+#!author=zirawell[https://github.com/zirawell]
+#!tag=去广告
+#!system=iOS
+#!surge_version=5.14.2(Build3405,SDK18.2)
+#!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
+#!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/one.png
+#!date=2025-07-15
 
 [URL Rewrite]
 ^https?:\/\/app\.api\.d3yuiw4\.com\/api\/app\/ad - reject
