@@ -1,7 +1,0 @@
-# > 叮嗒出行 - DINGDA
-
-[Map Local]
-^https?:\/\/webcdn\.m\.qq\.com\/qiantu\/upload\/202[0-9]{5}\/.*.(?>jpg|png) data-type=text data="" status-code=200
-
-[MITM]
-hostname= %APPEND% webcdn.m.qq.com
