@@ -13,4 +13,3 @@
 [Map Local]
 # ⚠️弃用，已无法MITM
 ;^https?:\/\/api\.mos\.csvw\.com\/mos\/operation\/home\/api\/v\d\/app\/brand\/queryDataForOperation data-type=text data="" status-code=200
-
