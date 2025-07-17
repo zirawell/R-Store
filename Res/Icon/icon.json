@@ -1,7 +1,7 @@
 {
   "name": "All Icons",
   "description": "collected by zirawell",
-  "time": "2025-07-15",
+  "time": "2025-07-17",
   "icons": [
     {
       "name": "tmyc",
@@ -104,6 +104,10 @@
       "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/checked/cmbc.png"
     },
     {
+      "name": "omofun",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/omofun.png"
+    },
+    {
       "name": "touker",
       "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/checked/touker.png"
     },
@@ -202,6 +206,10 @@
     {
       "name": "baidutieba",
       "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/checked/baidutieba.png"
+    },
+    {
+      "name": "xingcaifu",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/checked/xingcaifu.png"
     },
     {
       "name": "tonghuashun",
@@ -394,6 +402,10 @@
     {
       "name": "quda",
       "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/checked/quda.png"
+    },
+    {
+      "name": "ecitic",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/checked/ecitic.png"
     },
     {
       "name": "zhidiantianxia",
@@ -722,10 +734,6 @@
     {
       "name": "zol",
       "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/checked/zol.png"
-    },
-    {
-      "name": "ecitic",
-      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/ecitic.png"
     },
     {
       "name": "jinse",
@@ -1782,10 +1790,6 @@
     {
       "name": "hxb",
       "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/checked/hxb.png"
-    },
-    {
-      "name": "xingcaifu",
-      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/xingcaifu.png"
     },
     {
       "name": "cmgadx",
