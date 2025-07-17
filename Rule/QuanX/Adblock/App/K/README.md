@@ -1,7 +1,7 @@
 # K
 <details>
 <summary>
-本目录共收录16个App，详情见如下，单击导入对应配置：
+本目录共收录15个App，详情见如下，单击导入对应配置：
 </summary>
 
 - [keep](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FK%2Fkeep%2Ffilter%2Fkeep.list%2C%20tag%3Dkeep%22%5D%2C%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FK%2Fkeep%2Frewrite%2Fkeep.conf%2C%20tag%3Dkeep%22%5D%7D)
@@ -10,7 +10,6 @@
 - [开源中国](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FK%2F%E5%BC%80%E6%BA%90%E4%B8%AD%E5%9B%BD%2Frewrite%2Foschina.conf%2C%20tag%3D%E5%BC%80%E6%BA%90%E4%B8%AD%E5%9B%BD%22%5D%7D)
 - [快对](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FK%2F%E5%BF%AB%E5%AF%B9%2Frewrite%2Fkuaidui.conf%2C%20tag%3D%E5%BF%AB%E5%AF%B9%22%5D%7D)
 - [快手](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FK%2F%E5%BF%AB%E6%89%8B%2Ffilter%2Fkuaishou.list%2C%20tag%3D%E5%BF%AB%E6%89%8B%22%5D%2C%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FK%2F%E5%BF%AB%E6%89%8B%2Frewrite%2Fkuaishou.conf%2C%20tag%3D%E5%BF%AB%E6%89%8B%22%5D%7D)
-- [快手联盟](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FK%2F%E5%BF%AB%E6%89%8B%E8%81%94%E7%9B%9F%2Frewrite%2Fsnssdk.conf%2C%20tag%3D%E5%BF%AB%E6%89%8B%E8%81%94%E7%9B%9F%22%5D%7D)
 - [快看漫画](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FK%2F%E5%BF%AB%E7%9C%8B%E6%BC%AB%E7%94%BB%2Frewrite%2Fkkmh.conf%2C%20tag%3D%E5%BF%AB%E7%9C%8B%E6%BC%AB%E7%94%BB%22%5D%7D)
 - [快递100](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FK%2F%E5%BF%AB%E9%80%92100%2Frewrite%2Fkuaidi100.conf%2C%20tag%3D%E5%BF%AB%E9%80%92100%22%5D%7D)
 - [看东方](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FK%2F%E7%9C%8B%E4%B8%9C%E6%96%B9%2Frewrite%2Fbestv.conf%2C%20tag%3D%E7%9C%8B%E4%B8%9C%E6%96%B9%22%5D%7D)
