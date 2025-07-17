@@ -1,7 +1,7 @@
 # W
 <details>
 <summary>
-本目录共收录25个App，详情见如下，单击导入对应配置：
+本目录共收录26个App，详情见如下，单击导入对应配置：
 </summary>
 
 - [WPSOffice](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FW%2FWPSOffice%2Frewrite%2Fwps.conf%2C%20tag%3DWPSOffice%22%5D%7D)
@@ -13,6 +13,7 @@
 - [威锋](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FW%2F%E5%A8%81%E9%94%8B%2Frewrite%2Fwf.conf%2C%20tag%3D%E5%A8%81%E9%94%8B%22%5D%7D)
 - [完美世界电竞](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FW%2F%E5%AE%8C%E7%BE%8E%E4%B8%96%E7%95%8C%E7%94%B5%E7%AB%9E%2Frewrite%2Fwmpvp.conf%2C%20tag%3D%E5%AE%8C%E7%BE%8E%E4%B8%96%E7%95%8C%E7%94%B5%E7%AB%9E%22%5D%7D)
 - [微信](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FW%2F%E5%BE%AE%E4%BF%A1%2Ffilter%2Fwechat.list%2C%20tag%3D%E5%BE%AE%E4%BF%A1%22%5D%2C%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FW%2F%E5%BE%AE%E4%BF%A1%2Frewrite%2Fwechat.conf%2C%20tag%3D%E5%BE%AE%E4%BF%A1%22%5D%7D)
+- [微医](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FW%2F%E5%BE%AE%E5%8C%BB%2Frewrite%2Fguahao.conf%2C%20tag%3D%E5%BE%AE%E5%8C%BB%22%5D%7D)
 - [微博](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FW%2F%E5%BE%AE%E5%8D%9A%2Ffilter%2Fweibo.list%2C%20tag%3D%E5%BE%AE%E5%8D%9A%22%5D%2C%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FW%2F%E5%BE%AE%E5%8D%9A%2Frewrite%2Fweibo.conf%2C%20tag%3D%E5%BE%AE%E5%8D%9A%22%5D%7D)
 - [微店](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FW%2F%E5%BE%AE%E5%BA%97%2Frewrite%2Fweidian.conf%2C%20tag%3D%E5%BE%AE%E5%BA%97%22%5D%7D)
 - [我爱卡社区管家](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FW%2F%E6%88%91%E7%88%B1%E5%8D%A1%E7%A4%BE%E5%8C%BA%E7%AE%A1%E5%AE%B6%2Frewrite%2F51credit.conf%2C%20tag%3D%E6%88%91%E7%88%B1%E5%8D%A1%E7%A4%BE%E5%8C%BA%E7%AE%A1%E5%AE%B6%22%5D%7D)

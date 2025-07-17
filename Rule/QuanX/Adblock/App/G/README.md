@@ -1,7 +1,7 @@
 # G
 <details>
 <summary>
-本目录共收录17个App，详情见如下，单击导入对应配置：
+本目录共收录16个App，详情见如下，单击导入对应配置：
 </summary>
 
 - [公考雷达](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FG%2F%E5%85%AC%E8%80%83%E9%9B%B7%E8%BE%BE%2Frewrite%2Fgongkaoleida.conf%2C%20tag%3D%E5%85%AC%E8%80%83%E9%9B%B7%E8%BE%BE%22%5D%7D)
@@ -16,7 +16,6 @@
 - [广汽传祺](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FG%2F%E5%B9%BF%E6%B1%BD%E4%BC%A0%E7%A5%BA%2Frewrite%2Fgacmotor.conf%2C%20tag%3D%E5%B9%BF%E6%B1%BD%E4%BC%A0%E7%A5%BA%22%5D%7D)
 - [广汽本田](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FG%2F%E5%B9%BF%E6%B1%BD%E6%9C%AC%E7%94%B0%2Frewrite%2Fghac.conf%2C%20tag%3D%E5%B9%BF%E6%B1%BD%E6%9C%AC%E7%94%B0%22%5D%7D)
 - [怪兽充电](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FG%2F%E6%80%AA%E5%85%BD%E5%85%85%E7%94%B5%2Frewrite%2Fenmonster.conf%2C%20tag%3D%E6%80%AA%E5%85%BD%E5%85%85%E7%94%B5%22%5D%7D)
-- [挂号网](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FG%2F%E6%8C%82%E5%8F%B7%E7%BD%91%2Frewrite%2Fguahao.conf%2C%20tag%3D%E6%8C%82%E5%8F%B7%E7%BD%91%22%5D%7D)
 - [盖得排行](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FG%2F%E7%9B%96%E5%BE%97%E6%8E%92%E8%A1%8C%2Frewrite%2Fguiderank.conf%2C%20tag%3D%E7%9B%96%E5%BE%97%E6%8E%92%E8%A1%8C%22%5D%7D)
 - [稿定设计](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FG%2F%E7%A8%BF%E5%AE%9A%E8%AE%BE%E8%AE%A1%2Frewrite%2Fgaoding.conf%2C%20tag%3D%E7%A8%BF%E5%AE%9A%E8%AE%BE%E8%AE%A1%22%5D%7D)
 - [高德地图](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FG%2F%E9%AB%98%E5%BE%B7%E5%9C%B0%E5%9B%BE%2Ffilter%2Famap.list%2C%20tag%3D%E9%AB%98%E5%BE%B7%E5%9C%B0%E5%9B%BE%22%5D%2C%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FG%2F%E9%AB%98%E5%BE%B7%E5%9C%B0%E5%9B%BE%2Frewrite%2Famap.conf%2C%20tag%3D%E9%AB%98%E5%BE%B7%E5%9C%B0%E5%9B%BE%22%5D%7D)
