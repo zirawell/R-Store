@@ -1,8 +1,0 @@
-# > 全球购骑士卡 - BLACKUNIQUE
-
-[Map Local]
-^https?:\/\/facade-api\.black-unique\.com\/app\/v\d\/startScreen\?.* data-type=text data="{}" status-code=200
-^https?:\/\/facade-api\.black-unique\.com\/advertise\/v\d\/get\?.* data-type=text data="{}" status-code=200
-
-[MITM]
-hostname= %APPEND% facade-api.black-unique.com
