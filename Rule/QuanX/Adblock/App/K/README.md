@@ -1,7 +1,7 @@
 # K
 <details>
 <summary>
-本目录共收录17个App，详情见如下，单击导入对应配置：
+本目录共收录16个App，详情见如下，单击导入对应配置：
 </summary>
 
 - [keep](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FK%2Fkeep%2Ffilter%2Fkeep.list%2C%20tag%3Dkeep%22%5D%2C%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FK%2Fkeep%2Frewrite%2Fkeep.conf%2C%20tag%3Dkeep%22%5D%7D)
@@ -16,7 +16,6 @@
 - [看东方](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FK%2F%E7%9C%8B%E4%B8%9C%E6%96%B9%2Frewrite%2Fbestv.conf%2C%20tag%3D%E7%9C%8B%E4%B8%9C%E6%96%B9%22%5D%7D)
 - [看天下](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FK%2F%E7%9C%8B%E5%A4%A9%E4%B8%8B%2Frewrite%2Fvistastory.conf%2C%20tag%3D%E7%9C%8B%E5%A4%A9%E4%B8%8B%22%5D%7D)
 - [看理想](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FK%2F%E7%9C%8B%E7%90%86%E6%83%B3%2Frewrite%2Fvistopia.conf%2C%20tag%3D%E7%9C%8B%E7%90%86%E6%83%B3%22%5D%7D)
-- [考拉](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FK%2F%E8%80%83%E6%8B%89%2Frewrite%2Fkaola.conf%2C%20tag%3D%E8%80%83%E6%8B%89%22%5D%7D)
 - [肯德基](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FK%2F%E8%82%AF%E5%BE%B7%E5%9F%BA%2Frewrite%2Fkfc.conf%2C%20tag%3D%E8%82%AF%E5%BE%B7%E5%9F%BA%22%5D%7D)
 - [酷安](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FK%2F%E9%85%B7%E5%AE%89%2Frewrite%2Fcoolapk.conf%2C%20tag%3D%E9%85%B7%E5%AE%89%22%5D%7D)
 - [酷我音乐](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FK%2F%E9%85%B7%E6%88%91%E9%9F%B3%E4%B9%90%2Ffilter%2Fkuwo.list%2C%20tag%3D%E9%85%B7%E6%88%91%E9%9F%B3%E4%B9%90%22%5D%2C%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FK%2F%E9%85%B7%E6%88%91%E9%9F%B3%E4%B9%90%2Frewrite%2Fkuwo.conf%2C%20tag%3D%E9%85%B7%E6%88%91%E9%9F%B3%E4%B9%90%22%5D%7D)
