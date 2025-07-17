@@ -1,4 +1,15 @@
-# > 广告联盟 - ADUNION
+#!name=广告联盟 - ADUNION
+#!desc=功能类插件
+#!openUrl=
+#!bundleId=
+#!author=zirawell[https://github.com/zirawell]
+#!tag=去广告
+#!system=iOS
+#!surge_version=5.14.2(Build3405,SDK18.2)
+#!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
+#!icon=
+#!date=2025-07-17
+
 # > 神策 - SENSORDATA
 # > GozenData - GOZENDATA
 # > 字节 - BYTEDANCE

@@ -1,7 +1,18 @@
+#!name=功能类插件 - FUNCTIONAL PLUGIN
+#!desc=功能类插件
+#!openUrl=
+#!bundleId=
+#!author=zirawell[https://github.com/zirawell]
+#!tag=插件
+#!system=iOS
+#!surge_version=5.14.2(Build3405,SDK18.2)
+#!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
+#!icon=
+#!date=2025-07-17
+
 # > 安全浏览限制解除 - UNLOCKSAFE
 # > DNS拦截 - DNSINTERCEPT
 # > Adobe Flash China Special Edition - ADSEUNLOCK
-# > 功能类 - FUNCTIONAL
 
 [Rule]
 DOMAIN, lookup.api.bsb.baidu.com, REJECT, extended-matching, pre-matching
