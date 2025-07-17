@@ -172,6 +172,10 @@
       "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/checked/dingda.png"
     },
     {
+      "name": "linkedin",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/checked/linkedin.png"
+    },
+    {
       "name": "inoreader",
       "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/checked/inoreader.png"
     },
@@ -1478,6 +1482,10 @@
     {
       "name": "ddmc",
       "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/ddmc.png"
+    },
+    {
+      "name": "wacai",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/checked/wacai.png"
     },
     {
       "name": "toutiao",
