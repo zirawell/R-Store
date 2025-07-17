@@ -1,7 +1,0 @@
-# > 日产智联 - NISSAN
-
-[Map Local]
-^https?:\/\/oneapph5\.dongfeng-nissan\.com\.cn\/mb-gw\/vmsp-discover\/rest\/business-service\/v\d\/advert\/advertinfo data-type=text data="{}" status-code=200
-
-[MITM]
-hostname= %APPEND% oneapph5.dongfeng-nissan.com.cn

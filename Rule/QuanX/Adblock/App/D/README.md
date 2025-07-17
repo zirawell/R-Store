@@ -1,7 +1,7 @@
 # D
 <details>
 <summary>
-本目录共收录31个App，详情见如下，单击导入对应配置：
+本目录共收录32个App，详情见如下，单击导入对应配置：
 </summary>
 
 - [DJI](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FD%2FDJI%2Frewrite%2Fdji.conf%2C%20tag%3DDJI%22%5D%7D)
@@ -10,6 +10,7 @@
 - [丁香园](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FD%2F%E4%B8%81%E9%A6%99%E5%9B%AD%2Frewrite%2Fdxy.conf%2C%20tag%3D%E4%B8%81%E9%A6%99%E5%9B%AD%22%5D%7D)
 - [东方航空](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FD%2F%E4%B8%9C%E6%96%B9%E8%88%AA%E7%A9%BA%2Frewrite%2Fceair.conf%2C%20tag%3D%E4%B8%9C%E6%96%B9%E8%88%AA%E7%A9%BA%22%5D%7D)
 - [东方财富](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FD%2F%E4%B8%9C%E6%96%B9%E8%B4%A2%E5%AF%8C%2Ffilter%2Feastmoney.list%2C%20tag%3D%E4%B8%9C%E6%96%B9%E8%B4%A2%E5%AF%8C%22%5D%2C%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FD%2F%E4%B8%9C%E6%96%B9%E8%B4%A2%E5%AF%8C%2Frewrite%2Feastmoney.conf%2C%20tag%3D%E4%B8%9C%E6%96%B9%E8%B4%A2%E5%AF%8C%22%5D%7D)
+- [东风日产](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FD%2F%E4%B8%9C%E9%A3%8E%E6%97%A5%E4%BA%A7%2Frewrite%2Fnissan.conf%2C%20tag%3D%E4%B8%9C%E9%A3%8E%E6%97%A5%E4%BA%A7%22%5D%7D)
 - [低端影视](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FD%2F%E4%BD%8E%E7%AB%AF%E5%BD%B1%E8%A7%86%2Frewrite%2Fddrk.conf%2C%20tag%3D%E4%BD%8E%E7%AB%AF%E5%BD%B1%E8%A7%86%22%5D%7D)
 - [到梦空间](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FD%2F%E5%88%B0%E6%A2%A6%E7%A9%BA%E9%97%B4%2Frewrite%2F5idream.conf%2C%20tag%3D%E5%88%B0%E6%A2%A6%E7%A9%BA%E9%97%B4%22%5D%7D)
 - [动卡空间](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FD%2F%E5%8A%A8%E5%8D%A1%E7%A9%BA%E9%97%B4%2Frewrite%2Fecitic.conf%2C%20tag%3D%E5%8A%A8%E5%8D%A1%E7%A9%BA%E9%97%B4%22%5D%7D)
