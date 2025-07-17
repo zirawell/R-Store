@@ -1,7 +1,7 @@
 # W
 <details>
 <summary>
-本目录共收录26个App，详情见如下，单击导入对应配置：
+本目录共收录25个App，详情见如下，单击导入对应配置：
 </summary>
 
 - [WPSOffice](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FW%2FWPSOffice%2Frewrite%2Fwps.conf%2C%20tag%3DWPSOffice%22%5D%7D)
@@ -26,7 +26,6 @@
 - [网易大神](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FW%2F%E7%BD%91%E6%98%93%E5%A4%A7%E7%A5%9E%2Frewrite%2F163god.conf%2C%20tag%3D%E7%BD%91%E6%98%93%E5%A4%A7%E7%A5%9E%22%5D%7D)
 - [网易新闻](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FW%2F%E7%BD%91%E6%98%93%E6%96%B0%E9%97%BB%2Frewrite%2F163news.conf%2C%20tag%3D%E7%BD%91%E6%98%93%E6%96%B0%E9%97%BB%22%5D%7D)
 - [网易有道词典](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FW%2F%E7%BD%91%E6%98%93%E6%9C%89%E9%81%93%E8%AF%8D%E5%85%B8%2Ffilter%2F163youdao.list%2C%20tag%3D%E7%BD%91%E6%98%93%E6%9C%89%E9%81%93%E8%AF%8D%E5%85%B8%22%5D%2C%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FW%2F%E7%BD%91%E6%98%93%E6%9C%89%E9%81%93%E8%AF%8D%E5%85%B8%2Frewrite%2F163youdao.conf%2C%20tag%3D%E7%BD%91%E6%98%93%E6%9C%89%E9%81%93%E8%AF%8D%E5%85%B8%22%5D%7D)
-- [网易考拉](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FW%2F%E7%BD%91%E6%98%93%E8%80%83%E6%8B%89%2Frewrite%2F163kaola.conf%2C%20tag%3D%E7%BD%91%E6%98%93%E8%80%83%E6%8B%89%22%5D%7D)
 - [网易蜗牛读书](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FW%2F%E7%BD%91%E6%98%93%E8%9C%97%E7%89%9B%E8%AF%BB%E4%B9%A6%2Frewrite%2F163woniu.conf%2C%20tag%3D%E7%BD%91%E6%98%93%E8%9C%97%E7%89%9B%E8%AF%BB%E4%B9%A6%22%5D%7D)
 - [网易邮箱大师](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FW%2F%E7%BD%91%E6%98%93%E9%82%AE%E7%AE%B1%E5%A4%A7%E5%B8%88%2Frewrite%2F163mail.conf%2C%20tag%3D%E7%BD%91%E6%98%93%E9%82%AE%E7%AE%B1%E5%A4%A7%E5%B8%88%22%5D%7D)
 - [蜗牛睡眠](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FW%2F%E8%9C%97%E7%89%9B%E7%9D%A1%E7%9C%A0%2Frewrite%2Fsnailsleep.conf%2C%20tag%3D%E8%9C%97%E7%89%9B%E7%9D%A1%E7%9C%A0%22%5D%7D)
