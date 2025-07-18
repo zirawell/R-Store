@@ -1,7 +1,0 @@
-# > 比亚迪王朝 - BYDWC
-
-[Map Local]
-^https?:\/\/cache\.bydauto\.com\.cn\/dilink_user_upload\/20 data-type=text data="" status-code=200
-
-[MITM]
-hostname= %APPEND% cache.bydauto.com.cn
