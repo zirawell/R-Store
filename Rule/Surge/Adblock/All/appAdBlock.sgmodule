@@ -2619,7 +2619,6 @@ https?:\/\/awg\.enmonster\.com\/apa\/(advert\/demand\/home\/poster|index\/advert
 http-response ^https?:\/\/tft-app\.cdtft\.cn\/gateway-customer\/tftapp\/tft-ams\/api\/appAd officialAdvertResultVo random-response
 http-response ^https?:\/\/zone\.guiderank-app\.com\/guiderank-web\/app\/common\/getInitData SpecialSalePageMidTabConfig random_body
 http-response ^https?:\/\/app\.zhuanzhuan\.com\/zz\/v\d\/zzinfoshow\/getchoicegoodsinfos infoData random_body
-http-response ^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=lite_advertising jdLiteAdvertisingVO random_body
 http-response ^https?:\/\/www\.tailgdd\.com\/v\d\/smart\/app\/config\/get$ footResource footResource0
 http-response ^https?:\/\/res\.cc\.cmbimg\.com\/fsp\/File\/ClientFacePublic\/\w+\.DAT$ widget widget0
 http-response ^https?:\/\/client\.tujia\.com\/bnbapp-node\/app\/portal\/getportalconfig\/bnb\/v\d "banners":\[.+\], "banners":[],
@@ -2633,7 +2632,6 @@ http-response ^https?:\/\/www\.pushplus\.plus.* (<head>) $1<style
 http-response ^https?:\/\/api\.boohee\.com\/meta-interface\/v\d\/index\/record_index articles random_body
 http-response ^https?:\/\/www\.i3zh\.com cm-pop-up-banners random_body
 http-response ^https?:\/\/ut\.xiaojukeji\.com\/ut\/kappa\/api\/owner\/index banner_items random_body
-http-response ^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=lite_SmartPush pushData random_body
 http-response ^https?:\/\/(h3\.)?open\.taou\.com\/maimai\/feed\/v\d\/detail_recommend_feeds feeds random_body
 http-response ^https?:\/\/lcen\.xiaote\.net\/api\/graphql screenSplashAd random-response
 http-response ^https?:\/\/api\.swiftgram\.app\/v0\/settings announcements_data random_body
@@ -2727,7 +2725,6 @@ vvebo = type=http-response,pattern=^https?:\/\/api\.weibo\.cn\/2\/remind\/unread
 iqiyi = type=http-response,pattern=^https?:\/\/cards\.iqiyi\.com\/(views_home\/3\.0\/qy_home|waterfall\/3\.0\/feed)\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/cntv.js
 vvebo = type=http-response,pattern=^https?:\/\/api\.weibo\.cn\/2\/users\/show\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/vvebo.js
 rrtv = type=http-response,pattern=^https?:\/\/api\.rr\.tv\/user\/privilege\/list,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/rrtv.js
-jx = type=http-response,pattern=^https?:\/\/api\.m\.jd\.com\/api\?functionId=delivery_show,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/jx.js
 weibo = type=http-response,pattern=^https?:\/\/api\.weibo\.cn\/2\/(container\/asyn|flowlist|flowpage)\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/weibo.js
 bilibili = type=http-response,pattern=^https?:\/\/app\.bilibili\.com\/x\/v\d\/(feed\/index(\/story)?|search\/square)\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/bilibiliJson.js
 txnews = type=http-response,pattern=^https?:\/\/r\.inews\.qq\.com\/gw\/page\/(?>event_detail|channel_feed),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/txnews.js

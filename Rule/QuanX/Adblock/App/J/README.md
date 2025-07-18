@@ -1,7 +1,7 @@
 # J
 <details>
 <summary>
-本目录共收录28个App，详情见如下，单击导入对应配置：
+本目录共收录27个App，详情见如下，单击导入对应配置：
 </summary>
 
 - [JavDB](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FJ%2FJavDB%2Ffilter%2Fjavdb.list%2C%20tag%3DJavDB%22%5D%2C%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FJ%2FJavDB%2Frewrite%2Fjavdb.conf%2C%20tag%3DJavDB%22%5D%7D)
@@ -12,7 +12,6 @@
 - [京东极速版](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FJ%2F%E4%BA%AC%E4%B8%9C%E6%9E%81%E9%80%9F%E7%89%88%2Frewrite%2Fjdlite.conf%2C%20tag%3D%E4%BA%AC%E4%B8%9C%E6%9E%81%E9%80%9F%E7%89%88%22%5D%7D)
 - [京东读书](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FJ%2F%E4%BA%AC%E4%B8%9C%E8%AF%BB%E4%B9%A6%2Frewrite%2Fjdread.conf%2C%20tag%3D%E4%BA%AC%E4%B8%9C%E8%AF%BB%E4%B9%A6%22%5D%7D)
 - [京东金融](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FJ%2F%E4%BA%AC%E4%B8%9C%E9%87%91%E8%9E%8D%2Frewrite%2Fjdjr.conf%2C%20tag%3D%E4%BA%AC%E4%B8%9C%E9%87%91%E8%9E%8D%22%5D%7D)
-- [京喜](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FJ%2F%E4%BA%AC%E5%96%9C%2Frewrite%2Fjx.conf%2C%20tag%3D%E4%BA%AC%E5%96%9C%22%5D%7D)
 - [今日头条](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FJ%2F%E4%BB%8A%E6%97%A5%E5%A4%B4%E6%9D%A1%2Ffilter%2Ftoutiao.list%2C%20tag%3D%E4%BB%8A%E6%97%A5%E5%A4%B4%E6%9D%A1%22%5D%2C%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FJ%2F%E4%BB%8A%E6%97%A5%E5%A4%B4%E6%9D%A1%2Frewrite%2Ftoutiao.conf%2C%20tag%3D%E4%BB%8A%E6%97%A5%E5%A4%B4%E6%9D%A1%22%5D%7D)
 - [今日水印相机](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FJ%2F%E4%BB%8A%E6%97%A5%E6%B0%B4%E5%8D%B0%E7%9B%B8%E6%9C%BA%2Frewrite%2Fsogaha.conf%2C%20tag%3D%E4%BB%8A%E6%97%A5%E6%B0%B4%E5%8D%B0%E7%9B%B8%E6%9C%BA%22%5D%7D)
 - [加油广东](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FJ%2F%E5%8A%A0%E6%B2%B9%E5%B9%BF%E4%B8%9C%2Frewrite%2Fgdoil.conf%2C%20tag%3D%E5%8A%A0%E6%B2%B9%E5%B9%BF%E4%B8%9C%22%5D%7D)
