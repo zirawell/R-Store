@@ -2387,8 +2387,8 @@ https?:\/\/awg\.enmonster\.com\/apa\/(advert\/demand\/home\/poster|index\/advert
 ^https?:\/\/api\.sogaha\.cn\/ssp\/ad\/get\?ip data-type=text data="{}" status-code=200
 ^https?:\/\/elife\.icbc\.com\.cn\/OFSTNEWBASE\/floorinfo\/getStartupPages data-type=text data="{}" status-code=200
 ^https?:\/\/mbank\.grcbank\.com\/ydyh\/resources\/startpage\/.*.(?>jpg|png) data-type=text data="" status-code=200
-^https?:\/\/order-app-api\.lbdj\.com\/lbdj\/apporder\/ad\/ data-type=text data="{}" status-code=200
 ^https?:\/\/(cdn-)?topic\.kkmh\.com\/gamecard\/v\d\/activityModule\/userSignInInfo\?activitySignInConfigId data-type=text data="{}" status-code=200
+^https?:\/\/order-app-api\.lbdj\.com\/lbdj\/apporder\/ad\/ data-type=text data="{}" status-code=200
 ^https?:\/\/(www|api)\.duitang\.com\/napi\/ad data-type=text data="{}" status-code=200
 ^https?:\/\/client\.tujia\.com\/bnbapp-node data-type=text data="{}" status-code=200
 ^https?:\/\/gss0\.bdstatic\.com\/.+?\/static\/wiseindex\/img\/bd_red_packet\.png data-type=tiny-gif status-code=200
