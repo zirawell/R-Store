@@ -1,7 +1,7 @@
 {
   "name": "All Icons",
   "description": "collected by zirawell",
-  "time": "2025-07-17",
+  "time": "2025-07-18",
   "icons": [
     {
       "name": "tmyc",
@@ -1236,6 +1236,10 @@
       "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/checked/tujia.png"
     },
     {
+      "name": "byd",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/checked/byd.png"
+    },
+    {
       "name": "bilibiliManga",
       "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/checked/bilibiliManga.png"
     },
@@ -1510,10 +1514,6 @@
     {
       "name": "ppx",
       "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/checked/ppx.png"
-    },
-    {
-      "name": "bydwc",
-      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/bydwc.png"
     },
     {
       "name": "ulife",
@@ -1822,10 +1822,6 @@
     {
       "name": "cmgadx",
       "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/checked/cmgadx.png"
-    },
-    {
-      "name": "daydaycook",
-      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/daydaycook.png"
     },
     {
       "name": "liepin",
