@@ -1,8 +1,0 @@
-# > 日日煮 - DAYDAYCOOK
-
-[URL Rewrite]
-^https?:\/\/cms\.daydaycook\.com\.cn\/api\/cms\/advertisement\/ - reject
-^https?:\/\/api\.daydaycook\.com\.cn\/daydaycook\/server\/ad\/ - reject
-
-[MITM]
-hostname= %APPEND% cms.daydaycook.com.cn, api.daydaycook.com.cn
