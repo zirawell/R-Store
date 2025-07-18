@@ -1,7 +1,7 @@
 {
   "name": "All Icons",
   "description": "collected by zirawell",
-  "time": "2025-07-18",
+  "time": "2025-07-19",
   "icons": [
     {
       "name": "tmyc",
@@ -234,6 +234,10 @@
     {
       "name": "10099",
       "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/checked/10099.png"
+    },
+    {
+      "name": "futunn",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/checked/futunn.png"
     },
     {
       "name": "weibo",
