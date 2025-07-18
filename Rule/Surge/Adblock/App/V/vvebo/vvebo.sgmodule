@@ -1,4 +1,14 @@
-# > VVebo - VVEBO
+#!name=VVebo - VVEBO
+#!desc=VVebo
+#!openUrl=
+#!bundleId=com.johnil.vvebo
+#!author=zirawell[https://github.com/zirawell]
+#!tag=去广告
+#!system=iOS
+#!surge_version=5.14.2(Build3405,SDK18.2)
+#!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
+#!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/vvebo.png
+#!date=2025-07-18
 
 [Script]
 vvebo = type=http-response,pattern=^https?:\/\/api\.weibo\.cn\/2\/users\/show\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/vvebo.js
