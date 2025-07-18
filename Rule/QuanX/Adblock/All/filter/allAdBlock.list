@@ -1,11 +1,11 @@
 #!name=全部-广告拦截合集-分流规则
 #!desc=某些规则要清除缓存或者重新安装APP，拦截广告才会生效！
-#!count=支持约1321个分流规则
+#!count=支持约1318个分流规则
 #!author=zirawell
 #!homepage=https://github.com/zirawell/R-Store
 #!raw-url=https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/All/filter/allAdBlock.list
 #!tg-group=https://t.me/lanjieguanggao
-#!date=2025-07-09 14:40:45
+#!date=2025-07-18 14:50:24
 #!proxy-select=reject
 #!---------------------------------------------------------------------------------------------------------------
 ip-cidr, 1.202.85.193/32, reject
@@ -573,7 +573,6 @@ host-suffix, adbehavior.wsa.ximalaya.com, reject
 host-suffix, adbox.sina.com.cn, reject
 host-suffix, adbs.ximalaya.com, reject
 host-suffix, adcanvas.com, reject
-host-suffix, adfile.wifi8.com, reject
 host-suffix, adimg.uve.weibo.com, reject
 host-suffix, adimg.vue.weibo.com, reject
 host-suffix, adiu.amap.com, reject
@@ -583,7 +582,6 @@ host-suffix, adm.baidu.com, reject
 host-suffix, adm.leju.sina.com.cn, reject
 host-suffix, admobile.top, reject
 host-suffix, adnet.sohu.com, reject
-host-suffix, adnew.wifi8.com, reject
 host-suffix, adping.qq.com, reject
 host-suffix, adpm.app.qq.com, reject
 host-suffix, adrdir.qq.com, reject
@@ -740,7 +738,6 @@ host-suffix, cm.kwad.com, reject
 host-suffix, cm.passport.iqiyi.com, reject
 host-suffix, cm.track.biligame.bilibili.com, reject
 host-suffix, cmop.mgtv.com, reject
-host-suffix, cmsapi.wifi8.com, reject
 host-suffix, cmx.autohome.com.cn, reject
 host-suffix, cn-shanghai.nlb.aliyuncs.com, reject
 host-suffix, conv.youdao.com, reject
