@@ -16,8 +16,7 @@ DOMAIN, yl.zh.cmbchina.com, REJECT, extended-matching, pre-matching
 
 [Map Local]
 ^https?:\/\/webappcfg\.paas\.cmbchina\.com\/v\d\/func\/getmarketconfig data-type=text data="" status-code=200
-^https?:\/\/webapp\.joyingtrip\.com\/cmbapp\/api\/hotel\/marketing\/adListNew data-type=text data="{}" status-code=200
 ^https?:\/\/mobile\.cmbchina\.com\/dcardmanage\/salary-welfare\/get-recommend data-type=file data="https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Data/cmb.json"
 
 [MITM]
-hostname= %APPEND% webappcfg.paas.cmbchina.com, webapp.joyingtrip.com, mobile.cmbchina.com
+hostname= %APPEND% webappcfg.paas.cmbchina.com, mobile.cmbchina.com
