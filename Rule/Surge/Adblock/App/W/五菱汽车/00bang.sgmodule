@@ -1,0 +1,17 @@
+#!name=五菱汽车 - 00BANG
+#!desc=五菱汽车
+#!openUrl=https://apps.apple.com/app/id1027664387
+#!bundleId=com.cloudy.LingLingBang
+#!author=zirawell[https://github.com/zirawell]
+#!tag=去广告
+#!system=iOS
+#!surge_version=5.14.2(Build3405,SDK18.2)
+#!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
+#!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/00bang.png
+#!date=2025-07-18
+
+[Map Local]
+^https?:\/\/api\.00bang\.cn\/llb\/baseinfo\/advertise\/getAdvertiseByPageCode data-type=text data="" status-code=200
+
+[MITM]
+hostname= %APPEND% api.00bang.cn

@@ -1,7 +1,7 @@
 # L
 <details>
 <summary>
-本目录共收录23个App，详情见如下，单击导入对应配置：
+本目录共收录22个App，详情见如下，单击导入对应配置：
 </summary>
 
 - [line](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FL%2Fline%2Frewrite%2Fline.conf%2C%20tag%3Dline%22%5D%7D)
@@ -23,7 +23,6 @@
 - [猎聘](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FL%2F%E7%8C%8E%E8%81%98%2Ffilter%2Fliepin.list%2C%20tag%3D%E7%8C%8E%E8%81%98%22%5D%2C%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FL%2F%E7%8C%8E%E8%81%98%2Frewrite%2Fliepin.conf%2C%20tag%3D%E7%8C%8E%E8%81%98%22%5D%7D)
 - [联想](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FL%2F%E8%81%94%E6%83%B3%2Frewrite%2Flenovo.conf%2C%20tag%3D%E8%81%94%E6%83%B3%22%5D%7D)
 - [莱充](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FL%2F%E8%8E%B1%E5%85%85%2Frewrite%2Flaichon.conf%2C%20tag%3D%E8%8E%B1%E5%85%85%22%5D%7D)
-- [菱菱邦](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FL%2F%E8%8F%B1%E8%8F%B1%E9%82%A6%2Frewrite%2F00bang.conf%2C%20tag%3D%E8%8F%B1%E8%8F%B1%E9%82%A6%22%5D%7D)
 - [蓝基因](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FL%2F%E8%93%9D%E5%9F%BA%E5%9B%A0%2Ffilter%2Flanjiyin.list%2C%20tag%3D%E8%93%9D%E5%9F%BA%E5%9B%A0%22%5D%2C%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FL%2F%E8%93%9D%E5%9F%BA%E5%9B%A0%2Frewrite%2Flanjiyin.conf%2C%20tag%3D%E8%93%9D%E5%9F%BA%E5%9B%A0%22%5D%7D)
 - [领英](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FL%2F%E9%A2%86%E8%8B%B1%2Ffilter%2Flinkedin.list%2C%20tag%3D%E9%A2%86%E8%8B%B1%22%5D%2C%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FL%2F%E9%A2%86%E8%8B%B1%2Frewrite%2Flinkedin.conf%2C%20tag%3D%E9%A2%86%E8%8B%B1%22%5D%7D)
 - [鲁班到家](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FL%2F%E9%B2%81%E7%8F%AD%E5%88%B0%E5%AE%B6%2Frewrite%2Flbdj.conf%2C%20tag%3D%E9%B2%81%E7%8F%AD%E5%88%B0%E5%AE%B6%22%5D%7D)
