@@ -1,7 +1,7 @@
 # L
 <details>
 <summary>
-本目录共收录22个App，详情见如下，单击导入对应配置：
+本目录共收录21个App，详情见如下，单击导入对应配置：
 </summary>
 
 - [line](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FL%2Fline%2Frewrite%2Fline.conf%2C%20tag%3Dline%22%5D%7D)
@@ -12,7 +12,6 @@
 - [乐橙](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FL%2F%E4%B9%90%E6%A9%99%2Frewrite%2Flechange.conf%2C%20tag%3D%E4%B9%90%E6%A9%99%22%5D%7D)
 - [乐视视频](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FL%2F%E4%B9%90%E8%A7%86%E8%A7%86%E9%A2%91%2Ffilter%2Fletv.list%2C%20tag%3D%E4%B9%90%E8%A7%86%E8%A7%86%E9%A2%91%22%5D%7D)
 - [懒人听书](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FL%2F%E6%87%92%E4%BA%BA%E5%90%AC%E4%B9%A6%2Frewrite%2Fyyting.conf%2C%20tag%3D%E6%87%92%E4%BA%BA%E5%90%AC%E4%B9%A6%22%5D%7D)
-- [懒投资](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FL%2F%E6%87%92%E6%8A%95%E8%B5%84%2Frewrite%2Flantouzi.conf%2C%20tag%3D%E6%87%92%E6%8A%95%E8%B5%84%22%5D%7D)
 - [懒饭](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FL%2F%E6%87%92%E9%A5%AD%2Frewrite%2Flanfan.conf%2C%20tag%3D%E6%87%92%E9%A5%AD%22%5D%7D)
 - [拉卡拉](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FL%2F%E6%8B%89%E5%8D%A1%E6%8B%89%2Frewrite%2Flakala.conf%2C%20tag%3D%E6%8B%89%E5%8D%A1%E6%8B%89%22%5D%7D)
 - [拦截100](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FL%2F%E6%8B%A6%E6%88%AA100%2Frewrite%2Flanjie100.conf%2C%20tag%3D%E6%8B%A6%E6%88%AA100%22%5D%7D)
