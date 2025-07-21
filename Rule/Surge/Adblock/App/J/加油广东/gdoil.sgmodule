@@ -1,7 +1,0 @@
-# > 加油广东 - GDOIL
-
-[Map Local]
-^https?:\/\/img\.gdoil\.cn\/upload\/ad\/ data-type=text data="" status-code=200
-
-[MITM]
-hostname= %APPEND% img.gdoil.cn
