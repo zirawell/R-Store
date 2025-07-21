@@ -880,12 +880,12 @@
       "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/checked/meruki.png"
     },
     {
-      "name": "00bang",
-      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/00bang.png"
-    },
-    {
       "name": "jinjiang",
       "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/checked/jinjiang.png"
+    },
+    {
+      "name": "piaogen",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/checked/piaogen.png"
     },
     {
       "name": "topwidgets",
@@ -1528,10 +1528,6 @@
       "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/ibuscloud.png"
     },
     {
-      "name": "piaogen",
-      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/piaogen.png"
-    },
-    {
       "name": "ppx",
       "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/checked/ppx.png"
     },
@@ -1750,10 +1746,6 @@
     {
       "name": "duitang",
       "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/checked/duitang.png"
-    },
-    {
-      "name": "guahao",
-      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/guahao.png"
     },
     {
       "name": "xhtz",
