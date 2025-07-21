@@ -1,7 +1,0 @@
-# > 盈宝证券 - WINBULL
-
-[Map Local]
-^https?:\/\/api\.winbull8\.com\/v\d\/marketing\/(advert|activity)\/(?>list|page) data-type=text data="{}" status-code=200
-
-[MITM]
-hostname= %APPEND% api.winbull8.com
