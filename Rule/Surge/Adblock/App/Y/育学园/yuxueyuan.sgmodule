@@ -1,8 +1,0 @@
-# > 育学园 - YUXUEYUAN
-
-[Map Local]
-^https?:\/\/.*\.yuxueyuan\.cn\/yxy-api-gateway\/api\/json\/advert\/ data-type=text data="" status-code=200
-^https?:\/\/yxyapi\d\.drcuiyutao\.com\/yxy-api-gateway\/api\/json\/advert\/ data-type=text data="" status-code=200
-
-[MITM]
-hostname= %APPEND% *.yuxueyuan.cn, *.drcuiyutao.com
