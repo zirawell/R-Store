@@ -1,7 +1,7 @@
 # Y
 <details>
 <summary>
-本目录共收录33个App，详情见如下，单击导入对应配置：
+本目录共收录32个App，详情见如下，单击导入对应配置：
 </summary>
 
 - [Youtube](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FY%2FYoutube%2Ffilter%2Fyoutube.list%2C%20tag%3DYoutube%22%5D%2C%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FY%2FYoutube%2Frewrite%2Fyoutube.conf%2C%20tag%3DYoutube%22%5D%7D)
@@ -31,7 +31,6 @@
 - [猿辅导](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FY%2F%E7%8C%BF%E8%BE%85%E5%AF%BC%2Frewrite%2Fyuanfudao.conf%2C%20tag%3D%E7%8C%BF%E8%BE%85%E5%AF%BC%22%5D%7D)
 - [盈宝证券](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FY%2F%E7%9B%88%E5%AE%9D%E8%AF%81%E5%88%B8%2Frewrite%2Fwinbull.conf%2C%20tag%3D%E7%9B%88%E5%AE%9D%E8%AF%81%E5%88%B8%22%5D%7D)
 - [育之有道](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FY%2F%E8%82%B2%E4%B9%8B%E6%9C%89%E9%81%93%2Frewrite%2Fhydlight.conf%2C%20tag%3D%E8%82%B2%E4%B9%8B%E6%9C%89%E9%81%93%22%5D%7D)
-- [育学园](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FY%2F%E8%82%B2%E5%AD%A6%E5%9B%AD%2Frewrite%2Fyuxueyuan.conf%2C%20tag%3D%E8%82%B2%E5%AD%A6%E5%9B%AD%22%5D%7D)
 - [艺龙旅行](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FY%2F%E8%89%BA%E9%BE%99%E6%97%85%E8%A1%8C%2Frewrite%2Felong.conf%2C%20tag%3D%E8%89%BA%E9%BE%99%E6%97%85%E8%A1%8C%22%5D%7D)
 - [萤石云视频](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FY%2F%E8%90%A4%E7%9F%B3%E4%BA%91%E8%A7%86%E9%A2%91%2Frewrite%2Fys7.conf%2C%20tag%3D%E8%90%A4%E7%9F%B3%E4%BA%91%E8%A7%86%E9%A2%91%22%5D%7D)
 - [邮储信用卡](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FY%2F%E9%82%AE%E5%82%A8%E4%BF%A1%E7%94%A8%E5%8D%A1%2Frewrite%2Fpsbc.conf%2C%20tag%3D%E9%82%AE%E5%82%A8%E4%BF%A1%E7%94%A8%E5%8D%A1%22%5D%7D)
