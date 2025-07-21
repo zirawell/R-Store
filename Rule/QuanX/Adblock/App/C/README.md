@@ -1,7 +1,7 @@
 # C
 <details>
 <summary>
-本目录共收录19个App，详情见如下，单击导入对应配置：
+本目录共收录18个App，详情见如下，单击导入对应配置：
 </summary>
 
 - [chatgpt](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FC%2Fchatgpt%2Frewrite%2Fchatgpt.conf%2C%20tag%3Dchatgpt%22%5D%7D)
@@ -13,7 +13,6 @@
 - [彩云天气](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FC%2F%E5%BD%A9%E4%BA%91%E5%A4%A9%E6%B0%94%2Ffilter%2Fcaiyunapp.list%2C%20tag%3D%E5%BD%A9%E4%BA%91%E5%A4%A9%E6%B0%94%22%5D%2C%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FC%2F%E5%BD%A9%E4%BA%91%E5%A4%A9%E6%B0%94%2Frewrite%2Fcaiyunapp.conf%2C%20tag%3D%E5%BD%A9%E4%BA%91%E5%A4%A9%E6%B0%94%22%5D%7D)
 - [春秋航空](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FC%2F%E6%98%A5%E7%A7%8B%E8%88%AA%E7%A9%BA%2Frewrite%2Fchair.conf%2C%20tag%3D%E6%98%A5%E7%A7%8B%E8%88%AA%E7%A9%BA%22%5D%7D)
 - [曹操出行](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FC%2F%E6%9B%B9%E6%93%8D%E5%87%BA%E8%A1%8C%2Frewrite%2Fcaocao.conf%2C%20tag%3D%E6%9B%B9%E6%93%8D%E5%87%BA%E8%A1%8C%22%5D%7D)
-- [潮玩宇宙](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FC%2F%E6%BD%AE%E7%8E%A9%E5%AE%87%E5%AE%99%2Frewrite%2Flucklyworld.conf%2C%20tag%3D%E6%BD%AE%E7%8E%A9%E5%AE%87%E5%AE%99%22%5D%7D)
 - [磁力宅播放器](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FC%2F%E7%A3%81%E5%8A%9B%E5%AE%85%E6%92%AD%E6%94%BE%E5%99%A8%2Frewrite%2Fcilizhai.conf%2C%20tag%3D%E7%A3%81%E5%8A%9B%E5%AE%85%E6%92%AD%E6%94%BE%E5%99%A8%22%5D%7D)
 - [菜鸟](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FC%2F%E8%8F%9C%E9%B8%9F%2Frewrite%2Fcainiao.conf%2C%20tag%3D%E8%8F%9C%E9%B8%9F%22%5D%7D)
 - [财新](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FC%2F%E8%B4%A2%E6%96%B0%2Ffilter%2Fcaixin.list%2C%20tag%3D%E8%B4%A2%E6%96%B0%22%5D%2C%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FC%2F%E8%B4%A2%E6%96%B0%2Frewrite%2Fcaixin.conf%2C%20tag%3D%E8%B4%A2%E6%96%B0%22%5D%7D)
