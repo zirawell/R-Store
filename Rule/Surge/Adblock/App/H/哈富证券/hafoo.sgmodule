@@ -1,7 +1,0 @@
-# > 哈富证券 - HAFOO
-
-[Map Local]
-^https?:\/\/emisdatacenterhk\.hafoo\.com\.hk\/ad\/api\/v\d\/appMarket data-type=text data="{}" status-code=200
-
-[MITM]
-hostname= %APPEND% emisdatacenterhk.hafoo.com.hk

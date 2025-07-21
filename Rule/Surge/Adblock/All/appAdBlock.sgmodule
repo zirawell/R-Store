@@ -2052,8 +2052,8 @@ https?:\/\/awg\.enmonster\.com\/apa\/(advert\/demand\/home\/poster|index\/advert
 ^https?:\/\/m\d\.amap\.com\/ws\/faas\/amap-navigation\/card-service-(?>car-end|route-plan) data-type=text data="{}" status-code=200
 ^https?:\/\/api-sams\.walmartmobile\.cn\/api\/v\d\/sams\/trade\/order\/getOftenBuyGoods data-type=text data="{}" status-code=200
 ^https?:\/\/conf\.diditaxi\.com\.cn\/homepage\/v\d\/other\/fast data-type=text data="{}" status-code=200
-^https?:\/\/appconf\.mail\.163\.com\/mmad data-type=text data="" status-code=200
 ^https?:\/\/emisdatacenterhk\.hafoo\.com\.hk\/ad\/api\/v\d\/appMarket data-type=text data="{}" status-code=200
+^https?:\/\/appconf\.mail\.163\.com\/mmad data-type=text data="" status-code=200
 ^https?:\/\/api\.zhihu\.com\/v\d\.\d\/topics\/answer\/\d+\/relation data-type=text data="{}" status-code=200
 ^https?:\/\/app\.10099\.com\.cn\/contact-web\/api\/version\/getFlashScreenPage data-type=text data="" status-code=200
 ^https?:\/\/gateway(retry)?\.kugou\.com\/r\/v\d\/general\/putin\/midad data-type=text data="{}" status-code=200

@@ -1,0 +1,17 @@
+#!name=哈富證券 - HAFOO
+#!desc=哈富證券-一世0佣 投資港股美股A股，ETF，期權，基金
+#!openUrl=https://apps.apple.com/app/id1597406698
+#!bundleId=com.hafoo.trade.ios
+#!author=zirawell[https://github.com/zirawell]
+#!tag=去广告
+#!system=iOS
+#!surge_version=5.14.2(Build3405,SDK18.2)
+#!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
+#!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/hafoo.png
+#!date=2025-07-21
+
+[Map Local]
+^https?:\/\/emisdatacenterhk\.hafoo\.com\.hk\/ad\/api\/v\d\/appMarket data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% emisdatacenterhk.hafoo.com.hk

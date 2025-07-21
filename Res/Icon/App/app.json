@@ -1,7 +1,7 @@
 {
   "name": "App Icons",
   "description": "collected by zirawell",
-  "time": "2025-07-19",
+  "time": "2025-07-21",
   "icons": [
     {
       "name": "tmyc",
@@ -1174,6 +1174,10 @@
     {
       "name": "gcores",
       "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/checked/gcores.png"
+    },
+    {
+      "name": "hafoo",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/checked/hafoo.png"
     },
     {
       "name": "sdb",
