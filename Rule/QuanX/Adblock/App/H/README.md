@@ -1,7 +1,7 @@
 # H
 <details>
 <summary>
-本目录共收录28个App，详情见如下，单击导入对应配置：
+本目录共收录27个App，详情见如下，单击导入对应配置：
 </summary>
 
 - [华住会](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FH%2F%E5%8D%8E%E4%BD%8F%E4%BC%9A%2Frewrite%2Fhuazhu.conf%2C%20tag%3D%E5%8D%8E%E4%BD%8F%E4%BC%9A%22%5D%7D)
@@ -14,7 +14,6 @@
 - [哈富證券](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FH%2F%E5%93%88%E5%AF%8C%E8%AD%89%E5%88%B8%2Frewrite%2Fhafoo.conf%2C%20tag%3D%E5%93%88%E5%AF%8C%E8%AD%89%E5%88%B8%22%5D%7D)
 - [嗨学课堂](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FH%2F%E5%97%A8%E5%AD%A6%E8%AF%BE%E5%A0%82%2Frewrite%2Fhaixue.conf%2C%20tag%3D%E5%97%A8%E5%AD%A6%E8%AF%BE%E5%A0%82%22%5D%7D)
 - [好体知](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FH%2F%E5%A5%BD%E4%BD%93%E7%9F%A5%2Frewrite%2Fbodivis.conf%2C%20tag%3D%E5%A5%BD%E4%BD%93%E7%9F%A5%22%5D%7D)
-- [好奇心日报](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FH%2F%E5%A5%BD%E5%A5%87%E5%BF%83%E6%97%A5%E6%8A%A5%2Frewrite%2Fqdaily.conf%2C%20tag%3D%E5%A5%BD%E5%A5%87%E5%BF%83%E6%97%A5%E6%8A%A5%22%5D%7D)
 - [好好住](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FH%2F%E5%A5%BD%E5%A5%BD%E4%BD%8F%2Frewrite%2Fhaohaozhu.conf%2C%20tag%3D%E5%A5%BD%E5%A5%BD%E4%BD%8F%22%5D%7D)
 - [好轻](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FH%2F%E5%A5%BD%E8%BD%BB%2Frewrite%2Fiyunmai.conf%2C%20tag%3D%E5%A5%BD%E8%BD%BB%22%5D%7D)
 - [杭州公交](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FH%2F%E6%9D%AD%E5%B7%9E%E5%85%AC%E4%BA%A4%2Frewrite%2Fibuscloud.conf%2C%20tag%3D%E6%9D%AD%E5%B7%9E%E5%85%AC%E4%BA%A4%22%5D%7D)

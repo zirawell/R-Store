@@ -1,8 +1,0 @@
-# > 好奇心日报 - QDAILY
-
-[URL Rewrite]
-^https?:\/\/notch\.qdaily\.com\/api\/v\d\/boot_ad - reject
-^https?:\/\/app\d\.qdaily\.com\/app\d\/boot_advertisements - reject
-
-[MITM]
-hostname= %APPEND% notch.qdaily.com, app3.qdaily.com
