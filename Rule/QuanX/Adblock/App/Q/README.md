@@ -1,11 +1,10 @@
 # Q
 <details>
 <summary>
-本目录共收录23个App，详情见如下，单击导入对应配置：
+本目录共收录22个App，详情见如下，单击导入对应配置：
 </summary>
 
 - [QQ浏览器](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FQ%2FQQ%E6%B5%8F%E8%A7%88%E5%99%A8%2Frewrite%2Fqqbrowser.conf%2C%20tag%3DQQ%E6%B5%8F%E8%A7%88%E5%99%A8%22%5D%7D)
-- [QQ钱包](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FQ%2FQQ%E9%92%B1%E5%8C%85%2Frewrite%2Fqianbao.conf%2C%20tag%3DQQ%E9%92%B1%E5%8C%85%22%5D%7D)
 - [QQ音乐](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FQ%2FQQ%E9%9F%B3%E4%B9%90%2Ffilter%2Fqqmusic.list%2C%20tag%3DQQ%E9%9F%B3%E4%B9%90%22%5D%2C%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FQ%2FQQ%E9%9F%B3%E4%B9%90%2Frewrite%2Fqqmusic.conf%2C%20tag%3DQQ%E9%9F%B3%E4%B9%90%22%5D%7D)
 - [亲宝宝](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FQ%2F%E4%BA%B2%E5%AE%9D%E5%AE%9D%2Ffilter%2Fqbb.list%2C%20tag%3D%E4%BA%B2%E5%AE%9D%E5%AE%9D%22%5D%2C%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FQ%2F%E4%BA%B2%E5%AE%9D%E5%AE%9D%2Frewrite%2Fqbb.conf%2C%20tag%3D%E4%BA%B2%E5%AE%9D%E5%AE%9D%22%5D%7D)
 - [亲邻开门](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FQ%2F%E4%BA%B2%E9%82%BB%E5%BC%80%E9%97%A8%2Ffilter%2Fqinlin.list%2C%20tag%3D%E4%BA%B2%E9%82%BB%E5%BC%80%E9%97%A8%22%5D%2C%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FQ%2F%E4%BA%B2%E9%82%BB%E5%BC%80%E9%97%A8%2Frewrite%2Fqinlin.conf%2C%20tag%3D%E4%BA%B2%E9%82%BB%E5%BC%80%E9%97%A8%22%5D%7D)
