@@ -1,7 +1,0 @@
-# > 中油优途 - 95504
-
-[Map Local]
-^https?:\/\/sichuan\.95504\.net\/v\d\/gd\/index\/get data-type=text data="" status-code=200
-
-[MITM]
-hostname= %APPEND% sichuan.95504.net
