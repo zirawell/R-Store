@@ -1,7 +1,0 @@
-# > 京东极速版 - JDLITE
-
-[URL Rewrite]
-^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=lite_advertising - reject
-
-[MITM]
-hostname= %APPEND% api.m.jd.com
