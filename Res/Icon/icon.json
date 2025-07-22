@@ -1,7 +1,7 @@
 {
   "name": "All Icons",
   "description": "collected by zirawell",
-  "time": "2025-07-21",
+  "time": "2025-07-22",
   "icons": [
     {
       "name": "tmyc",
@@ -686,6 +686,10 @@
     {
       "name": "dxys",
       "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/checked/dxys.png"
+    },
+    {
+      "name": "jdlite",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/checked/jdlite.png"
     },
     {
       "name": "qingting",
