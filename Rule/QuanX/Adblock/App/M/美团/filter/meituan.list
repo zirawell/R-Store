@@ -2,6 +2,7 @@
 ip-cidr, 103.37.155.60/32, reject
 host, flowplus.meituan.net, reject
 host, hlx.meituan.com, reject
+host, httpdnsmultiapi.meituan.com, reject
 host, httpdnsmultiapivip.meituan.com, reject
 host-suffix, httpdns.meituan.com, reject
 host-suffix, analytics.meituan.net, reject

@@ -274,6 +274,7 @@ DOMAIN, hlx.meituan.com, REJECT, extended-matching, pre-matching
 DOMAIN, hmma.baidu.com, REJECT, extended-matching, pre-matching
 DOMAIN, httpdns.baidubce.com, REJECT, extended-matching, pre-matching
 DOMAIN, httpdns.yunxindns.com, REJECT, extended-matching, pre-matching
+DOMAIN, httpdnsmultiapi.meituan.com, REJECT, extended-matching, pre-matching
 DOMAIN, httpdnsmultiapivip.meituan.com, REJECT, extended-matching, pre-matching
 DOMAIN, huatuocode.huatuo.qq.com, REJECT, extended-matching, pre-matching
 DOMAIN, hudong.alicdn.com, REJECT, extended-matching, pre-matching
