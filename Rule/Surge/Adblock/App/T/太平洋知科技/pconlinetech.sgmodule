@@ -1,7 +1,0 @@
-# > 太平洋知科技 - PCONLINETECH
-
-[Map Local]
-^https?:\/\/mrobot\.pconline\.com\.cn\/s-900\/onlineinfo\/cms\/launch data-type=text data="" status-code=200
-
-[MITM]
-hostname= %APPEND% mrobot.pconline.com.cn
