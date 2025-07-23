@@ -1,8 +1,0 @@
-# > 球迷报 - QIUMIBAO
-
-[URL Rewrite]
-^https?:\/\/a\.qiumibao\.com\/activities\/config\.php - reject
-^https?:\/\/a\.qiumibao\.com\/ios\/config\/\?version_code= - reject
-
-[MITM]
-hostname= %APPEND% a.qiumibao.com
