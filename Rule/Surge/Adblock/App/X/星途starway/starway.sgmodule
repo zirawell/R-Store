@@ -1,8 +1,0 @@
-# > 星途starway - STARWAY
-
-[Map Local]
-^https?:\/\/app\.chinahxzq\.com\.cn:\d+\/starway-api\/ad data-type=text data="{}" status-code=200
-^https?:\/\/app\.chinahxzq\.com\.cn\/starway\/adShow data-type=text data="{}" status-code=200
-
-[MITM]
-hostname= %APPEND% app.chinahxzq.com.cn

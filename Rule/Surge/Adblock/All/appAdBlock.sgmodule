@@ -1971,7 +1971,6 @@ https?:\/\/awg\.enmonster\.com\/apa\/(advert\/demand\/home\/poster|index\/advert
 ^https?:\/\/mps\.95508\.com\/mps\/club\/cardPortals\/adv\/\d{25}\.(?>png|jpg) data-type=tiny-gif status-code=200
 ^https?:\/\/s\.go\.sohu\.com\/adgtr\/\?gbcode= data-type=tiny-gif status-code=200
 ^https?:\/\/app\.ceair\.com\/customize\/main\/adScreen data-type=text data="{}" status-code=200
-^https?:\/\/app\.chinahxzq\.com\.cn:\d+\/starway-api\/ad data-type=text data="{}" status-code=200
 ^https?:\/\/api\.bwton\.com\/bff\/app\/h5\/v\d\/station\/goods data-type=text data="{}" status-code=200
 ^https?:\/\/ossgw.alicdn.com\/creatives-assets\/image\/ data-type=text data="" status-code=200
 ^https?:\/\/www\.nfmovies\.com\/uploads\/images\/play\.jpg data-type=tiny-gif status-code=200
@@ -2398,6 +2397,7 @@ https?:\/\/awg\.enmonster\.com\/apa\/(advert\/demand\/home\/poster|index\/advert
 ^https?:\/\/service\.iciba\.com\/popo\/open\/screens\/v\d\?adjson data-type=text data="" status-code=200
 ^https?:\/\/(syh|www)\.zybang\.com\/adx\/ data-type=text data="" status-code=200
 ^https?:\/\/one-app-h5\.faw-vw\.com\/prod-api\/mobile\/one-app\/general\/public\/v\d\/official_activity\/get_animation_putaway_list\?appkey data-type=text data="" status-code=200
+^https?:\/\/app\.chinahxzq\.com\.cn(:\d+)?\/starway(-api)?\/ad data-type=text data="{}" status-code=200
 ^https?:\/\/mobile\.1qianbao\.com\/mtp-web\/ui\/op_common_query_business_yqb\.json data-type=text data="" status-code=200
 ^https?:\/\/l[0-9]{1}\.51fanli\.net\/app\/images\/splash\/2022\/0[4-9]{1}\/.*.jpg data-type=text data="" status-code=200
 ^https?:\/\/restapi\.iyunmai\.com\/api\/ios\/credit\/credit-family data-type=text data="{}" status-code=200
@@ -2513,7 +2513,6 @@ https?:\/\/awg\.enmonster\.com\/apa\/(advert\/demand\/home\/poster|index\/advert
 ^https?:\/\/api\.ncarzone\.com\/superapi\/canary\/appHomeFacade\/getNewUserPlateActivity data-type=text data="" status-code=200
 ^https?:\/\/api\.m\.mi\.com\/v\d\/app\/start data-type=text data="" status-code=200
 ^https?:\/\/haojia\.m\.smzdm\.com\/detail_modul\/other_modul\? data-type=text data="{}" status-code=200
-^https?:\/\/app\.chinahxzq\.com\.cn\/starway\/adShow data-type=text data="{}" status-code=200
 ^https?:\/\/ccsp-egmas\.sf-express\.com\/cx-app-video\/video\/app\/video\/labelClusterList data-type=text data="{}" status-code=200
 ^https?:\/\/api\.pinduoduo\.com\/api\/aquarius\/hungary\/global\/app_popup data-type=text data="{}" status-code=200
 ^https?:\/\/api-sams\.walmartmobile\.cn\/api\/v\d\/sams\/configuration\/appVersionUpdate\/getAppVersionUpdateInfo data-type=text data="{}" status-code=200
