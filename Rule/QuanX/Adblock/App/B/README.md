@@ -1,7 +1,7 @@
 # B
 <details>
 <summary>
-本目录共收录30个App，详情见如下，单击导入对应配置：
+本目录共收录31个App，详情见如下，单击导入对应配置：
 </summary>
 
 - [Blued](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FB%2FBlued%2Frewrite%2Fblued.conf%2C%20tag%3DBlued%22%5D%7D)
@@ -14,6 +14,7 @@
 - [哔哩哔哩(国际版）](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FB%2F%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9%28%E5%9B%BD%E9%99%85%E7%89%88%EF%BC%89%2Ffilter%2Fbilibili-white.list%2C%20tag%3D%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9%28%E5%9B%BD%E9%99%85%E7%89%88%EF%BC%89%22%5D%7D)
 - [哔哩哔哩漫画](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FB%2F%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9%E6%BC%AB%E7%94%BB%2Frewrite%2FbilibiliManga.conf%2C%20tag%3D%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9%E6%BC%AB%E7%94%BB%22%5D%7D)
 - [宝宝树](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FB%2F%E5%AE%9D%E5%AE%9D%E6%A0%91%2Ffilter%2Fbabytree.list%2C%20tag%3D%E5%AE%9D%E5%AE%9D%E6%A0%91%22%5D%2C%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FB%2F%E5%AE%9D%E5%AE%9D%E6%A0%91%2Frewrite%2Fbabytree.conf%2C%20tag%3D%E5%AE%9D%E5%AE%9D%E6%A0%91%22%5D%7D)
+- [巴哈姆特動畫瘋](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FB%2F%E5%B7%B4%E5%93%88%E5%A7%86%E7%89%B9%E5%8B%95%E7%95%AB%E7%98%8B%2Frewrite%2Fgamer.conf%2C%20tag%3D%E5%B7%B4%E5%93%88%E5%A7%86%E7%89%B9%E5%8B%95%E7%95%AB%E7%98%8B%22%5D%7D)
 - [巴士管家](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FB%2F%E5%B7%B4%E5%A3%AB%E7%AE%A1%E5%AE%B6%2Frewrite%2Fchebada.conf%2C%20tag%3D%E5%B7%B4%E5%A3%AB%E7%AE%A1%E5%AE%B6%22%5D%7D)
 - [币世界](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FB%2F%E5%B8%81%E4%B8%96%E7%95%8C%2Frewrite%2Fbishijie.conf%2C%20tag%3D%E5%B8%81%E4%B8%96%E7%95%8C%22%5D%7D)
 - [币安](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FB%2F%E5%B8%81%E5%AE%89%2Frewrite%2Fbinance.conf%2C%20tag%3D%E5%B8%81%E5%AE%89%22%5D%7D)

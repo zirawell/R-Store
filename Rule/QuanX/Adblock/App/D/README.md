@@ -1,7 +1,7 @@
 # D
 <details>
 <summary>
-本目录共收录32个App，详情见如下，单击导入对应配置：
+本目录共收录31个App，详情见如下，单击导入对应配置：
 </summary>
 
 - [DJI](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FD%2FDJI%2Frewrite%2Fdji.conf%2C%20tag%3DDJI%22%5D%7D)
@@ -14,7 +14,6 @@
 - [低端影视](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FD%2F%E4%BD%8E%E7%AB%AF%E5%BD%B1%E8%A7%86%2Frewrite%2Fddrk.conf%2C%20tag%3D%E4%BD%8E%E7%AB%AF%E5%BD%B1%E8%A7%86%22%5D%7D)
 - [到梦空间](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FD%2F%E5%88%B0%E6%A2%A6%E7%A9%BA%E9%97%B4%2Frewrite%2F5idream.conf%2C%20tag%3D%E5%88%B0%E6%A2%A6%E7%A9%BA%E9%97%B4%22%5D%7D)
 - [动卡空间](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FD%2F%E5%8A%A8%E5%8D%A1%E7%A9%BA%E9%97%B4%2Frewrite%2Fecitic.conf%2C%20tag%3D%E5%8A%A8%E5%8D%A1%E7%A9%BA%E9%97%B4%22%5D%7D)
-- [动画疯](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FD%2F%E5%8A%A8%E7%94%BB%E7%96%AF%2Frewrite%2Fgamer.conf%2C%20tag%3D%E5%8A%A8%E7%94%BB%E7%96%AF%22%5D%7D)
 - [叮咚买菜](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FD%2F%E5%8F%AE%E5%92%9A%E4%B9%B0%E8%8F%9C%2Ffilter%2Fddxq.list%2C%20tag%3D%E5%8F%AE%E5%92%9A%E4%B9%B0%E8%8F%9C%22%5D%2C%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FD%2F%E5%8F%AE%E5%92%9A%E4%B9%B0%E8%8F%9C%2Frewrite%2Fddxq.conf%2C%20tag%3D%E5%8F%AE%E5%92%9A%E4%B9%B0%E8%8F%9C%22%5D%7D)
 - [叮达出行](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FD%2F%E5%8F%AE%E8%BE%BE%E5%87%BA%E8%A1%8C%2Frewrite%2Fdingda.conf%2C%20tag%3D%E5%8F%AE%E8%BE%BE%E5%87%BA%E8%A1%8C%22%5D%7D)
 - [嘀嗒出行](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FD%2F%E5%98%80%E5%97%92%E5%87%BA%E8%A1%8C%2Frewrite%2Fdidapinche.conf%2C%20tag%3D%E5%98%80%E5%97%92%E5%87%BA%E8%A1%8C%22%5D%7D)
