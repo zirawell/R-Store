@@ -1,7 +1,0 @@
-# > LocSim - LOCSIM
-
-[Map Local]
-^https?:\/\/app\.aa-ab\.com\/home data-type=text data="" status-code=200
-
-[MITM]
-hostname= %APPEND% app.aa-ab.com
