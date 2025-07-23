@@ -1,8 +1,0 @@
-# > 电视家 - DIANSHIJIA
-
-[URL Rewrite]
-^https?:\/\/api\.gaoqingdianshi\.com\/api\/v\d\/ad\/ - reject
-^https?:\/\/cdn\.dianshihome\.com\/static\/ad\/ - reject
-
-[MITM]
-hostname= %APPEND% api.gaoqingdianshi.com, cdn.dianshihome.com
