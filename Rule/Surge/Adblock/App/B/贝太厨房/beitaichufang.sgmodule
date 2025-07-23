@@ -1,7 +1,0 @@
-# > 贝太厨房 - BEITAICHUFANG
-
-[URL Rewrite]
-^https?:\/\/channel\.beitaichufang\.com\/channel\/api\/v\d\/promote\/ios\/start\/page - reject
-
-[MITM]
-hostname= %APPEND% channel.beitaichufang.com
