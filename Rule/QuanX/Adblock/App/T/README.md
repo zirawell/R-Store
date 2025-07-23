@@ -1,7 +1,7 @@
 # T
 <details>
 <summary>
-本目录共收录33个App，详情见如下，单击导入对应配置：
+本目录共收录32个App，详情见如下，单击导入对应配置：
 </summary>
 
 - [Talkatone](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FT%2FTalkatone%2Ffilter%2Ftalkatone.list%2C%20tag%3DTalkatone%22%5D%2C%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FT%2FTalkatone%2Frewrite%2Ftalkatone.conf%2C%20tag%3DTalkatone%22%5D%7D)
@@ -28,7 +28,6 @@
 - [推栏](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FT%2F%E6%8E%A8%E6%A0%8F%2Frewrite%2Ftuilan.conf%2C%20tag%3D%E6%8E%A8%E6%A0%8F%22%5D%7D)
 - [推送加](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FT%2F%E6%8E%A8%E9%80%81%E5%8A%A0%2Frewrite%2Fpushplus.conf%2C%20tag%3D%E6%8E%A8%E9%80%81%E5%8A%A0%22%5D%7D)
 - [淘宝](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FT%2F%E6%B7%98%E5%AE%9D%2Ffilter%2Ftaobao.list%2C%20tag%3D%E6%B7%98%E5%AE%9D%22%5D%2C%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FT%2F%E6%B7%98%E5%AE%9D%2Frewrite%2Ftaobao.conf%2C%20tag%3D%E6%B7%98%E5%AE%9D%22%5D%7D)
-- [淘淘阅读](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FT%2F%E6%B7%98%E6%B7%98%E9%98%85%E8%AF%BB%2Frewrite%2Fadview.conf%2C%20tag%3D%E6%B7%98%E6%B7%98%E9%98%85%E8%AF%BB%22%5D%7D)
 - [淘票票](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FT%2F%E6%B7%98%E7%A5%A8%E7%A5%A8%2Frewrite%2Ftaopiaopiao.conf%2C%20tag%3D%E6%B7%98%E7%A5%A8%E7%A5%A8%22%5D%7D)
 - [腾讯体育](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FT%2F%E8%85%BE%E8%AE%AF%E4%BD%93%E8%82%B2%2Frewrite%2Ftxsports.conf%2C%20tag%3D%E8%85%BE%E8%AE%AF%E4%BD%93%E8%82%B2%22%5D%7D)
 - [腾讯地图](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FT%2F%E8%85%BE%E8%AE%AF%E5%9C%B0%E5%9B%BE%2Frewrite%2Ftxmaps.conf%2C%20tag%3D%E8%85%BE%E8%AE%AF%E5%9C%B0%E5%9B%BE%22%5D%7D)
