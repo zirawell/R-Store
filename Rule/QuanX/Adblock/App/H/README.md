@@ -1,7 +1,7 @@
 # H
 <details>
 <summary>
-本目录共收录28个App，详情见如下，单击导入对应配置：
+本目录共收录27个App，详情见如下，单击导入对应配置：
 </summary>
 
 - [华住会](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FH%2F%E5%8D%8E%E4%BD%8F%E4%BC%9A%2Frewrite%2Fhuazhu.conf%2C%20tag%3D%E5%8D%8E%E4%BD%8F%E4%BC%9A%22%5D%7D)
@@ -22,7 +22,6 @@
 - [汇丰汇选](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FH%2F%E6%B1%87%E4%B8%B0%E6%B1%87%E9%80%89%2Frewrite%2Fhsbcfts.conf%2C%20tag%3D%E6%B1%87%E4%B8%B0%E6%B1%87%E9%80%89%22%5D%7D)
 - [海尔智家](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FH%2F%E6%B5%B7%E5%B0%94%E6%99%BA%E5%AE%B6%2Ffilter%2Fehaier.list%2C%20tag%3D%E6%B5%B7%E5%B0%94%E6%99%BA%E5%AE%B6%22%5D%2C%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FH%2F%E6%B5%B7%E5%B0%94%E6%99%BA%E5%AE%B6%2Frewrite%2Fehaier.conf%2C%20tag%3D%E6%B5%B7%E5%B0%94%E6%99%BA%E5%AE%B6%22%5D%7D)
 - [海马爸比](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FH%2F%E6%B5%B7%E9%A9%AC%E7%88%B8%E6%AF%94%2Frewrite%2Fhaima.conf%2C%20tag%3D%E6%B5%B7%E9%A9%AC%E7%88%B8%E6%AF%94%22%5D%7D)
-- [火猫](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FH%2F%E7%81%AB%E7%8C%AB%2Frewrite%2Fhuomao.conf%2C%20tag%3D%E7%81%AB%E7%8C%AB%22%5D%7D)
 - [盒马](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FH%2F%E7%9B%92%E9%A9%AC%2Frewrite%2Ffreshippo.conf%2C%20tag%3D%E7%9B%92%E9%A9%AC%22%5D%7D)
 - [红板报](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FH%2F%E7%BA%A2%E6%9D%BF%E6%8A%A5%2Frewrite%2Fflipchina.conf%2C%20tag%3D%E7%BA%A2%E6%9D%BF%E6%8A%A5%22%5D%7D)
 - [航旅纵横](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FH%2F%E8%88%AA%E6%97%85%E7%BA%B5%E6%A8%AA%2Ffilter%2Fumetrip.list%2C%20tag%3D%E8%88%AA%E6%97%85%E7%BA%B5%E6%A8%AA%22%5D%2C%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FH%2F%E8%88%AA%E6%97%85%E7%BA%B5%E6%A8%AA%2Frewrite%2Fumetrip.conf%2C%20tag%3D%E8%88%AA%E6%97%85%E7%BA%B5%E6%A8%AA%22%5D%7D)
