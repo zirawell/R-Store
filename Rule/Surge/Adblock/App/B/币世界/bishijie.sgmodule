@@ -1,7 +1,0 @@
-# > 币世界 - BISHIJIE
-
-[URL Rewrite]
-^https?:\/\/iapi\.bishijie\.com\/actopen\/advertising\/ - reject
-
-[MITM]
-hostname= %APPEND% iapi.bishijie.com
