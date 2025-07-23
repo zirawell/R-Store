@@ -1,7 +1,7 @@
 {
   "name": "All Icons",
   "description": "collected by zirawell",
-  "time": "2025-07-22",
+  "time": "2025-07-23",
   "icons": [
     {
       "name": "tmyc",
@@ -744,10 +744,6 @@
       "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/checked/tipsoon.png"
     },
     {
-      "name": "txjr",
-      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/txjr.png"
-    },
-    {
       "name": "vvebo",
       "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/checked/vvebo.png"
     },
@@ -1196,6 +1192,10 @@
       "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/checked/cosleep.png"
     },
     {
+      "name": "txjr",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/checked/txjr.png"
+    },
+    {
       "name": "nissan",
       "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/checked/nissan.png"
     },
@@ -1454,6 +1454,10 @@
     {
       "name": "umetrip",
       "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/checked/umetrip.png"
+    },
+    {
+      "name": "hxzq",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/checked/hxzq.png"
     },
     {
       "name": "mwee",
