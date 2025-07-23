@@ -1,7 +1,7 @@
 # C
 <details>
 <summary>
-本目录共收录18个App，详情见如下，单击导入对应配置：
+本目录共收录19个App，详情见如下，单击导入对应配置：
 </summary>
 
 - [chatgpt](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FC%2Fchatgpt%2Frewrite%2Fchatgpt.conf%2C%20tag%3Dchatgpt%22%5D%7D)
@@ -19,6 +19,7 @@
 - [财经杂志](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FC%2F%E8%B4%A2%E7%BB%8F%E6%9D%82%E5%BF%97%2Frewrite%2Fcaijing.conf%2C%20tag%3D%E8%B4%A2%E7%BB%8F%E6%9D%82%E5%BF%97%22%5D%7D)
 - [财联社](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FC%2F%E8%B4%A2%E8%81%94%E7%A4%BE%2Frewrite%2Fcls.conf%2C%20tag%3D%E8%B4%A2%E8%81%94%E7%A4%BE%22%5D%7D)
 - [超星学习通](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FC%2F%E8%B6%85%E6%98%9F%E5%AD%A6%E4%B9%A0%E9%80%9A%2Frewrite%2Fchaoxing.conf%2C%20tag%3D%E8%B6%85%E6%98%9F%E5%AD%A6%E4%B9%A0%E9%80%9A%22%5D%7D)
+- [超格教育](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FC%2F%E8%B6%85%E6%A0%BC%E6%95%99%E8%82%B2%2Ffilter%2Fchaoge.list%2C%20tag%3D%E8%B6%85%E6%A0%BC%E6%95%99%E8%82%B2%22%5D%2C%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FC%2F%E8%B6%85%E6%A0%BC%E6%95%99%E8%82%B2%2Frewrite%2Fchaoge.conf%2C%20tag%3D%E8%B6%85%E6%A0%BC%E6%95%99%E8%82%B2%22%5D%7D)
 - [超级课程表](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FC%2F%E8%B6%85%E7%BA%A7%E8%AF%BE%E7%A8%8B%E8%A1%A8%2Frewrite%2Fsuper.conf%2C%20tag%3D%E8%B6%85%E7%BA%A7%E8%AF%BE%E7%A8%8B%E8%A1%A8%22%5D%7D)
 - [车来了](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FC%2F%E8%BD%A6%E6%9D%A5%E4%BA%86%2Ffilter%2Fchelaile.list%2C%20tag%3D%E8%BD%A6%E6%9D%A5%E4%BA%86%22%5D%2C%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FC%2F%E8%BD%A6%E6%9D%A5%E4%BA%86%2Frewrite%2Fchelaile.conf%2C%20tag%3D%E8%BD%A6%E6%9D%A5%E4%BA%86%22%5D%7D)
 - [长城炼金术](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FC%2F%E9%95%BF%E5%9F%8E%E7%82%BC%E9%87%91%E6%9C%AF%2Frewrite%2Fcgws.conf%2C%20tag%3D%E9%95%BF%E5%9F%8E%E7%82%BC%E9%87%91%E6%9C%AF%22%5D%7D)
