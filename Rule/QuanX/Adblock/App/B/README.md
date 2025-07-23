@@ -1,7 +1,7 @@
 # B
 <details>
 <summary>
-本目录共收录31个App，详情见如下，单击导入对应配置：
+本目录共收录30个App，详情见如下，单击导入对应配置：
 </summary>
 
 - [Blued](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FB%2FBlued%2Frewrite%2Fblued.conf%2C%20tag%3DBlued%22%5D%7D)
@@ -34,6 +34,5 @@
 - [菠萝包轻小说](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FB%2F%E8%8F%A0%E8%90%9D%E5%8C%85%E8%BD%BB%E5%B0%8F%E8%AF%B4%2Frewrite%2Fsfacg.conf%2C%20tag%3D%E8%8F%A0%E8%90%9D%E5%8C%85%E8%BD%BB%E5%B0%8F%E8%AF%B4%22%5D%7D)
 - [薄荷健康](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FB%2F%E8%96%84%E8%8D%B7%E5%81%A5%E5%BA%B7%2Frewrite%2Fboohee.conf%2C%20tag%3D%E8%96%84%E8%8D%B7%E5%81%A5%E5%BA%B7%22%5D%7D)
 - [贝壳找房](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FB%2F%E8%B4%9D%E5%A3%B3%E6%89%BE%E6%88%BF%2Frewrite%2Fke.conf%2C%20tag%3D%E8%B4%9D%E5%A3%B3%E6%89%BE%E6%88%BF%22%5D%7D)
-- [贝太厨房](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FB%2F%E8%B4%9D%E5%A4%AA%E5%8E%A8%E6%88%BF%2Frewrite%2Fbeitaichufang.conf%2C%20tag%3D%E8%B4%9D%E5%A4%AA%E5%8E%A8%E6%88%BF%22%5D%7D)
 
 </details>
