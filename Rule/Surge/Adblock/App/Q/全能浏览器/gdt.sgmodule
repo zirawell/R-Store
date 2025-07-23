@@ -1,7 +1,0 @@
-# > 全能浏览器 - GDT
-
-[Map Local]
-^https?:\/\/mi\.gdt\.qq\.com\/gdt_mview\.fcg\?posid= data-type=text data="{}" status-code=200
-
-[MITM]
-hostname= %APPEND% mi.gdt.qq.com

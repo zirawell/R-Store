@@ -1,7 +1,7 @@
 # Q
 <details>
 <summary>
-本目录共收录22个App，详情见如下，单击导入对应配置：
+本目录共收录21个App，详情见如下，单击导入对应配置：
 </summary>
 
 - [QQ浏览器](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FQ%2FQQ%E6%B5%8F%E8%A7%88%E5%99%A8%2Frewrite%2Fqqbrowser.conf%2C%20tag%3DQQ%E6%B5%8F%E8%A7%88%E5%99%A8%22%5D%7D)
@@ -12,7 +12,6 @@
 - [全民K歌](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FQ%2F%E5%85%A8%E6%B0%91K%E6%AD%8C%2Frewrite%2Fqmkg.conf%2C%20tag%3D%E5%85%A8%E6%B0%91K%E6%AD%8C%22%5D%7D)
 - [全民生活](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FQ%2F%E5%85%A8%E6%B0%91%E7%94%9F%E6%B4%BB%2Frewrite%2Fcmbccc.conf%2C%20tag%3D%E5%85%A8%E6%B0%91%E7%94%9F%E6%B4%BB%22%5D%7D)
 - [全球购骑士特权](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FQ%2F%E5%85%A8%E7%90%83%E8%B4%AD%E9%AA%91%E5%A3%AB%E7%89%B9%E6%9D%83%2Frewrite%2Fblackunique.conf%2C%20tag%3D%E5%85%A8%E7%90%83%E8%B4%AD%E9%AA%91%E5%A3%AB%E7%89%B9%E6%9D%83%22%5D%7D)
-- [全能浏览器](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FQ%2F%E5%85%A8%E8%83%BD%E6%B5%8F%E8%A7%88%E5%99%A8%2Frewrite%2Fgdt.conf%2C%20tag%3D%E5%85%A8%E8%83%BD%E6%B5%8F%E8%A7%88%E5%99%A8%22%5D%7D)
 - [前程无忧51job](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FQ%2F%E5%89%8D%E7%A8%8B%E6%97%A0%E5%BF%A751job%2Frewrite%2F51job.conf%2C%20tag%3D%E5%89%8D%E7%A8%8B%E6%97%A0%E5%BF%A751job%22%5D%7D)
 - [去上网(去哒)](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FQ%2F%E5%8E%BB%E4%B8%8A%E7%BD%91%28%E5%8E%BB%E5%93%92%29%2Frewrite%2Fquda.conf%2C%20tag%3D%E5%8E%BB%E4%B8%8A%E7%BD%91%28%E5%8E%BB%E5%93%92%29%22%5D%7D)
 - [去哪儿](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FQ%2F%E5%8E%BB%E5%93%AA%E5%84%BF%2Frewrite%2Fqunar.conf%2C%20tag%3D%E5%8E%BB%E5%93%AA%E5%84%BF%22%5D%7D)
