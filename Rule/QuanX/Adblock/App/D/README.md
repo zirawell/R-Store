@@ -1,7 +1,7 @@
 # D
 <details>
 <summary>
-本目录共收录31个App，详情见如下，单击导入对应配置：
+本目录共收录30个App，详情见如下，单击导入对应配置：
 </summary>
 
 - [DJI](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FD%2FDJI%2Frewrite%2Fdji.conf%2C%20tag%3DDJI%22%5D%7D)
@@ -31,7 +31,6 @@
 - [滴滴出行](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FD%2F%E6%BB%B4%E6%BB%B4%E5%87%BA%E8%A1%8C%2Ffilter%2Fdiditaxi.list%2C%20tag%3D%E6%BB%B4%E6%BB%B4%E5%87%BA%E8%A1%8C%22%5D%2C%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FD%2F%E6%BB%B4%E6%BB%B4%E5%87%BA%E8%A1%8C%2Frewrite%2Fdiditaxi.conf%2C%20tag%3D%E6%BB%B4%E6%BB%B4%E5%87%BA%E8%A1%8C%22%5D%7D)
 - [滴滴青桔](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FD%2F%E6%BB%B4%E6%BB%B4%E9%9D%92%E6%A1%94%2Frewrite%2Fdidiqj.conf%2C%20tag%3D%E6%BB%B4%E6%BB%B4%E9%9D%92%E6%A1%94%22%5D%7D)
 - [电e宝](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FD%2F%E7%94%B5e%E5%AE%9D%2Frewrite%2Fdeb.conf%2C%20tag%3D%E7%94%B5e%E5%AE%9D%22%5D%7D)
-- [电视家](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FD%2F%E7%94%B5%E8%A7%86%E5%AE%B6%2Frewrite%2Fdianshihome.conf%2C%20tag%3D%E7%94%B5%E8%A7%86%E5%AE%B6%22%5D%7D)
 - [盯盯拍](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FD%2F%E7%9B%AF%E7%9B%AF%E6%8B%8D%2Ffilter%2Fddpai.list%2C%20tag%3D%E7%9B%AF%E7%9B%AF%E6%8B%8D%22%5D%2C%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FD%2F%E7%9B%AF%E7%9B%AF%E6%8B%8D%2Frewrite%2Fddpai.conf%2C%20tag%3D%E7%9B%AF%E7%9B%AF%E6%8B%8D%22%5D%7D)
 - [豆瓣](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FD%2F%E8%B1%86%E7%93%A3%2Frewrite%2Fdouban.conf%2C%20tag%3D%E8%B1%86%E7%93%A3%22%5D%7D)
 - [达达秒送骑士](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FD%2F%E8%BE%BE%E8%BE%BE%E7%A7%92%E9%80%81%E9%AA%91%E5%A3%AB%2Frewrite%2Fimdada.conf%2C%20tag%3D%E8%BE%BE%E8%BE%BE%E7%A7%92%E9%80%81%E9%AA%91%E5%A3%AB%22%5D%7D)
