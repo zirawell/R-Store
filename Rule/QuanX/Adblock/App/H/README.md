@@ -1,7 +1,7 @@
 # H
 <details>
 <summary>
-本目录共收录27个App，详情见如下，单击导入对应配置：
+本目录共收录28个App，详情见如下，单击导入对应配置：
 </summary>
 
 - [华住会](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FH%2F%E5%8D%8E%E4%BD%8F%E4%BC%9A%2Frewrite%2Fhuazhu.conf%2C%20tag%3D%E5%8D%8E%E4%BD%8F%E4%BC%9A%22%5D%7D)
@@ -9,6 +9,7 @@
 - [华宝智投](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FH%2F%E5%8D%8E%E5%AE%9D%E6%99%BA%E6%8A%95%2Frewrite%2Ftouker.conf%2C%20tag%3D%E5%8D%8E%E5%AE%9D%E6%99%BA%E6%8A%95%22%5D%7D)
 - [华尔街见闻](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FH%2F%E5%8D%8E%E5%B0%94%E8%A1%97%E8%A7%81%E9%97%BB%2Frewrite%2Fwallstreetcn.conf%2C%20tag%3D%E5%8D%8E%E5%B0%94%E8%A1%97%E8%A7%81%E9%97%BB%22%5D%7D)
 - [华彩生活](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FH%2F%E5%8D%8E%E5%BD%A9%E7%94%9F%E6%B4%BB%2Frewrite%2Fhxb.conf%2C%20tag%3D%E5%8D%8E%E5%BD%A9%E7%94%9F%E6%B4%BB%22%5D%7D)
+- [华鑫星途](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FH%2F%E5%8D%8E%E9%91%AB%E6%98%9F%E9%80%94%2Frewrite%2Fhxzq.conf%2C%20tag%3D%E5%8D%8E%E9%91%AB%E6%98%9F%E9%80%94%22%5D%7D)
 - [合利宝展业通](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FH%2F%E5%90%88%E5%88%A9%E5%AE%9D%E5%B1%95%E4%B8%9A%E9%80%9A%2Frewrite%2Fhelipay.conf%2C%20tag%3D%E5%90%88%E5%88%A9%E5%AE%9D%E5%B1%95%E4%B8%9A%E9%80%9A%22%5D%7D)
 - [和风天气](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FH%2F%E5%92%8C%E9%A3%8E%E5%A4%A9%E6%B0%94%2Frewrite%2Fqweather.conf%2C%20tag%3D%E5%92%8C%E9%A3%8E%E5%A4%A9%E6%B0%94%22%5D%7D)
 - [哈富證券](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FH%2F%E5%93%88%E5%AF%8C%E8%AD%89%E5%88%B8%2Frewrite%2Fhafoo.conf%2C%20tag%3D%E5%93%88%E5%AF%8C%E8%AD%89%E5%88%B8%22%5D%7D)
