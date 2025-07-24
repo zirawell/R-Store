@@ -1,7 +1,0 @@
-# > 肆客足球 - QIUDUODUO
-
-[Map Local]
-^https?:\/\/api\.qiuduoduo\.cn\/guideimage data-type=text data="" status-code=200
-
-[MITM]
-hostname= %APPEND% api.qiuduoduo.cn
