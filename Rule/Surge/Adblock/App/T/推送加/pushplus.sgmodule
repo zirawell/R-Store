@@ -1,7 +1,0 @@
-# > 推送加 - PUSHPLUS
-
-[Body Rewrite]
-http-response ^https?:\/\/www\.pushplus\.plus.* (<head>) $1<style
-
-[MITM]
-hostname= %APPEND% www.pushplus.plus
