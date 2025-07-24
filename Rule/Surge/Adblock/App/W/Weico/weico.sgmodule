@@ -1,7 +1,0 @@
-# > Weico - WEICO
-
-[Map Local]
-^https?:\/\/overseas\.weico\.cc\/portal\.php\?a=get_coopen_ads data-type=text data="" status-code=200
-
-[MITM]
-hostname= %APPEND% overseas.weico.cc
