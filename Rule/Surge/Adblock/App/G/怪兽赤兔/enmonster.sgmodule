@@ -1,0 +1,17 @@
+#!name=怪兽赤兔 - ENMONSTER
+#!desc=怪兽赤兔
+#!openUrl=https://apps.apple.com/app/id1294926564
+#!bundleId=com.enmonster.energy
+#!author=zirawell[https://github.com/zirawell]
+#!tag=去广告
+#!system=iOS
+#!surge_version=5.14.2(Build3405,SDK18.2)
+#!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
+#!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/enmonster.png
+#!date=2025-07-25
+
+[Map Local]
+https?:\/\/awg\.enmonster\.com\/apa\/(advert\/demand\/home\/poster|index\/advert\/skin) data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% awg.enmonster.com
