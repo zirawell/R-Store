@@ -1,7 +1,7 @@
 {
   "name": "All Icons",
   "description": "collected by zirawell",
-  "time": "2025-07-23",
+  "time": "2025-07-25",
   "icons": [
     {
       "name": "tmyc",
@@ -562,6 +562,10 @@
     {
       "name": "snailsleep",
       "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/checked/snailsleep.png"
+    },
+    {
+      "name": "pconline",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/checked/pconline.png"
     },
     {
       "name": "ppgx",
@@ -1188,6 +1192,10 @@
       "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/checked/sdb.png"
     },
     {
+      "name": "enmonster",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/checked/enmonster.png"
+    },
+    {
       "name": "cosleep",
       "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/checked/cosleep.png"
     },
@@ -1552,10 +1560,6 @@
       "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/checked/kuaidi100.png"
     },
     {
-      "name": "pconline",
-      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/pconline.png"
-    },
-    {
       "name": "cmbccc",
       "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/checked/cmbccc.png"
     },
@@ -1626,6 +1630,10 @@
     {
       "name": "xiaoxiong",
       "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/checked/xiaoxiong.png"
+    },
+    {
+      "name": "chaoge",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/checked/chaoge.png"
     },
     {
       "name": "1qianbao",
@@ -1790,6 +1798,10 @@
     {
       "name": "petkit",
       "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/checked/petkit.png"
+    },
+    {
+      "name": "gamer",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/checked/gamer.png"
     },
     {
       "name": "jlbank",
