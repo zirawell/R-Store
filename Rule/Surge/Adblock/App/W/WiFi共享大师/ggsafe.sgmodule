@@ -1,7 +1,0 @@
-# > WiFi共享大师 - GGSAFE
-
-[Map Local]
-^https?:\/\/nochange\.ggsafe\.com\/ad\/ data-type=text data="" status-code=200
-
-[MITM]
-hostname= %APPEND% nochange.ggsafe.com
