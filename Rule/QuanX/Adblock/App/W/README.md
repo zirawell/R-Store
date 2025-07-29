@@ -1,12 +1,11 @@
 # W
 <details>
 <summary>
-本目录共收录26个App，详情见如下，单击导入对应配置：
+本目录共收录25个App，详情见如下，单击导入对应配置：
 </summary>
 
 - [WPSOffice](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FW%2FWPSOffice%2Frewrite%2Fwps.conf%2C%20tag%3DWPSOffice%22%5D%7D)
 - [WiFi万能钥匙](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FW%2FWiFi%E4%B8%87%E8%83%BD%E9%92%A5%E5%8C%99%2Frewrite%2Fwifi188.conf%2C%20tag%3DWiFi%E4%B8%87%E8%83%BD%E9%92%A5%E5%8C%99%22%5D%7D)
-- [WiFi共享大师](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FW%2FWiFi%E5%85%B1%E4%BA%AB%E5%A4%A7%E5%B8%88%2Frewrite%2Fggsafe.conf%2C%20tag%3DWiFi%E5%85%B1%E4%BA%AB%E5%A4%A7%E5%B8%88%22%5D%7D)
 - [万词王](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FW%2F%E4%B8%87%E8%AF%8D%E7%8E%8B%2Frewrite%2Fwanciwang.conf%2C%20tag%3D%E4%B8%87%E8%AF%8D%E7%8E%8B%22%5D%7D)
 - [五菱汽车](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FW%2F%E4%BA%94%E8%8F%B1%E6%B1%BD%E8%BD%A6%2Frewrite%2F00bang.conf%2C%20tag%3D%E4%BA%94%E8%8F%B1%E6%B1%BD%E8%BD%A6%22%5D%7D)
 - [唯品会](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FW%2F%E5%94%AF%E5%93%81%E4%BC%9A%2Frewrite%2Fvipshop.conf%2C%20tag%3D%E5%94%AF%E5%93%81%E4%BC%9A%22%5D%7D)
