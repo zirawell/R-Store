@@ -12,6 +12,11 @@
 
 [Rule]
 DOMAIN, adui.tg.meitu.com, REJECT, extended-matching, pre-matching
+DOMAIN, corp.meitu.com, REJECT, extended-matching, pre-matching
+DOMAIN, gg.meitu.com, REJECT, extended-matching, pre-matching
+DOMAIN, message.meitu.com, REJECT, extended-matching, pre-matching
+DOMAIN, tuiguang.meitu.com, REJECT, extended-matching, pre-matching
+DOMAIN, stat.meitudata.com, REJECT, extended-matching, pre-matching
 
 [URL Rewrite]
 ^https?:\/\/mea\.meitudata\.com\/kaiping - reject
