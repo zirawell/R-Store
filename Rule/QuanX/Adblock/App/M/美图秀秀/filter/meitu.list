@@ -1,2 +1,7 @@
 # > 美图秀秀 - MEITU
 host, adui.tg.meitu.com, reject
+host, corp.meitu.com, reject
+host, gg.meitu.com, reject
+host, message.meitu.com, reject
+host, tuiguang.meitu.com, reject
+host, stat.meitudata.com, reject

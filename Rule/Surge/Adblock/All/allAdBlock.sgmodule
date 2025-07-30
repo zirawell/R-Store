@@ -217,6 +217,7 @@ DOMAIN, collect.xiaopeng.com, REJECT, extended-matching, pre-matching
 DOMAIN, conf-darwin.xycdn.com, REJECT, extended-matching, pre-matching
 DOMAIN, config.inmobi.cn, REJECT, extended-matching, pre-matching
 DOMAIN, content-open.douyin.com, REJECT, extended-matching, pre-matching
+DOMAIN, corp.meitu.com, REJECT, extended-matching, pre-matching
 DOMAIN, counter.kingsoft.com, REJECT, extended-matching, pre-matching
 DOMAIN, counter.ksosoft.com, REJECT, extended-matching, pre-matching
 DOMAIN, cpush.ctrip.com, REJECT, extended-matching, pre-matching
@@ -270,6 +271,7 @@ DOMAIN, g1.tagtic.cn, REJECT, extended-matching, pre-matching
 DOMAIN, g3.letv.com, REJECT, extended-matching, pre-matching
 DOMAIN, gdfp.gifshow.com, REJECT, extended-matching, pre-matching
 DOMAIN, geo2.adobe.com, REJECT, extended-matching, pre-matching
+DOMAIN, gg.meitu.com, REJECT, extended-matching, pre-matching
 DOMAIN, ggadoffline.miguvideo.com, REJECT, extended-matching, pre-matching
 DOMAIN, ggc.cmvideo.cn, REJECT, extended-matching, pre-matching
 DOMAIN, ggic03.miguvideo.com, REJECT, extended-matching, pre-matching
@@ -361,6 +363,7 @@ DOMAIN, mdap.mpaas.cn-hangzhou.aliyuncs.com, REJECT, extended-matching, pre-matc
 DOMAIN, mdap.wallet.pbcdci.cn, REJECT, extended-matching, pre-matching
 DOMAIN, mdc.wallet.pbcdci.cn, REJECT, extended-matching, pre-matching
 DOMAIN, mediation.adnxs.com, REJECT, extended-matching, pre-matching
+DOMAIN, message.meitu.com, REJECT, extended-matching, pre-matching
 DOMAIN, meta.pinduoduo.com, REJECT, extended-matching, pre-matching
 DOMAIN, meta.yangkeduo.com, REJECT, extended-matching, pre-matching
 DOMAIN, metrics.apple.com, REJECT, extended-matching, pre-matching
@@ -451,6 +454,7 @@ DOMAIN, soul-ad.soulapp.cn, REJECT, extended-matching, pre-matching
 DOMAIN, splashimgbssdl.yun.kugou.com, REJECT, extended-matching, pre-matching
 DOMAIN, splashqqlive.gtimg.com, REJECT, extended-matching, pre-matching
 DOMAIN, stat.10jqka.com.cn, REJECT, extended-matching, pre-matching
+DOMAIN, stat.meitudata.com, REJECT, extended-matching, pre-matching
 DOMAIN, stat.y.qq.com, REJECT, extended-matching, pre-matching
 DOMAIN, stat.youpin.mi.com, REJECT, extended-matching, pre-matching
 DOMAIN, statistic.live.126.net, REJECT, extended-matching, pre-matching
@@ -492,6 +496,7 @@ DOMAIN, tracking.babytree.com, REJECT, extended-matching, pre-matching
 DOMAIN, tracking.leiting.com, REJECT, extended-matching, pre-matching
 DOMAIN, tracklog.58.com, REJECT, extended-matching, pre-matching
 DOMAIN, tte.meituan.com, REJECT, extended-matching, pre-matching
+DOMAIN, tuiguang.meitu.com, REJECT, extended-matching, pre-matching
 DOMAIN, tux.qq.com, REJECT, extended-matching, pre-matching
 DOMAIN, twns.p2ptun.qq.com, REJECT, extended-matching, pre-matching
 DOMAIN, tysdk.95516.com, REJECT, extended-matching, pre-matching
