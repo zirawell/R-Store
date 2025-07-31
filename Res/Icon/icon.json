@@ -1,7 +1,7 @@
 {
   "name": "All Icons",
   "description": "collected by zirawell",
-  "time": "2025-07-25",
+  "time": "2025-07-31",
   "icons": [
     {
       "name": "tmyc",
@@ -330,6 +330,10 @@
     {
       "name": "coolapk",
       "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/checked/coolapk.png"
+    },
+    {
+      "name": "cilizhai",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/checked/cilizhai.png"
     },
     {
       "name": "ithome",
