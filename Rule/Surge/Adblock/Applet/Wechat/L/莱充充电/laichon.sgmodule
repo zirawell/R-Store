@@ -1,4 +1,4 @@
-# > 莱充 - LAICHON
+# > 莱充充电 - LAICHON
 
 [URL Rewrite]
 ^https?:\/\/(mobile|shop)\.laichon\.com\/api\/(v\d\/goods\/goodsList|exposureAdvStatistics|getWebAdvList) - reject
