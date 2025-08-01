@@ -556,6 +556,7 @@ DOMAIN-SUFFIX, count.video.sina.com.cn, REJECT, extended-matching, pre-matching
 ^https?:\/\/g\.alicdn\.com\/(?>alilog|trace) data-type=text data="" status-code=200
 ^https?:\/\/yixiu-abtest\.alicdn\.com\/ut-abtest\/config data-type=text data="{}" status-code=200
 ^https?:\/\/www\.google\.com\/ads data-type=text data="{}" status-code=200
+^https?:\/\/api\d?\.musical\.ly\/api\/ad\/ data-type=tiny-gif status-code=200
 ^https?:\/\/cdn\.api\.fotoable\.com\/Advertise\/ data-type=text data="" status-code=200
 ^https?:\/\/cloud\.bluecardsoft\.com\/yuntingad\/ data-type=text data="{}" status-code=200
 
@@ -567,4 +568,4 @@ adunion = type=http-response,pattern=^https?:\/\/api-access\.pangolin-sdk-toutia
 adunion = type=http-response,pattern=^https?:\/\/is.snssdk.com/api/ad/union/sdk,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/adsense.js
 
 [MITM]
-hostname= %APPEND% api2.helper.qq.com, imgcache.qq.com, mtteve.beacon.qq.com, vv.video.qq.com, qt.qq.com, y.gtimg.cn, splashqqlive.gtimg.com, qzonestyle.gtimg.cn, discuz.gtimg.cn, bla.gtimg.com, mmgr.gtimg.com, bk.bingo.qq.com, mi.gdt.qq.com, www.baidu.com, fcvbjbcebos.baidu.com, cover.baidu.com, afd.baidu.com, issuecdn.baidupcs.com, update.pan.baidu.com, video-dsp.pddpic.com, t-dsp.pinduoduo.com, images.pinduoduo.com, amdc.m.taobao.com, gw.alicdn.com, heic.alicdn.com, g.alicdn.com, yixiu-abtest.alicdn.com, img1.126.net, nex.163.com, g1.163.com, c.m.163.com, www.google.com, api-access.pangolin-sdk-toutiao.com, is.snssdk.com, cdn.api.fotoable.com, cloud.bluecardsoft.com
+hostname= %APPEND% api2.helper.qq.com, imgcache.qq.com, mtteve.beacon.qq.com, vv.video.qq.com, qt.qq.com, y.gtimg.cn, splashqqlive.gtimg.com, qzonestyle.gtimg.cn, discuz.gtimg.cn, bla.gtimg.com, mmgr.gtimg.com, bk.bingo.qq.com, mi.gdt.qq.com, www.baidu.com, fcvbjbcebos.baidu.com, cover.baidu.com, afd.baidu.com, issuecdn.baidupcs.com, update.pan.baidu.com, video-dsp.pddpic.com, t-dsp.pinduoduo.com, images.pinduoduo.com, amdc.m.taobao.com, gw.alicdn.com, heic.alicdn.com, g.alicdn.com, yixiu-abtest.alicdn.com, img1.126.net, nex.163.com, g1.163.com, c.m.163.com, www.google.com, api*.musical.ly, api-access.pangolin-sdk-toutiao.com, is.snssdk.com, cdn.api.fotoable.com, cloud.bluecardsoft.com
