@@ -10,12 +10,15 @@
 #!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/spotify.png
 #!date=2025-07-15
 
+[URL Rewrite]
+^https?:\/\/(?>gae2-spclient|guc3-spclient|spclient\.wg)\.spotify\.com(:443)?\/artistview\/v1\/artist\/(.*)&platform=iphone https://$1.spotify.com/artistview/v1/artist/$2&platform=ipad 302
+
 [Map Local]
-^https?:\/\/api\d?\.musical\.ly\/api\/ad\/ data-type=tiny-gif status-code=200
-^https?:\/\/spclient\.wg\.spotify\.com\/(?>ad-logic|ads|.+ad_slot|.+banners|.+canvases|.+cards|.+crashlytics|.+doubleclick.net|.+enabled-tracks|.+event|.+sponsored|.+promoted|.+promoted_offer) data-type=tiny-gif status-code=200
+^https?:\/\/(?>gae2-spclient|guc3-spclient|spclient\.wg)\.spotify\.com(:443)?\/pendragon\/ data-type=text data="{}" status-code=200
+^https?:\/\/(?>gae2-spclient|guc3-spclient|spclient\.wg)\.spotify\.com(:443)?\/(?>ad-logic|ads|.+ad_slot|.+banners|.+canvases|.+cards|.+crashlytics|.+doubleclick.net|.+enabled-tracks|.+event|.+sponsored|.+promoted) data-type=tiny-gif status-code=200
 
 [Script]
-spotify = type=http-response,pattern=^https?:\/\/spclient\.wg\.spotify\.com\/(bootstrap\/v\d\/bootstrap|user-customization-service\/v\d\/customize)$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/spotify.js
+spotify = type=http-response,pattern=^https?:\/\/(?>gae2-spclient|guc3-spclient|spclient\.wg)\.spotify\.com(:443)?\/(?>bootstrap\/v\d\/bootstrap|user-customization-service\/v\d\/customize)$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/spotify.js
 
 [MITM]
-hostname= %APPEND% api*.musical.ly, spclient.wg.spotify.com
+hostname= %APPEND% gae2-spclient.spotify.com, guc3-spclient.spotify.com, spclient.wg.spotify.com
