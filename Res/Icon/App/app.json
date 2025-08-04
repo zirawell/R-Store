@@ -1,7 +1,7 @@
 {
   "name": "App Icons",
   "description": "collected by zirawell",
-  "time": "2025-07-31",
+  "time": "2025-08-04",
   "icons": [
     {
       "name": "tmyc",
@@ -138,6 +138,10 @@
     {
       "name": "amap",
       "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/checked/amap.png"
+    },
+    {
+      "name": "topwidgets+",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/checked/topwidgets+.png"
     },
     {
       "name": "reddit",
@@ -1894,6 +1898,10 @@
     {
       "name": "mix",
       "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/checked/mix.png"
+    },
+    {
+      "name": "ibuscloud",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/checked/ibuscloud.png"
     },
     {
       "name": "ysepay",
