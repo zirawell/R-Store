@@ -2340,6 +2340,7 @@ https?:\/\/awg\.enmonster\.com\/apa\/(advert\/demand\/home\/poster|index\/advert
 ^https?:\/\/acs(\.|-)m\.(taobao|freshippo)\.com\/gw\/mtop\.wdk\.render\.querysinglepage data-type=text data="" status-code=200
 ^https?:\/\/3g\.csair\.com\/extraClient\/data\/mytrip\/getMinPriceFlight data-type=text data="{}" status-code=200
 ^https?:\/\/h5app\.kuwo\.cn\/m\/bdvipact2205\/index\.html\?fromsrc=huodong data-type=text data="{}" status-code=200
+^https?:\/\/m\.sh\.189\.cn\/business-appletapi\/packageQuery\/(?>getUserAdvertising|getLiveSessionList|getTop|getssplabelinfo|getsspmaterielinfo|sspQueryOperationInfo) data-type=text data="{}" status-code=200
 ^https?:\/\/peisongapi\.meituan\.com\/client\/getInitiateImage data-type=text data="" status-code=200
 ^https?:\/\/s\.jiediankeji\.com\/adv data-type=text data="{}" status-code=200
 ^https?:\/\/api\.51credit\.com\/ks\/a\/list\? data-type=text data="{}" status-code=200
@@ -2390,7 +2391,6 @@ https?:\/\/awg\.enmonster\.com\/apa\/(advert\/demand\/home\/poster|index\/advert
 ^https?:\/\/stars\.shuqireader\.com\/kkios\/render\/load\/resource\/appConfig data-type=text data="{}" status-code=200
 ^https?:\/\/api\.boohee\.com\/shop-interface\/api\/v\d\/home\/index data-type=text data="{}" status-code=200
 ^https?:\/\/c\.zhangle\.com\/pic\/mktg\/diversity\/.+\.jpg$ data-type=text data="{}" status-code=200
-^https?:\/\/m\.sh\.189\.cn\/business-appletapi\/packageQuery\/(?>getUserAdvertising|getLiveSessionList|getTopBannerData|getssplabelinfo|getsspmaterielinfo|sspQueryOperationInfo) data-type=text data="{}" status-code=200
 ^https?:\/\/zj\.haier\.net\/api-gw\/shpmResource\/servicePage\/weather\/query\?areaId data-type=text data="" status-code=200
 ^https?:\/\/stock\.xueqiu\.com\/v\d\/stock\/group\/recommend\/default\/list data-type=text data="{}" status-code=200
 ^https?:\/\/api\.m\.mi\.com\/v\d\/search\/search_default$ data-type=text data="{}" status-code=200
