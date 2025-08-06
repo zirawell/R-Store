@@ -1,7 +1,7 @@
 {
   "name": "App Icons",
   "description": "collected by zirawell",
-  "time": "2025-08-04",
+  "time": "2025-08-06",
   "icons": [
     {
       "name": "tmyc",
@@ -1994,6 +1994,10 @@
     {
       "name": "pixiv",
       "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/checked/pixiv.png"
+    },
+    {
+      "name": "didi",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/checked/didi.png"
     },
     {
       "name": "zbj",
