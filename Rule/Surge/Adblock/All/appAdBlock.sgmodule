@@ -1141,7 +1141,6 @@ DOMAIN-SUFFIX, tajs.qq.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, tappx.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, tb060x.corp.youdao.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, tb104x.corp.youdao.com, REJECT, extended-matching, pre-matching
-DOMAIN-SUFFIX, tcpgateway-ali.ctrip.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, tcss.qq.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, tdrec.youku.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, temai.taobao.com, REJECT, extended-matching, pre-matching
