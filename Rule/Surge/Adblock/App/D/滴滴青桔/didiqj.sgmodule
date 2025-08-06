@@ -1,8 +1,0 @@
-# > 滴滴青桔 - DIDIQJ
-
-[Map Local]
-^https?:\/\/pt-starimg\.didistatic\.com\/static\/starimg\/node\/.*.(?>jpg|png|gif) data-type=text data="" status-code=200
-^https?:\/\/omgup\d?\.xiaojukeji\.com\/api data-type=text data="" status-code=200
-
-[MITM]
-hostname= %APPEND% pt-starimg.didistatic.com, omgup*.xiaojukeji.com
