@@ -1,7 +1,6 @@
 # > 携程旅行 - CTRIP
 host, sofire.baidu.com, reject
 host-suffix, cn-shanghai.nlb.aliyuncs.com, reject
-host-suffix, tcpgateway-ali.ctrip.com, reject
 host-suffix, volceapplog.com, reject
 ip-cidr, 210.13.85.204/32, reject
 ip-cidr, 116.196.84.232/32, reject
