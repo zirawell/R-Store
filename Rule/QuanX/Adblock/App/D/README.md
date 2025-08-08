@@ -1,7 +1,7 @@
 # D
 <details>
 <summary>
-本目录共收录27个App，详情见如下，单击导入对应配置：
+本目录共收录26个App，详情见如下，单击导入对应配置：
 </summary>
 
 - [DJI](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FD%2FDJI%2Frewrite%2Fdji.conf%2C%20tag%3DDJI%22%5D%7D)
@@ -18,7 +18,6 @@
 - [叮达出行](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FD%2F%E5%8F%AE%E8%BE%BE%E5%87%BA%E8%A1%8C%2Frewrite%2Fdingda.conf%2C%20tag%3D%E5%8F%AE%E8%BE%BE%E5%87%BA%E8%A1%8C%22%5D%7D)
 - [嘀嗒出行](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FD%2F%E5%98%80%E5%97%92%E5%87%BA%E8%A1%8C%2Frewrite%2Fdidapinche.conf%2C%20tag%3D%E5%98%80%E5%97%92%E5%87%BA%E8%A1%8C%22%5D%7D)
 - [堆糖](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FD%2F%E5%A0%86%E7%B3%96%2Frewrite%2Fduitang.conf%2C%20tag%3D%E5%A0%86%E7%B3%96%22%5D%7D)
-- [多多买菜](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FD%2F%E5%A4%9A%E5%A4%9A%E4%B9%B0%E8%8F%9C%2Frewrite%2Fddmc.conf%2C%20tag%3D%E5%A4%9A%E5%A4%9A%E4%B9%B0%E8%8F%9C%22%5D%7D)
 - [大众点评](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FD%2F%E5%A4%A7%E4%BC%97%E7%82%B9%E8%AF%84%2Ffilter%2Fdianping.list%2C%20tag%3D%E5%A4%A7%E4%BC%97%E7%82%B9%E8%AF%84%22%5D%2C%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FD%2F%E5%A4%A7%E4%BC%97%E7%82%B9%E8%AF%84%2Frewrite%2Fdianping.conf%2C%20tag%3D%E5%A4%A7%E4%BC%97%E7%82%B9%E8%AF%84%22%5D%7D)
 - [大智慧](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FD%2F%E5%A4%A7%E6%99%BA%E6%85%A7%2Frewrite%2Fdzh.conf%2C%20tag%3D%E5%A4%A7%E6%99%BA%E6%85%A7%22%5D%7D)
 - [大麦](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FD%2F%E5%A4%A7%E9%BA%A6%2Frewrite%2Fdamai.conf%2C%20tag%3D%E5%A4%A7%E9%BA%A6%22%5D%7D)
