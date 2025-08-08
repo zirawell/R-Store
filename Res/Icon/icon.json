@@ -1,7 +1,7 @@
 {
   "name": "All Icons",
   "description": "collected by zirawell",
-  "time": "2025-08-06",
+  "time": "2025-08-08",
   "icons": [
     {
       "name": "tmyc",
@@ -1774,6 +1774,10 @@
     {
       "name": "xhtz",
       "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/checked/xhtz.png"
+    },
+    {
+      "name": "mifit",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/checked/mifit.png"
     },
     {
       "name": "12123",
