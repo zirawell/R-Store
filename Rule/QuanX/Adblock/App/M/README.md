@@ -1,7 +1,7 @@
 # M
 <details>
 <summary>
-本目录共收录30个App，详情见如下，单击导入对应配置：
+本目录共收录31个App，详情见如下，单击导入对应配置：
 </summary>
 
 - [MIX](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FM%2FMIX%2Frewrite%2Fmix.conf%2C%20tag%3DMIX%22%5D%7D)
@@ -13,6 +13,7 @@
 - [妈妈网孕育](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FM%2F%E5%A6%88%E5%A6%88%E7%BD%91%E5%AD%95%E8%82%B2%2Frewrite%2Fmama.conf%2C%20tag%3D%E5%A6%88%E5%A6%88%E7%BD%91%E5%AD%95%E8%82%B2%22%5D%7D)
 - [慢慢买](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FM%2F%E6%85%A2%E6%85%A2%E4%B9%B0%2Frewrite%2Fmanmanbuy.conf%2C%20tag%3D%E6%85%A2%E6%85%A2%E4%B9%B0%22%5D%7D)
 - [每日万年历](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FM%2F%E6%AF%8F%E6%97%A5%E4%B8%87%E5%B9%B4%E5%8E%86%2Frewrite%2Fmrwnl.conf%2C%20tag%3D%E6%AF%8F%E6%97%A5%E4%B8%87%E5%B9%B4%E5%8E%86%22%5D%7D)
+- [每日精選](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FM%2F%E6%AF%8F%E6%97%A5%E7%B2%BE%E9%81%B8%2Frewrite%2Fngdaily.conf%2C%20tag%3D%E6%AF%8F%E6%97%A5%E7%B2%BE%E9%81%B8%22%5D%7D)
 - [民生银行](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FM%2F%E6%B0%91%E7%94%9F%E9%93%B6%E8%A1%8C%2Frewrite%2Fcmbc.conf%2C%20tag%3D%E6%B0%91%E7%94%9F%E9%93%B6%E8%A1%8C%22%5D%7D)
 - [漫客栈](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FM%2F%E6%BC%AB%E5%AE%A2%E6%A0%88%2Frewrite%2Fmkz.conf%2C%20tag%3D%E6%BC%AB%E5%AE%A2%E6%A0%88%22%5D%7D)
 - [漫画人](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FM%2F%E6%BC%AB%E7%94%BB%E4%BA%BA%2Frewrite%2Fmanhuaren.conf%2C%20tag%3D%E6%BC%AB%E7%94%BB%E4%BA%BA%22%5D%7D)
