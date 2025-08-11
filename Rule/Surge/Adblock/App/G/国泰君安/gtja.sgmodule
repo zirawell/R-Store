@@ -1,7 +1,0 @@
-# > 国泰君安 - GTJA
-
-[Map Local]
-^https?:\/\/dl\.app\.gtja\.com\/dzswem\/kvController data-type=text data="" status-code=200
-
-[MITM]
-hostname= %APPEND% dl.app.gtja.com
