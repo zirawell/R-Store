@@ -1,14 +1,13 @@
 # B
 <details>
 <summary>
-本目录共收录29个App，详情见如下，单击导入对应配置：
+本目录共收录28个App，详情见如下，单击导入对应配置：
 </summary>
 
 - [Blued](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FB%2FBlued%2Frewrite%2Fblued.conf%2C%20tag%3DBlued%22%5D%7D)
 - [Boss直聘](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FB%2FBoss%E7%9B%B4%E8%81%98%2Frewrite%2Fboss.conf%2C%20tag%3DBoss%E7%9B%B4%E8%81%98%22%5D%7D)
 - [不背单词](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FB%2F%E4%B8%8D%E8%83%8C%E5%8D%95%E8%AF%8D%2Frewrite%2Fbeingfine.conf%2C%20tag%3D%E4%B8%8D%E8%83%8C%E5%8D%95%E8%AF%8D%22%5D%7D)
 - [北京银行](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FB%2F%E5%8C%97%E4%BA%AC%E9%93%B6%E8%A1%8C%2Frewrite%2Fbankofbeijing.conf%2C%20tag%3D%E5%8C%97%E4%BA%AC%E9%93%B6%E8%A1%8C%22%5D%7D)
-- [北京首汽](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FB%2F%E5%8C%97%E4%BA%AC%E9%A6%96%E6%B1%BD%2Frewrite%2Fshouqiev.conf%2C%20tag%3D%E5%8C%97%E4%BA%AC%E9%A6%96%E6%B1%BD%22%5D%7D)
 - [半月谈](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FB%2F%E5%8D%8A%E6%9C%88%E8%B0%88%2Frewrite%2Fbanyuetan.conf%2C%20tag%3D%E5%8D%8A%E6%9C%88%E8%B0%88%22%5D%7D)
 - [哔哩哔哩](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FB%2F%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9%2Ffilter%2Fbilibili.list%2C%20tag%3D%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9%22%5D%2C%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FB%2F%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9%2Frewrite%2Fbilibili.conf%2C%20tag%3D%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9%22%5D%7D)
 - [哔哩哔哩(国际版）](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FB%2F%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9%28%E5%9B%BD%E9%99%85%E7%89%88%EF%BC%89%2Ffilter%2Fbilibili-white.list%2C%20tag%3D%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9%28%E5%9B%BD%E9%99%85%E7%89%88%EF%BC%89%22%5D%7D)
