@@ -1,7 +1,7 @@
 {
   "name": "All Icons",
   "description": "collected by zirawell",
-  "time": "2025-08-08",
+  "time": "2025-08-14",
   "icons": [
     {
       "name": "tmyc",
@@ -2062,6 +2062,10 @@
     {
       "name": "beingfine",
       "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/checked/beingfine.png"
+    },
+    {
+      "name": "gofun",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/checked/gofun.png"
     },
     {
       "name": "iqiyi",

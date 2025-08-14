@@ -1,9 +1,10 @@
 # G
 <details>
 <summary>
-本目录共收录14个App，详情见如下，单击导入对应配置：
+本目录共收录15个App，详情见如下，单击导入对应配置：
 </summary>
 
+- [GoFun出行](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FG%2FGoFun%E5%87%BA%E8%A1%8C%2Frewrite%2Fgofun.conf%2C%20tag%3DGoFun%E5%87%BA%E8%A1%8C%22%5D%7D)
 - [公考雷达](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FG%2F%E5%85%AC%E8%80%83%E9%9B%B7%E8%BE%BE%2Frewrite%2Fgongkaoleida.conf%2C%20tag%3D%E5%85%AC%E8%80%83%E9%9B%B7%E8%BE%BE%22%5D%7D)
 - [冠寓](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FG%2F%E5%86%A0%E5%AF%93%2Frewrite%2Fguanyu.conf%2C%20tag%3D%E5%86%A0%E5%AF%93%22%5D%7D)
 - [国家医保服务平台](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FG%2F%E5%9B%BD%E5%AE%B6%E5%8C%BB%E4%BF%9D%E6%9C%8D%E5%8A%A1%E5%B9%B3%E5%8F%B0%2Frewrite%2Fnhsa.conf%2C%20tag%3D%E5%9B%BD%E5%AE%B6%E5%8C%BB%E4%BF%9D%E6%9C%8D%E5%8A%A1%E5%B9%B3%E5%8F%B0%22%5D%7D)
