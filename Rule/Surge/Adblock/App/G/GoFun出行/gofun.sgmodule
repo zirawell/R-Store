@@ -10,8 +10,9 @@
 #!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/gofun.png
 #!date=2025-08-14
 
-[URL Rewrite]
-^https?:\/\/gateway\.shouqiev\.com(:\d+)?\/fsda\/app\/bootImage\.json - reject
+[Map Local]
+^https?:\/\/gateway\.shouqiev\.com(:\d+)?\/app\/startUp data-type=text data="{}" status-code=200
+^https?:\/\/gateway\.shouqiev\.com(:\d+)?\/fsda\/app\/(?>bootImage|loadPic|appBannerList) data-type=text data="{}" status-code=200
 
 [MITM]
 hostname= %APPEND% gateway.shouqiev.com
