@@ -1332,7 +1332,6 @@ DOMAIN-KEYWORD, wan.sogou.com, REJECT, extended-matching, pre-matching
 ^https?:\/\/.+\.byteimg\.com\/web\.business\.image - reject
 ^https?:\/\/api\d?\.futunn\.com\/ad - reject
 ^https?:\/\/api\.bjxkhc\.com\/index\.php\/app\/ios\/ver/index_ios$ - reject
-^https?:\/\/gateway\.shouqiev\.com(:\d+)?\/fsda\/app\/bootImage\.json - reject
 ^https?:\/\/e\.jparking\.cn\/abTest-gateway\/abTest-api - reject
 ^https?:\/\/mkt-gateway\.tuhu\.cn\/mkt-push-message-box\/banner\/cms\/getIndexBanner - reject
 ^https?:\/\/cix\.line-apps\.com\/R4\? - reject
@@ -1865,6 +1864,7 @@ DOMAIN-KEYWORD, wan.sogou.com, REJECT, extended-matching, pre-matching
 ^https?:\/\/facade-api\.black-unique\.com\/app\/v\d\/startScreen\?.* data-type=text data="{}" status-code=200
 ^https?:\/\/dualstack-logs\.amap\.com\/ws\/log\/upload\?product data-type=text data="" status-code=200
 ^https?:\/\/cstore-en-public-tx\.seewo\.com\/easinote\d_public data-type=text data="{}" status-code=200
+^https?:\/\/gateway\.shouqiev\.com(:\d+)?\/app\/startUp data-type=text data="{}" status-code=200
 ^https?:\/\/t\d{2}\.baidu\.com data-type=tiny-gif status-code=200
 ^https?:\/\/gsp\.gacmotor\.com\/gateway\/webapi\/baseinfo\/advertise\/getAdvertiseByPositionCode\?positionCode=1 data-type=text data="{}" status-code=200
 ^https?:\/\/api-mifit(-\w+)?\.zepp\.com\/discovery\/mi\/discovery\/.+?_ad data-type=text data="" status-code=200
@@ -2326,6 +2326,7 @@ https?:\/\/awg\.enmonster\.com\/apa\/(advert\/demand\/home\/poster|index\/advert
 ^https?:\/\/creditcardapp\.bankcomm\.(com|cn)\/CnsvMdbaptFinclipWeb data-type=text data="{}" status-code=200
 ^https?:\/\/m\.client\.10010\.com\/uniAdmsInterface\/(?>getHomePageAd|getWelcomeAd) data-type=tiny-gif status-code=200
 ^https?:\/\/api\.pinduoduo\.com\/api\/brand-olay\/goods_detail\/bybt_guide data-type=text data="{}" status-code=200
+^https?:\/\/gateway\.shouqiev\.com(:\d+)?\/fsda\/app\/(?>bootImage|loadPic|appBannerList) data-type=text data="{}" status-code=200
 ^https?:\/\/gzacshow\.kugou\.com\/mfanxing-home\/cdn\/room\/index\/list_v data-type=text data="{}" status-code=200
 ^https?:\/\/image\.suning\.cn\/uimg\/ma\/ad\/ data-type=text data="" status-code=200
 ^https?:\/\/img\.meituan\.net\/goodsawardpic data-type=tiny-gif status-code=200
