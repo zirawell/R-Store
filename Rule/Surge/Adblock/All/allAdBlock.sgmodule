@@ -2378,6 +2378,7 @@ https?:\/\/awg\.enmonster\.com\/apa\/(advert\/demand\/home\/poster|index\/advert
 ^https?:\/\/m\.pvp\.xoyo\.com\/conf\/server-mapping data-type=text data="{}" status-code=200
 ^https?:\/\/(cdn-)?h5\.kuaikanmanhua\.com\/game-h5\/new-user-welfare\/index\.html data-type=text data="" status-code=200
 ^https?:\/\/creditcard\.bankcomm\.(com|cn)\/tfimg\/public00\/M00\/4C\/6F data-type=tiny-gif status-code=200
+^https?:\/\/h5\.m\.goofish\.com\/wow\/moyu\/moyu-project\/idle-xy-seller-home\/pages\/dress-pop data-type=text data="{}" status-code=200
 ^https?:\/\/manga\.bilibili\.com\/twirp\/novel\.v\d\.Novel\/MoreRecommend data-type=text data="{}" status-code=200
 ^https?:\/\/mrobot\.(?>pcauto|pconline)\.com\.cn\/[a-z0-9-]+\/onlineinfo\/(ad|cms\/launch) data-type=text data="" status-code=200
 ^https?:\/\/webcast-open\.douyin\.com\/webcast\/openapi\/feed\/ data-type=text data="{}" status-code=200
