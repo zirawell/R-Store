@@ -74,7 +74,6 @@ DOMAIN, init.ess.apple.com, DIRECT
 DOMAIN-KEYWORD, ssl.apple.com, DIRECT
 DOMAIN-KEYWORD, humb.apple.com, DIRECT
 DOMAIN, smp-device-content.apple.com, DIRECT
-DOMAIN-KEYWORD, api-adservices.apple.com, DIRECT
 DOMAIN-KEYWORD, ls.apple.com, DIRECT
 DOMAIN-KEYWORD, gsa.apple.com, DIRECT
 DOMAIN-KEYWORD, ess.apple.com, DIRECT
