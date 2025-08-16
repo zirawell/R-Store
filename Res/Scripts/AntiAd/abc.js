@@ -17,7 +17,8 @@ const blockList = [
     //"com.bankabc.credit.home.getCcocAdInfo",
     "com.bankabc.credit.query.custbillqry.getadv",
     "com.abchina.mbank.common.homepage.getStartParam",
-    "alipay.client.updateVersion"
+    "alipay.client.updateVersion",
+    "com.abchina.mbank.securitycenter.msmp.antiHijack"
 ];
 
 if (blockList?.includes(headopt)) {
