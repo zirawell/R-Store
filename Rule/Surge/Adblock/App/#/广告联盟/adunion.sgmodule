@@ -91,6 +91,7 @@ DOMAIN-SUFFIX, admobile.top, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, miaozhen.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, gentags.net, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, dcloud.net.cn, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, tec73.com, REJECT, extended-matching, pre-matching
 DOMAIN-KEYWORD, ads.g.doubleclick, REJECT, extended-matching, pre-matching
 DOMAIN-KEYWORD, iflyad.bj.openstorage.cn, REJECT, extended-matching, pre-matching
 DOMAIN-KEYWORD, bjimp.voiceads.cn, REJECT, extended-matching, pre-matching

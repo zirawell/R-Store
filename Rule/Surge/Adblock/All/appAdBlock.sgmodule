@@ -1143,6 +1143,7 @@ DOMAIN-SUFFIX, tb060x.corp.youdao.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, tb104x.corp.youdao.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, tcss.qq.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, tdrec.youku.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, tec73.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, temai.taobao.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, test.ott.youku.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, textlink.simba.taobao.com, REJECT, extended-matching, pre-matching
