@@ -1703,6 +1703,7 @@ DOMAIN-KEYWORD, wan.sogou.com, REJECT, extended-matching, pre-matching
 ^https?:\/\/app\.hbooker\.com\/setting\/get_startpage_url_list - reject
 ^https?:\/\/\w{32}\.jddebug\.com\/diagnose\? - reject
 ^https?:\/\/mkt-gateway\.tuhu\.cn\/mkt-scene-marketing-service\/api\/scene\/queryScheme - reject
+^https?:\/\/xxyx-client-api\.xiaoxiaoyouxuan\.com\/client\/urban\/activity\/index\/data\?agentId=12 - reject
 ^https?:\/\/101\.91\.69\.26:8080\/.+ - reject
 ^https?:\/\/mage(v\d)?\.if\.qidian\.com\/argus\/api\/v\d\/client\/iosad - reject
 ^https?:\/\/.*mangaapi\.manhuaren\.\w{2,4}\/v\d\/ad - reject
