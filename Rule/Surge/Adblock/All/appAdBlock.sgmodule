@@ -2066,6 +2066,7 @@ https?:\/\/awg\.enmonster\.com\/apa\/(advert\/demand\/home\/poster|index\/advert
 ^https?:\/\/pic\.edaijia\.cn\/adsplash\/ data-type=text data="" status-code=200
 ^https?:\/\/m\.client\.10010\.com\/mobileService\/customer\/getclientconfig\.htm data-type=text data="{}" status-code=200
 ^https?:\/\/gateway(retry)?\.kugou\.com\/mstc\/musicsymbol\/v\d\/system\/profile data-type=text data="{}" status-code=200
+^https?:\/\/(g-)?acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idlecommerce\.splash data-type=text data="{}" status-code=200
 ^https?:\/\/mall\.meituan\.com\/api\/c\/homepage\/bubble\/operate\/info data-type=text data="{}" status-code=200
 ^https?:\/\/www\.nfmovies\.com\/pic\/tu\/ data-type=tiny-gif status-code=200
 ^https?:\/\/app\.badmintoncn\.com\/mag\/operative\/v\d\/ad\/listNotEndByPlace\?place=first_page data-type=text data="" status-code=200
