@@ -7,8 +7,6 @@
 # > ChatGPT
 DOMAIN, api.statsig.com, OpenAI
 DOMAIN, browser-intake-datadoghq.com, OpenAI
-DOMAIN, cdn.openai.com, OpenAI
-DOMAIN, chat.openai.com, OpenAI
 DOMAIN, chat.openai.com.cdn.cloudflare.net, OpenAI
 DOMAIN, ios.chat.openai.com, OpenAI
 DOMAIN, o33249.ingest.sentry.io, OpenAI
@@ -32,6 +30,7 @@ DOMAIN-SUFFIX, oaistatic.com, OpenAI
 DOMAIN-SUFFIX, oaiusercontent.com, OpenAI
 DOMAIN-SUFFIX, observeit.net, OpenAI
 DOMAIN-SUFFIX, openai.com, OpenAI
+DOMAIN-SUFFIX, chatgpt.com, OpenAI
 DOMAIN-SUFFIX, openaiapi-site.azureedge.net, OpenAI
 DOMAIN-SUFFIX, openaicom.imgix.net, OpenAI
 DOMAIN-SUFFIX, poe.com, OpenAI

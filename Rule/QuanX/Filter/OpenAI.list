@@ -7,8 +7,6 @@
 # > ChatGPT
 HOST, api.statsig.com, OpenAI
 HOST, browser-intake-datadoghq.com, OpenAI
-HOST, cdn.openai.com, OpenAI
-HOST, chat.openai.com, OpenAI
 HOST, chat.openai.com.cdn.cloudflare.net, OpenAI
 HOST, ios.chat.openai.com, OpenAI
 HOST, o33249.ingest.sentry.io, OpenAI
@@ -32,6 +30,7 @@ HOST-SUFFIX, oaistatic.com, OpenAI
 HOST-SUFFIX, oaiusercontent.com, OpenAI
 HOST-SUFFIX, observeit.net, OpenAI
 HOST-SUFFIX, openai.com, OpenAI
+HOST-SUFFIX, chatgpt.com, OpenAI
 HOST-SUFFIX, openaiapi-site.azureedge.net, OpenAI
 HOST-SUFFIX, openaicom.imgix.net, OpenAI
 HOST-SUFFIX, poe.com, OpenAI
