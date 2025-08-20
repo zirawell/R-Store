@@ -26,6 +26,7 @@ DOMAIN-SUFFIX, ad.e.waimai.sankuai.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, mads.meituan.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, d.meituan.net, REJECT, extended-matching, pre-matching
 DOMAIN-KEYWORD, report.meituan, REJECT, extended-matching, pre-matching
+DOMAIN-KEYWORD, dnspod.meituan.httpdns, REJECT, extended-matching, pre-matching
 
 [URL Rewrite]
 ^https?:\/\/apimobile\.meituan\.com\/appupdate - reject

@@ -1293,6 +1293,7 @@ DOMAIN-KEYWORD, bjimp.voiceads.cn, REJECT, extended-matching, pre-matching
 DOMAIN-KEYWORD, c1img.ali.kugou.com, REJECT, extended-matching, pre-matching
 DOMAIN-KEYWORD, collectionpv.che168.com, REJECT, extended-matching, pre-matching
 DOMAIN-KEYWORD, dns.alidns.com, REJECT, extended-matching, pre-matching
+DOMAIN-KEYWORD, dnspod.meituan.httpdns, REJECT, extended-matching, pre-matching
 DOMAIN-KEYWORD, gdtimg.com, REJECT, extended-matching, pre-matching
 DOMAIN-KEYWORD, iflyad.bj.openstorage.cn, REJECT, extended-matching, pre-matching
 DOMAIN-KEYWORD, kepler.jd.com, REJECT, extended-matching, pre-matching
