@@ -1,0 +1,8 @@
+# > 淘宝闪购<支付宝小程序> - TBSG
+
+[Map Local]
+# 右下角角标
+^https?:\/\/waimai-guide\.ele\.me\/h5\/mtop\.ele\.growth\.fission\.client\.etmd\.et\.getmainpageicon data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% aimai-guide.ele.me
