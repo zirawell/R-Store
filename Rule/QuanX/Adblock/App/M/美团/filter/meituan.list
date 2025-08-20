@@ -14,3 +14,4 @@ host-suffix, ad.e.waimai.sankuai.com, reject
 host-suffix, mads.meituan.com, reject
 host-suffix, d.meituan.net, reject
 host-keyword, report.meituan, reject
+host-keyword, dnspod.meituan.httpdns, reject
