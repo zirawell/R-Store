@@ -2699,6 +2699,7 @@ https?:\/\/awg\.enmonster\.com\/apa\/(advert\/demand\/home\/poster|index\/advert
 ^https?:\/\/api\.touker\.com\/v\d\/IAdvertisementAPI\.queryStartAdvertisement data-type=text data="" status-code=200
 ^https?:\/\/ggic\d+.miguvideo\.com\/ad\/ data-type=text data="{}" status-code=200
 ^https?:\/\/open\.e\.kuaishou\.cn\/rest\/e\/v\d\/open data-type=text data="{}" status-code=200
+^https?:\/\/tiku\.fenbi\.com\/activity\/app\/(?>launcher|versions) data-type=text data="{}" status-code=200
 ^https?:\/\/m\.dianping\.com\/wxmapi\/shop\/friendslike data-type=text data="{}" status-code=200
 ^https?:\/\/api\.qbb6\.com\/commons\/widget\/info\/get data-type=text data="{}" status-code=200
 ^https?:\/\/(g-)?acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idle\.topic\.banner\/ data-type=text data="{}" status-code=200
@@ -2729,7 +2730,6 @@ https?:\/\/awg\.enmonster\.com\/apa\/(advert\/demand\/home\/poster|index\/advert
 ^https?:\/\/mobile-api2011\.elong\.com\/ad(?>v|gateway) data-type=text data="" status-code=200
 ^https?:\/\/mime\.baidu\.com\/sapi\/v\d\/lccorpus\/(?>applist|pannellist) data-type=text data="{}" status-code=200
 ^https?:\/\/wx\.17u\.cn\/wxocbdapi\/adService data-type=text data="{}" status-code=200
-^https?:\/\/tiku\.fenbi\.com\/activity\/app\/launcher data-type=text data="{}" status-code=200
 ^https?:\/\/apisvr\.iyunmai\.com\/api\/ios\/apps\/get-online-parameter-list data-type=file data="https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Data/iyunmai.json"
 ^https?:\/\/apivip\.kuaiduizuoye\.com\/viponline\/scancode\/mycard data-type=text data="{}" status-code=200
 ^https?:\/\/wx\.17u\.cn\/mytourapi\/mytrip\/(?>blankflight|toptips) data-type=text data="{}" status-code=200
