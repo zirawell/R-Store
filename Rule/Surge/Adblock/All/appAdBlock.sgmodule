@@ -321,6 +321,7 @@ DOMAIN, jdqd.jd.com, REJECT, extended-matching, pre-matching
 DOMAIN, kad.gotokeep.com, REJECT, extended-matching, pre-matching
 DOMAIN, launch.apple.com, REJECT, extended-matching, pre-matching
 DOMAIN, layer.bz.mgtv.com, REJECT, extended-matching, pre-matching
+DOMAIN, layout.meituan.net, REJECT, extended-matching, pre-matching
 DOMAIN, lbs.netease.im, REJECT, extended-matching, pre-matching
 DOMAIN, lc.map.baidu.com, REJECT, extended-matching, pre-matching
 DOMAIN, lf-webcast-gr-sourcecdn.bytegecko.com, REJECT, extended-matching, pre-matching
