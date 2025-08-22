@@ -1,10 +1,8 @@
 # > 优酷 - YOUKU
 host, amdc.m.youku.com, reject
-host, apiv4-iyes.youku.com, reject
 host, api.sm.cn, reject
 host, huichuan-mc.sm.cn, reject
 host, huichuan.sm.cn, reject
-host, iyes.youku.com, reject
 host, cad.youku.com, reject
 host, pre-acs.youku.com, reject
 host, m-vali.cp31.ott.cibntv.net, reject
@@ -57,3 +55,4 @@ host-suffix, wan.youku.com, reject
 host-suffix, ykatr.youku.com, reject
 host-suffix, ykrec.youku.com, reject
 host-keyword, push.m.youku.com, reject
+host-keyword, iyes.youku.com, reject
