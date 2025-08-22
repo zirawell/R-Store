@@ -12,11 +12,9 @@
 
 [Rule]
 DOMAIN, amdc.m.youku.com, REJECT, extended-matching, pre-matching
-DOMAIN, apiv4-iyes.youku.com, REJECT, extended-matching, pre-matching
 DOMAIN, api.sm.cn, REJECT, extended-matching, pre-matching
 DOMAIN, huichuan-mc.sm.cn, REJECT, extended-matching, pre-matching
 DOMAIN, huichuan.sm.cn, REJECT, extended-matching, pre-matching
-DOMAIN, iyes.youku.com, REJECT, extended-matching, pre-matching
 DOMAIN, cad.youku.com, REJECT, extended-matching, pre-matching
 DOMAIN, pre-acs.youku.com, REJECT, extended-matching, pre-matching
 DOMAIN, m-vali.cp31.ott.cibntv.net, REJECT, extended-matching, pre-matching
@@ -69,6 +67,7 @@ DOMAIN-SUFFIX, wan.youku.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, ykatr.youku.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, ykrec.youku.com, REJECT, extended-matching, pre-matching
 DOMAIN-KEYWORD, push.m.youku.com, REJECT, extended-matching, pre-matching
+DOMAIN-KEYWORD, iyes.youku.com, REJECT, extended-matching, pre-matching
 
 [Map Local]
 # 播放页弹窗动图

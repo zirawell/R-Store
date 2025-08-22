@@ -184,7 +184,6 @@ DOMAIN, api.verify.mob.com, REJECT, extended-matching, pre-matching
 DOMAIN, api.zuihuimai.com, REJECT, extended-matching, pre-matching
 DOMAIN, api.zysdsk.cn, REJECT, extended-matching, pre-matching
 DOMAIN, apiinit.amap.com, REJECT, extended-matching, pre-matching
-DOMAIN, apiv4-iyes.youku.com, REJECT, extended-matching, pre-matching
 DOMAIN, apm.gotokeep.com, REJECT, extended-matching, pre-matching
 DOMAIN, apm.pinduoduo.com, REJECT, extended-matching, pre-matching
 DOMAIN, apmplus.volces.com, REJECT, extended-matching, pre-matching
@@ -326,7 +325,6 @@ DOMAIN, ipv4.music.163.com, REJECT, extended-matching, pre-matching
 DOMAIN, ipv6.music.163.com, REJECT, extended-matching, pre-matching
 DOMAIN, iqiyim.adtrack.enlightent.cn, REJECT, extended-matching, pre-matching
 DOMAIN, ivy.pchouse.com.cn, REJECT, extended-matching, pre-matching
-DOMAIN, iyes.youku.com, REJECT, extended-matching, pre-matching
 DOMAIN, janapi.jd.com, REJECT, extended-matching, pre-matching
 DOMAIN, jdqd.jd.com, REJECT, extended-matching, pre-matching
 DOMAIN, kad.gotokeep.com, REJECT, extended-matching, pre-matching
@@ -1297,6 +1295,7 @@ DOMAIN-KEYWORD, dns.alidns.com, REJECT, extended-matching, pre-matching
 DOMAIN-KEYWORD, dnspod.meituan.httpdns, REJECT, extended-matching, pre-matching
 DOMAIN-KEYWORD, gdtimg.com, REJECT, extended-matching, pre-matching
 DOMAIN-KEYWORD, iflyad.bj.openstorage.cn, REJECT, extended-matching, pre-matching
+DOMAIN-KEYWORD, iyes.youku.com, REJECT, extended-matching, pre-matching
 DOMAIN-KEYWORD, kepler.jd.com, REJECT, extended-matching, pre-matching
 DOMAIN-KEYWORD, keplerapi.jd.com, REJECT, extended-matching, pre-matching
 DOMAIN-KEYWORD, log.snssdk.com, REJECT, extended-matching, pre-matching
