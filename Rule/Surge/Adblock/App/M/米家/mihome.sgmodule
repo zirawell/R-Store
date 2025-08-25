@@ -16,5 +16,8 @@ DOMAIN, sdkconfig.ad.xiaomi.com, REJECT, extended-matching, pre-matching
 [URL Rewrite]
 ^https?:\/\/home\.mi\.com\/cgi-op\/api\/v\d\/recommendation - reject
 
+[Map Local]
+^https?:\/\/home\.mi\.com\/cgi-op\/api\/v\d\/resource\/realtime\/openingBanner data-type=text data="{}" status-code=200
+
 [MITM]
 hostname= %APPEND% home.mi.com
