@@ -11,6 +11,8 @@
 #!date=2025-07-08
 
 [Rule]
+DOMAIN, imc.abchina.com.cn, REJECT, extended-matching, pre-matching
+DOMAIN, msmp.abchina.com.cn, REJECT, extended-matching, pre-matching
 DOMAIN, firefly.abchina.com.cn, REJECT, extended-matching, pre-matching
 
 [Script]
