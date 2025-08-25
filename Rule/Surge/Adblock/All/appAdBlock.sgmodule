@@ -301,6 +301,7 @@ DOMAIN, ichannel.snssdk.com, REJECT, extended-matching, pre-matching
 DOMAIN, icloud-amap.com, REJECT, extended-matching, pre-matching
 DOMAIN, id.hadron.ad.gt, REJECT, extended-matching, pre-matching
 DOMAIN, ifconfig.me, REJECT, extended-matching, pre-matching
+DOMAIN, imc.abchina.com.cn, REJECT, extended-matching, pre-matching
 DOMAIN, img.adnyg.com, REJECT, extended-matching, pre-matching
 DOMAIN, img.adnyg.com.w.kunlungr.com, REJECT, extended-matching, pre-matching
 DOMAIN, img.auction-ads.wpscdn.cn, REJECT, extended-matching, pre-matching
@@ -366,6 +367,7 @@ DOMAIN, mon.zijieapi.com, REJECT, extended-matching, pre-matching
 DOMAIN, mon11-misc.fqnovel.com, REJECT, extended-matching, pre-matching
 DOMAIN, monitor.music.qq.com, REJECT, extended-matching, pre-matching
 DOMAIN, mqtt.zhihu.com, REJECT, extended-matching, pre-matching
+DOMAIN, msmp.abchina.com.cn, REJECT, extended-matching, pre-matching
 DOMAIN, mssdk-bu.bytedance.com, REJECT, extended-matching, pre-matching
 DOMAIN, mssdk.volces.com, REJECT, extended-matching, pre-matching
 DOMAIN, mssdk.zijieapi.com, REJECT, extended-matching, pre-matching
