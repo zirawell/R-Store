@@ -20,7 +20,6 @@ DOMAIN, httpdns.yunxindns.com, REJECT, extended-matching, pre-matching
 
 [Map Local]
 ^https?:\/\/ext-svc\.xiaopeng\.com\/api\/log\/open\/get\/image data-type=text data="{}" status-code=200
-^https?:\/\/xps01\.xiaopeng\.com\/www\/b\/public\/js\/(runtime|chunk) data-type=text data="{}" status-code=200
 
 [MITM]
-hostname= %APPEND% ext-svc.xiaopeng.com, xps01.xiaopeng.com
+hostname= %APPEND% ext-svc.xiaopeng.com
