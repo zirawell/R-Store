@@ -6,7 +6,6 @@ host, layout.meituan.net, reject
 host, httpdnsmultiapi.meituan.com, reject
 host, httpdnsmultiapivip.meituan.com, reject
 host-suffix, httpdns.meituan.com, reject
-host-suffix, analytics.meituan.net, reject
 host-suffix, meituan.xn, reject
 host-suffix, meituan.yoga, reject
 host-suffix, meituangov.cn, reject

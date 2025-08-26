@@ -18,7 +18,6 @@ DOMAIN, layout.meituan.net, REJECT, extended-matching, pre-matching
 DOMAIN, httpdnsmultiapi.meituan.com, REJECT, extended-matching, pre-matching
 DOMAIN, httpdnsmultiapivip.meituan.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, httpdns.meituan.com, REJECT, extended-matching, pre-matching
-DOMAIN-SUFFIX, analytics.meituan.net, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, meituan.xn, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, meituan.yoga, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, meituangov.cn, REJECT, extended-matching, pre-matching
