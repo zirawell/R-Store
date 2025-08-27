@@ -2457,6 +2457,7 @@ https?:\/\/awg\.enmonster\.com\/apa\/(advert\/demand\/home\/poster|index\/advert
 ^https?:\/\/douyucdn\.cn\/.+?\/appapi\/getinfo data-type=tiny-gif status-code=200
 ^https?:\/\/4gimg\.map\.qq\.com\/mwaSplash\/ data-type=text data="" status-code=200
 ^https?:\/\/tg\.feidee\.com\/vis-ad-engine-ws\/api\/v\d\/ads\/ data-type=text data="{}" status-code=200
+^https?:\/\/acs(\.|-)m\.(taobao|freshippo)\.com\/gw\/mtop\.alibaba\.emas\.publish\.update\.get data-type=text data="{}" status-code=200
 ^https?:\/\/creditcardapp\.bankcomm\.(com|cn)\/CnsvMdbaptFinclipWeb data-type=text data="{}" status-code=200
 ^https?:\/\/m\.client\.10010\.com\/uniAdmsInterface\/(?>getHomePageAd|getWelcomeAd) data-type=tiny-gif status-code=200
 ^https?:\/\/api\.pinduoduo\.com\/api\/brand-olay\/goods_detail\/bybt_guide data-type=text data="{}" status-code=200
