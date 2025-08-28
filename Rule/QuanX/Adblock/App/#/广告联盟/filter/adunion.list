@@ -60,6 +60,7 @@ host-keyword, ads.g.doubleclick, reject
 host-keyword, iflyad.bj.openstorage.cn, reject
 host-keyword, bjimp.voiceads.cn, reject
 host-keyword, sdk.1rtb.net, reject
+ip-cidr, 203.107.1.0/24, reject
 # > 神策 - SENSORDATA
 host-keyword, sensorsdata.cn, reject
 # > GozenData - GOZENDATA
