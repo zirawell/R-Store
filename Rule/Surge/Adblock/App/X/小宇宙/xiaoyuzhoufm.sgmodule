@@ -10,9 +10,13 @@
 #!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/xiaoyuzhoufm.png
 #!date=2025-07-08
 
+[Body Rewrite]
+# 首页净化
+http-response-jq ^https?:\/\/api\.xiaoyuzhoufm\.com\/v\d\/discovery-feed\/list '.data |= map(select(.type == "DISCOVERY_EPISODE_RECOMMEND" or .type == "EDITOR_PICK"))'
+
 [Map Local]
 # 开屏广告
-^https?:\/\/api\.xiaoyuzhoufm\.com\/v\d\/flash- data-type=text data="{}" status-code=200
+^https?:\/\/api\.xiaoyuzhoufm\.com\/v\d\/flash data-type=text data="{}" status-code=200
 # ai总结
 ^https?:\/\/api\.xiaoyuzhoufm\.com\/v\d\/ai-summary data-type=text data="{}" status-code=200
 # 会员横幅设为不可点击
