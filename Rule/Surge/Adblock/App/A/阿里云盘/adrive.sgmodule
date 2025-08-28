@@ -10,9 +10,6 @@
 #!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/adrive.png
 #!date=2025-07-08
 
-[Rule]
-IP-CIDR, 203.107.1.0/24, REJECT, no-resolve, pre-matching
-
 [Map Local]
 ^https?:\/\/member\.alipan\.com\/v\d\/activity\/sign_in_(?>info|luckyBottle) data-type=text data="{}" status-code=200
 ^https?:\/\/api\.alipan\.com\/adrive\/v\d\/file\/getTopFolders data-type=text data="{}" status-code=200

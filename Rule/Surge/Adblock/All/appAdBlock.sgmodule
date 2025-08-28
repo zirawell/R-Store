@@ -49,7 +49,6 @@ IP-CIDR, 180.97.42.0/24, REJECT, no-resolve, pre-matching
 IP-CIDR, 183.201.213.194/24, REJECT, no-resolve, pre-matching
 IP-CIDR, 186.76.76.200/32, REJECT, no-resolve, pre-matching
 IP-CIDR, 203.107.1.0/24, REJECT, no-resolve, pre-matching
-IP-CIDR, 203.107.1.1/24, REJECT, no-resolve, pre-matching
 IP-CIDR, 203.107.63.154/32, REJECT, no-resolve, pre-matching
 IP-CIDR, 210.13.85.204/32, REJECT, no-resolve, pre-matching
 IP-CIDR, 212.129.220.0/24, REJECT, no-resolve, pre-matching

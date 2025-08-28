@@ -96,6 +96,7 @@ DOMAIN-KEYWORD, ads.g.doubleclick, REJECT, extended-matching, pre-matching
 DOMAIN-KEYWORD, iflyad.bj.openstorage.cn, REJECT, extended-matching, pre-matching
 DOMAIN-KEYWORD, bjimp.voiceads.cn, REJECT, extended-matching, pre-matching
 DOMAIN-KEYWORD, sdk.1rtb.net, REJECT, extended-matching, pre-matching
+IP-CIDR, 203.107.1.0/24, REJECT, no-resolve, pre-matching
 DOMAIN-KEYWORD, sensorsdata.cn, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, gozendata.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, gzads.com, REJECT, extended-matching, pre-matching
