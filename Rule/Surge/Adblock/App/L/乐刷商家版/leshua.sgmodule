@@ -1,4 +1,14 @@
-# > 收银通商户端 - SHOUYINTONG
+#!name=乐刷商家版 - LESHUA
+#!desc=乐刷商家版-专业的收款工具
+#!openUrl=https://apps.apple.com/app/id1477566631
+#!bundleId=com.yeahka.hpayagent
+#!author=zirawell[https://github.com/zirawell]
+#!tag=去广告
+#!system=iOS
+#!surge_version=5.14.2(Build3405,SDK18.2)
+#!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
+#!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/leshua.png
+#!date=2025-08-29
 
 [Map Local]
 # 开屏广告
