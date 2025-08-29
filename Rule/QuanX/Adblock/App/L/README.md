@@ -1,11 +1,12 @@
 # L
 <details>
 <summary>
-本目录共收录19个App，详情见如下，单击导入对应配置：
+本目录共收录20个App，详情见如下，单击导入对应配置：
 </summary>
 
 - [line](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FL%2Fline%2Frewrite%2Fline.conf%2C%20tag%3Dline%22%5D%7D)
 - [两步路](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FL%2F%E4%B8%A4%E6%AD%A5%E8%B7%AF%2Frewrite%2F2bulu.conf%2C%20tag%3D%E4%B8%A4%E6%AD%A5%E8%B7%AF%22%5D%7D)
+- [乐刷商家版](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FL%2F%E4%B9%90%E5%88%B7%E5%95%86%E5%AE%B6%E7%89%88%2Frewrite%2Fleshua.conf%2C%20tag%3D%E4%B9%90%E5%88%B7%E5%95%86%E5%AE%B6%E7%89%88%22%5D%7D)
 - [乐刻运动](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FL%2F%E4%B9%90%E5%88%BB%E8%BF%90%E5%8A%A8%2Frewrite%2Fleoao.conf%2C%20tag%3D%E4%B9%90%E5%88%BB%E8%BF%90%E5%8A%A8%22%5D%7D)
 - [乐播投屏](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FL%2F%E4%B9%90%E6%92%AD%E6%8A%95%E5%B1%8F%2Frewrite%2Fhpplay.conf%2C%20tag%3D%E4%B9%90%E6%92%AD%E6%8A%95%E5%B1%8F%22%5D%7D)
 - [乐橙](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FL%2F%E4%B9%90%E6%A9%99%2Frewrite%2Flechange.conf%2C%20tag%3D%E4%B9%90%E6%A9%99%22%5D%7D)
