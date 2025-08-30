@@ -16,6 +16,8 @@ if (url.includes("/dpmobile")) {
   const traceKey2 = Object.keys(header).find(key => /^ai|dt|al|u/i.test(key));
   const headopt1 = traceKey1 ? header[traceKey1] : null;
   const headopt2 = traceKey2 ? header[traceKey2] : null;
+  debug(url,traceKey1,traceKey2,headopt1,headopt2);
+
 
   if (headopt1 && !headopt2) {
     $done({body: "", headers: "", status: "HTTP/1.1 204 No Content"});
@@ -27,4 +29,13 @@ if (url.includes("/dpmobile")) {
   let body = $response.body;
   body = body.replace(/function WedgetCard/g, 'function WedgetCard0');
   $done({body});
+}
+
+
+function debug(url,traceKey1,traceKey2,headopt1,headopt2) {
+  console.log("url:" + url);
+  console.log("traceKey1:" + traceKey1);
+  console.log("traceKey2:" + traceKey2);
+  console.log("headopt1:" + headopt1);
+  console.log("headopt2:" + headopt2);
 }
