@@ -13,12 +13,9 @@ if (url.includes("/dpmobile")) {
   const header = $request.headers;
   const resp = {};
   const traceKey1 = Object.keys(header).find(key => /^m-(shark-)?traceid$/i.test(key));
-  const traceKey2 = Object.keys(header).find(key => /^ai|dt|al|u/i.test(key));
+  const traceKey2 = Object.keys(header).find(key => /^(ai|dt|al|u)$/i.test(key));
   const headopt1 = traceKey1 ? header[traceKey1] : null;
   const headopt2 = traceKey2 ? header[traceKey2] : null;
-  debug(url,traceKey1,traceKey2,headopt1,headopt2);
-
-
   if (headopt1 && !headopt2) {
     $done({body: "", headers: "", status: "HTTP/1.1 204 No Content"});
   } else {
