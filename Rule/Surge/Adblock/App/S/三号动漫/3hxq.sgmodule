@@ -1,8 +1,0 @@
-# > 三号动漫 - 3HXQ
-
-[Map Local]
-^https?:\/\/vidz\.3hxq\.cn\/api\/app\/(miscs\/mine\/extensions|announcements\/home) data-type=text data="{}" status-code=200
-^https?:\/\/www\.7sefun\.xyz\/AApic\/acgsu data-type=tiny-gif status-code=200
-
-[MITM]
-hostname= %APPEND% vidz.3hxq.cn, www.7sefun.xyz

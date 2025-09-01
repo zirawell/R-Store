@@ -1,7 +1,7 @@
 # S
 <details>
 <summary>
-本目录共收录37个App，详情见如下，单击导入对应配置：
+本目录共收录36个App，详情见如下，单击导入对应配置：
 </summary>
 
 - [snapchat](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FS%2Fsnapchat%2Ffilter%2Fsnapchat.list%2C%20tag%3Dsnapchat%22%5D%7D)
@@ -9,7 +9,6 @@
 - [speedtest](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FS%2Fspeedtest%2Ffilter%2Fspeedtest.list%2C%20tag%3Dspeedtest%22%5D%7D)
 - [spotify](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FS%2Fspotify%2Frewrite%2Fspotify.conf%2C%20tag%3Dspotify%22%5D%7D)
 - [swiftgram](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FS%2Fswiftgram%2Frewrite%2Fswiftgram.conf%2C%20tag%3Dswiftgram%22%5D%7D)
-- [三号动漫](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FS%2F%E4%B8%89%E5%8F%B7%E5%8A%A8%E6%BC%AB%2Frewrite%2F3hxq.conf%2C%20tag%3D%E4%B8%89%E5%8F%B7%E5%8A%A8%E6%BC%AB%22%5D%7D)
 - [三联中读](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FS%2F%E4%B8%89%E8%81%94%E4%B8%AD%E8%AF%BB%2Frewrite%2Flifeweek.conf%2C%20tag%3D%E4%B8%89%E8%81%94%E4%B8%AD%E8%AF%BB%22%5D%7D)
 - [上岸鸭公考](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FS%2F%E4%B8%8A%E5%B2%B8%E9%B8%AD%E5%85%AC%E8%80%83%2Frewrite%2Fshanganya.conf%2C%20tag%3D%E4%B8%8A%E5%B2%B8%E9%B8%AD%E5%85%AC%E8%80%83%22%5D%7D)
 - [上汽大众](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FS%2F%E4%B8%8A%E6%B1%BD%E5%A4%A7%E4%BC%97%2Frewrite%2Fcsvw.conf%2C%20tag%3D%E4%B8%8A%E6%B1%BD%E5%A4%A7%E4%BC%97%22%5D%7D)
