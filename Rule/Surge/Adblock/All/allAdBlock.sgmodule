@@ -1356,7 +1356,6 @@ DOMAIN-KEYWORD, wan.sogou.com, REJECT, extended-matching, pre-matching
 ^https?:\/\/mkt-gateway\.tuhu\.cn\/mkt-push-message-box\/banner\/cms\/getIndexBanner - reject
 ^https?:\/\/cix\.line-apps\.com\/R4\? - reject
 ^https?:\/\/api-sams\.walmartmobile\.cn\/api\/v\d\/sams\/sams-user\/(window\/getGoUpPlus|screen_promotion\/get) - reject
-^https?:\/\/w\.meituan\.net/v\d/mss_\w+/waimai-mach - reject
 ^https?:\/\/tk\.lanjiyin\.com\.cn\/ad\/getAdList - reject
 ^https?:\/\/lf-cdn-tos\.bytescm\.com\/obj\/static\/ad\/ - reject
 ^https?:\/\/api\.zcool\.com\.cn\/v\d\.\d\.\d/common\/open-screen - reject
@@ -1609,6 +1608,7 @@ DOMAIN-KEYWORD, wan.sogou.com, REJECT, extended-matching, pre-matching
 ^https?:\/\/agent-count\.(?>pcauto|pconline)\.com\.cn\/counter\/adAnalyse\/ - reject
 ^https?:\/\/creditcardapp\.bankcomm\.(com|cn)\/mappweb_collection - reject
 ^https?:\/\/api\.babytree\.com\/api\/(?>advertising|mobile_activity) - reject
+^https?:\/\/w\.meituan\.net\/v\d\/mss_\w+\/waimai-mach\/\d+\/\d+\/pt-im-guider-tip-card - reject
 ^https?:\/\/app\.peopleapp\.com\/Api\/\d+/HomeApi\/(?>adv|getAdvertImage) - reject
 ^https?:\/\/fcvbjbcebos\.baidu\.com\/.+.mp4 - reject
 ^https?:\/\/api\.babytree\.com\/preg_intf\/index_content\/index_banner - reject
