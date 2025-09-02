@@ -17,6 +17,7 @@ DOMAIN, collect.xiaopeng.com, REJECT, extended-matching, pre-matching
 DOMAIN, statistic.live.126.net, REJECT, extended-matching, pre-matching
 DOMAIN, lbs.netease.im, REJECT, extended-matching, pre-matching
 DOMAIN, httpdns.yunxindns.com, REJECT, extended-matching, pre-matching
+DOMAIN, apps-booster.xiaopeng.com, REJECT, extended-matching, pre-matching
 
 [Map Local]
 ^https?:\/\/ext-svc\.xiaopeng\.com\/api\/log\/open\/get\/image data-type=text data="{}" status-code=200

@@ -195,6 +195,7 @@ DOMAIN, appgoad.189.cn, REJECT, extended-matching, pre-matching
 DOMAIN, apple.comscoreresearch.com, REJECT, extended-matching, pre-matching
 DOMAIN, applog-perf.uc.cn, REJECT, extended-matching, pre-matching
 DOMAIN, applog.zijieapi.com, REJECT, extended-matching, pre-matching
+DOMAIN, apps-booster.xiaopeng.com, REJECT, extended-matching, pre-matching
 DOMAIN, appsupport.qq.com, REJECT, extended-matching, pre-matching
 DOMAIN, appupdates.189.cn, REJECT, extended-matching, pre-matching
 DOMAIN, ark.letv.com, REJECT, extended-matching, pre-matching

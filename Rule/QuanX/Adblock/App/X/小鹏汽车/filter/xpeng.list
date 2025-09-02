@@ -5,3 +5,4 @@ host, collect.xiaopeng.com, reject
 host, statistic.live.126.net, reject
 host, lbs.netease.im, reject
 host, httpdns.yunxindns.com, reject
+host, apps-booster.xiaopeng.com, reject
