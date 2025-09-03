@@ -1,7 +1,0 @@
-# > 大疆 - DJI
-
-[Map Local]
-^https?:\/\/se-api\.djiits\.com\/api\/components\/launch_ad data-type=text data="{}" status-code=200
-
-[MITM]
-hostname= %APPEND% se-api.djiits.com
