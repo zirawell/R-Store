@@ -1,7 +1,7 @@
 {
   "name": "All Icons",
   "description": "collected by zirawell",
-  "time": "2025-08-19",
+  "time": "2025-09-03",
   "icons": [
     {
       "name": "shihuo",
@@ -110,6 +110,10 @@
     {
       "name": "eastmoney",
       "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/eastmoney.png"
+    },
+    {
+      "name": "dji",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/dji.png"
     },
     {
       "name": "umetrip",
@@ -1830,6 +1834,10 @@
     {
       "name": "boss",
       "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/boss.png"
+    },
+    {
+      "name": "leshua",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/leshua.png"
     },
     {
       "name": "chsi",
