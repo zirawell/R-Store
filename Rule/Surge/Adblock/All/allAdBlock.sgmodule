@@ -177,7 +177,6 @@ DOMAIN, api.adnet.mob.com, REJECT, extended-matching, pre-matching
 DOMAIN, api.hongyibo.com.cn, REJECT, extended-matching, pre-matching
 DOMAIN, api.htp.ad-scope.com.cn, REJECT, extended-matching, pre-matching
 DOMAIN, api.iqiyi.com, REJECT, extended-matching, pre-matching
-DOMAIN, api.liquidlink.cn, REJECT, extended-matching, pre-matching
 DOMAIN, api.share.mob.com, REJECT, extended-matching, pre-matching
 DOMAIN, api.sm.cn, REJECT, extended-matching, pre-matching
 DOMAIN, api.verify.mob.com, REJECT, extended-matching, pre-matching
