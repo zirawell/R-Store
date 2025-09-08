@@ -17,7 +17,7 @@ if (url.includes("/dpmobile")) {
   const headopt1 = traceKey1 ? header[traceKey1] : null;
   const headopt2 = traceKey2 ? header[traceKey2] : null;
   if (headopt1 && !headopt2) {
-    $done({body: "", headers: "", status: "HTTP/1.1 204 No Content"});
+    $done({body: "", headers: "", status: "HTTP/1.1 404 Not Found"});
   } else {
     $done({});
   }
