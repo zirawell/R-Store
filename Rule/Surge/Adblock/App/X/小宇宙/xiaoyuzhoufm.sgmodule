@@ -11,7 +11,7 @@
 #!date=2025-07-08
 
 [Body Rewrite]
-# 首页净化
+# 首页净化(jq)
 http-response-jq ^https?:\/\/api\.xiaoyuzhoufm\.com\/v\d\/discovery-feed\/list '.data |= map(select(.type == "DISCOVERY_EPISODE_RECOMMEND" or .type == "EDITOR_PICK"))'
 
 [Map Local]
@@ -24,6 +24,10 @@ http-response-jq ^https?:\/\/api\.xiaoyuzhoufm\.com\/v\d\/discovery-feed\/list '
 # 移除搜索框内容
 ^https?:\/\/api\.xiaoyuzhoufm\.com\/v\d\/search\/get-(?>preset|express) data-type=text data="{}" status-code=200
 ^https?:\/\/api\.xiaoyuzhoufm\.com\/v\d\/category\/list-daily-suggestion data-type=text data="{}" status-code=200
+
+[Script]
+# 首页净化(js)(适用于低版本)
+;xiaoyuzhoufm = type=http-response,pattern=^https?:\/\/api\.xiaoyuzhoufm\.com\/v\d\/discovery-feed\/list,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/xiaoyuzhoufm.js
 
 [MITM]
 hostname= %APPEND% api.xiaoyuzhoufm.com
