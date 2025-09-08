@@ -1855,7 +1855,6 @@ DOMAIN-KEYWORD, wan.sogou.com, REJECT, extended-matching, pre-matching
 ^https?:\/\/www\.xiaohongshu\.com\/api\/sns\/v\d\/(ads\/resource|hey\/\w+\/hey_gallery) data-type=text data="{}" status-code=200
 ^https?:\/\/display\.wting\.info\/.*.jpeg data-type=text data="" status-code=200
 ^https?:\/\/manga\.bilibili\.com\/twirp\/user\.v\d\.Read\/ActInfo data-type=text data="" status-code=200
-^https?:\/\/acs(\.|-)m\.(taobao|freshippo)\.com\/gw\/mtop\.wdk\.mimir\.recommend\.after\.purchase\.activity data-type=text data="{}" status-code=200
 ^https?:\/\/www\.didapinche\.com\/app\/adstat\/ data-type=text data="" status-code=200
 ^https?:\/\/appdmkj\.5idream\.net\/v\d\/login\/message\/tip data-type=text data="{}" status-code=200
 ^https?:\/\/api-ios\.zhipin\.com\/api\/zpCommon\/user\/startupAd data-type=text data="{}" status-code=200
@@ -2532,6 +2531,7 @@ https?:\/\/awg\.enmonster\.com\/apa\/(advert\/demand\/home\/poster|index\/advert
 ^https?:\/\/api-sams\.walmartmobile\.cn\/api\/v\d\/sams\/goods-portal\/spu\/searchRecommendPool data-type=text data="{}" status-code=200
 ^https?:\/\/imgcache\.qq\.com\/qqlive\/ data-type=tiny-gif status-code=200
 ^https?:\/\/rsb\.pingan\.com\.cn\/brcp\/bds\/cust\/ygfz\/up data-type=text data="{}" status-code=200
+^https?:\/\/acs(\.|-)m\.(taobao|freshippo)\.com\/gw\/mtop\.wdk\.mimir\.recommend data-type=text data="{}" status-code=200
 ^https?:\/\/apapia-sqk\.manmanbuy\.com\/index_json\.ashx$ data-type=text data="{}" status-code=200
 ^https?:\/\/mgesq\.api\.mgtv\.com\/v\d\/goods\/guess_you_like data-type=text data="{}" status-code=200
 ^https?:\/\/api\.touker\.com\/v\d\/IAdvertisementAPI\.queryStartAdvertisement data-type=text data="" status-code=200
