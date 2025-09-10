@@ -241,10 +241,10 @@ if (url.includes("/note/imagefeed") || url.includes("/note/feed")) {
       if (item?.model_type === "live_v2") {
         continue;
         // 信息流-赞助
-      } else if (item.hasOwnProperty("ads_info")) {
+      } else if (item?.hasOwnProperty("ads_info")) {
         continue;
         // 信息流-带货
-      } else if (item.hasOwnProperty("card_icon")) {
+      } else if (item?.hasOwnProperty("card_icon")) {
         continue;
         // 信息流-商品
       } else if (item?.note_attributes?.includes("goods")) {
@@ -370,7 +370,7 @@ function replaceUrlContent(collectionA, collectionB) {
   collectionA.forEach(itemA => {
     const itemB = collectionB.find(itemB => itemB.file_id === itemA.file_id);
     if (itemB) {
-      itemA.url = itemA.url !== "" ? itemA.url.replace(/(.*)\.mp4/, `${itemB.url.match(/(.*)\.mp4/)[1]}.mp4`) : itemB.url;
+      itemA.url = itemA.url !== "" ? itemA.url.replace(/^https?:\/\/.*\.mp4(\?[^"]*)?/g, `${itemB.url.match(/(.*)\.mp4/)[1]}.mp4`) : itemB.url
     }
   });
 }
