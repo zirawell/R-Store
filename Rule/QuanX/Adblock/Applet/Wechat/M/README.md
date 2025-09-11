@@ -1,11 +1,12 @@
 # M
 <details>
 <summary>
-本目录共收录9个小程序，详情见如下，单击导入对应配置：
+本目录共收录10个小程序，详情见如下，单击导入对应配置：
 </summary>
 
 - [MStand](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApplet%2FWechat%2FM%2FMStand%2Frewrite%2Fmstand.conf%2C%20tag%3DMStand%22%5D%7D)
 - [Manner](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApplet%2FWechat%2FM%2FManner%2Frewrite%2Fmanner.conf%2C%20tag%3DManner%22%5D%7D)
+- [Mcake](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApplet%2FWechat%2FM%2FMcake%2Frewrite%2Fmcake.conf%2C%20tag%3DMcake%22%5D%7D)
 - [猫眼电影](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApplet%2FWechat%2FM%2F%E7%8C%AB%E7%9C%BC%E7%94%B5%E5%BD%B1%2Ffilter%2Fmaoyan.list%2C%20tag%3D%E7%8C%AB%E7%9C%BC%E7%94%B5%E5%BD%B1%22%5D%2C%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApplet%2FWechat%2FM%2F%E7%8C%AB%E7%9C%BC%E7%94%B5%E5%BD%B1%2Frewrite%2Fmaoyan.conf%2C%20tag%3D%E7%8C%AB%E7%9C%BC%E7%94%B5%E5%BD%B1%22%5D%7D)
 - [美团](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApplet%2FWechat%2FM%2F%E7%BE%8E%E5%9B%A2%2Frewrite%2Fmeituan.conf%2C%20tag%3D%E7%BE%8E%E5%9B%A2%22%5D%7D)
 - [美团充电宝](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApplet%2FWechat%2FM%2F%E7%BE%8E%E5%9B%A2%E5%85%85%E7%94%B5%E5%AE%9D%2Frewrite%2Fmeituancdb.conf%2C%20tag%3D%E7%BE%8E%E5%9B%A2%E5%85%85%E7%94%B5%E5%AE%9D%22%5D%7D)
