@@ -11,8 +11,8 @@
 #!date=2025-07-08
 
 [Map Local]
-^https?:\/\/39\.98\.135\.211\/admin\/filter\/crowdFunding\/getNewProductData data-type=text data="{}" status-code=200
-^https?:\/\/39\.98\.135\.211\/admin\/filter\/advert\/getAdvertLists data-type=text data="{}" status-code=200
+^https?:\/\/hmbaby\.simshine\.cn\/admin\/filter\/crowdFunding\/getNewProductData data-type=text data="{}" status-code=200
+^https?:\/\/hmbaby\.simshine\.cn\/admin\/filter\/advert\/getAdvertLists data-type=text data="{}" status-code=200
 
 [MITM]
-hostname= %APPEND% 39.98.135.211
+hostname= %APPEND% hmbaby.simshine.cn
