@@ -642,7 +642,6 @@ DOMAIN-SUFFIX, afp.zol-img.com.cn, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, afpmm.alicdn.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, agoodm.m.taobao.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, ai.taobao.com, REJECT, extended-matching, pre-matching
-DOMAIN-SUFFIX, alipaydns.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, alitui.weibo.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, alitui.weibo.com.cn, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, amfi.gou.sogou.com, REJECT, extended-matching, pre-matching
