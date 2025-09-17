@@ -12,8 +12,12 @@
 
 [Body Rewrite]
 http-response-jq ^https?:\/\/bd-api\.kuwo\.cn\/api\/service\/global\/config\/scene '.data.showShopEntry=false|.data.idolTabShow=true'
+http-response-jq ^https?:\/\/bd-api\.kuwo\.cn\/api\/service\/music\/recommendList '.data.musicList[] |= del(.showAd)'
+http-response-jq ^https?:\/\/bd-api\.kuwo\.cn\/api\/service\/resource\/recommend '.data.resourceList[] |= del(.resource)'
+http-response-jq ^https?:\/\/bd-api\.kuwo\.cn\/api\/voice\/room\/v\d\/sidebar '(.data) = {}'
 
 [Map Local]
+^https?:\/\/bd-api\.kuwo\.cn\/api\/(\w+\/)?advert data-type=text data="{}" status-code=200
 ^https?:\/\/bd-api\.kuwo\.cn\/api\/.*popup data-type=text data="{}" status-code=200
 ^https?:\/\/bd-api\.kuwo\.cn\/api\/pay\/vip\/lowPriceText data-type=text data="{}" status-code=200
 ^https?:\/\/bd-api\.kuwo\.cn\/api\/play\/listening\/entrance\/music\?musicId data-type=text data="{}" status-code=200
