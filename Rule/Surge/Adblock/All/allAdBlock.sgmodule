@@ -2574,6 +2574,7 @@ https?:\/\/awg\.enmonster\.com\/apa\/(advert\/demand\/home\/poster|index\/advert
 ^https?:\/\/m\.dianping\.com\/an\/gear\/dpmapp\/api\/readLionConfig\/config data-type=text data="{}" status-code=200
 ^https?:\/\/ms\.jr\.jd\.com\/gw\/generic\/app\/(new)?na\/m\/getLaunchImageList data-type=text data="{}" status-code=200
 ^https?:\/\/a\.line\.me\/er\/l.*\/v\d\/event\/image data-type=tiny-gif status-code=200
+^https?:\/\/bd-api\.kuwo\.cn\/api\/(\w+\/)?advert data-type=text data="{}" status-code=200
 ^https?:\/\/jdread-api\.jd\.com\/jdread\/api\/channel\/module\/opens data-type=text data="" status-code=200
 ^https?:\/\/edit\.sinaapp\.com\/ua\?t=adv data-type=text data="" status-code=200
 ^https?:\/\/portal\.zjzwfw\.gov\.cn\/app_api\/appHome\/selectStartPic data-type=text data="" status-code=200
@@ -2766,6 +2767,7 @@ https?:\/\/awg\.enmonster\.com\/apa\/(advert\/demand\/home\/poster|index\/advert
 ^https?:\/\/ggc\.miguvideo\.com\/v\d\/iflyad\/deliverysystem\/direct\/ data-type=tiny-gif status-code=200
 
 [Body Rewrite]
+http-response-jq ^https?:\/\/bd-api\.kuwo\.cn\/api\/voice\/room\/v\d\/sidebar '(.data) = {}'
 http-response ^https?:\/\/tft-app\.cdtft\.cn\/gateway-customer\/tftapp\/tft-ams\/api\/appAd officialAdvertResultVo random-response
 http-response ^https?:\/\/chl\.tf\.cn\/channelmg\/sys\/socso\/order\/queryOrderInfo "imgUrl" "imgUrl0"
 http-response ^https?:\/\/www\.flyert(rip)?\.com(\.cn)?\/.*\.php\?.*module=threadpost relatedrecommend relatedrecommend0
@@ -2777,6 +2779,7 @@ http-response ^https?:\/\/www\.tailgdd\.com\/v\d\/smart\/app\/config\/get$ footR
 http-response ^https?:\/\/res\.cc\.cmbimg\.com\/fsp\/File\/ClientFacePublic\/\w+\.DAT$ widget widget0
 http-response ^https?:\/\/client\.tujia\.com\/bnbapp-node\/app\/portal\/getportalconfig\/bnb\/v\d "banners":\[.+\], "banners":[],
 http-response ^https?:\/\/zgrb\.epicc\.com\.cn\/G-HAPP\/headLine\/headLineInit data data0
+http-response-jq ^https?:\/\/bd-api\.kuwo\.cn\/api\/service\/music\/recommendList '.data.musicList[] |= del(.showAd)'
 http-response ^https?:\/\/api\.zhihu\.com\/search\/recommend_query\/v2\? "recommend_queries":\{.+\} "recommend_queries":{}
 http-response ^https?:\/\/beta-api\.crunchyroll\.com\/cms offset_ms":\d+ offset_ms":99999999999999
 http-response ^https?:\/\/app-izz\.zhengzhou\.gov\.cn:10019\/bizgw\/gateway\.do "imgUrl19_5x9":".+?" "imgUrl19_5x9":""
@@ -2788,6 +2791,7 @@ http-response ^https?:\/\/ut\.xiaojukeji\.com\/ut\/kappa\/api\/owner\/index bann
 http-response ^https?:\/\/api\.yisouti\.com\/popupAd data zirawell
 http-response ^https?:\/\/(h3\.)?open\.taou\.com\/maimai\/feed\/v\d\/detail_recommend_feeds feeds random_body
 http-response ^https?:\/\/www\.flyert(rip)?\.com(\.cn)?\/.*\.php\?.*module=basicdata&type=forumlist adv adv0
+http-response-jq ^https?:\/\/bd-api\.kuwo\.cn\/api\/service\/resource\/recommend '.data.resourceList[] |= del(.resource)'
 http-response ^https?:\/\/lcen\.xiaote\.net\/api\/graphql screenSplashAd random-response
 http-response ^https?:\/\/api\.swiftgram\.app\/v0\/settings announcements_data random_body
 http-response ^https?:\/\/m\.lkcoffee\.com\/ecapi\/resource\/m\/member\/exchange\/page \{.+\} {"status":"SUCCESS"}
