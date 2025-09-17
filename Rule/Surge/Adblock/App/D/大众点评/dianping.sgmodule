@@ -32,7 +32,7 @@ IP-CIDR, 119.29.126.137/32, REJECT, no-resolve, pre-matching
 ^https?:\/\/catfront\.dianping\.com\/api\/metric\?v=\d&p=rn_gcbu_mrn-joy-poidetail - reject
 ^https?:\/\/awp-assets\.meituan\.net\/hfe\/fep\/\w+\.json - reject
 ^https?:\/\/s3plus\.meituan\.net\/ocean-blk-index\/index\/blk_conf - reject
-^https?:\/\/ddplus\.meituan\.net\/v\d\/mss_\w+\/(ehc|titansx|ddblue)\/ - reject
+^https?:\/\/ddplus\.meituan\.net\/v\d\/mss_\w+\/(ehc|titansx|ddblue|edfu)\/ - reject
 
 [Map Local]
 ^https?:\/\/mapi\.dianping\.com\/mapi\/intelliindex data-type=text data="{}" status-code=200
