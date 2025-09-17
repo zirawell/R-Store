@@ -17,5 +17,4 @@ DOMAIN, rtms.alipay.com, REJECT, extended-matching, pre-matching
 DOMAIN, amdc-sibling.alipay.com.cn, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, mdap.alipay.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, ynuf.alipay.com, REJECT, extended-matching, pre-matching
-DOMAIN-SUFFIX, alipaydns.com, REJECT, extended-matching, pre-matching
 DOMAIN-KEYWORD, loggw.alipay.com, REJECT, extended-matching, pre-matching
