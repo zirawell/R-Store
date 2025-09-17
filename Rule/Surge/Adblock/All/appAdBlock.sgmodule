@@ -1606,6 +1606,7 @@ DOMAIN-KEYWORD, wan.sogou.com, REJECT, extended-matching, pre-matching
 ^https?:\/\/stlib\.qbb6\.com\/wclt\/js\/core\/popup - reject
 ^https?:\/\/learn\.chaoxing\.com\/apis\/service\/appConfig\? - reject
 ^https?:\/\/api\.futunn\.com\/treasure-chest\/box-data - reject
+^https?:\/\/ddplus\.meituan\.net\/v\d\/mss_\w+\/(ehc|titansx|ddblue|edfu)\/ - reject
 ^https?:\/\/img\d+\.10101111cdn\.com\/adpos\/ - reject
 ^https?:\/\/api\.feidee\.net\/v\d\/configs\/client\/configs - reject
 ^https?:\/\/api\.jr\.mi\.com\/v\d\/adv - reject
@@ -1786,7 +1787,6 @@ DOMAIN-KEYWORD, wan.sogou.com, REJECT, extended-matching, pre-matching
 ^https?:\/\/mapi\.mafengwo\.cn\/system\/push\/get_local_push_config - reject
 ^https?:\/\/.*mbasecc\.\w+\.cmbchina\.com\/Edge\/api\/mlife\.clientface\.clientservice\.api\.advertiseService\/preCacheAdvertiseSec - reject
 ^https?:\/\/cdn\.sdb\.com\.cn\/widget\/nps\/feedback\/ - reject
-^https?:\/\/ddplus\.meituan\.net\/v\d\/mss_\w+\/(ehc|titansx|ddblue)\/ - reject
 ^https?:\/\/dinamicx\.alibabausercontent\.com\/pub\/fish_home_top_kingkong_new\/ - reject
 ^https?:\/\/y\.gtimg\.cn\/music\/common\/upload\/t_splash_info - reject
 ^https?:\/\/mobileapi\.chebada\.com\/publicv\d\/api\/v\d+\/infodeliver\/getmerchantad - reject
