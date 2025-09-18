@@ -1,16 +1,17 @@
 /********************************
-VVebo Enhance - Version 1.0
+VVebo Repair Plugin - Version 1.0
 Checkout Source - https://gitlab.com/lodepuly/vpn_tool/raw/master/Resource/Script/VVebo/VVebo_repair.js
 Please note that you may need to reinstall app for script to work.
 
 QuantumultX rewrite link:
-https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/App/V/vvebo/rewrite/vvebo.conf
+https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Plugin/vvebo.conf
 
 ********************************/
 
 let url = $request.url;
 let hasUid = (url) => url.includes("uid");
 let getUid = (url) => (hasUid(url) ? url.match(/uid=(\d+)/)[1] : undefined);
+
 if (url.includes("remind/unread_count")) {
   $prefs.setValueForKey(getUid(url), "uid");
   $done({});
@@ -29,8 +30,7 @@ if (url.includes("remind/unread_count")) {
       .map((status) => (status.isTop ? {...status, label: "置顶"} : status));
   let sinceId = data.cardlistInfo.since_id;
   $done({body: JSON.stringify({statuses, since_id: sinceId, total_number: 100})});
-}
-if (url.includes("selffans")) {
+} else if (url.includes("selffans")) {
   let data = JSON.parse($response.body);
   let cards = data.cards.filter((card) => card.itemid !== "INTEREST_PEOPLE2");
   $done({body: JSON.stringify({...data, cards})});
