@@ -1,7 +1,7 @@
 {
   "name": "App Icons",
   "description": "collected by zirawell",
-  "time": "2025-09-03",
+  "time": "2025-09-18",
   "icons": [
     {
       "name": "shihuo",
@@ -790,6 +790,10 @@
     {
       "name": "xbiu",
       "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/xbiu.png"
+    },
+    {
+      "name": "v2er",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/v2er.png"
     },
     {
       "name": "wacai",
