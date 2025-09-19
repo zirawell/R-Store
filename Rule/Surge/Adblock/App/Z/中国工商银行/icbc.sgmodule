@@ -12,4 +12,3 @@
 
 [Rule]
 DOMAIN, pageviewp.icbc.com.cn, REJECT, extended-matching, pre-matching
-DOMAIN-SUFFIX, mall.icbc.com.cn, REJECT, extended-matching, pre-matching
