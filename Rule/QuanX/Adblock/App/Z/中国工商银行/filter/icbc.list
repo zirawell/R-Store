@@ -1,3 +1,2 @@
 # > 中国工商银行 - ICBC
 host, pageviewp.icbc.com.cn, reject
-host-suffix, mall.icbc.com.cn, reject
