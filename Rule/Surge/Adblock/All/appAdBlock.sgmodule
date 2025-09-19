@@ -339,6 +339,7 @@ DOMAIN, log5-applog.fqnovel.com, REJECT, extended-matching, pre-matching
 DOMAIN, logs.chelaile.net.cn, REJECT, extended-matching, pre-matching
 DOMAIN, lookup.api.bsb.baidu.com, REJECT, extended-matching, pre-matching
 DOMAIN, lwlog.laiwang.com, REJECT, extended-matching, pre-matching
+DOMAIN, lx0.meituan.com, REJECT, extended-matching, pre-matching
 DOMAIN, m-vali.cp31.ott.cibntv.net, REJECT, extended-matching, pre-matching
 DOMAIN, m.meitun.com, REJECT, extended-matching, pre-matching
 DOMAIN, m.pinduoduo.net, REJECT, extended-matching, pre-matching
@@ -942,6 +943,7 @@ DOMAIN-SUFFIX, logstat.caixin.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, lstat.youku.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, lu.sogou.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, lu.sogoucdn.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, lx.meituan.net, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, m-adash.m.taobao.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, m.baidu.com.yiqisee.cn, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, m.baidu.com.zhiduo.org, REJECT, extended-matching, pre-matching
@@ -1561,6 +1563,7 @@ DOMAIN-KEYWORD, wan.sogou.com, REJECT, extended-matching, pre-matching
 ^https?:\/\/(gw|heic)\.alicdn\.com\/imgextra\/\w{2}\/\w+!+(?!600000000(5412|6148|4021|5802))\d*-\d-tps-(?!1035)\d{3,4}-(?!570)\d{3,4}\.(?>jpg|png)_(1\d{3}|9\d{2})x(1\d{3}|9\d{2})q\d0\.jpg_\.(?>heic|webp) - reject
 ^https?:\/\/myusmile\.online\/user\/version\/requestFirmwareUpdate\/ - reject
 ^https?:\/\/m\.ctrip\.com\/html5\/webresource\/js\/iscroll\.js$ - reject
+^https?:\/\/catdot\.dianping\.com\/broker-service\/hijack - reject
 ^https?:\/\/api\.21ec74\.com\/v\d\.\d\/ad - reject
 ^https?:\/\/zconfig\.alibabausercontent\.com\/zconfig - reject
 ^https?:\/\/api-access\.pangolin-sdk-toutiao\.com\/api\/ad\/.+ - reject

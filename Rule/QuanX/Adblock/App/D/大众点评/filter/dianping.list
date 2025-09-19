@@ -1,9 +1,10 @@
 # > 大众点评 - DIANPING
 host, r.dianping.com, reject
 host, tte.meituan.com, reject
+host, lx0.meituan.com, reject
 host, dpmtpush.dianping.com, reject
 host, dynamicf.sankuai.com, reject
 host, live-monitor-broker.sankuai.com, reject
-;host-suffix, lx.meituan.net, reject
+host-suffix, lx.meituan.net, reject
 ip-cidr, 101.32.16.204/32, reject
 ip-cidr, 119.29.126.137/32, reject
