@@ -9,7 +9,7 @@ https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/App/D
 ********************************/
 
 const url = $request.url;
-if (url.includes("/dpmobile")) {
+if (url.includes("/dpmobile") || url.includes("/goodsawardpic")) {
   const header = $request.headers;
   const resp = {};
   const traceKey1 = Object.keys(header).find(key => /^m-(shark-)?traceid$/i.test(key));
