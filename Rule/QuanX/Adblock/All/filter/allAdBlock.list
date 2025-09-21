@@ -1,11 +1,11 @@
 #!name=全部-广告拦截合集-分流规则
 #!desc=某些规则要清除缓存或者重新安装APP，拦截广告才会生效！
-#!count=支持约1329个分流规则
+#!count=支持约1326个分流规则
 #!author=zirawell
 #!homepage=https://github.com/zirawell/R-Store
 #!raw-url=https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/All/filter/allAdBlock.list
 #!tg-group=https://t.me/lanjieguanggao
-#!date=2025-09-19 14:09:03
+#!date=2025-09-21 16:32:29
 #!proxy-select=reject
 #!---------------------------------------------------------------------------------------------------------------
 ip-cidr, 1.202.85.193/32, reject
@@ -706,7 +706,6 @@ host-suffix, bdcode.youke.com, reject
 host-suffix, bdplus.baidu.com, reject
 host-suffix, beacon.sina.com.cn, reject
 host-suffix, beizi.biz, reject
-host-suffix, bg4nxu2u5t.com, reject
 host-suffix, bianxianmao.com, reject
 host-suffix, brand.sogou.com, reject
 host-suffix, bsiet.husky.sogou.com, reject
@@ -952,7 +951,6 @@ host-suffix, l.ykimg.com, reject
 host-suffix, l.youku.com, reject
 host-suffix, linkeye.ximalaya.com, reject
 host-suffix, livep.l.ott.video.qq.com, reject
-host-suffix, lkpmprksau.com, reject
 host-suffix, location.ximalaya.com, reject
 host-suffix, log-yex.youdao.com, reject
 host-suffix, log.mgtv.com, reject
@@ -1105,7 +1103,6 @@ host-suffix, rj.baidu.com, reject
 host-suffix, rlogs.youdao.com, reject
 host-suffix, rm.sina.com.cn, reject
 host-suffix, rmoeu.mercury.sogou.com, reject
-host-suffix, rou3.xyz, reject
 host-suffix, rplog.baidu.com, reject
 host-suffix, rqd.qq.com, reject
 host-suffix, rt-m.kugou.com, reject
