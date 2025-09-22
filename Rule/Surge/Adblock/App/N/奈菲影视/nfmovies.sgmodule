@@ -1,9 +1,0 @@
-# > 奈菲影视 - NFMOVIES
-
-[Map Local]
-^https?:\/\/www\.nfmovies\.com\/pic\/tu\/ data-type=tiny-gif status-code=200
-^https?:\/\/www\.nfmovies\.com\/templets\/default\/images\/logos data-type=tiny-gif status-code=200
-^https?:\/\/www\.nfmovies\.com\/uploads\/images\/play\.jpg data-type=tiny-gif status-code=200
-
-[MITM]
-hostname= %APPEND% www.nfmovies.com
