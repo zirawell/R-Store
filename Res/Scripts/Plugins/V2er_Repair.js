@@ -34,6 +34,11 @@ if (url.includes("/member")) {
           frDiv.remove();
       }
   }
+  const spanElement = cellWithLoginInfo.querySelector('span');
+   if (spanElement) {
+      const textNode = doc.createTextNode(spanElement.textContent);
+      spanElement.parentNode.replaceChild(textNode, spanElement);
+   }
 }
 resp.body = doc.documentElement.outerHTML;
 $done(resp);
