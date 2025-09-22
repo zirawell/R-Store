@@ -1,7 +1,0 @@
-# > clicli - CLICLI
-
-[URL Rewrite]
-^https?:\/\/js-ad\.ayximgs\.com\.ad-universe-cdn\.hzhcbkj\.cn\/xgapp\.php\/v\d\/top_notice - reject
-
-[MITM]
-hostname= %APPEND% js-ad.ayximgs.com
