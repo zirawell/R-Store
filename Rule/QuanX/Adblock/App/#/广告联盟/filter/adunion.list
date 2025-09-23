@@ -131,6 +131,7 @@ host-suffix, adservice.google.com, reject
 host-suffix, mobileads.google.com, reject
 host-suffix, google-analytics.com, reject
 host-suffix, googlesyndication.com, reject
+host-suffix, googlesyndication-cn.com, reject
 host-suffix, googletagservices.com, reject
 host-suffix, googletagmanager.com, reject
 host-suffix, l.google.com, reject
