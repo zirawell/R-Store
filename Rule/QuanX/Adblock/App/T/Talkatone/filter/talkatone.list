@@ -1,2 +1,27 @@
 # > Talkatone - TALKATONE
+host-suffix, 4dvertible.com, reject
+host-suffix, adrta.com, reject
+host-suffix, adsrvr.org, reject
+host-suffix, ads.inmobi.com, reject
+host-suffix, ads.pubmatic.com, reject
+host-suffix, akamaized.net, reject
+host-suffix, amazon-adsystem.com, reject
+host-suffix, bidder.criteo.com, reject
+host-suffix, gum.criteo.com, reject
+host-suffix, i.sng.link, reject
+host-suffix, impression.link, reject
+host-suffix, inhousedsp.com, reject
+host-suffix, inner-active.mobi, reject
+host-suffix, jampp.com, reject
+host-suffix, mobilefuse.com, reject
+host-suffix, outbrainimg.com,reject
+host-suffix, outbrain.com, reject
+host-suffix, pomodoromedia.com, reject
+host-suffix, richmob.cn, reject
+host-suffix, smadex.com, reject
+host-suffix, smaato.net, reject
+host-suffix, spadsync.com, reject
 host-suffix, tappx.com, reject
+host-suffix, trustarc.com, reject
+host-suffix, truste.com, reject
+host-suffix, zemanta.com, reject

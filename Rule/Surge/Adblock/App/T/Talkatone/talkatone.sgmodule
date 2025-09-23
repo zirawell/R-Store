@@ -11,7 +11,32 @@
 #!date=2025-07-09
 
 [Rule]
+DOMAIN-SUFFIX, 4dvertible.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, adrta.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, adsrvr.org, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, ads.inmobi.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, ads.pubmatic.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, akamaized.net, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, amazon-adsystem.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, bidder.criteo.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, gum.criteo.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, i.sng.link, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, impression.link, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, inhousedsp.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, inner-active.mobi, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, jampp.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, mobilefuse.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, outbrainimg.com, REJECT
+DOMAIN-SUFFIX, outbrain.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, pomodoromedia.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, richmob.cn, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, smadex.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, smaato.net, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, spadsync.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, tappx.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, trustarc.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, truste.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, zemanta.com, REJECT, extended-matching, pre-matching
 
 [Map Local]
 ^https?:\/\/alt-r\.my\.com\/mobile data-type=text data="{}" status-code=200

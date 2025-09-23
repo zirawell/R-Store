@@ -1,11 +1,11 @@
 #!name=App-广告拦截合集-分流规则
 #!desc=某些规则要清除缓存或者重新安装APP，拦截广告才会生效！
-#!count=支持约1309个分流规则
+#!count=支持约1335个分流规则
 #!author=zirawell
 #!homepage=https://github.com/zirawell/R-Store
 #!raw-url=https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/All/filter/appAdBlock.list
 #!tg-group=https://t.me/lanjieguanggao
-#!date=2025-09-21 16:32:29
+#!date=2025-09-23 13:26:21
 #!proxy-select=reject
 #!---------------------------------------------------------------------------------------------------------------
 ip-cidr, 1.202.85.193/32, reject
@@ -533,6 +533,7 @@ host-suffix, 1rtb.net, reject
 host-suffix, 33.autohome.com.cn, reject
 host-suffix, 360baidus.com, reject
 host-suffix, 3rd.t.sohu.com, reject
+host-suffix, 4dvertible.com, reject
 host-suffix, 888.tv.sohu.com, reject
 host-suffix, a-dxk.play.api.3g.youku.com, reject
 host-suffix, a.baidu.com, reject
@@ -581,10 +582,13 @@ host-suffix, adnet.sohu.com, reject
 host-suffix, adping.qq.com, reject
 host-suffix, adpm.app.qq.com, reject
 host-suffix, adrdir.qq.com, reject
+host-suffix, adrta.com, reject
 host-suffix, ads-d.viber.com, reject
 host-suffix, ads-twitter.com, reject
 host-suffix, ads.aws.viber.com, reject
+host-suffix, ads.inmobi.com, reject
 host-suffix, ads.linkedin.com, reject
+host-suffix, ads.pubmatic.com, reject
 host-suffix, ads.sohu.com, reject
 host-suffix, ads.viber.com, reject
 host-suffix, ads.vungle.com, reject
@@ -615,6 +619,7 @@ host-suffix, adsmoloco.com, reject
 host-suffix, adsolution.imtt.qq.com, reject
 host-suffix, adspecs.yahoo.com, reject
 host-suffix, adsqqclick.qq.com, reject
+host-suffix, adsrvr.org, reject
 host-suffix, adstextview.qq.com, reject
 host-suffix, adstream.123.sogoucdn.com, reject
 host-suffix, adsview.qq.com, reject
@@ -636,8 +641,10 @@ host-suffix, afp.zol-img.com.cn, reject
 host-suffix, afpmm.alicdn.com, reject
 host-suffix, agoodm.m.taobao.com, reject
 host-suffix, ai.taobao.com, reject
+host-suffix, akamaized.net, reject
 host-suffix, alitui.weibo.com, reject
 host-suffix, alitui.weibo.com.cn, reject
+host-suffix, amazon-adsystem.com, reject
 host-suffix, amfi.gou.sogou.com, reject
 host-suffix, analy.qq.com, reject
 host-suffix, analytics.163.com, reject
@@ -693,6 +700,7 @@ host-suffix, bdplus.baidu.com, reject
 host-suffix, beacon.sina.com.cn, reject
 host-suffix, beizi.biz, reject
 host-suffix, bianxianmao.com, reject
+host-suffix, bidder.criteo.com, reject
 host-suffix, brand.sogou.com, reject
 host-suffix, bsiet.husky.sogou.com, reject
 host-suffix, btlaunch.baidu.com, reject
@@ -862,6 +870,7 @@ host-suffix, google-analytics.com, reject
 host-suffix, googleadservices.com, reject
 host-suffix, googleadsserving.cn, reject
 host-suffix, googlecommerce.com, reject
+host-suffix, googlesyndication-cn.com, reject
 host-suffix, googlesyndication.com, reject
 host-suffix, googletagmanager.com, reject
 host-suffix, googletagservices.com, reject
@@ -870,6 +879,7 @@ host-suffix, goto.sogou.com, reject
 host-suffix, gozendata.com, reject
 host-suffix, graph.facebook.com, reject
 host-suffix, guanjia.baidu.com, reject
+host-suffix, gum.criteo.com, reject
 host-suffix, gw5.push.mcp.weibo.cn, reject
 host-suffix, gw6.push.mcp.weibo.cn, reject
 host-suffix, gxe.husky.sogou.com, reject
@@ -889,6 +899,7 @@ host-suffix, hui.sohu.com, reject
 host-suffix, huodong.pl.youku.com, reject
 host-suffix, huodong.vip.youku.com, reject
 host-suffix, hz.youku.com, reject
+host-suffix, i.sng.link, reject
 host-suffix, iad-apple.com, reject
 host-suffix, iadmusicmat.music.126.net, reject
 host-suffix, iadmusicmatvideo.music.126.net, reject
@@ -902,12 +913,15 @@ host-suffix, ikcode.baidu.com, reject
 host-suffix, img-x.jd.com, reject
 host-suffix, imgaliyun.res.mgtv.com, reject
 host-suffix, imp.zol.com.cn, reject
+host-suffix, impression.link, reject
 host-suffix, impservice-test.dictapp.youdao.com, reject
 host-suffix, impservice.dictapp.youdao.com, reject
 host-suffix, impservice.youdao.com, reject
 host-suffix, impservice2.youdao.com, reject
 host-suffix, impservicetest.dictapp.youdao.com, reject
 host-suffix, info.pinyin.sogou.com, reject
+host-suffix, inhousedsp.com, reject
+host-suffix, inner-active.mobi, reject
 host-suffix, install.kugou.com, reject
 host-suffix, install2.kugou.com, reject
 host-suffix, int.dpool.sina.com.cn, reject
@@ -917,6 +931,7 @@ host-suffix, interest.mix.sina.com.cn, reject
 host-suffix, iwanad.baidu.com, reject
 host-suffix, j.br.baidu.com, reject
 host-suffix, j.wit.qq.com, reject
+host-suffix, jampp.com, reject
 host-suffix, jb.mbaidu.top, reject
 host-suffix, jiguang.cn, reject
 host-suffix, jpush.cn, reject
@@ -977,6 +992,7 @@ host-suffix, mob.com, reject
 host-suffix, mobaliyun.res.mgtv.com, reject
 host-suffix, mobilead.kuwo.cn, reject
 host-suffix, mobileads.google.com, reject
+host-suffix, mobilefuse.com, reject
 host-suffix, mobilemsg.youku.com, reject
 host-suffix, mobileservice.cn, reject
 host-suffix, mobsurl.com, reject
@@ -1019,6 +1035,8 @@ host-suffix, omgmta.qq.com, reject
 host-suffix, omgmta1.qq.com, reject
 host-suffix, openinstall.io, reject
 host-suffix, openrcv.baidu.com, reject
+host-suffix, outbrain.com, reject
+host-suffix, outbrainimg.com, reject
 host-suffix, p-log.ykimg.com, reject
 host-suffix, p.kugou.com, reject
 host-suffix, p.twitter.com, reject
@@ -1052,6 +1070,7 @@ host-suffix, pmbservice.bosc.cn, reject
 host-suffix, pmbservice2.bosc.cn, reject
 host-suffix, pmir.3g.qq.com, reject
 host-suffix, policy.video.iqiyi.com, reject
+host-suffix, pomodoromedia.com, reject
 host-suffix, pos.baidu.com, reject
 host-suffix, promote.biz.weibo.cn, reject
 host-suffix, promote.caixin.com, reject
@@ -1084,6 +1103,7 @@ host-suffix, re.taobao.com, reject
 host-suffix, redirect.simba.taobao.com, reject
 host-suffix, release.baidu.com, reject
 host-suffix, rich.kuwo.cn, reject
+host-suffix, richmob.cn, reject
 host-suffix, river.zhidao.baidu.com, reject
 host-suffix, rj.baidu.com, reject
 host-suffix, rlogs.youdao.com, reject
@@ -1115,10 +1135,13 @@ host-suffix, shouji.sougou.com, reject
 host-suffix, shuzilm.cn, reject
 host-suffix, simba.m.taobao.com, reject
 host-suffix, slog.sina.com.cn, reject
+host-suffix, smaato.net, reject
+host-suffix, smadex.com, reject
 host-suffix, sngmta.qq.com, reject
 host-suffix, sobar.baidu.com, reject
 host-suffix, sobartop.baidu.com, reject
 host-suffix, song.fanxing.kugou.com, reject
+host-suffix, spadsync.com, reject
 host-suffix, spcode.baidu.com, reject
 host-suffix, srd.simba.taobao.com, reject
 host-suffix, stat.simba.taobao.com, reject
@@ -1165,6 +1188,8 @@ host-suffix, track.sohu.com, reject
 host-suffix, track.toutiao.com, reject
 host-suffix, tracker.sns.iqiyi.com, reject
 host-suffix, tracker.yhd.com, reject
+host-suffix, trustarc.com, reject
+host-suffix, truste.com, reject
 host-suffix, ttayy.cn, reject
 host-suffix, tui.weibo.com, reject
 host-suffix, tuijian.baidu.com, reject
@@ -1246,6 +1271,7 @@ host-suffix, yksdks.com, reject
 host-suffix, ynuf.alipay.com, reject
 host-suffix, youxi.kugou.com, reject
 host-suffix, yuedu.iqiyi.com, reject
+host-suffix, zemanta.com, reject
 host-suffix, zhengxiaoliu.top, reject
 host-suffix, znsv.baidu.com, reject
 host-suffix, zymo.mps.weibo.com, reject
