@@ -42,11 +42,11 @@
 
 | Type | Count |
 |----------|----------|
-| 全部    | 640 |
+| 全部    | 641 |
 | App    | 514 |
 | 微信小程序| 120 |
 | 支付宝小程序| 4 |
-| 网站    | 2 |
+| 网站    | 3 |
 
 ## 特别鸣谢
 [![](https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/Author/app2smile.png)](https://github.com/app2smile)

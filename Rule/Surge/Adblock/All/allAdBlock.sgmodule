@@ -708,6 +708,7 @@ DOMAIN-SUFFIX, bdcode.youke.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, bdplus.baidu.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, beacon.sina.com.cn, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, beizi.biz, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, bg4nxu2u5t.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, bianxianmao.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, bidder.criteo.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, brand.sogou.com, REJECT, extended-matching, pre-matching
@@ -963,6 +964,7 @@ DOMAIN-SUFFIX, l.ykimg.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, l.youku.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, linkeye.ximalaya.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, livep.l.ott.video.qq.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, lkpmprksau.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, location.ximalaya.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, log-yex.youdao.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, log.mgtv.com, REJECT, extended-matching, pre-matching
@@ -1120,6 +1122,7 @@ DOMAIN-SUFFIX, rj.baidu.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, rlogs.youdao.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, rm.sina.com.cn, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, rmoeu.mercury.sogou.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, rou3.xyz, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, rplog.baidu.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, rqd.qq.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, rt-m.kugou.com, REJECT, extended-matching, pre-matching

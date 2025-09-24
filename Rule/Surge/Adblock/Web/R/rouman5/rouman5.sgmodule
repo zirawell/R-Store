@@ -1,0 +1,6 @@
+# > rouman5 - ROUMAN5
+
+[Rule]
+DOMAIN-SUFFIX, rou3.xyz, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, bg4nxu2u5t.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, lkpmprksau.com, REJECT, extended-matching, pre-matching
