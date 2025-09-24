@@ -549,6 +549,7 @@ DOMAIN-SUFFIX, ad.mail.sohu.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, ad.mobile.youku.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, ad.player.baidu.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, ad.qq.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, ad.richmob.cn, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, ad.sina.com.cn, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, ad.sohu.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, ad.test.ximalaya.com, REJECT, extended-matching, pre-matching
@@ -825,6 +826,7 @@ DOMAIN-SUFFIX, entry.baidu.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, epro.sogou.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, ers.baidu.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, fair.sogou.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, fancyapi.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, fastimage.uve.weibo.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, fav.simba.taobao.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, fclick.baidu.com, REJECT, extended-matching, pre-matching
