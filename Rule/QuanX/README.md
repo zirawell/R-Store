@@ -63,7 +63,7 @@ R-Store/Rule/QuanX
 | E  | F  | G  | H  |
 | [I](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/Web/I)  | [J](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/Web/J)  | K  | L  |
 | M  | N  | O  | P  |
-| Q  | R  | S  | T  |
+| Q  | [R](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/Web/R)  | S  | T  |
 | U  | V  | W  | X  |
 | Y  | Z  | #  | 0-9|
 ## Count Table
@@ -71,11 +71,11 @@ R-Store/Rule/QuanX
 
 | Type | Count |
 |----------|----------|
-| All    | 640 |
+| All    | 641 |
 | App    | 514 |
 | Wechat Applet| 120 |
 | Alipay Applet| 4 |
-| Web    | 2 |
+| Web    | 3 |
 
 ## Thanks To
 [![](https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/Author/app2smile.png)](https://github.com/app2smile)
