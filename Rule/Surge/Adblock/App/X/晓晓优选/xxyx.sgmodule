@@ -11,9 +11,11 @@
 #!date=2025-07-08
 
 [Rule]
-DOMAIN-SUFFIX, yfanads.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, 1rtb.net, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, adwangmai.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, ad.richmob.cn, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, fancyapi.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, yfanads.com, REJECT, extended-matching, pre-matching
 
 [URL Rewrite]
 ^https?:\/\/xxyx-client-api\.xiaoxiaoyouxuan\.com\/agent_ad - reject

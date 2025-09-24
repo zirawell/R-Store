@@ -1,4 +1,6 @@
 # > 晓晓优选 - XXYX
-host-suffix, yfanads.com, reject
 host-suffix, 1rtb.net, reject
 host-suffix, adwangmai.com, reject
+host-suffix, ad.richmob.cn, reject
+host-suffix, fancyapi.com, reject
+host-suffix, yfanads.com, reject
