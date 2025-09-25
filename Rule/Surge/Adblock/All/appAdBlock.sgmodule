@@ -2123,7 +2123,6 @@ https?:\/\/awg\.enmonster\.com\/apa\/(advert\/demand\/home\/poster|index\/advert
 ^https?:\/\/d\.psbc\.com:\d+\/mcc\/resources\/.+\.(?>jpg|jpeg|png) data-type=text data="" status-code=200
 ^https?:\/\/mime\.baidu\.com\/sapi\/v\d\/circle\/joinedlist data-type=text data="{}" status-code=200
 ^https?:\/\/(cdn-)?h5\.kuaikanmanhua\.com\/user\/scene\/api\/new_user\/sign_in\/list data-type=text data="{}" status-code=200
-^https?:\/\/img\.meituan\.net\/goodsawardpic\/\w+\.gif data-type=tiny-gif status-code=200
 ^https?:\/\/api\.pinduoduo\.com\/api\/caterham\/v\d\/query\/new_chat_group data-type=text data="{}" status-code=200
 ^https?:\/\/(info\.mina\.xiaoaisound|marketing-aibox\.v\.mitvos)\.com\/popup data-type=text data="{}" status-code=200
 ^https?:\/\/ad\.shunchangzhixing\.com\/getAd data-type=text data="{}" status-code=200
@@ -2847,7 +2846,6 @@ mgtv = type=http-response,pattern=^https?:\/\/mobile\.api\.mgtv\.com\/mobile\/co
 youtube = type=http-response,pattern=^https?:\/\/youtubei\.googleapis\.com\/youtubei\/v\d\/(browse|next|player|search|reel\/reel_watch_sequence|guide|account\/get_setting|get_watch),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/youtube.js
 rrtv = type=http-response,pattern=^https?:\/\/api\.rr\.tv\/drama\/app\/get_combined_drama_detail,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/rrtv.js
 163music = type=http-response,pattern=^https?:\/\/interface\d?\.music\.163\.com\/w?e?api\/song\/play\/more\/list\/v\d,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/163music.js
-dianping = type=http-response,pattern=^https?:\/\/img\.meituan\.net\/dpmobile\/,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/dianping.js
 goofish = type=http-response,pattern=^https?:\/\/(g-)?acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idlehome\.home\.nextfresh\/,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/goofish.js
 weibo = type=http-response,pattern=^https?:\/\/api\.weibo\.cn\/2\/profile\/(container_timeline|dealatt|me|statuses\/tab|userinfo)\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/weibo.js
 bilibiliManga = type=http-response,pattern=^https?:\/\/manga\.bilibili\.com\/twirp\/user\.v\d\.User\/GetInitInfo,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/bilibiliManga.js
@@ -2895,7 +2893,6 @@ bilibili = type=http-response,pattern=^https?:\/\/(app\.bilibili\.com|grpc\.bili
 iqiyi = type=http-response,pattern=^https?:\/\/iface2\.iqiyi\.com\/control\/3\.0\/init_proxy\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/cntv.js
 adunion = type=http-response,pattern=^https?:\/\/api-access\.pangolin-sdk-toutiao\.com\/api\/ad\/union\/sdk\/get_ads,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/adsense.js
 quark = type=http-response,pattern=^https?:\/\/open-cms-api\.quark\.cn\/open-cms,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/quark.js
-dianping = type=http-response,pattern=^https?:\/\/img\.meituan\.net\/goodsawardpic\/\w+\.(?!gif)\w+,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/dianping.js
 baidumap = type=http-response,pattern=^https?:\/\/newclient\.map\.baidu\.com\/client\/phpui2\/\?qt=ads,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/baiduMap.js
 ehaier = type=http-response,pattern=^https?:\/\/zj\.haier\.net\/omsappapi\/resource\/v\d\/get\/resourceBag$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/haier.js
 mgtv = type=http-response,pattern=^https?:\/\/dc2?\.bz\.mgtv\.com\/dynamic\/v\d\/channel\/(index|vrsList)\/\w,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/cntv.js
@@ -2946,6 +2943,7 @@ weibo = type=http-response,pattern=^https?:\/\/api\.weibo\.cn\/2\/search\/(conta
 youku = type=http-response,pattern=^https?:\/\/push\.m\.youku\.com\/collect-api\/get_push_interval_config_wx\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/cntv.js
 peiyinxiu = type=http-response,pattern=^https?:\/\/iosapi\.peiyinxiu\.com\/api\/Union\/HomeData,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/peiyinxiu.js
 adunion = type=http-response,pattern=^https?:\/\/g\.alicdn\.com\/.*o2o-ad,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/alicdn.js
+dianping = type=http-response,pattern=^https?:\/\/img\.meituan\.net\/(?>dpmobile|goodsawardpic)\/,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/dianping.js
 adunion = type=http-response,pattern=^https?:\/\/mi\.gdt\.qq\.com\/gdt_mview,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/adsense.js
 adunion = type=http-response,pattern=^https?:\/\/is.snssdk.com/api/ad/union/sdk,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/adsense.js
 ppx = type=http-response,pattern=^https?:\/\/.+\.pipix\.com\/bds\/feed\/channel_list\/,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/ppx.js
