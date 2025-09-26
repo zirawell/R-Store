@@ -5,6 +5,8 @@ Please note that you may need to reinstall app for script to work.
 
 QuantumultX rewrite link:
 https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/App/Y/Youtube/rewrite/youtube.conf
+Surge module link:
+https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/Surge/Adblock/App/Y/Youtube/youtube.sgmodule
 
 ********************************/
 // Build: 2025/7/12 20:17:26
