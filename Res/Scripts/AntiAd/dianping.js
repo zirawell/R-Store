@@ -19,7 +19,6 @@ if (url.includes("/dpmobile") || url.includes("/goodsawardpic")) {
   if (headopt1 && !headopt2) {
     $done({body: "", headers: "", status: "HTTP/1.1 404 Not Found"});
   } else if (url.includes(".gif")) {
-    console.log("url" + url);
     const hexString = "47494638396101000100800000000000ffffff21f90401000000002c000000000100010000020144003b";
     const header = {};
     header["Content-Type"] = "image/gif";
@@ -47,9 +46,6 @@ function debug(url,traceKey1,traceKey2,headopt1,headopt2) {
 
 function hexStringToArrayBuffer(hexString) {
   const cleanHex = hexString.replace(/[^0-9A-Fa-f]/g, '');
-  if (cleanHex.length % 2 !== 0) {
-    throw new Error('十六进制字符串长度必须是偶数');
-  }
   const buffer = new ArrayBuffer(cleanHex.length / 2);
   const view = new Uint8Array(buffer);
   for (let i = 0; i < cleanHex.length; i += 2) {
