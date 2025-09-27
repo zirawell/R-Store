@@ -103,4 +103,4 @@ host,msg.umengcloud.com, direct
 # ------------------> X <------------------
 # 携程
 host-keyword, aw-s.tripcdn.com, direct
-host-keyword, trip.com, direct
+host-suffix, trip.com, direct
