@@ -104,4 +104,4 @@ DOMAIN, msg.umengcloud.com, DIRECT
 #------------------>X<------------------
 #携程
 DOMAIN-KEYWORD, aw-s.tripcdn.com, DIRECT
-DOMAIN-KEYWORD, trip.com, DIRECT
+DOMAIN-SUFFIX, trip.com, DIRECT
