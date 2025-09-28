@@ -15,6 +15,17 @@ https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/Apple
 https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/Applet/Wechat/E/EMS/rewrite/ems.conf
 https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/Applet/Wechat/L/罗森点点/rewrite/lawson.conf
 
+Surge module link:
+https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/Surge/Adblock/Applet/Wechat/N/挪瓦咖啡/nowwa.sgmodule
+https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/Surge/Adblock/Applet/Wechat/H/汇付天下商户服务/cloudpnr.sgmodule
+https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/Surge/Adblock/Applet/Wechat/M/MStand/mstand.sgmodule
+https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/Surge/Adblock/Applet/Wechat/C/CoCo点单+/coco.sgmodule
+https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/Surge/Adblock/Applet/Wechat/C/茶颜悦色/sexytea.sgmodule
+https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/Surge/Adblock/Applet/Wechat/D/滴滴青桔/didiqj.sgmodule
+https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/Surge/Adblock/Applet/Wechat/Q/全家微会员/fm.sgmodule
+https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/Surge/Adblock/Applet/Wechat/X/小兔充充/xiaotucc.sgmodule
+https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/Surge/Adblock/Applet/Wechat/E/EMS/ems.sgmodule
+https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/Surge/Adblock/Applet/Wechat/L/罗森点点/lawson.sgmodule
 ********************************/
 
 const url = $request.url;

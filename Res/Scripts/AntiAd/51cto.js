@@ -5,6 +5,8 @@ Please note that you may need to reinstall app for script to work.
 QuantumultX rewrite link:
 https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/App/0-9/51cto/rewrite/51cto.conf
 
+Surge module link:
+https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/Surge/Adblock/App/0-9/51cto/51cto.sgmodule
 ********************************/
 
 if (!$response.body) $done({});

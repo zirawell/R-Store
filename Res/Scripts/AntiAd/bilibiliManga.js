@@ -5,6 +5,8 @@ Please note that you may need to reinstall app for script to work.
 QuantumultX rewrite link:
 https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/App/B/哔哩哔哩漫画/rewrite/bilibiliManga.conf
 
+Surge module link:
+https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/Surge/Adblock/App/B/哔哩哔哩漫画/bilibiliManga.sgmodule
 ********************************/
 
 const url = $request.url;

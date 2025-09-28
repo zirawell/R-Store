@@ -8,6 +8,11 @@ https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/Apple
 https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/Applet/Wechat/N/挪瓦咖啡/rewrite/nowwa.conf
 https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/Applet/Wechat/L/LINLEE林里柠檬茶/rewrite/linlee.conf
 
+Surge module link:
+https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/Surge/Adblock/Applet/Wechat/B/霸王茶姬/chagee.sgmodule
+https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/Surge/Adblock/Applet/Wechat/C/陈香贵点单/cxg.sgmodule
+https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/Surge/Adblock/Applet/Wechat/N/挪瓦咖啡/nowwa.sgmodule
+https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/Surge/Adblock/Applet/Wechat/L/LINLEE林里柠檬茶/linlee.sgmodule
 ********************************/
 
 const url = $request.url;

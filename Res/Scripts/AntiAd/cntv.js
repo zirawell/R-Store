@@ -8,6 +8,10 @@ https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/App/A
 https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/App/M/芒果TV/rewrite/mgtv.conf
 https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/App/Y/优酷视频/rewrite/youku.conf
 
+Surge module link:
+https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/Surge/Adblock/App/A/爱奇艺/iqiyi.sgmodule
+https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/Surge/Adblock/App/M/芒果TV/mgtv.sgmodule
+https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/Surge/Adblock/App/Y/优酷视频/youku.sgmodule
 ********************************/
 
 const url = $request.url;

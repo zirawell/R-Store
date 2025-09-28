@@ -5,6 +5,8 @@ Please note that you may need to reinstall app for script to work.
 QuantumultX rewrite link:
 https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/App/F/飞客/rewrite/flyert.conf
 
+Surge module link:
+https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/Surge/Adblock/App/F/飞客/flyert.sgmodule
 ********************************/
 
 let body = $response.body;

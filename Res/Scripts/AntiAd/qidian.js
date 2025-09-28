@@ -5,6 +5,8 @@ Please note that you may need to reinstall app for script to work.
 QuantumultX rewrite link:
 https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/App/Q/起点读书/rewrite/qidian.conf
 
+Surge module link:
+https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/Surge/Adblock/App/Q/起点读书/qidian.sgmodule
 ********************************/
 
 let url = $request.url;

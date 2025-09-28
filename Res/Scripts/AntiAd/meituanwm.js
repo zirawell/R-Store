@@ -6,6 +6,8 @@ Please note that you may need to reinstall app for script to work.
 QuantumultX rewrite link:
 https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/Applet/Wechat/M/美团外卖/rewrite/meituanwm.conf
 
+Surge module link:
+https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/Surge/Adblock/Applet/Wechat/M/美团外卖/meituanwm.sgmodule
 ********************************/
 
 const url = $request.url;

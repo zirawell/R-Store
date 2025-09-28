@@ -6,6 +6,8 @@ Please note that you may need to reinstall app for script to work.
 QuantumultX rewrite link:
 https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/App/B/薄荷健康/rewrite/boohee.conf
 
+Surge module link:
+https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/Surge/Adblock/App/B/薄荷健康/boohee.sgmodule
 ********************************/
 
 const url = $request.url;

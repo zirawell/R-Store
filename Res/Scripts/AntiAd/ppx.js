@@ -5,6 +5,8 @@ Please note that you may need to reinstall app for script to work.
 QuantumultX rewrite link:
 https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/App/P/皮皮虾/rewrite/ppx.conf
 
+Surge module link:
+https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/Surge/Adblock/App/P/皮皮虾/ppx.sgmodule
 ********************************/
 
 const url = $request.url;
