@@ -6,6 +6,8 @@ Please note that you may need to reinstall app for script to work.
 QuantumultX rewrite link:
 https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/App/K/夸克/rewrite/quark.conf
 
+Surge module link:
+https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/Surge/Adblock/App/K/夸克/quark.sgmodule
 ********************************/
 
 if (!$response.body) $done({});

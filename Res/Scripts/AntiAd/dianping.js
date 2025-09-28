@@ -6,6 +6,8 @@ Works for version 11.28.3 and below. Version ID: 870198258
 QuantumultX rewrite link:
 https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/App/D/大众点评/rewrite/dianping.conf
 
+Surge module link:
+https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/Surge/Adblock/App/D/大众点评/dianping.sgmodule
 ********************************/
 
 const url = $request.url;

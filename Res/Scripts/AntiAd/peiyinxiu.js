@@ -7,6 +7,8 @@ Please note that you may need to reinstall app for script to work.
 QuantumultX rewrite link:
 https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/App/P/配音秀/rewrite/peiyinxiu.conf
 
+Surge module link:
+https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/Surge/Adblock/App/P/配音秀/peiyinxiu.sgmodule
 ********************************/
 
 const url = $request.url;

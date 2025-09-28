@@ -6,6 +6,8 @@ Please note that you may need to reinstall app for script to work.
 QuantumultX rewrite link:
 https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/App/F/帆书/rewrite/dushu365.conf
 
+Surge module link:
+https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/Surge/Adblock/App/F/帆书/dushu365.sgmodule
 ********************************/
 
 // https://www.npmjs.com/package/@nsnanocat/util

@@ -1,14 +1,16 @@
 /********************************
- SMZDM Remove Ads - Version 1.0
- Checkout Source -
- 1.https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Smzdm.js
- 2.https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/smzdm/smzdm_ads.js
- Please note that you may need to reinstall app for script to work.
+SMZDM Remove Ads - Version 1.0
+Checkout Source -
+1.https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Smzdm.js
+2.https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/smzdm/smzdm_ads.js
+Please note that you may need to reinstall app for script to work.
 
- QuantumultX rewrite link:
- https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/App/S/什么值得买/rewrite/smzdm.conf
+QuantumultX rewrite link:
+https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/App/S/什么值得买/rewrite/smzdm.conf
 
- ********************************/
+Surge module link:
+https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/Surge/Adblock/App/S/什么值得买/smzdm.sgmodule
+********************************/
 
 const url = $request.url;
 if (!$response.body) $done({});
