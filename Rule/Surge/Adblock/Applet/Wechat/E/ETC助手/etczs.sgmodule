@@ -1,0 +1,7 @@
+# > ETC助手<微信小程序> - ETCZS
+
+[Map Local]
+^https?:\/\/gw\.etczs\.net\/api\/marketing\/marketing_plan\/release\/get data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% gw.etczs.net

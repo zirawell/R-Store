@@ -26,7 +26,7 @@
 - [懂球帝](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FD%2F%E6%87%82%E7%90%83%E5%B8%9D%2Fdongqiudi.sgmodule)
 - [斗鱼直播](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FD%2F%E6%96%97%E9%B1%BC%E7%9B%B4%E6%92%AD%2Fdouyu.sgmodule)
 - [滴滴出行](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FD%2F%E6%BB%B4%E6%BB%B4%E5%87%BA%E8%A1%8C%2Fdidi.sgmodule)
-- [电e宝](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FD%2F%E7%94%B5e%E5%AE%9D%2Fdeb.sgmodule)
+- [电E宝](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FD%2F%E7%94%B5E%E5%AE%9D%2Fdeb.sgmodule)
 - [盯盯拍](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FD%2F%E7%9B%AF%E7%9B%AF%E6%8B%8D%2Fddpai.sgmodule)
 - [豆瓣](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FD%2F%E8%B1%86%E7%93%A3%2Fdouban.sgmodule)
 - [达达秒送骑士](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FD%2F%E8%BE%BE%E8%BE%BE%E7%A7%92%E9%80%81%E9%AA%91%E5%A3%AB%2Fimdada.sgmodule)
