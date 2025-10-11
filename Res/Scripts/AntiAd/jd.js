@@ -93,7 +93,8 @@ if (url.includes("functionId=deliverLayer") || url.includes("functionId=orderTra
         "newsFloor", // 京东快讯
         "noticeFloor", // 顶部横幅
         // "orderIdFloor", // 我的订单
-        "recommendfloor" // 我的推荐
+        "recommendfloor", // 我的推荐
+        "newCardFloor"    // 中间横幅
       ];
       if (items?.includes(floor?.mId)) {
         continue;
