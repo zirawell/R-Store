@@ -2194,7 +2194,6 @@ https?:\/\/awg\.enmonster\.com\/apa\/(advert\/demand\/home\/poster|index\/advert
 ^https?:\/\/api\.bwton\.com\/bas\/ad data-type=text data="" status-code=200
 ^https?:\/\/www\.iyingdi\.cn\/ad data-type=text data="" status-code=200
 ^https?:\/\/api\.indeedpower\.com\/v\d\/m\/edu\/module\/homepage_banner\/\?randomStr data-type=text data="{}" status-code=200
-^https?:\/\/xxyx-client-api\.xiaoxiaoyouxuan\.com\/vajra data-type=text data="{}" status-code=200
 ^https?:\/\/(cdn-)?pay\.kkmh\.com\/v\d\/vip\/(?>banner|charge)_tip_list data-type=text data="{}" status-code=200
 ^https?:\/\/wx\.17u\.cn\/crapi\/query\/(?>ad|getAdImgUrlByCode) data-type=text data="{}" status-code=200
 ^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.alibaba\.advertisementservice\.getadv data-type=text data="{}" status-code=200
