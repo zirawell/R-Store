@@ -1,7 +1,7 @@
 {
   "name": "App Icons",
   "description": "collected by zirawell",
-  "time": "2025-09-18",
+  "time": "2025-10-13",
   "icons": [
     {
       "name": "shihuo",
@@ -1230,6 +1230,10 @@
     {
       "name": "tonghuashun",
       "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/tonghuashun.png"
+    },
+    {
+      "name": "aiqiangua",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/aiqiangua.png"
     },
     {
       "name": "hsbcfts",

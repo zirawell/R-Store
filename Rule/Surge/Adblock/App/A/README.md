@@ -1,7 +1,7 @@
 # A
 <details>
 <summary>
-本目录共收录12个App，详情见如下，单击导入对应配置：
+本目录共收录13个App，详情见如下，单击导入对应配置：
 </summary>
 
  自动导入功能依赖 [【神机模块】](https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/Surge/Redirect/DivineEngine.sgmodule)
@@ -15,6 +15,7 @@
 - [爱奇艺](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FA%2F%E7%88%B1%E5%A5%87%E8%89%BA%2Fiqiyi.sgmodule)
 - [爱思助手](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FA%2F%E7%88%B1%E6%80%9D%E5%8A%A9%E6%89%8B%2Fi4.sgmodule)
 - [爱桐乡](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FA%2F%E7%88%B1%E6%A1%90%E4%B9%A1%2Ftxcmapp.sgmodule)
+- [爱牵挂care](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FA%2F%E7%88%B1%E7%89%B5%E6%8C%82care%2Faiqiangua.sgmodule)
 - [爱范儿](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FA%2F%E7%88%B1%E8%8C%83%E5%84%BF%2Fifanr.sgmodule)
 - [阿里云盘](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FA%2F%E9%98%BF%E9%87%8C%E4%BA%91%E7%9B%98%2Fadrive.sgmodule)
 
