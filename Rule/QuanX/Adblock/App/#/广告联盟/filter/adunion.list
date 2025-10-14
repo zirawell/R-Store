@@ -79,7 +79,6 @@ host, polaris.zijieapi.com, reject
 host, feedback-c.zijieapi.com, reject
 host, abtest3-misc.zijieapi.com, reject
 host, bsync3-normal.zijieapi.com, reject
-host, i.snssdk.com, reject
 host, ug.snssdk.com, reject
 host, bds.snssdk.com, reject
 host, mcs.snssdk.com, reject

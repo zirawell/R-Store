@@ -112,7 +112,6 @@ DOMAIN, polaris.zijieapi.com, REJECT, extended-matching, pre-matching
 DOMAIN, feedback-c.zijieapi.com, REJECT, extended-matching, pre-matching
 DOMAIN, abtest3-misc.zijieapi.com, REJECT, extended-matching, pre-matching
 DOMAIN, bsync3-normal.zijieapi.com, REJECT, extended-matching, pre-matching
-DOMAIN, i.snssdk.com, REJECT, extended-matching, pre-matching
 DOMAIN, ug.snssdk.com, REJECT, extended-matching, pre-matching
 DOMAIN, bds.snssdk.com, REJECT, extended-matching, pre-matching
 DOMAIN, mcs.snssdk.com, REJECT, extended-matching, pre-matching
