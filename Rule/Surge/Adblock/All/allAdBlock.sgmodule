@@ -295,7 +295,6 @@ DOMAIN, huichuan.sm.cn, REJECT, extended-matching, pre-matching
 DOMAIN, huodong.weibo.cn, REJECT, extended-matching, pre-matching
 DOMAIN, huyafile.msstatic.com, REJECT, extended-matching, pre-matching
 DOMAIN, i.gtimg.cn, REJECT, extended-matching, pre-matching
-DOMAIN, i.snssdk.com, REJECT, extended-matching, pre-matching
 DOMAIN, iacc.qq.com, REJECT, extended-matching, pre-matching
 DOMAIN, iad.apple.com, REJECT, extended-matching, pre-matching
 DOMAIN, iad.g.163.com, REJECT, extended-matching, pre-matching
