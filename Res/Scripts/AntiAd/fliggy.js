@@ -13,6 +13,7 @@ const url = $request.url;
 if (!$response.body) $done({});
 let body = $response.body;
 let obj = JSON.parse(body);
+// 首页简化
 if (url.includes("mtop.fliggy.ssif.pattern.home")) {
   const designedStructure = {
     "s_vertical_homepage_inner_scroll_layout": [
@@ -32,6 +33,11 @@ if (url.includes("mtop.fliggy.ssif.pattern.home")) {
   };
   if (typeof obj?.data?.hierarchy?.structure !== "undefined") {
     obj.data.hierarchy.structure = designedStructure;
+  }
+// 产品页底部咨询框
+} else if (url.includes("mtop.fliggy.traveldetail.ultron.detail.firstscreen")) {
+  if (typeof obj?.data?.sellerConsultV2 !== "undefined") {
+    delete obj.data.sellerConsultV2;
   }
 }
 body = JSON.stringify(obj);
