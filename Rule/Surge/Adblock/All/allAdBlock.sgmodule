@@ -1410,6 +1410,7 @@ DOMAIN-KEYWORD, wan.sogou.com, REJECT, extended-matching, pre-matching
 ^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.alimama\.etao\.config\.query\/.+?etao_advertise - reject
 ^https?:\/\/appgw\.ddpai\.com.*\/ad\/list.* - reject
 ^https?:\/\/b-api\.ins\.miaopai\.com\/\d\/ad/ - reject
+^https?:\/\/xxyx-client-api\.xiaoxiaoyouxuan\.com\/bottom_banner - reject
 ^https?:\/\/appactive\.1234567\.com\.cn\/AppoperationApi\/OperationService\/GetAppStartImg - reject
 ^https?:\/\/mime\.baidu\.com\/v\d\/IosStart\/getStartInfo - reject
 ^https?:\/\/axxd\.xmseeyouyima\.com\/.*getad\? - reject
@@ -1545,6 +1546,7 @@ DOMAIN-KEYWORD, wan.sogou.com, REJECT, extended-matching, pre-matching
 ^https?:\/\/.+\.shuqireader\.com\/sapi\/.+ - reject
 ^https?:\/\/business\.msstatic\.com\/advertiser\/material - reject
 ^https?:\/\/res\.mi\.baidu\.com\/imeres\/ime-res\/advertisement\/files\/.+\.jpg - reject
+^https?:\/\/xxyx-client-api\.xiaoxiaoyouxuan\.com\/get_index_activity_list_ad - reject
 ^https?:\/\/www\.zhihu\.com\/api\/v\d\/mcn\/v\d\/linkcards\? - reject
 ^https?:\/\/p\.meituan\.com\/api\/privacy\/config - reject
 ^https?:\/\/api\.zhihu\.com\/unlimited\/go\/my_card - reject
@@ -1924,6 +1926,7 @@ DOMAIN-KEYWORD, wan.sogou.com, REJECT, extended-matching, pre-matching
 ^https?:\/\/mcsp\.cloudpnr\.com\/api\/miniapp\/popular\/T_MINIAPP$ - reject
 ^https?:\/\/aiqicha\.baidu\.com\/app\/getPopConfigAjax - reject
 ^https?:\/\/catfront\.dianping\.com\/api\/metric\?v=\d&p=rn_gcbu_mrn-joy-poidetail - reject
+^https?:\/\/xxyx-client-api\.xiaoxiaoyouxuan\.com\/get_big_module_bottom_ad - reject
 ^https?:\/\/182\.92\.244\.70\/d\/json - reject
 ^https?:\/\/cupid\.51job(app)?\.com\/open\/user-task\/user\/task\/init - reject
 ^https?:\/\/static\.line-scdn\.net\/ad-sdk\/ - reject
