@@ -1689,6 +1689,7 @@ DOMAIN-KEYWORD, wan.sogou.com, REJECT, extended-matching, pre-matching
 ^https?:\/\/gw\.aihuishou\.com\/app-portal\/home\/getadvertisement - reject
 ^https?:\/\/daoyu\.sdo\.com\/api\/userCommon\/getAppStartAd - reject
 ^https?:\/\/venus\.yhd\.com\/memhome\/launchConfig - reject
+^https?:\/\/download1\.bankcomm\.com\/_cdn\/mobs\/home\/oss\/pub\/file\/file\/public\/config\/pageConfig - reject
 ^https?:\/\/yunmk\.feidee\.net\/cab-market-ws\/market\/v\d\/contents - reject
 ^https?:\/\/.*\.xima.*\.com\/discovery-feed\/focus\/queryF - reject
 ^https?:\/\/push\.it\.10086\.cn\/mc\/receipt\/iosBadge - reject
