@@ -18,6 +18,14 @@ if (url.indexOf("queryindexpage") != -1) {
     "509",
     "738"
   ];
+  const spmcCode = [
+    "waterfall",        //瀑布流
+    //"channelsite",      //推荐坑位
+    //"growthhacking",    //用户增长
+    "category"          //分类
+
+  ];
+  /************* App *************/
   if (obj?.data?.scenes?.length > 0) {
     let scenes = [];
     for (let scene of obj.data.scenes) {
@@ -30,6 +38,11 @@ if (url.indexOf("queryindexpage") != -1) {
   // 首页顶屏
   if (obj.data?.secondFloor) {
     obj.data.secondFloor = {};
+  }
+
+  /******** Wechat Applet ********/
+  if (obj?.data?.model?.scenes?.length > 0) {
+    obj.data.model.scenes = obj.data.model.scenes.filter(scene => spmcCode.includes(scene.spmc));
   }
 // 我的页
 } else if (url.indexOf("querymypage") != -1) {
