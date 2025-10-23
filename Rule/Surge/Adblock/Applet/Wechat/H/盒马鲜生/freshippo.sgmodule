@@ -1,0 +1,10 @@
+# > 盒马鲜生<微信小程序> - FRESHIPPO
+
+[Map Local]
+^https?:\/\/acs\.m\.shyhhema\.com\/h5\/mtop\.wdk\.fc\.recommend\.feeds data-type=text data="{}" status-code=200
+
+[Script]
+freshippo = type=http-response,pattern=^https?:\/\/acs\.m\.shyhhema\.com\/h5\/mtop\.wdk\.render\.query(?>index|my)page,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/freshippo.js
+
+[MITM]
+hostname= %APPEND% acs.m.shyhhema.com
