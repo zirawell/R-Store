@@ -396,7 +396,6 @@ DOMAIN, open.kuaishou.com, REJECT, extended-matching, pre-matching
 DOMAIN, openapi.boc.cn, REJECT, extended-matching, pre-matching
 DOMAIN, optimus-ads.amap.com, REJECT, extended-matching, pre-matching
 DOMAIN, ossgw.alicdn.com, REJECT, extended-matching, pre-matching
-DOMAIN, overseamobileap.ctrip.com, REJECT, extended-matching, pre-matching
 DOMAIN, pageviewp.icbc.com.cn, REJECT, extended-matching, pre-matching
 DOMAIN, pgdt.gtimg.cn, REJECT, extended-matching, pre-matching
 DOMAIN, pl.cp31.ott.cibntv.net, REJECT, extended-matching, pre-matching
@@ -977,7 +976,6 @@ DOMAIN-SUFFIX, lx.meituan.net, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, m-adash.m.taobao.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, m.baidu.com.yiqisee.cn, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, m.baidu.com.zhiduo.org, REJECT, extended-matching, pre-matching
-DOMAIN-SUFFIX, m.ctripins.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, m.simba.taobao.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, m.yes.youku.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, m1.baidu.com, REJECT, extended-matching, pre-matching
