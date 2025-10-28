@@ -1363,6 +1363,7 @@ DOMAIN-KEYWORD, wan.sogou.com, REJECT, extended-matching, pre-matching
 ^https?:\/\/amap-aos-info-nogw\.amap\.com\/ws\/aos\/alimama\/splash_screen_rt - reject
 ^https?:\/\/mkt-gateway\.tuhu\.cn\/mkt-push-message-box\/banner\/cms\/getIndexBanner - reject
 ^https?:\/\/cix\.line-apps\.com\/R4\? - reject
+^https?:\/\/xxyx-client-api\.xiaoxiaoyouxuan\.com\/get_.*_ad - reject
 ^https?:\/\/api-sams\.walmartmobile\.cn\/api\/v\d\/sams\/sams-user\/(window\/getGoUpPlus|screen_promotion\/get) - reject
 ^https?:\/\/.*\.xima.*\.com\/api\/v\d\/adRealTime - reject
 ^https?:\/\/api\.gotokeep\.com\/anno\/v\d\/upgrade\/check - reject
@@ -1387,7 +1388,6 @@ DOMAIN-KEYWORD, wan.sogou.com, REJECT, extended-matching, pre-matching
 ^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.alimama\.etao\.config\.query\/.+?etao_advertise - reject
 ^https?:\/\/appgw\.ddpai\.com.*\/ad\/list.* - reject
 ^https?:\/\/b-api\.ins\.miaopai\.com\/\d\/ad/ - reject
-^https?:\/\/xxyx-client-api\.xiaoxiaoyouxuan\.com\/bottom_banner - reject
 ^https?:\/\/appactive\.1234567\.com\.cn\/AppoperationApi\/OperationService\/GetAppStartImg - reject
 ^https?:\/\/mime\.baidu\.com\/v\d\/IosStart\/getStartInfo - reject
 ^https?:\/\/axxd\.xmseeyouyima\.com\/.*getad\? - reject
@@ -1510,13 +1510,13 @@ DOMAIN-KEYWORD, wan.sogou.com, REJECT, extended-matching, pre-matching
 ^https?:\/\/sytgate\.jslife\.com\.cn\/base-gateway\/config\/queryAppNewVersion - reject
 ^https?:\/\/gaia\.ch\.com\/ECProduct\/homePageRevision\/queryRecommendInfo - reject
 ^https?:\/\/ut2\.shuqistat\.com\/.+\.gif - reject
+^https?:\/\/xxyx-client-api\.xiaoxiaoyouxuan\.com\/\w+_banner - reject
 ^https?:\/\/dss0\.bdstatic\.com\/.+/tam-ogel\/.+\.(?>jpg|mp4) - reject
 ^https?:\/\/aiqicha\.baidu\.com\/apps\/getHomeMonitorDataAjax - reject
 ^https?:\/\/www\.okx\.com\/v\d\/support\/home\/app\/updateInfo - reject
 ^https?:\/\/.+\.shuqireader\.com\/sapi\/.+ - reject
 ^https?:\/\/business\.msstatic\.com\/advertiser\/material - reject
 ^https?:\/\/res\.mi\.baidu\.com\/imeres\/ime-res\/advertisement\/files\/.+\.jpg - reject
-^https?:\/\/xxyx-client-api\.xiaoxiaoyouxuan\.com\/get_index_activity_list_ad - reject
 ^https?:\/\/www\.zhihu\.com\/api\/v\d\/mcn\/v\d\/linkcards\? - reject
 ^https?:\/\/p\.meituan\.com\/api\/privacy\/config - reject
 ^https?:\/\/api\.zhihu\.com\/unlimited\/go\/my_card - reject
@@ -1880,7 +1880,6 @@ DOMAIN-KEYWORD, wan.sogou.com, REJECT, extended-matching, pre-matching
 ^https?:\/\/download1\.bankcomm\.com\/mobs6-inner\/offline\/static\/releaseConf - reject
 ^https?:\/\/aiqicha\.baidu\.com\/app\/getPopConfigAjax - reject
 ^https?:\/\/catfront\.dianping\.com\/api\/metric\?v=\d&p=rn_gcbu_mrn-joy-poidetail - reject
-^https?:\/\/xxyx-client-api\.xiaoxiaoyouxuan\.com\/get_big_module_bottom_ad - reject
 ^https?:\/\/182\.92\.244\.70\/d\/json - reject
 ^https?:\/\/cupid\.51job(app)?\.com\/open\/user-task\/user\/task\/init - reject
 ^https?:\/\/static\.line-scdn\.net\/ad-sdk\/ - reject
