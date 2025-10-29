@@ -14,8 +14,6 @@
 DOMAIN, applog-perf.uc.cn, REJECT, extended-matching, pre-matching
 DOMAIN, woodpecker.uc.cn, REJECT, extended-matching, pre-matching
 DOMAIN, collect.xiaopeng.com, REJECT, extended-matching, pre-matching
-DOMAIN, statistic.live.126.net, REJECT, extended-matching, pre-matching
-DOMAIN, lbs.netease.im, REJECT, extended-matching, pre-matching
 DOMAIN, httpdns.yunxindns.com, REJECT, extended-matching, pre-matching
 DOMAIN, apps-booster.xiaopeng.com, REJECT, extended-matching, pre-matching
 
