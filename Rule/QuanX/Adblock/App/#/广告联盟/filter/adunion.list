@@ -448,6 +448,7 @@ host-suffix, gma.alicdn.com, reject
 host-suffix, nbsdk-baichuan.alicdn.com, reject
 host-suffix, strip.alicdn.com, reject
 host-suffix, unidesk.alicdn.com, reject
+host-suffix, abtest.alibaba.com, reject
 host-keyword, dns.alidns.com, reject
 # > 网易 - NETEASE
 host, nex.163.com, reject

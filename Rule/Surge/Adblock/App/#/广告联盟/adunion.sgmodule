@@ -470,6 +470,7 @@ DOMAIN-SUFFIX, gma.alicdn.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, nbsdk-baichuan.alicdn.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, strip.alicdn.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, unidesk.alicdn.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, abtest.alibaba.com, REJECT, extended-matching, pre-matching
 DOMAIN-KEYWORD, dns.alidns.com, REJECT, extended-matching, pre-matching
 DOMAIN, nex.163.com, REJECT, extended-matching, pre-matching
 DOMAIN, iad.g.163.com, REJECT, extended-matching, pre-matching
