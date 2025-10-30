@@ -530,6 +530,7 @@ DOMAIN-SUFFIX, a-dxk.play.api.3g.youku.com, REJECT, extended-matching, pre-match
 DOMAIN-SUFFIX, a.baidu.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, a.ckm.iqiyi.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, a.youdao.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, abtest.alibaba.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, acs4baichuan.m.taobao.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, activeqq.3g.qq.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, actives.youku.com, REJECT, extended-matching, pre-matching
