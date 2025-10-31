@@ -203,6 +203,7 @@ DOMAIN, bgg.baidu.com, REJECT, extended-matching, pre-matching
 DOMAIN, bootpreload.uve.weibo.com, REJECT, extended-matching, pre-matching
 DOMAIN, bsync3-normal.zijieapi.com, REJECT, extended-matching, pre-matching
 DOMAIN, business.msstatic.com, REJECT, extended-matching, pre-matching
+DOMAIN, cactus.jd.com, REJECT, extended-matching, pre-matching
 DOMAIN, cad.youku.com, REJECT, extended-matching, pre-matching
 DOMAIN, collect.xiaopeng.com, REJECT, extended-matching, pre-matching
 DOMAIN, conf-darwin.xycdn.com, REJECT, extended-matching, pre-matching
@@ -271,6 +272,7 @@ DOMAIN, goblin.hupu.com, REJECT, extended-matching, pre-matching
 DOMAIN, gorgon.youdao.com, REJECT, extended-matching, pre-matching
 DOMAIN, hc-ssp.sm.cn, REJECT, extended-matching, pre-matching
 DOMAIN, hdns.ksyun.com, REJECT, extended-matching, pre-matching
+DOMAIN, hermes.jd.com, REJECT, extended-matching, pre-matching
 DOMAIN, hlx.meituan.com, REJECT, extended-matching, pre-matching
 DOMAIN, hmma.baidu.com, REJECT, extended-matching, pre-matching
 DOMAIN, httpdns.baidubce.com, REJECT, extended-matching, pre-matching
@@ -489,6 +491,7 @@ DOMAIN, twns.p2ptun.qq.com, REJECT, extended-matching, pre-matching
 DOMAIN, tysdk.95516.com, REJECT, extended-matching, pre-matching
 DOMAIN, ug.snssdk.com, REJECT, extended-matching, pre-matching
 DOMAIN, ugchsy.gtimg.com, REJECT, extended-matching, pre-matching
+DOMAIN, un.m.jd.com, REJECT, extended-matching, pre-matching
 DOMAIN, union.chinalifeonline.com.cn, REJECT, extended-matching, pre-matching
 DOMAIN, ups.ksmobile.net, REJECT, extended-matching, pre-matching
 DOMAIN, vali-g1.cp31.ott.cibntv.net, REJECT, extended-matching, pre-matching
@@ -505,6 +508,7 @@ DOMAIN, webproxy-advp.iad-apple.com, REJECT, extended-matching, pre-matching
 DOMAIN, webproxy-advp.iad-apple.com.akadns.net, REJECT, extended-matching, pre-matching
 DOMAIN, wn.pos.baidu.com, REJECT, extended-matching, pre-matching
 DOMAIN, woodpecker.uc.cn, REJECT, extended-matching, pre-matching
+DOMAIN, wqs.jd.com, REJECT, extended-matching, pre-matching
 DOMAIN, ws.ksmobile.net, REJECT, extended-matching, pre-matching
 DOMAIN, ws.tapjoyads.com, REJECT, extended-matching, pre-matching
 DOMAIN, wxsmsdy.video.qq.com, REJECT, extended-matching, pre-matching
@@ -2426,6 +2430,7 @@ https?:\/\/awg\.enmonster\.com\/apa\/(advert\/demand\/home\/poster|index\/advert
 ^https?:\/\/dsp-impr2\.youdao\.com\/adload data-type=text data="" status-code=200
 ^https?:\/\/rr[\w-]+\.googlevideo\.com\/initplayback\? data-type=text data="{}" status-code=200
 ^https?:\/\/webappcfg\.paas\.cmbchina\.com\/v\d\/func\/getmarketconfig data-type=text data="" status-code=200
+^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=(?>searchBoxWord|xview2Config|stationPullService|getWidget|widget|hybrid|jdDiscoveryRedPoint|queryMaterialAdverts|apollo_style|jdaPreDownload) data-type=text data="" status-code=200
 ^https?:\/\/iobs\.pingan\.com\.cn\/download\/icore-aops-base-dmz-prd\/(?>YourSystemName|icore-apps-ad) data-type=text data="" status-code=200
 ^https?:\/\/static01\.versa-ai\.com\/upload\/ec0ba51d68f9\/.*.jpg data-type=text data="" status-code=200
 ^https?:\/\/maicai\.api\.ddxq\.mobi\/homeApi\/userLike data-type=text data="{}" status-code=200
@@ -2748,7 +2753,6 @@ https?:\/\/awg\.enmonster\.com\/apa\/(advert\/demand\/home\/poster|index\/advert
 ^https?:\/\/api-sams\.walmartmobile\.cn\/api\/v\d\/sams\/channel\/portal\/AdgroupData data-type=text data="{}" status-code=200
 ^https?:\/\/i\d\.hdslb\.com\/bfs\/fawkes data-type=text data="{}" status-code=200
 ^https?:\/\/api\.duitang\.com\/napi\/infra\/settings\/ data-type=text data="{}" status-code=200
-^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=(?>searchBoxWord|xview2Config|stationPullService|getWidget|widget|hybrid|jdDiscoveryRedPoint|queryMaterialAdverts|apollo_style) data-type=text data="" status-code=200
 ^https?:\/\/api\.bwton\.com\/bff\/app\/index\/goods data-type=text data="{}" status-code=200
 ^https?:\/\/mbd\.baidu\.com\/ccs\/v\d\/start\/confsync\?appname=baidu_input data-type=text data="{}" status-code=200
 ^https?:\/\/appapi\.51job(app)?\.com\/api\/util\/get_version data-type=text data="{}" status-code=200
