@@ -18,6 +18,10 @@ DOMAIN, xlog.jd.com, REJECT, extended-matching, pre-matching
 DOMAIN, janapi.jd.com, REJECT, extended-matching, pre-matching
 DOMAIN, jdqd.jd.com, REJECT, extended-matching, pre-matching
 DOMAIN, dgstatic.jd.com, REJECT, extended-matching, pre-matching
+DOMAIN, un.m.jd.com, REJECT, extended-matching, pre-matching
+DOMAIN, wqs.jd.com, REJECT, extended-matching, pre-matching
+DOMAIN, hermes.jd.com, REJECT, extended-matching, pre-matching
+DOMAIN, cactus.jd.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, jzt.jd.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, img-x.jd.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, du.jd.com, REJECT, extended-matching, pre-matching
@@ -39,7 +43,7 @@ IP-CIDR6, 2402:db40:5100:1011::5/128, REJECT, no-resolve, pre-matching
 ^https?:\/\/img\d+\.360buyimg\.com\/jddjadvertise\/ - reject
 
 [Map Local]
-^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=(?>searchBoxWord|xview2Config|stationPullService|getWidget|widget|hybrid|jdDiscoveryRedPoint|queryMaterialAdverts|apollo_style) data-type=text data="" status-code=200
+^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=(?>searchBoxWord|xview2Config|stationPullService|getWidget|widget|hybrid|jdDiscoveryRedPoint|queryMaterialAdverts|apollo_style|jdaPreDownload) data-type=text data="" status-code=200
 ^https?:\/\/(bdsp-x|dsp-x)\.jd\.com\/adx\/ data-type=text data="" status-code=200
 
 [Script]
