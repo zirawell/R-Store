@@ -421,6 +421,7 @@ DOMAIN, rprain.bz.mgtv.com, REJECT, extended-matching, pre-matching
 DOMAIN, rtlog5-applog.fqnovel.com, REJECT, extended-matching, pre-matching
 DOMAIN, rtms.alipay.com, REJECT, extended-matching, pre-matching
 DOMAIN, rttrack.ddxq.mobi, REJECT, extended-matching, pre-matching
+DOMAIN, s.youtube.com, REJECT, extended-matching, pre-matching
 DOMAIN, s3a.pstatp.com, REJECT, extended-matching, pre-matching
 DOMAIN, safebrowsing.g.applimg.com, REJECT, extended-matching, pre-matching
 DOMAIN, safebrowsing.googleapis.com, REJECT, extended-matching, pre-matching
