@@ -18,7 +18,6 @@ DOMAIN, xlog.jd.com, REJECT, extended-matching, pre-matching
 DOMAIN, janapi.jd.com, REJECT, extended-matching, pre-matching
 DOMAIN, jdqd.jd.com, REJECT, extended-matching, pre-matching
 DOMAIN, dgstatic.jd.com, REJECT, extended-matching, pre-matching
-DOMAIN, un.m.jd.com, REJECT, extended-matching, pre-matching
 DOMAIN, wqs.jd.com, REJECT, extended-matching, pre-matching
 DOMAIN, hermes.jd.com, REJECT, extended-matching, pre-matching
 DOMAIN, cactus.jd.com, REJECT, extended-matching, pre-matching

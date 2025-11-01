@@ -492,7 +492,6 @@ DOMAIN, twns.p2ptun.qq.com, REJECT, extended-matching, pre-matching
 DOMAIN, tysdk.95516.com, REJECT, extended-matching, pre-matching
 DOMAIN, ug.snssdk.com, REJECT, extended-matching, pre-matching
 DOMAIN, ugchsy.gtimg.com, REJECT, extended-matching, pre-matching
-DOMAIN, un.m.jd.com, REJECT, extended-matching, pre-matching
 DOMAIN, union.chinalifeonline.com.cn, REJECT, extended-matching, pre-matching
 DOMAIN, ups.ksmobile.net, REJECT, extended-matching, pre-matching
 DOMAIN, vali-g1.cp31.ott.cibntv.net, REJECT, extended-matching, pre-matching
