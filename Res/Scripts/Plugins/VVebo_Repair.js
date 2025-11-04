@@ -13,6 +13,7 @@ https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/Surge/Plugin/vvebo.
 let url = $request.url;
 let hasUid = (url) => url.includes("uid");
 let getUid = (url) => (hasUid(url) ? url.match(/uid=(\d+)/)[1] : undefined);
+const $ = new Env("VVebo_Repair");
 
 if (url.includes("remind/unread_count")) {
   $.setval(getUid(url), "uid");
