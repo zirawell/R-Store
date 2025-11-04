@@ -36,6 +36,8 @@
 
 [Rule]
 DOMAIN, adtracker.adfunlink.com, REJECT, extended-matching, pre-matching
+DOMAIN, apis.alenable.com, REJECT, extended-matching, pre-matching
+DOMAIN, app-analytics-services.com, REJECT, extended-matching, pre-matching
 DOMAIN, init.supersonicads.com, REJECT, extended-matching, pre-matching
 DOMAIN, ws.tapjoyads.com, REJECT, extended-matching, pre-matching
 DOMAIN, hdns.ksyun.com, REJECT, extended-matching, pre-matching
@@ -52,10 +54,7 @@ DOMAIN, api.adnet.mob.com, REJECT, extended-matching, pre-matching
 DOMAIN, dig.bdurl.net, REJECT, extended-matching, pre-matching
 DOMAIN, g1.tagtic.cn, REJECT, extended-matching, pre-matching
 DOMAIN, log.tagtic.cn, REJECT, extended-matching, pre-matching
-DOMAIN, img.adnyg.com, REJECT, extended-matching, pre-matching
-DOMAIN, img.adnyg.com.w.kunlungr.com, REJECT, extended-matching, pre-matching
 DOMAIN, sdownload.stargame.com, REJECT, extended-matching, pre-matching
-DOMAIN, app-analytics-services.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, adview.cn, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, ttayy.cn, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, tobidad.cn, REJECT, extended-matching, pre-matching
@@ -96,6 +95,7 @@ DOMAIN-KEYWORD, ads.g.doubleclick, REJECT, extended-matching, pre-matching
 DOMAIN-KEYWORD, iflyad.bj.openstorage.cn, REJECT, extended-matching, pre-matching
 DOMAIN-KEYWORD, bjimp.voiceads.cn, REJECT, extended-matching, pre-matching
 DOMAIN-KEYWORD, sdk.1rtb.net, REJECT, extended-matching, pre-matching
+DOMAIN-KEYWORD, img.adnyg.com, REJECT, extended-matching, pre-matching
 IP-CIDR, 203.107.1.0/24, REJECT, no-resolve, pre-matching
 DOMAIN-KEYWORD, sensorsdata.cn, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, gozendata.com, REJECT, extended-matching, pre-matching
