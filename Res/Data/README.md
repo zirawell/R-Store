@@ -1,2 +1,2 @@
 # Response Data Library
-This directory stores responses' data.
+This directory stores response data.
