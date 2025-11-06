@@ -131,6 +131,7 @@ DOMAIN-SUFFIX, wxsnsdythumb.wxs.qq.com, REJECT, extended-matching, pre-matching
 ^https?:\/\/mkt-gateway\.tuhu\.cn\/mkt-scene-marketing-service\/api\/scene\/queryScheme data-type=text data="{}" status-code=200
 ^https?:\/\/miniprogram\.ishansong\.com\/cms\/faq\/query data-type=text data="{}" status-code=200
 ^https?:\/\/e\.weather\.com\.cn\/weChat\/typhoonNull\.json data-type=text data="{}" status-code=200
+^https?:\/\/ucmp\.sf-express\.com\/cx-wechat-query\/query\/module-config\/query data-type=text data="{}" status-code=200
 ^https?:\/\/static\.etcp\.cn\/json\/advertisment data-type=text data="{}" status-code=200
 ^https?:\/\/res\.hongyibo\.com\.cn\/os\/gs\/resapi\/activity data-type=text data="{}" status-code=200
 ^https?:\/\/hdgateway\.zto\.com\/(?>getApolloConfig|track|getAdInfo|listJumperShow) data-type=text data="{}" status-code=200
