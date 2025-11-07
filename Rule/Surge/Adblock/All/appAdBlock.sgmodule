@@ -204,7 +204,6 @@ DOMAIN, bgg.baidu.com, REJECT, extended-matching, pre-matching
 DOMAIN, bootpreload.uve.weibo.com, REJECT, extended-matching, pre-matching
 DOMAIN, bsync3-normal.zijieapi.com, REJECT, extended-matching, pre-matching
 DOMAIN, business.msstatic.com, REJECT, extended-matching, pre-matching
-DOMAIN, cactus.jd.com, REJECT, extended-matching, pre-matching
 DOMAIN, cad.youku.com, REJECT, extended-matching, pre-matching
 DOMAIN, collect.xiaopeng.com, REJECT, extended-matching, pre-matching
 DOMAIN, conf-darwin.xycdn.com, REJECT, extended-matching, pre-matching
@@ -273,7 +272,6 @@ DOMAIN, goblin.hupu.com, REJECT, extended-matching, pre-matching
 DOMAIN, gorgon.youdao.com, REJECT, extended-matching, pre-matching
 DOMAIN, hc-ssp.sm.cn, REJECT, extended-matching, pre-matching
 DOMAIN, hdns.ksyun.com, REJECT, extended-matching, pre-matching
-DOMAIN, hermes.jd.com, REJECT, extended-matching, pre-matching
 DOMAIN, hlx.meituan.com, REJECT, extended-matching, pre-matching
 DOMAIN, hmma.baidu.com, REJECT, extended-matching, pre-matching
 DOMAIN, httpdns.baidubce.com, REJECT, extended-matching, pre-matching

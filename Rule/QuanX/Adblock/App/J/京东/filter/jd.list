@@ -7,8 +7,6 @@ host, janapi.jd.com, reject
 host, jdqd.jd.com, reject
 host, dgstatic.jd.com, reject
 host, wqs.jd.com, reject
-host, hermes.jd.com, reject
-host, cactus.jd.com, reject
 host-suffix, jzt.jd.com, reject
 host-suffix, img-x.jd.com, reject
 host-suffix, du.jd.com, reject
