@@ -19,6 +19,12 @@ host, dig.bdurl.net, reject
 host, g1.tagtic.cn, reject
 host, log.tagtic.cn, reject
 host, sdownload.stargame.com, reject
+host-suffix, 1sapp.com, reject
+host-suffix, aiclk.com, reject
+host-suffix, adbiding.com, reject
+host-suffix, xwpbj.com, reject
+host-suffix, qiyukf.com, reject
+host-suffix, qttunion.com, reject
 host-suffix, adview.cn, reject
 host-suffix, ttayy.cn, reject
 host-suffix, tobidad.cn, reject

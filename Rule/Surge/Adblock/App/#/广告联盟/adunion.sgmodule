@@ -55,6 +55,12 @@ DOMAIN, dig.bdurl.net, REJECT, extended-matching, pre-matching
 DOMAIN, g1.tagtic.cn, REJECT, extended-matching, pre-matching
 DOMAIN, log.tagtic.cn, REJECT, extended-matching, pre-matching
 DOMAIN, sdownload.stargame.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, 1sapp.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, aiclk.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, adbiding.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, xwpbj.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, qiyukf.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, qttunion.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, adview.cn, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, ttayy.cn, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, tobidad.cn, REJECT, extended-matching, pre-matching
