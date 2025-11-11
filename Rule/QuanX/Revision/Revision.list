@@ -42,6 +42,10 @@ host-keyword,vip.kuaikan-cdn, direct
 host-keyword,vip.ffzy-play, direct
 host-keyword,vip.ffzy-online, direct
 
+# ------------------> G <------------------
+# Google
+host-keyword, download.google, direct
+
 # ------------------> J <------------------
 # 中国建设银行
 host, imageadv.ccb.com, direct
