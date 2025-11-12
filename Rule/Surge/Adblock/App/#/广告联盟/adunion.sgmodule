@@ -58,6 +58,7 @@ DOMAIN, sdownload.stargame.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, 1sapp.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, aiclk.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, adbiding.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, apkevery.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, xwpbj.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, qiyukf.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, qttunion.com, REJECT, extended-matching, pre-matching

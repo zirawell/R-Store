@@ -669,6 +669,7 @@ DOMAIN-SUFFIX, api.dsp.yhd.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, api.poll.video.qq.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, api.waptest.taobao.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, apilog.qbb6.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, apkevery.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, apoll.m.taobao.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, apollo.caixin.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, app-measurement.com, REJECT, extended-matching, pre-matching
