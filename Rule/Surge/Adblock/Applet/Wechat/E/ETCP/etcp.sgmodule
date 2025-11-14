@@ -1,5 +1,8 @@
 # > ETCP<微信小程序> - ETCP
 
+[Rule]
+DOMAIN, logs-bigdata.yeehaw.com.cn, REJECT, extended-matching, pre-matching
+
 [URL Rewrite]
 ^https?:\/\/ife\.etcp\.cn\/api\/v[0-9]\/advertisement - reject
 
