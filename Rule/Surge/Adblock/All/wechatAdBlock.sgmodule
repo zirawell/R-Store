@@ -11,6 +11,7 @@ DOMAIN, bigdata-behaviordata.189.cn, REJECT, extended-matching, pre-matching
 DOMAIN, dsp.fcbox.com, REJECT, extended-matching, pre-matching
 DOMAIN, et.ykccn.com, REJECT, extended-matching, pre-matching
 DOMAIN, file.dian.so, REJECT, extended-matching, pre-matching
+DOMAIN, logs-bigdata.yeehaw.com.cn, REJECT, extended-matching, pre-matching
 DOMAIN, smarket.dian.so, REJECT, extended-matching, pre-matching
 DOMAIN, tracker-prd.aldi.com.cn, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, ad.duoduo.link, REJECT, extended-matching, pre-matching
