@@ -17,6 +17,7 @@
 [Map Local]
 ^https?:\/\/restapi\.iyunmai\.com\/api\/ios\/credit\/credit-family data-type=text data="{}" status-code=200
 ^https?:\/\/restapi\.iyunmai\.com\/behaviour\/ios\/recommend data-type=text data="{}" status-code=200
+^https?:\/\/restapi\.iyunmai\.com\/fellow-service\/ios\/popUp data-type=text data="{}" status-code=200
 ^https?:\/\/apisvr\.iyunmai\.com\/api\/ios\/apps\/get-online-parameter-list data-type=file data="https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Data/iyunmai.json"
 
 [MITM]

@@ -2643,6 +2643,7 @@ https?:\/\/awg\.enmonster\.com\/apa\/(advert\/demand\/home\/poster|index\/advert
 ^https?:\/\/xqimg\.imedao\.com\/[a-z0-9]{24}\.jpg$ data-type=text data="" status-code=200
 ^https?:\/\/(cdn-)?api\.kkmh\.com\/v\d\/business\/fake_push\/info data-type=text data="{}" status-code=200
 ^https?:\/\/mapiweb\.babytree\.com\/newapi\/luban\/behavior\/receive data-type=text data="" status-code=200
+^https?:\/\/restapi\.iyunmai\.com\/fellow-service\/ios\/popUp data-type=text data="{}" status-code=200
 ^https?:\/\/api\.zhihu\.com\/me\/guides data-type=text data="{}" status-code=200
 ^https?:\/\/ams-cdn\.cdtft\.cn\/prod\/tft-ams data-type=text data="{}" status-code=200
 ^https?:\/\/recite\.perfectlingo\.com\/api\/recite\/content-recommend\/v\d\/get-by-uid data-type=text data="{}" status-code=200
