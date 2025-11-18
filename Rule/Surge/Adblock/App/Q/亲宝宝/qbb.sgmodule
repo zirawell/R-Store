@@ -18,6 +18,7 @@ DOMAIN-SUFFIX, apilog.qbb6.com, REJECT, extended-matching, pre-matching
 ^https?:\/\/api\.qbb6\.com\/baby\/relative\/visited - reject
 ^https?:\/\/api\.qbb6\.com\/commons\/check\/app\/update - reject
 ^https?:\/\/api\.qbb6\.com\/remind\/unread_count\/get - reject
+^https?:\/\/api\.qbb6\.com\/mamiyin\/large\/view\/get - reject
 
 [Map Local]
 ^https?:\/\/stlib\.qbb6\.com\/content\/\w+\.webp data-type=tiny-gif status-code=200
@@ -26,6 +27,7 @@ DOMAIN-SUFFIX, apilog.qbb6.com, REJECT, extended-matching, pre-matching
 ^https?:\/\/api\.qbb6\.com\/commons\/self\/button\/group\/get data-type=text data="{}" status-code=200
 ^https?:\/\/api\.qbb6\.com\/commons\/testflight\/check\/update data-type=text data="{}" status-code=200
 ^https?:\/\/api\.qbb6\.com\/commons\/widget\/info\/get data-type=text data="{}" status-code=200
+^https?:\/\/api\.qbb6\.com\/timeline\/item\/list\/get data-type=text data="{}" status-code=200
 ^https?:\/\/apipt\.qbb6\.com\/parenting\/pt\/home\/post\/card\/get data-type=text data="{}" status-code=200
 ^https?:\/\/apicommunity\.qbb6\.com\/community\/category\/list\/get data-type=text data="{}" status-code=200
 
