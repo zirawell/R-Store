@@ -10,7 +10,7 @@ https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/Surge/Adblock/App/M
 ********************************/
 
 const url = $request.url;
-const iconRegex1 = /\.(gif|jpg|webp|png)@(100w_100h|150w_150h|250w_250h|132w_96h|1284w|250w_0h|400w_0h|700w_0h|1200w_0h)/;
+const iconRegex1 = /\.(gif|jpg|webp|png)@(100w_100h|120w_120h|150w_150h|250w_250h|132w_96h|186w_135h|1284w|250w_0h|400w_0h|700w_0h|1200w_0h)/;
 const iconRegex2 = /%(4088h_88w|40115h_115w|4047h_189w|40157h_189w)_1e_1l\.(gif|jpg|webp|png)/;
 const urlRegex1 = /https?:\/\/p\d\.meituan\.net\/linglong\/\w+\.(gif|jpg|webp|png)$/;
 var removeFlag = true;
