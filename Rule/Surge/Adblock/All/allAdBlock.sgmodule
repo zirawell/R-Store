@@ -1865,6 +1865,7 @@ DOMAIN-KEYWORD, wan.sogou.com, REJECT, extended-matching, pre-matching
 ^https?:\/\/music\.y\.qq\.com\/maproxy\/getPbCompressAd - reject
 ^https?:\/\/waimai-guide\.ele\.me\/(gw|h5)\/mtop\.alsc\.eleme\.trigger\.respond - reject
 ^https?:\/\/s3plus\.meituan\.net\/v\d\/mss_\w+\/brandcpt - reject
+^https?:\/\/api\.qbb6\.com\/mamiyin\/large\/view\/get - reject
 ^https?:\/\/api\.gongkaoleida\.com\/api\/\w+\/sets\/getAppVersion - reject
 ^https?:\/\/.+\.pstatp\.com\/obj\/mosaic-legacy\/.+\?from\=ad - reject
 ^https?:\/\/api\.xiachufang\.com\/v\d\/ad/ - reject
@@ -2947,6 +2948,7 @@ https?:\/\/awg\.enmonster\.com\/apa\/(advert\/demand\/home\/poster|index\/advert
 ^https?:\/\/staticlive\.douyucdn\.cn\/.+?\/getStartSend data-type=tiny-gif status-code=200
 ^https?:\/\/apps\.teamair\.cn\/app\/version data-type=file data="https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Data/qi.json"
 ^https?:\/\/(g-)?acs\.m\.goofish\.com\/gw\/mtop\.taobao\.wireless\.home\.xianyu(\.my)?\.awesome\.get data-type=text data="{}" status-code=200
+^https?:\/\/api\.qbb6\.com\/timeline\/item\/list\/get data-type=text data="{}" status-code=200
 ^https?:\/\/s3plus\.meituan\.net\/v\d\/mss_\w+\/goku\/(?>lottie|lucency) data-type=tiny-gif status-code=200
 ^https?:\/\/gateway\.cotticoffee\.com\/cotti-capi\/customer\/position\/adSortList data-type=text data="{}" status-code=200
 ^https?:\/\/api\.zhihu\.com\/ad data-type=text data="{}" status-code=200
