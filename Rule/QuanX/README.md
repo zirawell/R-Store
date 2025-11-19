@@ -49,7 +49,7 @@ R-Store/Rule/QuanX
 | I  | N  | D  | X  |
 |----|----|----|----|
 | A  | B  | [C](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/Applet/Alipay/C)  | D  |
-| [E](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/Applet/Alipay/E)  | F  | G  | H  |
+| [E](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/Applet/Alipay/E)  | F  | G  | [H](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/Applet/Alipay/H)  |
 | I  | J  | K  | L  |
 | M  | N  | O  | P  |
 | Q  | R  | S  | [T](https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/Adblock/Applet/Alipay/T)  |
@@ -71,10 +71,10 @@ R-Store/Rule/QuanX
 
 | Type | Count |
 |----------|----------|
-| All    | 643 |
+| All    | 644 |
 | App    | 513 |
 | Wechat Applet| 123 |
-| Alipay Applet| 4 |
+| Alipay Applet| 5 |
 | Web    | 3 |
 
 ## Thanks To
