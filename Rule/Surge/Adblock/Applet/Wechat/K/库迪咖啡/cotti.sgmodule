@@ -1,5 +1,8 @@
 # > 库迪咖啡<微信小程序> - COTTI
 
+[URL Rewrite]
+^https?:\/\/gateway\.cotticoffee\.com\/cotti-capi\/person\/homeLoginPrompt - reject
+
 [Map Local]
 ^https?:\/\/gateway\.cotticoffee\.com\/cotti-capi\/customer\/position\/adSortList data-type=text data="{}" status-code=200
 
