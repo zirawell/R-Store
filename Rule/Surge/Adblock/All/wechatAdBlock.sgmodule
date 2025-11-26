@@ -40,6 +40,7 @@ DOMAIN-SUFFIX, wxsnsdythumb.wxs.qq.com, REJECT, extended-matching, pre-matching
 ^https?:\/\/capis(-\d)?\.didapinche\.com\/adbase - reject
 ^https?:\/\/flow\.dmall\.com\/app\/home\/pops - reject
 ^https?:\/\/(mobile|shop)\.laichon\.com\/api\/(v\d\/goods\/goodsList|exposureAdvStatistics|getWebAdvList) - reject
+^https?:\/\/gateway\.cotticoffee\.com\/cotti-capi\/person\/homeLoginPrompt - reject
 ^https?:\/\/activity\.yonghuivip\.com\/api\/app\/fp\/homepage\/pop - reject
 ^https?:\/\/aag\.enmonster\.com\/apa\/index\/advert\/skin - reject
 ^https?:\/\/activity\.yonghuivip\.com\/api\/\/web\/shensuan\/ad - reject
