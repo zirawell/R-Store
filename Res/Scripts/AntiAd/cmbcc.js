@@ -34,6 +34,7 @@ if (url.includes("ResourceBits")) {
   body = JSON.stringify(obj);
 } else if (url.includes("get-page-resource")) {
   body = body.replace(/_AD/g, "_AD0");
+  body = body.replace(/PENDANT/g, "PENDANT0");
 }
 
 $done({body});
