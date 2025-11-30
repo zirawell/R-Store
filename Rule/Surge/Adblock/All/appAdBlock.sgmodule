@@ -2225,6 +2225,7 @@ https?:\/\/awg\.enmonster\.com\/apa\/(advert\/demand\/home\/poster|index\/advert
 ^https?:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.Shop\/GetShopItems data-type=text data="{}" status-code=200
 ^https?:\/\/public-deliver\d\.miguvideo\.com\/deliver\/site\/batchMatch\/mergeSpot\/miguvideo\/ data-type=text data="{}" status-code=200
 ^https?:\/\/(g-)?acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idle\.item\.resell\.recommendorhotcate data-type=text data="{}" status-code=200
+^https?:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.Comic\/(?>Recommend|MoreRecommend|Flash|ListFlash|GetBubbles|GetActivityTab|GetCommonBanner|GetComicConfigPicList|SearchBanner|AppInit) data-type=text data="" status-code=200
 ^https?:\/\/ptmpcap\.caocaokeji\.cn\/advert-bss\/ data-type=tiny-gif status-code=200
 ^https?:\/\/api\.fengshows\.com\/api\/launchAD data-type=tiny-gif status-code=200
 ^https?:\/\/(cdn-)?topic\.kkmh\.com\/gamecard\/v\d\/activityModule\/fetchButtonInfo\?buttonConfigId data-type=text data="{}" status-code=200
@@ -2371,7 +2372,6 @@ https?:\/\/awg\.enmonster\.com\/apa\/(advert\/demand\/home\/poster|index\/advert
 ^https:\/\/maicai\.api\.ddxq\.mobi\/homeApi\/queryMyPagePopup data-type=text data="{}" status-code=200
 ^https?:\/\/peisongapi\.meituan\.com\/client\/getInitiateImage data-type=text data="" status-code=200
 ^https?:\/\/api\.51credit\.com\/ks\/a\/list\? data-type=text data="{}" status-code=200
-^https?:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.Comic\/(?>Recommend|MoreRecommend|Flash|ListFlash|GetBubbles|GetActivityTab|GetCommonBanner|GetComicConfigPicList|SearchBanner) data-type=text data="" status-code=200
 ^https?:\/\/bd-api\.kuwo\.cn\/api\/pay\/vip\/lowPriceText data-type=text data="{}" status-code=200
 ^https?:\/\/delivery-api\.imdada\.cn\/\w+\/dada\/promote\/imax\?privacyParam data-type=text data="{}" status-code=200
 ^https?:\/\/api5\.youonbike\.com\/ibike-rest-service\/user\/fun_IBF_GetAdvert data-type=text data="{}" status-code=200
