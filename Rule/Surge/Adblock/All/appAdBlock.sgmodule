@@ -20,7 +20,6 @@ IP-CIDR, 114.110.98.0/24, REJECT, no-resolve, pre-matching
 IP-CIDR, 114.110.99.5/32, REJECT, no-resolve, pre-matching
 IP-CIDR, 114.67.227.198/32, REJECT, no-resolve, pre-matching
 IP-CIDR, 114.80.56.98/32, REJECT, no-resolve, pre-matching
-IP-CIDR, 116.196.84.232/32, REJECT, no-resolve, pre-matching
 IP-CIDR, 117.185.244.212/32, REJECT, no-resolve, pre-matching
 IP-CIDR, 118.89.204.198/32, REJECT, no-resolve, pre-matching
 IP-CIDR, 119.29.126.137/32, REJECT, no-resolve, pre-matching
