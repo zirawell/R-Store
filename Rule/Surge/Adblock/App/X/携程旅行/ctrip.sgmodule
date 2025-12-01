@@ -15,7 +15,6 @@ DOMAIN, sofire.baidu.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, cn-shanghai.nlb.aliyuncs.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, volceapplog.com, REJECT, extended-matching, pre-matching
 IP-CIDR, 210.13.85.204/32, REJECT, no-resolve, pre-matching
-IP-CIDR, 116.196.84.232/32, REJECT, no-resolve, pre-matching
 IP-CIDR, 114.80.56.98/32, REJECT, no-resolve, pre-matching
 IP-CIDR, 162.14.145.54/32, REJECT, no-resolve, pre-matching
 IP-CIDR, 162.14.137.43/32, REJECT, no-resolve, pre-matching
