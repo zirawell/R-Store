@@ -8,11 +8,17 @@
 #!surge_version=5.14.2(Build3405,SDK18.2)
 #!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
 #!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/fawvw.png
-#!date=2025-07-08
+#!date=2025-12-02
+# 说明：此应用会进行代理检测，无论模块是否生效，只要开启代理软件，均会导致软件故障，请使用TUN模式绕过代理检测。
 
-[Map Local]
-^https?:\/\/one-app-h5\.faw-vw\.com\/prod-api\/mobile\/one-app\/general\/public\/v\d\/official_activity\/get_animation_putaway_list\?appkey data-type=text data="" status-code=200
-^https?:\/\/one-app-h5\.faw-vw\.com\/prod-api\/mobile\/one-app\/general\/public\/v\d\/first_page\/get_carousel_list?appkey data-type=text data="" status-code=200
+[Body Rewrite]
+http-response-jq ^https?:\/\/oneapp-api\.faw-vw\.com\/benefits\/benefitsCard\/getInfo\/v1\?.* '. = { returnStatus: "SUCCEED", hasMore: false, data: [] }'
+http-response-jq ^https?:\/\/oneapp-api\.faw-vw\.com\/content\/(?:collection\/getCollectionList)\/v1\?.* '. = { returnStatus: "SUCCEED", hasMore: false, data: {} }'
+http-response-jq ^https?:\/\/oneapp-api\.faw-vw\.com\/content\/(?:customize\/getCustomizePageName|recommend\/getRecommendInfoFlows|activity\/getSquareActivityList|theme\/getThemeList|post\/getPostsByTags|evaluate\/getEvaluateCards)\/v1\?.* '. = { returnStatus: "SUCCEED", hasMore: false, data: [] }'
+http-response-jq ^https?:\/\/oneapp-api\.faw-vw\.com\/content\/booth\/getBoothList\/v1\?.*showPositionCode=VWAPP_(?:ICE|MEB)_(?:OPEN_SCREEN_ADS|CAR_ZHIHU_COLLEGE) '. = { returnStatus: "SUCCEED", hasMore: false, data: [] }'
+http-response-jq ^https?:\/\/oneapp-api\.faw-vw\.com\/content\/booth\/getBoothList\/v1\?.*showPositionCode=VWAPP_(?:ICE|MEB)_HOME_(?:OWNER_BANNER|PROSPECTS_BANNER|CUSTOM_BANNER|KONGO|CUSTOM_KONGO) '. = { returnStatus: "SUCCEED", hasMore: false, data: [] }'
+http-response-jq ^https?:\/\/oneapp-api\.faw-vw\.com\/content\/booth\/getBoothList\/v1\?.*showPositionCode=VWAPP_HOME_BUOY '. = { returnStatus: "SUCCEED", hasMore: false, data: [] }'
+http-response-jq ^https?:\/\/oneapp-api\.faw-vw\.com\/search\/firstPage\/getPromptList\/v1\?.* '. = { returnStatus: "SUCCEED", hasMore: false, data: [] }'
 
 [MITM]
-hostname= %APPEND% one-app-h5.faw-vw.com
+hostname = %APPEND% oneapp-api.faw-vw.com
