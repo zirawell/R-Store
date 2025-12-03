@@ -2775,12 +2775,12 @@ https?:\/\/awg\.enmonster\.com\/apa\/(advert\/demand\/home\/poster|index\/advert
 ^https?:\/\/ggc\.miguvideo\.com\/v\d\/iflyad\/deliverysystem\/direct\/ data-type=tiny-gif status-code=200
 
 [Body Rewrite]
-http-response-jq ^https?:\/\/oneapp-api\.faw-vw\.com\/search\/firstPage\/getPromptList\/v1\?.* '. = { returnStatus: "SUCCEED", hasMore: false, data: [] }'
-http-response-jq ^https?:\/\/oneapp-api\.faw-vw\.com\/content\/(?:customize\/getCustomizePageName|recommend\/getRecommendInfoFlows|activity\/getSquareActivityList|theme\/getThemeList|post\/getPostsByTags|evaluate\/getEvaluateCards)\/v1\?.* '. = { returnStatus: "SUCCEED", hasMore: false, data: [] }'
+http-response-jq ^https?:\/\/oneapp-api\.faw-vw\.com\/content\/booth\/getBoothList\/v\d\?.*showPositionCode=VWAPP_(?>ICE|MEB)_HOME_(?>OWNER_BANNER|PROSPECTS_BANNER|CUSTOM_BANNER|KONGO|CUSTOM_KONGO) '. = { returnStatus: "SUCCEED", hasMore: false, data: [] }'
 http-response-jq ^https?:\/\/bd-api\.kuwo\.cn\/api\/voice\/room\/v\d\/sidebar '(.data) = {}'
+http-response-jq ^https?:\/\/oneapp-api\.faw-vw\.com\/benefits\/benefitsCard\/getInfo\/v\d\? '. = { returnStatus: "SUCCEED", hasMore: false, data: [] }'
 http-response ^https?:\/\/tft-app\.cdtft\.cn\/gateway-customer\/tftapp\/tft-ams\/api\/appAd officialAdvertResultVo random-response
 http-response ^https?:\/\/www\.flyert(rip)?\.com(\.cn)?\/.*\.php\?.*module=threadpost relatedrecommend relatedrecommend0
-http-response-jq ^https?:\/\/oneapp-api\.faw-vw\.com\/content\/booth\/getBoothList\/v1\?.*showPositionCode=VWAPP_(?:ICE|MEB)_(?:OPEN_SCREEN_ADS|CAR_ZHIHU_COLLEGE) '. = { returnStatus: "SUCCEED", hasMore: false, data: [] }'
+http-response-jq ^https?:\/\/oneapp-api\.faw-vw\.com\/content\/booth\/getBoothList\/v\d\?.*showPositionCode=VWAPP_HOME_BUOY '. = { returnStatus: "SUCCEED", hasMore: false, data: [] }'
 http-response ^https?:\/\/zone\.guiderank-app\.com\/guiderank-web\/app\/common\/getInitData SpecialSalePageMidTabConfig random_body
 http-response ^https?:\/\/waimai-guide\.ele\.me\/\w+\/mtop\.venus\.shopresourceservice\.getshopresource posterList random_body
 http-response ^https?:\/\/app\.zhuanzhuan\.com\/zz\/v\d\/zzinfoshow\/getchoicegoodsinfos infoData random_body
@@ -2791,14 +2791,14 @@ http-response ^https?:\/\/zgrb\.epicc\.com\.cn\/G-HAPP\/headLine\/headLineInit d
 http-response-jq ^https?:\/\/bd-api\.kuwo\.cn\/api\/service\/music\/recommendList '.data.musicList[] |= del(.showAd)'
 http-response ^https?:\/\/api\.zhihu\.com\/search\/recommend_query\/v2\? "recommend_queries":\{.+\} "recommend_queries":{}
 http-response-jq ^https?:\/\/api\.xiaoyuzhoufm\.com\/v\d\/discovery-feed\/list '.data |= map(select(.type == "DISCOVERY_EPISODE_RECOMMEND" or .type == "EDITOR_PICK"))'
+http-response-jq ^https?:\/\/oneapp-api\.faw-vw\.com\/content\/booth\/getBoothList\/v\d\?.*showPositionCode=VWAPP_(?>ICE|MEB)_(?>OPEN_SCREEN_ADS|CAR_ZHIHU_COLLEGE) '. = { returnStatus: "SUCCEED", hasMore: false, data: [] }'
 http-response ^https?:\/\/beta-api\.crunchyroll\.com\/cms offset_ms":\d+ offset_ms":99999999999999
+http-response-jq ^https?:\/\/oneapp-api\.faw-vw\.com\/content\/collection\/getCollectionList\/v\d\? '. = { returnStatus: "SUCCEED", hasMore: false, data: {} }'
 http-response ^https?:\/\/app-izz\.zhengzhou\.gov\.cn:10019\/bizgw\/gateway\.do "imgUrl19_5x9":".+?" "imgUrl19_5x9":""
-http-response-jq ^https?:\/\/oneapp-api\.faw-vw\.com\/content\/(?:collection\/getCollectionList)\/v1\?.* '. = { returnStatus: "SUCCEED", hasMore: false, data: {} }'
 http-response ^https?:\/\/api\.boohee\.com\/meta-interface\/v\d\/index\/record_index articles random_body
-http-response-jq ^https?:\/\/oneapp-api\.faw-vw\.com\/content\/booth\/getBoothList\/v1\?.*showPositionCode=VWAPP_HOME_BUOY '. = { returnStatus: "SUCCEED", hasMore: false, data: [] }'
-http-response-jq ^https?:\/\/oneapp-api\.faw-vw\.com\/benefits\/benefitsCard\/getInfo\/v1\?.* '. = { returnStatus: "SUCCEED", hasMore: false, data: [] }'
 http-response-jq ^https?:\/\/bd-api\.kuwo\.cn\/api\/service\/global\/config\/scene '.data.showShopEntry=false|.data.idolTabShow=true'
 http-response ^https?:\/\/ut\.xiaojukeji\.com\/ut\/kappa\/api\/owner\/index banner_items random_body
+http-response-jq ^https?:\/\/oneapp-api\.faw-vw\.com\/content\/(?>customize\/getCustomizePageName|recommend\/getRecommendInfoFlows|activity\/getSquareActivityList|theme\/getThemeList|post\/getPostsByTags|evaluate\/getEvaluateCards)\/v\d\? '. = { returnStatus: "SUCCEED", hasMore: false, data: [] }'
 http-response ^https?:\/\/(h3\.)?open\.taou\.com\/maimai\/feed\/v\d\/detail_recommend_feeds feeds random_body
 http-response ^https?:\/\/www\.flyert(rip)?\.com(\.cn)?\/.*\.php\?.*module=basicdata&type=forumlist adv adv0
 http-response-jq ^https?:\/\/bd-api\.kuwo\.cn\/api\/service\/resource\/recommend '.data.resourceList[] |= del(.resource)'
@@ -2806,7 +2806,7 @@ http-response ^https?:\/\/lcen\.xiaote\.net\/api\/graphql screenSplashAd random-
 http-response ^https?:\/\/api\.swiftgram\.app\/v0\/settings announcements_data random_body
 http-response ^https?:\/\/m\.lkcoffee\.com\/ecapi\/resource\/m\/member\/exchange\/page \{.+\} {"status":"SUCCESS"}
 http-response ^https?:\/\/m\.lkcoffee\.com\/capi\/resource\/m\/growUp\/main "popTitle":".+?" "popTitle":""
-http-response-jq ^https?:\/\/oneapp-api\.faw-vw\.com\/content\/booth\/getBoothList\/v1\?.*showPositionCode=VWAPP_(?:ICE|MEB)_HOME_(?:OWNER_BANNER|PROSPECTS_BANNER|CUSTOM_BANNER|KONGO|CUSTOM_KONGO) '. = { returnStatus: "SUCCEED", hasMore: false, data: [] }'
+http-response-jq ^https?:\/\/oneapp-api\.faw-vw\.com\/search\/firstPage\/getPromptList\/v\d\? '. = { returnStatus: "SUCCEED", hasMore: false, data: [] }'
 http-response ^https?:\/\/maicai\.api\.ddxq\.mobi\/homeApi\/newDetails suspension random_body
 http-request ^https?:\/\/vv\.video\.qq\.com\/getvinfo &sppreviewtype=\d(.*)&spsrt=\d &sppreviewtype=0$1&spsrt=0
 
