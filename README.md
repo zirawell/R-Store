@@ -38,6 +38,26 @@
 
 - [支付宝小程序](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FAll%2Ffilter%2FalipayAdBlock.list%2C%20tag%3DAlipay%22%5D%2C%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FAll%2Frewrite%2FalipayAdRewrite.conf%2C%20tag%3DAlipay%22%5D%7D)
 
+### `Surge`规则
+
+此项目中，[App](https://github.com/zirawell/R-Store/tree/main/Rule/Surge/Adblock/App)目录下;
+
+以每个App为独立目录收录各App的相应规则，
+
+高阶用户可以自行寻找所需的具体某个App的规则进行引用；
+
+如果不想根据单个App引用规则，本仓库也提供了一键导入：
+
+（⚠️注意：由于Surge不支持http导入方式，需要先添加[【神机模块】](https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/Surge/Redirect/DivineEngine.sgmodule)）
+
+- [全部规则](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FAll%2FallAdBlock.sgmodule)
+
+- [app规则](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FAll%2FappAdBlock.sgmodule)
+
+- [微信小程序](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FAll%2FwechatAdBlock.sgmodule)
+
+- [支付宝小程序](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FAll%2FalipayAdBlock.sgmodule)
+
 ## 收录统计
 
 | Type | Count |
