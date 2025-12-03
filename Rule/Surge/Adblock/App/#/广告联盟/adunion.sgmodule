@@ -195,6 +195,7 @@ DOMAIN, webproxy-advp.iad-apple.com.akadns.net, REJECT, extended-matching, pre-m
 DOMAIN-SUFFIX, advp.apple.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, iad-apple.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, iadsdk.apple.com, REJECT, extended-matching, pre-matching
+DOMAIN-KEYWORD, inappcheck, REJECT, extended-matching, pre-matching
 DOMAIN, admarketing.yahoo.net, REJECT, extended-matching, pre-matching
 DOMAIN, ads.auctions.yahoo.com, REJECT, extended-matching, pre-matching
 DOMAIN, ads.finance.yahoo.com, REJECT, extended-matching, pre-matching

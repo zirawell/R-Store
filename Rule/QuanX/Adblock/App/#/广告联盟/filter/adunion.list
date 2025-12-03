@@ -167,6 +167,7 @@ host, webproxy-advp.iad-apple.com.akadns.net, reject
 host-suffix, advp.apple.com, reject
 host-suffix, iad-apple.com, reject
 host-suffix, iadsdk.apple.com, reject
+host-keyword, inappcheck, reject
 # > 雅虎 - YAHOO
 host, admarketing.yahoo.net, reject
 host, ads.auctions.yahoo.com, reject

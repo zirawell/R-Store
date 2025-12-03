@@ -1310,6 +1310,7 @@ DOMAIN-KEYWORD, dnspod.meituan.httpdns, REJECT, extended-matching, pre-matching
 DOMAIN-KEYWORD, gdtimg.com, REJECT, extended-matching, pre-matching
 DOMAIN-KEYWORD, iflyad.bj.openstorage.cn, REJECT, extended-matching, pre-matching
 DOMAIN-KEYWORD, img.adnyg.com, REJECT, extended-matching, pre-matching
+DOMAIN-KEYWORD, inappcheck, REJECT, extended-matching, pre-matching
 DOMAIN-KEYWORD, iyes.youku.com, REJECT, extended-matching, pre-matching
 DOMAIN-KEYWORD, kepler.jd.com, REJECT, extended-matching, pre-matching
 DOMAIN-KEYWORD, keplerapi.jd.com, REJECT, extended-matching, pre-matching
