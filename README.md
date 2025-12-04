@@ -84,3 +84,4 @@
 [![](https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/Author/ClydeTime.png)](https://github.com/ClydeTime)
 [![](https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/Author/FoKit.png)](https://github.com/FoKit)
 [![](https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/Author/Yuheng0101.png)](https://github.com/Yuheng0101)
+[![](https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/Author/XiangwanGuan.png)](https://github.com/XiangwanGuan)
