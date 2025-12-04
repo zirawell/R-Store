@@ -1,7 +1,7 @@
 {
   "name": "All Icons",
   "description": "collected by zirawell",
-  "time": "2025-10-13",
+  "time": "2025-12-04",
   "icons": [
     {
       "name": "shihuo",
@@ -1258,6 +1258,10 @@
     {
       "name": "ithome",
       "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/ithome.png"
+    },
+    {
+      "name": "sxwq",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/sxwq.png"
     },
     {
       "name": "wmpvp",

@@ -1,7 +1,7 @@
 # S
 <details>
 <summary>
-本目录共收录36个App，详情见如下，单击导入对应配置：
+本目录共收录37个App，详情见如下，单击导入对应配置：
 </summary>
 
  自动导入功能依赖 [【神机模块】](https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/Surge/Redirect/DivineEngine.sgmodule)
@@ -29,6 +29,7 @@
 - [水印相机](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FS%2F%E6%B0%B4%E5%8D%B0%E7%9B%B8%E6%9C%BA%2Fxiangji.sgmodule)
 - [深圳通](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FS%2F%E6%B7%B1%E5%9C%B3%E9%80%9A%2Fshenzhentong.sgmodule)
 - [省钱快报](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FS%2F%E7%9C%81%E9%92%B1%E5%BF%AB%E6%8A%A5%2Fsqkb.sgmodule)
+- [神仙外企](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FS%2F%E7%A5%9E%E4%BB%99%E5%A4%96%E4%BC%81%2Fsxwq.sgmodule)
 - [神舟专车](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FS%2F%E7%A5%9E%E8%88%9F%E4%B8%93%E8%BD%A6%2Fszzc.sgmodule)
 - [苏e行](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FS%2F%E8%8B%8Fe%E8%A1%8C%2Fbwton.sgmodule)
 - [苏周到](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FS%2F%E8%8B%8F%E5%91%A8%E5%88%B0%2Fsuzhou.sgmodule)
