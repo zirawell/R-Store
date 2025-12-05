@@ -1,0 +1,8 @@
+# > 中国电信<微信小程序> - CN189
+
+[Body Rewrite]
+# ⚠️域名[wcmp.189.cn]可能会导致部分功能无法使用，请自行选择是否需要
+http-response ^https?:\/\/wcmp\.189\.cn\/xcxApiService\/api\/gateway adItems random_body
+
+[MITM]
+hostname= %APPEND% wcmp.189.cn
