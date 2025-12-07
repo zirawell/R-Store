@@ -1,7 +1,7 @@
 # J
 <details>
 <summary>
-本目录共收录25个App，详情见如下，单击导入对应配置：
+本目录共收录26个App，详情见如下，单击导入对应配置：
 </summary>
 
 - [JavDB](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FJ%2FJavDB%2Frewrite%2Fjavdb.conf%2C%20tag%3DJavDB%22%5D%7D)
@@ -19,6 +19,7 @@
 - [嘉会医疗](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FJ%2F%E5%98%89%E4%BC%9A%E5%8C%BB%E7%96%97%2Frewrite%2Fjiahui.conf%2C%20tag%3D%E5%98%89%E4%BC%9A%E5%8C%BB%E7%96%97%22%5D%7D)
 - [建行生活](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FJ%2F%E5%BB%BA%E8%A1%8C%E7%94%9F%E6%B4%BB%2Frewrite%2Fccblife.conf%2C%20tag%3D%E5%BB%BA%E8%A1%8C%E7%94%9F%E6%B4%BB%22%5D%7D)
 - [捷停车](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FJ%2F%E6%8D%B7%E5%81%9C%E8%BD%A6%2Frewrite%2Fjparking.conf%2C%20tag%3D%E6%8D%B7%E5%81%9C%E8%BD%A6%22%5D%7D)
+- [晋江小说阅读](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FJ%2F%E6%99%8B%E6%B1%9F%E5%B0%8F%E8%AF%B4%E9%98%85%E8%AF%BB%2Frewrite%2Fjjwxc.conf%2C%20tag%3D%E6%99%8B%E6%B1%9F%E5%B0%8F%E8%AF%B4%E9%98%85%E8%AF%BB%22%5D%7D)
 - [机核](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FJ%2F%E6%9C%BA%E6%A0%B8%2Frewrite%2Fgcores.conf%2C%20tag%3D%E6%9C%BA%E6%A0%B8%22%5D%7D)
 - [极简汇率](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FJ%2F%E6%9E%81%E7%AE%80%E6%B1%87%E7%8E%87%2Frewrite%2Ftratao.conf%2C%20tag%3D%E6%9E%81%E7%AE%80%E6%B1%87%E7%8E%87%22%5D%7D)
 - [界面新闻](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FJ%2F%E7%95%8C%E9%9D%A2%E6%96%B0%E9%97%BB%2Frewrite%2Fjiemian.conf%2C%20tag%3D%E7%95%8C%E9%9D%A2%E6%96%B0%E9%97%BB%22%5D%7D)

@@ -1,7 +1,7 @@
 {
   "name": "All Icons",
   "description": "collected by zirawell",
-  "time": "2025-12-04",
+  "time": "2025-12-07",
   "icons": [
     {
       "name": "shihuo",
@@ -1462,6 +1462,10 @@
     {
       "name": "qqbrowser",
       "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/qqbrowser.png"
+    },
+    {
+      "name": "jjwxc",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/jjwxc.png"
     },
     {
       "name": "cgws",

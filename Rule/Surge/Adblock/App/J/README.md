@@ -1,7 +1,7 @@
 # J
 <details>
 <summary>
-本目录共收录25个App，详情见如下，单击导入对应配置：
+本目录共收录26个App，详情见如下，单击导入对应配置：
 </summary>
 
  自动导入功能依赖 [【神机模块】](https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/Surge/Redirect/DivineEngine.sgmodule)
@@ -20,6 +20,7 @@
 - [嘉会医疗](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FJ%2F%E5%98%89%E4%BC%9A%E5%8C%BB%E7%96%97%2Fjiahui.sgmodule)
 - [建行生活](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FJ%2F%E5%BB%BA%E8%A1%8C%E7%94%9F%E6%B4%BB%2Fccblife.sgmodule)
 - [捷停车](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FJ%2F%E6%8D%B7%E5%81%9C%E8%BD%A6%2Fjparking.sgmodule)
+- [晋江小说阅读](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FJ%2F%E6%99%8B%E6%B1%9F%E5%B0%8F%E8%AF%B4%E9%98%85%E8%AF%BB%2Fjjwxc.sgmodule)
 - [机核](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FJ%2F%E6%9C%BA%E6%A0%B8%2Fgcores.sgmodule)
 - [极简汇率](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FJ%2F%E6%9E%81%E7%AE%80%E6%B1%87%E7%8E%87%2Ftratao.sgmodule)
 - [界面新闻](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FJ%2F%E7%95%8C%E9%9D%A2%E6%96%B0%E9%97%BB%2Fjiemian.sgmodule)
