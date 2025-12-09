@@ -6,7 +6,7 @@
 #!surge_version=5.14.2(Build3405,SDK18.2)
 #!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
 #!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/Filter/AdBlock.png
-#!date=2025-12-08 08:32:16
+#!date=2025-12-09 08:16:35
 
 [Rule]
 IP-CIDR, 1.202.85.193/32, REJECT, no-resolve, pre-matching
@@ -1392,7 +1392,6 @@ DOMAIN-KEYWORD, wan.sogou.com, REJECT, extended-matching, pre-matching
 ^https?:\/\/dl-cu-hz\.lechange\.cn\/oms-online\/advertisementPush - reject
 ^https?:\/\/www\.zhihu\.com\/api\/v\d/(questions|anwsers)\/\d+/related-readings - reject
 ^https?:\/\/res-release\.wuta-cam\.com\/json\/ads_component_cache - reject
-^https?:\/\/w\.meituan\.net\/v\d\/mss_\w+\/waimai-mach\/\d+\/\d+\/(?>pt-im-guider|pt-im-coupon-card-stateful) - reject
 ^https?:\/\/pan\.baidu\.com\/api\/certuser\/get - reject
 ^https?:\/\/(api|atrace)\.chelaile\.net\.cn\/adpub - reject
 ^https?:\/\/staticlive\.douyucdn\.cn\/upload\/signs\/ - reject
@@ -1736,6 +1735,7 @@ DOMAIN-KEYWORD, wan.sogou.com, REJECT, extended-matching, pre-matching
 ^https?:\/\/open\.xueqiu\.com\/mpaas\/config\/content\?.+(?>cube_detail_bottom_operation_trade_button|home_visitor_relation_config) - reject
 ^https?:\/\/creditcardapp\.bankcomm\.(com|cn)\/mappweb_interaction\/qryHighRiskUser - reject
 ^https?:\/\/ya-sdn\.ysepay\.com\/ma_gate\/popupAds - reject
+^https?:\/\/w\.meituan\.net\/v\d\/mss_\w+\/waimai-mach\/\d+\/\d+\/pt-im-(?>guider|coupon-card-stateful) - reject
 ^https?:\/\/mime\.baidu\.com\/v\d\/activity\/advertisement - reject
 ^https?:\/\/spamblocker-api\.zeekstudio\.com\/profile - reject
 ^https?:\/\/gaia\.ch\.com\/ECPromotion\/appFlash - reject
