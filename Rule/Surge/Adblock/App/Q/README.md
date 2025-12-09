@@ -14,7 +14,7 @@
 - [全民生活](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FQ%2F%E5%85%A8%E6%B0%91%E7%94%9F%E6%B4%BB%2Fcmbccc.sgmodule)
 - [全球购骑士特权](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FQ%2F%E5%85%A8%E7%90%83%E8%B4%AD%E9%AA%91%E5%A3%AB%E7%89%B9%E6%9D%83%2Fblackunique.sgmodule)
 - [前程无忧51job](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FQ%2F%E5%89%8D%E7%A8%8B%E6%97%A0%E5%BF%A751job%2F51job.sgmodule)
-- [去上网(去哒)](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FQ%2F%E5%8E%BB%E4%B8%8A%E7%BD%91%28%E5%8E%BB%E5%93%92%29%2Fquda.sgmodule)
+- [去上网](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FQ%2F%E5%8E%BB%E4%B8%8A%E7%BD%91%2Fquda.sgmodule)
 - [去哪儿](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FQ%2F%E5%8E%BB%E5%93%AA%E5%84%BF%2Fqunar.sgmodule)
 - [奇点阅读](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FQ%2F%E5%A5%87%E7%82%B9%E9%98%85%E8%AF%BB%2Fqi.sgmodule)
 - [奇瑞汽车](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FQ%2F%E5%A5%87%E7%91%9E%E6%B1%BD%E8%BD%A6%2Fchery.sgmodule)
