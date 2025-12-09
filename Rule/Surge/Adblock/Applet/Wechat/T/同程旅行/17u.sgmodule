@@ -6,7 +6,6 @@
 [Map Local]
 ^https?:\/\/wx\.17u\.cn\/wxocbdapi\/adService data-type=text data="{}" status-code=200
 ^https?:\/\/wx\.17u\.cn\/homemarketapi\/(aggregator\/index|search\/recommend) data-type=text data="{}" status-code=200
-^https?:\/\/wx\.17u\.cn\/wechatmypubapi\/myInfo\/(?>orderRemind|icons|memberShow|memberInfo|messageBox) data-type=text data="{}" status-code=200
 ^https?:\/\/wx\.17u\.cn\/mytourapi\/mytrip\/(?>blankflight|toptips) data-type=text data="{}" status-code=200
 ^https?:\/\/wx\.17u\.cn\/mytourapi\/blankpage\/recommendList data-type=text data="{}" status-code=200
 ^https?:\/\/wx\.17u\.cn\/mytourapi\/recommendation\/arriveCity data-type=text data="{}" status-code=200
