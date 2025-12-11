@@ -10,9 +10,6 @@
 #!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/boc.png
 #!date=2025-07-08
 
-[Rule]
-DOMAIN, openapi.boc.cn, REJECT, extended-matching, pre-matching
-
 [Map Local]
 ^https?:\/\/mbs\.boc\.cn\/ubas-mgateway-static\/images\/advertType\/.+.jpg data-type=text data="" status-code=200
 

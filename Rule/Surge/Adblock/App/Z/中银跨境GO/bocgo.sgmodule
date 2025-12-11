@@ -11,6 +11,7 @@
 #!date=2025-07-08
 
 [Map Local]
+# ⚠️域名[openapi.boc.cn]可能会导致中国银行App端部分功能无法使用，请自行选择是否需要
 ^https?:\/\/openapi\.boc\.cn\/unlogin\/app\/cbsp\/query_ad_list data-type=text data="" status-code=200
 
 [MITM]
