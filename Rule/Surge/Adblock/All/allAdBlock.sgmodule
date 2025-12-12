@@ -6,7 +6,7 @@
 #!surge_version=5.14.2(Build3405,SDK18.2)
 #!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
 #!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/Filter/AdBlock.png
-#!date=2025-12-11 15:48:50
+#!date=2025-12-12 10:17:47
 
 [Rule]
 IP-CIDR, 1.202.85.193/32, REJECT, no-resolve, pre-matching
@@ -2294,6 +2294,7 @@ https?:\/\/awg\.enmonster\.com\/apa\/(advert\/demand\/home\/poster|index\/advert
 ^https?:\/\/(g-)?acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idlecommerce\.splash data-type=text data="{}" status-code=200
 ^https?:\/\/mall\.meituan\.com\/api\/c\/homepage\/bubble\/operate\/info data-type=text data="{}" status-code=200
 ^https?:\/\/app\.badmintoncn\.com\/mag\/operative\/v\d\/ad\/listNotEndByPlace\?place=first_page data-type=text data="" status-code=200
+^https?:\/\/acs(\.|-)m\.(taobao|freshippo)\.com\/gw\/mtop\.wdk\.mimir\.recommend(?!\.hgitems) data-type=text data="{}" status-code=200
 ^https?:\/\/mobile\.cmbchina\.com\/dcardmanage\/salary-welfare\/get-recommend data-type=file data="https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Data/cmb.json"
 ^https?:\/\/kano\.guahao\.cn\/[a-zA-Z0-9]{12} data-type=text data="" status-code=200
 ^https?:\/\/hoapp\.juneyaoair\.com\/version data-type=text data="" status-code=200
@@ -2908,7 +2909,6 @@ https?:\/\/awg\.enmonster\.com\/apa\/(advert\/demand\/home\/poster|index\/advert
 ^https?:\/\/imgcache\.qq\.com\/qqlive\/ data-type=tiny-gif status-code=200
 ^https?:\/\/rsb\.pingan\.com\.cn\/brcp\/bds\/cust\/ygfz\/up data-type=text data="{}" status-code=200
 ^https?:\/\/wallet\.lakala\.com\/m\/a\/lama\/mgt\/activity\/biz\/query\/byMerInfo data-type=text data="{}" status-code=200
-^https?:\/\/acs(\.|-)m\.(taobao|freshippo)\.com\/gw\/mtop\.wdk\.mimir\.recommend data-type=text data="{}" status-code=200
 ^https?:\/\/apapia-sqk\.manmanbuy\.com\/index_json\.ashx$ data-type=text data="{}" status-code=200
 ^https?:\/\/mgesq\.api\.mgtv\.com\/v\d\/goods\/guess_you_like data-type=text data="{}" status-code=200
 ^https?:\/\/api\.touker\.com\/v\d\/IAdvertisementAPI\.queryStartAdvertisement data-type=text data="" status-code=200
