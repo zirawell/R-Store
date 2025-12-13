@@ -1,7 +1,7 @@
 # Z
 <details>
 <summary>
-本目录共收录41个App，详情见如下，单击导入对应配置：
+本目录共收录42个App，详情见如下，单击导入对应配置：
 </summary>
 
  自动导入功能依赖 [【神机模块】](https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/Surge/Redirect/DivineEngine.sgmodule)
@@ -26,6 +26,7 @@
 - [众邦银行](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FZ%2F%E4%BC%97%E9%82%A6%E9%93%B6%E8%A1%8C%2Fzbank.sgmodule)
 - [住这儿](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FZ%2F%E4%BD%8F%E8%BF%99%E5%84%BF%2Fonewo.sgmodule)
 - [作业帮](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FZ%2F%E4%BD%9C%E4%B8%9A%E5%B8%AE%2Fzybang.sgmodule)
+- [在意天气](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FZ%2F%E5%9C%A8%E6%84%8F%E5%A4%A9%E6%B0%94%2Fairmatters.sgmodule)
 - [招商银行](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FZ%2F%E6%8B%9B%E5%95%86%E9%93%B6%E8%A1%8C%2Fcmb.sgmodule)
 - [指点天下](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FZ%2F%E6%8C%87%E7%82%B9%E5%A4%A9%E4%B8%8B%2Fzhidiantianxia.sgmodule)
 - [掌上京彩](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FZ%2F%E6%8E%8C%E4%B8%8A%E4%BA%AC%E5%BD%A9%2Fbobcc.sgmodule)
