@@ -6,7 +6,7 @@
 #!surge_version=5.14.2(Build3405,SDK18.2)
 #!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
 #!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/Filter/AdBlock.png
-#!date=2025-12-13 12:45:12
+#!date=2025-12-15 08:47:57
 
 [Rule]
 IP-CIDR, 1.202.85.193/32, REJECT, no-resolve, pre-matching
@@ -1794,6 +1794,7 @@ DOMAIN-KEYWORD, wan.sogou.com, REJECT, extended-matching, pre-matching
 ^https?:\/\/.*\.xima.*\.com\/mobile-user\/unread - reject
 ^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.fliggy\.crm\.(?>popresource|screen) - reject
 ^https?:\/\/ump\.ems\.com\.cn\/mailAd$ - reject
+^https?:\/\/aag\.enmonster\.com\/apa(\/index)?\/advert - reject
 ^https?:\/\/mobile\.yangkeduo\.com\/layer\/app_upgrade_popup - reject
 ^https?:\/\/appapi\.51job(app)?\.com\/api\/market\/(?>adtrace|get_launch|get_prompt) - reject
 ^https?:\/\/api\.laifeng\.com\/v\d\/start\/ads - reject
@@ -1856,7 +1857,6 @@ DOMAIN-KEYWORD, wan.sogou.com, REJECT, extended-matching, pre-matching
 ^https?:\/\/helper\.2bulu\.com\/(greenPea\/queryTasks|proSpecial\/allData|saveSplashFrequencyStatistics|getPopInfo|getAppEntranceConfig|promote\/list|getSplash|outing\/reqFoundNewList|outing\/reqIndex) - reject
 ^https?:\/\/(?>csc|osg)-service\.sgcc\.com\.cn:\d+\/.*\/inner\/cache - reject
 ^https?:\/\/sf3-be-pack\.pglstatp-toutiao\.com\/img\/ad\.union\.api - reject
-^https?:\/\/aag\.enmonster\.com\/apa\/index\/advert\/skin - reject
 ^https?:\/\/external\.fcbox\.com\/wxgw\/post\/suggestion\/query - reject
 ^https?:\/\/xxyx-client-api\.xiaoxiaoyouxuan\.com\/activity\/show - reject
 ^https?:\/\/app\.home\.360\.cn\/v\d\/config\/custom_config - reject
@@ -2084,6 +2084,7 @@ DOMAIN-KEYWORD, wan.sogou.com, REJECT, extended-matching, pre-matching
 ^https?:\/\/lens\.leoao\.com\/lens\/conduct\/app\/rpc\/v\d\/com\.lefit\.dubbo\.cms\.api\.front\.AdvertiseConfigFrontService\/getAdvertiseConfigNew data-type=text data="{}" status-code=200
 ^https?:\/\/api\.sodalife\.xyz\/v\d\/posters\?location=SODA_APP%3AREWARDS%3ACENTER data-type=text data="{}" status-code=200
 ^https?:\/\/(cdn-)?pay\.kkmh\.com\/v\d\/vip\/platform_base\/popups_display data-type=text data="{}" status-code=200
+^https?:\/\/aag\.enmonster\.com\/apa(\/discount)?\/activity data-type=text data="{}" status-code=200
 ^https?:\/\/api\.zhihu\.com\/content-distribution-core\/bubble\/common\/settings data-type=text data="{}" status-code=200
 ^https?:\/\/api\.17gwx\.com\/v\d\/base\/app\/ad data-type=text data="{}" status-code=200
 ^https?:\/\/capi\.douyucdn\.cn\/api\/ios_app\/check_update data-type=tiny-gif status-code=200
