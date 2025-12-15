@@ -8,7 +8,10 @@
 #!surge_version=5.14.2(Build3405,SDK18.2)
 #!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
 #!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/eleme.png
-#!date=2025-07-08
+#!date=2025-12-15
+
+[Rule]
+DOMAIN, wgo.mmstat.com, REJECT, extended-matching, pre-matching
 
 [URL Rewrite]
 ^https?:\/\/elemecdn\.com\/.+\/sitemap - reject
@@ -22,6 +25,7 @@
 
 [Map Local]
 ^https?:\/\/fuss10\.elemecdn\.com\/.+?\.mp4 data-type=tiny-gif status-code=200
+^https?:\/\/amdc\.m\.ele\.me\/amdc\/mobileDispatch data-type=text data="{}" status-code=200
 
 [MITM]
-hostname= %APPEND% elemecdn.com, fuss10.elemecdn.com, www1.elecfans.com, cube.elemecdn.com, nr-op.elemecdn.com
+hostname= %APPEND% elemecdn.com, fuss10.elemecdn.com, www1.elecfans.com, amdc.m.ele.me, cube.elemecdn.com, nr-op.elemecdn.com
