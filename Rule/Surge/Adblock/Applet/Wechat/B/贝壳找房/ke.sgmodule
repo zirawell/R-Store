@@ -1,0 +1,11 @@
+# > 贝壳找房<微信小程序> - KE
+
+[Body Rewrite]
+http-response-jq ^https?:\/\/wx(app)?\.api\.ke\.com\/pt\/pt-xcx-php\/index\/v\d\/home '.data.modules |= map(select(.type != "popup" and .type != "icon"))'
+
+[Map Local]
+^https?:\/\/wx(app)?\.api\.ke\.com\/pt\/pt-xcx\/boot\/ping data-type=text data="{}" status-code=200
+^https?:\/\/wx(app)?\.api\.ke\.com\/pt\/platform\/platform\/shellxcx\/homepage\/popup data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% wxapp.api.ke.com, wx.api.ke.com
