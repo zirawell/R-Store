@@ -3,6 +3,7 @@
 [Map Local]
 ^https?:\/\/a\.sinopecsales\.com\/app\/cms data-type=text data="{}" status-code=200
 ^https?:\/\/ocrifs\.ejoy\.sinopec\.com\/advertitfs\/advert\/findAdvertInfo data-type=text data="" status-code=200
+^https?:\/\/egw\.ejoy\.sinopec\.com\/api\/interface\/queryEffectiveBulletin data-type=text data="{}" status-code=200
 
 [MITM]
-hostname= %APPEND% a.sinopecsales.com,ocrifs.ejoy.sinopec.com
+hostname= %APPEND% a.sinopecsales.com, ocrifs.ejoy.sinopec.com, egw.ejoy.sinopec.com
