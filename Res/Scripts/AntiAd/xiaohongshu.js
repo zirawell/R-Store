@@ -39,6 +39,10 @@ if (url.includes("/note/imagefeed") || url.includes("/note/feed")) {
             item.share_info.function_entries.unshift(addItem);
           }
         }
+        // 处理帖子引用的标签
+        if (item.hash_tag) {
+          item.hash_tag = item.hash_tag.filter(tag => tag.type !== "interact_vote");
+        }
       }
 
       const images_list = obj.data[0].note_list[0].images_list;
@@ -71,7 +75,7 @@ if (url.includes("/note/imagefeed") || url.includes("/note/feed")) {
     replaceUrlContent(obj.data.datas, newDatas);
   } else {
     // 原始数据有问题 强制返回成功响应
-    obj = {code: 0, success: true, msg: "成功", data: {datas: newDatas}};
+    obj = {"code": 0, "success": true, "msg": "成功", "data": {"datas": newDatas}};
   }
 } else if (url.includes("/search/banner_list")) {
   if (obj?.data) {
@@ -92,8 +96,7 @@ if (url.includes("/note/imagefeed") || url.includes("/note/feed")) {
   }
 // 详情页小部件
 } else if (url.includes("/note/widgets")) {
-  const item = ["cooperate_binds", "generic", "note_next_step"];
-  // cooperate_binds合作品牌 note_next_step活动
+  const item = ["cooperate_binds", "generic", "note_next_step", "widget_list"];
   if (obj?.data) {
     for (let i of item) {
       delete obj.data[i];
@@ -142,74 +145,57 @@ if (url.includes("/note/imagefeed") || url.includes("/note/feed")) {
       }
     }
   } else if (url.includes("/v4/")) {
-    let newDatas = [];
-    let unlockDatas = [];
-    if (obj?.data?.length > 0) {
-      for (let item of obj.data) {
-        // 检查function_entries中的每一个元素的type属性是否等于"video_download"
-        let found = false;
-        for (let entry of item.share_info.function_entries) {
-          if (entry.type === "video_download") {
-            found = true;
-            break;
+    let videoData = [];
+    if (obj.data?.length > 0) {
+        for (let item of obj.data) {
+          // 添加下载按钮（如果未存在）
+          if (item?.share_info?.function_entries?.length > 0) {
+            const hasDownload = item.share_info.function_entries.some(entry => entry.type === "video_download");
+            if (!hasDownload) {
+              item.share_info.function_entries.push({type: "video_download"});
+            }
+          }
+    
+          // 提取 H.265 视频流
+          const h265List = item?.video_info_v2?.media?.stream?.h265 || [];
+          if (!Array.isArray(h265List) || h265List.length === 0) {
+            continue;
+          }
+    
+          // 分辨率从高到低排序
+          const sortedList = h265List.filter(v => !!v.master_url && !!v.height).sort((a, b) => b.height - a.height);
+          // 选择分辨率最高的
+          let selectedStream = sortedList[0];
+    
+          // 存入缓存数组
+          if (item?.id && selectedStream?.master_url) {
+            const data = {
+              id: item.id,
+              url: selectedStream.master_url
+            };
+            videoData.push(data);
           }
         }
-        // 如果没有匹配到，则添加一个新的元素
-        if (!found) {
-          item.share_info.function_entries.push({
-            "type": "video_download"
-          });
-        }
-        // 存储无水印视频链接
-        if (item?.id && item.video_info_v2?.media?.stream?.h265?.length > 0 && item.video_info_v2.media.stream.h265[0].master_url) {
-          let myData = {
-            id: item.id,
-            url: item.video_info_v2.media.stream.h265[0].master_url
-          };
-          newDatas.push(myData);
-        }
-      }
-      $.setdata(JSON.stringify(newDatas), "redBookVideoFeed"); // 普通视频 写入持久化存储
-
-      for (let item of obj.data) {
-        if (item?.id && item.video_info_v2?.media?.stream?.h265?.length > 0 && item.video_info_v2.media.stream.h265[0].master_url) {
-          let myData = {
-            id: item.id,
-            url: item.video_info_v2.media.stream.h265[0].master_url
-          };
-          unlockDatas.push(myData);
-        }
-      }
-      $.setdata(JSON.stringify(unlockDatas), "redBookVideoFeedUnlock"); // 禁止保存的视频 写入持久化存储
+        // 写入本地持久化缓存
+        $.setdata(JSON.stringify(videoData), "redBookVideoFeed");
     }
   }
 // 视频保存请求
 } else if (url.includes("/note/video/save")) {
-  let videoFeed = JSON.parse($.getdata("redBookVideoFeed")); // 普通视频 读取持久化存储
-  let videoFeedUnlock = JSON.parse($.getdata("redBookVideoFeedUnlock")); // 禁止保存的视频 读取持久化存储
-  if (obj?.data?.note_id !== "" && videoFeed?.length > 0) {
+  let videoFeed = JSON.parse($.getdata("redBookVideoFeed")); // 读取持久化存储
+  if (obj.data?.note_id !== "" && videoFeed?.length > 0) {
     for (let item of videoFeed) {
       if (item.id === obj.data.note_id) {
         obj.data.download_url = item.url;
       }
     }
   }
-  if (obj?.data?.note_id !== "" && videoFeedUnlock?.length > 0) {
-    if (obj?.data?.disable === true && obj?.data?.msg !== "") {
-      delete obj.data.disable;
-      delete obj.data.msg;
-      obj.data.download_url = "";
-      obj.data.status = 2;
-      for (let item of videoFeedUnlock) {
-        if (item.id === obj.data.note_id) {
-          obj.data.download_url = item.url;
-        }
-      }
-    }
-    videoFeedUnlock = {notSave: "Y"};
-    $.setdata(JSON.stringify(videoFeedUnlock), "redBookVideoFeedUnlock");
+  // 解除下载限制
+  if (obj.data?.disable) {
+    delete obj.data.disable;
+    delete obj.data.msg;
+    obj.data.status = 2;
   }
-
 // 关注列表
 } else if (url.includes("/followfeed") && !url.includes("/user/followings")) {
   if (obj?.data?.items?.length > 0) {
