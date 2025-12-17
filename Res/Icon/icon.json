@@ -1,7 +1,7 @@
 {
   "name": "All Icons",
   "description": "collected by zirawell",
-  "time": "2025-12-13",
+  "time": "2025-12-17",
   "icons": [
     {
       "name": "shihuo",
@@ -1574,6 +1574,10 @@
     {
       "name": "gamer",
       "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/gamer.png"
+    },
+    {
+      "name": "peakwatch",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/peakwatch.png"
     },
     {
       "name": "csdn",
