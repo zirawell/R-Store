@@ -2,7 +2,7 @@
 #!homepage=https://github.com/zirawell/R-Store
 #!raw-url=https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/Surge/Filter/Wechat.list
 #!tg-group=https://t.me/lanjieguanggao
-#!date=2024-11-08 10:24:00
+#!date=2025-12-19 10:24:00
 #!---------------------------------------------------------------------------------------------------------------
 DOMAIN-SUFFIX, qpic.cn, direct
 DOMAIN, sgminorshort.wechat.com, direct
@@ -26,6 +26,7 @@ DOMAIN-SUFFIX, wxapp.tc.qq.com, WeChat
 DOMAIN-KEYWORD, 43.156.222., WeChat
 USER-AGENT, MicroMessenger*, WeChat
 USER-AGENT, WeChat*, WeChat
+IP-CIDR, 43.160.156.172/24, WeChat
 IP-CIDR, 101.32.104.4/32, WeChat
 IP-CIDR, 101.32.104.41/32, WeChat
 IP-CIDR, 101.32.104.56/32, WeChat
