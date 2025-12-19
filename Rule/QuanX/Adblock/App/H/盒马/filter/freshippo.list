@@ -1,0 +1,7 @@
+# > 盒马 - FRESHIPPO
+ip-cidr, 59.82.14.1/32, reject
+ip-cidr, 59.82.14.161/32, reject
+ip-cidr, 59.82.34.147/32, reject
+ip-cidr, 59.82.34.255/32, reject
+ip-cidr, 59.82.113.219/32, reject
+ip-cidr, 59.82.113.10/32, reject

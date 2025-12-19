@@ -8,9 +8,18 @@
 #!surge_version=5.14.2(Build3405,SDK18.2)
 #!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
 #!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/freshippo.png
-#!date=2025-12-12
+#!date=2025-12-19
+
+[Rule]
+IP-CIDR, 59.82.14.1/32, REJECT, no-resolve, pre-matching
+IP-CIDR, 59.82.14.161/32, REJECT, no-resolve, pre-matching
+IP-CIDR, 59.82.34.147/32, REJECT, no-resolve, pre-matching
+IP-CIDR, 59.82.34.255/32, REJECT, no-resolve, pre-matching
+IP-CIDR, 59.82.113.219/32, REJECT, no-resolve, pre-matching
+IP-CIDR, 59.82.113.10/32, REJECT, no-resolve, pre-matching
 
 [URL Rewrite]
+^https?:\/\/amdc\.m\.taobao\.com\/amdc\/mobileDispatch\?appkey=23230111 - reject
 ^https?:\/\/acs(\.|-)m\.(taobao|freshippo)\.com\/gw\/mtop\.wdk\.hippotown\.tabbar\.info - reject
 
 [Map Local]
@@ -25,4 +34,4 @@
 freshippo = type=http-response,pattern=^https?:\/\/acs(\.|-)m\.(taobao|freshippo)\.com\/gw\/mtop\.wdk\.render\.query(?>indexpage|mypage|tabfeedstream),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/freshippo.js
 
 [MITM]
-hostname= %APPEND% acs.m.taobao.com, acs-m.freshippo.com
+hostname= %APPEND% amdc.m.taobao.com, acs.m.taobao.com, acs-m.freshippo.com
