@@ -17,7 +17,7 @@ let obj = JSON.parse($response.body);
 if (url.includes("/x/resource/show/tab/v2")) {
   // 底部选项卡
   if (obj?.data?.bottom?.length > 0) {
-    const sortLists = ["首页", "动态", "我的"];
+    const sortLists = ["首页", "动态", "关注", "我的"];
     obj.data.bottom = obj.data.bottom
         .filter((i) => sortLists?.includes(i?.name))
         .sort((a, b) => sortLists.indexOf(a?.name) - sortLists.indexOf(b?.name));
