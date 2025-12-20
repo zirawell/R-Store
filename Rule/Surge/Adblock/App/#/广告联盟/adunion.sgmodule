@@ -461,11 +461,13 @@ IP-CIDR, 180.76.76.112/32, REJECT, no-resolve, pre-matching
 IP-CIDR, 180.76.76.200/32, REJECT, no-resolve, pre-matching
 DOMAIN, o2o-ad-log-gateway.alibaba.com, REJECT, extended-matching, pre-matching
 DOMAIN, eco.taobao.com, REJECT, extended-matching, pre-matching
+DOMAIN, ilce.alicdn.com, REJECT, extended-matching, pre-matching
 DOMAIN, ossgw.alicdn.com, REJECT, extended-matching, pre-matching
 DOMAIN, hudong.alicdn.com, REJECT, extended-matching, pre-matching
 DOMAIN, baichuan-sdk.alicdn.com, REJECT, extended-matching, pre-matching
 DOMAIN, beacon-api.aliyuncs.com, REJECT, extended-matching, pre-matching
 DOMAIN, adash.man.aliyuncs.com, REJECT, extended-matching, pre-matching
+DOMAIN, dispatcher.is.autonavi.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, mpush-api.aliyun.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, aecpm.alicdn.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, afp.alicdn.com, REJECT, extended-matching, pre-matching
@@ -562,6 +564,7 @@ DOMAIN-SUFFIX, count.video.sina.com.cn, REJECT, extended-matching, pre-matching
 ^https?:\/\/mmgr\.gtimg\.com\/gjsmall\/qiantu\/upload\/ data-type=tiny-gif status-code=200
 ^https?:\/\/mmgr\.gtimg\.com\/gjsmall\/qqpim\/public\/ios\/splash\/.+?\/\d{4}_\d{4} data-type=tiny-gif status-code=200
 ^https?:\/\/bk\.bingo\.qq\.com\/bk\/crx\/data\/videoAd data-type=text data="{}" status-code=200
+^https?:\/\/api\.map\.baidu\.com\/\?qt=verify data-type=text data="{}" status-code=200
 ^https?:\/\/afd\.baidu\.com\/afd\/entry data-type=tiny-gif status-code=200
 ^https?:\/\/issuecdn\.baidupcs\.com\/issue\/netdisk\/guanggao\/ data-type=text data="" status-code=200
 ^https?:\/\/[\s\S]*\.baidu\.com/.*?ad[xs]\.php data-type=tiny-gif status-code=200
@@ -581,4 +584,4 @@ adunion = type=http-response,pattern=^https?:\/\/api-access\.pangolin-sdk-toutia
 adunion = type=http-response,pattern=^https?:\/\/is.snssdk.com/api/ad/union/sdk,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/adsense.js
 
 [MITM]
-hostname= %APPEND% api2.helper.qq.com, imgcache.qq.com, mtteve.beacon.qq.com, vv.video.qq.com, qt.qq.com, y.gtimg.cn, splashqqlive.gtimg.com, qzonestyle.gtimg.cn, discuz.gtimg.cn, bla.gtimg.com, mmgr.gtimg.com, bk.bingo.qq.com, mi.gdt.qq.com, www.baidu.com, fcvbjbcebos.baidu.com, cover.baidu.com, afd.baidu.com, issuecdn.baidupcs.com, update.pan.baidu.com, video-dsp.pddpic.com, t-dsp.pinduoduo.com, images.pinduoduo.com, amdc.m.taobao.com, gw.alicdn.com, heic.alicdn.com, g.alicdn.com, yixiu-abtest.alicdn.com, img1.126.net, nex.163.com, g1.163.com, c.m.163.com, www.google.com, api*.musical.ly, api-access.pangolin-sdk-toutiao.com, is.snssdk.com, cdn.api.fotoable.com, cloud.bluecardsoft.com
+hostname= %APPEND% api2.helper.qq.com, imgcache.qq.com, mtteve.beacon.qq.com, vv.video.qq.com, qt.qq.com, y.gtimg.cn, splashqqlive.gtimg.com, qzonestyle.gtimg.cn, discuz.gtimg.cn, bla.gtimg.com, mmgr.gtimg.com, bk.bingo.qq.com, mi.gdt.qq.com, www.baidu.com, api.map.baidu.com, fcvbjbcebos.baidu.com, cover.baidu.com, afd.baidu.com, issuecdn.baidupcs.com, update.pan.baidu.com, video-dsp.pddpic.com, t-dsp.pinduoduo.com, images.pinduoduo.com, amdc.m.taobao.com, gw.alicdn.com, heic.alicdn.com, g.alicdn.com, yixiu-abtest.alicdn.com, img1.126.net, nex.163.com, g1.163.com, c.m.163.com, www.google.com, api*.musical.ly, api-access.pangolin-sdk-toutiao.com, is.snssdk.com, cdn.api.fotoable.com, cloud.bluecardsoft.com

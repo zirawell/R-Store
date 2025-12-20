@@ -439,11 +439,13 @@ ip-cidr, 180.76.76.200/32, reject
 # > 阿里 - ALIBABA
 host, o2o-ad-log-gateway.alibaba.com, reject
 host, eco.taobao.com, reject
+host, ilce.alicdn.com, reject
 host, ossgw.alicdn.com, reject
 host, hudong.alicdn.com, reject
 host, baichuan-sdk.alicdn.com, reject
 host, beacon-api.aliyuncs.com, reject
 host, adash.man.aliyuncs.com, reject
+host, dispatcher.is.autonavi.com, reject
 host-suffix, mpush-api.aliyun.com, reject
 host-suffix, aecpm.alicdn.com, reject
 host-suffix, afp.alicdn.com, reject
