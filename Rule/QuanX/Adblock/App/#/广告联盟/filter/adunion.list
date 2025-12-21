@@ -445,7 +445,6 @@ host, hudong.alicdn.com, reject
 host, baichuan-sdk.alicdn.com, reject
 host, beacon-api.aliyuncs.com, reject
 host, adash.man.aliyuncs.com, reject
-host, dispatcher.is.autonavi.com, reject
 host-suffix, mpush-api.aliyun.com, reject
 host-suffix, aecpm.alicdn.com, reject
 host-suffix, afp.alicdn.com, reject
