@@ -1,0 +1,8 @@
+# > 高德打车<支付宝小程序> - AMAP
+
+[Map Local]
+^https?:\/\/m5-zb\.amap\.com\/ws\/promotion-web\/resource data-type=text data="{}" status-code=200
+^https?:\/\/m5-zb\.amap\.com\/ws\/boss\/end\/recommend data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% m5-zb.amap.com
