@@ -6,7 +6,7 @@
 #!surge_version=5.14.2(Build3405,SDK18.2)
 #!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
 #!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/Filter/AdBlock.png
-#!date=2025-12-23 08:09:31
+#!date=2025-12-24 16:39:55
 
 [Rule]
 IP-CIDR, 1.202.85.193/32, REJECT, no-resolve, pre-matching
@@ -444,6 +444,7 @@ DOMAIN, rprain.bz.mgtv.com, REJECT, extended-matching, pre-matching
 DOMAIN, rtlog5-applog.fqnovel.com, REJECT, extended-matching, pre-matching
 DOMAIN, rtms.alipay.com, REJECT, extended-matching, pre-matching
 DOMAIN, rttrack.ddxq.mobi, REJECT, extended-matching, pre-matching
+DOMAIN, rumt-zh.com, REJECT, extended-matching, pre-matching
 DOMAIN, s.youtube.com, REJECT, extended-matching, pre-matching
 DOMAIN, s3a.pstatp.com, REJECT, extended-matching, pre-matching
 DOMAIN, safebrowsing.g.applimg.com, REJECT, extended-matching, pre-matching
