@@ -1,2 +1,2 @@
 # > 中国建设银行 - CCB
-host-keyword, adv.ccb.com, reject
+host-suffix, adv.ccb.com, reject

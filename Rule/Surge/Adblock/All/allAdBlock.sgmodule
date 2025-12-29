@@ -6,7 +6,7 @@
 #!surge_version=5.14.2(Build3405,SDK18.2)
 #!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
 #!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/Filter/AdBlock.png
-#!date=2025-12-25 13:27:41
+#!date=2025-12-29 20:42:32
 
 [Rule]
 IP-CIDR, 1.202.85.193/32, REJECT, no-resolve, pre-matching
@@ -653,6 +653,7 @@ DOMAIN-SUFFIX, adsview.qq.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, adsview2.qq.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, adukwai.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, adv.app.qq.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, adv.ccb.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, adver.qq.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, advert.mafengwo.cn, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, advertising.yahoo.com, REJECT, extended-matching, pre-matching
@@ -1333,7 +1334,6 @@ DOMAIN-KEYWORD, ads.g.doubleclick, REJECT, extended-matching, pre-matching
 DOMAIN-KEYWORD, ads.microsoft.com, REJECT, extended-matching, pre-matching
 DOMAIN-KEYWORD, ads.msn.com, REJECT, extended-matching, pre-matching
 DOMAIN-KEYWORD, ads.yahoo, REJECT, extended-matching, pre-matching
-DOMAIN-KEYWORD, adv.ccb.com, REJECT, extended-matching, pre-matching
 DOMAIN-KEYWORD, api.sobot.com, REJECT, extended-matching, pre-matching
 DOMAIN-KEYWORD, app.adjust, REJECT, extended-matching, pre-matching
 DOMAIN-KEYWORD, applogapi.autohome.com, REJECT, extended-matching, pre-matching
@@ -1773,7 +1773,6 @@ DOMAIN-KEYWORD, wan.sogou.com, REJECT, extended-matching, pre-matching
 ^https?:\/\/app\.api\.d3yuiw4\.com\/api\/app\/ad - reject
 ^https?:\/\/tb1\.bdstatic\.com\/tb\/cms\/ngmis\/adsense\/*.jpg - reject
 ^https?:\/\/cover\.baidu\.com\/cover\/page\/dspSwitchAds\/ - reject
-^https?:\/\/imageadv\.ccb\.com\/adpic\/(nctm\/ad|sszserver\/upload\/activity)\/\d{8}\/\w+\.(?>gif|png|jpg)$ - reject
 ^https?:\/\/restapi\.iyunmai\.com\/(?>app|ad-)?api\/ios\/(?>tips|ad) - reject
 ^https?:\/\/.*mbasecc\.\w+\.cmbchina\.com\/Edge\/api\/mlife\.clientface\.clientservice\.api\.preloadService\/preload - reject
 ^https?:\/\/file\.cibfintech\.com\/file\/M0[1-9]{1}\/.*\.zip - reject
@@ -1825,6 +1824,7 @@ DOMAIN-KEYWORD, wan.sogou.com, REJECT, extended-matching, pre-matching
 ^https?:\/\/.+\.pstatp\.com\/bytecom\/resource\/track_log\/src\/.+ - reject
 ^https?:\/\/maicai\.api\.ddxq\.mobi\/advert\/ - reject
 ^https?:\/\/go\.babytree\.com\/go_pregnancy\/api\/app_index\/get_ceramic_chip_area - reject
+^https?:\/\/imageadv\.ccb\.com\/adpic\/sszserver\/upload\/activity\/\d{8}\/\w+\.(?>gif|png|jpg)$ - reject
 ^https?:\/\/app\.homeinns\.com\/api\/landing - reject
 ^https?:\/\/gateway\.cotticoffee\.com\/cotti-capi\/person\/homeLoginPrompt - reject
 ^https?:\/\/.*\.xima.*\.com\/social-web\/bottomTabs\/dynamicEntrance\/status - reject
