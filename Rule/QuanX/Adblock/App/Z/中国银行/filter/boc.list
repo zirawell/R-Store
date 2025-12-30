@@ -1,0 +1,3 @@
+# > 中国银行 - BOC
+host, iisp-oidea.mbs.boc.cn, reject
+host, iisp.mbs.boc.cn, reject
