@@ -1,4 +1,5 @@
 # > 微信 - WECHAT
 host, badjs.weixinbridge.com, reject
+host, cube.weixinbridge.com, reject
 host, dns.weixin.qq.com.cn, reject
 host-suffix, wxs.qq.com, reject

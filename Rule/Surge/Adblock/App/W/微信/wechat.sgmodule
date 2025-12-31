@@ -8,18 +8,20 @@
 #!surge_version=5.14.2(Build3405,SDK18.2)
 #!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
 #!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/wechat.png
-#!date=2025-07-08
+#!date=2025-12-31
 
 [Rule]
 DOMAIN, badjs.weixinbridge.com, REJECT, extended-matching, pre-matching
+DOMAIN, cube.weixinbridge.com, REJECT, extended-matching, pre-matching
 DOMAIN, dns.weixin.qq.com.cn, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, wxs.qq.com, REJECT, extended-matching, pre-matching
 
 [Map Local]
+^https?:\/\/dl\.wechat\.com\/checkresupdate data-type=text data="{}" status-code=200
 ^https?:\/\/mp\.weixin\.qq\.com\/mp\/(?>ad_|advertisement|getappmsgad|cps_product_info|masonryfeed|relatedarticle|relatedsearchword|searchkeywordreport|geticon|getainfo|jsmonitor) data-type=text data="{}" status-code=200
 
 [Script]
 wechat = type=http-response,pattern=^https?:\/\/(weixin110\.qq|security.wechat)\.com\/cgi-bin\/mmspamsupport-bin\/newredirectconfirmcgi\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/Plugins/Wechat_Unblock_URL.js
 
 [MITM]
-hostname= %APPEND% mp.weixin.qq.com, weixin110.qq.com, security.wechat.com
+hostname= %APPEND% dl.wechat.com, mp.weixin.qq.com, weixin110.qq.com, security.wechat.com
