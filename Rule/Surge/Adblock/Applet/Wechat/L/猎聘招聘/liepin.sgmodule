@@ -1,0 +1,7 @@
+# > 猎聘招聘<微信小程序> - LIEPIN
+
+[Body Rewrite]
+http-response ^https?:\/\/api-wanda\.liepin\.com\/api\/com\.liepin\.cbp\.baizhong\.op\.v\d-show-4pc adList random_body
+
+[MITM]
+hostname= %APPEND% api-wanda.liepin.com
