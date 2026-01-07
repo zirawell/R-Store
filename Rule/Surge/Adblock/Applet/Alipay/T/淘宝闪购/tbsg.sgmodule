@@ -1,8 +1,12 @@
 # > 淘宝闪购<支付宝小程序> - TBSG
 
+[Body Rewrite]
+# 订单页右下角角标
+http-response ^https?:\/\/alsc-buy2\.ele\.me\/h5\/mtop\.alsc\.eleme\.order\.detail\.miniapp\.build orderDetailCdpTriggerInfo random_body
+
 [Map Local]
-# 右下角角标
+# 首页右下角角标
 ^https?:\/\/waimai-guide\.ele\.me\/h5\/mtop\.ele\.growth\.fission\.client\.etmd\.et\.getmainpageicon data-type=text data="{}" status-code=200
 
 [MITM]
-hostname= %APPEND% aimai-guide.ele.me
+hostname= %APPEND% aimai-guide.ele.me, alsc-buy2.ele.me
