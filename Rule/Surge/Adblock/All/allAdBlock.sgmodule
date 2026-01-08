@@ -6,7 +6,7 @@
 #!surge_version=5.14.2(Build3405,SDK18.2)
 #!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
 #!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/Filter/AdBlock.png
-#!date=2026-01-07 08:54:30
+#!date=2026-01-08 08:57:06
 
 [Rule]
 IP-CIDR, 1.202.85.193/32, REJECT, no-resolve, pre-matching
@@ -45,6 +45,8 @@ IP-CIDR, 123.207.209.60/32, REJECT, no-resolve, pre-matching
 IP-CIDR, 124.192.153.42/32, REJECT, no-resolve, pre-matching
 IP-CIDR, 139.199.240.12/32, REJECT, no-resolve, pre-matching
 IP-CIDR, 139.199.240.15/32, REJECT, no-resolve, pre-matching
+IP-CIDR, 139.95.0.151/32, REJECT, no-resolve, pre-matching
+IP-CIDR, 139.95.4.98/32, REJECT, no-resolve, pre-matching
 IP-CIDR, 162.14.137.26/32, REJECT, no-resolve, pre-matching
 IP-CIDR, 162.14.137.43/32, REJECT, no-resolve, pre-matching
 IP-CIDR, 162.14.145.13/32, REJECT, no-resolve, pre-matching
@@ -61,6 +63,7 @@ IP-CIDR, 203.107.63.154/32, REJECT, no-resolve, pre-matching
 IP-CIDR, 210.13.85.204/32, REJECT, no-resolve, pre-matching
 IP-CIDR, 212.129.220.0/24, REJECT, no-resolve, pre-matching
 IP-CIDR, 47.110.187.87/32, REJECT, no-resolve, pre-matching
+IP-CIDR, 47.246.103.9/32, REJECT, no-resolve, pre-matching
 IP-CIDR, 47.56.131.76/32, REJECT, no-resolve, pre-matching
 IP-CIDR, 47.97.215.55/32, REJECT, no-resolve, pre-matching
 IP-CIDR, 47.99.42.29/32, REJECT, no-resolve, pre-matching
