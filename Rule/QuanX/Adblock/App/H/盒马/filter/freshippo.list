@@ -8,3 +8,4 @@ ip-cidr, 59.82.113.10/32, reject
 ip-cidr, 139.95.0.151/32, reject
 ip-cidr, 139.95.4.98/32, reject
 ip-cidr, 47.246.103.9/32, reject
+ip-cidr, 47.246.103.10/32, reject
