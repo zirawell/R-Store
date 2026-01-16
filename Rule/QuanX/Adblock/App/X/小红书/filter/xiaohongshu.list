@@ -3,3 +3,4 @@ host, ads-img-qc.xhscdn.com, reject
 host, ads-video-al.xhscdn.com, reject
 host, ads-video-qc.xhscdn.com, reject
 host, t-ads.xiaohongshu.com, reject
+host, apm-native.xiaohongshu.com, reject
