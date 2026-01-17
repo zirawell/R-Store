@@ -1,9 +1,10 @@
 # M
 <details>
 <summary>
-本目录共收录10个小程序，详情见如下，单击导入对应配置：
+本目录共收录11个小程序，详情见如下，单击导入对应配置：
 </summary>
 
+- [MSC地中海邮轮](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApplet%2FWechat%2FM%2FMSC%E5%9C%B0%E4%B8%AD%E6%B5%B7%E9%82%AE%E8%BD%AE%2Frewrite%2Fmsc.conf%2C%20tag%3DMSC%E5%9C%B0%E4%B8%AD%E6%B5%B7%E9%82%AE%E8%BD%AE%22%5D%7D)
 - [MStand](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApplet%2FWechat%2FM%2FMStand%2Frewrite%2Fmstand.conf%2C%20tag%3DMStand%22%5D%7D)
 - [Manner](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApplet%2FWechat%2FM%2FManner%2Frewrite%2Fmanner.conf%2C%20tag%3DManner%22%5D%7D)
 - [Mcake](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApplet%2FWechat%2FM%2FMcake%2Frewrite%2Fmcake.conf%2C%20tag%3DMcake%22%5D%7D)

@@ -1,10 +1,11 @@
 # M
 <details>
 <summary>
-本目录共收录10个小程序，详情见如下，单击导入对应配置：
+本目录共收录11个小程序，详情见如下，单击导入对应配置：
 </summary>
 
  自动导入功能依赖 [【神机模块】](https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/Surge/Redirect/DivineEngine.sgmodule)
+- [MSC地中海邮轮](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApplet%2FWechat%2FM%2FMSC%E5%9C%B0%E4%B8%AD%E6%B5%B7%E9%82%AE%E8%BD%AE%2Fmsc.sgmodule)
 - [MStand](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApplet%2FWechat%2FM%2FMStand%2Fmstand.sgmodule)
 - [Manner](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApplet%2FWechat%2FM%2FManner%2Fmanner.sgmodule)
 - [Mcake](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApplet%2FWechat%2FM%2FMcake%2Fmcake.sgmodule)
