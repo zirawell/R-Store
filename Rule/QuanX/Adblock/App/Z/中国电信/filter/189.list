@@ -1,10 +1,11 @@
 # > 中国电信 - 189
+# ⚠️域名[appgoad.189.cn]可能会导致App端部分功能无法使用，请自行选择是否需要
 host, ad.21cn.com, reject
 host, ad.k.21cn.com, reject
 host, admarket.21cn.com, reject
 host, adshows.21cn.com, reject
+host, appgo.189.cn, reject
 host, appgoad.189.cn, reject
 host, appupdates.189.cn, reject
-host, appgo.189.cn, reject
 ip-cidr, 122.229.8.47/32, reject
 ip-cidr, 122.229.29.89/32, reject

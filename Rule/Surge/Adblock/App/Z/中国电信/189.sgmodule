@@ -8,16 +8,17 @@
 #!surge_version=5.14.2(Build3405,SDK18.2)
 #!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
 #!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/189.png
-#!date=2025-07-09
+#!date=2026-01-20
 
 [Rule]
+#⚠️域名[appgoad.189.cn]可能会导致App端部分功能无法使用，请自行选择是否需要
 DOMAIN, ad.21cn.com, REJECT, extended-matching, pre-matching
 DOMAIN, ad.k.21cn.com, REJECT, extended-matching, pre-matching
 DOMAIN, admarket.21cn.com, REJECT, extended-matching, pre-matching
 DOMAIN, adshows.21cn.com, REJECT, extended-matching, pre-matching
+DOMAIN, appgo.189.cn, REJECT, extended-matching, pre-matching
 DOMAIN, appgoad.189.cn, REJECT, extended-matching, pre-matching
 DOMAIN, appupdates.189.cn, REJECT, extended-matching, pre-matching
-DOMAIN, appgo.189.cn, REJECT, extended-matching, pre-matching
 IP-CIDR, 122.229.8.47/32, REJECT, no-resolve, pre-matching
 IP-CIDR, 122.229.29.89/32, REJECT, no-resolve, pre-matching
 
