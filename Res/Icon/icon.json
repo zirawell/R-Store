@@ -1,7 +1,7 @@
 {
   "name": "All Icons",
   "description": "collected by zirawell",
-  "time": "2026-01-10",
+  "time": "2026-01-21",
   "icons": [
     {
       "name": "shihuo",
@@ -14,6 +14,10 @@
     {
       "name": "jygs",
       "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/jygs.png"
+    },
+    {
+      "name": "papago",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/papago.png"
     },
     {
       "name": "pipi",

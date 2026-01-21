@@ -1,0 +1,18 @@
+#!name=papago - PAPAGO
+#!desc=Naver Papago - AI 翻译
+#!openUrl=https://apps.apple.com/app/id1147874819
+#!bundleId=com.naver.papago
+#!author=zirawell[https://github.com/zirawell]
+#!tag=去广告
+#!basedOn=iOS
+#!surge_version=5.14.2(Build3405,SDK18.2)
+#!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
+#!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/papago.png
+#!date=2026-01-21
+
+
+[Body Rewrite]
+http-response ^https?:\/\/nam\.veta\.naver\.com\/gfp\/v\d\? ads ads0
+
+[MITM]
+hostname= %APPEND% nam.veta.naver.com

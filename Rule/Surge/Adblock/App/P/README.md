@@ -1,10 +1,11 @@
 # P
 <details>
 <summary>
-本目录共收录15个App，详情见如下，单击导入对应配置：
+本目录共收录16个App，详情见如下，单击导入对应配置：
 </summary>
 
  自动导入功能依赖 [【神机模块】](https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/Surge/Redirect/DivineEngine.sgmodule)
+- [papago](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FP%2Fpapago%2Fpapago.sgmodule)
 - [pikpak](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FP%2Fpikpak%2Fpikpak.sgmodule)
 - [pixiv](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FP%2Fpixiv%2Fpixiv.sgmodule)
 - [平安口袋银行](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FP%2F%E5%B9%B3%E5%AE%89%E5%8F%A3%E8%A2%8B%E9%93%B6%E8%A1%8C%2Fsdb.sgmodule)

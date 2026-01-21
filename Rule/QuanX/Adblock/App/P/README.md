@@ -1,9 +1,10 @@
 # P
 <details>
 <summary>
-本目录共收录15个App，详情见如下，单击导入对应配置：
+本目录共收录16个App，详情见如下，单击导入对应配置：
 </summary>
 
+- [papago](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FP%2Fpapago%2Frewrite%2Fpapago.conf%2C%20tag%3Dpapago%22%5D%7D)
 - [pikpak](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FP%2Fpikpak%2Frewrite%2Fpikpak.conf%2C%20tag%3Dpikpak%22%5D%7D)
 - [pixiv](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FP%2Fpixiv%2Ffilter%2Fpixiv.list%2C%20tag%3Dpixiv%22%5D%2C%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FP%2Fpixiv%2Frewrite%2Fpixiv.conf%2C%20tag%3Dpixiv%22%5D%7D)
 - [平安口袋银行](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FP%2F%E5%B9%B3%E5%AE%89%E5%8F%A3%E8%A2%8B%E9%93%B6%E8%A1%8C%2Ffilter%2Fsdb.list%2C%20tag%3D%E5%B9%B3%E5%AE%89%E5%8F%A3%E8%A2%8B%E9%93%B6%E8%A1%8C%22%5D%2C%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FP%2F%E5%B9%B3%E5%AE%89%E5%8F%A3%E8%A2%8B%E9%93%B6%E8%A1%8C%2Frewrite%2Fsdb.conf%2C%20tag%3D%E5%B9%B3%E5%AE%89%E5%8F%A3%E8%A2%8B%E9%93%B6%E8%A1%8C%22%5D%7D)
