@@ -8,18 +8,19 @@
 #!surge_version=5.14.2(Build3405,SDK18.2)
 #!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
 #!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/caiyunapp.png
-#!date=2025-07-08
+#!date=2026-01-22
 
 [Rule]
 DOMAIN, ad.cyapi.cn, REJECT, extended-matching, pre-matching
+DOMAIN, gather.colorfulclouds.net, REJECT, extended-matching, pre-matching
 
-[Map Local]
-^https?:\/\/biz\.cyapi\.cn\/v\d\/product data-type=text data="{}" status-code=200
-^https?:\/\/biz\.cyapi\.cn\/p\/v\d\/(entries|trial_card\/info) data-type=text data="{}" status-code=200
-^https?:\/\/starplucker\.cyapi\.cn\/v\d\/(config\/cypage\/\w+\/conditions|notification\/message_center|operation\/homefeatures) data-type=text data="{}" status-code=200
-
-[Script]
-caiyunapp = type=http-response,pattern=^https?:\/\/(wrapper\.cyapi\.cn|api\.caiyunapp\.com)\/v\d\/activity\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/caiyun.js
+[Body Rewrite]
+# 移除小助手
+http-response-jq ^https?:\/\/wrapper\.cyapi\.cn\/v\d\/activity\?.*type_id=A03 '.activities[]? |= (if .feature != null then .feature = false else . end)'
+# 移除搜索内的推广
+http-response-jq ^https?:\/\/starplucker\.cyapi\.cn\/v\d\/config 'del(.search_suggestions)?'
+# 移除广告和推广
+http-response-jq ^https?:\/\/starplucker\.cyapi\.cn\/v\d\/config '(.pic_page_card_orders[]?, .map_page_card_orders[]?) |= select(.name | test("^(A|C01)") | not)'
 
 [MITM]
-hostname= %APPEND% biz.cyapi.cn, starplucker.cyapi.cn, wrapper.cyapi.cn, api.caiyunapp.com
+hostname= %APPEND% wrapper.cyapi.cn, starplucker.cyapi.cn
