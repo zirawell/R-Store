@@ -1,5 +1,4 @@
 # > 京东 - JD
-host, dns.jd.com, reject
 host, waapdg.jd.com, reject
 host, dsp-x.jd.com, reject
 host, xlog.jd.com, reject
