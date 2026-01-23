@@ -10,7 +10,6 @@
 #!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/papago.png
 #!date=2026-01-21
 
-
 [Body Rewrite]
 http-response ^https?:\/\/nam\.veta\.naver\.com\/gfp\/v\d\? ads ads0
 
