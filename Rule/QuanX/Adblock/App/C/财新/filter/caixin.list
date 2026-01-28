@@ -1,4 +1,6 @@
 # > 财新 - CAIXIN
+host, gg.caixin.com, reject
+host, dolphin.caixin.com, reject
 host-suffix, apollo.caixin.com, reject
 host-suffix, logstat.caixin.com, reject
 host-suffix, promote.caixin.com, reject
