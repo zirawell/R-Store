@@ -1,7 +1,7 @@
 {
   "name": "App Icons",
   "description": "collected by zirawell",
-  "time": "2026-01-21",
+  "time": "2026-01-29",
   "icons": [
     {
       "name": "shihuo",
@@ -1710,6 +1710,10 @@
     {
       "name": "bybutter",
       "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/bybutter.png"
+    },
+    {
+      "name": "ajmide",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/ajmide.png"
     },
     {
       "name": "lifeweek",
