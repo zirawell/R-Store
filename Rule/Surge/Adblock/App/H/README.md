@@ -1,7 +1,7 @@
 # H
 <details>
 <summary>
-本目录共收录27个App，详情见如下，单击导入对应配置：
+本目录共收录28个App，详情见如下，单击导入对应配置：
 </summary>
 
  自动导入功能依赖 [【神机模块】](https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/Surge/Redirect/DivineEngine.sgmodule)
@@ -21,6 +21,7 @@
 - [杭州公共交通](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FH%2F%E6%9D%AD%E5%B7%9E%E5%85%AC%E5%85%B1%E4%BA%A4%E9%80%9A%2Fibuscloud.sgmodule)
 - [杭州市民卡](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FH%2F%E6%9D%AD%E5%B7%9E%E5%B8%82%E6%B0%91%E5%8D%A1%2Fhzsmk.sgmodule)
 - [汇丰汇选](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FH%2F%E6%B1%87%E4%B8%B0%E6%B1%87%E9%80%89%2Fhsbcfts.sgmodule)
+- [海南航空](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FH%2F%E6%B5%B7%E5%8D%97%E8%88%AA%E7%A9%BA%2Fhnair.sgmodule)
 - [海尔智家](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FH%2F%E6%B5%B7%E5%B0%94%E6%99%BA%E5%AE%B6%2Fehaier.sgmodule)
 - [海马爸比](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FH%2F%E6%B5%B7%E9%A9%AC%E7%88%B8%E6%AF%94%2Fhaima.sgmodule)
 - [盒马](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FH%2F%E7%9B%92%E9%A9%AC%2Ffreshippo.sgmodule)
