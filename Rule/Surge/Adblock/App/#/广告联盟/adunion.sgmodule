@@ -8,7 +8,7 @@
 #!surge_version=5.14.2(Build3405,SDK18.2)
 #!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
 #!icon=
-#!date=2025-12-21
+#!date=2026-02-03
 # > 神策 - SENSORDATA
 # > GozenData - GOZENDATA
 # > 字节 - BYTEDANCE
@@ -462,7 +462,6 @@ IP-CIDR, 180.76.76.200/32, REJECT, no-resolve, pre-matching
 DOMAIN, o2o-ad-log-gateway.alibaba.com, REJECT, extended-matching, pre-matching
 DOMAIN, eco.taobao.com, REJECT, extended-matching, pre-matching
 DOMAIN, ilce.alicdn.com, REJECT, extended-matching, pre-matching
-DOMAIN, ossgw.alicdn.com, REJECT, extended-matching, pre-matching
 DOMAIN, hudong.alicdn.com, REJECT, extended-matching, pre-matching
 DOMAIN, baichuan-sdk.alicdn.com, REJECT, extended-matching, pre-matching
 DOMAIN, beacon-api.aliyuncs.com, REJECT, extended-matching, pre-matching

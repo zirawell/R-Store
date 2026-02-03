@@ -440,7 +440,6 @@ ip-cidr, 180.76.76.200/32, reject
 host, o2o-ad-log-gateway.alibaba.com, reject
 host, eco.taobao.com, reject
 host, ilce.alicdn.com, reject
-host, ossgw.alicdn.com, reject
 host, hudong.alicdn.com, reject
 host, baichuan-sdk.alicdn.com, reject
 host, beacon-api.aliyuncs.com, reject

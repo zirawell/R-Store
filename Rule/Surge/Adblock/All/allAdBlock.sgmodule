@@ -6,7 +6,7 @@
 #!surge_version=5.14.2(Build3405,SDK18.2)
 #!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
 #!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/Filter/AdBlock.png
-#!date=2026-02-02 16:00:10
+#!date=2026-02-03 15:06:34
 
 [Rule]
 IP-CIDR, 1.202.85.193/32, REJECT, no-resolve, pre-matching
@@ -422,7 +422,6 @@ DOMAIN, open-pixon.ads-pixiv.net, REJECT, extended-matching, pre-matching
 DOMAIN, open.e.kuaishou.com, REJECT, extended-matching, pre-matching
 DOMAIN, open.kuaishou.com, REJECT, extended-matching, pre-matching
 DOMAIN, optimus-ads.amap.com, REJECT, extended-matching, pre-matching
-DOMAIN, ossgw.alicdn.com, REJECT, extended-matching, pre-matching
 DOMAIN, pageviewp.icbc.com.cn, REJECT, extended-matching, pre-matching
 DOMAIN, pgdt.gtimg.cn, REJECT, extended-matching, pre-matching
 DOMAIN, pl.cp31.ott.cibntv.net, REJECT, extended-matching, pre-matching
