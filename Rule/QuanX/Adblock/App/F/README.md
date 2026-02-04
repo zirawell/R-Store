@@ -1,7 +1,7 @@
 # F
 <details>
 <summary>
-本目录共收录16个App，详情见如下，单击导入对应配置：
+本目录共收录17个App，详情见如下，单击导入对应配置：
 </summary>
 
 - [Foodie](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FF%2FFoodie%2Frewrite%2Ffoodie.conf%2C%20tag%3DFoodie%22%5D%7D)
@@ -19,6 +19,7 @@
 - [飞常准](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FF%2F%E9%A3%9E%E5%B8%B8%E5%87%86%2Ffilter%2Fvariflight.list%2C%20tag%3D%E9%A3%9E%E5%B8%B8%E5%87%86%22%5D%2C%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FF%2F%E9%A3%9E%E5%B8%B8%E5%87%86%2Frewrite%2Fvariflight.conf%2C%20tag%3D%E9%A3%9E%E5%B8%B8%E5%87%86%22%5D%7D)
 - [飞智游戏厅](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FF%2F%E9%A3%9E%E6%99%BA%E6%B8%B8%E6%88%8F%E5%8E%85%2Frewrite%2Fflydigi.conf%2C%20tag%3D%E9%A3%9E%E6%99%BA%E6%B8%B8%E6%88%8F%E5%8E%85%22%5D%7D)
 - [飞猪旅行](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FF%2F%E9%A3%9E%E7%8C%AA%E6%97%85%E8%A1%8C%2Frewrite%2Ffliggy.conf%2C%20tag%3D%E9%A3%9E%E7%8C%AA%E6%97%85%E8%A1%8C%22%5D%7D)
+- [飞猫管家](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FF%2F%E9%A3%9E%E7%8C%AB%E7%AE%A1%E5%AE%B6%2Frewrite%2Fflymodem.conf%2C%20tag%3D%E9%A3%9E%E7%8C%AB%E7%AE%A1%E5%AE%B6%22%5D%7D)
 - [鳳凰秀](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FF%2F%E9%B3%B3%E5%87%B0%E7%A7%80%2Frewrite%2Ffengshows.conf%2C%20tag%3D%E9%B3%B3%E5%87%B0%E7%A7%80%22%5D%7D)
 
 </details>
