@@ -8,10 +8,16 @@
 #!surge_version=5.14.2(Build3405,SDK18.2)
 #!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
 #!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/36kr.png
-#!date=2025-07-08
+#!date=2026-02-04
+
+[Rule]
+DOMAIN, adx.36kr.com, REJECT, extended-matching, pre-matching
 
 [URL Rewrite]
 ^https?:\/\/gateway\.36kr\.com\/api\/adx\/ad\/show - reject
+
+[Map Local]
+^https?:\/\/gateway\.36kr\.com\/api\/mis\/sys\/popup data-type=text data="{}" status-code=200
 
 [MITM]
 hostname= %APPEND% gateway.36kr.com
