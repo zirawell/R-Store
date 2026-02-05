@@ -1,9 +1,10 @@
 # C
 <details>
 <summary>
-本目录共收录18个App，详情见如下，单击导入对应配置：
+本目录共收录19个App，详情见如下，单击导入对应配置：
 </summary>
 
+- [catchtable](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FC%2Fcatchtable%2Frewrite%2Fcatchtable.conf%2C%20tag%3Dcatchtable%22%5D%7D)
 - [chatgpt](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FC%2Fchatgpt%2Frewrite%2Fchatgpt.conf%2C%20tag%3Dchatgpt%22%5D%7D)
 - [crunchyroll](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FC%2Fcrunchyroll%2Frewrite%2Fcrunchyroll.conf%2C%20tag%3Dcrunchyroll%22%5D%7D)
 - [csdn](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FC%2Fcsdn%2Frewrite%2Fcsdn.conf%2C%20tag%3Dcsdn%22%5D%7D)

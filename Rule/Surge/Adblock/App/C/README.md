@@ -1,10 +1,11 @@
 # C
 <details>
 <summary>
-本目录共收录18个App，详情见如下，单击导入对应配置：
+本目录共收录19个App，详情见如下，单击导入对应配置：
 </summary>
 
  自动导入功能依赖 [【神机模块】](https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/Surge/Redirect/DivineEngine.sgmodule)
+- [catchtable](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FC%2Fcatchtable%2Fcatchtable.sgmodule)
 - [chatgpt](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FC%2Fchatgpt%2Fchatgpt.sgmodule)
 - [crunchyroll](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FC%2Fcrunchyroll%2Fcrunchyroll.sgmodule)
 - [csdn](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FC%2Fcsdn%2Fcsdn.sgmodule)

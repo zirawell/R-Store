@@ -1,0 +1,17 @@
+#!name=catchtable - CATCHTABLE
+#!desc=CATCH TABLE: Book Restaurants
+#!openUrl=https://apps.apple.com/app/id1639046576
+#!bundleId=co.catchtable.m2
+#!author=zirawell[https://github.com/zirawell]
+#!tag=去广告
+#!basedOn=iOS
+#!surge_version=5.14.2(Build3405,SDK18.2)
+#!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
+#!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/catchtable.png
+#!date=2026-02-05
+
+[URL Rewrite]
+^https?:\/\/api\.catchtable\.net\/api\/v\d\/banner\/live\?localeCode=\w+-\w+&bannerType=MAIN_POPUP_MID - reject
+
+[MITM]
+hostname= %APPEND% api.catchtable.net

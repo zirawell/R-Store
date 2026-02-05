@@ -1,7 +1,7 @@
 {
   "name": "App Icons",
   "description": "collected by zirawell",
-  "time": "2026-02-04",
+  "time": "2026-02-05",
   "icons": [
     {
       "name": "shihuo",
@@ -1526,6 +1526,10 @@
     {
       "name": "bestv",
       "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/bestv.png"
+    },
+    {
+      "name": "catchtable",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/catchtable.png"
     },
     {
       "name": "damai",
