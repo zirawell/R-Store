@@ -4,7 +4,6 @@ host-suffix, adrta.com, reject
 host-suffix, adsrvr.org, reject
 host-suffix, ads.inmobi.com, reject
 host-suffix, ads.pubmatic.com, reject
-host-suffix, akamaized.net, reject
 host-suffix, amazon-adsystem.com, reject
 host-suffix, bidder.criteo.com, reject
 host-suffix, gum.criteo.com, reject
