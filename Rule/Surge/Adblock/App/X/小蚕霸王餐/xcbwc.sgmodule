@@ -8,15 +8,13 @@
 #!surge_version=5.14.2(Build3405,SDK18.2)
 #!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
 #!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/xcbwc.png
-#!date=2025-07-15
+#!date=2026-02-12
 
 [Header Rewrite]
 # 红包推广
-http-request ^https?:\/\/gw\.xiaocantech\.com\/rpc header-replace-regex 'methodname' '.*(GetBannerList|IsShowOrderAwardPopup|UserLifeShopList|BrandBannerList|GetPromotionGlobalCfg)' 'null'
+http-request ^https?:\/\/gw\.xiaocantech\.com\/rpc header-replace-regex 'methodname' '(?>Popup|Banner|BatchMatchPlacement|WaitClaimedPoints)' 'null'
 
 [Map Local]
-# 更新弹窗
-^https?:\/\/gw\.xiaocantech\.com\/g\/pa data-type=text data="{}" status-code=200
 # 首页横幅推广
 ^https?:\/\/web2\.realtech-inc\.com\/oss\/xc-app-assets\/configs\/common\/theme data-type=text data="{}" status-code=200
 
