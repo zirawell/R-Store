@@ -6,7 +6,7 @@
 #!surge_version=5.14.2(Build3405,SDK18.2)
 #!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
 #!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/Filter/AdBlock.png
-#!date=2026-02-05 11:01:25
+#!date=2026-02-11 13:21:51
 
 [Rule]
 IP-CIDR, 1.202.85.193/32, REJECT, no-resolve, pre-matching
@@ -1548,6 +1548,7 @@ DOMAIN-KEYWORD, wan.sogou.com, REJECT, extended-matching, pre-matching
 ^https?:\/\/sytgate\.jslife\.com\.cn\/base-gateway\/config\/queryAppNewVersion - reject
 ^https?:\/\/xxyx-client-api\.xiaoxiaoyouxuan\.com\/client\/invite\/phone\/activity\/popup - reject
 ^https?:\/\/ut2\.shuqistat\.com\/.+\.gif - reject
+^https?:\/\/xxyx-client-api\.xiaoxiaoyouxuan\.com\/\w+_banner - reject
 ^https?:\/\/dss0\.bdstatic\.com\/.+/tam-ogel\/.+\.(?>jpg|mp4) - reject
 ^https?:\/\/aiqicha\.baidu\.com\/apps\/getHomeMonitorDataAjax - reject
 ^https?:\/\/www\.okx\.com\/v\d\/support\/home\/app\/updateInfo - reject
@@ -1702,6 +1703,7 @@ DOMAIN-KEYWORD, wan.sogou.com, REJECT, extended-matching, pre-matching
 ^https?:\/\/pan\.baidu\.com\/api\/useractivity\/activity - reject
 ^https?:\/\/api\.qbb6\.com\/commons\/check\/app\/update - reject
 ^https?:\/\/api\.gongkaoleida\.com\/api\/v\d\/ad\/info - reject
+^https?:\/\/xxyx-client-api\.xiaoxiaoyouxuan\.com\/agent_ad - reject
 ^https?:\/\/stlib\.qbb6\.com\/wclt\/js\/core\/popup - reject
 ^https?:\/\/learn\.chaoxing\.com\/apis\/service\/appConfig\? - reject
 ^https?:\/\/api\.futunn\.com\/treasure-chest\/box-data - reject
@@ -1830,7 +1832,6 @@ DOMAIN-KEYWORD, wan.sogou.com, REJECT, extended-matching, pre-matching
 ^https?:\/\/mage(v\d)?\.if\.qidian\.com\/argus\/api\/v\d\/client\/getsplashscreen - reject
 ^https?:\/\/api\.xueqiu\.com\/brand\/search\/ - reject
 ^https?:\/\/helper\.2bulu\.com\/(greenPea\/queryTasks|proSpecial\/allData|saveSplashFrequencyStatistics|getPopInfo|getAppEntranceConfig|promote\/list|getSplash|outing\/reqFoundNewList|outing\/reqIndex) - reject
-^https?:\/\/xxyx-client-api\.xiaoxiaoyouxuan\.com\/\w+_(?>ad|banner) - reject
 ^https?:\/\/(?>csc|osg)-service\.sgcc\.com\.cn:\d+\/.*\/inner\/cache - reject
 ^https?:\/\/sf3-be-pack\.pglstatp-toutiao\.com\/img\/ad\.union\.api - reject
 ^https?:\/\/api\.catchtable\.net\/api\/v\d\/banner\/live\?localeCode=\w+-\w+&bannerType=MAIN_POPUP_MID - reject
@@ -2839,6 +2840,7 @@ http-response-jq ^https?:\/\/api\.xiaoyuzhoufm\.com\/v\d\/discovery-feed\/list '
 http-response-jq ^https?:\/\/oneapp-api\.faw-vw\.com\/content\/booth\/getBoothList\/v\d\?.*showPositionCode=VWAPP_(?>ICE|MEB)_(?>OPEN_SCREEN_ADS|CAR_ZHIHU_COLLEGE) '. = { returnStatus: "SUCCEED", hasMore: false, data: [] }'
 http-response-jq ^https?:\/\/starplucker\.cyapi\.cn\/v\d\/config 'del(.search_suggestions)?'
 http-response ^https?:\/\/beta-api\.crunchyroll\.com\/cms offset_ms":\d+ offset_ms":99999999999999
+http-response ^https?:\/\/xxyx-client-api\.xiaoxiaoyouxuan\.com\/place_ad resource_slug random_body
 http-response-jq ^https?:\/\/oneapp-api\.faw-vw\.com\/content\/collection\/getCollectionList\/v\d\? '. = { returnStatus: "SUCCEED", hasMore: false, data: {} }'
 http-response ^https?:\/\/app-izz\.zhengzhou\.gov\.cn:10019\/bizgw\/gateway\.do "imgUrl19_5x9":".+?" "imgUrl19_5x9":""
 http-response-jq ^https?:\/\/wrapper\.cyapi\.cn\/v\d\/activity\?.*type_id=A03 '.activities[]? |= (if .feature != null then .feature = false else . end)'
