@@ -6,7 +6,7 @@
 #!surge_version=5.14.2(Build3405,SDK18.2)
 #!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
 #!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/Filter/AdBlock.png
-#!date=2026-02-12 15:01:03
+#!date=2026-02-13 07:58:13
 
 [Rule]
 IP-CIDR, 1.202.85.193/32, REJECT, no-resolve, pre-matching
@@ -2273,6 +2273,7 @@ https?:\/\/awg\.enmonster\.com\/apa\/(advert\/demand\/home\/poster|index\/advert
 ^https?:\/\/thor\.weidian\.com\/ares\/home\.splash data-type=text data="" status-code=200
 ^https?:\/\/mlol\.qt\.qq\.com\/go\/recommend\/(?!v\d\/platactivity) data-type=text data="" status-code=200
 ^https?:\/\/apiproxy\.zuche\.com\/resource\/carrctapi\/home\/page\/advertising data-type=text data="{}" status-code=200
+^https?:\/\/waimai-guide\.ele\.me\/(gw|h5)\/mtop\.alsc\.upp\.tbet\.send data-type=text data="{}" status-code=200
 ^https?:\/\/api\.weibo\.cn\/!\/sug\/list\/finderchange\? data-type=text data="{}" status-code=200
 ^https?:\/\/zone\.guiderank-app\.com\/guiderank-web\/app\/stockTaking\/pageStockTakingForHomePage data-type=text data="{}" status-code=200
 ^https?:\/\/preprod\.cdzghome\.com:\d+\/banner\/bootUp data-type=text data="" status-code=200
