@@ -6,7 +6,7 @@
 #!surge_version=5.14.2(Build3405,SDK18.2)
 #!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
 #!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/Filter/AdBlock.png
-#!date=2026-02-13 15:51:49
+#!date=2026-02-14 20:48:56
 
 [Rule]
 IP-CIDR, 1.202.85.193/32, REJECT, no-resolve, pre-matching
@@ -1567,6 +1567,7 @@ DOMAIN-KEYWORD, wan.sogou.com, REJECT, extended-matching, pre-matching
 ^https?:\/\/api\.gotokeep\.com\/kprime\/v\d\/popups\/primeGuide - reject
 ^https?:\/\/slapi\.oray\.net\/(client\/)?ad - reject
 ^https?:\/\/mrobot\.(?>pcauto|pconline)\.com\.cn\/xsp\/s\/auto\/info\/(ad|preload) - reject
+^https?:\/\/app\.variflight\.com\/v\d\/config\/getmenunotice - reject
 ^https?:\/\/download\.trip\.com\/html5 - reject
 ^https?:\/\/r6\.mo\.baidu\.com\/res\/file/advertisement\/files\/.+\.jpg - reject
 ^https?:\/\/cube\.elemecdn\.com\/[\w\/]+\.jpeg\?x-oss-process=image\/resize,m_fill,w_\d{3},h_\d{4}\/format,webp\/ - reject
