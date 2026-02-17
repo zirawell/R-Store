@@ -1,0 +1,7 @@
+# > 有赞<微信小程序> - YOUZAN
+
+[Map Local]
+^https?:\/\/\w+\.youzan\.com\/wscshop\/shopad data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% *.youzan.com
