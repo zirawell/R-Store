@@ -1,0 +1,21 @@
+#!name=氢离子 - ALIJK
+#!desc=氢离子-医学AI助手
+#!openUrl=https://apps.apple.com/app/id6738349403
+#!bundleId=com.alihealth.aichat
+#!author=zirawell[https://github.com/zirawell]
+#!tag=去广告
+#!basedOn=iOS
+#!surge_version=5.14.2(Build3405,SDK18.2)
+#!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
+#!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/alijk.png
+#!date=2026-02-27
+
+[URL Rewrite]
+^https?:\/\/acs-m\.alijk\.com\/gw\/mtop\.alihealth\.doctor\.llm\.config\.list - reject
+^https?:\/\/acs-m\.alijk\.com\/gw\/mtop\.alihealth\.doctor\.llm\.platform\.user\.activity\.get - reject
+
+[Body Rewrite]
+http-response ^https?:\/\/acs-m\.alijk\.com\/gw\/mtop\.alihealth\.doctor\.llm\.remind\.get "shouldRemind":"true" "shouldRemind":"false"
+
+[MITM]
+hostname= %APPEND% acs-m.alijk.com

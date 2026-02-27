@@ -1,7 +1,7 @@
 {
   "name": "App Icons",
   "description": "collected by zirawell",
-  "time": "2026-02-05",
+  "time": "2026-02-27",
   "icons": [
     {
       "name": "shihuo",
@@ -278,6 +278,10 @@
     {
       "name": "chatgpt",
       "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/chatgpt.png"
+    },
+    {
+      "name": "alijk",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/alijk.png"
     },
     {
       "name": "fenqile",

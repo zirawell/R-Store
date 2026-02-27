@@ -1,7 +1,7 @@
 # Q
 <details>
 <summary>
-本目录共收录20个App，详情见如下，单击导入对应配置：
+本目录共收录21个App，详情见如下，单击导入对应配置：
 </summary>
 
  自动导入功能依赖 [【神机模块】](https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/Surge/Redirect/DivineEngine.sgmodule)
@@ -19,6 +19,7 @@
 - [奇点阅读](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FQ%2F%E5%A5%87%E7%82%B9%E9%98%85%E8%AF%BB%2Fqi.sgmodule)
 - [奇瑞汽车](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FQ%2F%E5%A5%87%E7%91%9E%E6%B1%BD%E8%BD%A6%2Fchery.sgmodule)
 - [巧虎官方](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FQ%2F%E5%B7%A7%E8%99%8E%E5%AE%98%E6%96%B9%2Fqiaohu.sgmodule)
+- [氢离子](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FQ%2F%E6%B0%A2%E7%A6%BB%E5%AD%90%2Falijk.sgmodule)
 - [汽水音乐](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FQ%2F%E6%B1%BD%E6%B0%B4%E9%9F%B3%E4%B9%90%2Fqishui.sgmodule)
 - [汽车之家](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FQ%2F%E6%B1%BD%E8%BD%A6%E4%B9%8B%E5%AE%B6%2Fautohome.sgmodule)
 - [穷游](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FQ%2F%E7%A9%B7%E6%B8%B8%2Fqyer.sgmodule)
