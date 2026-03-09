@@ -26,7 +26,10 @@ For an example, if I want to import the adblock rules of `大众点评`.
 
 ![](https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Images/QuanX_Conf_Note01.jpg)
 
+#### Compatibility
+Rules in this repo may not compatible with the latest version of apps, if the rules not work properly, please check the app version list below.
 
+[OldVersionAppList](https://www.github.com/zirawell/R-Store/main/Res/Doc/md/OldVersionAppList.md)
 
 #### What looks like
 ![](https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Images/QuanX_Conf_iOS_Sample.jpg)
