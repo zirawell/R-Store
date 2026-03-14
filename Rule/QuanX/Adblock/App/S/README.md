@@ -1,9 +1,10 @@
 # S
 <details>
 <summary>
-本目录共收录37个App，详情见如下，单击导入对应配置：
+本目录共收录38个App，详情见如下，单击导入对应配置：
 </summary>
 
+- [skyscanner](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FS%2Fskyscanner%2Frewrite%2Fskyscanner.conf%2C%20tag%3Dskyscanner%22%5D%7D)
 - [snapchat](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FS%2Fsnapchat%2Ffilter%2Fsnapchat.list%2C%20tag%3Dsnapchat%22%5D%7D)
 - [soul](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FS%2Fsoul%2Ffilter%2Fsoul.list%2C%20tag%3Dsoul%22%5D%2C%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FS%2Fsoul%2Frewrite%2Fsoul.conf%2C%20tag%3Dsoul%22%5D%7D)
 - [speedtest](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FS%2Fspeedtest%2Ffilter%2Fspeedtest.list%2C%20tag%3Dspeedtest%22%5D%7D)
