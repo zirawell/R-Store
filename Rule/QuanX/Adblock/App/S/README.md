@@ -1,7 +1,7 @@
 # S
 <details>
 <summary>
-本目录共收录38个App，详情见如下，单击导入对应配置：
+本目录共收录39个App，详情见如下，单击导入对应配置：
 </summary>
 
 - [skyscanner](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FS%2Fskyscanner%2Frewrite%2Fskyscanner.conf%2C%20tag%3Dskyscanner%22%5D%7D)
@@ -30,7 +30,8 @@
 - [深圳通](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FS%2F%E6%B7%B1%E5%9C%B3%E9%80%9A%2Frewrite%2Fshenzhentong.conf%2C%20tag%3D%E6%B7%B1%E5%9C%B3%E9%80%9A%22%5D%7D)
 - [省钱快报](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FS%2F%E7%9C%81%E9%92%B1%E5%BF%AB%E6%8A%A5%2Ffilter%2Fsqkb.list%2C%20tag%3D%E7%9C%81%E9%92%B1%E5%BF%AB%E6%8A%A5%22%5D%2C%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FS%2F%E7%9C%81%E9%92%B1%E5%BF%AB%E6%8A%A5%2Frewrite%2Fsqkb.conf%2C%20tag%3D%E7%9C%81%E9%92%B1%E5%BF%AB%E6%8A%A5%22%5D%7D)
 - [神仙外企](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FS%2F%E7%A5%9E%E4%BB%99%E5%A4%96%E4%BC%81%2Frewrite%2Fsxwq.conf%2C%20tag%3D%E7%A5%9E%E4%BB%99%E5%A4%96%E4%BC%81%22%5D%7D)
-- [神舟专车](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FS%2F%E7%A5%9E%E8%88%9F%E4%B8%93%E8%BD%A6%2Frewrite%2Fszzc.conf%2C%20tag%3D%E7%A5%9E%E8%88%9F%E4%B8%93%E8%BD%A6%22%5D%7D)
+- [神州专车](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FS%2F%E7%A5%9E%E5%B7%9E%E4%B8%93%E8%BD%A6%2Frewrite%2Fszzc.conf%2C%20tag%3D%E7%A5%9E%E5%B7%9E%E4%B8%93%E8%BD%A6%22%5D%7D)
+- [神州租车](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FS%2F%E7%A5%9E%E5%B7%9E%E7%A7%9F%E8%BD%A6%2Frewrite%2Fzuche.conf%2C%20tag%3D%E7%A5%9E%E5%B7%9E%E7%A7%9F%E8%BD%A6%22%5D%7D)
 - [苏e行](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FS%2F%E8%8B%8Fe%E8%A1%8C%2Frewrite%2Fbwton.conf%2C%20tag%3D%E8%8B%8Fe%E8%A1%8C%22%5D%7D)
 - [苏周到](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FS%2F%E8%8B%8F%E5%91%A8%E5%88%B0%2Frewrite%2Fsuzhou.conf%2C%20tag%3D%E8%8B%8F%E5%91%A8%E5%88%B0%22%5D%7D)
 - [苏宁易购](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FS%2F%E8%8B%8F%E5%AE%81%E6%98%93%E8%B4%AD%2Frewrite%2Fsuning.conf%2C%20tag%3D%E8%8B%8F%E5%AE%81%E6%98%93%E8%B4%AD%22%5D%7D)

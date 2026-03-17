@@ -6,7 +6,7 @@
 #!surge_version=5.14.2(Build3405,SDK18.2)
 #!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
 #!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/Filter/AdBlock.png
-#!date=2026-03-14 15:17:20
+#!date=2026-03-17 08:34:27
 
 [Rule]
 IP-CIDR, 1.202.85.193/32, REJECT, no-resolve, pre-matching
@@ -1591,6 +1591,7 @@ DOMAIN-KEYWORD, wan.sogou.com, REJECT, extended-matching, pre-matching
 ^https?:\/\/www\.zhihu\.com\/api\/v\d\/mcn\/v\d\/linkcards\? - reject
 ^https?:\/\/p\.meituan\.com\/api\/privacy\/config - reject
 ^https?:\/\/api\.zhihu\.com\/unlimited\/go\/my_card - reject
+^https?:\/\/apiproxy\.zuche\.com\/action\/carrctapi\/brand\/area\/advertising - reject
 ^https?:\/\/wap\.spdb\.com\.cn\/mspmk-web-homeassist\/OpenScreenAdv\.ah$ - reject
 ^https?:\/\/wanciwangdata\.oss-cn-\w+\.aliyuncs\.com\/startup\/resource\/content - reject
 ^https?:\/\/sch\.line\.me\/api\/v\d\/ads$ - reject
@@ -2400,6 +2401,7 @@ https?:\/\/awg\.enmonster\.com\/apa\/(advert\/demand\/home\/poster|index\/advert
 ^https?:\/\/m\d-zb\.amap\.com\/ws\/boss\/(order\/car\/king_toolbox_car_bubble|tips\/onscene_visual_optimization) data-type=text data="{}" status-code=200
 ^https?:\/\/shcss\.suning\.com\/shcss-web\/api\/appImage\/queryAppImage data-type=text data="" status-code=200
 ^https?:\/\/web\.meituan\.com\/newUser\/returnMoney\/popWindow data-type=text data="{}" status-code=200
+^https?:\/\/apiproxy\.zuche\.com\/resource\/cardes\/guide data-type=text data="{}" status-code=200
 ^https?:\/\/omgup\d?\.xiaojukeji\.com\/api data-type=text data="" status-code=200
 ^https?:\/\/api\.zhihu\.com\/comment_v\d\/answers\/\d+\/list-headers data-type=text data="{}" status-code=200
 ^https?:\/\/web\.meituan\.com\/api\/miniprogram\/my\/(?>novelZone|resources) data-type=text data="{}" status-code=200
@@ -2463,6 +2465,7 @@ https?:\/\/awg\.enmonster\.com\/apa\/(advert\/demand\/home\/poster|index\/advert
 ^https?:\/\/booking\.bestwehotel\.com\/proxy\/trip-hotel-banner\/activity\/getActivityInfo data-type=text data="" status-code=200
 ^https?:\/\/bd-api\.kuwo\.cn\/api\/service\/finds\/module data-type=text data="{}" status-code=200
 ^https?:\/\/capi\.douyucdn\.cn\/api\/v\d\/getStartSend?client_sys=ios data-type=tiny-gif status-code=200
+^https?:\/\/apiproxy\.zuche\.com\/resource\/carrctapi\/base\/versionInfo data-type=text data="{}" status-code=200
 ^https?:\/\/img0[1-9]{1}\.benlailife\.com\/AppHomePageImage\/upload\/files\/.*.jpg data-type=text data="" status-code=200
 ^https?:\/\/cn-acs\.m\.cainiao\.com\/h5\/mtop\.cainiao\.guoguo\.tdwxgateway\.ads data-type=text data="{}" status-code=200
 ^https?:\/\/api\.weibo\.cn\/2\/!\/was\/finder\/searchbarchange\? data-type=text data="{}" status-code=200
@@ -2749,6 +2752,7 @@ https?:\/\/awg\.enmonster\.com\/apa\/(advert\/demand\/home\/poster|index\/advert
 ^https?:\/\/cdn\.133\.cn\/md\/gtgj\/.+\/.+720x1280 data-type=text data="{}" status-code=200
 ^https?:\/\/tiku\.zhan\.com\/Common\/newAd\/ data-type=text data="" status-code=200
 ^https?:\/\/supplier-api\.imdada\.cn\/fe\/public\/ad\/spot\?forwardServiceName=growth-activity data-type=text data="{}" status-code=200
+^https?:\/\/apiproxy\.zuche\.com\/resource\/cardes\/toufang\/marketing data-type=text data="{}" status-code=200
 ^https?:\/\/c\.m\.163\.com\/nc\/gl\/ data-type=text data="" status-code=200
 ^https?:\/\/mob\.mddcloud\.com\.cn\/api\/(ad|advert)\/ data-type=text data="" status-code=200
 ^https?:\/\/eshop-api-wx-mini\.eshop\.tencent-prod\.pagoda\.com\.cn\/api\/v\d\/memberPage\/launchDialog data-type=text data="{}" status-code=200
@@ -2828,6 +2832,7 @@ https?:\/\/awg\.enmonster\.com\/apa\/(advert\/demand\/home\/poster|index\/advert
 ^https?:\/\/newton\.gumingnc\.com\/newton-buyer\/newton\/buyer\/(ump|touch|external\/front) data-type=text data="{}" status-code=200
 ^https?:\/\/status\.boohee\.com\/api\/v\d\/merged_messages$ data-type=text data="{}" status-code=200
 ^https?:\/\/a\.sinopecsales\.com\/app\/cms data-type=text data="{}" status-code=200
+^https?:\/\/apiproxy\.zuche\.com\/resource\/carrctapi\/order\/homeCommonTips data-type=text data="{}" status-code=200
 ^https?:\/\/e-static\.aia\.com\.cn\/kyh\/resourcefolder\/ads data-type=text data="{}" status-code=200
 ^https?:\/\/ocrifs\.ejoy\.sinopec\.com\/advertitfs\/advert\/findAdvertInfo data-type=text data="" status-code=200
 ^https?:\/\/tm-api\.pin-dao\.cn\/home\/api\/resource\/config\/homeBannerNodes data-type=text data="{}" status-code=200
@@ -2913,6 +2918,7 @@ https?:\/\/awg\.enmonster\.com\/apa\/(advert\/demand\/home\/poster|index\/advert
 ^https?:\/\/img\.meituan\.net\/(adunion|display|midas)\/.+\.(gif|jpg)\.webp$ data-type=tiny-gif status-code=200
 ^https?:\/\/blog\.nilbt\.com\/static\/api\/update data-type=text data="" status-code=200
 ^https?:\/\/oss-zjrs\.haier\.net\/resource\/confFile\/\d{22}\.zip$ data-type=text data="" status-code=200
+^https?:\/\/apiproxy\.zuche\.com\/action\/carrctapi\/order\/appStartInit data-type=text data="{}" status-code=200
 ^https?:\/\/\w+\.youzan\.com\/wscshop\/shopad data-type=text data="{}" status-code=200
 ^https?:\/\/stlib\.qbb6\.com\/content\/\w+\.webp data-type=tiny-gif status-code=200
 ^https?:\/\/oxadmin\.cp\.com\.cn\/api\/advertise\/banner data-type=text data="{}" status-code=200
