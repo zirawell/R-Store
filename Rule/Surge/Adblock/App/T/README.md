@@ -1,7 +1,7 @@
 # T
 <details>
 <summary>
-本目录共收录30个App，详情见如下，单击导入对应配置：
+本目录共收录31个App，详情见如下，单击导入对应配置：
 </summary>
 
  自动导入功能依赖 [【神机模块】](https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/Surge/Redirect/DivineEngine.sgmodule)
@@ -27,6 +27,7 @@
 - [太平洋科技](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FT%2F%E5%A4%AA%E5%B9%B3%E6%B4%8B%E7%A7%91%E6%8A%80%2Fpconline.sgmodule)
 - [推栏](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FT%2F%E6%8E%A8%E6%A0%8F%2Ftuilan.sgmodule)
 - [淘宝](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FT%2F%E6%B7%98%E5%AE%9D%2Ftaobao.sgmodule)
+- [淘宝闪购](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FT%2F%E6%B7%98%E5%AE%9D%E9%97%AA%E8%B4%AD%2Feleme.sgmodule)
 - [淘票票](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FT%2F%E6%B7%98%E7%A5%A8%E7%A5%A8%2Ftaopiaopiao.sgmodule)
 - [腾讯体育](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FT%2F%E8%85%BE%E8%AE%AF%E4%BD%93%E8%82%B2%2Ftxsports.sgmodule)
 - [腾讯地图](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FT%2F%E8%85%BE%E8%AE%AF%E5%9C%B0%E5%9B%BE%2Ftxmaps.sgmodule)
