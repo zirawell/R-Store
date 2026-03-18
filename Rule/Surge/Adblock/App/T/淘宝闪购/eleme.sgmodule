@@ -19,7 +19,7 @@ DOMAIN, wgo.mmstat.com, REJECT, extended-matching, pre-matching
 [Map Local]
 ^https?:\/\/amdc\.m\.ele\.me\/amdc\/mobileDispatch data-type=text data="{}" status-code=200
 ^https?:\/\/g\.alicdn\.com\/TBTakeout\/et-store\/(\d+.)*\/weex\/store-brand-popup data-type=text data="{}" status-code=200
-^https?:\/\/(?>nr-op|cube)\.elemecdn\.com\/image\/.*\.(png|jpeg|jpg|gif)\?x-oss-process=image\/resize,m_fill,w_\d+,h_\d+\/($|format,webp\/$) data-type=tiny-gif status-code=200
+^https?:\/\/(?>nr-op|cube)\.elemecdn\.com\/image\/.*\.(png|jpeg|jpg|gif)\?x-oss-process=image\/resize,m_fill,w_180,h_180\/($|format,webp\/$) data-type=tiny-gif status-code=200
 
 [MITM]
 hostname= %APPEND% amdc.m.ele.me, g.alicdn.com, nr-op.elemecdn.com, cube.elemecdn.com

@@ -6,7 +6,7 @@
 #!surge_version=5.14.2(Build3405,SDK18.2)
 #!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
 #!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/Filter/AdBlock.png
-#!date=2026-03-18 08:28:29
+#!date=2026-03-18 08:37:57
 
 [Rule]
 IP-CIDR, 1.202.85.193/32, REJECT, no-resolve, pre-matching
@@ -2742,6 +2742,7 @@ https?:\/\/awg\.enmonster\.com\/apa\/(advert\/demand\/home\/poster|index\/advert
 ^https?:\/\/api\.cloud\.189\.cn\/guns\/(img\/recommendedPosition|getOpenscreenBanners) data-type=text data="{}" status-code=200
 ^https?:\/\/intellicc\.\w+\.cmbchina\.com\/Edge\/api\/mlife\.intelli\.render\.api\.RecommendRenderControllerApi\/getRecommendResult data-type=text data="{}" status-code=200
 ^https?:\/\/app-api\.pixiv\.net\/v\d\/application-info\/ios data-type=text data="{}" status-code=200
+^https?:\/\/(?>nr-op|cube)\.elemecdn\.com\/image\/.*\.(png|jpeg|jpg|gif)\?x-oss-process=image\/resize,m_fill,w_180,h_180\/($|format,webp\/$) data-type=tiny-gif status-code=200
 ^https?:\/\/app\.ceair\.com\/customize\/security\/update data-type=text data="" status-code=200
 ^https?:\/\/api\.pinduoduo\.com\/api\/caterham\/v\d\/query\/my_order_group data-type=text data="{}" status-code=200
 ^https?:\/\/cdn\.poizon\.com\/node-common\/.*.jpg data-type=text data="" status-code=200
@@ -2772,7 +2773,6 @@ https?:\/\/awg\.enmonster\.com\/apa\/(advert\/demand\/home\/poster|index\/advert
 ^https?:\/\/(api|b)\.zhuishushenqi\.com\/advert data-type=text data="" status-code=200
 ^https?:\/\/gha\.ghac\.cn\:\w+\/base\/app\/api\/ad\/query data-type=text data="" status-code=200
 ^https?:\/\/lamb\.lakala\.com\/lamo\/adv\/access\/queryMaterialUrl data-type=text data="{}" status-code=200
-^https?:\/\/(?>nr-op|cube)\.elemecdn\.com\/image\/.*\.(png|jpeg|jpg|gif)\?x-oss-process=image\/resize,m_fill,w_\d+,h_\d+\/($|format,webp\/$) data-type=tiny-gif status-code=200
 ^https?:\/\/m\.tuniu\.com\/api\/operation\/splash\/ data-type=text data="" status-code=200
 ^https?:\/\/api-c\.liepin\.com\/api\/com\.liepin\.pupa\.discover\.city\.get-ad-comps data-type=text data="{}" status-code=200
 ^https?:\/\/h5api\.sginput\.qq\.com\/v\d\/gcenter\/ios\/homepage data-type=text data="{}" status-code=200
