@@ -6,7 +6,7 @@
 #!surge_version=5.14.2(Build3405,SDK18.2)
 #!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
 #!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/Filter/AdBlock.png
-#!date=2026-03-18 08:37:57
+#!date=2026-03-19 08:05:28
 
 [Rule]
 IP-CIDR, 1.202.85.193/32, REJECT, no-resolve, pre-matching
@@ -951,7 +951,6 @@ DOMAIN-SUFFIX, i.sng.link, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, iad-apple.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, iadmusicmat.music.126.net, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, iadmusicmatvideo.music.126.net, REJECT, extended-matching, pre-matching
-DOMAIN-SUFFIX, iadsdk.apple.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, ic.snssdk.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, idm-su.baidu.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, iebar.baidu.com, REJECT, extended-matching, pre-matching
@@ -1358,6 +1357,7 @@ DOMAIN-KEYWORD, collectionpv.che168.com, REJECT, extended-matching, pre-matching
 DOMAIN-KEYWORD, dns.alidns.com, REJECT, extended-matching, pre-matching
 DOMAIN-KEYWORD, dnspod.meituan.httpdns, REJECT, extended-matching, pre-matching
 DOMAIN-KEYWORD, gdtimg.com, REJECT, extended-matching, pre-matching
+DOMAIN-KEYWORD, iadsdk.apple.com, REJECT, extended-matching, pre-matching
 DOMAIN-KEYWORD, iflyad.bj.openstorage.cn, REJECT, extended-matching, pre-matching
 DOMAIN-KEYWORD, img.adnyg.com, REJECT, extended-matching, pre-matching
 DOMAIN-KEYWORD, inappcheck, REJECT, extended-matching, pre-matching
