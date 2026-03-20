@@ -6,7 +6,7 @@
 #!surge_version=5.14.2(Build3405,SDK18.2)
 #!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
 #!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/Filter/AdBlock.png
-#!date=2026-03-19 08:05:27
+#!date=2026-03-20 09:16:13
 
 [Rule]
 IP-CIDR, 1.202.85.193/32, REJECT, no-resolve, pre-matching
@@ -2465,7 +2465,6 @@ https?:\/\/awg\.enmonster\.com\/apa\/(advert\/demand\/home\/poster|index\/advert
 ^https?:\/\/stars\.shuqireader\.com\/kkios\/render\/load\/resource\/appConfig data-type=text data="{}" status-code=200
 ^https?:\/\/api\.boohee\.com\/shop-interface\/api\/v\d\/home\/index data-type=text data="{}" status-code=200
 ^https?:\/\/c\.zhangle\.com\/pic\/mktg\/diversity\/.+\.jpg$ data-type=text data="{}" status-code=200
-^https?:\/\/m\.hnair\.com\/cms\/config\/standard\/(homePop|recommend|share) data-type=text data="{}" status-code=200
 ^https?:\/\/zj\.haier\.net\/api-gw\/shpmResource\/servicePage\/weather\/query\?areaId data-type=text data="" status-code=200
 ^https?:\/\/pv\.elife\.icbc\.com\.cn\/OFSTPV\/utm\.gif data-type=text data="" status-code=200
 ^https?:\/\/stock\.xueqiu\.com\/v\d\/stock\/group\/recommend\/default\/list data-type=text data="{}" status-code=200
@@ -2606,6 +2605,7 @@ https?:\/\/awg\.enmonster\.com\/apa\/(advert\/demand\/home\/poster|index\/advert
 ^https?:\/\/promote-trx\.helipay\.com\/promote-business-client\/pos\/appAdvertisement\/appAdvertisementList data-type=text data="" status-code=200
 ^https?:\/\/middle\.yun\.139\.com\/openapi\/cardConfig\/queryCardInfoV data-type=text data="" status-code=200
 ^https?:\/\/m\.prod\.app\.hsbcfts\.com\.cn\/api\/sapp\/biz\/config\/open\/queryappversion\?channelCode= data-type=text data="{}" status-code=200
+^https?:\/\/m\.hnair\.com\/cms\/config\/standard\/(?>homePop|recommend|share|startPic) data-type=text data="{}" status-code=200
 ^https?:\/\/images\.cib\.com\.cn\/commons\/uploads\/commons\/[a-zA-Z0-9]{32}\.jpg\?ver=20221[1-2]{1} data-type=text data="" status-code=200
 ^https?:\/\/images\.cib\.com\.cn\/commons\/uploads\/commons\/[a-zA-Z0-9]{32}\.jpg\?ver=20230[1-9]{1} data-type=text data="" status-code=200
 ^https?:\/\/ios\.jjwxc\.com\/app\.jjwxc\/ios\/reading\/WapAdvertises data-type=text data="{}" status-code=200
