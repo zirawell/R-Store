@@ -1,10 +1,11 @@
 # N
 <details>
 <summary>
-本目录共收录2个小程序，详情见如下，单击导入对应配置：
+本目录共收录3个小程序，详情见如下，单击导入对应配置：
 </summary>
 
  自动导入功能依赖 [【神机模块】](https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/Surge/Redirect/DivineEngine.sgmodule)
+- [南方航空](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApplet%2FWechat%2FN%2F%E5%8D%97%E6%96%B9%E8%88%AA%E7%A9%BA%2Fcsair.sgmodule)
 - [奈雪点单](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApplet%2FWechat%2FN%2F%E5%A5%88%E9%9B%AA%E7%82%B9%E5%8D%95%2Fnaixue.sgmodule)
 - [挪瓦咖啡](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApplet%2FWechat%2FN%2F%E6%8C%AA%E7%93%A6%E5%92%96%E5%95%A1%2Fnowwa.sgmodule)
 

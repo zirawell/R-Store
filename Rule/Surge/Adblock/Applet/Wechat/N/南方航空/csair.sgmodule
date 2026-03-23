@@ -1,0 +1,7 @@
+# > 南方航空<微信小程序> - CSAIR
+
+[Map Local]
+^https?:\/\/wxapi\.csair\.com\/mini\/api\/adVerTiSing\/(?!getPersonalCenterAdList) data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% wxapi.csair.com
