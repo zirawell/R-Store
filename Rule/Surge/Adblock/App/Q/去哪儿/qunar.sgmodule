@@ -8,7 +8,7 @@
 #!surge_version=5.14.2(Build3405,SDK18.2)
 #!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
 #!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/qunar.png
-#!date=2025-07-08
+#!date=2026-03-25
 
 [URL Rewrite]
 ^https?:\/\/client\.qunar\.com\/pitcher-proxy\?qrt=p_splashAd - reject
@@ -16,7 +16,10 @@
 [Map Local]
 ^https?:\/\/qde\.qunar\.com\/preload data-type=text data="" status-code=200
 ^https?:\/\/homefront\.qunar\.com\/front\/splash\/ad data-type=text data="{}" status-code=200
-^https?:\/\/qimgs\.qunarzz\.com\/wpf_newmpic_001\/06c3a131f53cca9a78dd26272e3e4cb3 data-type=tiny-gif status-code=200
+# 首页瀑布流
+^https?:\/\/slugger\.qunar\.com\/slugger-proxy\?qrt=content_api_common_desert_damo_getPostList data-type=text data="" status-code=200
+# 我的页底部推荐
+^https?:\/\/slugger\.qunar\.com\/slugger-proxy\?qrt=p_feedlist_recommend data-type=text data="{}" status-code=200
 
 [MITM]
-hostname= %APPEND% qde.qunar.com, homefront.qunar.com, client.qunar.com, qimgs.qunarzz.com
+hostname= %APPEND% qde.qunar.com, homefront.qunar.com, client.qunar.com, qimgs.qunarzz.com, slugger.qunar.com
