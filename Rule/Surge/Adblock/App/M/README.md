@@ -1,7 +1,7 @@
 # M
 <details>
 <summary>
-本目录共收录31个App，详情见如下，单击导入对应配置：
+本目录共收录32个App，详情见如下，单击导入对应配置：
 </summary>
 
  自动导入功能依赖 [【神机模块】](https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/Surge/Redirect/DivineEngine.sgmodule)
@@ -15,6 +15,7 @@
 - [慢慢买](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FM%2F%E6%85%A2%E6%85%A2%E4%B9%B0%2Fmanmanbuy.sgmodule)
 - [每日万年历](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FM%2F%E6%AF%8F%E6%97%A5%E4%B8%87%E5%B9%B4%E5%8E%86%2Fmrwnl.sgmodule)
 - [每日精選](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FM%2F%E6%AF%8F%E6%97%A5%E7%B2%BE%E9%81%B8%2Fngdaily.sgmodule)
+- [每日英语听力](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FM%2F%E6%AF%8F%E6%97%A5%E8%8B%B1%E8%AF%AD%E5%90%AC%E5%8A%9B%2Ffrdic.sgmodule)
 - [民生银行](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FM%2F%E6%B0%91%E7%94%9F%E9%93%B6%E8%A1%8C%2Fcmbc.sgmodule)
 - [漫客栈](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FM%2F%E6%BC%AB%E5%AE%A2%E6%A0%88%2Fmkz.sgmodule)
 - [漫画人](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FM%2F%E6%BC%AB%E7%94%BB%E4%BA%BA%2Fmanhuaren.sgmodule)

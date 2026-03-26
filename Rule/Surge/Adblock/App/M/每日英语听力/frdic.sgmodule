@@ -1,0 +1,18 @@
+#!name=每日英语听力 - FRDIC
+#!desc=每日英语听力-每天更新的英语泛听资源库
+#!openUrl=https://apps.apple.com/app/id570118289
+#!bundleId=com.eusoft.ting-en
+#!author=zirawell[https://github.com/zirawell]
+#!tag=去广告
+#!basedOn=iOS
+#!surge_version=5.14.2(Build3405,SDK18.2)
+#!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
+#!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/frdic.png
+#!date=2026-03-14
+
+[URL Rewrite]
+^https?:\/\/static(-main)?\.frdic\.com\/bg\/startpage - reject
+^https?:\/\/api\.eudic\.net\/api\/v\d\/appsupport\/StartupConfig - reject
+
+[MITM]
+hostname= %APPEND% static.frdic.com, static-main.frdic.com, api.eudic.net

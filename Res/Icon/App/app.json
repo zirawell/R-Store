@@ -1,7 +1,7 @@
 {
   "name": "App Icons",
   "description": "collected by zirawell",
-  "time": "2026-03-18",
+  "time": "2026-03-26",
   "icons": [
     {
       "name": "shihuo",
@@ -1214,6 +1214,10 @@
     {
       "name": "xiangji",
       "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/xiangji.png"
+    },
+    {
+      "name": "frdic",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/frdic.png"
     },
     {
       "name": "lakala",
