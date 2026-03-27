@@ -1,3 +1,4 @@
 # > 招商银行 - CMBCHINA
+host, log.cmbchina.com, reject
 host, mbads.paas.cmbchina.com, reject
 host, yl.zh.cmbchina.com, reject
