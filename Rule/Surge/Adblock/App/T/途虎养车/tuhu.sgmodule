@@ -8,19 +8,26 @@
 #!surge_version=5.14.2(Build3405,SDK18.2)
 #!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
 #!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/tuhu.png
-#!date=2025-07-08
+#!date=2026-03-30
+
+[Rule]
+DOMAIN, analytics.tuhu.com, REJECT, extended-matching, pre-matching
+DOMAIN, ta.tuhu.cn, REJECT, extended-matching, pre-matching
 
 [URL Rewrite]
-^https?:\/\/mkt-gateway\.tuhu\.cn\/mkt-cms\/circle\/recommend\/ - reject
-^https?:\/\/mkt-gateway\.tuhu\.cn\/mkt-scene-marketing-service\/api\/scene\/queryScheme - reject
-^https?:\/\/mkt-gateway\.tuhu\.cn\/mkt-push-message-box\/banner\/cms\/getIndexBanner - reject
-^https?:\/\/mkt-gateway\.tuhu\.cn\/mlp-product-search-api\/search\/helper\/defaultAndHotWord - reject
-^https?:\/\/cl-gateway\.tuhu\.cn\/cl-common-api\/api\/personalCenter\/getAutoSuperConfig - reject
+^https?:\/\/(mkt-)?gateway\.tuhu\.cn(\/mkt)?\/mkt-cms\/circle\/recommend\/ - reject
+^https?:\/\/(mkt-)?gateway\.tuhu\.cn(\/mkt)?\/mkt-scene-marketing-service\/api\/scene\/queryScheme - reject
+^https?:\/\/(mkt-)?gateway\.tuhu\.cn(\/mkt)?\/mkt-push-message-box\/banner\/cms\/getIndexBanner - reject
+^https?:\/\/(mkt-)?gateway\.tuhu\.cn(\/mkt)?\/mlp-product-search-api\/search\/helper\/defaultAndHotWord - reject
+^https?:\/\/(cl-)?gateway\.tuhu\.cn(\/cl)?\/cl-common-api\/api\/personalCenter\/getAutoSuperConfig - reject
+
+[Map Local]
+^https?:\/\/(mkt-)?gateway\.tuhu\.cn(\/mkt)?\/[a-z-]+\/recommend data-type=text data="{}" status-code=200
 
 [Script]
-tuhu = type=http-response,pattern=^https?:\/\/cl-gateway\.tuhu\.cn\/cl-common-api\/api\/personalCenter\/getCmsModuleList,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/tuhu.js
-tuhu = type=http-response,pattern=^https?:\/\/cl-gateway\.tuhu\.cn\/cl-shop-api\/shopTab\/getModuleForC,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/tuhu.js
-tuhu = type=http-response,pattern=^https?:\/\/cl-gateway\.tuhu\.cn\/cl-homepage-service\/homePage\/getHomePageInfo,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/tuhu.js
+tuhu = type=http-response,pattern=^https?:\/\/(cl-)?gateway\.tuhu\.cn(\/cl)?\/cl-common-api\/api\/personalCenter\/getCmsModuleList,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/tuhu.js
+tuhu = type=http-response,pattern=^https?:\/\/(cl-)?gateway\.tuhu\.cn(\/cl)?\/[a-z-]+\/homePage\/getHomePageInfo,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/tuhu.js
+tuhu = type=http-response,pattern=^https?:\/\/(cl-)?gateway\.tuhu\.cn(\/cl)?\/cl-shop-api\/shopTab\/getModuleForC,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/tuhu.js
 
 [MITM]
-hostname= %APPEND% mkt-gateway.tuhu.cn, cl-gateway.tuhu.cn
+hostname= %APPEND% mkt-gateway.tuhu.cn, cl-gateway.tuhu.cn, gateway.tuhu.cn
