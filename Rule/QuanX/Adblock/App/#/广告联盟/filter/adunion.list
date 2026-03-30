@@ -68,6 +68,7 @@ host-keyword, bjimp.voiceads.cn, reject
 host-keyword, sdk.1rtb.net, reject
 host-keyword, img.adnyg.com, reject
 ip-cidr, 203.107.1.0/24, reject
+ip-cidr, 203.119.238.0/24, reject
 # > 神策 - SENSORDATA
 host-keyword, sensorsdata.cn, reject
 # > GozenData - GOZENDATA
