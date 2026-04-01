@@ -1,2 +1,5 @@
 # > 淘宝闪购 - TBTO
 host, wgo.mmstat.com, reject
+ip-cidr, 59.82.133.78/32, reject
+ip-cidr, 59.82.121.172/32, reject
+ip-cidr, 59.82.121.72/32, reject
