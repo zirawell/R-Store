@@ -14,7 +14,7 @@ const url = $request.url;
 if (!$response.body) $done({});
 let obj = JSON.parse($response.body);
 
-if (url.includes("/x/resource/show/tab/v2")) {
+if (url.includes("/x/resource/show/tab/")) {
   // 底部选项卡
   if (obj?.data?.bottom?.length > 0) {
     const sortLists = ["首页", "动态", "关注", "我的"];
@@ -36,7 +36,7 @@ if (url.includes("/x/resource/show/tab/v2")) {
       obj.data.top[0].pos = 1;
     }
   }
-} else if (url.includes("/x/v2/account/mine?")) {
+} else if (url.includes("/account/mine?")) {
   // 我的页面
   const del = ["rework_v1", "vip_section", "vip_section_v2"];
   for (let i of del) {
@@ -102,7 +102,7 @@ if (url.includes("/x/resource/show/tab/v2")) {
       obj.data.vip.role = 3;
     }
   }
-} else if (url.includes("/x/v2/account/mine/ipad")) {
+} else if (url.includes("/account/mine/ipad")) {
   // ipad我的页面
   delete obj.data.ipad_upper_sections; // 投稿 创作首页 稿件管理 有奖活动
   if (obj?.data?.ipad_recommend_sections?.length > 0) {
@@ -115,7 +115,7 @@ if (url.includes("/x/resource/show/tab/v2")) {
     const itemList = [797, 798];
     obj.data.ipad_more_sections = obj.data.ipad_more_sections.filter((i) => itemList?.includes(i.id));
   }
-} else if (url.includes("/x/v2/account/myinfo")) {
+} else if (url.includes("/account/myinfo")) {
   // 非会员开启会员专属清晰度
   if (obj?.data?.vip) {
     if (obj?.data?.vip?.status === 0) {
@@ -125,7 +125,7 @@ if (url.includes("/x/resource/show/tab/v2")) {
       obj.data.vip.role = 3;
     }
   }
-} else if (url.includes("/x/v2/feed/index?")) {
+} else if (url.includes("/feed/index?")) {
   // 首页推荐信息流
   if (obj?.data?.items?.length > 0) {
     // 白名单
@@ -134,7 +134,7 @@ if (url.includes("/x/resource/show/tab/v2")) {
   if (obj?.data?.config?.toast?.has_toast) {
     obj.data.config.toast.has_toast = false;
   }
-} else if (url.includes("/x/v2/feed/index/story")) {
+} else if (url.includes("/feed/index/story")) {
   // 竖屏模式信息流
   if (obj?.data?.items?.length > 0) {
     // vertical_live 直播内容
@@ -153,12 +153,12 @@ if (url.includes("/x/resource/show/tab/v2")) {
     }
     obj.data.items = newItems;
   }
-} else if (url.includes("/x/v2/search/square")) {
+} else if (url.includes("/search/square")) {
   // 搜索框
   if (obj?.data) {
     obj.data = {type: "history", title: "搜索历史", search_hotword_revision: 2};
   }
-} else if (url.includes("/x/v2/splash")) {
+} else if (url.includes("/splash")) {
   // 开屏广告
   if (obj?.data) {
     const item = ["account", "event_list", "preload", "show"];
@@ -183,7 +183,7 @@ if (url.includes("/x/resource/show/tab/v2")) {
       }
     }
   }
-} else if (url.includes("/pgc/page/bangumi") || url.includes("/pgc/page/cinema/tab")) {
+} else if (url.includes("/pgc/page/")) {
   // 观影页
   if (obj.result?.modules?.length > 0) {
     obj.result.modules.forEach((i) => {
@@ -206,7 +206,7 @@ if (url.includes("/x/resource/show/tab/v2")) {
       }
     });
   }
-} else if (url.includes("/xlive/app-room/v1/index/getInfoByRoom")) {
+} else if (url.includes("/index/getInfoByRoom")) {
   // 直播
   delete obj.data.activity_banner_info;
   if (obj?.data?.shopping_info) {
