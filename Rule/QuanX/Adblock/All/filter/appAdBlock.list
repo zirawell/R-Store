@@ -1,11 +1,11 @@
 #!name=App-广告拦截合集-分流规则
 #!desc=某些规则要清除缓存或者重新安装APP，拦截广告才会生效！
-#!count=支持约1369个分流规则
+#!count=支持约1375个分流规则
 #!author=zirawell
 #!homepage=https://github.com/zirawell/R-Store
 #!raw-url=https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/All/filter/appAdBlock.list
 #!tg-group=https://t.me/lanjieguanggao
-#!date=2026-04-02 08:17:02
+#!date=2026-04-03 19:23:59
 #!proxy-select=reject
 #!---------------------------------------------------------------------------------------------------------------
 ip-cidr, 1.202.85.193/32, reject
@@ -230,6 +230,7 @@ host, bgg.baidu.com, reject
 host, bootpreload.uve.weibo.com, reject
 host, bsync3-normal.zijieapi.com, reject
 host, business.msstatic.com, reject
+host, cactus.jd.com, reject
 host, cad.youku.com, reject
 host, collect.hnair.com, reject
 host, collect.xiaopeng.com, reject
@@ -257,6 +258,7 @@ host, dig.bdurl.net, reject
 host, dig.zjurl.cn, reject
 host, dm.bytedance.com, reject
 host, dm.pstatp.com, reject
+host, dns.jd.com, reject
 host, dns.qq.com, reject
 host, dns.weixin.qq.com.cn, reject
 host, dolphin.caixin.com, reject
@@ -275,6 +277,7 @@ host, emma-414870e223.huodonghezi.com, reject
 host, encounter.bz.mgtv.com, reject
 host, et.tanx.com, reject
 host, etl.xlmc.sandai.net, reject
+host, ex.m.jd.com, reject
 host, f74f7f7765f8a2f6.ngaa.net.cn, reject
 host, feed-image.baidu.com, reject
 host, feedback-c.zijieapi.com, reject
@@ -377,6 +380,7 @@ host, m.meitun.com, reject
 host, m.pinduoduo.net, reject
 host, mall-dsp2.qinlinkeji.com, reject
 host, mallapi2.qinlinkeji.com, reject
+host, mars.jd.com, reject
 host, mazu.m.qq.com, reject
 host, mbads.paas.cmbchina.com, reject
 host, mc.tencentmusic.com, reject
@@ -390,6 +394,7 @@ host, meta.pinduoduo.com, reject
 host, meta.yangkeduo.com, reject
 host, metrics.apple.com, reject
 host, minfo.wps.cn, reject
+host, mllog.jd.com, reject
 host, mob.bz.mgtv.com, reject
 host, mobad.ijinshan.com, reject
 host, mobads-logs.baidu.com, reject
@@ -418,6 +423,7 @@ host, open.e.kuaishou.com, reject
 host, open.kuaishou.com, reject
 host, optimus-ads.amap.com, reject
 host, pageviewp.icbc.com.cn, reject
+host, perf.m.jd.com, reject
 host, pl.cp31.ott.cibntv.net, reject
 host, polaris.zijieapi.com, reject
 host, popup.dushu365.com, reject

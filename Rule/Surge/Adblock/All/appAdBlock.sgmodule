@@ -6,7 +6,7 @@
 #!surge_version=5.14.2(Build3405,SDK18.2)
 #!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
 #!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/Filter/AdBlock.png
-#!date=2026-04-03 15:40:38
+#!date=2026-04-08 16:46:05
 
 [Rule]
 IP-CIDR, 1.202.85.193/32, REJECT, no-resolve, pre-matching
@@ -231,6 +231,7 @@ DOMAIN, bgg.baidu.com, REJECT, extended-matching, pre-matching
 DOMAIN, bootpreload.uve.weibo.com, REJECT, extended-matching, pre-matching
 DOMAIN, bsync3-normal.zijieapi.com, REJECT, extended-matching, pre-matching
 DOMAIN, business.msstatic.com, REJECT, extended-matching, pre-matching
+DOMAIN, cactus.jd.com, REJECT, extended-matching, pre-matching
 DOMAIN, cad.youku.com, REJECT, extended-matching, pre-matching
 DOMAIN, collect.hnair.com, REJECT, extended-matching, pre-matching
 DOMAIN, collect.xiaopeng.com, REJECT, extended-matching, pre-matching
@@ -258,6 +259,7 @@ DOMAIN, dig.bdurl.net, REJECT, extended-matching, pre-matching
 DOMAIN, dig.zjurl.cn, REJECT, extended-matching, pre-matching
 DOMAIN, dm.bytedance.com, REJECT, extended-matching, pre-matching
 DOMAIN, dm.pstatp.com, REJECT, extended-matching, pre-matching
+DOMAIN, dns.jd.com, REJECT, extended-matching, pre-matching
 DOMAIN, dns.qq.com, REJECT, extended-matching, pre-matching
 DOMAIN, dns.weixin.qq.com.cn, REJECT, extended-matching, pre-matching
 DOMAIN, dolphin.caixin.com, REJECT, extended-matching, pre-matching
@@ -276,6 +278,7 @@ DOMAIN, emma-414870e223.huodonghezi.com, REJECT, extended-matching, pre-matching
 DOMAIN, encounter.bz.mgtv.com, REJECT, extended-matching, pre-matching
 DOMAIN, et.tanx.com, REJECT, extended-matching, pre-matching
 DOMAIN, etl.xlmc.sandai.net, REJECT, extended-matching, pre-matching
+DOMAIN, ex.m.jd.com, REJECT, extended-matching, pre-matching
 DOMAIN, f74f7f7765f8a2f6.ngaa.net.cn, REJECT, extended-matching, pre-matching
 DOMAIN, feed-image.baidu.com, REJECT, extended-matching, pre-matching
 DOMAIN, feedback-c.zijieapi.com, REJECT, extended-matching, pre-matching
@@ -378,6 +381,7 @@ DOMAIN, m.meitun.com, REJECT, extended-matching, pre-matching
 DOMAIN, m.pinduoduo.net, REJECT, extended-matching, pre-matching
 DOMAIN, mall-dsp2.qinlinkeji.com, REJECT, extended-matching, pre-matching
 DOMAIN, mallapi2.qinlinkeji.com, REJECT, extended-matching, pre-matching
+DOMAIN, mars.jd.com, REJECT, extended-matching, pre-matching
 DOMAIN, mazu.m.qq.com, REJECT, extended-matching, pre-matching
 DOMAIN, mbads.paas.cmbchina.com, REJECT, extended-matching, pre-matching
 DOMAIN, mc.tencentmusic.com, REJECT, extended-matching, pre-matching
@@ -391,6 +395,7 @@ DOMAIN, meta.pinduoduo.com, REJECT, extended-matching, pre-matching
 DOMAIN, meta.yangkeduo.com, REJECT, extended-matching, pre-matching
 DOMAIN, metrics.apple.com, REJECT, extended-matching, pre-matching
 DOMAIN, minfo.wps.cn, REJECT, extended-matching, pre-matching
+DOMAIN, mllog.jd.com, REJECT, extended-matching, pre-matching
 DOMAIN, mob.bz.mgtv.com, REJECT, extended-matching, pre-matching
 DOMAIN, mobad.ijinshan.com, REJECT, extended-matching, pre-matching
 DOMAIN, mobads-logs.baidu.com, REJECT, extended-matching, pre-matching
@@ -419,6 +424,7 @@ DOMAIN, open.e.kuaishou.com, REJECT, extended-matching, pre-matching
 DOMAIN, open.kuaishou.com, REJECT, extended-matching, pre-matching
 DOMAIN, optimus-ads.amap.com, REJECT, extended-matching, pre-matching
 DOMAIN, pageviewp.icbc.com.cn, REJECT, extended-matching, pre-matching
+DOMAIN, perf.m.jd.com, REJECT, extended-matching, pre-matching
 DOMAIN, pgdt.gtimg.cn, REJECT, extended-matching, pre-matching
 DOMAIN, pl.cp31.ott.cibntv.net, REJECT, extended-matching, pre-matching
 DOMAIN, polaris.zijieapi.com, REJECT, extended-matching, pre-matching
@@ -1410,6 +1416,7 @@ DOMAIN-KEYWORD, wan.sogou.com, REJECT, extended-matching, pre-matching
 ^https?:\/\/api-sams\.walmartmobile\.cn\/api\/v\d\/sams\/sams-user\/(window\/getGoUpPlus|screen_promotion\/get) - reject
 ^https?:\/\/.*\.xima.*\.com\/api\/v\d\/adRealTime - reject
 ^https?:\/\/api\.gotokeep\.com\/anno\/v\d\/upgrade\/check - reject
+^https?:\/\/api\.m\.jd\.com\/api\/appPublishUpgrade - reject
 ^https?:\/\/tk\.lanjiyin\.com\.cn\/ad\/getAdList - reject
 ^https?:\/\/lf-cdn-tos\.bytescm\.com\/obj\/static\/ad\/ - reject
 ^https?:\/\/api\.zcool\.com\.cn\/v\d\.\d\.\d/common\/open-screen - reject
@@ -1848,6 +1855,7 @@ DOMAIN-KEYWORD, wan.sogou.com, REJECT, extended-matching, pre-matching
 ^https?:\/\/api\.xueqiu\.com\/brand\/search\/ - reject
 ^https?:\/\/helper\.2bulu\.com\/(greenPea\/queryTasks|proSpecial\/allData|saveSplashFrequencyStatistics|getPopInfo|getAppEntranceConfig|promote\/list|getSplash|outing\/reqFoundNewList|outing\/reqIndex) - reject
 ^https?:\/\/(?>csc|osg)-service\.sgcc\.com\.cn:\d+\/.*\/inner\/cache - reject
+^https?:\/\/storage\.360buyimg\.com\/appcartsoa\/client\/cart_egg_entry - reject
 ^https?:\/\/sf3-be-pack\.pglstatp-toutiao\.com\/img\/ad\.union\.api - reject
 ^https?:\/\/api\.catchtable\.net\/api\/v\d\/banner\/live\?localeCode=\w+-\w+&bannerType=MAIN_POPUP_MID - reject
 ^https?:\/\/external\.fcbox\.com\/wxgw\/post\/suggestion\/query - reject
@@ -2739,7 +2747,6 @@ https?:\/\/awg\.enmonster\.com\/apa\/(advert\/demand\/home\/poster|index\/advert
 ^https?:\/\/api\.qbb6\.com\/commons\/self\/button\/group\/get data-type=text data="{}" status-code=200
 ^https?:\/\/app\.zhuanzhuan\.com\/zz\/transfer\/userred\?scene=homePage data-type=text data="{}" status-code=200
 ^https?:\/\/wallet\.lakala\.com\/m\/a\/message\/v\d\/fetchMsgList data-type=text data="{}" status-code=200
-^https?:\/\/(app\.bilibili\.com|grpc\.biliapi\.net)\/bilibili\.app\.interface\.v\d\.Search\/DefaultWords data-type=text data="{}" status-code=200
 ^https?:\/\/act\.vip\.iqiyi\.com\/interact\/api(\/v\d)?\/show data-type=text data="{}" status-code=200
 ^https?:\/\/api\.ncarzone\.com\/superapi\/canary\/appHomeFacade\/getNewUserPlateActivity data-type=text data="" status-code=200
 ^https?:\/\/api\.m\.mi\.com\/v\d\/app\/start data-type=text data="" status-code=200
@@ -2829,6 +2836,7 @@ https?:\/\/awg\.enmonster\.com\/apa\/(advert\/demand\/home\/poster|index\/advert
 ^https?:\/\/appapi\.51job(app)?\.com\/api\/util\/get_version data-type=text data="{}" status-code=200
 ^https?:\/\/cdn\.sdb\.com\.cn\/widget\/pb\/pb-plugins-rec-content-list data-type=text data="{}" status-code=200
 ^https?:\/\/www\.shihuo\.cn\/app\d\/saveAppInfo data-type=text data="" status-code=200
+^https?:\/\/(?>app\.bilibili\.com|grpc\.biliapi\.net)\/bilibili\.app\.interface\.v\d\.Search\/DefaultWords data-type=text data="{}" status-code=200
 ^https?:\/\/cupid\.51job(app)?\.com\/open\/noauth\/index\/last-version data-type=text data="{}" status-code=200
 ^https?:\/\/iface2\.iqiyi\.com\/views_pop\/3\.0\/pop_control\? data-type=text data="{}" status-code=200
 ^https?:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.adkeyword\.get data-type=text data="{}" status-code=200
@@ -2921,7 +2929,6 @@ zhihu = type=http-response,pattern=^https?:\/\/api\.zhihu\.com\/(v\d\/)?question
 smzdm = type=http-response,pattern=^https?:\/\/qianbao\.smzdm\.com\/v\d\/app\/home,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/smzdm.js
 ddxq = type=http-response,pattern=^https?:\/\/user\.api\.ddxq\.mobi\/userportal-service\/api\/v\d\/user\/queryMyPage,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/ddxq.js
 weibo = type=http-response,pattern=^https?:\/\/sdkapp\.uve\.weibo\.com\/interface\/sdk\/sdkad\.php,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/weibo.js
-bilibili = type=http-response,pattern=^https?:\/\/(app\.bilibili\.com|grpc\.biliapi\.net)\/bilibili\.polymer\.app\.search\.v\d\.Search\/SearchAll,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/bilibiliProtoA.js
 xiaohongshu = type=http-response,pattern=^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d+\/note\/widgets,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/xiaohongshu.js
 xiaoheihe = type=http-response,pattern=^https?:\/\/api\.xiaoheihe\.cn\/bbs\/app\/feeds\/news,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/xiaoheihe.js
 dianping = type=http-response,pattern=^https?:\/\/ddplus\.meituan\.net\/v\d\/mss_\w+\/picassovc,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/dianping.js
@@ -2957,7 +2964,6 @@ ddxq = type=http-response,pattern=^https?:\/\/maicai\.api\.ddxq\.mobi\/tool\/get
 baidutieba = type=http-response,pattern=^https?:\/\/c\.tieba\.baidu\.com\/c\/s\/sync$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/tiebaJson.js
 iqiyi = type=http-response,pattern=^https?:\/\/access\.if\.iqiyi\.com\/3f1\/cards\.iqiyi\.com\/(views_category\/3\.0\/category_home|views_home\/3\.0\/qy_home|waterfall\/3\.0\/feed)\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/cntv.js
 mafengwo = type=http-response,pattern=^https?:\/\/mapi\.mafengwo\.cn\/user\/profile\/get_(?>list|profile),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/mafengwo.js
-bilibili = type=http-response,pattern=^https?:\/\/(app\.bilibili\.com|grpc\.biliapi\.net)\/bilibili\.app\.interface\.v\d\.Teenagers\/ModeStatus,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/bilibiliProtoA.js
 iqiyi = type=http-response,pattern=^https?:\/\/[\d\.]+\/3f1\/cards\.iqiyi\.com\/(views_home\/3\.0\/qy_home|waterfall\/3\.0\/feed)\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/cntv.js
 kkmh = type=http-response,pattern=^https?:\/\/(cdn-)?api\.kkmh\.com\/v\d\/ironman\/comic\/recommend,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/kkmh.js
 gaoding = type=http-response,pattern=^https?:\/\/www\.gaoding\.com\/api\/v\d\/oc\/exhibitions\/template\/resources$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/gaoding.js
@@ -2975,8 +2981,8 @@ weibo = type=http-response,pattern=^https?:\/\/api\.weibo\.cn\/2\/(cardlist|page
 iqiyi = type=http-response,pattern=^https?:\/\/iface2\.iqiyi\.com\/views\/3\.0\/(bottom_theme|home_top_menu)\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/cntv.js
 bilibili = type=http-response,pattern=^https?:\/\/api\.bilibili\.com\/pgc\/page\/(?>bangumi|cinema\/tab\?),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/bilibiliJson.js
 xunlei = type=http-response,pattern=^https?:\/\/conf-m-ssl\.xunlei\.com\/external\/,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/xunlei.js
+bilibili = type=http-response,pattern=^https?:\/\/(?>app\.bilibili\.com|grpc\.biliapi\.net)\/bilibili\.app\.dynamic\.v\d\.Dynamic\/DynAll,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/bilibiliProtoA.js
 cainiao = type=http-response,pattern=^https?:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.nbpresentation\.(pickup\.empty\.page|protocol\.homepage)\.get,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/cainiao.js
-bilibili = type=http-response,pattern=^https?:\/\/(app\.bilibili\.com|grpc\.biliapi\.net)\/bilibili\.main\.community\.reply\.v\d\.Reply\/MainList,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/bilibiliProtoA.js
 iqiyi = type=http-response,pattern=^https?:\/\/iface2\.iqiyi\.com\/control\/3\.0\/init_proxy\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/cntv.js
 adunion = type=http-response,pattern=^https?:\/\/api-access\.pangolin-sdk-toutiao\.com\/api\/ad\/union\/sdk\/get_ads,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/adsense.js
 quark = type=http-response,pattern=^https?:\/\/open-cms-api\.quark\.cn\/open-cms,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/quark.js
@@ -2987,6 +2993,7 @@ rrtv = type=http-response,pattern=^https?:\/\/api\.rr\.tv\/v3plus\/index\/channe
 zhuanzhuan = type=http-response,pattern=^https?:\/\/app\.zhuanzhuan\.com\/zz\/transfer\/getmyprofilev,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/zhuanzhuan.js
 weibo = type=http-response,pattern=^https?:\/\/api\.weibo\.cn\/2\/statuses\/(extend|show)\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/weibo.js
 mgtv = type=http-response,pattern=^https?:\/\/mobile\.api\.mgtv\.com\/v\d+\/video\/info\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/cntv.js
+bilibili = type=http-response,pattern=^https?:\/\/(?>app\.bilibili\.com|grpc\.biliapi\.net)\/bilibili\.polymer\.app\.search\.v\d\.Search\/SearchAll,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/bilibiliProtoA.js
 rrtv = type=http-response,pattern=^https?:\/\/api\.rr\.tv\/watch\/v\d,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/rrtv.js
 picc = type=http-response,pattern=^https?:\/\/zgrb\.epicc\.com\.cn\/G-HAPP\/a\/config\/homeInit,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/picc.js
 bilibili = type=http-response,pattern=^https?:\/\/api\.live\.bilibili\.com\/xlive\/app-room\/v\d\/index\/getInfoByRoom\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/bilibiliJson.js
@@ -3003,14 +3010,15 @@ mgtv = type=http-response,pattern=^https?:\/\/me\.bz\.mgtv\.com\/v\d\/module\/li
 ;xiaoyuzhoufm = type=http-response,pattern=^https?:\/\/api\.xiaoyuzhoufm\.com\/v\d\/discovery-feed\/list,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/xiaoyuzhoufm.js
 rrtv = type=http-response,pattern=^https?:\/\/api\.rr\.tv\/user\/privilege\/list,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/rrtv.js
 iqiyi = type=http-response,pattern=^https?:\/\/(kjp|t7z)\.cupid\.iqiyi\.com\/mixer\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/cntv.js
+bilibili = type=http-response,pattern=^https?:\/\/app\.bilibili\.com\/x\/v\d\/(?>feed\/index(\/story)?|search\/square)\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/bilibiliJson.js
 keep = type=http-response,pattern=^https?:\/\/api\.gotokeep\.com\/athena\/v\d\/people\/my$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/keep.js
 weibo = type=http-response,pattern=^https?:\/\/api\.weibo\.cn\/2\/(container\/asyn|flowlist|flowpage)\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/weibo.js
 chaoge = type=http-response,pattern=^https?:\/\/mapi\.chaogejiaoyu\.com\/api\/ad\/getPageAdList,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/chaoge.js
-bilibili = type=http-response,pattern=^https?:\/\/app\.bilibili\.com\/x\/v\d\/(feed\/index(\/story)?|search\/square)\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/bilibiliJson.js
 txnews = type=http-response,pattern=^https?:\/\/r\.inews\.qq\.com\/gw\/page\/(?>event_detail|channel_feed),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/txnews.js
 wechat = type=http-response,pattern=^https?:\/\/(weixin110\.qq|security.wechat)\.com\/cgi-bin\/mmspamsupport-bin\/newredirectconfirmcgi\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/Plugins/Wechat_Unblock_URL.js
 kkmh = type=http-response,pattern=^https?:\/\/(cdn-)?social\.kkmh\.com\/v\d\/graph\/unified_feed,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/kkmh.js
 peiyinxiu = type=http-response,pattern=^https?:\/\/iosapi\.peiyinxiu\.com\/Api\/Film\/GetConfigValue,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/peiyinxiu.js
+jd = type=http-response,pattern=^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=(?>deliverLayer|getTabHomeInfo|myOrderInfo|orderTrackBusiness|personinfoBusiness|start|welcomeHome|readCustomSurfaceList),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/jd.js
 kuwo = type=http-response,pattern=^https?:\/\/audiobookpay\.kuwo\.cn\/a\.p,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/Unlock/kuwo.js
 xmly = type=http-response,pattern=^https?:\/\/.*\.xima.*\.com\/mobile-user\/v\d\/homePage,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/xmly.js
 xiaohongshu = type=http-response,pattern=^https?:\/\/(?>edith|rec|www)\.xiaohongshu\.com\/api\/sns\/v\d+\/note\/(?>imagefeed|feed|videofeed|(live_photo|video)\/save),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/xiaohongshu.js
@@ -3050,6 +3058,7 @@ amap = type=http-response,pattern=^https?:\/\/m\d\.amap\.com\/ws\/bus\/plan\/int
 dushu365 = type=http-response,pattern=^https?:\/\/g(.*)\.dushu365\.com\/resource-orchestration-system\/book\/channel\/v100\/info,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/dushu365.js
 soul = type=http-response,pattern=^https?:\/\/api-a\.soulapp\.cn\/v\d\/post\/gift\/list,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/soul.js
 cainiao = type=http-response,pattern=^https?:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.nbfriend\.message\.conversation\.list\.cn,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/cainiao.js
+bilibili = type=http-response,pattern=^https?:\/\/(?>app\.bilibili\.com|grpc\.biliapi\.net)\/bilibili\.community\.service\.dm\.v\d\.DM\/DmView,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/bilibiliProtoA.js
 kuwo = type=http-response,pattern=^https?:\/\/vip\d\.kuwo\.cn\/vip\/(enc\/user\/vip\?op=ui|v\d\/theme\?op=gd),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/Unlock/kuwo.js
 youku = type=http-response,pattern=^https?:\/\/un-acs\.youku\.com\/gw\/mtop\.youku\.play\.ups\.appinfo\.get,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/cntv.js
 quda = type=http-response,pattern=^https?:\/\/iqushangwang\.8quan\.com\/index\.php\/i\/index\/index,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/quda.js
@@ -3075,6 +3084,7 @@ peiyinxiu = type=http-response,pattern=^https?:\/\/iosapi\.peiyinxiu\.com\/Api\/
 tuhu = type=http-response,pattern=^https?:\/\/(cl-)?gateway\.tuhu\.cn(\/cl)?\/cl-common-api\/api\/personalCenter\/getCmsModuleList,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/tuhu.js
 sdb = type=http-response,pattern=^https?:\/\/cdn\.sdb\.com\.cn\/bron-coms\/bron-coms\/material-image,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/sdb.js
 163music = type=http-response,pattern=^https?:\/\/interface\d?\.music\.163\.com\/w?e?api\/user\/follow\/users\/mixed\/get,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/163music.js
+bilibili = type=http-response,pattern=^https?:\/\/(?>app\.bilibili\.com|grpc\.biliapi\.net)\/bilibili\.main\.community\.reply\.v\d\.Reply\/MainList,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/bilibiliProtoA.js
 baidupan = type=http-response,pattern=^https?:\/\/pan\.baidu\.com\/api\/getsyscfg\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/baiduPan.js
 spotify = type=http-response,pattern=^https?:\/\/(?>gae2-spclient|guc3-spclient|spclient\.wg)\.spotify\.com(:443)?\/(?>bootstrap\/v\d\/bootstrap|user-customization-service\/v\d\/customize)$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/spotify.js
 smzdm = type=http-response,pattern=^https?:\/\/homepage-api\.smzdm\.com\/v\d\/home,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/smzdm.js
@@ -3095,6 +3105,7 @@ iqiyi = type=http-response,pattern=^https?:\/\/cards\.iqiyi\.com\/views_plt\/3\.
 coolapk = type=http-response,pattern=^https?:\/\/api\.coolapk\.com\/v\d\/feed\/(detail|replyList)\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/coolapk.js
 keep = type=http-response,pattern=^https?:\/\/api\.gotokeep\.com\/homepage\/v\d\/tab,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/keep.js
 weibo = type=http-response,pattern=^https?:\/\/api\.weibo\.cn\/2\/!\/huati\/discovery_home_bottom_channels\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/weibo.js
+bilibili = type=http-response,pattern=^https?:\/\/(?>app\.bilibili\.com|grpc\.biliapi\.net)\/bilibili\.app\.(?>view|viewunite)\.v\d\.View\/View,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/bilibiliProtoA.js
 amap = type=http-response,pattern=^https?:\/\/m\d-zb\.amap\.com\/ws\/promotion-web\/resource(\/home)?\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/amap.js
 dushu365 = type=http-response,pattern=^https?:\/\/g(.*)\.dushu365\.com\/resource-orchestration-system\/book\/v101\/content,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/dushu365.js
 163music = type=http-response,pattern=^https?:\/\/interface\d?\.music\.163\.com\/w?e?api\/link\/page\/discovery\/resource\/show,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/163music.js
@@ -3105,7 +3116,6 @@ qbb = type=http-response,pattern=^https?:\/\/webapi\.qbb6\.com\/h5\/api\/lib\/in
 amap = type=http-response,pattern=^https?:\/\/m\d\.amap\.com\/ws\/c3frontend\/af-(hotel|launch)\/page\/main\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/amap.js
 boohee = type=http-response,pattern=^https?:\/\/api\.boohee\.com\/meta-interface\/v\d\/index\/plaza-flow\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/boohee.js
 didi = type=http-response,pattern=^https?:\/\/api\.udache\.com\/gulfstream\/pre-sale\/v\d\/other\/pGetSceneList,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/didi.js
-bilibili = type=http-response,pattern=^https?:\/\/(app\.bilibili\.com|grpc\.biliapi\.net)\/bilibili\.community\.service\.dm\.v\d\.DM\/DmView,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/bilibiliProtoA.js
 dushu365 = type=http-response,pattern=^https?:\/\/g(.*)\.dushu365\.com\/chief-orch\/home\/bookPortal\/v111\/forApp,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/dushu365.js
 sogou = type=http-response,pattern=^https?:\/\/sec\.sginput\.qq\.com\/q,requires-body=0,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/sougou.js
 pdd = type=http-response,pattern=^https?:\/\/api\.pinduoduo\.com\/api\/alexa\/\w+\/hub,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/pdd.js
@@ -3131,9 +3141,7 @@ mdb = type=http-response,pattern=^https?:\/\/creditcardapp\.bankcomm\.(com|cn)\/
 amap = type=http-response,pattern=^https?:\/\/m\d\.amap\.com\/ws\/faas\/amap-navigation\/(?>card-service-plan-home|main-page),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/amap.js
 zhihu = type=http-response,pattern=^https?:\/\/api\.zhihu\.com\/commercial_api\/app_float_layer,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/zhihu.js
 ecny = type=http-response,pattern=^https?:\/\/mgs\.wallet\.pbcdci\.cn(:\d+)?\/mgw\.htm$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/mgw.js
-jd = type=http-response,pattern=^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=(?>deliverLayer|getTabHomeInfo|myOrderInfo|orderTrackBusiness|personinfoBusiness|start|welcomeHome),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/jd.js
 adunion = type=http-response,pattern=^https?:\/\/amdc\.m\.taobao\.com\/amdc\/mobileDispatch$,requires-body=0,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/amdc.js
-bilibili = type=http-response,pattern=^https?:\/\/(app\.bilibili\.com|grpc\.biliapi\.net)\/bilibili\.app\.dynamic\.v\d\.Dynamic\/DynAll,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/bilibiliProtoA.js
 umetrip = type=http-response,pattern=^https?:\/\/(bkclient|umerp|home)\.umetrip\.com(\.cn){0,1}\/gateway\/api\/umetrip\/native,requires-body=0,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/umetrip.js
 youku = type=http-response,pattern=^https?:\/\/acs\.youku\.com\/gw\/mtop\.youku\.soku\.yksearch,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/cntv.js
 weibo = type=http-response,pattern=^https?:\/\/api\.weibo\.cn\/2\/comments\/build_comments\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/weibo.js
@@ -3141,6 +3149,7 @@ ithome = type=http-response,pattern=^https?:\/\/napi\.ithome\.com\/api\/(news\/i
 youtube = type=http-response,pattern=^https?:\/\/youtubei\.googleapis\.com\/(youtubei\/v\d\/(browse|next|player|search|reel\/reel_watch_sequence|guide|account\/get_setting|get_watch))(\?(.*))?$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/youtube.js
 weibo = type=http-response,pattern=^https?:\/\/api\.weibo\.cn\/2\/friendships\/(create|destroy)\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/weibo.js
 ddxq = type=http-response,pattern=^https?:\/\/maicai\.api\.ddxq\.mobi\/homeApi\/(?>bottomNavi|homeFlowDetail),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/ddxq.js
+bilibili = type=http-response,pattern=^https?:\/\/(?>app\.bilibili\.com|grpc\.biliapi\.net)\/bilibili\.app\.interface\.v\d\.Teenagers\/ModeStatus,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/bilibiliProtoA.js
 iqiyi = type=http-response,pattern=^https?:\/\/cards\.iqiyi\.com\/views_search\/3\.0\/(hot_query_)?search\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/cntv.js
 amap = type=http-response,pattern=^https?:\/\/m\d-zb\.amap\.com\/ws\/boss\/(car\/order\/content_info|order_web\/friendly_information),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/amap.js
 duitang = type=http-response,pattern=^https?:\/\/(www|api)\.duitang\.com\/napi\/settings\/,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/duitang.js
@@ -3160,7 +3169,6 @@ rrtv = type=http-response,pattern=^https?:\/\/api\.rr\.tv\/v3plus\/index\/channe
 sqkb = type=http-response,pattern=^https?:\/\/api\.17gwx\.com\/operate\/elements,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/sqkb.js
 weibo = type=http-response,pattern=^https?:\/\/wbapp\.uve\.weibo\.com\/(preload\/get_ad|wbapplua\/wbpullad\.lua)\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/weibo.js
 dushu365 = type=http-response,pattern=^https?:\/\/g(.*)\.dushu365\.com\/fs-member\/user\/profile\/v100\/detail,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/dushu365.js
-bilibili = type=http-response,pattern=^https?:\/\/(app\.bilibili\.com|grpc\.biliapi\.net)\/bilibili\.app\.(?>view|viewunite)\.v\d\.View\/View,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/bilibiliProtoA.js
 smzdm = type=http-response,pattern=^https?:\/\/s-api\.smzdm\.com\/sou\/(>?filter\/tags\/hot_tags|list_v\d\?),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/smzdm.js
 baidupan = type=http-response,pattern=^https?:\/\/pan\.baidu\.com\/rest\/\d\.\d\/membership\/user,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/baiduPan.js
 boohee = type=http-response,pattern=^https?:\/\/api\.boohee\.com\/meta-interface\/v\d\/index\/plaza\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/boohee.js
