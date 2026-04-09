@@ -3,7 +3,6 @@ host, dns.jd.com, reject
 host, perf.m.jd.com, reject
 host, mars.jd.com, reject
 host, ex.m.jd.com, reject
-host, cactus.jd.com, reject
 host, mllog.jd.com, reject
 host, waapdg.jd.com, reject
 host, dsp-x.jd.com, reject
