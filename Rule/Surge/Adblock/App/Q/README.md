@@ -1,7 +1,7 @@
 # Q
 <details>
 <summary>
-本目录共收录21个App，详情见如下，单击导入对应配置：
+本目录共收录22个App，详情见如下，单击导入对应配置：
 </summary>
 
  自动导入功能依赖 [【神机模块】](https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/Surge/Redirect/DivineEngine.sgmodule)
@@ -26,5 +26,6 @@
 - [蜻蜓FM](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FQ%2F%E8%9C%BB%E8%9C%93FM%2Fqingting.sgmodule)
 - [起点读书](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FQ%2F%E8%B5%B7%E7%82%B9%E8%AF%BB%E4%B9%A6%2Fqidian.sgmodule)
 - [趣兜风](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FQ%2F%E8%B6%A3%E5%85%9C%E9%A3%8E%2Fqdf.sgmodule)
+- [阡鹿旅游](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FQ%2F%E9%98%A1%E9%B9%BF%E6%97%85%E6%B8%B8%2Fcharmdeer.sgmodule)
 
 </details>

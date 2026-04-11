@@ -1,7 +1,7 @@
 {
   "name": "App Icons",
   "description": "collected by zirawell",
-  "time": "2026-03-26",
+  "time": "2026-04-11",
   "icons": [
     {
       "name": "shihuo",
@@ -302,6 +302,10 @@
     {
       "name": "line",
       "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/line.png"
+    },
+    {
+      "name": "charmdeer",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/charmdeer.png"
     },
     {
       "name": "kuaishou",

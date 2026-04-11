@@ -1,7 +1,7 @@
 # Q
 <details>
 <summary>
-本目录共收录21个App，详情见如下，单击导入对应配置：
+本目录共收录22个App，详情见如下，单击导入对应配置：
 </summary>
 
 - [QQ浏览器](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FQ%2FQQ%E6%B5%8F%E8%A7%88%E5%99%A8%2Frewrite%2Fqqbrowser.conf%2C%20tag%3DQQ%E6%B5%8F%E8%A7%88%E5%99%A8%22%5D%7D)
@@ -25,5 +25,6 @@
 - [蜻蜓FM](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FQ%2F%E8%9C%BB%E8%9C%93FM%2Ffilter%2Fqingting.list%2C%20tag%3D%E8%9C%BB%E8%9C%93FM%22%5D%7D)
 - [起点读书](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FQ%2F%E8%B5%B7%E7%82%B9%E8%AF%BB%E4%B9%A6%2Frewrite%2Fqidian.conf%2C%20tag%3D%E8%B5%B7%E7%82%B9%E8%AF%BB%E4%B9%A6%22%5D%7D)
 - [趣兜风](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FQ%2F%E8%B6%A3%E5%85%9C%E9%A3%8E%2Ffilter%2Fqdf.list%2C%20tag%3D%E8%B6%A3%E5%85%9C%E9%A3%8E%22%5D%2C%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FQ%2F%E8%B6%A3%E5%85%9C%E9%A3%8E%2Frewrite%2Fqdf.conf%2C%20tag%3D%E8%B6%A3%E5%85%9C%E9%A3%8E%22%5D%7D)
+- [阡鹿旅游](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FQ%2F%E9%98%A1%E9%B9%BF%E6%97%85%E6%B8%B8%2Frewrite%2Fcharmdeer.conf%2C%20tag%3D%E9%98%A1%E9%B9%BF%E6%97%85%E6%B8%B8%22%5D%7D)
 
 </details>
