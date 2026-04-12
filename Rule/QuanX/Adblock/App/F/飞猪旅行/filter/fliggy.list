@@ -1,0 +1,3 @@
+# > 飞猪旅行 - FLIGGY
+ip-cidr, 59.82.113.8/32, reject
+ip-cidr, 203.119.238.48/32, reject
