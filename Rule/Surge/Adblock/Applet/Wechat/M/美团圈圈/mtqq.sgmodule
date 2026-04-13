@@ -1,0 +1,7 @@
+# > 美团圈圈<微信小程序> - MTQQ
+
+[Map Local]
+^https?:\/\/peppermall\.meituan\.com\/user\/popup\/list data-type=text data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% peppermall.meituan.com
