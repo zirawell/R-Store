@@ -1,11 +1,11 @@
 #!name=全部-广告拦截合集-分流规则
 #!desc=某些规则要清除缓存或者重新安装APP，拦截广告才会生效！
-#!count=支持约1397个分流规则
+#!count=支持约1396个分流规则
 #!author=zirawell
 #!homepage=https://github.com/zirawell/R-Store
 #!raw-url=https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/All/filter/allAdBlock.list
 #!tg-group=https://t.me/lanjieguanggao
-#!date=2026-04-12 08:21:20
+#!date=2026-04-15 10:06:38
 #!proxy-select=reject
 #!---------------------------------------------------------------------------------------------------------------
 ip-cidr, 1.202.85.193/32, reject
@@ -381,7 +381,6 @@ host, log.cmbchina.com, reject
 host, log.tagtic.cn, reject
 host, log.web.kugou.com, reject
 host, log.ycapp.yiche.com, reject
-host, log5-applog.fqnovel.com, reject
 host, logs-bigdata.yeehaw.com.cn, reject
 host, logs.chelaile.net.cn, reject
 host, lookup.api.bsb.baidu.com, reject
@@ -465,7 +464,6 @@ host, richmanrules.jxedt.com, reject
 host, richmanrules.ksedt.com, reject
 host, rmonitor.qq.com, reject
 host, rprain.bz.mgtv.com, reject
-host, rtlog5-applog.fqnovel.com, reject
 host, rtms.alipay.com, reject
 host, rttrack.ddxq.mobi, reject
 host, rumt-zh.com, reject
@@ -1338,6 +1336,7 @@ host-suffix, zymo.mps.weibo.com, reject
 host-keyword, -ad.byteoversea.com, reject
 host-keyword, -adsystem.com, reject
 host-keyword, -analytics.bytescm.com, reject
+host-keyword, -applog.fqnovel.com, reject
 host-keyword, -lq.snssdk.com, reject
 host-keyword, -normal-lq.zijieapi.com, reject
 host-keyword, -pack.byteimg.com, reject

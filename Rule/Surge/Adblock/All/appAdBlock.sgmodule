@@ -6,7 +6,7 @@
 #!surge_version=5.14.2(Build3405,SDK18.2)
 #!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
 #!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/Filter/AdBlock.png
-#!date=2026-04-14 07:55:16
+#!date=2026-04-15 10:06:39
 
 [Rule]
 IP-CIDR, 1.202.85.193/32, REJECT, no-resolve, pre-matching
@@ -371,7 +371,6 @@ DOMAIN, log.cmbchina.com, REJECT, extended-matching, pre-matching
 DOMAIN, log.tagtic.cn, REJECT, extended-matching, pre-matching
 DOMAIN, log.web.kugou.com, REJECT, extended-matching, pre-matching
 DOMAIN, log.ycapp.yiche.com, REJECT, extended-matching, pre-matching
-DOMAIN, log5-applog.fqnovel.com, REJECT, extended-matching, pre-matching
 DOMAIN, logs.chelaile.net.cn, REJECT, extended-matching, pre-matching
 DOMAIN, lookup.api.bsb.baidu.com, REJECT, extended-matching, pre-matching
 DOMAIN, lwlog.laiwang.com, REJECT, extended-matching, pre-matching
@@ -455,7 +454,6 @@ DOMAIN, richmanrules.jxedt.com, REJECT, extended-matching, pre-matching
 DOMAIN, richmanrules.ksedt.com, REJECT, extended-matching, pre-matching
 DOMAIN, rmonitor.qq.com, REJECT, extended-matching, pre-matching
 DOMAIN, rprain.bz.mgtv.com, REJECT, extended-matching, pre-matching
-DOMAIN, rtlog5-applog.fqnovel.com, REJECT, extended-matching, pre-matching
 DOMAIN, rtms.alipay.com, REJECT, extended-matching, pre-matching
 DOMAIN, rttrack.ddxq.mobi, REJECT, extended-matching, pre-matching
 DOMAIN, s.youtube.com, REJECT, extended-matching, pre-matching
@@ -1320,6 +1318,7 @@ DOMAIN-SUFFIX, zymo.mps.weibo.com, REJECT, extended-matching, pre-matching
 DOMAIN-KEYWORD, -ad.byteoversea.com, REJECT, extended-matching, pre-matching
 DOMAIN-KEYWORD, -adsystem.com, REJECT, extended-matching, pre-matching
 DOMAIN-KEYWORD, -analytics.bytescm.com, REJECT, extended-matching, pre-matching
+DOMAIN-KEYWORD, -applog.fqnovel.com, REJECT, extended-matching, pre-matching
 DOMAIN-KEYWORD, -lq.snssdk.com, REJECT, extended-matching, pre-matching
 DOMAIN-KEYWORD, -normal-lq.zijieapi.com, REJECT, extended-matching, pre-matching
 DOMAIN-KEYWORD, -pack.byteimg.com, REJECT, extended-matching, pre-matching
