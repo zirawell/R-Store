@@ -8,7 +8,7 @@
 #!surge_version=5.14.2(Build3405,SDK18.2)
 #!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
 #!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/jd.png
-#!date=2026-04-09
+#!date=2026-04-16
 
 [Rule]
 DOMAIN, dns.jd.com, REJECT, extended-matching, pre-matching
@@ -23,6 +23,8 @@ DOMAIN, janapi.jd.com, REJECT, extended-matching, pre-matching
 DOMAIN, jdqd.jd.com, REJECT, extended-matching, pre-matching
 DOMAIN, dgstatic.jd.com, REJECT, extended-matching, pre-matching
 DOMAIN, wqs.jd.com, REJECT, extended-matching, pre-matching
+DOMAIN, storage23.360buyimg.com, REJECT, extended-matching, pre-matching
+DOMAIN, second-floor-pro.pf.jd.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, jzt.jd.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, img-x.jd.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, du.jd.com, REJECT, extended-matching, pre-matching
@@ -42,6 +44,7 @@ IP-CIDR6, 2402:db40:5100:1011::5/128, REJECT, no-resolve, pre-matching
 ^https?:\/\/\w{32}\.jddebug\.com\/diagnose\? - reject
 ^https?:\/\/storage\.360buyimg\.com\/app\.m\.jd\.com\/lottie - reject
 ^https?:\/\/storage\.360buyimg\.com\/dynamicConfig\/binary - reject
+^https?:\/\/storage\.360buyimg\.com\/occupy-home\/ - reject
 ^https?:\/\/storage\.360buyimg\.com\/appcartsoa\/client\/cart_egg_entry - reject
 ^https?:\/\/img\d+\.360buyimg\.com\/jddjadvertise\/ - reject
 
