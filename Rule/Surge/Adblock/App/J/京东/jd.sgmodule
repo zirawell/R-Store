@@ -8,7 +8,7 @@
 #!surge_version=5.14.2(Build3405,SDK18.2)
 #!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
 #!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/jd.png
-#!date=2026-04-16
+#!date=2026-04-21
 
 [Rule]
 DOMAIN, dns.jd.com, REJECT, extended-matching, pre-matching
@@ -45,8 +45,11 @@ IP-CIDR6, 2402:db40:5100:1011::5/128, REJECT, no-resolve, pre-matching
 ^https?:\/\/storage\.360buyimg\.com\/app\.m\.jd\.com\/lottie - reject
 ^https?:\/\/storage\.360buyimg\.com\/dynamicConfig\/binary - reject
 ^https?:\/\/storage\.360buyimg\.com\/occupy-home\/ - reject
+^https?:\/\/storage\.360buyimg\.com\/xview - reject
 ^https?:\/\/storage\.360buyimg\.com\/appcartsoa\/client\/cart_egg_entry - reject
 ^https?:\/\/img\d+\.360buyimg\.com\/jddjadvertise\/ - reject
+^https?:\/\/storage\.jd\.com\/ti-pythontask\/JD\/jdt_ - reject
+^https?:\/\/storage\.jd\.com\/mpaas2-public\/product\/\d+\/ - reject
 
 [Map Local]
 ^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=(?>searchBoxWord|xview2Config|stationPullService|getWidget|widget|hybrid|jdDiscoveryRedPoint|queryMaterialAdverts|apollo_style|jdaPreDownload) data-type=text data="" status-code=200
@@ -56,4 +59,4 @@ IP-CIDR6, 2402:db40:5100:1011::5/128, REJECT, no-resolve, pre-matching
 jd = type=http-response,pattern=^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=(?>deliverLayer|getTabHomeInfo|myOrderInfo|orderTrackBusiness|personinfoBusiness|start|welcomeHome|readCustomSurfaceList),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/jd.js
 
 [MITM]
-hostname= %APPEND% api.m.jd.com, *.jddebug.com, bdsp-x.jd.com, dsp-x.jd.com, storage.360buyimg.com, img*.360buyimg.com
+hostname= %APPEND% api.m.jd.com, *.jddebug.com, bdsp-x.jd.com, dsp-x.jd.com, storage.360buyimg.com, img*.360buyimg.com, storage.jd.com
