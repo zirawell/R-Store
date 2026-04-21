@@ -6,7 +6,7 @@
 #!surge_version=5.14.2(Build3405,SDK18.2)
 #!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
 #!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/Filter/AdBlock.png
-#!date=2026-04-13 08:50:07
+#!date=2026-04-21 15:49:56
 
 [Rule]
 DOMAIN, ad-api.4pyun.com, REJECT, extended-matching, pre-matching
@@ -26,8 +26,6 @@ DOMAIN, smarket.dian.so, REJECT, extended-matching, pre-matching
 DOMAIN, tracker-prd.aldi.com.cn, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, ad.duoduo.link, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, wxsmsdy.video.qq.com, REJECT, extended-matching, pre-matching
-DOMAIN-SUFFIX, wxsnsdy.wxs.qq.com, REJECT, extended-matching, pre-matching
-DOMAIN-SUFFIX, wxsnsdythumb.wxs.qq.com, REJECT, extended-matching, pre-matching
 
 [URL Rewrite]
 ^https?:\/\/m\.mallcoo\.cn\/api\/content\/Ads - reject

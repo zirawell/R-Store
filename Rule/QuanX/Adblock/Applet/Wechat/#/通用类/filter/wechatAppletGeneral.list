@@ -1,4 +1,2 @@
 # > 通用规则<微信小程序> - WechatAppletGeneral
-host-suffix, wxsnsdy.wxs.qq.com, reject
 host-suffix, wxsmsdy.video.qq.com, reject
-host-suffix, wxsnsdythumb.wxs.qq.com, reject
