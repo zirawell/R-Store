@@ -63,13 +63,8 @@ if (url.indexOf("/homePage/getHomePageInfo") != -1) {
   }
 } else if (url.indexOf("/shopTab/getModuleForC") != -1) {
   delete obj.data.bannersList;
-  if (obj.data?.cmsList) {
-    obj.data.cmsList = obj.data.cmsList.reduce((acc, module) => {
-      if (module.bottomMargin !== 12) {
-        acc.push(module);
-      }
-      return acc;
-    }, []);
+  if (obj.data?.cmsList?.length > 0) {
+    obj.data.cmsList = obj.data.cmsList.filter(item => item.bottomMargin === 12);
   }
 } else {
   $done({});
