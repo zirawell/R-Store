@@ -61,6 +61,7 @@ if (url.indexOf("/homePage/getHomePageInfo") != -1) {
   if (obj.data?.cmsList?.length > 0) {
     obj.data.cmsList = obj.data.cmsList.filter(item => moduleTypeIdForApp.includes(item.moduleTypeId) && !mainTitlesToDelete.includes(item.mainTitle));
   }
+// 门店页净化
 } else if (url.indexOf("/shopTab/getModuleForC") != -1) {
   delete obj.data.bannersList;
   if (obj.data?.cmsList?.length > 0) {
