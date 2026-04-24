@@ -36,6 +36,22 @@ if (url.includes("/member")) {
           frDiv.remove();
       }
   }
+} else if (url.includes("/t/")) {
+  const header = doc.querySelector('#Wrapper .content .header');
+  if (header) {
+    const fr = header.querySelector('.fr');
+    const flexRow = header.querySelector('.flex-one-row.gap10');
+    if (fr && flexRow) {
+      const breadcrumbDiv = flexRow.querySelector('div');
+      if (breadcrumbDiv) {
+        header.insertBefore(breadcrumbDiv, fr.nextSibling);
+        while (breadcrumbDiv.firstChild) {
+          header.insertBefore(breadcrumbDiv.firstChild, breadcrumbDiv);
+        }
+        breadcrumbDiv.remove();
+      }
+    }
+  }
 }
 resp.body = doc.documentElement.outerHTML;
 $done(resp);
