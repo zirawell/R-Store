@@ -8,10 +8,10 @@
 #!surge_version=5.14.2(Build3405,SDK18.2)
 #!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
 #!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/bosclife.png
-#!date=2026-04-02
+#!date=2026-04-25
 
 [URL Rewrite]
-^https?:\/\/gdlf\.bosc\.cn(:\d+)?\/static\/upload\/pro\/resource\/(?!1762370|1939565)\w+\.jpg$ - reject
+^https?:\/\/gdlf\.bosc\.cn(:\d+)?\/static\/upload\/pro\/resource\/(?!1762370|1939565|2046749)\w+\.jpg$ - reject
 
 [Map Local]
 ^https?:\/\/mpaas1\.bosc\.cn(:\d+)?\/loggw data-type=text data="" status-code=200
