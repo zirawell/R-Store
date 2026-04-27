@@ -3,3 +3,4 @@ host, wgo.mmstat.com, reject
 ip-cidr, 59.82.133.78/32, reject
 ip-cidr, 59.82.121.172/32, reject
 ip-cidr, 59.82.121.72/32, reject
+ip-cidr, 203.119.212.22/32, reject
