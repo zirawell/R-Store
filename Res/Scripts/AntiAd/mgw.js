@@ -59,10 +59,11 @@ const blockListForECNY = [
 
 const blockListForABC = [
   "com.bankabc.recommendcenter.homepage.gethpadverinfo",
+  "com.abchina.mbank.common.homepage.getStartParam",
+  "com.abchina.mbank.common.homepage.getIOSDownLoadInfo",
   "com.bankabc.credit.welfareCenter.getadverinfo",
   //"com.bankabc.credit.home.getCcocAdInfo",
   "com.bankabc.credit.query.custbillqry.getadv",
-  "com.abchina.mbank.common.homepage.getStartParam",
   "com.abchina.mbank.securitycenter.msmp.antiHijack"
 ];
 
