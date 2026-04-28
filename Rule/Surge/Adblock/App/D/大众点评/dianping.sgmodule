@@ -8,17 +8,19 @@
 #!surge_version=5.14.2(Build3405,SDK18.2)
 #!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
 #!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/dianping.png
-#!date=2025-07-08
+#!date=2026-04-29
 
 [Rule]
 DOMAIN, r.dianping.com, REJECT, extended-matching, pre-matching
 DOMAIN, tte.meituan.com, REJECT, extended-matching, pre-matching
 DOMAIN, lx0.meituan.com, REJECT, extended-matching, pre-matching
+DOMAIN, dxlvs.meituan.com, REJECT, extended-matching, pre-matching
 DOMAIN, dpmtpush.dianping.com, REJECT, extended-matching, pre-matching
 DOMAIN, dynamicf.sankuai.com, REJECT, extended-matching, pre-matching
 DOMAIN, live-monitor-broker.sankuai.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, lx.meituan.net, REJECT, extended-matching, pre-matching
 IP-CIDR, 101.32.16.204/32, REJECT, no-resolve, pre-matching
+IP-CIDR, 103.63.160.80/32, REJECT, no-resolve, pre-matching
 IP-CIDR, 119.29.126.137/32, REJECT, no-resolve, pre-matching
 
 [URL Rewrite]
