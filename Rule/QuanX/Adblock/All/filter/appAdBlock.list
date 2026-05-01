@@ -1,11 +1,11 @@
 #!name=App-广告拦截合集-分流规则
 #!desc=某些规则要清除缓存或者重新安装APP，拦截广告才会生效！
-#!count=支持约1381个分流规则
+#!count=支持约1383个分流规则
 #!author=zirawell
 #!homepage=https://github.com/zirawell/R-Store
 #!raw-url=https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/All/filter/appAdBlock.list
 #!tg-group=https://t.me/lanjieguanggao
-#!date=2026-04-29 07:58:46
+#!date=2026-05-01 18:54:32
 #!proxy-select=reject
 #!---------------------------------------------------------------------------------------------------------------
 ip-cidr, 1.202.85.193/32, reject
@@ -78,6 +78,7 @@ ip-cidr, 59.82.113.219/32, reject
 ip-cidr, 59.82.113.8/32, reject
 ip-cidr, 59.82.120.33/32, reject
 ip-cidr, 59.82.121.172/32, reject
+ip-cidr, 59.82.121.216/32, reject
 ip-cidr, 59.82.121.72/32, reject
 ip-cidr, 59.82.133.78/32, reject
 ip-cidr, 59.82.14.1/32, reject
@@ -1341,6 +1342,7 @@ host-keyword, api.sobot.com, reject
 host-keyword, app.adjust, reject
 host-keyword, applogapi.autohome.com, reject
 host-keyword, asiad.byteactivity, reject
+host-keyword, baichuan.taobao.com, reject
 host-keyword, bdsp.x.jd.com, reject
 host-keyword, biz.weibo.com, reject
 host-keyword, bjimp.voiceads.cn, reject
