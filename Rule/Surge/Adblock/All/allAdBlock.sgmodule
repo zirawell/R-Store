@@ -6,7 +6,7 @@
 #!surge_version=5.14.2(Build3405,SDK18.2)
 #!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
 #!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/Filter/AdBlock.png
-#!date=2026-05-01 18:54:33
+#!date=2026-05-01 18:57:02
 
 [Rule]
 IP-CIDR, 1.202.85.193/32, REJECT, no-resolve, pre-matching
@@ -94,6 +94,7 @@ IP-CIDR6, 2402:4e00:1200:ed00:0:9089:6dac:96b6/128, REJECT, no-resolve, pre-matc
 IP-CIDR6, 2402:db40:5100:1011::5/128, REJECT, no-resolve, pre-matching
 DOMAIN, a.cpic.com.cn, REJECT, extended-matching, pre-matching
 DOMAIN, aaid.uyunad.com, REJECT, extended-matching, pre-matching
+DOMAIN, abapi.hellobike.com, REJECT, extended-matching, pre-matching
 DOMAIN, abtest3-misc.zijieapi.com, REJECT, extended-matching, pre-matching
 DOMAIN, acdn.adnxs.com, REJECT, extended-matching, pre-matching
 DOMAIN, activity.video.qq.com, REJECT, extended-matching, pre-matching
@@ -362,6 +363,7 @@ DOMAIN, info4.video.qq.com, REJECT, extended-matching, pre-matching
 DOMAIN, info6.video.qq.com, REJECT, extended-matching, pre-matching
 DOMAIN, init.sms.mob.com, REJECT, extended-matching, pre-matching
 DOMAIN, init.supersonicads.com, REJECT, extended-matching, pre-matching
+DOMAIN, ip.hellobike.com, REJECT, extended-matching, pre-matching
 DOMAIN, ipv4.music.163.com, REJECT, extended-matching, pre-matching
 DOMAIN, ipv6.music.163.com, REJECT, extended-matching, pre-matching
 DOMAIN, iqiyim.adtrack.enlightent.cn, REJECT, extended-matching, pre-matching
@@ -1710,6 +1712,7 @@ DOMAIN-KEYWORD, wan.sogou.com, REJECT, extended-matching, pre-matching
 ^https?:\/\/mercury-gateway\.ixiaochuan\.cn\/mercury\/v\d\/ad\/ - reject
 ^https?:\/\/apigateway\.gaodun\.com\/common-app\/portal\/v\d\/\w+\/pop - reject
 ^https?:\/\/dxy\.com\/app\/i\/ask\/biz\/feed\/launch - reject
+^https?:\/\/api\.hellobike\.com\/api\?homepage\.recommend\.popUp - reject
 ^https?:\/\/app\.variflight\.com\/flight\/getIosAdToken - reject
 ^https?:\/\/capi\.mwee\.cn\/app-api\/V\d{2}\/app\/(?>ad|getstartad) - reject
 ^https?:\/\/stat\.peopleapp\.com\/ - reject
