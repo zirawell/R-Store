@@ -13,6 +13,8 @@ host, dgstatic.jd.com, reject
 host, wqs.jd.com, reject
 host, sdkfp.jd.com, reject
 host, storage23.360buyimg.com, reject
+host, storage11.360buyimg.com, reject
+host, nakedeye.360buyimg.com, reject
 host, second-floor-pro.pf.jd.com, reject
 host-suffix, jzt.jd.com, reject
 host-suffix, img-x.jd.com, reject
