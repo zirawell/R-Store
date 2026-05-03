@@ -13,7 +13,11 @@ host, dgstatic.jd.com, reject
 host, wqs.jd.com, reject
 host, sdkfp.jd.com, reject
 host, storage23.360buyimg.com, reject
+host, storage11.360buyimg.com, reject
+host, nakedeye.360buyimg.com, reject
 host, second-floor-pro.pf.jd.com, reject
+host, im-x.jd.com, reject
+host, discover.300hu.com, reject
 host-suffix, jzt.jd.com, reject
 host-suffix, img-x.jd.com, reject
 host-suffix, du.jd.com, reject
@@ -24,4 +28,6 @@ host-keyword, bdsp.x.jd.com, reject
 host-keyword, keplerapi.jd.com, reject
 host-keyword, mapi.m.jd.com, reject
 ip-cidr, 101.124.19.122/32, reject
+ip-cidr, 43.160.156.164/32, reject
+ip-cidr, 61.170.65.165/32, reject
 ip6-cidr, 2402:db40:5100:1011::5/128, reject

@@ -8,7 +8,7 @@
 #!surge_version=5.14.2(Build3405,SDK18.2)
 #!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
 #!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/jd.png
-#!date=2026-04-22
+#!date=2026-05-04
 
 [Rule]
 DOMAIN, dns.jd.com, REJECT, extended-matching, pre-matching
@@ -25,7 +25,11 @@ DOMAIN, dgstatic.jd.com, REJECT, extended-matching, pre-matching
 DOMAIN, wqs.jd.com, REJECT, extended-matching, pre-matching
 DOMAIN, sdkfp.jd.com, REJECT, extended-matching, pre-matching
 DOMAIN, storage23.360buyimg.com, REJECT, extended-matching, pre-matching
+DOMAIN, storage11.360buyimg.com, REJECT, extended-matching, pre-matching
+DOMAIN, nakedeye.360buyimg.com, REJECT, extended-matching, pre-matching
 DOMAIN, second-floor-pro.pf.jd.com, REJECT, extended-matching, pre-matching
+DOMAIN, im-x.jd.com, REJECT, extended-matching, pre-matching
+DOMAIN, discover.300hu.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, jzt.jd.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, img-x.jd.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, du.jd.com, REJECT, extended-matching, pre-matching
@@ -36,6 +40,8 @@ DOMAIN-KEYWORD, bdsp.x.jd.com, REJECT, extended-matching, pre-matching
 DOMAIN-KEYWORD, keplerapi.jd.com, REJECT, extended-matching, pre-matching
 DOMAIN-KEYWORD, mapi.m.jd.com, REJECT, extended-matching, pre-matching
 IP-CIDR, 101.124.19.122/32, REJECT, no-resolve, pre-matching
+IP-CIDR, 43.160.156.164/32, REJECT, no-resolve, pre-matching
+IP-CIDR, 61.170.65.165/32, REJECT, no-resolve, pre-matching
 IP-CIDR6, 2402:db40:5100:1011::5/128, REJECT, no-resolve, pre-matching
 
 [URL Rewrite]
