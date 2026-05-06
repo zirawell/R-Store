@@ -23,6 +23,7 @@ host-suffix, 1sapp.com, reject
 host-suffix, aiclk.com, reject
 host-suffix, adbiding.com, reject
 host-suffix, apkevery.com, reject
+host-suffix, accuratead.cn, reject
 host-suffix, xwpbj.com, reject
 host-suffix, qiyukf.com, reject
 host-suffix, qttunion.com, reject
