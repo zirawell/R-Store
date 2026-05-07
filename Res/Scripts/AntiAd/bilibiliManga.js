@@ -43,7 +43,7 @@ if (url.includes("/UCenterConf")) {
     //去除商品推荐
     obj.data.feeds = obj.data.feeds.filter(feed => !feed.image.includes("/mall/"));
     //去除视频内容
-    obj.data.feeds = obj.data.feeds.filter(feed => feed.inline_pv_card.bvid === "");
+    //obj.data.feeds = obj.data.feeds.filter(feed => feed.inline_pv_card.bvid === "");
   }
 //评论页置顶的哔漫小卖部
 } else if (url.includes("Comment/Main")) {
