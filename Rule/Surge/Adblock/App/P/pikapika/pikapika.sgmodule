@@ -1,0 +1,8 @@
+# > pikapika - PIKAPIKA
+
+[URL Rewrite]
+# 屏蔽更新弹窗
+^https?:\/\/api\.github\.com\/repos\/ComicSparks\/glxx\/releases\/tags\/pikapika - reject
+
+[MITM]
+hostname= %APPEND% api.github.com
