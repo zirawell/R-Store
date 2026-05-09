@@ -6,7 +6,7 @@
 #!surge_version=5.14.2(Build3405,SDK18.2)
 #!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
 #!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/Filter/AdBlock.png
-#!date=2026-05-09 09:32:28
+#!date=2026-05-10 14:34:02
 
 [Rule]
 IP-CIDR, 1.202.85.193/32, REJECT, no-resolve, pre-matching
@@ -2037,7 +2037,6 @@ DOMAIN-KEYWORD, wan.sogou.com, REJECT, extended-matching, pre-matching
 ^https?:\/\/netflow-mtop\.cainiao\.com\/gw\/mtop\.cainiao\.guoguo\.nbnetflow\.ads data-type=json data="{}" status-code=200
 ^https?:\/\/fm\.fenqile\.com\/routev\d\/other\/(startImg|getfloatAd)\.json data-type=tiny-gif status-code=200
 ^https?:\/\/display\.wting\.info\/.*.jpeg data-type=text data="" status-code=200
-^https?:\/\/manga\.bilibili\.com\/twirp\/user\.v\d\.Read\/ActInfo data-type=text data="" status-code=200
 ^https?:\/\/www\.didapinche\.com\/app\/adstat\/ data-type=text data="" status-code=200
 ^https?:\/\/business\.msstatic\.com\/advertiser data-type=text data="" status-code=200
 ^https?:\/\/appmedia\.springairlines\.com\/cmsstatic\/.*\.gif data-type=tiny-gif status-code=200
@@ -2177,7 +2176,6 @@ https?:\/\/awg\.enmonster\.com\/apa\/(advert\/demand\/home\/poster|index\/advert
 ^https?:\/\/client-api-v\d\.oray\.com\/materials\/(?>SLCC_IOS_STARTUP|SLCC_IOS_DEVICE|SUNLOGIN_CLIENT_IOS_PROMOTION) data-type=json data="{}" status-code=200
 ^https?:\/\/api\.weibo\.cn\/2\/video\/redpacket\? data-type=json data="{}" status-code=200
 ^https?:\/\/app-api\.niu\.com\/v\d\/advertisement data-type=text data="" status-code=200
-^https?:\/\/i\d\.hdslb\.com\/bfs\/manga-static\/\w+\.(?>jpg|png)$ data-type=text data="" status-code=200
 ^https?:\/\/dict\.youdao\.com\/course\/tab\/translateTab data-type=json data="{}" status-code=200
 ^https?:\/\/lofter\.lf127\.net\/ad data-type=text data="" status-code=200
 ^https?:\/\/as\.xiaojukeji\.com\/ep\/as\/conf\?ns=daijia-front&name= data-type=json data="{}" status-code=200
@@ -2407,6 +2405,7 @@ https?:\/\/awg\.enmonster\.com\/apa\/(advert\/demand\/home\/poster|index\/advert
 ^https?:\/\/app\.mixcapp\.com\/mixc\/api\/v\d\/ad data-type=text data="" status-code=200
 ^https?:\/\/op\.ksedt\.com\/jxedtLive\/liveIntroduceResource data-type=json data="{}" status-code=200
 ^https?:\/\/mcmm\.caiyun\.feixin\.10086\.cn:\d+\/mcmm\/api\/(IAdvert|v\d\/getAdverts) data-type=text data="" status-code=200
+^https?:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.Comic\/(?>MoreRecommend|(List)?Flash|GetActivityTab|GetOperaterBanner|SearchBanner|AppInit) data-type=text data="" status-code=200
 ^https?:\/\/images\.client\.vip\.xunlei\.com(\/.+)?\/advert\/ data-type=text data="" status-code=200
 ^https?:\/\/mob\.mddcloud\.com\.cn\/adApi\/advert\/(?>first|third)part\/advertList data-type=json data="{}" status-code=200
 ^https?:\/\/iobs\.pingan\.com\.cn\/download\/bweb-per-sf-prd\/bweb data-type=text data="" status-code=200
@@ -2674,7 +2673,6 @@ https?:\/\/awg\.enmonster\.com\/apa\/(advert\/demand\/home\/poster|index\/advert
 ^https?:\/\/mobads-pre-config\.cdn\.bcebos\.com\/preload data-type=text data="" status-code=200
 ^https?:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.cncommunity\.my\.station\.query data-type=json data="{}" status-code=200
 ^https?:\/\/api\.pinduoduo\.com\/api\/barrow\/query data-type=json data="{}" status-code=200
-^https?:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.Comic\/(?>MoreRecommend|Flash|ListFlash|GetActivityTab|GetBubbles|SearchBanner|AppInit) data-type=text data="" status-code=200
 ^https?:\/\/bd-api\.kuwo\.cn\/api\/pay\/vip\/lowPriceText data-type=json data="{}" status-code=200
 ^https?:\/\/www\.flyert(rip)?\.com(\.cn)?\/.*\.php\?module=basicdata&type=appinfo data-type=json data="{}" status-code=200
 ^https?:\/\/apicloud\.zol\.com\.cn\/Article\/WapLaunchLogo data-type=json data="{}" status-code=200
@@ -2902,6 +2900,8 @@ http-response ^https?:\/\/app-izz\.zhengzhou\.gov\.cn:10019\/bizgw\/gateway\.do 
 http-response-jq ^https?:\/\/wrapper\.cyapi\.cn\/v\d\/activity\?.*type_id=A03 '.activities[]? |= (if .feature != null then .feature = false else . end)'
 http-response-jq ^https?:\/\/api\.charmdeer\.com\/services\/render\/app\/lux\/util\/entries '.results[] |= map(select(.extendedProp.skippable != true))'
 http-response-jq ^https?:\/\/(?>a|s)\.ajmide\.com\/(?>v\d\/get_(?>radio_station|live_bocai)|index\.php\?r=program(%2F|\/)radio-station-top-list) 'if (.data? and (.data|type=="object") and (.data|has("radioList"))) then (.data={radioList:.data.radioList}) elif (.data? and (.data|type=="object") and (.data|has("img_path"))) then (.data.img_path="" | .data.schema="" | .data.title="" | .data.resource_id="" | .data.topicId=0) elif (.data? and (.data|type=="array")) then (.data=[]) else . end'
+http-response ^https?:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.Comic\/GetBubbles bubbles bubbles0
+http-response ^https?:\/\/manga\.bilibili\.com\/twirp\/user\.v\d\.Read\/ActInfo "is_show":true "is_show":false
 http-response ^https?:\/\/api\.boohee\.com\/meta-interface\/v\d\/index\/record_index articles random_body
 http-response-jq ^https?:\/\/(?>a|s)\.ajmide\.com\/v\d\/get_(?>search_keywords|search_home|bar_img) 'if (.data? and ((.data|has("hotImg")) or (.data|has("hotKeywords")) or (.data|has("hotPrograms")) or (.data|has("boCaiList")) or (.data|has("adInfo")))) then (del(.data.hotImg) | .data.hotKeywords=[] | .data.hotPrograms=[] | .data.boCaiList=[] | .data.adInfo=[]) elif (.data? and (.data|has("search_bar_banner"))) then del(.data.search_bar_banner) elif (.data? and (.data|has("list"))) then (.data.list=[]) else . end'
 http-response-jq ^https?:\/\/bd-api\.kuwo\.cn\/api\/service\/global\/config\/scene '.data.showShopEntry=false|.data.idolTabShow=true'
@@ -2935,7 +2935,6 @@ mgtv = type=http-response,pattern=^https?:\/\/mob-st\.bz\.mgtv\.com\/odin\/c\d\/
 goofish = type=http-response,pattern=^https?:\/\/(g-)?acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idle\.local\.home\/,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/goofish.js
 xmly = type=http-response,pattern=^https?:\/\/.*\.xima.*\.com\/discovery-feed\/v\d\/mix,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/xmly.js
 didi = type=http-response,pattern=^https?:\/\/common\.diditaxi\.com\.cn\/common\/v\d\/usercenter\/me,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/didi.js
-bilibiliManga = type=http-response,pattern=^https?:\/\/manga\.bilibili\.com\/twirp\/user\.v\d\.User\/UCenterConf,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/bilibiliManga.js
 youku = type=http-response,pattern=^https?:\/\/acs\.youku\.com\/gw\/mtop\.youku\.columbus\.(gateway\.new\.execute|home\.feed|home\.query|uc\.query|ycp\.query),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/cntv.js
 sqkb = type=http-response,pattern=^https?:\/\/api\.17gwx\.com\/v\d\/history\/remind\/listV,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/sqkb.js
 weibo = type=http-response,pattern=^https?:\/\/bootpreload\.uve\.weibo\.com\/v[12]\/ad\/preload,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/weibo.js
@@ -2973,7 +2972,6 @@ rrtv = type=http-response,pattern=^https?:\/\/api\.rr\.tv\/drama\/app\/get_combi
 163music = type=http-response,pattern=^https?:\/\/interface\d?\.music\.163\.com\/w?e?api\/song\/play\/more\/list\/v\d,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/163music.js
 goofish = type=http-response,pattern=^https?:\/\/(g-)?acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idlehome\.home\.nextfresh\/,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/goofish.js
 weibo = type=http-response,pattern=^https?:\/\/api\.weibo\.cn\/2\/profile\/(container_timeline|dealatt|me|statuses\/tab|userinfo)\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/weibo.js
-bilibiliManga = type=http-response,pattern=^https?:\/\/manga\.bilibili\.com\/twirp\/user\.v\d\.User\/GetInitInfo,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/bilibiliManga.js
 iqiyi = type=http-response,pattern=^https?:\/\/iface2\.iqiyi\.com\/fusion\/3\.0\/common_switch\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/cntv.js
 iqiyi = type=http-response,pattern=^https?:\/\/search\.video\.iqiyi\.com\/q\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/cntv.js
 blued = type=http-response,pattern=^https?:\/\/social\.blued\.cn\/users\/.+\/more\/ios\?v=\d,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/blued.js
@@ -2994,6 +2992,7 @@ ddxq = type=http-response,pattern=^https?:\/\/maicai\.api\.ddxq\.mobi\/tool\/get
 baidutieba = type=http-response,pattern=^https?:\/\/c\.tieba\.baidu\.com\/c\/s\/sync$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/tiebaJson.js
 iqiyi = type=http-response,pattern=^https?:\/\/access\.if\.iqiyi\.com\/3f1\/cards\.iqiyi\.com\/(views_category\/3\.0\/category_home|views_home\/3\.0\/qy_home|waterfall\/3\.0\/feed)\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/cntv.js
 mafengwo = type=http-response,pattern=^https?:\/\/mapi\.mafengwo\.cn\/user\/profile\/get_(?>list|profile),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/mafengwo.js
+bilibiliManga = type=http-response,pattern=^https?:\/\/manga\.bilibili\.com\/twirp\/user\.v\d\.User\/(?>UCenterConf|GetInitInfo),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/bilibiliManga.js
 iqiyi = type=http-response,pattern=^https?:\/\/[\d\.]+\/3f1\/cards\.iqiyi\.com\/(views_home\/3\.0\/qy_home|waterfall\/3\.0\/feed)\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/cntv.js
 kkmh = type=http-response,pattern=^https?:\/\/(cdn-)?api\.kkmh\.com\/v\d\/ironman\/comic\/recommend,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/kkmh.js
 gaoding = type=http-response,pattern=^https?:\/\/www\.gaoding\.com\/api\/v\d\/oc\/exhibitions\/template\/resources$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/gaoding.js
@@ -3061,6 +3060,7 @@ weibo = type=http-response,pattern=^https?:\/\/api\.weibo\.cn\/2\/statuses\/(con
 mcloud = type=http-response,pattern=^https?:\/\/jzts\.cmpassport\.com\/personalized\/getPushContent,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/mcloud.js
 reddit = type=http-response,pattern=^https?:\/\/gql(-fed)?\.reddit\.com,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/reddit.js
 boohee = type=http-response,pattern=^https?:\/\/api\.boohee\.com\/open-interface\/v\d\/string\/market_page\?title=metabolism_config$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/boohee.js
+bilibiliManga = type=http-response,pattern=^https?:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.Comic\/GetCommonBanner,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/bilibiliManga.js
 360cam = type=http-response,pattern=^https?:\/\/jia\.360\.cn\/conf\/v\d\.json,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/360cam.js
 iqiyi = type=http-response,pattern=^https?:\/\/cards\.iqiyi\.com\/views_category\/3\.0\/(category_home|categorylib_content|film_hybrid)\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/cntv.js
 fliggy = type=http-response,pattern=^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.fliggy\.ssif\.pattern\.home,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/fliggy.js

@@ -21,7 +21,7 @@ if (url.includes("/UCenterConf")) {
     "我的已购",
     "超漫俱乐部",
   ];
-  if (obj.data.confs?.length > 0) {
+  if (obj?.data?.confs?.length > 0) {
     let newConfs = [];
     for (let conf of obj.data.confs) {
       if (showPattern.includes(conf?.title)) {
@@ -43,7 +43,7 @@ if (url.includes("/UCenterConf")) {
     //去除商品推荐
     obj.data.feeds = obj.data.feeds.filter(feed => !feed.image.includes("/mall/"));
     //去除视频内容
-    //obj.data.feeds = obj.data.feeds.filter(feed => feed.inline_pv_card.bvid === "");
+    obj.data.feeds = obj.data.feeds.filter(feed => feed.inline_pv_card.bvid === "");
   }
 //评论页置顶的哔漫小卖部
 } else if (url.includes("Comment/Main")) {
@@ -56,6 +56,10 @@ if (url.includes("/UCenterConf")) {
       metainfo.top_replies = [];
     }
     obj.data.metainfo = JSON.stringify(metainfo);
+  }
+} else if (url.includes("Comic/GetCommonBanner")) {
+  if (obj?.data?.jump_url !== "") {
+    $done({status: "HTTP/1.1 204 No Content", body: "", headers: ""});   
   }
 }
 
