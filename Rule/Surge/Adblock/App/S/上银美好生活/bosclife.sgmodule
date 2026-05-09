@@ -11,7 +11,7 @@
 #!date=2026-05-09
 
 [URL Rewrite]
-^https?:\/\/gdlf\.bosc\.cn(:\d+)?\/static\/upload\/pro\/resource\/(?!1762370|205225856)\w+\.jpg$ - reject
+^https?:\/\/gdlf\.bosc\.cn(:\d+)?\/static\/upload\/pro\/resource\/(?!1762370|1939565|205225856)\w+\.jpg$ - reject
 
 [Map Local]
 ^https?:\/\/mpaas1\.bosc\.cn(:\d+)?\/loggw data-type=text data="" status-code=200
