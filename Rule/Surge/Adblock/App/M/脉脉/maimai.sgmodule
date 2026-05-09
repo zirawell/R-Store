@@ -8,7 +8,7 @@
 #!surge_version=5.14.2(Build3405,SDK18.2)
 #!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
 #!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/maimai.png
-#!date=2025-07-08
+#!date=2026-05-09
 
 [Rule]
 DOMAIN-SUFFIX, track.mm.taou.com, REJECT, extended-matching, pre-matching
@@ -21,8 +21,8 @@ DOMAIN-SUFFIX, track.mm.taou.com, REJECT, extended-matching, pre-matching
 http-response ^https?:\/\/(h3\.)?open\.taou\.com\/maimai\/feed\/v\d\/detail_recommend_feeds feeds random_body
 
 [Map Local]
-^https?:\/\/(h3\.)?open\.taou\.com\/maimai\/pay\/v\d\/check_gift data-type=text data="{}" status-code=200
-^https?:\/\/(h3\.)?open\.taou\.com\/maimai\/go_gossip_darwin\/external\/v\d\/query_flow_cards data-type=text data="{}" status-code=200
+^https?:\/\/(h3\.)?open\.taou\.com\/maimai\/pay\/v\d\/check_gift data-type=json data="{}" status-code=200
+^https?:\/\/(h3\.)?open\.taou\.com\/maimai\/go_gossip_darwin\/external\/v\d\/query_flow_cards data-type=json data="{}" status-code=200
 
 [Script]
 maimai = type=http-response,pattern=^https?:\/\/(h3\.)?open\.taou\.com\/maimai\/(feed|gossip)\/v\d\/(?>focus_feed|gossip_detail_comment|feed_detail_comment),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/maimai.js

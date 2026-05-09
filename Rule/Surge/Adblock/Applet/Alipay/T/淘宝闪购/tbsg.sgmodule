@@ -6,7 +6,7 @@ http-response ^https?:\/\/alsc-buy2\.ele\.me\/h5\/mtop\.alsc\.eleme\.order\.deta
 
 [Map Local]
 # 首页右下角角标
-^https?:\/\/waimai-guide\.ele\.me\/h5\/mtop\.ele\.growth\.fission\.client\.etmd\.et\.getmainpageicon data-type=text data="{}" status-code=200
+^https?:\/\/waimai-guide\.ele\.me\/h5\/mtop\.ele\.growth\.fission\.client\.etmd\.et\.getmainpageicon data-type=json data="{}" status-code=200
 
 [MITM]
 hostname= %APPEND% aimai-guide.ele.me, alsc-buy2.ele.me

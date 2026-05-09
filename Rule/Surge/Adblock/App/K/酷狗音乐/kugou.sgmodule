@@ -8,7 +8,7 @@
 #!surge_version=5.14.2(Build3405,SDK18.2)
 #!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
 #!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/kugou.png
-#!date=2025-07-08
+#!date=2026-05-09
 
 [Rule]
 DOMAIN, ads.service.kugou.com, REJECT, extended-matching, pre-matching
@@ -56,21 +56,21 @@ DOMAIN-KEYWORD, logwebs.kugou.com, REJECT, extended-matching, pre-matching
 DOMAIN-KEYWORD, trackercdnbj.kugou.com, REJECT, extended-matching, pre-matching
 
 [Map Local]
-^https?:\/\/fx\.service\.kugou\.com\/mfx-kugoulive\/ad\/ data-type=text data="{}" status-code=200
-^https?:\/\/gateway(retry)?\.kugou\.com\/adp\/ad\/ data-type=text data="{}" status-code=200
-^https?:\/\/gateway(retry)?\.kugou\.com\/ads\.gateway\/ data-type=text data="{}" status-code=200
-^https?:\/\/gateway(retry)?\.kugou\.com\/v\d\/feeds\/follow_feed_fallback data-type=text data="{}" status-code=200
-^https?:\/\/gateway(retry)?\.kugou\.com\/mstc\/musicsymbol\/v\d\/system\/profile data-type=text data="{}" status-code=200
-^https?:\/\/gateway(retry)?\.kugou\.com\/searchnofocus\/v\d\/search_no_focus_word data-type=text data="{}" status-code=200
-^https?:\/\/gateway(retry)?\.kugou\.com\/adp\/bubble\/v\d\/song_play data-type=text data="{}" status-code=200
-^https?:\/\/gateway(retry)?\.kugou\.com\/singerdiscuss\/v\d\/entrance\/comment data-type=text data="{}" status-code=200
-^https?:\/\/gateway(retry)?\.kugou\.com\/r\/v\d\/general\/putin\/midad data-type=text data="{}" status-code=200
-^https?:\/\/gateway(retry)?\.kugou\.com\/ocean\/v\d\/sound\/banner data-type=text data="{}" status-code=200
-^https?:\/\/gzacshow\.kugou\.com\/mfanxing-home\/cdn\/room\/index\/list_v data-type=text data="{}" status-code=200
-^https?:\/\/gzacshow\.kugou\.com\/mfx-rt-show\/cdn\/mo\/show\/headline data-type=text data="{}" status-code=200
-^https?:\/\/m1fxgroup\.kugou\.com\/fxsing\/yqc\/alongInfo\/getUserAlongInfo data-type=text data="{}" status-code=200
-^https?:\/\/hwstore\.kugou\.com\/v\d\/get_store_data data-type=text data="{}" status-code=200
-^https?:\/\/ep\.kugou\.com\/v\d\/album_shop\/get_entrance_info data-type=text data="{}" status-code=200
+^https?:\/\/fx\.service\.kugou\.com\/mfx-kugoulive\/ad\/ data-type=json data="{}" status-code=200
+^https?:\/\/gateway(retry)?\.kugou\.com\/adp\/ad\/ data-type=json data="{}" status-code=200
+^https?:\/\/gateway(retry)?\.kugou\.com\/ads\.gateway\/ data-type=json data="{}" status-code=200
+^https?:\/\/gateway(retry)?\.kugou\.com\/v\d\/feeds\/follow_feed_fallback data-type=json data="{}" status-code=200
+^https?:\/\/gateway(retry)?\.kugou\.com\/mstc\/musicsymbol\/v\d\/system\/profile data-type=json data="{}" status-code=200
+^https?:\/\/gateway(retry)?\.kugou\.com\/searchnofocus\/v\d\/search_no_focus_word data-type=json data="{}" status-code=200
+^https?:\/\/gateway(retry)?\.kugou\.com\/adp\/bubble\/v\d\/song_play data-type=json data="{}" status-code=200
+^https?:\/\/gateway(retry)?\.kugou\.com\/singerdiscuss\/v\d\/entrance\/comment data-type=json data="{}" status-code=200
+^https?:\/\/gateway(retry)?\.kugou\.com\/r\/v\d\/general\/putin\/midad data-type=json data="{}" status-code=200
+^https?:\/\/gateway(retry)?\.kugou\.com\/ocean\/v\d\/sound\/banner data-type=json data="{}" status-code=200
+^https?:\/\/gzacshow\.kugou\.com\/mfanxing-home\/cdn\/room\/index\/list_v data-type=json data="{}" status-code=200
+^https?:\/\/gzacshow\.kugou\.com\/mfx-rt-show\/cdn\/mo\/show\/headline data-type=json data="{}" status-code=200
+^https?:\/\/m1fxgroup\.kugou\.com\/fxsing\/yqc\/alongInfo\/getUserAlongInfo data-type=json data="{}" status-code=200
+^https?:\/\/hwstore\.kugou\.com\/v\d\/get_store_data data-type=json data="{}" status-code=200
+^https?:\/\/ep\.kugou\.com\/v\d\/album_shop\/get_entrance_info data-type=json data="{}" status-code=200
 
 [MITM]
 hostname= %APPEND% fx.service.kugou.com, gateway.kugou.com, gatewayretry.kugou.com, gzacshow.kugou.com, m1fxgroup.kugou.com, hwstore.kugou.com, ep.kugou.com

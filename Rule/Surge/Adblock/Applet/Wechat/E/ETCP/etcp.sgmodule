@@ -7,7 +7,7 @@ DOMAIN, logs-bigdata.yeehaw.com.cn, REJECT, extended-matching, pre-matching
 ^https?:\/\/ife\.etcp\.cn\/api\/v[0-9]\/advertisement - reject
 
 [Map Local]
-^https?:\/\/static\.etcp\.cn\/json\/advertisment data-type=text data="{}" status-code=200
+^https?:\/\/static\.etcp\.cn\/json\/advertisment data-type=json data="{}" status-code=200
 
 [MITM]
 hostname= %APPEND% ife.etcp.cn, static.etcp.cn

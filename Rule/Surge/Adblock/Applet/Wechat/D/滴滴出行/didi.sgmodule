@@ -4,7 +4,7 @@
 ^https?:\/\/capis(-\d)?\.didapinche\.com\/adbase - reject
 
 [Map Local]
-^https?:\/\/conf\.diditaxi\.com\.cn\/homepage\/v\d\/core data-type=text data="{}" status-code=200
+^https?:\/\/conf\.diditaxi\.com\.cn\/homepage\/v\d\/core data-type=json data="{}" status-code=200
 
 [MITM]
 hostname= %APPEND% capis*.didapinche.com, conf.diditaxi.com.cn

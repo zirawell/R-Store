@@ -8,12 +8,12 @@
 #!surge_version=5.14.2(Build3405,SDK18.2)
 #!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
 #!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/beingfine.png
-#!date=2025-07-08
+#!date=2026-05-09
 
 [Map Local]
-^https?:\/\/(img|hwimg)\.beingfine\.cn\/(?>float_button|card) data-type=text data="{}" status-code=200
-^https?:\/\/hwimg\.beingfine\.cn\/(?>card|Channel) data-type=text data="{}" status-code=200
-^https?:\/\/learnywhere\.cn\/api\/activity\/23\/423dsj\/inapp\/bb\/promote data-type=text data="{}" status-code=200
+^https?:\/\/(img|hwimg)\.beingfine\.cn\/(?>float_button|card) data-type=json data="{}" status-code=200
+^https?:\/\/hwimg\.beingfine\.cn\/(?>card|Channel) data-type=json data="{}" status-code=200
+^https?:\/\/learnywhere\.cn\/api\/activity\/23\/423dsj\/inapp\/bb\/promote data-type=json data="{}" status-code=200
 
 [MITM]
 hostname= %APPEND% hwimg.beingfine.cn, learnywhere.cn

@@ -8,11 +8,11 @@
 #!surge_version=5.14.2(Build3405,SDK18.2)
 #!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
 #!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/u51.png
-#!date=2025-07-08
+#!date=2026-05-09
 
 [Map Local]
-^https?:\/\/api\.u51\.com\/rs-resys\/api\/v\d\/recommend data-type=text data="{}" status-code=200
-^https?:\/\/api\.u51\.com\/liabilitygateway\/api\/v\d\/homepage\/liabilityline data-type=text data="{}" status-code=200
+^https?:\/\/api\.u51\.com\/rs-resys\/api\/v\d\/recommend data-type=json data="{}" status-code=200
+^https?:\/\/api\.u51\.com\/liabilitygateway\/api\/v\d\/homepage\/liabilityline data-type=json data="{}" status-code=200
 ^https?:\/\/api\.u51\.com\/generic-config-gateway\/api\/v\d\/creditpage-config data-type=file data="https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Data/u51.json"
 
 [MITM]

@@ -4,7 +4,7 @@
 ^https?:\/\/fscdn\.zto\.com\/fs1 - reject
 
 [Map Local]
-^https?:\/\/hdgateway\.zto\.com\/(?>getApolloConfig|track|getAdInfo|listJumperShow) data-type=text data="{}" status-code=200
+^https?:\/\/hdgateway\.zto\.com\/(?>getApolloConfig|track|getAdInfo|listJumperShow) data-type=json data="{}" status-code=200
 
 [MITM]
 hostname= %APPEND% hdgateway.zto.com, fscdn.zto.com

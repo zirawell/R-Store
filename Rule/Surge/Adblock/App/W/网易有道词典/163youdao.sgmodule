@@ -8,7 +8,7 @@
 #!surge_version=5.14.2(Build3405,SDK18.2)
 #!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
 #!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/163youdao.png
-#!date=2025-07-08
+#!date=2026-05-09
 
 [Rule]
 DOMAIN, gorgon.youdao.com, REJECT, extended-matching, pre-matching
@@ -42,19 +42,19 @@ DOMAIN-SUFFIX, impservicetest.dictapp.youdao.com, REJECT, extended-matching, pre
 
 [Map Local]
 # 翻译广告
-^https?:\/\/dict\.youdao\.com\/course\/tab\/translateTab data-type=text data="{}" status-code=200
+^https?:\/\/dict\.youdao\.com\/course\/tab\/translateTab data-type=json data="{}" status-code=200
 # 首次查词弹窗
-^https?:\/\/api-overmind\.youdao\.com\/openapi\/get\/luna\/dict\/dict-mobile\/prod\/dictCommonConfig data-type=text data="{}" status-code=200
+^https?:\/\/api-overmind\.youdao\.com\/openapi\/get\/luna\/dict\/dict-mobile\/prod\/dictCommonConfig data-type=json data="{}" status-code=200
 # 首页弹窗
-^https?:\/\/cdke\.youdao\.com\/course\d\/recommend\/dict\/startup data-type=text data="{}" status-code=200
+^https?:\/\/cdke\.youdao\.com\/course\d\/recommend\/dict\/startup data-type=json data="{}" status-code=200
 # 搜索预想
-^https?:\/\/dict\.youdao\.com\/commonsearch data-type=text data="{}" status-code=200
+^https?:\/\/dict\.youdao\.com\/commonsearch data-type=json data="{}" status-code=200
 # 会员优惠券弹窗
-^https?:\/\/dict\.youdao\.com\/vip\/activity\/couponinfo data-type=text data="{}" status-code=200
+^https?:\/\/dict\.youdao\.com\/vip\/activity\/couponinfo data-type=json data="{}" status-code=200
 # 首页左上角福利中心
-^https?:\/\/dict\.youdao\.com\/dictusertask\/system data-type=text data="{}" status-code=200
+^https?:\/\/dict\.youdao\.com\/dictusertask\/system data-type=json data="{}" status-code=200
 # 会员界面横幅广告
-^https?:\/\/dictvip-business\.youdao\.com\/home\/ad data-type=text data="{}" status-code=200
+^https?:\/\/dictvip-business\.youdao\.com\/home\/ad data-type=json data="{}" status-code=200
 # 其他
 ^https?:\/\/oimage\w\d\.ydstatic\.com\.+adpublish data-type=tiny-gif status-code=200
 ^https?:\/\/dsp-impr2\.youdao\.com\/adload data-type=text data="" status-code=200

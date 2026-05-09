@@ -8,18 +8,18 @@
 #!surge_version=5.14.2(Build3405,SDK18.2)
 #!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
 #!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/leshua.png
-#!date=2025-08-29
+#!date=2026-05-09
 
 [Map Local]
 # 开屏广告
-^https?:\/\/syt\.leshuazf\.com\/merchant\/merchant\/showOpenScreenAd$ data-type=text data="{}" status-code=200
+^https?:\/\/syt\.leshuazf\.com\/merchant\/merchant\/showOpenScreenAd$ data-type=json data="{}" status-code=200
 # 首页-商e借横幅
-^https?:\/\/m\.fqfin\.cn\/cls\/leshuapay\/preCredit\.json$ data-type=text data="{}" status-code=200
-^https?:\/\/syt\.leshuazf\.com\/merchant\/messageCenter\/stationLetterList$ data-type=text data="{}" status-code=200
+^https?:\/\/m\.fqfin\.cn\/cls\/leshuapay\/preCredit\.json$ data-type=json data="{}" status-code=200
+^https?:\/\/syt\.leshuazf\.com\/merchant\/messageCenter\/stationLetterList$ data-type=json data="{}" status-code=200
 # 首页-信贷广告和收款单横幅
-^https?:\/\/syt\.leshuazf\.com\/merchant\/merchant\/getBannerConfig$ data-type=text data="{}" status-code=200
+^https?:\/\/syt\.leshuazf\.com\/merchant\/merchant\/getBannerConfig$ data-type=json data="{}" status-code=200
 # 首页-弹窗
-^https?:\/\/syt\.leshuazf\.com\/merchant\/popup\/getPopupInfo$ data-type=text data="{}" status-code=200
+^https?:\/\/syt\.leshuazf\.com\/merchant\/popup\/getPopupInfo$ data-type=json data="{}" status-code=200
 
 [MITM]
 hostname= %APPEND% syt.leshuazf.com, m.fqfin.cn

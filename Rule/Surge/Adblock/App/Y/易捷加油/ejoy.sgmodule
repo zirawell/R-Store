@@ -11,9 +11,9 @@
 #!date=2026-05-09
 
 [Map Local]
-^https?:\/\/a\.sinopecsales\.com\/app\/cms data-type=text data="{}" status-code=200
-^https?:\/\/a\.sinopecsales\.com\/app\/wff\/ data-type=text data="[]" status-code=200
-^https?:\/\/a\.sinopecsales\.com\/app\/update\/(?>AppOpenConfig|AppVersion) data-type=text data="{}" status-code=200
+^https?:\/\/a\.sinopecsales\.com\/app\/cms data-type=json data="{}" status-code=200
+^https?:\/\/a\.sinopecsales\.com\/app\/wff\/ data-type=json data="[]" status-code=200
+^https?:\/\/a\.sinopecsales\.com\/app\/update\/(?>AppOpenConfig|AppVersion) data-type=json data="{}" status-code=200
 
 [MITM]
 hostname= %APPEND% a.sinopecsales.com

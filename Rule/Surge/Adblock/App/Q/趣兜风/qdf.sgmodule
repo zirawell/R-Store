@@ -8,7 +8,7 @@
 #!surge_version=5.14.2(Build3405,SDK18.2)
 #!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
 #!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/qdf.png
-#!date=2025-07-08
+#!date=2026-05-09
 
 [Rule]
 DOMAIN, lwlog.laiwang.com, REJECT, extended-matching, pre-matching
@@ -21,7 +21,7 @@ IP-CIDR, 114.67.227.198/32, REJECT, no-resolve, pre-matching
 ^https?:\/\/st7niu\.aicarmap\.com\/st_?!(a2|a3|e9)\w+\.webp$ - reject
 
 [Map Local]
-^https?:\/\/online\.aicarmap\.com\/club\/api\/user\/updateloc data-type=text data="{}" status-code=200
+^https?:\/\/online\.aicarmap\.com\/club\/api\/user\/updateloc data-type=json data="{}" status-code=200
 
 [MITM]
 hostname= %APPEND% online.aicarmap.com, st7niu.aicarmap.com

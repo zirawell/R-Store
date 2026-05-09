@@ -8,7 +8,7 @@
 #!surge_version=5.14.2(Build3405,SDK18.2)
 #!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
 #!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/usmile.png
-#!date=2025-07-08
+#!date=2026-05-09
 
 [URL Rewrite]
 # 屏蔽固件更新
@@ -18,9 +18,9 @@
 
 [Map Local]
 # 屏蔽更新提示
-^https?:\/\/myusmile\.online\/user\/version\/requestAppUpdate data-type=text data="{}" status-code=200
+^https?:\/\/myusmile\.online\/user\/version\/requestAppUpdate data-type=json data="{}" status-code=200
 # 商城页弹窗
-^https?:\/\/wemallh5\.usmile\.com\/api\/sp-portal\/store\/usmile\/activity\/dayCheck\?pop data-type=text data="{}" status-code=200
+^https?:\/\/wemallh5\.usmile\.com\/api\/sp-portal\/store\/usmile\/activity\/dayCheck\?pop data-type=json data="{}" status-code=200
 
 [Script]
 # 我的页推广

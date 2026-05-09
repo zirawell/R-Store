@@ -8,15 +8,15 @@
 #!surge_version=5.14.2(Build3405,SDK18.2)
 #!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
 #!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/wanciwang.png
-#!date=2025-07-08
+#!date=2026-05-09
 
 [URL Rewrite]
 ^https?:\/\/wanciwangdata\.oss-cn-\w+\.aliyuncs\.com\/startup\/resource\/content - reject
 
 [Map Local]
-^https?:\/\/recite\.perfectlingo\.com\/api\/recite\/app-act\/act-list data-type=text data="{}" status-code=200
-^https?:\/\/recite\.perfectlingo\.com\/api\/recite\/content-recommend\/v\d\/get-by-uid data-type=text data="{}" status-code=200
-^https?:\/\/recite\.perfectlingo\.com\/api\/recite\/floating-window\/v\d\/get-show data-type=text data="{}" status-code=200
+^https?:\/\/recite\.perfectlingo\.com\/api\/recite\/app-act\/act-list data-type=json data="{}" status-code=200
+^https?:\/\/recite\.perfectlingo\.com\/api\/recite\/content-recommend\/v\d\/get-by-uid data-type=json data="{}" status-code=200
+^https?:\/\/recite\.perfectlingo\.com\/api\/recite\/floating-window\/v\d\/get-show data-type=json data="{}" status-code=200
 
 [MITM]
 hostname= %APPEND% wanciwangdata.oss-cn-*.aliyuncs.com, recite.perfectlingo.com

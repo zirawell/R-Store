@@ -8,14 +8,14 @@
 #!surge_version=5.14.2(Build3405,SDK18.2)
 #!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
 #!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/ulife.png
-#!date=2025-07-08
+#!date=2026-05-09
 
 [Map Local]
-^https?:\/\/api\.ulife\.group\/signintask\/adServing data-type=text data="{}" status-code=200
-^https?:\/\/api\.ulife\.group\/auth\/account\/getUpgradeStrategy data-type=text data="{}" status-code=200
-^https?:\/\/api\.ulife\.group\/market\/frontEntrance\/getThirdAdvertising data-type=text data="{}" status-code=200
-^https?:\/\/api\.ulife\.group\/market\/memberCard\/listMemberCard\?isShowSecondaryCard=1 data-type=text data="{}" status-code=200
-^https?:\/\/api\.ulife\.group\/auth\/account\/entrance data-type=text data="{}" status-code=200
+^https?:\/\/api\.ulife\.group\/signintask\/adServing data-type=json data="{}" status-code=200
+^https?:\/\/api\.ulife\.group\/auth\/account\/getUpgradeStrategy data-type=json data="{}" status-code=200
+^https?:\/\/api\.ulife\.group\/market\/frontEntrance\/getThirdAdvertising data-type=json data="{}" status-code=200
+^https?:\/\/api\.ulife\.group\/market\/memberCard\/listMemberCard\?isShowSecondaryCard=1 data-type=json data="{}" status-code=200
+^https?:\/\/api\.ulife\.group\/auth\/account\/entrance data-type=json data="{}" status-code=200
 
 [MITM]
 hostname= %APPEND% api.ulife.group

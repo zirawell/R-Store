@@ -8,16 +8,16 @@
 #!surge_version=5.14.2(Build3405,SDK18.2)
 #!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
 #!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/iyunmai.png
-#!date=2025-07-09
+#!date=2026-05-09
 
 [URL Rewrite]
 ^https?:\/\/sq\.iyunmai\.com\/api\/ios\/adlunbo - reject
 ^https?:\/\/restapi\.iyunmai\.com\/(?>app|ad-)?api\/ios\/(?>tips|ad) - reject
 
 [Map Local]
-^https?:\/\/restapi\.iyunmai\.com\/api\/ios\/credit\/credit-family data-type=text data="{}" status-code=200
-^https?:\/\/restapi\.iyunmai\.com\/behaviour\/ios\/recommend data-type=text data="{}" status-code=200
-^https?:\/\/restapi\.iyunmai\.com\/fellow-service\/ios\/popUp data-type=text data="{}" status-code=200
+^https?:\/\/restapi\.iyunmai\.com\/api\/ios\/credit\/credit-family data-type=json data="{}" status-code=200
+^https?:\/\/restapi\.iyunmai\.com\/behaviour\/ios\/recommend data-type=json data="{}" status-code=200
+^https?:\/\/restapi\.iyunmai\.com\/fellow-service\/ios\/popUp data-type=json data="{}" status-code=200
 ^https?:\/\/apisvr\.iyunmai\.com\/api\/ios\/apps\/get-online-parameter-list data-type=file data="https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Data/iyunmai.json"
 
 [MITM]

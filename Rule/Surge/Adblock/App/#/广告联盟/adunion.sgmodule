@@ -8,7 +8,7 @@
 #!surge_version=5.14.2(Build3405,SDK18.2)
 #!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
 #!icon=
-#!date=2026-05-06
+#!date=2026-05-09
 # > 神策 - SENSORDATA
 # > GozenData - GOZENDATA
 # > 字节 - BYTEDANCE
@@ -562,18 +562,18 @@ DOMAIN-SUFFIX, count.video.sina.com.cn, REJECT, extended-matching, pre-matching
 ^https?:\/\/bla\.gtimg\.com\/qqlive\/\d{6}.+?\.png data-type=tiny-gif status-code=200
 ^https?:\/\/mmgr\.gtimg\.com\/gjsmall\/qiantu\/upload\/ data-type=tiny-gif status-code=200
 ^https?:\/\/mmgr\.gtimg\.com\/gjsmall\/qqpim\/public\/ios\/splash\/.+?\/\d{4}_\d{4} data-type=tiny-gif status-code=200
-^https?:\/\/bk\.bingo\.qq\.com\/bk\/crx\/data\/videoAd data-type=text data="{}" status-code=200
-^https?:\/\/api\.map\.baidu\.com\/\?qt=verify data-type=text data="{}" status-code=200
+^https?:\/\/bk\.bingo\.qq\.com\/bk\/crx\/data\/videoAd data-type=json data="{}" status-code=200
+^https?:\/\/api\.map\.baidu\.com\/\?qt=verify data-type=json data="{}" status-code=200
 ^https?:\/\/afd\.baidu\.com\/afd\/entry data-type=tiny-gif status-code=200
 ^https?:\/\/issuecdn\.baidupcs\.com\/issue\/netdisk\/guanggao\/ data-type=text data="" status-code=200
 ^https?:\/\/[\s\S]*\.baidu\.com/.*?ad[xs]\.php data-type=tiny-gif status-code=200
 ^https?:\/\/t\d{2}\.baidu\.com data-type=tiny-gif status-code=200
 ^https?:\/\/g\.alicdn\.com\/(?>alilog|trace) data-type=text data="" status-code=200
-^https?:\/\/yixiu-abtest\.alicdn\.com\/ut-abtest\/config data-type=text data="{}" status-code=200
-^https?:\/\/www\.google\.com\/ads data-type=text data="{}" status-code=200
+^https?:\/\/yixiu-abtest\.alicdn\.com\/ut-abtest\/config data-type=json data="{}" status-code=200
+^https?:\/\/www\.google\.com\/ads data-type=json data="{}" status-code=200
 ^https?:\/\/api\d?\.musical\.ly\/api\/ad\/ data-type=tiny-gif status-code=200
 ^https?:\/\/cdn\.api\.fotoable\.com\/Advertise\/ data-type=text data="" status-code=200
-^https?:\/\/cloud\.bluecardsoft\.com\/yuntingad\/ data-type=text data="{}" status-code=200
+^https?:\/\/cloud\.bluecardsoft\.com\/yuntingad\/ data-type=json data="{}" status-code=200
 
 [Script]
 adunion = type=http-response,pattern=^https?:\/\/mi\.gdt\.qq\.com\/gdt_mview,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/adsense.js

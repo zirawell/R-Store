@@ -8,7 +8,7 @@
 #!surge_version=5.14.2(Build3405,SDK18.2)
 #!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
 #!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/cmbcc.png
-#!date=2025-07-08
+#!date=2026-05-09
 
 [URL Rewrite]
 ^https?:\/\/intellicc\.\w+\.cmbchina\.com\/Edge\/api\/mlife\.intelli\.adrender\.api\.AdWork - reject
@@ -21,10 +21,10 @@ http-response ^https?:\/\/res\.cc\.cmbimg\.com\/fsp\/File\/ClientFacePublic\/\w+
 
 [Map Local]
 # ⚠️域名[res.cc.cmbimg.com]可能会导致App端部分功能无法使用，请自行选择是否需要
-^https?:\/\/mars\.ccc\.cmbchina\.com\/MarsReceiver data-type=text data="{}" status-code=200
-^https?:\/\/marscc\.bcs\.cmbchina\.com\/MarsReceiver data-type=text data="{}" status-code=200
-^https?:\/\/intellicc\.\w+\.cmbchina\.com\/Edge\/api\/mlife\.intelli\.render\.api\.RecommendRenderControllerApi\/getRecommendResult data-type=text data="{}" status-code=200
-^https?:\/\/interactivecc\.\w+\.cmbchina\.com\/Edge\/api\/atpcore\.api\.AccompanyingServiceControllerApi\/queryAccompanyingServiceUserConfForApp data-type=text data="{}" status-code=200
+^https?:\/\/mars\.ccc\.cmbchina\.com\/MarsReceiver data-type=json data="{}" status-code=200
+^https?:\/\/marscc\.bcs\.cmbchina\.com\/MarsReceiver data-type=json data="{}" status-code=200
+^https?:\/\/intellicc\.\w+\.cmbchina\.com\/Edge\/api\/mlife\.intelli\.render\.api\.RecommendRenderControllerApi\/getRecommendResult data-type=json data="{}" status-code=200
+^https?:\/\/interactivecc\.\w+\.cmbchina\.com\/Edge\/api\/atpcore\.api\.AccompanyingServiceControllerApi\/queryAccompanyingServiceUserConfForApp data-type=json data="{}" status-code=200
 
 [MITM]
 hostname= %APPEND% mars.ccc.cmbchina.com, marscc.bcs.cmbchina.com, intellicc.b*s.cmbchina.com, *mbasecc.b*s.cmbchina.com, interactivecc.b*s.cmbchina.com

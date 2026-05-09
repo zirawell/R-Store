@@ -8,7 +8,7 @@
 #!surge_version=5.14.2(Build3405,SDK18.2)
 #!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
 #!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/bodian.png
-#!date=2025-07-08
+#!date=2026-05-09
 
 [Body Rewrite]
 http-response-jq ^https?:\/\/bd-api\.kuwo\.cn\/api\/service\/global\/config\/scene '.data.showShopEntry=false|.data.idolTabShow=true'
@@ -17,14 +17,14 @@ http-response-jq ^https?:\/\/bd-api\.kuwo\.cn\/api\/service\/resource\/recommend
 http-response-jq ^https?:\/\/bd-api\.kuwo\.cn\/api\/voice\/room\/v\d\/sidebar '(.data) = {}'
 
 [Map Local]
-^https?:\/\/bd-api\.kuwo\.cn\/api\/(\w+\/)?advert data-type=text data="{}" status-code=200
-^https?:\/\/bd-api\.kuwo\.cn\/api\/.*popup data-type=text data="{}" status-code=200
-^https?:\/\/bd-api\.kuwo\.cn\/api\/pay\/vip\/lowPriceText data-type=text data="{}" status-code=200
-^https?:\/\/bd-api\.kuwo\.cn\/api\/play\/listening\/entrance\/music\?musicId data-type=text data="{}" status-code=200
-^https?:\/\/bd-api\.kuwo\.cn\/api\/search\/topic\/word\/list data-type=text data="{}" status-code=200
-^https?:\/\/bd-api\.kuwo\.cn\/api\/service\/banner data-type=text data="{}" status-code=200
-^https?:\/\/bd-api\.kuwo\.cn\/api\/service\/finds\/module data-type=text data="{}" status-code=200
-^https?:\/\/bd-api\.kuwo\.cn\/api\/service\/global\/config\/vipEnter data-type=text data="{}" status-code=200
+^https?:\/\/bd-api\.kuwo\.cn\/api\/(\w+\/)?advert data-type=json data="{}" status-code=200
+^https?:\/\/bd-api\.kuwo\.cn\/api\/.*popup data-type=json data="{}" status-code=200
+^https?:\/\/bd-api\.kuwo\.cn\/api\/pay\/vip\/lowPriceText data-type=json data="{}" status-code=200
+^https?:\/\/bd-api\.kuwo\.cn\/api\/play\/listening\/entrance\/music\?musicId data-type=json data="{}" status-code=200
+^https?:\/\/bd-api\.kuwo\.cn\/api\/search\/topic\/word\/list data-type=json data="{}" status-code=200
+^https?:\/\/bd-api\.kuwo\.cn\/api\/service\/banner data-type=json data="{}" status-code=200
+^https?:\/\/bd-api\.kuwo\.cn\/api\/service\/finds\/module data-type=json data="{}" status-code=200
+^https?:\/\/bd-api\.kuwo\.cn\/api\/service\/global\/config\/vipEnter data-type=json data="{}" status-code=200
 
 [MITM]
 hostname= %APPEND% bd-api.kuwo.cn

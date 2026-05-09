@@ -8,7 +8,7 @@
 #!surge_version=5.14.2(Build3405,SDK18.2)
 #!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
 #!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/17u.png
-#!date=2025-07-10
+#!date=2026-05-09
 
 [Rule]
 DOMAIN, vstlog.17usoft.com, REJECT, extended-matching, pre-matching
@@ -17,15 +17,15 @@ DOMAIN, vstlog.17usoft.com, REJECT, extended-matching, pre-matching
 ^https?:\/\/wx\.17u\.cn\/xcxhomeapi\/((aggregator\/index)|(home\/(?>screen|banner|converge)))$ - reject
 
 [Map Local]
-^https?:\/\/wx\.17u\.cn\/crapi\/query\/(?>ad|getAdImgUrlByCode) data-type=text data="{}" status-code=200
-^https?:\/\/tcmobileapi\.17usoft\.com\/foundation\/foundationHandler\.ashx data-type=text data="{}" status-code=200
+^https?:\/\/wx\.17u\.cn\/crapi\/query\/(?>ad|getAdImgUrlByCode) data-type=json data="{}" status-code=200
+^https?:\/\/tcmobileapi\.17usoft\.com\/foundation\/foundationHandler\.ashx data-type=json data="{}" status-code=200
 ^https?:\/\/tcmobileapi\.17usoft\.com\/userextend\/member\/myIndex data-type=text data="" status-code=200
-^https?:\/\/tcmobileapi\.17usoft\.com\/backendActivity\/ori\/ordercenter\/recommend data-type=text data="{}" status-code=200
-^https?:\/\/tcmobileapi\.17usoft\.com\/appindexnew\/index\/(?>openscreen|getpopupimages|getindexlayoutcelllist|newmemberzone|getsearchboxtext|gethotrecommend) data-type=text data="{}" status-code=200
-^https:\/\/m\.ly\.com\/visa\/fetch\/home\/getAdvDialogData data-type=text data="{}" status-code=200
-^https?:\/\/mobileapi\.ly\.com\/wlfrontend\/app\/scenicMain data-type=text data="{}" status-code=200
-^https?:\/\/mobile-api2011\.elong\.com\/adgateway\/newad\/list data-type=text data="{}" status-code=200
-^https?:\/\/mobilehotelapi\.elong\.com\/appHotel\/adx\/advert\/getAdvert data-type=text data="{}" status-code=200
+^https?:\/\/tcmobileapi\.17usoft\.com\/backendActivity\/ori\/ordercenter\/recommend data-type=json data="{}" status-code=200
+^https?:\/\/tcmobileapi\.17usoft\.com\/appindexnew\/index\/(?>openscreen|getpopupimages|getindexlayoutcelllist|newmemberzone|getsearchboxtext|gethotrecommend) data-type=json data="{}" status-code=200
+^https:\/\/m\.ly\.com\/visa\/fetch\/home\/getAdvDialogData data-type=json data="{}" status-code=200
+^https?:\/\/mobileapi\.ly\.com\/wlfrontend\/app\/scenicMain data-type=json data="{}" status-code=200
+^https?:\/\/mobile-api2011\.elong\.com\/adgateway\/newad\/list data-type=json data="{}" status-code=200
+^https?:\/\/mobilehotelapi\.elong\.com\/appHotel\/adx\/advert\/getAdvert data-type=json data="{}" status-code=200
 
 [MITM]
 hostname= %APPEND% wx.17u.cn, tcmobileapi.17usoft.com, m.ly.com, mobileapi.ly.com, mobile-api2011.elong.com, mobilehotelapi.elong.com

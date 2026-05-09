@@ -2,9 +2,9 @@
 
 [Map Local]
 # 横幅广告
-^https?:\/\/plt\.yorentown\.com\/pltapp\/v\d\/banner data-type=text data="{}" status-code=200
+^https?:\/\/plt\.yorentown\.com\/pltapp\/v\d\/banner data-type=json data="{}" status-code=200
 # 弹窗及悬浮广告
-^https?:\/\/lawsonapi\.yorentown\.com\/app\/v\d\/globalLaunch\/listAdvert data-type=text data="{}" status-code=200
+^https?:\/\/lawsonapi\.yorentown\.com\/app\/v\d\/globalLaunch\/listAdvert data-type=json data="{}" status-code=200
 
 [Script]
 # 首页净化

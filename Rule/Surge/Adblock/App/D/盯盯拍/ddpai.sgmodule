@@ -8,7 +8,7 @@
 #!surge_version=5.14.2(Build3405,SDK18.2)
 #!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
 #!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/ddpai.png
-#!date=2025-07-08
+#!date=2026-05-09
 
 [Rule]
 DOMAIN, api.htp.ad-scope.com.cn, REJECT, extended-matching, pre-matching
@@ -18,7 +18,7 @@ DOMAIN, init.sms.mob.com, REJECT, extended-matching, pre-matching
 ^https?:\/\/appgw\.ddpai\.com.*\/ad\/list.* - reject
 
 [Map Local]
-^https?:\/\/apphw\.ddpai\.com:\d+\/onroad\/api\/v\d\/\w+\/list data-type=text data="{}" status-code=200
+^https?:\/\/apphw\.ddpai\.com:\d+\/onroad\/api\/v\d\/\w+\/list data-type=json data="{}" status-code=200
 
 [MITM]
 hostname= %APPEND% appgw.ddpai.com, apphw.ddpai.com

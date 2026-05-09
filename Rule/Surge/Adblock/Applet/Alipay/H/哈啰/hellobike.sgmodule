@@ -8,8 +8,8 @@ DOMAIN, ip.hellobike.com, REJECT, extended-matching, pre-matching
 ^https?:\/\/api\.hellobike\.com\/api\?homepage\.recommend\.popUp - reject
 
 [Map Local]
-^https?:\/\/api\.hellobike\.com\/api\?homepage\.newWelfare\.alipay data-type=text data="{}" status-code=200
-^https?:\/\/api\.hellobike\.com\/api\?applet\.homepage\.medal\.activity data-type=text data="{}" status-code=200
+^https?:\/\/api\.hellobike\.com\/api\?homepage\.newWelfare\.alipay data-type=json data="{}" status-code=200
+^https?:\/\/api\.hellobike\.com\/api\?applet\.homepage\.medal\.activity data-type=json data="{}" status-code=200
 
 [MITM]
 hostname= %APPEND% api.hellobike.com

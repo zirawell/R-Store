@@ -8,10 +8,10 @@
 #!surge_version=5.14.2(Build3405,SDK18.2)
 #!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
 #!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/xiaoheihe.png
-#!date=2025-07-08
+#!date=2026-05-09
 
 [Map Local]
-^https?:\/\/api\.xiaoheihe\.cn\/account\/get_ads_info data-type=text data="{}" status-code=200
+^https?:\/\/api\.xiaoheihe\.cn\/account\/get_ads_info data-type=json data="{}" status-code=200
 
 [Script]
 xiaoheihe = type=http-response,pattern=^https?:\/\/api\.xiaoheihe\.cn\/bbs\/app\/feeds\/news,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/xiaoheihe.js

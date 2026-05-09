@@ -8,13 +8,13 @@
 #!surge_version=5.14.2(Build3405,SDK18.2)
 #!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
 #!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/kuaidui.png
-#!date=2025-07-11
+#!date=2026-05-09
 
 [Map Local]
-^https?:\/\/c\.kuaiduizuoye\.com\/adx\/impress data-type=text data="{}" status-code=200
-^https?:\/\/www\.kuaiduizuoye\.com\/init\/ad\/ data-type=text data="{}" status-code=200
-^https?:\/\/www\.kuaiduizuoye\.com\/kdapi\/conf\/appbanners data-type=text data="{}" status-code=200
-^https?:\/\/apivip\.kuaiduizuoye\.com\/viponline\/scancode\/mycard data-type=text data="{}" status-code=200
+^https?:\/\/c\.kuaiduizuoye\.com\/adx\/impress data-type=json data="{}" status-code=200
+^https?:\/\/www\.kuaiduizuoye\.com\/init\/ad\/ data-type=json data="{}" status-code=200
+^https?:\/\/www\.kuaiduizuoye\.com\/kdapi\/conf\/appbanners data-type=json data="{}" status-code=200
+^https?:\/\/apivip\.kuaiduizuoye\.com\/viponline\/scancode\/mycard data-type=json data="{}" status-code=200
 
 [MITM]
 hostname= %APPEND% c.kuaiduizuoye.com, www.kuaiduizuoye.com, apivip.kuaiduizuoye.com

@@ -4,7 +4,7 @@
 ^https?:\/\/aag\.enmonster\.com\/apa(\/index)?\/advert - reject
 
 [Map Local]
-^https?:\/\/aag\.enmonster\.com\/apa(\/discount)?\/activity data-type=text data="{}" status-code=200
+^https?:\/\/aag\.enmonster\.com\/apa(\/discount)?\/activity data-type=json data="{}" status-code=200
 
 [MITM]
 hostname= %APPEND% aag.enmonster.com
