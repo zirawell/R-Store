@@ -6,7 +6,7 @@
 #!surge_version=5.14.2(Build3405,SDK18.2)
 #!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
 #!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/Filter/AdBlock.png
-#!date=2026-05-09 08:37:03
+#!date=2026-05-09 09:01:31
 
 [Rule]
 IP-CIDR, 1.202.85.193/32, REJECT, no-resolve, pre-matching
@@ -2332,6 +2332,7 @@ https?:\/\/awg\.enmonster\.com\/apa\/(advert\/demand\/home\/poster|index\/advert
 ^https?:\/\/api\.zhihu\.com\/comment_v\d\/answers\/\d+\/list-headers data-type=text data="{}" status-code=200
 ^https?:\/\/interactivecc\.\w+\.cmbchina\.com\/Edge\/api\/atpcore\.api\.AccompanyingServiceControllerApi\/queryAccompanyingServiceUserConfForApp data-type=text data="{}" status-code=200
 ^https?:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.nbopen\.miniapp\.recommend data-type=text data="{}" status-code=200
+^https?:\/\/a\.sinopecsales\.com\/app\/wff\/ data-type=text data="[]" status-code=200
 ^https?:\/\/zgrb\.epicc\.com\.cn\/G-HAPP\/a\/config\/windowsintegration\/getMessage data-type=text data="{}" status-code=200
 ^https?:\/\/common-sc\.miguvideo\.com\/videoActivity\/activityList\/ data-type=text data="{}" status-code=200
 ^https?:\/\/ecard\.shenzhentong\.com\/wxweb\/bwxppub2\/QryAdvertList\.do data-type=text data="" status-code=200
