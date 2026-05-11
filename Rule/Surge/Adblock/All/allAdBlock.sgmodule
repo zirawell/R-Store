@@ -6,7 +6,7 @@
 #!surge_version=5.14.2(Build3405,SDK18.2)
 #!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
 #!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/Filter/AdBlock.png
-#!date=2026-05-11 10:24:00
+#!date=2026-05-11 17:57:12
 
 [Rule]
 IP-CIDR, 1.202.85.193/32, REJECT, no-resolve, pre-matching
@@ -61,10 +61,9 @@ IP-CIDR, 183.201.213.194/24, REJECT, no-resolve, pre-matching
 IP-CIDR, 186.76.76.200/32, REJECT, no-resolve, pre-matching
 IP-CIDR, 203.107.1.0/24, REJECT, no-resolve, pre-matching
 IP-CIDR, 203.107.63.154/32, REJECT, no-resolve, pre-matching
+IP-CIDR, 203.119.204.195/32, REJECT, no-resolve, pre-matching
 IP-CIDR, 203.119.212.22/32, REJECT, no-resolve, pre-matching
-IP-CIDR, 203.119.238.15/32, REJECT, no-resolve, pre-matching
 IP-CIDR, 203.119.238.164/32, REJECT, no-resolve, pre-matching
-IP-CIDR, 203.119.238.48/32, REJECT, no-resolve, pre-matching
 IP-CIDR, 203.119.238.63/32, REJECT, no-resolve, pre-matching
 IP-CIDR, 210.13.85.204/32, REJECT, no-resolve, pre-matching
 IP-CIDR, 212.129.220.0/24, REJECT, no-resolve, pre-matching
