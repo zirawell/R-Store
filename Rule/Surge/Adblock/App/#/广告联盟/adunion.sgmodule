@@ -8,7 +8,7 @@
 #!surge_version=5.14.2(Build3405,SDK18.2)
 #!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
 #!icon=
-#!date=2026-05-09
+#!date=2026-05-12
 # > 神策 - SENSORDATA
 # > GozenData - GOZENDATA
 # > 字节 - BYTEDANCE
@@ -67,6 +67,7 @@ DOMAIN-SUFFIX, adview.cn, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, ttayy.cn, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, tobidad.cn, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, zhengxiaoliu.top, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, shujupie.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, shuzilm.cn, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, u51.me, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, ubixioe.com, REJECT, extended-matching, pre-matching
