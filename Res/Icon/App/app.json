@@ -1,7 +1,7 @@
 {
   "name": "App Icons",
   "description": "collected by zirawell",
-  "time": "2026-04-11",
+  "time": "2026-05-13",
   "icons": [
     {
       "name": "shihuo",
@@ -538,6 +538,10 @@
     {
       "name": "baidupan",
       "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/baidupan.png"
+    },
+    {
+      "name": "cmbwl",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/cmbwl.png"
     },
     {
       "name": "hanju",

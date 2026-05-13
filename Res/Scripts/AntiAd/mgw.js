@@ -9,6 +9,7 @@ https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/App/S
 https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/App/S/上银美好生活/rewrite/bosclife.conf
 https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/App/S/数字人民币/rewrite/ecny.conf
 https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/App/Z/中国农业银行/rewrite/abc.conf
+https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/App/Z/招商永隆银行/rewrite/cmbwl.conf
 
 Surge module link:
 https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/Surge/Adblock/App/0-9/12306/12306.sgmodule
@@ -16,6 +17,7 @@ https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/Surge/Adblock/App/S
 https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/Surge/Adblock/App/S/上银美好生活/bosclife.sgmodule
 https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/Surge/Adblock/App/S/数字人民币/ecny.sgmodule
 https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/Surge/Adblock/App/Z/中国农业银行/abc.sgmodule
+https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/Surge/Adblock/App/Z/招商永隆银行/cmbwl.sgmodule
 ********************************/
 
 const url = $request.url;
@@ -67,14 +69,23 @@ const blockListForABC = [
   "com.abchina.mbank.securitycenter.msmp.antiHijack"
 ];
 
+const blockListForCmbwl = [
+  "com.wlbbank.mb0003.rdpHomePagePopUp",
+  "com.wlbbank.mb0003.HomePageStarterZone",
+  "com.wlbbank.ifcms.GetGategoryInformationList",
+  "com.wlbbank.notice.getWaterNotify",
+  "com.wlbbank.appfloatwindow.queryappfloatwindow"
+];
+
 const isGeneralBlock = generalBlockList.includes(headopt);
 const isAbcBlock = url.includes("mobilepaas.abchina.com") && blockListForABC.includes(headopt);
 const isECNYBlock = url.includes("mgs.wallet.pbcdci.cn") && blockListForECNY.includes(headopt);
 const isBoscLifeBlock = url.includes("mgs1.bosc.cn") && blockListForBoscLife.includes(headopt);
 const isBoscBlock = url.includes("pmbservice.bosc.cn") && blockListForBosc.includes(headopt);
 const is12306Block = url.includes("mobile.12306.cn") && blockListFor12306.includes(headopt);
+const isCmbwlBlock = url.includes("cmbwinglungbank.com") && blockListForCmbwl.includes(headopt);
 
-if (isGeneralBlock || isAbcBlock || isECNYBlock || isBoscLifeBlock || isBoscBlock || is12306Block) {
+if (isGeneralBlock || isAbcBlock || isECNYBlock || isBoscLifeBlock || isBoscBlock || is12306Block || isCmbwlBlock) {
   $done({status: "HTTP/1.1 204 No Content", body: "", headers: ""});   
 } else {
   $done({});
