@@ -6,7 +6,7 @@
 #!surge_version=5.14.2(Build3405,SDK18.2)
 #!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
 #!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/Filter/AdBlock.png
-#!date=2026-05-14 08:11:36
+#!date=2026-05-14 08:14:04
 
 [Rule]
 IP-CIDR, 1.202.85.193/32, REJECT, no-resolve, pre-matching
@@ -1214,6 +1214,8 @@ DOMAIN-SUFFIX, shujupie.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, shuzilm.cn, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, simba.m.taobao.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, slog.sina.com.cn, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, sma-dk.tdnsstic1.cn, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, sma.tdnsstic1.cn, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, smaato.net, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, smadex.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, sngmta.qq.com, REJECT, extended-matching, pre-matching

@@ -285,6 +285,8 @@ host-suffix, pingma.qq.com, reject
 host-suffix, pingtcss.qq.com, reject
 host-suffix, tajs.qq.com, reject
 host-suffix, fusion.qq.com, reject
+host-suffix, sma.tdnsstic1.cn, reject
+host-suffix, sma-dk.tdnsstic1.cn, reject
 host-keyword, gdtimg.com, reject
 host-keyword, pgdt.gtimg.c, reject
 host-keyword, trace.qq.com, reject
