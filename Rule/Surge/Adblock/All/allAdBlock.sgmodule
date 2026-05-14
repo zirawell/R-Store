@@ -6,7 +6,7 @@
 #!surge_version=5.14.2(Build3405,SDK18.2)
 #!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
 #!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/Filter/AdBlock.png
-#!date=2026-05-13 13:13:10
+#!date=2026-05-14 08:08:31
 
 [Rule]
 IP-CIDR, 1.202.85.193/32, REJECT, no-resolve, pre-matching
@@ -2693,6 +2693,7 @@ https?:\/\/awg\.enmonster\.com\/apa\/(advert\/demand\/home\/poster|index\/advert
 ^https?:\/\/sto-customer-app\.oss-cn-shanghai\.aliyuncs\.com\/images data-type=json data="{}" status-code=200
 ^https?:\/\/haojia\.m\.smzdm\.com\/detail_modul\/other_modul\? data-type=json data="{}" status-code=200
 ^https?:\/\/mp\.weixin\.qq\.com\/wapad\/getaddata\?action=getad data-type=text data="" status-code=200
+^https?:\/\/a\.sinopecsales\.com\/app\/layout\/image\/xfq data-type=tiny-gif status-code=200
 ^https?:\/\/wxproj\.seeyouyima\.com\/data\/today_tips data-type=json data="{}" status-code=200
 ^https?:\/\/(g-)?acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idlehome\.idle\.coin\.nextfresh\/ data-type=json data="{}" status-code=200
 ^https?:\/\/api\.ulife\.group\/market\/memberCard\/listMemberCard\?isShowSecondaryCard=1 data-type=json data="{}" status-code=200
