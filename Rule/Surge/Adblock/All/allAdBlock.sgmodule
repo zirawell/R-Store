@@ -6,7 +6,7 @@
 #!surge_version=5.14.2(Build3405,SDK18.2)
 #!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
 #!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/Filter/AdBlock.png
-#!date=2026-05-15 08:06:10
+#!date=2026-05-15 08:08:23
 
 [Rule]
 IP-CIDR, 1.202.85.193/32, REJECT, no-resolve, pre-matching
@@ -225,6 +225,7 @@ DOMAIN, apis.alenable.com, REJECT, extended-matching, pre-matching
 DOMAIN, apm-native.xiaohongshu.com, REJECT, extended-matching, pre-matching
 DOMAIN, apm.gotokeep.com, REJECT, extended-matching, pre-matching
 DOMAIN, apm.pinduoduo.com, REJECT, extended-matching, pre-matching
+DOMAIN, apmgw.hellobike.com, REJECT, extended-matching, pre-matching
 DOMAIN, apmplus.volces.com, REJECT, extended-matching, pre-matching
 DOMAIN, app-ad.variflight.com, REJECT, extended-matching, pre-matching
 DOMAIN, app-analytics-services.com, REJECT, extended-matching, pre-matching
@@ -252,6 +253,7 @@ DOMAIN, bootpreload.uve.weibo.com, REJECT, extended-matching, pre-matching
 DOMAIN, bsync3-normal.zijieapi.com, REJECT, extended-matching, pre-matching
 DOMAIN, business.msstatic.com, REJECT, extended-matching, pre-matching
 DOMAIN, cad.youku.com, REJECT, extended-matching, pre-matching
+DOMAIN, cdn.hellobike.com, REJECT, extended-matching, pre-matching
 DOMAIN, collect.hnair.com, REJECT, extended-matching, pre-matching
 DOMAIN, collect.xiaopeng.com, REJECT, extended-matching, pre-matching
 DOMAIN, conf-darwin.xycdn.com, REJECT, extended-matching, pre-matching
@@ -1910,6 +1912,7 @@ DOMAIN-KEYWORD, wan.sogou.com, REJECT, extended-matching, pre-matching
 ^https?:\/\/gaia\.ch\.com\/ECProduct\/popupWindow - reject
 ^https?:\/\/creditcardapp\.bankcomm\.(com|cn)\/mappweb_interaction\/common\/globalNotify - reject
 ^https?:\/\/api\.boohee\.com\/app-interface\/v\d\/ad\/info - reject
+^https?:\/\/api\.hellobike\.com\/api\?bottom\.aggregation\.tab\.info - reject
 ^https?:\/\/pic\d\.ajkimg\.com\/mat\/\w+\?imageMogr\d\/format\/jpg\/thumbnail\/\d{3}x\d{4}$ - reject
 ^https?:\/\/wapi\.kuwo\.cn\/openapi\/v\d\/user\/freeMode - reject
 ^https?:\/\/cdn\.\w{3}\.chelaileapp\.cn\/(api\/)?adpub - reject
@@ -1933,6 +1936,7 @@ DOMAIN-KEYWORD, wan.sogou.com, REJECT, extended-matching, pre-matching
 ^https?:\/\/sf3-be-pack\.pglstatp-toutiao\.com\/img\/ad\.union\.api - reject
 ^https?:\/\/api\.catchtable\.net\/api\/v\d\/banner\/live\?localeCode=\w+-\w+&bannerType=MAIN_POPUP_MID - reject
 ^https?:\/\/external\.fcbox\.com\/wxgw\/post\/suggestion\/query - reject
+^https?:\/\/api\.hellobike\.com\/api\?homepage\.module\.newAlipay - reject
 ^https?:\/\/xxyx-client-api\.xiaoxiaoyouxuan\.com\/activity\/show - reject
 ^https?:\/\/app\.home\.360\.cn\/v\d\/config\/custom_config - reject
 ^https?:\/\/support\.you\.163\.com\/appversync\/check - reject
@@ -2043,9 +2047,11 @@ DOMAIN-KEYWORD, wan.sogou.com, REJECT, extended-matching, pre-matching
 ^https?:\/\/gaia\.ch\.com\/ECProduct\/homePageRevision\/(queryRecommendInfo|findAllInfo) - reject
 ^https?:\/\/lban\.spdb\.com\.cn\/mspmk-web-component\/getAdvList\.ah$ - reject
 ^https?:\/\/m\.ctrip\.com\/restapi\/.*\/getAdsList - reject
+^https?:\/\/api\.hellobike\.com\/api\?msg\.toast\.user - reject
 ^https?:\/\/activity\.yonghuivip\.com\/api\/app\/fp\/homepage\/pop - reject
 ^https?:\/\/(mkt-)?gateway\.tuhu\.cn(\/mkt)?\/mkt-scene-marketing-service\/api\/scene\/queryScheme - reject
 ^https?:\/\/capi\.douyucdn\.cn\/lapi\/sign\/app(api)?\/getinfo\?client_sys=ios - reject
+^https?:\/\/api\.hellobike\.com\/api\?homepage\.shortcut\.scene\.perception - reject
 ^https?:\/\/.+\.pglstatp-toutiao\.com - reject
 ^https?:\/\/apd-\w+\.v\.smtcdns\.com\/(defaultts|omts|vmind\.qqvideo)\.tc\.qq\.com\/ - reject
 ^https?:\/\/service\.busi\.inke\.cn\/api\/flash\/screen - reject
