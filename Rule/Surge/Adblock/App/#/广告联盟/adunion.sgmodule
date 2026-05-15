@@ -8,7 +8,7 @@
 #!surge_version=5.14.2(Build3405,SDK18.2)
 #!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
 #!icon=
-#!date=2026-05-14
+#!date=2026-05-15
 # > 神策 - SENSORDATA
 # > GozenData - GOZENDATA
 # > 字节 - BYTEDANCE
@@ -311,6 +311,8 @@ DOMAIN-SUFFIX, tajs.qq.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, fusion.qq.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, sma.tdnsstic1.cn, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, sma-dk.tdnsstic1.cn, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, legopic2.tdnsv6.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, legopic2-dk.tdnsv6.com, REJECT, extended-matching, pre-matching
 DOMAIN-KEYWORD, gdtimg.com, REJECT, extended-matching, pre-matching
 DOMAIN-KEYWORD, pgdt.gtimg.c, REJECT, extended-matching, pre-matching
 DOMAIN-KEYWORD, trace.qq.com, REJECT, extended-matching, pre-matching

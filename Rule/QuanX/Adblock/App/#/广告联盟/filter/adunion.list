@@ -287,6 +287,8 @@ host-suffix, tajs.qq.com, reject
 host-suffix, fusion.qq.com, reject
 host-suffix, sma.tdnsstic1.cn, reject
 host-suffix, sma-dk.tdnsstic1.cn, reject
+host-suffix, legopic2.tdnsv6.com, reject
+host-suffix, legopic2-dk.tdnsv6.com, reject
 host-keyword, gdtimg.com, reject
 host-keyword, pgdt.gtimg.c, reject
 host-keyword, trace.qq.com, reject
