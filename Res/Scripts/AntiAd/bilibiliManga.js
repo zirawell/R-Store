@@ -42,6 +42,9 @@ if (url.includes("/UCenterConf")) {
   if (obj?.data?.ab_flags) {
     obj.data.ab_flags.hide_home_banner = true;
   }
+  if (obj?.data?.banner) {
+    delete obj.data.banner;
+  }
   if (obj?.data?.feeds?.length > 0) {
     //去除商品推荐
     obj.data.feeds = obj.data.feeds.filter(feed => !feed.image.includes("/mall/"));
