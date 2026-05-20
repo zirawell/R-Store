@@ -5,6 +5,7 @@
 #!date=2026-05-13 14:35:00
 #!---------------------------------------------------------------------------------------------------------------
 HOST-KEYWORD, xp.apple.com, Apple Update
+HOST-KEYWORD, xp.itunes-apple.com, Apple Update
 HOST-KEYWORD, gdmf.apple.com, Apple Update
 HOST-KEYWORD, mesu.apple.com, Apple Update
 HOST-KEYWORD, appldnld.apple.com, Apple Update
