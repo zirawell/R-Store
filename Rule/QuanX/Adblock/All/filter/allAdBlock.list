@@ -1,11 +1,11 @@
 #!name=全部-广告拦截合集-分流规则
 #!desc=某些规则要清除缓存或者重新安装APP，拦截广告才会生效！
-#!count=支持约1416个分流规则
+#!count=支持约1414个分流规则
 #!author=zirawell
 #!homepage=https://github.com/zirawell/R-Store
 #!raw-url=https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/All/filter/allAdBlock.list
 #!tg-group=https://t.me/lanjieguanggao
-#!date=2026-05-19 07:57:46
+#!date=2026-05-20 09:38:18
 #!proxy-select=reject
 #!---------------------------------------------------------------------------------------------------------------
 ip-cidr, 1.202.85.193/32, reject
@@ -60,7 +60,6 @@ ip-cidr, 183.201.213.194/24, reject
 ip-cidr, 186.76.76.200/32, reject
 ip-cidr, 203.107.1.0/24, reject
 ip-cidr, 203.107.63.154/32, reject
-ip-cidr, 203.119.204.195/32, reject
 ip-cidr, 203.119.212.22/32, reject
 ip-cidr, 203.119.238.164/32, reject
 ip-cidr, 203.119.238.63/32, reject
@@ -79,7 +78,6 @@ ip-cidr, 59.82.113.219/32, reject
 ip-cidr, 59.82.113.8/32, reject
 ip-cidr, 59.82.120.0/24, reject
 ip-cidr, 59.82.121.0/24, reject
-ip-cidr, 59.82.122.151/32, reject
 ip-cidr, 59.82.133.0/24, reject
 ip-cidr, 59.82.14.1/32, reject
 ip-cidr, 59.82.14.161/32, reject
