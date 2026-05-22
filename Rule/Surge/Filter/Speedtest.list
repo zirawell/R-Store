@@ -5,9 +5,9 @@
 #!date=2024-11-08 10:24:00
 #!---------------------------------------------------------------------------------------------------------------
 # > Fast
-DOMAIN-SUFFIX, fast.com, Speedtest
+DOMAIN-SUFFIX, fast.com
 
 # > Speedtest
-USER-AGENT, SpeedTest*, Speedtest
-DOMAIN-KEYWORD, speedtest, Speedtest
-DOMAIN-SUFFIX, ooklaserver.net, Speedtest
+USER-AGENT, SpeedTest*
+DOMAIN-KEYWORD, speedtest
+DOMAIN-SUFFIX, ooklaserver.net

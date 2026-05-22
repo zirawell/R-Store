@@ -4,34 +4,34 @@
 #!tg-group=https://t.me/lanjieguanggao
 #!date=2024-11-08 10:24:00
 #!---------------------------------------------------------------------------------------------------------------
-DOMAIN-SUFFIX, cms-twdigitalassets.com, Twitter
-DOMAIN-SUFFIX, periscope.tv, Twitter
-DOMAIN-SUFFIX, pscp.tv, Twitter
-DOMAIN-SUFFIX, t.co, Twitter
-DOMAIN-SUFFIX, tellapart.com, Twitter
-DOMAIN-SUFFIX, tweetdeck.com, Twitter
-DOMAIN-SUFFIX, twimg.co, Twitter
-DOMAIN-SUFFIX, twimg.com, Twitter
-DOMAIN-SUFFIX, twimg.org, Twitter
-DOMAIN-SUFFIX, twitpic.com, Twitter
-DOMAIN-SUFFIX, twitter.biz, Twitter
-DOMAIN-SUFFIX, twitter.com, Twitter
-DOMAIN-SUFFIX, twitter.jp, Twitter
-DOMAIN-SUFFIX, twittercommunity.com, Twitter
-DOMAIN-SUFFIX, twitterflightschool.com, Twitter
-DOMAIN-SUFFIX, twitterinc.com, Twitter
-DOMAIN-SUFFIX, twitteroauth.com, Twitter
-DOMAIN-SUFFIX, twitterstat.us, Twitter
-DOMAIN-SUFFIX, twtrdns.net, Twitter
-DOMAIN-SUFFIX, twttr.com, Twitter
-DOMAIN-SUFFIX, twttr.net, Twitter
-DOMAIN-SUFFIX, twvid.com, Twitter
-DOMAIN-SUFFIX, vine.co, Twitter
-DOMAIN-SUFFIX, x.com, Twitter
-DOMAIN-KEYWORD, twitter, Twitter
-IP-CIDR, 192.133.76.0/22, Twitter
-IP-CIDR, 199.59.148.0/22, Twitter
-IP-CIDR, 199.96.56.0/21, Twitter
-IP-CIDR, 202.160.128.0/22, Twitter
-IP-CIDR, 209.237.192.0/19, Twitter
-IP-CIDR, 69.195.160.0/19, Twitter
+DOMAIN-SUFFIX, cms-twdigitalassets.com
+DOMAIN-SUFFIX, periscope.tv
+DOMAIN-SUFFIX, pscp.tv
+DOMAIN-SUFFIX, t.co
+DOMAIN-SUFFIX, tellapart.com
+DOMAIN-SUFFIX, tweetdeck.com
+DOMAIN-SUFFIX, twimg.co
+DOMAIN-SUFFIX, twimg.com
+DOMAIN-SUFFIX, twimg.org
+DOMAIN-SUFFIX, twitpic.com
+DOMAIN-SUFFIX, twitter.biz
+DOMAIN-SUFFIX, twitter.com
+DOMAIN-SUFFIX, twitter.jp
+DOMAIN-SUFFIX, twittercommunity.com
+DOMAIN-SUFFIX, twitterflightschool.com
+DOMAIN-SUFFIX, twitterinc.com
+DOMAIN-SUFFIX, twitteroauth.com
+DOMAIN-SUFFIX, twitterstat.us
+DOMAIN-SUFFIX, twtrdns.net
+DOMAIN-SUFFIX, twttr.com
+DOMAIN-SUFFIX, twttr.net
+DOMAIN-SUFFIX, twvid.com
+DOMAIN-SUFFIX, vine.co
+DOMAIN-SUFFIX, x.com
+DOMAIN-KEYWORD, twitter
+IP-CIDR, 192.133.76.0/22
+IP-CIDR, 199.59.148.0/22
+IP-CIDR, 199.96.56.0/21
+IP-CIDR, 202.160.128.0/22
+IP-CIDR, 209.237.192.0/19
+IP-CIDR, 69.195.160.0/19

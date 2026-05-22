@@ -4,9 +4,9 @@
 #!tg-group=https://t.me/lanjieguanggao
 #!date=2024-11-08 10:24:00
 #!---------------------------------------------------------------------------------------------------------------
-USER-AGENT, *Spotify*, Spotify
-DOMAIN-SUFFIX, pscdn.co, Spotify
-DOMAIN-SUFFIX, scdn.co, Spotify
-DOMAIN-SUFFIX, spoti.fi, Spotify
-DOMAIN-SUFFIX, spotify.com, Spotify
-DOMAIN-SUFFIX, spotifycdn.net, Spotify
+USER-AGENT, *Spotify*
+DOMAIN-SUFFIX, pscdn.co
+DOMAIN-SUFFIX, scdn.co
+DOMAIN-SUFFIX, spoti.fi
+DOMAIN-SUFFIX, spotify.com
+DOMAIN-SUFFIX, spotifycdn.net

@@ -4,28 +4,28 @@
 #!tg-group=https://t.me/lanjieguanggao
 #!date=2024-11-08 10:24:00
 #!---------------------------------------------------------------------------------------------------------------
-USER-AGENT, Microsoft*, Microsoft
-DOMAIN-KEYWORD, microsoft, Microsoft
-DOMAIN-SUFFIX, ms, Microsoft
-DOMAIN-SUFFIX, bing.com, Microsoft
-DOMAIN-SUFFIX, bing.net, Microsoft
-DOMAIN-SUFFIX, hotmail.com, Microsoft
-DOMAIN-SUFFIX, live.com, Microsoft
-DOMAIN-SUFFIX, live.net, Microsoft
-DOMAIN-SUFFIX, microsofttranslator.com, Microsoft
-DOMAIN-SUFFIX, msauth.net, Microsoft
-DOMAIN-SUFFIX, msecnd.net, Microsoft
-DOMAIN-SUFFIX, msocdn.com, Microsoft
-DOMAIN-SUFFIX, msedge.net, Microsoft
-DOMAIN-SUFFIX, msn.com, Microsoft
-DOMAIN-SUFFIX, office.com, Microsoft
-DOMAIN-SUFFIX, office.net, Microsoft
-DOMAIN-SUFFIX, office365.com, Microsoft
-DOMAIN-SUFFIX, onenote.com, Microsoft
-DOMAIN-SUFFIX, onenote.net, Microsoft
-DOMAIN-SUFFIX, outlook.com, Microsoft
-DOMAIN-SUFFIX, visualstudio.com, Microsoft
-DOMAIN-SUFFIX, windows.com, Microsoft
-DOMAIN-SUFFIX, windows.net, Microsoft
-DOMAIN-SUFFIX, xbox.com, Microsoft
-DOMAIN-SUFFIX, xboxlive.com, Microsoft
+USER-AGENT, Microsoft*
+DOMAIN-KEYWORD, microsoft
+DOMAIN-SUFFIX, ms
+DOMAIN-SUFFIX, bing.com
+DOMAIN-SUFFIX, bing.net
+DOMAIN-SUFFIX, hotmail.com
+DOMAIN-SUFFIX, live.com
+DOMAIN-SUFFIX, live.net
+DOMAIN-SUFFIX, microsofttranslator.com
+DOMAIN-SUFFIX, msauth.net
+DOMAIN-SUFFIX, msecnd.net
+DOMAIN-SUFFIX, msocdn.com
+DOMAIN-SUFFIX, msedge.net
+DOMAIN-SUFFIX, msn.com
+DOMAIN-SUFFIX, office.com
+DOMAIN-SUFFIX, office.net
+DOMAIN-SUFFIX, office365.com
+DOMAIN-SUFFIX, onenote.com
+DOMAIN-SUFFIX, onenote.net
+DOMAIN-SUFFIX, outlook.com
+DOMAIN-SUFFIX, visualstudio.com
+DOMAIN-SUFFIX, windows.com
+DOMAIN-SUFFIX, windows.net
+DOMAIN-SUFFIX, xbox.com
+DOMAIN-SUFFIX, xboxlive.com

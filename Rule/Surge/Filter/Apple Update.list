@@ -4,12 +4,12 @@
 #!tg-group=https://t.me/lanjieguanggao
 #!date=2026-05-13 14:35:00
 #!---------------------------------------------------------------------------------------------------------------
-DOMAIN-KEYWORD, xp.apple.com, Apple Update
-DOMAIN-KEYWORD, xp.itunes-apple.com, Apple Update
-DOMAIN-KEYWORD, gdmf.apple.com, Apple Update
-DOMAIN-KEYWORD, mesu.apple.com, Apple Update
-DOMAIN-KEYWORD, appldnld.apple.com, Apple Update
-DOMAIN-KEYWORD, gg.apple.com, Apple Update
-DOMAIN-KEYWORD, ns.itunes.apple.com, Apple Update
-DOMAIN-KEYWORD, updates.cdn-apple.com, Apple Update
-DOMAIN-KEYWORD, updates-http.cdn-apple.com, Apple Update
+DOMAIN-KEYWORD, xp.apple.com
+DOMAIN-KEYWORD, xp.itunes-apple.com
+DOMAIN-KEYWORD, gdmf.apple.com
+DOMAIN-KEYWORD, mesu.apple.com
+DOMAIN-KEYWORD, appldnld.apple.com
+DOMAIN-KEYWORD, gg.apple.com
+DOMAIN-KEYWORD, ns.itunes.apple.com
+DOMAIN-KEYWORD, updates.cdn-apple.com
+DOMAIN-KEYWORD, updates-http.cdn-apple.com

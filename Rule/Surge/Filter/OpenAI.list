@@ -5,60 +5,60 @@
 #!date=2024-11-08 10:24:00
 #!---------------------------------------------------------------------------------------------------------------
 # > ChatGPT
-DOMAIN, api.statsig.com, OpenAI
-DOMAIN, browser-intake-datadoghq.com, OpenAI
-DOMAIN, chat.openai.com.cdn.cloudflare.net, OpenAI
-DOMAIN, ios.chat.openai.com, OpenAI
-DOMAIN, o33249.ingest.sentry.io, OpenAI
-DOMAIN, openai-api.arkoselabs.com, OpenAI
-DOMAIN, openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net, OpenAI
-DOMAIN, openaicomproductionae4b.blob.core.windows.net, OpenAI
-DOMAIN, production-openaicom-storage.azureedge.net, OpenAI
-DOMAIN, static.cloudflareinsights.com, OpenAI
-DOMAIN-SUFFIX, algolia.net, OpenAI
-DOMAIN-SUFFIX, auth0.com, OpenAI
-DOMAIN-SUFFIX, cdn.cloudflare.net, OpenAI
-DOMAIN-SUFFIX, challenges.cloudflare.com, OpenAI
-DOMAIN-SUFFIX, client-api.arkoselabs.com, OpenAI
-DOMAIN-SUFFIX, events.statsigapi.net, OpenAI
-DOMAIN-SUFFIX, featuregates.org, OpenAI
-DOMAIN-SUFFIX, identrust.com, OpenAI
-DOMAIN-SUFFIX, intercom.io, OpenAI
-DOMAIN-SUFFIX, intercomcdn.com, OpenAI
-DOMAIN-SUFFIX, launchdarkly.com, OpenAI
-DOMAIN-SUFFIX, oaistatic.com, OpenAI
-DOMAIN-SUFFIX, oaiusercontent.com, OpenAI
-DOMAIN-SUFFIX, observeit.net, OpenAI
-DOMAIN-SUFFIX, openai.com, OpenAI
-DOMAIN-SUFFIX, chatgpt.com, OpenAI
-DOMAIN-SUFFIX, openaiapi-site.azureedge.net, OpenAI
-DOMAIN-SUFFIX, openaicom.imgix.net, OpenAI
-DOMAIN-SUFFIX, poe.com, OpenAI
-DOMAIN-SUFFIX, segment.io, OpenAI
-DOMAIN-SUFFIX, sentry.io, OpenAI
-DOMAIN-SUFFIX, stripe.com, OpenAI
-DOMAIN-KEYWORD, openaicom-api, OpenAI
+DOMAIN, api.statsig.com
+DOMAIN, browser-intake-datadoghq.com
+DOMAIN, chat.openai.com.cdn.cloudflare.net
+DOMAIN, ios.chat.openai.com
+DOMAIN, o33249.ingest.sentry.io
+DOMAIN, openai-api.arkoselabs.com
+DOMAIN, openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
+DOMAIN, openaicomproductionae4b.blob.core.windows.net
+DOMAIN, production-openaicom-storage.azureedge.net
+DOMAIN, static.cloudflareinsights.com
+DOMAIN-SUFFIX, algolia.net
+DOMAIN-SUFFIX, auth0.com
+DOMAIN-SUFFIX, cdn.cloudflare.net
+DOMAIN-SUFFIX, challenges.cloudflare.com
+DOMAIN-SUFFIX, client-api.arkoselabs.com
+DOMAIN-SUFFIX, events.statsigapi.net
+DOMAIN-SUFFIX, featuregates.org
+DOMAIN-SUFFIX, identrust.com
+DOMAIN-SUFFIX, intercom.io
+DOMAIN-SUFFIX, intercomcdn.com
+DOMAIN-SUFFIX, launchdarkly.com
+DOMAIN-SUFFIX, oaistatic.com
+DOMAIN-SUFFIX, oaiusercontent.com
+DOMAIN-SUFFIX, observeit.net
+DOMAIN-SUFFIX, openai.com
+DOMAIN-SUFFIX, chatgpt.com
+DOMAIN-SUFFIX, openaiapi-site.azureedge.net
+DOMAIN-SUFFIX, openaicom.imgix.net
+DOMAIN-SUFFIX, poe.com
+DOMAIN-SUFFIX, segment.io
+DOMAIN-SUFFIX, sentry.io
+DOMAIN-SUFFIX, stripe.com
+DOMAIN-KEYWORD, openaicom-api
 
 # > ChatGPT Voice
-DOMAIN-SUFFIX, chatgpt.livekit.cloud, OpenAI
-DOMAIN-SUFFIX, DOMAIN.livekit.cloud, OpenAI
-DOMAIN-SUFFIX, turn.livekit.cloud, OpenAI
-IP-CIDR, 104.238.150.13/32, OpenAI
-IP-CIDR, 143.110.232.239/32, OpenAI
-IP-CIDR, 143.198.200.27/32, OpenAI
-IP-CIDR, 159.89.204.203/32, OpenAI
-IP-CIDR, 164.92.115.213/32, OpenAI
-IP-CIDR, 164.92.71.155/32, OpenAI
-IP-CIDR, 198.13.38.242/32, OpenAI
-IP-CIDR, 207.148.108.93/32, OpenAI
-IP-CIDR, 24.199.123.28/32, OpenAI
-IP-CIDR, 45.32.12.145/32, OpenAI
-IP-CIDR, 45.55.196.68/32, OpenAI
-IP-CIDR, 45.76.214.191/32, OpenAI
-IP-CIDR, 64.23.132.171/32, OpenAI
-IP6-CIDR, 2001:19f0:7001:1149:5400:4ff:feac:a0b3/128, OpenAI
-IP6-CIDR, 2001:19f0:7001:55b3:5400:4ff:feab:ba8f/128, OpenAI
-IP6-CIDR, 2001:19f0:7001:8e6:5400:4ff:feab:b953/128, OpenAI
-IP6-CIDR, 2401:c080:1000:47c5:5400:4ff:feab:f724/128, OpenAI
-IP-ASN, 14061, OpenAI
-IP-ASN, 20473, OpenAI
+DOMAIN-SUFFIX, chatgpt.livekit.cloud
+DOMAIN-SUFFIX, DOMAIN.livekit.cloud
+DOMAIN-SUFFIX, turn.livekit.cloud
+IP-CIDR, 104.238.150.13/32
+IP-CIDR, 143.110.232.239/32
+IP-CIDR, 143.198.200.27/32
+IP-CIDR, 159.89.204.203/32
+IP-CIDR, 164.92.115.213/32
+IP-CIDR, 164.92.71.155/32
+IP-CIDR, 198.13.38.242/32
+IP-CIDR, 207.148.108.93/32
+IP-CIDR, 24.199.123.28/32
+IP-CIDR, 45.32.12.145/32
+IP-CIDR, 45.55.196.68/32
+IP-CIDR, 45.76.214.191/32
+IP-CIDR, 64.23.132.171/32
+IP6-CIDR, 2001:19f0:7001:1149:5400:4ff:feac:a0b3/128
+IP6-CIDR, 2001:19f0:7001:55b3:5400:4ff:feab:ba8f/128
+IP6-CIDR, 2001:19f0:7001:8e6:5400:4ff:feab:b953/128
+IP6-CIDR, 2401:c080:1000:47c5:5400:4ff:feab:f724/128
+IP-ASN, 14061
+IP-ASN, 20473

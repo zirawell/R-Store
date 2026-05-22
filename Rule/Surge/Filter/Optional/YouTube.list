@@ -4,12 +4,12 @@
 #!tg-group=https://t.me/lanjieguanggao
 #!date=2024-11-08 10:24:00
 #!---------------------------------------------------------------------------------------------------------------
-USER-AGENT, *youtube*, YouTube
-USER-AGENT, YouTube*, YouTube
-DOMAIN-KEYWORD, youtube, YouTube
-DOMAIN, yt3.ggpht.com, YouTube
-DOMAIN-SUFFIX, googlevideo.com, YouTube
-DOMAIN-SUFFIX, gvt2.com, YouTube
-DOMAIN-SUFFIX, youtu.be, YouTube
-DOMAIN, youtubei.googleapis.com, YouTube
-DOMAIN-SUFFIX, ytimg.com, YouTube
+USER-AGENT, *youtube*
+USER-AGENT, YouTube*
+DOMAIN-KEYWORD, youtube
+DOMAIN, yt3.ggpht.com
+DOMAIN-SUFFIX, googlevideo.com
+DOMAIN-SUFFIX, gvt2.com
+DOMAIN-SUFFIX, youtu.be
+DOMAIN, youtubei.googleapis.com
+DOMAIN-SUFFIX, ytimg.com
