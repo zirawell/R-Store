@@ -18,6 +18,7 @@ The Document is used to store the old version of apps(compatible with iOS 17).
 | 云闪付    	 		 | 600273928	     | 3.3.2         |	883780997      | `classic icon`	 |
 | 招商银行    	 	 | 392899425	     | 13.0.0        |	871028288      | `vpn`	         |
 | 盒马    	 	 	 | 1063183999	     | 5.75.0        |	863434394      | `compatible`	 |
+| 华住会    	 	 	 | 556808349	     | 9.42.0        |	884506251      | `compatible`	 |
 | 大众点评    	 	 | 351091731	     | 11.28.3       |	871328222      | `compatible`	 |
 | 东方航空    	 	 | 419275564	     | 9.4.36        |	879925632      | `feature`	     |
 
