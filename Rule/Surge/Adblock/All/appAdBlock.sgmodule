@@ -6,7 +6,7 @@
 #!surge_version=5.14.2(Build3405,SDK18.2)
 #!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
 #!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/Filter/AdBlock.png
-#!date=2026-05-24 08:17:40
+#!date=2026-05-25 16:44:02
 
 [Rule]
 IP-CIDR, 1.202.85.193/32, REJECT, no-resolve, pre-matching
@@ -1687,6 +1687,7 @@ DOMAIN-KEYWORD, wan.sogou.com, REJECT, extended-matching, pre-matching
 ^https?:\/\/mpcs\.suning\.com\/mpcs\/dm\/getDmInfo - reject
 ^https?:\/\/www\.dpfile\.com\/sc\/indexpromotion - reject
 ^https?:\/\/access\.mypikpak\.com\/access_controller\/v\d\/area_accessible - reject
+^https?:\/\/awg\.enmonster\.com\/apa(\/index)?\/advert - reject
 ^https?:\/\/api\.cdmcaac\.com\/ad - reject
 ^https?:\/\/aiqicha\.baidu\.com\/m\/getLoginWordsAjax - reject
 ^https?:\/\/p0\.pipi\.cn\/(adAdmin|mediaplus\/maoyantong_ads_fe)\/\w+\.gif - reject
@@ -2136,7 +2137,6 @@ DOMAIN-KEYWORD, wan.sogou.com, REJECT, extended-matching, pre-matching
 ^https?:\/\/mime\.baidu\.com\/v\d\/start_screen_ads/list data-type=json data="{}" status-code=200
 ^https?:\/\/gouche\.ksedt\.com\/config\/popup\/ data-type=json data="{}" status-code=200
 ^https?:\/\/m\.aty\.sohu\.com\/openload? data-type=tiny-gif status-code=200
-https?:\/\/awg\.enmonster\.com\/apa\/(advert\/demand\/home\/poster|index\/advert\/skin) data-type=json data="{}" status-code=200
 ^https?:\/\/p\d\.meituan\.net\/nrpresourcevenus\/\w+\.gif data-type=tiny-gif status-code=200
 ^https?:\/\/cn-app\.narwaltech\.com\/operate\/cactivity\/listByResourceIds\?resourceIds=user_center_banner data-type=json data="{}" status-code=200
 ^https?:\/\/operationapi\.fosunhanig\.com\/ad\/v\d\/(?>PopupAdList|ScreenAdList|BannerList) data-type=text data="" status-code=200
