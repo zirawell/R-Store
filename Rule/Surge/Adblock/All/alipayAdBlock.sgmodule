@@ -6,7 +6,7 @@
 #!surge_version=5.14.2(Build3405,SDK18.2)
 #!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
 #!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/Filter/AdBlock.png
-#!date=2026-05-15 08:08:23
+#!date=2026-05-26 13:33:49
 
 [Rule]
 DOMAIN, abapi.hellobike.com, REJECT, extended-matching, pre-matching
@@ -18,6 +18,7 @@ DOMAIN, ip.hellobike.com, REJECT, extended-matching, pre-matching
 ^https?:\/\/api\.hellobike\.com\/api\?msg\.toast\.user - reject
 ^https?:\/\/api\.hellobike\.com\/api\?homepage\.shortcut\.scene\.perception - reject
 ^https?:\/\/api\.hellobike\.com\/api\?homepage\.module\.newAlipay - reject
+^https?:\/\/waimai-guide\.ele\.me\/h5\/mtop\.alsc\.interact\.content\.homepage\.float - reject
 ^https?:\/\/api\.hellobike\.com\/api\?bottom\.aggregation\.tab\.info - reject
 ^https?:\/\/waimai-guide\.ele\.me\/(gw|h5)\/mtop\.alsc\.eleme\.trigger\.respond - reject
 ^https?:\/\/api\.hellobike\.com\/api\?homepage\.recommend\.popUp - reject

@@ -5,7 +5,7 @@
 </summary>
 
  自动导入功能依赖 [【神机模块】](https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/Surge/Redirect/DivineEngine.sgmodule)
-- [淘宝闪购](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApplet%2FAlipay%2FT%2F%E6%B7%98%E5%AE%9D%E9%97%AA%E8%B4%AD%2Ftbsg.sgmodule)
+- [淘宝闪购](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApplet%2FAlipay%2FT%2F%E6%B7%98%E5%AE%9D%E9%97%AA%E8%B4%AD%2Ftbto.sgmodule)
 - [淘票票](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApplet%2FAlipay%2FT%2F%E6%B7%98%E7%A5%A8%E7%A5%A8%2Ftfilm.sgmodule)
 
 </details>

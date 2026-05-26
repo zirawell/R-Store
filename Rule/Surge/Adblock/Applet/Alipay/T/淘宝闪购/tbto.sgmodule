@@ -1,4 +1,7 @@
-# > 淘宝闪购<支付宝小程序> - TBSG
+# > 淘宝闪购<支付宝小程序> - TBTO
+
+[URL Rewrite]
+^https?:\/\/waimai-guide\.ele\.me\/h5\/mtop\.alsc\.interact\.content\.homepage\.float - reject
 
 [Body Rewrite]
 # 订单页右下角角标
