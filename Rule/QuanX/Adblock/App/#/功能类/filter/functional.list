@@ -6,6 +6,7 @@ host, safebrowsing.urlsec.qq.com, reject
 host-suffix, safebrowsing.apple, reject
 host-suffix, u3.ucweb.com, reject
 # > DNS拦截 - DNSINTERCEPT
+ip-cidr, 119.29.29.90/32, reject
 ip-cidr, 119.29.29.98/32, reject
 ip-cidr, 119.29.29.99/32, reject
 ip-cidr, 81.71.61.216/32, reject
