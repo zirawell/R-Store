@@ -16,6 +16,7 @@ The Document is used to store the old version of apps(compatible with iOS 17).
 | Skyscanner    	 | 415458524	     | 7.160         |	877991849      | `classic icon`	 |
 | Ultra Mobile    	 | 1463041935	     | 1.2.61        |	878014881      | `classic icon`	 |
 | 云闪付    	 		 | 600273928	     | 3.3.2         |	883780997      | `classic icon`	 |
+| 两步路    	 		 | 646277024	     | 9.0.0         |	884302941      | `classic icon`	 |
 | 招商银行    	 	 | 392899425	     | 13.0.0        |	871028288      | `vpn`	         |
 | 盒马    	 	 	 | 1063183999	     | 5.75.0        |	863434394      | `compatible`	 |
 | 华住会    	 	 	 | 556808349	     | 9.42.0        |	884506251      | `compatible`	 |
