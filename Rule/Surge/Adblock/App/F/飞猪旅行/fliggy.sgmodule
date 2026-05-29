@@ -8,7 +8,7 @@
 #!surge_version=5.14.2(Build3405,SDK18.2)
 #!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
 #!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/fliggy.png
-#!date=2026-05-20
+#!date=2026-05-29
 
 [Rule]
 IP-CIDR, 59.82.113.8/32, REJECT, no-resolve, pre-matching
@@ -17,6 +17,10 @@ DOMAIN, ad-track.fliggy.com, REJECT, extended-matching, pre-matching
 [URL Rewrite]
 ^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.fliggy\.crm\.(?>popresource|screen) - reject
 ^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.trip\.guide\.guess\.what\.you\.like - reject
+^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.fliggy\.tripbaymax\.busi\.buyer\.promote\.track - reject
+
+[Body Rewrite]
+http-response ^https?:\/\/outfliggys\.m\.taobao\.com\/app\/trip\/rx-travel-detail\/pages\/index "showAiAssistant":true, "showAiAssistant":false,
 
 [Script]
 fliggy = type=http-response,pattern=^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.fliggy\.ssif\.pattern\.home,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/fliggy.js
