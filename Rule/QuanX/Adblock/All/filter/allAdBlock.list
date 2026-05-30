@@ -1,11 +1,11 @@
 #!name=全部-广告拦截合集-分流规则
 #!desc=某些规则要清除缓存或者重新安装APP，拦截广告才会生效！
-#!count=支持约1421个分流规则
+#!count=支持约1422个分流规则
 #!author=zirawell
 #!homepage=https://github.com/zirawell/R-Store
 #!raw-url=https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/All/filter/allAdBlock.list
 #!tg-group=https://t.me/lanjieguanggao
-#!date=2026-05-26 08:36:34
+#!date=2026-05-30 20:26:50
 #!proxy-select=reject
 #!---------------------------------------------------------------------------------------------------------------
 ip-cidr, 1.202.85.193/32, reject
@@ -1405,6 +1405,7 @@ host-keyword, medicine.lanjiyin.com.cn, reject
 host-keyword, mpos-pic.helipay.com, reject
 host-keyword, nbcollect.kugou.com, reject
 host-keyword, nbcollectretry.kugou.com, reject
+host-keyword, o2o-ad-dev.oss-cn, reject
 host-keyword, ossp.voicecloud.cn, reject
 host-keyword, p3.pstatp.com, reject
 host-keyword, pagead2.google, reject

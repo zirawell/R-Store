@@ -11,3 +11,4 @@ ip-cidr, 59.82.133.36/32, reject
 ip-cidr, 59.82.133.78/32, reject
 ip-cidr, 203.119.212.22/32, reject
 host-keyword, baichuan.taobao.com, reject
+host-keyword, o2o-ad-dev.oss-cn, reject
