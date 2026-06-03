@@ -8,7 +8,11 @@
 #!surge_version=5.14.2(Build3405,SDK18.2)
 #!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
 #!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/bilibiliManga.png
-#!date=2026-05-10
+#!date=2026-06-03
+
+[URL Rewrite]
+^https?:\/\/httpdns\.bilivideo\.com\/resolve\?host - reject
+^https?:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.Operation\/Delivery - reject
 
 [Body Rewrite]
 http-response ^https?:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.Comic\/GetBubbles bubbles bubbles0
@@ -16,7 +20,6 @@ http-response ^https?:\/\/manga\.bilibili\.com\/twirp\/user\.v\d\.Read\/ActInfo 
 
 [Map Local]
 ^https?:\/\/i\d\.hdslb\.com\/bfs\/fawkes data-type=json data="{}" status-code=200
-;^https?:\/\/i\d\.hdslb\.com\/bfs\/manga-static\/\w+\.(?>jpg|png)$ data-type=text data="" status-code=200
 ^https?:\/\/i\d\.hdslb\.com\/bfs\/manga-static\/\w+\.(?>jpg|png)@1200w_1500h_1e_1c data-type=text data="" status-code=200
 ^https?:\/\/manga\.bilibili\.com\/twirp\/risk\.v\d\.Risk\/AppUpgradeCheck data-type=json data="{}" status-code=200
 ^https?:\/\/manga\.bilibili\.com\/twirp\/novel\.v\d\.Novel\/MoreRecommend data-type=json data="{}" status-code=200
@@ -32,4 +35,4 @@ bilibiliManga = type=http-response,pattern=^https?:\/\/manga\.bilibili\.com\/twi
 bilibiliManga = type=http-response,pattern=^https?:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.Comic\/GetCommonBanner,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/bilibiliManga.js
 
 [MITM]
-hostname= %APPEND% i*.hdslb.com, manga.bilibili.com
+hostname= %APPEND% httpdns.bilivideo.com, i*.hdslb.com, manga.bilibili.com
