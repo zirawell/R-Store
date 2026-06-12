@@ -2,6 +2,9 @@
 
 [URL Rewrite]
 ^https?:\/\/ucmp\.sf-express\.com\/cx-wechat-query\/query\/info-flow\/reconsitution-list - reject
+# 同城急送
+^https?:\/\/shopic\.sf-express\.com\/index\/home\/get(?>Popup|Layout) - reject
+^https?:\/\/shopic\.sf-express\.com\/account\/coupon\/getUserCouponCnt - reject
 
 [Map Local]
 ^https?:\/\/mcs-mimp-web\.sf-express\.com\/mcs-mimp\/integralPlanet\/getCxAdvertiseList data-type=json data="{}" status-code=200
@@ -13,4 +16,4 @@
 ^https?:\/\/ucmp\.sf-express\.com\/cx-wechat-query\/query\/module-config\/query data-type=json data="{}" status-code=200
 
 [MITM]
-hostname= %APPEND% ucmp.sf-express.com
+hostname= %APPEND% ucmp.sf-express.com, shopic.sf-express.com
