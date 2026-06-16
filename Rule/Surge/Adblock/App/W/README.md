@@ -1,7 +1,7 @@
 # W
 <details>
 <summary>
-本目录共收录25个App，详情见如下，单击导入对应配置：
+本目录共收录26个App，详情见如下，单击导入对应配置：
 </summary>
 
  自动导入功能依赖 [【神机模块】](https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/Surge/Redirect/DivineEngine.sgmodule)
@@ -20,6 +20,7 @@
 - [挖财记账](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FW%2F%E6%8C%96%E8%B4%A2%E8%AE%B0%E8%B4%A6%2Fwacai.sgmodule)
 - [无他相机](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FW%2F%E6%97%A0%E4%BB%96%E7%9B%B8%E6%9C%BA%2Fwuta.sgmodule)
 - [无忧行](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FW%2F%E6%97%A0%E5%BF%A7%E8%A1%8C%2Fjegotrip.sgmodule)
+- [沃尔玛](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FW%2F%E6%B2%83%E5%B0%94%E7%8E%9B%2Fwalmart.sgmodule)
 - [网上国网](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FW%2F%E7%BD%91%E4%B8%8A%E5%9B%BD%E7%BD%91%2Fsgcc.sgmodule)
 - [网易Lofter](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FW%2F%E7%BD%91%E6%98%93Lofter%2Flofter.sgmodule)
 - [网易严选](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FW%2F%E7%BD%91%E6%98%93%E4%B8%A5%E9%80%89%2F163yanxuan.sgmodule)
