@@ -6,7 +6,7 @@
 #!surge_version=5.14.2(Build3405,SDK18.2)
 #!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
 #!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/Filter/AdBlock.png
-#!date=2026-06-25 08:38:46
+#!date=2026-07-01 16:50:57
 
 [Rule]
 IP-CIDR, 1.202.85.193/32, REJECT, no-resolve, pre-matching
@@ -1511,6 +1511,7 @@ DOMAIN-KEYWORD, wan.sogou.com, REJECT, extended-matching, pre-matching
 ^https?:\/\/app\.flymodem\.com\.cn\/Appapi\/Public\/welecome - reject
 ^https?:\/\/fc-video\.cdn\.bcebos\.com - reject
 ^https?:\/\/go\.babytree\.com\/go_tool\/api\/feeding_record\/get_home_banner_info - reject
+^https?:\/\/online\.sptcc\.com(:\d+)?\/handapp_app\/(?>ActivityGetServlet|queryWebUrlConfig) - reject
 ^https?:\/\/api\.xbxxhz\.com\/big_data\/v\d\/home_pages - reject
 ^https?:\/\/open\.fitdays\.cn\/uploads\/ad\/ - reject
 ^https?:\/\/cupid\.51job(app)?\.com\/open\/index\/recommend-infos - reject
@@ -1602,9 +1603,9 @@ DOMAIN-KEYWORD, wan.sogou.com, REJECT, extended-matching, pre-matching
 ^https?:\/\/wx\.17u\.cn\/xcxhomeapi\/((aggregator\/index)|(home\/(?>screen|banner|converge)))$ - reject
 ^https?:\/\/kad\.gotokeep\.com\/op-engine-webapp\/v\d\/ad - reject
 ^https?:\/\/.+\.pstatp\.com\/(obj|img)\/web\.business\.image\/.+ - reject
-^https?:\/\/online\.sptcc\.com:\d+\/handapp_zx\/rss_info - reject
 ^https?:\/\/mapi\.appvipshop\.com\/vips-mobile\/rest\/iosAdInfo\/report - reject
 ^https?:\/\/api\.xueqiu\.com\/lightsnow\/optional\/banner\/query - reject
+^https?:\/\/online\.sptcc\.com(:\d+)?\/handapp_zx\/rss_info - reject
 ^https?:\/\/t-dsp\.pinduoduo\.com\/dspcb\/i\/mrk_union - reject
 ^https?:\/\/.*\.boohee\.(?>cn|com).*(?>notification_template|advertisements|share_contents|app_square|plugins|notifications|start_up_with_ad|float_ad|data_file_entrance) - reject
 ^https?:\/\/www\.dpfile\.com\/picasso\/picasso-qa\/src\/AnswerList\/AnswerList-bundle - reject
@@ -1766,7 +1767,6 @@ DOMAIN-KEYWORD, wan.sogou.com, REJECT, extended-matching, pre-matching
 ^https?:\/\/mage(v\d)?\.if\.qidian\.com\/argus\/api\/v\d\/maintain\/playstrip$ - reject
 ^https?:\/\/.*\.xima.*\.com\/(dog-portal\/checkOld|(child-mobile\/child|aged-mobile\/aged)\/mode\/query) - reject
 ^https?:\/\/obs\.line-scdn\.net\/0hGH\d - reject
-^https?:\/\/online\.sptcc\.com:\d+\/handapp_app\/(?>ActivityGetServlet|queryWebUrlConfig) - reject
 ^https?:\/\/prom\.mobile\.gome\.com\.cn\/mobile\/promotion\/promscms\/\w+\.jsp - reject
 ^https?:\/\/m\.mallcoo\.cn\/api\/content\/Ads - reject
 ^https?:\/\/c\.m\.163\.com\/nc\/gl\/ - reject
@@ -3318,6 +3318,7 @@ bosclife = type=http-response,pattern=^https?:\/\/mgs1\.bosc\.cn(:\d+)?\/mgw,req
 iqiyi = type=http-response,pattern=^https?:\/\/cards\.iqiyi\.com\/(views_home\/3\.0\/qy_home|waterfall\/3\.0\/feed)\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/cntv.js
 didi = type=http-response,pattern=^https?:\/\/conf\.diditaxi\.com\.cn\/homepage\/v\d\/core,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/didi.js
 keep = type=http-response,pattern=^https?:\/\/api\.gotokeep\.com\/sportpage\/sport\/v\d\/mysport,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/keep.js
+sptcc = type=http-response,pattern=^https?:\/\/online\.sptcc\.com(:\d+)?\/handapp_update\/AppInfo,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/sptcc.js
 mgtv = type=http-response,pattern=^https?:\/\/me\.bz\.mgtv\.com\/v\d\/module\/list\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/cntv.js
 ;xiaoyuzhoufm = type=http-response,pattern=^https?:\/\/api\.xiaoyuzhoufm\.com\/v\d\/discovery-feed\/list,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/xiaoyuzhoufm.js
 rrtv = type=http-response,pattern=^https?:\/\/api\.rr\.tv\/user\/privilege\/list,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/rrtv.js
@@ -3369,7 +3370,6 @@ smzdm = type=http-response,pattern=^https?:\/\/article-api\.smzdm\.com\/publish\
 douyu = type=http-response,pattern=^https?:\/\/apiv2\.douyucdn\.cn\/japi\/entrance\/roomRes\/nc\/m\/list,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/douyu.js
 baidutieba = type=http-response,pattern=^https?:\/\/tiebac\.baidu\.com\/tiebaads\/commonbatch\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/tiebaJson.js
 bybutter = type=http-response,pattern=^https?:\/\/api\d\.bybutter\.com\/v\d,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/Unlock/bybutter.js
-sptcc = type=http-response,pattern=^https?:\/\/online\.sptcc\.com:\d+\/handapp_update\/AppInfo,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/sptcc.js
 amap = type=http-response,pattern=^https?:\/\/m\d\.amap\.com\/ws\/bus\/plan\/integrate\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/amap.js
 dushu365 = type=http-response,pattern=^https?:\/\/g(.*)\.dushu365\.com\/resource-orchestration-system\/book\/channel\/v100\/info,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/dushu365.js
 soul = type=http-response,pattern=^https?:\/\/api-a\.soulapp\.cn\/v\d\/post\/gift\/list,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/soul.js
