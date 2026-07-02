@@ -4,3 +4,4 @@ host-suffix, adwangmai.com, reject
 host-suffix, ad.richmob.cn, reject
 host-suffix, fancyapi.com, reject
 host-suffix, yfanads.com, reject
+host-suffix, datads.cn, reject
