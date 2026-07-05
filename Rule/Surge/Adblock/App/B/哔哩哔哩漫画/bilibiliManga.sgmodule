@@ -8,7 +8,7 @@
 #!surge_version=5.14.2(Build3405,SDK18.2)
 #!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
 #!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/bilibiliManga.png
-#!date=2026-06-18
+#!date=2026-07-05
 
 [URL Rewrite]
 ^https?:\/\/httpdns\.bilivideo\.com\/resolve\?host - reject
@@ -27,6 +27,7 @@ http-response ^https?:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.Comic\/Recomm
 ^https?:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.Shop\/GetShopItems data-type=json data="{}" status-code=200
 ^https?:\/\/manga\.bilibili\.com\/twirp\/user\.v\d\.Read\/ActInfo data-type=json data="{}" status-code=200
 ^https?:\/\/manga\.bilibili\.com\/twirp\/user\.v\d\.SeasonV\d\/GetSeasonInfo data-type=json data="{}" status-code=200
+^https?:\/\/manga\.bilibili\.com\/twirp\/user\.v\d\.User\/GetMarketingCenterInfo data-type=json data="{}" status-code=200
 
 [Script]
 bilibiliManga = type=http-response,pattern=^https?:\/\/manga\.bilibili\.com\/twirp\/user\.v\d\.User\/(?>UCenterConf|GetInitInfo),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/bilibiliManga.js
