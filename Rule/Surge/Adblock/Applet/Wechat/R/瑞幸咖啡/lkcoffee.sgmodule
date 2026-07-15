@@ -1,6 +1,8 @@
 # > 瑞幸咖啡<微信小程序> - LKCOFFEE
 
 [Map Local]
+^https?:\/\/capi\.lkcoffee\.com\/resource\/m\/aigc\/showAIButton data-type=json data="{}" status-code=200
+^https?:\/\/capi\.lkcoffee\.com\/resource\/m\/sys\/base\/getSubscribeTemplate data-type=json data="{}" status-code=200
 ^https?:\/\/capi\.lkcoffee\.com\/resource\/m\/order\/orderBanner data-type=json data="{}" status-code=200
 ^https?:\/\/capi\.lkcoffee\.com\/resource\/market\/receiveCoupon\/receiveCouponPop data-type=json data="{}" status-code=200
 
