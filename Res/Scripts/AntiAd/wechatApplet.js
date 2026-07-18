@@ -90,7 +90,7 @@ if (url.includes("ems.com.cn")) {
 } else if (url.includes("htwkop.xiaojukeji.com")) {
   delete obj.data.bannerInfoConfig;
 //M Stand
-} else if (url.includes("api.prod.dj.mstand.cn")) {
+} else if (url.includes("wechat-api-dj.mstand.cn")) {
   delete obj.data.homeNewsAdv.jumpValue;
   delete obj.data.homeDineInAdv;
   delete obj.data.homePickupAdv;
