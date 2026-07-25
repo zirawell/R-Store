@@ -1,0 +1,34 @@
+#!name=七猫小说 - QUMAO
+#!desc=七猫小说-看小说电子书的阅读神器
+#!openUrl=https://apps.apple.com/app/id1387717110
+#!bundleId=com.yueyou.cyreader
+#!author=zirawell[https://github.com/zirawell]
+#!tag=去广告
+#!basedOn=iOS
+#!surge_version=5.14.2(Build3405,SDK18.2)
+#!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
+#!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/qumao.png
+#!date=2026-07-25
+
+[Rule]
+DOMAIN, ad.wtzw.com, REJECT, extended-matching, pre-matching
+DOMAIN, drs-ipv6.wtzw.com, REJECT, extended-matching, pre-matching
+DOMAIN, ad-drs.52qumao.com, REJECT, extended-matching, pre-matching
+DOMAIN, ad-drs-ipv6.52qumao.com, REJECT, extended-matching, pre-matching
+DOMAIN, api-adx.52qumao.com, REJECT, extended-matching, pre-matching
+DOMAIN, fp-it.fengkongcloud.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, adxvip.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, ad.xelements.cn, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, yunxish.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, iggrowth.cn, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, 58iclick.com, REJECT, extended-matching, pre-matching
+DOMAIN-KEYWORD, remad.qm989.com, REJECT, extended-matching, pre-matching
+
+[URL Rewrite]
+^https?:\/\/api-cfg\.wtzw\.com\/v\d\/(?>splash|adv) - reject
+
+[Map Local]
+^https?:\/\/api-cfg\.wtzw\.com\/v\d\/operation\/index\?ad_personal_switch data-type=json data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% api-cfg.wtzw.com

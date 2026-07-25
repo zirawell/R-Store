@@ -1,7 +1,7 @@
 {
   "name": "All Icons",
   "description": "collected by zirawell",
-  "time": "2026-06-16",
+  "time": "2026-07-25",
   "icons": [
     {
       "name": "shihuo",
@@ -2090,6 +2090,10 @@
     {
       "name": "xiamenair",
       "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/xiamenair.png"
+    },
+    {
+      "name": "qumao",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/qumao.png"
     },
     {
       "name": "txtv",

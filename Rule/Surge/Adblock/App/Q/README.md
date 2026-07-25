@@ -1,12 +1,13 @@
 # Q
 <details>
 <summary>
-本目录共收录22个App，详情见如下，单击导入对应配置：
+本目录共收录23个App，详情见如下，单击导入对应配置：
 </summary>
 
  自动导入功能依赖 [【神机模块】](https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/Surge/Redirect/DivineEngine.sgmodule)
 - [QQ浏览器](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FQ%2FQQ%E6%B5%8F%E8%A7%88%E5%99%A8%2Fqqbrowser.sgmodule)
 - [QQ音乐](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FQ%2FQQ%E9%9F%B3%E4%B9%90%2Fqqmusic.sgmodule)
+- [七猫小说](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FQ%2F%E4%B8%83%E7%8C%AB%E5%B0%8F%E8%AF%B4%2Fqumao.sgmodule)
 - [亲宝宝](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FQ%2F%E4%BA%B2%E5%AE%9D%E5%AE%9D%2Fqbb.sgmodule)
 - [亲邻开门](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FQ%2F%E4%BA%B2%E9%82%BB%E5%BC%80%E9%97%A8%2Fqinlin.sgmodule)
 - [全家便利店](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FQ%2F%E5%85%A8%E5%AE%B6%E4%BE%BF%E5%88%A9%E5%BA%97%2Ffamilymart.sgmodule)

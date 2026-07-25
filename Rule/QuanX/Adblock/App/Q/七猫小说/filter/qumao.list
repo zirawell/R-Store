@@ -1,0 +1,13 @@
+# > 七猫小说 - QUMAO
+host, ad.wtzw.com, reject
+host, drs-ipv6.wtzw.com, reject
+host, ad-drs.52qumao.com, reject
+host, ad-drs-ipv6.52qumao.com, reject
+host, api-adx.52qumao.com, reject
+host, fp-it.fengkongcloud.com, reject
+host-suffix, adxvip.com, reject
+host-suffix, ad.xelements.cn, reject
+host-suffix, yunxish.com, reject
+host-suffix, iggrowth.cn, reject
+host-suffix, 58iclick.com, reject
+host-keyword, remad.qm989.com, reject

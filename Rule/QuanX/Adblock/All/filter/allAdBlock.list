@@ -1,11 +1,11 @@
 #!name=全部-广告拦截合集-分流规则
 #!desc=某些规则要清除缓存或者重新安装APP，拦截广告才会生效！
-#!count=支持约1424个分流规则
+#!count=支持约1436个分流规则
 #!author=zirawell
 #!homepage=https://github.com/zirawell/R-Store
 #!raw-url=https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/All/filter/allAdBlock.list
 #!tg-group=https://t.me/lanjieguanggao
-#!date=2026-07-02 10:52:01
+#!date=2026-07-25 08:45:10
 #!proxy-select=reject
 #!---------------------------------------------------------------------------------------------------------------
 ip-cidr, 1.202.85.193/32, reject
@@ -107,6 +107,8 @@ host, activity.video.qq.com, reject
 host, ad-analysis.pconline.com.cn, reject
 host, ad-api.4pyun.com, reject
 host, ad-cdn.qingting.fm, reject
+host, ad-drs-ipv6.52qumao.com, reject
+host, ad-drs.52qumao.com, reject
 host, ad-files.4pyun.com, reject
 host, ad-h5-cdn.soulapp.cn, reject
 host, ad-h5-station-cdn.soulapp.cn, reject
@@ -129,6 +131,7 @@ host, ad.mcloud.139.com, reject
 host, ad.qingting.fm, reject
 host, ad.seeyouyima.com, reject
 host, ad.tencentmusic.com, reject
+host, ad.wtzw.com, reject
 host, ad.yixin.im, reject
 host, ad.ysepay.com, reject
 host, ad.zijieapi.com, reject
@@ -211,6 +214,7 @@ host, analytics.tuhu.com, reject
 host, analytics.twitter.com, reject
 host, analytics.umetrip.com, reject
 host, api-adservices.apple.com, reject
+host, api-adx.52qumao.com, reject
 host, api-p0.yksdks.com, reject
 host, api.adnet.mob.com, reject
 host, api.hongyibo.com.cn, reject
@@ -287,6 +291,7 @@ host, dns.qq.com, reject
 host, dns.weixin.qq.com.cn, reject
 host, dolphin.caixin.com, reject
 host, dpmtpush.dianping.com, reject
+host, drs-ipv6.wtzw.com, reject
 host, dsp-x.jd.com, reject
 host, dsp.fcbox.com, reject
 host, duclick.baidu.com, reject
@@ -313,6 +318,7 @@ host, firebaseinstallations.googleapis.com, reject
 host, firefly.abchina.com.cn, reject
 host, floor.bz.mgtv.com, reject
 host, flowplus.meituan.net, reject
+host, fp-it.fengkongcloud.com, reject
 host, free-aos-cdn-image.amap.com, reject
 host, g1.163.com, reject
 host, g1.tagtic.cn, reject
@@ -602,6 +608,7 @@ host-suffix, 33.autohome.com.cn, reject
 host-suffix, 360baidus.com, reject
 host-suffix, 3rd.t.sohu.com, reject
 host-suffix, 4dvertible.com, reject
+host-suffix, 58iclick.com, reject
 host-suffix, 888.tv.sohu.com, reject
 host-suffix, a-dxk.play.api.3g.youku.com, reject
 host-suffix, a.baidu.com, reject
@@ -633,6 +640,7 @@ host-suffix, ad.sohu.com, reject
 host-suffix, ad.test.ximalaya.com, reject
 host-suffix, ad.toutiao.com, reject
 host-suffix, ad.weibo.com, reject
+host-suffix, ad.xelements.cn, reject
 host-suffix, ad.ximalaya.com, reject
 host-suffix, ad.youku.com, reject
 host-suffix, ad4.sina.com.cn, reject
@@ -708,6 +716,7 @@ host-suffix, advp.apple.com, reject
 host-suffix, adwangmai.com, reject
 host-suffix, adweb.test.ximalaya.com, reject
 host-suffix, adweb.ximalaya.com, reject
+host-suffix, adxvip.com, reject
 host-suffix, aecpm.alicdn.com, reject
 host-suffix, afp.alicdn.com, reject
 host-suffix, afp.iqiyi.com, reject
@@ -986,6 +995,7 @@ host-suffix, idm-su.baidu.com, reject
 host-suffix, iebar.baidu.com, reject
 host-suffix, ifacelog.iqiyi.com, reject
 host-suffix, igexin.com, reject
+host-suffix, iggrowth.cn, reject
 host-suffix, ikcode.baidu.com, reject
 host-suffix, img-x.jd.com, reject
 host-suffix, imgaliyun.res.mgtv.com, reject
@@ -1355,6 +1365,7 @@ host-suffix, yksdks.com, reject
 host-suffix, ynuf.alipay.com, reject
 host-suffix, youxi.kugou.com, reject
 host-suffix, yuedu.iqiyi.com, reject
+host-suffix, yunxish.com, reject
 host-suffix, zemanta.com, reject
 host-suffix, zhengxiaoliu.top, reject
 host-suffix, znsv.baidu.com, reject
@@ -1416,6 +1427,7 @@ host-keyword, pangolin.snssdk.com, reject
 host-keyword, pgdt.gtimg.c, reject
 host-keyword, pglstatp-toutiao, reject
 host-keyword, push.m.youku.com, reject
+host-keyword, remad.qm989.com, reject
 host-keyword, report.meituan, reject
 host-keyword, s1.pstatp.com, reject
 host-keyword, s2.pstatp.com, reject
