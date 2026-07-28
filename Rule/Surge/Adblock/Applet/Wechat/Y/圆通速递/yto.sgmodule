@@ -1,0 +1,8 @@
+# > 圆通速递<微信小程序> - YTO
+
+[Map Local]
+^https?:\/\/mec\.yto\.net\.cn\/api\/market\/queryActivityPromotion data-type=json data="{}" status-code=200
+^https?:\/\/mec\.yto\.net\.cn\/api\/officalWeb\/content\/query data-type=json data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% mec.yto.net.cn
