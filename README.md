@@ -1,3 +1,4 @@
+![](https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Images/R-Store_Header.png)
 # R-Store
 
 本项目旨在建立一个没有广告环境的清爽环境，同时增加功能化插件进行一些定制;
