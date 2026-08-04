@@ -1,7 +1,7 @@
 #!name=Apple Update Filter
 #!homepage=https://github.com/zirawell/R-Store
 #!raw-url=https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Filter/Apple Update.list
-#!tg-group=https://t.me/lanjieguanggao
+#!tg-group=https://t.me/RStoreCom
 #!date=2026-05-13 14:35:00
 #!---------------------------------------------------------------------------------------------------------------
 HOST-KEYWORD, xp.apple.com, Apple Update
