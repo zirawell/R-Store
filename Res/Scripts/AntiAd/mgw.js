@@ -40,7 +40,9 @@ const blockListFor12306 = [
 
 const blockListForBosc = [
   "api.public.marketing.popup",
+  "api.public.journey.popup",
   "api.public.popupWindow.navigationPup",
+  "api.topicComponent.topicInfoQry",
   "api.waterfall.newsContentInfoQry",
   "api.public.getUrl.mobileStart",
   "api.public.versionUpdate.Android",
