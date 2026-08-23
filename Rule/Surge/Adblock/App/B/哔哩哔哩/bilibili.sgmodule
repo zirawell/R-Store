@@ -8,7 +8,7 @@
 #!surge_version=5.14.2(Build3405,SDK18.2)
 #!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
 #!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/bilibili.png
-#!date=2026-05-09
+#!date=2026-08-23
 
 [Rule]
 DOMAIN-KEYWORD, api.sobot.com, REJECT, extended-matching, pre-matching
@@ -20,6 +20,7 @@ DOMAIN-SUFFIX, cm.track.biligame.bilibili.com, REJECT, extended-matching, pre-ma
 [Map Local]
 ^https?:\/\/api\.live\.bilibili\.com\/xlive\/e-commerce-interface\/v\d\/ecommerce-user\/get_shopping_info\? data-type=json data="{}" status-code=200
 ^https?:\/\/(?>app\.bilibili\.com|grpc\.biliapi\.net)\/bilibili\.app\.interface\.v\d\.Search\/DefaultWords data-type=json data="{}" status-code=200
+^https?:\/\/api\.bilibili\.com\/pgc\/activity\/deliver data-type=json data="{}" status-code=200
 # 满意度调研
 ^https?:\/\/api\.bilibili\.com\/x\/v2\/dm\/qoe\/show\? data-type=json data="{}" status-code=200
 ^https?:\/\/upos-sz-static\.bilivideo\.com\/ssaxcode\/\w{2}\/\w{2}\/\w{32}-1-SPLASH data-type=json data="{}" status-code=200

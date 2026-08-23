@@ -6,7 +6,7 @@
 #!surge_version=5.14.2(Build3405,SDK18.2)
 #!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
 #!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/Filter/AdBlock.png
-#!date=2026-08-21 08:28:06
+#!date=2026-08-23 14:56:37
 
 [Rule]
 IP-CIDR, 1.202.85.193/32, REJECT, no-resolve, pre-matching
@@ -2935,6 +2935,7 @@ DOMAIN-KEYWORD, wan.sogou.com, REJECT, extended-matching, pre-matching
 ^https?:\/\/api\.kuaidihelp\.com\/g_order_core\/v\d\/mina\/User\/getBannerList data-type=json data="{}" status-code=200
 ^https?:\/\/mapi\.ghsmpwalmart\.com\/api\d\/ec\/navigation\/spread\/querySpreadList data-type=json data="{}" status-code=200
 ^https?:\/\/api\.xiaoyuzhoufm\.com\/v\d\/ai-summary data-type=text data="" status-code=200
+^https?:\/\/api\.bilibili\.com\/pgc\/activity\/deliver data-type=json data="{}" status-code=200
 ^https?:\/\/api\.boohee\.com\/app-interface\/v\d\/record\/record_tool(_pop)?_ad data-type=json data="{}" status-code=200
 ^https?:\/\/res\.pizzahut\.com\.cn\/CRM data-type=json data="{}" status-code=200
 ^https?:\/\/djcapp\.game\.qq\.com\/daoju\/igw\/main\/\?_service=welink\.ad\.list&_ret_key=result&site_set data-type=text data="" status-code=200
