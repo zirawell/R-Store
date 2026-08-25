@@ -2,6 +2,7 @@
 
 [Script]
 tflj = type=http-response,pattern=^https?:\/\/tf\d+\.istrongcloud\.com\/member\/v[0-9.]+\/home,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/tflj.js
+tflj = type=http-response,pattern=^https?:\/\/tf\d+\.istrongcloud\.com\/data\/commonConfig\/typhoon-mp-config\/webModuleConfig,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/tflj.js
 
 [MITM]
 hostname= %APPEND% tf*.istrongcloud.com
