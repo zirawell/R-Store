@@ -6,7 +6,7 @@
 #!surge_version=5.14.2(Build3405,SDK18.2)
 #!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
 #!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/Filter/AdBlock.png
-#!date=2026-08-26 13:39:32
+#!date=2026-08-27 10:43:02
 
 [Rule]
 IP-CIDR, 1.202.85.193/32, REJECT, no-resolve, pre-matching
@@ -240,7 +240,6 @@ DOMAIN, content-open.douyin.com, REJECT, extended-matching, pre-matching
 DOMAIN, corp.meitu.com, REJECT, extended-matching, pre-matching
 DOMAIN, counter.kingsoft.com, REJECT, extended-matching, pre-matching
 DOMAIN, counter.ksosoft.com, REJECT, extended-matching, pre-matching
-DOMAIN, cpush.ctrip.com, REJECT, extended-matching, pre-matching
 DOMAIN, cpush.trip.com, REJECT, extended-matching, pre-matching
 DOMAIN, cr-status.iqiyi.com, REJECT, extended-matching, pre-matching
 DOMAIN, crash2.zhihu.com, REJECT, extended-matching, pre-matching
