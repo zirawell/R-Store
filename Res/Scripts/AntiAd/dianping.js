@@ -20,7 +20,7 @@ if (url.includes("/dpmobile") || url.includes("/goodsawardpic")) {
   const headopt2 = traceKey2 ? header[traceKey2] : null;
   if (headopt1 && !headopt2) {
     $done({body: "", headers: "", status: "HTTP/1.1 404 Not Found"});
-  } else if (url.includes(".gif")) {
+  } else if (url.includes(".gif") || url.includes("&lossless=1")) {
     const hexString = "47494638396101000100800000000000ffffff21f90401000000002c000000000100010000020144003b";
     const header = {};
     header["Content-Type"] = "image/gif";
