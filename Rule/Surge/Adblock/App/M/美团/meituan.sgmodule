@@ -8,7 +8,7 @@
 #!surge_version=5.14.2(Build3405,SDK18.2)
 #!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
 #!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/meituan.png
-#!date=2026-05-13
+#!date=2026-08-31
 
 [Rule]
 IP-CIDR, 103.37.155.60/32, REJECT, no-resolve, pre-matching
@@ -31,7 +31,6 @@ DOMAIN-KEYWORD, dnspod.meituan.httpdns, REJECT, extended-matching, pre-matching
 [URL Rewrite]
 ^https?:\/\/apimobile\.meituan\.com\/appupdate - reject
 ^https?:\/\/apimobile\.meituan\.com\/group\/v\d\/recommend\/unity\/recommends - reject
-^https?:\/\/img\.meituan\.net\/bizad - reject
 ^https?:\/\/p\d\.meituan\.net\/(display|mmc)\/ - reject
 ^https?:\/\/www\.meituan\.com\/api\/v\d\/appstatus\? - reject
 ^https?:\/\/s3plus\.meituan\.net\/v\d\/mss_\w+\/waimai-alita\/\w+\.zip$ - reject
