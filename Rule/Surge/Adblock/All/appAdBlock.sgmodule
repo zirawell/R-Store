@@ -6,7 +6,7 @@
 #!surge_version=5.14.2(Build3405,SDK18.2)
 #!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
 #!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/Filter/AdBlock.png
-#!date=2026-08-29 13:46:28
+#!date=2026-08-31 08:11:18
 
 [Rule]
 IP-CIDR, 1.202.85.193/32, REJECT, no-resolve, pre-matching
@@ -1343,6 +1343,7 @@ DOMAIN-KEYWORD, a3.bytecdn.cn, REJECT, extended-matching, pre-matching
 DOMAIN-KEYWORD, a3.pstatp.com, REJECT, extended-matching, pre-matching
 DOMAIN-KEYWORD, ad-sign.byteimg.com, REJECT, extended-matching, pre-matching
 DOMAIN-KEYWORD, ad.google, REJECT, extended-matching, pre-matching
+DOMAIN-KEYWORD, adashx.ut.fliggy.com, REJECT, extended-matching, pre-matching
 DOMAIN-KEYWORD, adproxy.autohome.com, REJECT, extended-matching, pre-matching
 DOMAIN-KEYWORD, ads.amap.com, REJECT, extended-matching, pre-matching
 DOMAIN-KEYWORD, ads.g.doubleclick, REJECT, extended-matching, pre-matching

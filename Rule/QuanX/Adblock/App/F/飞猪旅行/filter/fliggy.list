@@ -1,3 +1,4 @@
 # > 飞猪旅行 - FLIGGY
 ip-cidr, 59.82.113.8/32, reject
 host, ad-track.fliggy.com, reject
+host-keyword, adashx.ut.fliggy.com, reject
