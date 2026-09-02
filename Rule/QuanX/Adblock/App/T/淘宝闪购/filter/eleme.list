@@ -1,5 +1,8 @@
 # > 淘宝闪购 - TBTO
 host, wgo.mmstat.com, reject
+host, h-adashx.ut.ele.me, reject
+host, highway-tb.ele.me, reject
+host, cdn.ynuf.aliapp.org, reject
 ip-cidr, 59.82.121.172/32, reject
 ip-cidr, 59.82.121.72/32, reject
 ip-cidr, 59.82.121.216/32, reject
