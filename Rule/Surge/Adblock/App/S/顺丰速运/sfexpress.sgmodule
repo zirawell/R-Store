@@ -7,7 +7,7 @@
 #!basedOn=iOS
 #!surge_version=5.14.2(Build3405,SDK18.2)
 #!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
-#!icon=https://raw.githubusercontent.com/zirawell/Git/R-Store/Res/Icon/App/sfexpress.png
+#!icon=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/sfexpress.png
 #!date=2026-05-09
 
 [Map Local]
