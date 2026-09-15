@@ -1,13 +1,14 @@
 # > EMS<微信小程序> - EMS
 
 [URL Rewrite]
-^https?:\/\/ec\.ems\.com\.cn\/mailAd$ - reject
-^https?:\/\/ec\.ems\.com\.cn\/ecr-exp-web\/advert - reject
-^https?:\/\/ump\.ems\.com\.cn\/mailAd$ - reject
+^https?:\/\/\w+\.ems\.com\.cn\/mailAd$ - reject
+^https?:\/\/\w+\.ems\.com\.cn\/[A-Za-z-]+\/advert - reject
+
+[Map Local]
+^https?:\/\/\w+\.ems\.com\.cn\/[A-Za-z-]+\/adPlatform data-type=json data="{}" status-code=200
 
 [Script]
-ems = type=http-response,pattern=^https?:\/\/ec\.ems\.com\.cn\/ecr-qry-web\/redis\/pageInfoByChannel,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/wechatApplet.js
-ems = type=http-response,pattern=^https?:\/\/ump\.ems\.com\.cn\/new-generation-extend\/redis\/pageInfoByChannel,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/wechatApplet.js
+ems = type=http-response,pattern=^https?:\/\/\w+\.ems\.com\.cn\/[A-Za-z-]+\/redis\/pageInfoByChannel,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/wechatApplet.js
 
 [MITM]
 hostname= %APPEND% ec.ems.com.cn, ump.ems.com.cn
