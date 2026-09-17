@@ -102,20 +102,6 @@ if (url.includes("/note/imagefeed") || url.includes("/note/feed")) {
       delete obj.data[i];
     }
   }
-// 开屏广告
-} else if (url.includes("/splash_config")) {
-  if (obj?.data?.ads_groups?.length > 0) {
-    for (let i of obj.data.ads_groups) {
-      i.start_time = 3818332800; // Unix 时间戳 2090-12-31 00:00:00
-      i.end_time = 3818419199; // Unix 时间戳 2090-12-31 23:59:59
-      if (i?.ads?.length > 0) {
-        for (let ii of i.ads) {
-          ii.start_time = 3818332800; // Unix 时间戳 2090-12-31 00:00:00
-          ii.end_time = 3818419199; // Unix 时间戳 2090-12-31 23:59:59
-        }
-      }
-    }
-  }
 // 关注页信息流 可能感兴趣的人
 } else if (url.includes("/user/followings/followfeed")) {
   if (obj?.data?.items?.length > 0) {
