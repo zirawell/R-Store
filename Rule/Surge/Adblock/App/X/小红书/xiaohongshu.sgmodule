@@ -23,7 +23,7 @@ DOMAIN, trace.rtbasia.com, REJECT, extended-matching, pre-matching
 # httpDNS
 ^https?:\/\/mediacloud\.xiaohongshu\.com\/api\/httpdns\/dns\?host - reject
 # 开屏广告
-^https?:\/\/www\.xiaohongshu\.com\/api\/sns\/v\d+(\/tag)?\/ads - reject
+^https?:\/\/\w+\.xiaohongshu\.com\/api\/sns\/v\d+(\/tag)?\/ads - reject
 
 [Map Local]
 ^https?:\/\/edith\.xiaohongshu\.com\/api\/nike\/v\d\/update\/check data-type=json data="{}" status-code=200
