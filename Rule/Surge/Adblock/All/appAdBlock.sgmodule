@@ -6,7 +6,7 @@
 #!surge_version=5.14.2(Build3405,SDK18.2)
 #!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
 #!icon=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/Filter/AdBlock.png
-#!date=2026-09-23 08:21:28
+#!date=2026-09-23 08:30:30
 
 [Rule]
 IP-CIDR, 1.202.85.193/32, REJECT, no-resolve, pre-matching
@@ -73,6 +73,7 @@ IP-CIDR, 59.82.121.215/32, REJECT, no-resolve, pre-matching
 IP-CIDR, 59.82.121.216/32, REJECT, no-resolve, pre-matching
 IP-CIDR, 59.82.121.222/32, REJECT, no-resolve, pre-matching
 IP-CIDR, 59.82.121.72/32, REJECT, no-resolve, pre-matching
+IP-CIDR, 59.82.133.157/32, REJECT, no-resolve, pre-matching
 IP-CIDR, 59.82.133.36/32, REJECT, no-resolve, pre-matching
 IP-CIDR, 59.82.133.78/32, REJECT, no-resolve, pre-matching
 IP-CIDR, 59.82.14.1/32, REJECT, no-resolve, pre-matching
@@ -213,6 +214,7 @@ DOMAIN, apm.pinduoduo.com, REJECT, extended-matching, pre-matching
 DOMAIN, apmplus.volces.com, REJECT, extended-matching, pre-matching
 DOMAIN, app-ad.variflight.com, REJECT, extended-matching, pre-matching
 DOMAIN, app-analytics-services.com, REJECT, extended-matching, pre-matching
+DOMAIN, app-monitor.ele.me, REJECT, extended-matching, pre-matching
 DOMAIN, appcloud.zhihu.com, REJECT, extended-matching, pre-matching
 DOMAIN, appcloud2.in.zhihu.com, REJECT, extended-matching, pre-matching
 DOMAIN, appgo.189.cn, REJECT, extended-matching, pre-matching
