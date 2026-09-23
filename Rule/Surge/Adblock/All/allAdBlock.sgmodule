@@ -6,7 +6,7 @@
 #!surge_version=5.14.2(Build3405,SDK18.2)
 #!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
 #!icon=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/Filter/AdBlock.png
-#!date=2026-09-22 16:31:34
+#!date=2026-09-23 08:21:29
 
 [Rule]
 IP-CIDR, 1.202.85.193/32, REJECT, no-resolve, pre-matching
@@ -503,6 +503,7 @@ DOMAIN, smartop-sdkapi-ipv6.jiguang.cn, REJECT, extended-matching, pre-matching
 DOMAIN, smartop-sdkapi.jiguang.cn, REJECT, extended-matching, pre-matching
 DOMAIN, sofire.baidu.com, REJECT, extended-matching, pre-matching
 DOMAIN, soul-ad.soulapp.cn, REJECT, extended-matching, pre-matching
+DOMAIN, spider-tracker.xiaohongshu.com, REJECT, extended-matching, pre-matching
 DOMAIN, splashimgbssdl.yun.kugou.com, REJECT, extended-matching, pre-matching
 DOMAIN, splashqqlive.gtimg.com, REJECT, extended-matching, pre-matching
 DOMAIN, startup.umetrip.com, REJECT, extended-matching, pre-matching
@@ -541,6 +542,7 @@ DOMAIN, tosv.byted.org, REJECT, extended-matching, pre-matching
 DOMAIN, toutiao-frontier.snssdk.com, REJECT, extended-matching, pre-matching
 DOMAIN, tp2p.kg.qq.com, REJECT, extended-matching, pre-matching
 DOMAIN, tpstelemetry.tencent.com, REJECT, extended-matching, pre-matching
+DOMAIN, trace.rtbasia.com, REJECT, extended-matching, pre-matching
 DOMAIN, track.58.com, REJECT, extended-matching, pre-matching
 DOMAIN, track.tiara.daum.net, REJECT, extended-matching, pre-matching
 DOMAIN, track.tiara.kakao.com, REJECT, extended-matching, pre-matching
@@ -1850,6 +1852,7 @@ DOMAIN-KEYWORD, wan.sogou.com, REJECT, extended-matching, pre-matching
 ^https?:\/\/amdc\.m\.taobao\.com\/amdc\/mobileDispatch\?appkey=23782110 - reject
 ^https?:\/\/zhuanlan\.zhihu\.com\/api\/articles\/\d+\/recommendation - reject
 ^https?:\/\/app\.58\.com\/api\/log\/ - reject
+^https?:\/\/www\.xiaohongshu\.com\/api\/sns\/v\d+(\/tag)?\/ads - reject
 ^https?:\/\/mage(v\d)?\.if\.qidian\.com\/argus\/api\/v\d\/adv - reject
 ^https?:\/\/img1.126.net\/channel14\/ - reject
 ^https?:\/\/admin\.hydlight\.com\/api\/week_watching\/getIndexAdvInfo - reject
@@ -2173,7 +2176,6 @@ DOMAIN-KEYWORD, wan.sogou.com, REJECT, extended-matching, pre-matching
 ^https?:\/\/m\.hnair\.com\/cms\/config\/standard\/slider\/slider data-type=json data="{}" status-code=200
 ^https?:\/\/daijia\.kuaidadi\.com\/gateway\?api=prado\.cms\.delivery\.batch&apiVe data-type=json data="{}" status-code=200
 ^https?:\/\/api\.xueqiu\.com\/recommend-proxy\/card\/portfolio_tab_symbol data-type=json data="{}" status-code=200
-^https?:\/\/www\.xiaohongshu\.com\/api\/sns\/v\d+\/(ads\/resource|hey\/\w+\/hey_gallery) data-type=json data="{}" status-code=200
 ^https?:\/\/wallet\.lakala\.com\/m\/a\/lama\/mgt\/activity\/biz\/query\/byMerInfo data-type=json data="{}" status-code=200
 ^https?:\/\/ebk\.17u\.cn\/tctrafficappversionadmin\/api\/getLatestVersionApp data-type=json data="{}" status-code=200
 ^https?:\/\/kano\.guahao\.cn\/.+?\?resize=\d{3}-\d{4} data-type=tiny-gif status-code=200
@@ -2508,7 +2510,6 @@ DOMAIN-KEYWORD, wan.sogou.com, REJECT, extended-matching, pre-matching
 ^https?:\/\/cdn\.sdb\.com\.cn\/widget\/pb\/pb-plugins-recomend-content data-type=json data="{}" status-code=200
 ^https?:\/\/home\.mi\.com\/cgi-op\/api\/v\d\/resource\/realtime\/openingBanner data-type=json data="{}" status-code=200
 ^https?:\/\/mmgr\.gtimg\.com\/gjsmall\/qqpim\/public\/ios\/splash\/.+?\/\d{4}_\d{4} data-type=tiny-gif status-code=200
-^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d+\/system_service\/splash data-type=json data="{}" status-code=200
 ^https?:\/\/card\.weibo\.com\/article\/m\/aj\/(reward|uvead)\? data-type=json data="{}" status-code=200
 ^https?:\/\/ossweb-img\.qq\.com\/upload\/adw\/image\/[0-9]{3}\/202[0-9]{5}\/[a-z0-9]{32}\.(?>jpg|jpeg) data-type=text data="" status-code=200
 ^https?:\/\/vv\.video\.qq\.com\/(?>diff|get)vmind data-type=json data="{}" status-code=200
@@ -2764,6 +2765,7 @@ DOMAIN-KEYWORD, wan.sogou.com, REJECT, extended-matching, pre-matching
 ^https?:\/\/apiproxy\.zuche\.com\/resource\/cardes\/toufang\/marketing data-type=json data="{}" status-code=200
 ^https?:\/\/pacdn\.m\.stock\.pingan\.com\/images\/ data-type=json data="{}" status-code=200
 ^https?:\/\/api\.zhihu\.com\/search\/preset_words data-type=json data="{}" status-code=200
+^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d+\/system_service\/splash data-type=json data="{}" status-code=200
 ^https?:\/\/pcmx\.autohome\.com\.cn\/queryCreativeList data-type=json data="{}" status-code=200
 ^https?:\/\/xyst\.yuanfudao\.com\/iphone\/splashesV\d data-type=text data="" status-code=200
 ^https?:\/\/api\.pinduoduo\.com\/api\/caterham\/v\d\/query\/likes data-type=json data="{}" status-code=200
@@ -2977,6 +2979,7 @@ DOMAIN-KEYWORD, wan.sogou.com, REJECT, extended-matching, pre-matching
 ^https?:\/\/l[0-9]{1}\.51fanli\.net\/app\/images\/splash\/2022\/1[0-2]{1}\/.*.jpg data-type=text data="" status-code=200
 ^https?:\/\/impservice\.dictapp\.youdao\.com\/imp\/request data-type=tiny-gif status-code=200
 ^https?:\/\/(?>csc|osg)-service\.sgcc\.com\.cn:\d+\/emss-pfa-appset-front\/bootpageoutter\/ data-type=json data="{}" status-code=200
+^https?:\/\/www\.xiaohongshu\.com\/api\/sns\/v\d+\/hey\/\w+\/hey_gallery data-type=json data="{}" status-code=200
 ^https?:\/\/v\d\.wufazhuce\.com:\w+\/api\/adpreloadlist data-type=json data="{}" status-code=200
 ^https?:\/\/wcprd\.hilton\.com\.cn\/app-middleware\/graphql\?type=splashAd data-type=text data="" status-code=200
 ^https?:\/\/support\.you\.163\.com\/xhr\/boot\/getBootMedia data-type=text data="" status-code=200
