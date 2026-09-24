@@ -6,7 +6,7 @@
 #!surge_version=5.14.2(Build3405,SDK18.2)
 #!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
 #!icon=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/Filter/AdBlock.png
-#!date=2026-09-23 17:39:55
+#!date=2026-09-24 08:04:17
 
 [Rule]
 IP-CIDR, 1.202.85.193/32, REJECT, no-resolve, pre-matching
@@ -140,6 +140,7 @@ DOMAIN, adpinpai.video.weibocdn.com, REJECT, extended-matching, pre-matching
 DOMAIN, ads-img-qc.xhscdn.com, REJECT, extended-matching, pre-matching
 DOMAIN, ads-video-al.xhscdn.com, REJECT, extended-matching, pre-matching
 DOMAIN, ads-video-qc.xhscdn.com, REJECT, extended-matching, pre-matching
+DOMAIN, ads-vp5.xhscdn.com, REJECT, extended-matching, pre-matching
 DOMAIN, ads.auctions.yahoo.com, REJECT, extended-matching, pre-matching
 DOMAIN, ads.babytree.com, REJECT, extended-matching, pre-matching
 DOMAIN, ads.cup.com.cn, REJECT, extended-matching, pre-matching

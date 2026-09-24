@@ -3,6 +3,7 @@ host, ads-img-qc.xhscdn.com, reject
 host, ads-video-al.xhscdn.com, reject
 host, ads-video-qc.xhscdn.com, reject
 host, t-ads.xiaohongshu.com, reject
+host, ads-vp5.xhscdn.com, reject
 host, apm-native.xiaohongshu.com, reject
 host, spider-tracker.xiaohongshu.com, reject
 host, trace.rtbasia.com, reject
