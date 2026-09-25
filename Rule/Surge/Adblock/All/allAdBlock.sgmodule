@@ -6,7 +6,7 @@
 #!surge_version=5.14.2(Build3405,SDK18.2)
 #!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
 #!icon=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/Filter/AdBlock.png
-#!date=2026-09-24 09:01:05
+#!date=2026-09-25 08:11:22
 
 [Rule]
 IP-CIDR, 1.202.85.193/32, REJECT, no-resolve, pre-matching
@@ -1544,6 +1544,7 @@ DOMAIN-KEYWORD, wan.sogou.com, REJECT, extended-matching, pre-matching
 ^https?:\/\/sports3\.gtimg\.com\/community\/20cf93884470434eaf38b2e77ab7796a\.png - reject
 ^https?:\/\/api\.futunn\.com\/v\d\/config\/promote-config - reject
 ^https?:\/\/api\.gotokeep\.com\/op-engine-webapp\/v\d\/ad - reject
+^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d+\/guide\/home_guide - reject
 ^https?:\/\/dispatcher\.camera360\.com\/api\/v\d\/list$ - reject
 ^https?:\/\/x\.seeyouyima\.com\/adx\/staticstics\? - reject
 ^https?:\/\/app\.wy\.guahao\.com\/json\/white\/dayquestion\/getpopad - reject
@@ -1609,6 +1610,7 @@ DOMAIN-KEYWORD, wan.sogou.com, REJECT, extended-matching, pre-matching
 ^https?:\/\/\w+\.xiaohongshu\.com\/api\/sns\/v\d+(\/tag)?\/ads - reject
 ^https?:\/\/ad\.xiaotucc\.com\/advert - reject
 ^https?:\/\/wx\.17u\.cn\/xcxhomeapi\/((aggregator\/index)|(home\/(?>screen|banner|converge)))$ - reject
+^https?:\/\/mediacloud\.xiaohongshu\.com\/api\/httpdns\/ - reject
 ^https?:\/\/kad\.gotokeep\.com\/op-engine-webapp\/v\d\/ad - reject
 ^https?:\/\/.+\.pstatp\.com\/(obj|img)\/web\.business\.image\/.+ - reject
 ^https?:\/\/mapi\.appvipshop\.com\/vips-mobile\/rest\/iosAdInfo\/report - reject
@@ -1942,7 +1944,6 @@ DOMAIN-KEYWORD, wan.sogou.com, REJECT, extended-matching, pre-matching
 ^https?:\/\/img-tailor\.11222\.cn\/cms\/upload\/img\/.+ - reject
 ^https?:\/\/gaia\.ch\.com\/ECProduct\/popupWindow - reject
 ^https?:\/\/creditcardapp\.bankcomm\.(com|cn)\/mappweb_interaction\/common\/globalNotify - reject
-^https?:\/\/mediacloud\.xiaohongshu\.com\/api\/httpdns\/dns\?host - reject
 ^https?:\/\/api\.boohee\.com\/app-interface\/v\d\/ad\/info - reject
 ^https?:\/\/api\.hellobike\.com\/api\?bottom\.aggregation\.tab\.info - reject
 ^https?:\/\/pic\d\.ajkimg\.com\/mat\/\w+\?imageMogr\d\/format\/jpg\/thumbnail\/\d{3}x\d{4}$ - reject
