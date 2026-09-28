@@ -1,0 +1,5 @@
+# > 智慧云停车管家<微信小程序> - BAHECLOUD
+
+[Rule]
+DOMAIN, pro.dajuhl.com, REJECT, extended-matching, pre-matching
+DOMAIN, djad.nmgyhxxkj.cn, REJECT, extended-matching, pre-matching
