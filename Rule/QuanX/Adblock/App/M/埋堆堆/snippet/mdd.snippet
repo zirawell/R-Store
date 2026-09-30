@@ -1,0 +1,14 @@
+# > 埋堆堆 - MDD
+host, toblog.ctobsnssdk.com, reject
+host, t-dsp.pinduoduo.com, reject
+host, sdk1xyajs.data.kuiniuca.com, reject
+host, conf-darwin.xycdn.com, reject
+
+
+^https?:\/\/sfo\.mddcloud\.com\.cn\/api\/v\d\/sfo\/popup_displays url reject-dict
+^https?:\/\/mob\.mddcloud\.com\.cn\/api\/(ad|advert)\/ url reject-200
+^https?:\/\/mob\.mddcloud\.com\.cn\/adApi\/advert\/(?>first|third)part\/advertList url reject-dict
+^https?:\/\/mobads-pre-config\.cdn\.bcebos\.com\/preload url reject-200
+^https?:\/\/tower\.ubixioe\.com\/mob\/mediation url reject
+
+hostname = sfo.mddcloud.com.cn, mob.mddcloud.com.cn, mobads-pre-config.cdn.bcebos.com,tower.ubixioe.com

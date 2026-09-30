@@ -1,0 +1,15 @@
+# > 太平洋科技 - PCONLINE
+host, ad-analysis.pconline.com.cn, reject
+host, iad0ssl.pcauto.com.cn, reject
+host, iad0ssl.pconline.com.cn, reject
+host, imgad0.pcauto.com.cn, reject
+host, imgad0.pconline.com.cn, reject
+host, ivy.pchouse.com.cn, reject
+
+
+^https?:\/\/mrobot\.(?>pcauto|pconline)\.com\.cn\/[a-z0-9-]+\/onlineinfo\/(ad|cms\/launch) url reject-200
+^https?:\/\/mrobot\.(?>pcauto|pconline)\.com\.cn\/v\d\/ad url reject
+^https?:\/\/mrobot\.(?>pcauto|pconline)\.com\.cn\/xsp\/s\/auto\/info\/(ad|preload) url reject
+^https?:\/\/agent-count\.(?>pcauto|pconline)\.com\.cn\/counter\/adAnalyse\/ url reject
+
+hostname = mrobot.pconline.com.cn, mrobot.pcauto.com.cn, agent-count.pconline.com.cn, agent-count.pcauto.com.cn

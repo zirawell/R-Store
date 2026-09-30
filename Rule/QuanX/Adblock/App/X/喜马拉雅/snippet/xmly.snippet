@@ -1,0 +1,66 @@
+# > 喜马拉雅 - XMLY
+host, adbehavior.ximalaya.com, reject
+host, adwbs.ximalaya.com, reject
+host-suffix, ad.test.ximalaya.com, reject
+host-suffix, adse.test.ximalaya.com, reject
+host-suffix, adweb.test.ximalaya.com, reject
+host-suffix, adweb.ximalaya.com, reject
+host-suffix, linkeye.ximalaya.com, reject
+host-suffix, location.ximalaya.com, reject
+host-suffix, xdcs-collector.ximalaya.com, reject
+host-suffix, ad.ximalaya.com, reject
+host-suffix, adse.ximalaya.com, reject
+host-suffix, adse.wsa.ximalaya.com, reject
+host-suffix, adbehavior.wsa.ximalaya.com, reject
+host-suffix, adsebs.ximalaya.com, reject
+host-suffix, adbs.ximalaya.com, reject
+
+
+# 首页顶部去除直播
+^https?:\/\/.*\.xima.*\.com\/discovery-category\/customCategories url script-response-body https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/xmly.js
+# 修复轮播Ad失效Bug
+^https?:\/\/.*\.xima.*\.com\/discovery-feed\/focus\/queryF url reject
+# 播放页_Live
+^https?:\/\/.*\.xima.*\.com\/mobile-playpage\/view\/ url reject
+# MyInfo红点提醒
+^https?:\/\/.*\.xima.*\.com\/chaos-notice-web\/v1\/message\/preview\/list url reject
+# 屏蔽大红包Tips
+^https?:\/\/.*\.xima.*\.com\/social-web\/bottomTabs\/dynamicEntrance\/status url reject
+# 屏蔽gif弹窗Ad
+^https?:\/\/.*\.xmcdn\.com\/\w{8}\/\w{4}-\w{16}\/.+gif$ url reject
+# gslb
+^https?:\/\/gslb.*\.xima.*\.com\/ url reject
+# 屏蔽Aged请求
+^https?:\/\/.*\.xima.*\.com\/(dog-portal\/checkOld|(child-mobile\/child|aged-mobile\/aged)\/mode\/query) url reject
+# 部分Tab弹窗
+^https?:\/\/.*\.xima.*\.com\/discovery-feed\/isShowUserGiftPendant url reject
+# 屏蔽红点提示
+^https?:\/\/.*\.xima.*\.com\/mobile-user\/unread url reject
+# 屏蔽minor请求
+^https?:\/\/.*\.xima.*\.com/mobile-user/minorProtection/pop url reject
+# 屏蔽隐私搜集
+^https?:\/\/.*\.xima.*\.com\/collector\/xl\/v\d url reject
+# 屏蔽版本更新
+^https?:\/\/.*\.xima.*\.com\/butler-portal\/versionCheck url reject
+# 屏蔽开屏广告
+^https?:\/\/(adse\.wsa|adse|adbehavior|xdcs-collector)\.xima.*\.com\/.* url reject
+# 屏蔽位置请求
+^https?:\/\/.*\.xima.*\.com\/mobile\/discovery\/v\d\/location url reject
+# 屏蔽热搜词
+^https?:\/\/.*\.xima.*\.com\/hotWord url reject
+# 屏蔽搜索框定时_Ad
+^https?:\/\/.*\.xima.*\.com\/(hub)?guideWord url reject
+# 屏蔽实时Ad请求
+^https?:\/\/.*\.xima.*\.com\/api\/v\d\/adRealTime url reject
+# 屏蔽ting_Ad
+^https?:\/\/.*\.xima.*\.com\/ting\/(?>loading|feed|home)? url reject
+# 屏蔽首页横幅_Ad
+^https?:\/\/.*\.xima.*\.com\/focus-mobile\/focusPic url script-response-body https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/xmly.js
+# 屏蔽首页动态_Ad
+^https?:\/\/.*\.xima.*\.com\/discovery-feed\/v\d\/mix url script-response-body https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/xmly.js
+# 屏蔽Tab页滚动_Ad
+^https?:\/\/.*\.xima.*\.com\/discovery-category\/v\d/category url script-response-body https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/xmly.js
+# 去除我的页面Ad_Tag
+^https?:\/\/.*\.xima.*\.com\/mobile-user\/v\d\/homePage url script-response-body https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/xmly.js
+
+hostname = *.xima*.*.com, *.xmcdn.com

@@ -1,0 +1,10 @@
+# > 迅雷 - XUNLEI
+host, adsp.xunlei.com, reject
+host, etl.xlmc.sandai.net, reject
+
+
+^https?:\/\/images\.client\.vip\.xunlei\.com(\/.+)?\/advert\/ url reject-200
+^https?:\/\/api-shoulei-ssl\.xunlei\.com\/flowhub\/v\d\/slots:batchGet url reject-200
+^https?:\/\/conf-m-ssl\.xunlei\.com\/external\/ url script-response-body https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/xunlei.js
+
+hostname = images.client.vip.xunlei.com, api-shoulei-ssl.xunlei.com, conf-m-ssl.xunlei.com

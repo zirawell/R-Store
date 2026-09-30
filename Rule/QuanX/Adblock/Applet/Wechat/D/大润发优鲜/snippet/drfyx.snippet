@@ -1,0 +1,11 @@
+# > 大润发优鲜<微信小程序> - DRFYX
+# 首页弹窗
+^https?:\/\/www-yxapp\.feiniu\.com\/home\/popupWindow url reject-dict
+# 购物车底部推荐
+^https?:\/\/search-yxapp\.feiniu\.com\/recommend\/general\/FreshRecBuyAgain url reject-dict
+# 我的页底部推荐
+^https?:\/\/search-yxapp\.feiniu\.com\/recommend\/memberIndexGoodsList url reject-dict
+# 我的页推广栏
+^https?:\/\/membase-yxapp\.feiniu\.com\/misc\/memberIndex url response-body myADArray response-body myADArray0
+
+hostname = www-yxapp.feiniu.com, search-yxapp.feiniu.com, membase-yxapp.feiniu.com

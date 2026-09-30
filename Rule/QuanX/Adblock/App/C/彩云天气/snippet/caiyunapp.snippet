@@ -1,0 +1,13 @@
+# > 彩云天气 - CAIYUNAPP
+host, ad.cyapi.cn, reject
+host, gather.colorfulclouds.net, reject
+
+
+# 移除小助手
+^https?:\/\/wrapper\.cyapi\.cn\/v\d\/activity\?.*type_id=A03 url jsonjq-response-body '.activities[]? |= (if .feature != null then .feature = false else . end)'
+# 移除搜索内的推广
+^https?:\/\/starplucker\.cyapi\.cn\/v\d\/config url jsonjq-response-body 'del(.search_suggestions)?'
+# 移除广告和推广
+^https?:\/\/starplucker\.cyapi\.cn\/v\d\/config url jsonjq-response-body '(.pic_page_card_orders[]?, .map_page_card_orders[]?) |= select(.name | test("^(A|C01)") | not)'
+
+hostname = wrapper.cyapi.cn, starplucker.cyapi.cn

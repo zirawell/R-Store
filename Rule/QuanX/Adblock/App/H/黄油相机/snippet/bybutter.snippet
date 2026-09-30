@@ -1,0 +1,10 @@
+# > 黄油相机 - BYBUTTER
+host-suffix, anythinktech.com, reject
+host-suffix, adkwai.com, reject
+host-suffix, mob.com, reject
+
+
+^https?:\/\/api\d\.bybutter\.com\/v\d\/app\/placements\/\d\/advertisements url reject
+^https?:\/\/api\d\.bybutter\.com\/v\d url script-response-body https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/Unlock/bybutter.js
+
+hostname = api*.bybutter.com

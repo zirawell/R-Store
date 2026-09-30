@@ -1,0 +1,30 @@
+# > 淘宝闪购 - TBTO
+host, wgo.mmstat.com, reject
+host, h-adashx.ut.ele.me, reject
+host, highway-tb.ele.me, reject
+host, app-monitor.ele.me, reject
+host, cdn.ynuf.aliapp.org, reject
+ip-cidr, 59.82.121.172/32, reject
+ip-cidr, 59.82.121.72/32, reject
+ip-cidr, 59.82.121.215/32, reject
+ip-cidr, 59.82.121.216/32, reject
+ip-cidr, 59.82.121.222/32, reject
+ip-cidr, 59.82.120.33/32, reject
+ip-cidr, 59.82.120.166/32, reject
+ip-cidr, 59.82.120.171/32, reject
+ip-cidr, 59.82.120.210/32, reject
+ip-cidr, 59.82.120.252/32, reject
+ip-cidr, 59.82.133.36/32, reject
+ip-cidr, 59.82.133.78/32, reject
+ip-cidr, 59.82.133.157/32, reject
+ip-cidr, 203.119.212.22/32, reject
+host-keyword, baichuan.taobao.com, reject
+host-keyword, o2o-ad-dev.oss-cn, reject
+
+
+^https?:\/\/amdc\.m\.ele\.me\/amdc\/mobileDispatch url reject-dict
+^https?:\/\/g\.alicdn\.com\/TBTakeout\/et-store\/(\d+.)*\/weex\/store-brand-popup url reject-dict
+^https?:\/\/nr-op\.elemecdn\.com\/eleme\/transformer\/templates\/\w_eleme_home_yolo_popup url reject
+^https?:\/\/(?>nr-op|cube)\.elemecdn\.com\/image\/.*\.(png|jpeg|jpg|gif)\?x-oss-process=image\/resize,m_fill,w_180,h_180\/($|format,webp\/$) url reject-img
+
+hostname = amdc.m.ele.me, g.alicdn.com, nr-op.elemecdn.com, cube.elemecdn.com

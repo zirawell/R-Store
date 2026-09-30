@@ -1,0 +1,9 @@
+# > 罗森点点<微信小程序> - LAWSON
+# 横幅广告
+^https?:\/\/plt\.yorentown\.com\/pltapp\/v\d\/banner url reject-dict
+# 弹窗及悬浮广告
+^https?:\/\/lawsonapi\.yorentown\.com\/app\/v\d\/globalLaunch\/listAdvert url reject-dict
+# 首页净化
+^https?:\/\/lawsonapi\.yorentown\.com\/area\/sh-lawson\/app\/v\d url script-response-body https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/wechatApplet.js
+
+hostname = plt.yorentown.com, lawsonapi.yorentown.com

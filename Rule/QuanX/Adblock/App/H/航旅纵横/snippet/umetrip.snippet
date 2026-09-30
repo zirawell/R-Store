@@ -1,0 +1,10 @@
+# > 航旅纵横 - UMETRIP
+host, analytics.umetrip.com, reject
+host, startup.umetrip.com, reject
+host, sensors.umetrip.com.cn, reject
+
+
+^https?:\/\/(bkclient|umerp|home)\.umetrip\.com(\.cn){0,1}\/gateway\/api\/umetrip\/native url script-response-header https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/umetrip.js
+^https?:\/\/oss\.umetrip\.com\/fs\/advert\/polite url reject-dict
+
+hostname = umerp.umetrip.com, umerp.umetrip.com.cn, home.umetrip.com, bkclient.umetrip.com.cn, oss.umetrip.com

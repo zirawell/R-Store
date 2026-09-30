@@ -1,0 +1,7 @@
+# > spotify - SPOTIFY
+^https?:\/\/(?>gae2-spclient|guc3-spclient|spclient\.wg)\.spotify\.com(:443)?\/pendragon\/ url reject-dict
+^https?:\/\/(?>gae2-spclient|guc3-spclient|spclient\.wg)\.spotify\.com(:443)?\/(?>ad-logic|ads|.+ad_slot|.+banners|.+canvases|.+cards|.+crashlytics|.+doubleclick.net|.+enabled-tracks|.+event|.+sponsored|.+promoted) url reject-img
+^https?:\/\/(?>gae2-spclient|guc3-spclient|spclient\.wg)\.spotify\.com(:443)?\/artistview\/v1\/artist\/(.*)&platform=iphone url 302 https://$1.spotify.com/artistview/v1/artist/$2&platform=ipad
+^https?:\/\/(?>gae2-spclient|guc3-spclient|spclient\.wg)\.spotify\.com(:443)?\/(?>bootstrap\/v\d\/bootstrap|user-customization-service\/v\d\/customize)$ url script-response-body https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/spotify.js
+
+hostname = gae2-spclient.spotify.com, guc3-spclient.spotify.com, spclient.wg.spotify.com

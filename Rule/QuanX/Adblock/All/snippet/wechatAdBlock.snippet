@@ -1,0 +1,529 @@
+#!name=微信小程序-广告拦截合集-分流/重写规则
+#!desc=某些规则要清除缓存或者重新安装APP，拦截广告才会生效！
+#!count=支持约127个微信小程序
+#!author=zirawell
+#!homepage=https://github.com/zirawell/R-Store
+#!raw-url=https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/All/snippet/wechatAdBlock.snippet
+#!tg-group=https://t.me/RStoreCom
+#!date=2026-09-30 17:44:36
+#!---------------------------------------------------------------------------------------------------------------
+
+host, ad-api.4pyun.com, reject
+host, ad-files.4pyun.com, reject
+host, ad.maoyan.com, reject
+host, ads-shopping.shouqianba.com, reject
+host, ads.ishansong.com, reject
+host, api.hongyibo.com.cn, reject
+host, api.zysdsk.cn, reject
+host, bigdata-behaviordata.189.cn, reject
+host, djad.nmgyhxxkj.cn, reject
+host, dsp.fcbox.com, reject
+host, et.ykccn.com, reject
+host, file.dian.so, reject
+host, logs-bigdata.yeehaw.com.cn, reject
+host, pro.dajuhl.com, reject
+host, rumt-zh.com, reject
+host, smarket.dian.so, reject
+host, tracker-prd.aldi.com.cn, reject
+host-suffix, ad.duoduo.link, reject
+host-suffix, wxsmsdy.video.qq.com, reject
+
+# > 瑞幸咖啡<微信小程序> - LKCOFFEE
+^https?:\/\/capi\.lkcoffee\.com\/resource\/m\/aigc\/showAIButton url reject-dict
+^https?:\/\/capi\.lkcoffee\.com\/resource\/m\/sys\/base\/getSubscribeTemplate url reject-dict
+^https?:\/\/capi\.lkcoffee\.com\/resource\/m\/order\/orderBanner url reject-dict
+^https?:\/\/capi\.lkcoffee\.com\/resource\/market\/receiveCoupon\/receiveCouponPop url reject-dict
+
+# > 融柳大铁牛<微信小程序> - RONGLIU
+# ⚠️已合并至 https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/Applet/Wechat/#/通用类/rewrite/wechatAppletGeneral.conf
+
+# > U净生活<微信小程序> - ZHINENGXIYIFANG
+^https?:\/\/api-marketing\.zhinengxiyifang\.cn\/api\/v\d\/cloudcode\/wechat\/bid url reject
+
+# > 奈雪点单<微信小程序> - NAIXUE
+^https?:\/\/tm-api\.pin-dao\.cn\/home\/api\/index\/activeConfig\/ url reject-dict
+^https?:\/\/tm-api\.pin-dao\.cn\/home\/api\/resource\/config\/homeBannerNodes url reject-dict
+^https?:\/\/tm-api\.pin-dao\.cn\/activity\/.*\/pop url reject-dict
+
+# > NOWWA挪瓦咖啡<微信小程序> - NOWWA
+# ⚠️已合并至 https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/Applet/Wechat/#/通用类/rewrite/wechatAppletGeneral.conf
+
+# > 南方航空<微信小程序> - CSAIR
+^https?:\/\/wxapi\.csair\.com\/mini\/api\/adVerTiSing\/(?!getPersonalCenterAdList) url reject-dict
+
+# > 故宫博物馆<微信小程序> - GUGONGMINI
+^https?:\/\/gugongmini\.dpm\.org\.cn\/gugong_applet\/open-screen url reject-dict
+
+# > 怪兽充电<微信小程序> - ENMONSTER
+^https?:\/\/aag\.enmonster\.com\/apa(\/index)?\/advert url reject
+^https?:\/\/aag\.enmonster\.com\/apa(\/discount)?\/activity url reject-dict
+
+# > 古茗茶饮点单<微信小程序> - GUMING
+^https?:\/\/newton\.gumingnc\.com\/newton-buyer\/newton\/buyer\/(ump|touch|external\/front) url reject-dict
+
+# > 工银E生活<微信小程序> - ICBCELIFE
+# ⚠️域名[elife.icbc.com.cn]可能会导致App端部分功能无法使用，请自行选择是否需要
+^https?:\/\/elife\.icbc\.com\.cn\/OFSTNEWBASE\/floorinfo\/(getStartupMantleFlatingFloor|getMantlePages) url reject-200
+
+# > 广州地铁乘车码<微信小程序> - ALENABLE
+^https?:\/\/apis\.alenable\.com\/mall\/v\d\/api\/mall\/skin\/user\/get url reject-dict
+^https?:\/\/apis\.alenable\.com\/ycx\/v\d\/api\/adPut url reject-dict
+
+# > 中油好客e站<微信小程序> - 95504
+^https?:\/\/minipro\.95504\.net\/app\/json\/ad\/get(?>Pop|Index)AdData url reject
+
+# > 智慧云停车管家<微信小程序> - BAHECLOUD
+^https?:\/\/www\.bahecloud\.com\/webapi\.asmx\/api_GetAdvCmdCode url reject
+
+# > 招行信用卡<微信小程序> - CMBCC
+^https?:\/\/xyk\.cmbchina\.com\/WebAppConfigService\/get(Page)?ResourceBits url script-response-body https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/cmbcc.js
+^https?:\/\/weclub\.ccc\.cmbchina\.com\/SCRMMiniAppCenterNode\/resource\/gateway\/get-page-resource url script-response-body https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/cmbcc.js
+
+# > 中国电信<微信小程序> - CN189
+# ⚠️域名[wcmp.189.cn]可能会导致部分功能无法使用，请自行选择是否需要
+^https?:\/\/wcmp\.189\.cn\/xcxApiService\/api\/gateway url response-body adItems response-body random_body
+
+# > 掌上公交<微信小程序> - MYGOLBS
+^https?:\/\/wx\.mygolbs\.com\/WxBusServer\/ApiData\.do url script-response-body https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/zsgj.js
+
+# > 中国天气网<微信小程序> - WEATHER
+^https?:\/\/e\.weather\.com\.cn\/weChat\/typhoonNull\.json url reject-dict
+
+# > 中通快递<微信小程序> - ZTO
+^https?:\/\/hdgateway\.zto\.com\/(?>getApolloConfig|track|getAdInfo|listJumperShow) url reject-dict
+^https?:\/\/fscdn\.zto\.com\/fs1 url reject
+
+# > 转转<微信小程序> - ZHUANZHUAN
+^https?:\/\/app\.zhuanzhuan\.com\/zz\/transfer\/getpersonalcenter url response-body pendantInfo response-body random_body
+^https?:\/\/app\.zhuanzhuan\.com\/zz\/v\d\/zzlogic\/mywxcontinenthomepage url script-response-body https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/zhuanzhuan.js
+
+# > 同程旅行<微信小程序> - 17U
+^https?:\/\/wx\.17u\.cn\/wxocbdapi\/adService url reject-dict
+^https?:\/\/wx\.17u\.cn\/xcxhomeapi\/((aggregator\/index)|(home\/(?>screen|banner|converge)))$ url reject
+^https?:\/\/wx\.17u\.cn\/homemarketapi\/(aggregator\/index|search\/recommend) url reject-dict
+^https?:\/\/wx\.17u\.cn\/mytourapi\/mytrip\/(?>blankflight|toptips) url reject-dict
+^https?:\/\/wx\.17u\.cn\/mytourapi\/blankpage\/recommendList url reject-dict
+^https?:\/\/wx\.17u\.cn\/mytourapi\/recommendation\/arriveCity url reject-dict
+^https?:\/\/wx\.17u\.cn\/membermessageuserapi\/(message\/list|category\/getCategory) url reject-dict
+^https?:\/\/wx\.17u\.cn\/platformpubapi\/customer\/lead\/getInfo url reject-dict
+^https?:\/\/wx\.17u\.cn\/vacation\/webapp\/tailor\/miniHomeConfig url reject-dict
+^https?:\/\/wx\.17u\.cn\/wireless\/monitor\/wx\/common\/compressevent url reject-dict
+^https?:\/\/\w+\.sh\.wxgateway\.com\/xcxhomeapi\/((aggregator\/index)|(home\/(?>screen|banner|converge)))$ url reject-dict
+
+# > 特来电<微信小程序> - TELD
+^https?:\/\/sg\.teld\.cn\/api\/invoke\?SID=(?>CMS-GetMpAdList|OMP-Monitor-FrontendSend|CMS-GetMPBannerByType|ATMS-MissioncenterSlideshow) url reject-dict
+
+# > 台风路径<微信小程序> - TFLJ
+^https?:\/\/tf\d+\.istrongcloud\.com\/member\/v[0-9.]+\/home url script-response-body https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/tflj.js
+^https?:\/\/tf\d+\.istrongcloud\.com\/data\/commonConfig\/typhoon-mp-config\/webModuleConfig url script-response-body https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/tflj.js
+
+# > 途虎养车<微信小程序> - TUHU
+# ⚠️已合并至 https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/App/T/途虎养车/rewrite/tuhu.conf
+
+# > 腾讯乘车码<微信小程序> - TENPAY
+^https?:\/\/ccmsupport-sz\.tenpay\.com\/cgi-bin\/common\/ccm_page_element.cgi url reject
+
+# > T3出行<微信小程序> - T3GO
+^https?:\/\/passenger\.t3go\.cn\/passenger-activity-api\/notoken\/api\/v\d\/resource\/getSource url reject-dict
+^https?:\/\/passenger\.t3go\.cn\/(solution\-|common\-)?(passenger\-)?(activity\-|app\-)?api\/notoken\/(trip\/)?api\/(home\/|common\/)?(v\d\/)?(ad\/getNegativescreen|solution\/passenger\/open\/getHomeMenu|leftmenu|getHomeInfoGlobal) url reject-dict
+
+# > 申通快递<微信小程序> - STO
+^https?:\/\/customer-app\.sto\.cn\/api\/app\/banner\/banner url reject-dict
+^https?:\/\/sto-customer-app\.oss-cn-shanghai\.aliyuncs\.com\/images url reject-dict
+
+# > 闪送<微信小程序> - SHANSONG
+^https?:\/\/miniprogram\.ishansong\.com\/cms\/faq\/query url reject-dict
+
+# > 上海地铁Metro大都会乘车码<微信小程序> - SHMETRO
+^https?:\/\/dock\.tenchii\.com\/DockCard\/api\/mini\/card\/list url reject-dict
+
+# > 四川天府银行<微信小程序> - CGBANK
+^https?:\/\/chl\.tf\.cn\/channelmg\/sys\/socso\/order\/queryOrderInfo url response-body "imgUrl" response-body "imgUrl0"
+^https?:\/\/chl\.tf\.cn\/channelmg\/sys\/socso\/socsonew\/queryIsRealNameAdertInfo url reject-dict
+^https?:\/\/wechat\.tf\.cn\/mini-financial\/model\/queryPopup url reject-dict
+
+# > 顺丰速运<微信小程序> - SFEXPRESS
+^https?:\/\/mcs-mimp-web\.sf-express\.com\/mcs-mimp\/integralPlanet\/getCxAdvertiseList url reject-dict
+^https?:\/\/ucmp-static\.sf-express\.com\/proxy\/wxbase\/wxTicket\/wxLiveStreamInfo\?pageNo url reject-dict
+^https?:\/\/ucmp\.sf-express\.com\/proxy\/operation-platform\/info-flow-adver\/query url reject-200
+^https?:\/\/ucmp\.sf-express\.com\/proxy\/esgcempcore\/memberGoods\/pointMallService\/goodsList url reject-dict
+^https?:\/\/ucmp\.sf-express\.com\/proxy\/esgcempcore\/memberManage\/memberEquity\/queryRecommendEquity url reject-dict
+^https?:\/\/ucmp\.sf-express\.com\/proxy\/esgcempcore\/memberActLengthy\/fullGiveActivityService\/fullGiveInfo url reject-dict
+^https?:\/\/ucmp\.sf-express\.com\/cx-wechat-query\/query\/info-flow\/reconsitution-list url reject
+^https?:\/\/ucmp\.sf-express\.com\/cx-wechat-query\/query\/module-config\/query url reject-dict
+^https?:\/\/shopic\.sf-express\.com\/index\/home\/get(?>Popup|Layout) url reject
+^https?:\/\/shopic\.sf-express\.com\/account\/coupon\/getUserCouponCnt url reject
+
+# > 上海电信<微信小程序> - SH189
+^https?:\/\/m\.sh\.189\.cn\/business-appletapi\/applet\/query\/(?>items|banners|getAdItemList) url reject-dict
+^https?:\/\/m\.sh\.189\.cn\/business-appletapi\/packBinds\/getAadvertisement url reject
+^https?:\/\/m\.sh\.189\.cn\/business-appletapi\/packageQuery\/(?>getUserAdvertising|getLiveSessionList|getTop|getssplabelinfo|getsspmaterielinfo|sspQueryOperationInfo) url reject-dict
+
+# > 松果出行<微信小程序> - SONGGUO
+^https?:\/\/api\.songguo7\.com\/(\w{3})?mp\/v\d\/misc\/(?>toast|user_operate_info|unlock_without_order|unlock_operate_info) url reject-dict
+
+# > 首汽约车<微信小程序> - 01ZHUANCHE
+^https?:\/\/gw-passenger-wap\.01zhuanche\.com\/gw-passenger-wap\/zhuanche-passenger-token\/commonSkipToken\/common\/getAdList url reject-dict
+
+# > 首旅如家酒店集团<微信小程序> - HOMEINNS
+^https?:\/\/wx\.bthhotels\.com\/miniapp\/weixin\/v\d\/home\/index_banner url reject-dict
+^https?:\/\/app\.homeinns\.com\/api\/v\d\/(?>index|local) url reject-dict
+
+# > 搜电充电<微信小程序> - SD
+^https?:\/\/wxs-weixin\.sd\.zhumanggroup\.com\/api\/v\d\/ad url reject-dict
+
+# > 神州租车<微信小程序> - ZUCHE
+^https?:\/\/apiproxy\.zuche\.com\/resource\/carrctapi\/home\/marketing url reject-dict
+^https?:\/\/apiproxy\.zuche\.com\/resource\/carrctapi\/home\/page\/advertising url reject-dict
+
+# > 丰巢<微信小程序> - FCBOX
+^https?:\/\/webchatapp\.fcbox\.com\/fcboxactivityweb\/api\/v\d\/clientPage url reject
+
+# > 复游会<微信小程序> - FOLIDAY
+^https?:\/\/apis\.folidaymall\.com\/online\/capi\/component\/getPageComponents url script-response-body https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/foliday.js
+
+# > 通用规则<微信小程序> - WechatAppletGeneral
+^https?:\/\/mp\.weixin\.qq\.com\/wapad\/getaddata\?action=getad url reject-200
+^https?:\/\/mp\.weixin\.qq\.com\/wapad\/reportaddata\?action=exposure_report url reject-200
+^https?:\/\/(?>webapi|miniapp)\.qmai\.cn\/web\/cmk-center\/marketing\/canvas\/advert url reject
+^https?:\/\/(?>webapi|miniapp)\.qmai\.cn\/web\/catering([0-9]-apiserver)?\/advertising\/ad\/advertiseInfo url script-response-body https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/qmai.js
+^https?:\/\/rms\.meituan\.com\/api\/v\d\/rmsmina\/c\/queryPortalInfo url jsonjq-response-body '.data.modules |= map(select(.data.advType != true and .name != "float-window"))'
+
+# > 花小猪打车<微信小程序> - HONGYIBO
+^https?:\/\/res\.hongyibo\.com\.cn\/os\/gs\/resapi\/activity url reject-dict
+
+# > 汇付天下<微信小程序> - CLOUDPNR
+^https?:\/\/saas-ad\.cloudpnr\.com\/huifuad-base-api\/api\/tactics\/ad url script-response-body https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/wechatApplet.js
+^https?:\/\/mcsp\.cloudpnr\.com\/api\/miniapp\/popular\/T_MINIAPP$ url reject
+
+# > 横店电影<微信小程序> - HENGDIANFILM
+^https?:\/\/api\.hengdianfilm\.com\/\/cinema\/queryAvailableBannerInfo\/1 url 302 https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Data/hengdian.json
+^https?:\/\/api\.hengdianfilm\.com\/\/cinema\/queryAvailableBannerInfo\/2\?cid= url reject-dict
+^https?:\/\/api\.hengdianfilm\.com\/\/cinema\/queryAvailableBannerInfo\/4\?cid= url reject-dict
+
+# > 哈啰<微信小程序> - HELLOBIKE
+^https?:\/\/api\.hellobike\.com\/api\?adx url reject-dict
+
+# > 华住会<微信小程序> - HUAZHU
+^https?:\/\/api-fouth-mem\.huazhu\.com\/api\/rights\/bannerList url reject-dict
+
+# > 海尔服务<微信小程序> - HAIERSMARTHOMES
+^https?:\/\/service\.haiersmarthomes\.com\/management\/banner\/getBannerList\?source=4 url reject-dict
+
+# > 货拉拉<微信小程序> - HUOLALA
+^https?:\/\/qapi\.huolala\.cn\/(?>ads|home_new_user|get_service_list) url reject-dict
+^https?:\/\/appuser-static\.huolala\.cn\/imgs url reject-dict
+
+# > 盒马鲜生<微信小程序> - FRESHIPPO
+^https?:\/\/acs\.m\.shyhhema\.com\/h5\/mtop\.wdk\.fc\.recommend\.feeds url reject-dict
+^https?:\/\/acs\.m\.shyhhema\.com\/h5\/mtop\.wdk\.render\.query(?>index|my)page url script-response-body https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/freshippo.js
+
+# > 蜜雪冰城<微信小程序> - MXBC
+^https?:\/\/mxsa\.mxbc\.net\/api\/v\d\/adinfo\/adplace\/query url reject-dict
+
+# > Manner<微信小程序> - MANNER
+^https?:\/\/triangle\.wearemanner\.com\/mp-api\/v\d\/ads url script-response-body https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/manner.js
+
+# > 美团<微信小程序> - MEITUAN
+^https?:\/\/web\.meituan\.com\/api\/miniprogram\/index\/aggregate url echo-response application/json echo-response https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Data/mt_aggregate.json
+
+# > 美团充电宝<微信小程序> - MEITUANCDB
+^https?:\/\/cdb\.meituan\.com\/marketing\/source\/getPageSlotList url reject-dict
+
+# > MSC地中海邮轮<微信小程序> - MSC
+^https?:\/\/www\.msccruises\.com\.cn\/checkinapi\/common\/getPopUp url reject-200
+
+# > MStand<微信小程序> - MSTAND
+^https?:\/\/wechat-api-dj\.mstand\.cn\/scrm\/app\/mdm\/index\/listAdv\?types=(?!1&) url reject-dict
+^https?:\/\/wechat-api-dj\.mstand\.cn\/scrm\/mini\/app\/index\/info url script-response-body https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/wechatApplet.js
+^https?:\/\/wechat-api-dj\.mstand\.cn\/system\/dms\/dmsAdSetting\/issue url reject-dict
+
+# > 猫眼电影<微信小程序> - MAOYAN
+^https?:\/\/wx\.maoyan\.com\/maoyansh\/api\/mobile\/(?>hotMatchList|eSportsIps) url reject-dict
+^https?:\/\/wx\.maoyan\.com\/maoyansh\/myshow\/ajax\/ad\/detail url reject-dict
+^https?:\/\/wx\.maoyan\.com\/maoyansh\/myshow\/ajax\/movie\/wonderShow url reject-dict
+^https?:\/\/wx\.maoyan\.com\/maoyansh\/myshow\/ajax\/performances\/calendar\/0 url reject-dict
+^https?:\/\/wx\.maoyan\.com\/maoyansh\/myshow\/ajax\/performances\/rob\/main url reject-dict
+^https?:\/\/wx\.maoyan\.com\/maoyansh\/myshow\/ajax\/celebrityBasicList\/query url reject-dict
+^https?:\/\/wx\.maoyan\.com\/maoyansh\/myshow\/ajax\/recommend\/performances url reject-dict
+^https?:\/\/vod-movie\.maoyan\.com\/vod\/video\/onlineMovies\.json url reject-dict
+^https?:\/\/api\.maoyan\.com\/sns\/common\/feed\/channel\/v\d\/list\.json url reject-dict
+
+# > 美团外卖<微信小程序> - MEITUANWM
+^https?:\/\/npay\.meituan\.com\/conch\/flow\/mypage-wallet-info url reject-dict
+^https?:\/\/npay\.meituan\.com\/conch\/walletv\d\/wechat-pop-window url reject-dict
+^https?:\/\/web\.meituan\.com\/newUser\/returnMoney\/popWindow url reject-dict
+^https?:\/\/web\.meituan\.com\/api\/miniprogram\/my\/(?>novelZone|resources) url reject-dict
+^https?:\/\/web\.meituan\.com\/api\/miniprogram\/tabbar\/all\/query url script-response-body https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/meituanwm.js
+^https?:\/\/web\.meituan\.com\/api\/miniprogram\/index\/aggregate url script-response-body https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/meituanwm.js
+
+# > Mcake<微信小程序> - MCAKE
+^https?:\/\/interface\.mcake\.com\/api\/popup\/ url reject-dict
+
+# > 美团圈圈<微信小程序> - MTQQ
+^https?:\/\/peppermall\.meituan\.com\/user\/popup\/list url reject-dict
+
+# > 美柚<微信小程序> - SEEYOUYIMA
+^https?:\/\/wxproj\.seeyouyima\.com\/data\/today_tips url reject-dict
+
+# > 麦当劳<微信小程序> - MCD
+^https?:\/\/api\.mcd\.cn\/bff\/portal\/home\/hotActivity url reject-dict
+^https?:\/\/api\.mcd\.cn\/bff\/portal\/richpop url reject-dict
+
+# > 街电<微信小程序> - JIEDIANKEJI
+^https?:\/\/s\.jiediankeji\.com\/adv url reject-dict
+
+# > 金地广场<微信小程序> - GEMDALE
+^https?:\/\/m\.mallcoo\.cn\/api\/content\/Ads url reject
+
+# > 极兔快递<微信小程序> - JTEXPRESS
+^https?:\/\/applets\.jtexpress\.com\.cn url reject-dict
+
+# > 交通银行<微信小程序> - BANKCOMM
+^https?:\/\/creditcardapp\.bankcomm\.com\/cnsvPmpaMdbcardWeb\/page\/getGuidePageAds url reject
+
+# > 建融家园<微信小程序> - CCBHOME
+^https?:\/\/opss\.qiye\.ccbhome\.cn\/ccbhome-open\/home\/common url script-response-body https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/ccbHome.js
+
+# > 锦江酒店预定<微信小程序> - BESTWEHOTEL
+^https?:\/\/wxapp\.bestwehotel\.com\/\w+\/app-mini\/trip-hotel-banner\/activity\/getActivityInfo url reject-dict
+
+# > 京东购物<微信小程序> - JD
+^https?:\/\/api\.m\.jd\.com\/\?loginType=11 url reject-dict
+
+# > 京东快递<微信小程序> - JDEXPRESS
+^https?:\/\/lop-proxy\.jd\.com\/BeaconFireApi\/queryMarketingRecommendRuleConfigInfo url reject-dict
+^https?:\/\/lop-proxy\.jd\.com\/home\/banner url reject-dict
+^https?:\/\/lop-proxy\.jd\.com\/order\/getCarbonIntegral url reject-dict
+^https?:\/\/lop-proxy\.jd\.com\/csat\/getNPSQuestionnaire url reject-dict
+^https?:\/\/lop-proxy\.jd\.com\/search\/getQuestionnaireByOrderInfo url reject-dict
+^https?:\/\/lop-proxy\.jd\.com\/index\/queryTabBubble url reject
+^https?:\/\/lop-proxy\.jd\.com\/smartmp\/querySmartDecision url reject-dict
+
+# > CoCo点单+<微信小程序> - COCO
+^https?:\/\/coco-com\.e\.verystar\.net\/v\d\/home\/info url script-response-body https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/wechatApplet.js
+
+# > 曹操出行<微信小程序> - CAOCAO
+^https?:\/\/minicap\.caocaokeji\.cn\/advert-bss\/pullAdvert url reject-dict
+
+# > 菜鸟速递<微信小程序> - CAINIAO
+^https?:\/\/cn-acs\.m\.cainiao\.com\/h5\/mtop\.cainiao\.guoguo\.tdwxgateway\.ads url reject-dict
+
+# > 茶颜悦色<微信小程序> - SEXYTEA
+^https?:\/\/miniapp\.sexytea2013\.com\/cms\/slot\/queryByCodes\?codes=INDEX_TOP_BANNER url script-response-body https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/wechatApplet.js
+^https?:\/\/miniapp\.sexytea2013\.com\/cms\/slot\/byCode\?code=MALL_INDEX_SLOT url reject-dict
+
+# > Clubmed<微信小程序> - CLUBMED
+^https?:\/\/clubmed\.bd\.clubmedmnp\.com\/miniorder\/api\/basic\/common url reject-dict
+
+# > 陈香贵点单<微信小程序> - CXG
+# ⚠️已合并至 https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/Applet/Wechat/#/通用类/rewrite/wechatAppletGeneral.conf
+
+# > 茶百道点餐<微信小程序> - CHABAIDAO
+^https?:\/\/cbd-gateway-service-applets\.hualala\.com\/arch\/api\/banner\/QueryBannerImgList url reject-dict
+
+# > 滴滴青桔<微信小程序> - DIDIQJ
+^https?:\/\/htwkop\.xiaojukeji\.com\/gateway\?api=cms\.htw\.delivery url reject-dict
+^https?:\/\/htwkop\.xiaojukeji\.com\/gateway\?api=hm\.fa\.(?>combineHomepageInfo|mallRecommend) url reject-dict
+^https?:\/\/htwkop\.xiaojukeji\.com\/gateway\?api=hm\.fa\.homeConfig url script-response-body https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/wechatApplet.js
+
+# > 多点<微信小程序> - DMALL
+^https?:\/\/flow\.dmall\.com\/app\/home\/pops url reject
+
+# > 滴滴出行<微信小程序> - DIDI
+^https?:\/\/capis(-\d)?\.didapinche\.com\/adbase url reject
+^https?:\/\/conf\.diditaxi\.com\.cn\/homepage\/v\d\/core url reject-dict
+
+# > 大润发优鲜<微信小程序> - DRFYX
+^https?:\/\/www-yxapp\.feiniu\.com\/home\/popupWindow url reject-dict
+^https?:\/\/search-yxapp\.feiniu\.com\/recommend\/general\/FreshRecBuyAgain url reject-dict
+^https?:\/\/search-yxapp\.feiniu\.com\/recommend\/memberIndexGoodsList url reject-dict
+^https?:\/\/membase-yxapp\.feiniu\.com\/misc\/memberIndex url response-body myADArray response-body myADArray0
+
+# > 滴滴代驾<微信小程序> - DIDIDJ
+^https?:\/\/as\.xiaojukeji\.com\/ep\/as\/conf\?ns=daijia-front&name= url reject-dict
+^https?:\/\/daijia\.kuaidadi\.com\/gateway\?api=prado\.cms\.delivery\.batch&apiVe url reject-dict
+
+# > 达达快送<微信小程序> - IMDADA
+^https?:\/\/supplier-api\.imdada\.cn\/fe\/public\/ad\/spot\?forwardServiceName=growth-activity url reject-dict
+
+# > 大众点评<微信小程序> - DIANPING
+^https?:\/\/m\.dianping\.com\/an\/gear\/dpmapp\/api\/readLionConfig\/config url reject-dict
+^https?:\/\/m\.dianping\.com\/mapi\/mgw\/growth\/queryhaima url reject-dict
+^https?:\/\/m\.dianping\.com\/wxmapi\/shop\/friendslike url reject-dict
+^https?:\/\/mapi\.dianping\.com\/mapi\/mgw\/growth\/clipboardquery url reject-dict
+
+# > 德邦快递<微信小程序> - DEPPON
+^https?:\/\/www\.deppon\.com\/gwapi\/memberService\/eco\/member\/grade\/commonInterface url reject-dict
+
+# > 全家微会员<微信小程序> - FM
+^https?:\/\/minifm\.maxxipoint\.com\/banner\/list url script-response-body https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/wechatApplet.js
+
+# > 星巴克<微信小程序> - STARBUCKS
+^https?:\/\/3pp\.starbucks\.com\.cn\/wxmem\/popup url reject-dict
+^https?:\/\/3pp\.starbucks\.com\.cn\/wxmem\/index\/(?>banner|global) url reject-dict
+
+# > 携程旅行<微信小程序> - CTRIP
+# ⚠️域名[m.ctrip.com]可能存在无法MITM，请在需要使用时关闭MITM
+^https?:\/\/m\.ctrip\.com\/restapi\/soa\d\/\d+\/(?>tripAds|queryWeChatHotEvent) url reject-dict
+
+# > 心车享<微信小程序> - EPICC
+^https?:\/\/smsp\.epicc\.com\.cn\/WAS\/(?>pop|float)Windows\/ url reject-dict
+
+# > 西贝<微信小程序> - XIBEI
+^https?:\/\/api\.xibei\.com\.cn\/ad\/api\/Advert\/getAdvertList url reject
+
+# > 享道出行<微信小程序> - XIANGDAO
+^https?:\/\/passengerapi\.saicmobility\.com\/(ad\/requestAd|pay\/v\d\/queryOpenedCouponPackages) url reject-dict
+
+# > 小兔充充<微信小程序> - XIAOTUCC
+^https?:\/\/ad\.xiaotucc\.com\/advert url reject
+^https?:\/\/mapi\.xiaotucc\.com\/(mall\/main|\w+\/main_page\/index\/getActivity) url script-response-body https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/wechatApplet.js
+
+# > EMS<微信小程序> - EMS
+^https?:\/\/\w+\.ems\.com\.cn\/mailAd$ url reject
+^https?:\/\/\w+\.ems\.com\.cn\/[A-Za-z-]+\/advert url reject
+^https?:\/\/\w+\.ems\.com\.cn\/[A-Za-z-]+\/adPlatform url reject-dict
+^https?:\/\/\w+\.ems\.com\.cn\/[A-Za-z-]+\/redis\/pageInfoByChannel url script-response-body https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/wechatApplet.js
+
+# > 饿了么<微信小程序> - ELEME
+^https?:\/\/waimai-guide\.ele\.me\/h5\/mtop\.alsc\.eleme\.homepage\.miniapp\.popup url reject-dict
+^https?:\/\/waimai-guide\.ele\.me\/h5\/mtop\.alsc\.eleme\.miniapp\.homepage url response-body wechat_miniapp_scene_card_template response-body zirawell
+
+# > ETC助手<微信小程序> - ETCZS
+^https?:\/\/gw\.etczs\.net\/api\/marketing\/marketing_plan\/release\/get url reject-dict
+
+# > ETCP<微信小程序> - ETCP
+^https?:\/\/ife\.etcp\.cn\/api\/v[0-9]\/advertisement url reject
+^https?:\/\/static\.etcp\.cn\/json\/advertisment url reject-dict
+
+# > 必胜客<微信小程序> - PIZZAHUT
+^https?:\/\/res\.pizzahut\.com\.cn\/CRM url reject-dict
+
+# > 贝壳找房<微信小程序> - KE
+^https?:\/\/wx(app)?\.api\.ke\.com\/pt\/pt-xcx\/boot\/ping url reject-dict
+^https?:\/\/wx(app)?\.api\.ke\.com\/pt\/platform\/platform\/shellxcx\/homepage\/popup url reject-dict
+^https?:\/\/wx(app)?\.api\.ke\.com\/pt\/pt-xcx-php\/index\/v\d\/home url jsonjq-response-body '.data.modules |= map(select(.type != "popup" and .type != "icon"))'
+
+# > 百度网盘<微信小程序> - BAIDUPAN
+^https?:\/\/pan\.baidu\.com\/buy\/ad\/ url reject-200
+
+# > 百果园<微信小程序> - PAGODA
+^https?:\/\/dsxcx\.tencent-prod\.pagoda\.com\.cn\/exc\/wxapp\/homePage\/v\d\/get(?>HomeLaunchDialog|Floating) url reject-dict
+^https?:\/\/eshop-api-wx-mini\.eshop\.tencent-prod\.pagoda\.com\.cn\/api\/v\d\/memberPage\/launchDialog url reject-dict
+
+# > 便利蜂<微信小程序> - BLIBEE
+^https?:\/\/api\.blibee\.com\/cvsnotify-api\/cvs\/notify\/app\/banner\/v\d+$ url reject-200
+
+# > 霸王茶姬<微信小程序> - CHAGEE
+# ⚠️已合并至 https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/Applet/Wechat/#/通用类/rewrite/wechatAppletGeneral.conf
+
+# > 宝龙悠悠<微信小程序> - POWERLONG
+^https?:\/\/proservice\.powerlong\.com\/advertising url reject-dict
+
+# > 肯德基+<微信小程序> - KFC
+^https?:\/\/dynamicad\.kfc\.com\.cn\/api url reject-dict
+^https?:\/\/res\.kfc\.com\.cn\/CRM\/kfcad\/custom_v\d\/wxapp url reject-dict
+
+# > 快狗打车搬家<微信小程序> - KUAIGOU
+^https?:\/\/suyun-guest\.daojia\.com\/api\/kuaigou\/banjia\/review url reject-dict
+
+# > 考试宝<微信小程序> - YISOUTI
+^https?:\/\/api\.yisouti\.com\/popupAd url response-body data response-body zirawell
+
+# > 库迪咖啡<微信小程序> - COTTI
+^https?:\/\/gateway\.cotticoffee\.com\/cotti-capi\/customer\/position\/list$ url script-request-body https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/cotti.js
+^https?:\/\/gateway\.cotticoffee\.com\/cotti-capi\/customer\/position\/adSortList url reject-dict
+^https?:\/\/gateway\.cotticoffee\.com\/cotti-capi\/person\/homeLoginPrompt url reject
+
+# > 来电<微信小程序> - LAIDIAN
+^https?:\/\/mobile-api\.imlaidian\.com\/api\/args url reject-dict
+
+# > 猎聘招聘<微信小程序> - LIEPIN
+^https?:\/\/api-wanda\.liepin\.com\/api\/com\.liepin\.cbp\.baizhong\.op\.v\d-show-4pc url response-body adList response-body random_body
+
+# > LINLEE林里柠檬茶<微信小程序> - LINLEE
+# ⚠️已合并至 https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/Applet/Wechat/#/通用类/rewrite/wechatAppletGeneral.conf
+
+# > 罗森点点<微信小程序> - LAWSON
+^https?:\/\/plt\.yorentown\.com\/pltapp\/v\d\/banner url reject-dict
+^https?:\/\/lawsonapi\.yorentown\.com\/app\/v\d\/globalLaunch\/listAdvert url reject-dict
+^https?:\/\/lawsonapi\.yorentown\.com\/area\/sh-lawson\/app\/v\d url script-response-body https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/wechatApplet.js
+
+# > 莱充充电 - LAICHON
+^https?:\/\/(mobile|shop)\.laichon\.com\/api\/(v\d\/goods\/goodsList|exposureAdvStatistics|getWebAdvList) url reject
+
+# > 蓝波智能（智慧停车）<微信公众号> - LANBO
+^https?:\/\/wx\.ymiot\.net\/Static\/\w+\/advert url reject-200
+
+# > 老乡鸡<微信小程序> - LXJ
+^https?:\/\/member\.lxjchina\.com\.cn\/mini-server\/home\/page\/banner url reject-dict
+
+# > 老碗会点单<微信小程序> - LWH
+^https?:\/\/wx\.youhaosoft\.com\/prom\/Ad url reject
+
+# > 羊城通<微信小程序> - YCT
+^https?:\/\/r2\.gzyct\.com\/qrcode\/advert url reject-dict
+
+# > 圆通速递<微信小程序> - YTO
+^https?:\/\/mec\.yto\.net\.cn\/api\/market\/queryActivityPromotion url reject-dict
+^https?:\/\/mec\.yto\.net\.cn\/api\/officalWeb\/content\/query url reject-dict
+
+# > 云快充<微信小程序> - YKC
+^https?:\/\/web-stable-cdn\.ykccn\.com\/sp-img-2023\/common\/weCom-open url reject-img
+^https?:\/\/gw3\.ykccn\.com\/api\/omp\/mt\/appAdvertising\/ url reject-dict
+^https?:\/\/gw3\.ykccn\.com\/activityServer\/app\/commandAd url reject
+^https?:\/\/gw3\.ykccn\.com\/api\/omp\/mt\/charge\/activity\/package\/newest url reject-dict
+
+# > 韵达快递<微信小程序> - YUNDA
+^https?:\/\/ydmbpic\.yundasys\.com\/opserver\/statics\/uniAppImage\/selfCenter\/rightsPop url reject-dict
+^https?:\/\/mbpxapi\.yundasys\.com(:\d+)?\/gateway\/interface url script-request-body https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/yunda.js
+
+# > 印享星<微信小程序> - YXX
+^https?:\/\/crm\.scpgroup\.com\.cn\/yinli-minapp\/api\/v\d\/ads url reject-dict
+
+# > 有赞<微信小程序> - YOUZAN
+^https?:\/\/\w+\.youzan\.com\/wscshop\/shopad url reject-dict
+
+# > 永辉生活<微信小程序> - YONGHUI
+^https?:\/\/api\.yonghuivip\.com\/api\/fp\/homepage\/pop url reject
+^https?:\/\/activity\.yonghuivip\.com\/api\/app\/fp\/homepage\/pop url reject
+^https?:\/\/activity\.yonghuivip\.com\/api\/\/web\/shensuan\/ad url reject
+^https?:\/\/sauron-report\.yonghuivip\.com\/collect url reject
+
+# > 一点点<微信小程序> - YDD
+^https?:\/\/cappapi\.alittle-tea\.com\/open\?method=catering\.set\.ad\.initial url reject-dict
+^https?:\/\/alittle-tea\.oss-cn-shanghai\.aliyuncs\.com\/images\/platform\/alittle url reject-dict
+
+# > 易捷加油<微信小程序> - EJOY
+^https?:\/\/a\.sinopecsales\.com\/app\/cms url reject-dict
+^https?:\/\/ocrifs\.ejoy\.sinopec\.com\/advertitfs\/advert\/findAdvertInfo url reject-200
+^https?:\/\/egw\.ejoy\.sinopec\.com\/api\/interface\/queryEffectiveBulletin url reject-dict
+
+# > 万达电影<微信小程序> - WANDAFILM
+^https?:\/\/misc-api-prd-mx\.wandafilm\.com\/commend\/common_banner_batch\.api\?bannerInfos=%5B%7B%22cinemaI url response-body "WX_index_mp-&-boxAD" response-body "WX_index_mp-&-boxAD0"
+
+# > 物微联<微信公众号> - WWL
+^https?:\/\/new\.wwldz\.com\/wechat\/ad\/ url reject-dict
+
+# > 万达广场<微信小程序> - WANDA
+^https?:\/\/api\.wandacm\.com\.cn\/wdmp\/common\/v\d\/xmt\/nsettingInfo url response-body popConfig response-body random_body
+
+# > 味全商城<微信小程序> - WEIQUAN
+^https?:\/\/consumer-api\.quncrm\.com\/v\d\/ec\/(splashWeappPage|marketing\/visibleEnterStoreWelfares) url reject-dict
+
+# > 沃尔玛<微信小程序> - WALMART
+^https?:\/\/mapi\.ghsmpwalmart\.com\/api\d\/ec\/navigation\/page\/getPageActivityTab url reject-dict
+^https?:\/\/mapi\.ghsmpwalmart\.com\/api\d\/ec\/navigation\/spread\/querySpreadList url reject-dict
+^https?:\/\/mapi\.ghsmpwalmart\.com\/api\d\/ec\/navigation\/user\/getAdvertisementPlayModuleInfo url reject-dict
+^https?:\/\/mapi\.ghsmpwalmart\.com\/api\d\/ec\/user\/couponPackage\/couponPackageAccess url reject-dict
+
+# > 问卷星<微信小程序> - WJX
+^https?:\/\/image\.wjx\.cn\/joinnew\/js\/joinawardactivitymobo url reject-dict
+^https?:\/\/kaoshi\.wjx\.top\/wjx\/join\/completemobile url script-response-body https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/wjx.js
+
+# > 微快递<微信小程序> - WEIKUAIDI
+^https?:\/\/api\.kuaidihelp\.com\/g_order_core\/v\d\/mina\/User\/getBannerList url reject-dict
+
+
+hostname = api.mcd.cn, dock.tenchii.com, s.jiediankeji.com, www.deppon.com, gw-passenger-wap.01zhuanche.com, wx.youhaosoft.com, minipro.95504.net, api.wandacm.com.cn, fscdn.zto.com, gugongmini.dpm.org.cn, passenger.t3go.cn, wechat-api-dj.mstand.cn, capis*.didapinche.com, api.yisouti.com, image.wjx.cn, app.homeinns.com, cn-acs.m.cainiao.com, xyk.cmbchina.com, flow.dmall.com, plt.yorentown.com, new.wwldz.com, api-marketing.zhinengxiyifang.cn, ucmp.sf-express.com, pan.baidu.com, aag.enmonster.com, mbpxapi.yundasys.com, wechat.tf.cn, kaoshi.wjx.top, api.maoyan.com, as.xiaojukeji.com, mapi.xiaotucc.com, mp.weixin.qq.com, miniapp.qmai.cn, tm-api.pin-dao.cn, sto-customer-app.oss-cn-shanghai.aliyuncs.com, api.songguo7.com, rms.meituan.com, chl.tf.cn, service.haiersmarthomes.com, qapi.huolala.cn, api.m.jd.com, www.bahecloud.com, miniprogram.ishansong.com, api.yonghuivip.com, membase-yxapp.feiniu.com, res.kfc.com.cn, ydmbpic.yundasys.com, capi.lkcoffee.com, dsxcx.tencent-prod.pagoda.com.cn, web-stable-cdn.ykccn.com, api.hengdianfilm.com, opss.qiye.ccbhome.cn, wx.mygolbs.com, interface.mcake.com, supplier-api.imdada.cn, proservice.powerlong.com, lawsonapi.yorentown.com, minifm.maxxipoint.com, m.ctrip.com, mcsp.cloudpnr.com, misc-api-prd-mx.wandafilm.com, cdb.meituan.com, wx.api.ke.com, egw.ejoy.sinopec.com, api-wanda.liepin.com, tf*.istrongcloud.com, vod-movie.maoyan.com, www-yxapp.feiniu.com, r2.gzyct.com, htwkop.xiaojukeji.com, search-yxapp.feiniu.com, minicap.caocaokeji.cn, dynamicad.kfc.com.cn, api-fouth-mem.huazhu.com, apiproxy.zuche.com, daijia.kuaidadi.com, m.dianping.com, ump.ems.com.cn, gateway.cotticoffee.com, mxsa.mxbc.net, api.xibei.com.cn, mobile.laichon.com, wxproj.seeyouyima.com, *.youzan.com, res.pizzahut.com.cn, ec.ems.com.cn, ccmsupport-sz.tenpay.com, cbd-gateway-service-applets.hualala.com, api.kuaidihelp.com, www.msccruises.com.cn, alittle-tea.oss-cn-shanghai.aliyuncs.com, waimai-guide.ele.me, wxapp.bestwehotel.com, mobile-api.imlaidian.com, app.zhuanzhuan.com, peppermall.meituan.com, m.mallcoo.cn, weclub.ccc.cmbchina.com, suyun-user.daojia.com, m.sh.189.cn, api.hellobike.com, wxs-weixin.sd.zhumanggroup.com, eshop-api-wx-mini.eshop.tencent-prod.pagoda.com.cn, shop.laichon.com, shopic.sf-express.com, lop-proxy.jd.com, appuser-static.huolala.cn, ocrifs.ejoy.sinopec.com, e.weather.com.cn, conf.diditaxi.com.cn, npay.meituan.com, acs.m.shyhhema.com, creditcardapp.bankcomm.com, wxapp.api.ke.com, wx.17u.cn, ife.etcp.cn, gw3.ykccn.com, smsp.epicc.com.cn, mec.yto.net.cn, mapi.dianping.com, saas-ad.cloudpnr.com, crm.scpgroup.com.cn, apis.folidaymall.com, applets.jtexpress.com.cn, wcmp.189.cn, web.meituan.com, miniapp.sexytea2013.com, member.lxjchina.com.cn, static.etcp.cn, gw.etczs.net, wx.ymiot.net, sauron-report.yonghuivip.com, apis.alenable.com, webchatapp.fcbox.com, coco-com.e.verystar.net, clubmed.bd.clubmedmnp.com, ad.xiaotucc.com, api.blibee.com, newton.gumingnc.com, *.sh.wxgateway.com, customer-app.sto.cn, mapi.ghsmpwalmart.com, activity.yonghuivip.com, cappapi.alittle-tea.com, a.sinopecsales.com, webapi.qmai.cn, wxapi.csair.com, hdgateway.zto.com, wx.bthhotels.com, res.hongyibo.com.cn, passengerapi.saicmobility.com, 3pp.starbucks.com.cn, consumer-api.quncrm.com, wx.maoyan.com, triangle.wearemanner.com, sg.teld.cn

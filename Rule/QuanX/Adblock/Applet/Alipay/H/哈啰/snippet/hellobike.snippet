@@ -1,0 +1,16 @@
+# > 哈啰<支付宝小程序> - HELLOBIKE
+host, abapi.hellobike.com, reject
+host, ip.hellobike.com, reject
+host, cdn.hellobike.com, reject
+host, apmgw.hellobike.com, reject
+
+
+^https?:\/\/api\.hellobike\.com\/api\?msg\.toast\.user url reject
+^https?:\/\/api\.hellobike\.com\/api\?homepage\.recommend\.popUp url reject
+^https?:\/\/api\.hellobike\.com\/api\?homepage\.newWelfare\.alipay url reject-dict
+^https?:\/\/api\.hellobike\.com\/api\?homepage\.module\.newAlipay url reject
+^https?:\/\/api\.hellobike\.com\/api\?homepage\.shortcut\.scene\.perception url reject
+^https?:\/\/api\.hellobike\.com\/api\?applet\.homepage\.medal\.activity url reject-dict
+^https?:\/\/api\.hellobike\.com\/api\?bottom\.aggregation\.tab\.info url reject
+
+hostname = api.hellobike.com

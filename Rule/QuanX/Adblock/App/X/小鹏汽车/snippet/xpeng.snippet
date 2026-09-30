@@ -1,0 +1,11 @@
+# > 小鹏汽车 - XPENG
+host, applog-perf.uc.cn, reject
+host, woodpecker.uc.cn, reject
+host, collect.xiaopeng.com, reject
+host, httpdns.yunxindns.com, reject
+host, apps-booster.xiaopeng.com, reject
+
+
+^https?:\/\/ext-svc\.xiaopeng\.com\/api\/log\/open\/get\/image url reject-dict
+
+hostname = ext-svc.xiaopeng.com

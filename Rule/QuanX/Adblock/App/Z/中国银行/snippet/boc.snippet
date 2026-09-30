@@ -1,0 +1,11 @@
+# > 中国银行 - BOC
+host, iisp-oidea.mbs.boc.cn, reject
+host, iisp.mbs.boc.cn, reject
+
+
+^https?:\/\/mbs\.boc\.cn\/ubas-mgateway-static\/images\/theme\/ url reject-200
+^https?:\/\/mbs\.boc\.cn\/ubas-mgateway-static\/images\/advertType\/.+.jpg url reject-200
+^https?:\/\/cdn1\.mbs\.boc\.cn\/ubas-mgateway-static\/images\/theme\/ url reject-200
+^https?:\/\/cdn1\.mbs\.boc\.cn\/ubas-mgateway-static\/images\/advertType\/\.+\.jpg url reject-200
+
+hostname = mbs.boc.cn, cdn1.mbs.boc.cn

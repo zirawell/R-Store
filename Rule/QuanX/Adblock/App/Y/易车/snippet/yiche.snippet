@@ -1,0 +1,9 @@
+# > 易车 - YICHE
+host, adx.yiche.com, reject
+host, log.ycapp.yiche.com, reject
+
+
+^https?:\/\/api\.ycapp\.yiche\.com\/\w+\/getadlist url reject-img
+^https?:\/\/cheyouapi\.ycapp\.yiche\.com\/appforum\/getusermessagecount url reject-img
+
+hostname = api.ycapp.yiche.com, cheyouapi.ycapp.yiche.com

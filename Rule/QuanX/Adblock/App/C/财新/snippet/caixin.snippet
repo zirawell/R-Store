@@ -1,0 +1,14 @@
+# > 财新 - CAIXIN
+host, gg.caixin.com, reject
+host, dolphin.caixin.com, reject
+host-suffix, apollo.caixin.com, reject
+host-suffix, logstat.caixin.com, reject
+host-suffix, promote.caixin.com, reject
+
+
+^https?:\/\/www\.caixin\.com\/ai\/question url reject-dict
+^https?:\/\/cxdata\.caixin\.com\/api\/dataplus\/stkData\/list url reject-dict
+^https?:\/\/entities\.caixin\.com\/api\/public\/push\/appIndex\?target=index url reject-dict
+^https?:\/\/gateway\.caixin\.com\/api\/app-api\/(?>search\/getkeyword|caixinminiapp\/appinfo|articlesHotRecommend\/getHotRecommendArticles) url reject-dict
+
+hostname = www.caixin.com, cxdata.caixin.com, entities.caixin.com, gateway.caixin.com

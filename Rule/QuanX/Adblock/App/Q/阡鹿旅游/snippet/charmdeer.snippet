@@ -1,0 +1,7 @@
+# > 阡鹿旅游 - CHARMDEER
+# 开屏广告
+^https?:\/\/api\.charmdeer\.com\/services\/render\/app\/lux\/util\/entries url jsonjq-response-body '.results[] |= map(select(.extendedProp.skippable != true))'
+# 首页底部瀑布流
+^https?:\/\/api\.charmdeer\.com\/services\/render\/app\/lux\/feed\/home url jsonjq-response-body '.list = []'
+
+hostname = api.charmdeer.com

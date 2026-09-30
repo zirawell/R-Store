@@ -1,0 +1,10 @@
+# > 中国农业银行 - ABCHINA
+host, imc.abchina.com.cn, reject
+host, msmp.abchina.com.cn, reject
+host, firefly.abchina.com.cn, reject
+
+
+^https?:\/\/mall\.abchina\.com\.cn\/pips\/EbizccmClientServer\/PIPSPopupAdvertisement url reject-dict
+^https?:\/\/mobilepaas\.abchina\.com\.cn(:\d+)?\/mgw\.htm$ url script-response-header https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/mgw.js
+
+hostname = mall.abchina.com.cn, mobilepaas.abchina.com.cn
