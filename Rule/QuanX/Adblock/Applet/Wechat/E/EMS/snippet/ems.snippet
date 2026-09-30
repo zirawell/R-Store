@@ -1,0 +1,7 @@
+# > EMS<微信小程序> - EMS
+^https?:\/\/\w+\.ems\.com\.cn\/mailAd$ url reject
+^https?:\/\/\w+\.ems\.com\.cn\/[A-Za-z-]+\/advert url reject
+^https?:\/\/\w+\.ems\.com\.cn\/[A-Za-z-]+\/adPlatform url reject-dict
+^https?:\/\/\w+\.ems\.com\.cn\/[A-Za-z-]+\/redis\/pageInfoByChannel url script-response-body https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/wechatApplet.js
+
+hostname = ec.ems.com.cn, ump.ems.com.cn

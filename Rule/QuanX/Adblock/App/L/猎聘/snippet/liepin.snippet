@@ -1,0 +1,10 @@
+# > 猎聘 - LIEPIN
+host, apmplus.volces.com, reject
+
+
+^https?:\/\/api-c\.liepin\.com\/api\/com\.liepin\.pupa\.discover\.city\.get-ad-comps url reject-dict
+^https?:\/\/api-ac\.liepin\.com\/api\/com\.liepin\.cyclops\.live\.get-ad-cards url reject-dict
+^https?:\/\/api-ac\.liepin\.com\/api\/com\.liepin\.pupa\.discover\.click-tab url reject-dict
+^https?:\/\/api-wanda\.liepin\.com\/api\/com\.liepin\.cbp\.baizhong\.op\.v\d-show-4app url reject-200
+
+hostname = api-c.liepin.com, api-ac.liepin.com, api-wanda.liepin.com

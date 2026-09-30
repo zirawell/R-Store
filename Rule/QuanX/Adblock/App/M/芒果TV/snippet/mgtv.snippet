@@ -1,0 +1,48 @@
+# > 芒果TV - MGTV
+host, credits.bz.mgtv.com, reject
+host, credits2.bz.mgtv.com, reject
+host, credits3.bz.mgtv.com, reject
+host, dflow.bz.mgtv.com, reject
+host, encounter.bz.mgtv.com, reject
+host, floor.bz.mgtv.com, reject
+host, layer.bz.mgtv.com, reject
+host, vip.bz.mgtv.com, reject
+host, mob.bz.mgtv.com, reject
+host, rc-topic-api.bz.mgtv.com, reject
+host, rprain.bz.mgtv.com, reject
+host, rc-topic-api.bz.mgtv.com, reject
+host-suffix, imgaliyun.res.mgtv.com, reject
+host-suffix, pcvideoaliyun.titan.mgtv.com, reject
+host-suffix, mobaliyun.res.mgtv.com, reject
+host-suffix, pcvideoyd.titan.mgtv.com, reject
+host-suffix, pcweb.v1.mgtv.com, reject
+host-suffix, cmop.mgtv.com, reject
+host-suffix, da.mgtv.com, reject
+host-suffix, log.mgtv.com, reject
+
+
+# 无用请求
+^https?:\/\/[\d\.]+:\d{5}\/\?cmd=indexes url reject
+# 首页左上角推广
+^https?:\/\/[\d\.]+\/odin\/c\d\/(channel\/ads|skin\/config)\? url reject-dict
+# 底部tab红点
+^https?:\/\/damang\.api\.mgtv\.com\/station\/album\/red\/dot\? url reject-dict
+# 播放器界面
+^https?:\/\/hb-boom\.api\.mgtv\.com\/release\/pullReleaseInfo url reject-dict
+# 我的页面
+^https?:\/\/me\.bz\.mgtv\.com\/v\d\/module\/list\? url script-response-body https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/cntv.js
+# 首页信息流,顶部tab
+^https?:\/\/mob-st\.bz\.mgtv\.com\/odin\/c\d\/channel\/index\? url script-response-body https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/cntv.js
+^https?:\/\/dc2?\.bz\.mgtv\.com\/dynamic\/v\d\/channel\/(index|vrsList)\/\w url script-response-body https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/cntv.js
+# 底部tab
+^https?:\/\/mobile\.api\.mgtv\.com\/mobile\/config\? url script-response-body https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/cntv.js
+# 升级弹窗
+^https?:\/\/mobile\.api\.mgtv\.com\/v\d\/mobile\/checkUpdate\? url reject-dict
+# 播放详情页
+^https?:\/\/mobile\.api\.mgtv\.com\/v\d+\/video\/info\? url script-response-body https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/cntv.js
+^https?:\/\/mobile-thor\.api\.mgtv\.com\/v\d\/vod\/info\? url script-response-body https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/cntv.js
+# 搜索框填充词
+^https?:\/\/mobileso\.bz\.mgtv\.com\/spotlight\/search\/v\d\? url reject-dict
+^https?:\/\/mobileso\.bz\.mgtv\.com\/mobile\/recommend\/v\d\? url script-response-body https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/cntv.js
+
+hostname = *.mgtv.com

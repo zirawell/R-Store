@@ -1,0 +1,38 @@
+# > 美团 - MEITUAN
+ip-cidr, 103.37.155.60/32, reject
+host, flowplus.meituan.net, reject
+host, hlx.meituan.com, reject
+host, layout.meituan.net, reject
+host, httpdnsmultiapi.meituan.com, reject
+host, httpdnsmultiapivip.meituan.com, reject
+host-suffix, httpdns.meituan.com, reject
+host-suffix, meituan.xn, reject
+host-suffix, meituan.yoga, reject
+host-suffix, meituangov.cn, reject
+host-suffix, wmlog.meituan.com, reject
+host-suffix, ad.e.waimai.sankuai.com, reject
+host-suffix, mads.meituan.com, reject
+host-suffix, d.meituan.net, reject
+host-keyword, report.meituan, reject
+host-keyword, dnspod.meituan.httpdns, reject
+
+
+^https?:\/\/apimobile\.meituan\.com\/appupdate url reject
+^https?:\/\/apimobile\.meituan\.com\/group\/v\d\/recommend\/unity\/recommends url reject
+^https?:\/\/img\.meituan\.net\/(adunion|display|midas)\/.+\.(gif|jpg)\.webp$ url reject-img
+^https?:\/\/img\.meituan\.net\/groceryimages\/\w+\.gif url reject-img
+^https?:\/\/img\.meituan\.net\/groceryimages\/\w+\.png@220w_220h_1e_1l url reject-img
+^https?:\/\/p\d\.meituan\.net\/movie\/.+?\.jpg\?may_covertWebp url reject-img
+^https?:\/\/p\d\.meituan\.net\/travelcube\/(?!1d4a663|52e9bfc|29a6227|412c4ac|6ee35c4|13bf0bf|ab8692e|6858b1d).+@100w_100h url reject-img
+^https?:\/\/p\d\.meituan\.net\/linglong\/ url script-response-body https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/meituan.js
+^https?:\/\/p\d\.meituan\.net\/(\d+\.\d+\.\d+\/)?wmbanner\/(?!fb51b9d|4e9d3c4).+\.gif url reject-img
+^https?:\/\/p\d\.meituan\.net\/(display|mmc)\/ url reject
+^https?:\/\/www\.meituan\.com\/api\/v\d\/appstatus\? url reject
+^https?:\/\/(s3plus|flowplus)\.meituan\.net\/v\d\/\w+\/linglong\/.+\.(?>gif|jpg|mp4) url reject-img
+^https?:\/\/s3plus\.meituan\.net\/v\d\/mss_\w+\/waimai-alita\/\w+\.zip$ url reject
+^https?:\/\/s3plus\.meituan\.net\/v\d\/mss_\w+\/brandcpt url reject
+^https?:\/\/w\.meituan\.net\/v\d\/mss_\w+\/waimai-mach\/\d+\/\d+\/pt-im-(?>guider|coupon-card-stateful) url reject
+^https?:\/\/portal-portm\.meituan\.com\/horn_ios url reject-dict
+^https?:\/\/sqt\.meituan\.com\/s\/gateway\/mweb\/api\/marketingResource\/show url reject
+
+hostname = apimobile.meituan.com, img.meituan.net, p*.meituan.net, www.meituan.com, s3plus.meituan.net, w.meituan.net, flowplus.meituan.net, portal-portm.meituan.com, sqt.meituan.com

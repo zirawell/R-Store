@@ -1,0 +1,8 @@
+# > 盯盯拍 - DDPAI
+host, api.htp.ad-scope.com.cn, reject
+host, init.sms.mob.com, reject
+
+
+^https?:\/\/app(\w+)?\.ddpai\.com(:\d+)?\/onroad\/api\/v\d\/(?>ad|banner|news)\/list url reject-dict
+
+hostname = app*.ddpai.com

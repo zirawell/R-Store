@@ -1,0 +1,22 @@
+# > 携程旅行 - CTRIP
+host, sofire.baidu.com, reject
+host-suffix, cn-shanghai.nlb.aliyuncs.com, reject
+host-suffix, volceapplog.com, reject
+ip-cidr, 210.13.85.204/32, reject
+ip-cidr, 114.80.56.98/32, reject
+ip-cidr, 162.14.145.54/32, reject
+ip-cidr, 162.14.137.43/32, reject
+
+
+# ⚠️域名[m.ctrip.com]可能存在无法MITM，请在需要使用时关闭MITM
+^https?:\/\/m\.ctrip\.com\/restapi\/.*\/getTimeZoneServerIpList url reject
+^https?:\/\/m\.ctrip\.com\/restapi\/.*\/tripAds url reject
+^https?:\/\/m\.ctrip\.com\/restapi\/.*\/getAdsList url reject
+^https?:\/\/m\.ctrip\.com\/restapi\/.*\/getAppConfig url reject
+^https?:\/\/m\.ctrip\.com\/restapi\/.*\/incrQueryTrans url reject
+^https?:\/\/m\.ctrip\.com\/restapi\/.*\/getDiscardUbts url reject
+^https?:\/\/m\.ctrip\.com\/html5\/webresource\/js\/iscroll\.js$ url reject
+^https?:\/\/ma-adx\.ctrip\.com\/_ma\.gif url reject
+^https?:\/\/mbd\.baidu\.com\/newspage\/api\/getmobads\?page\=landingshare url reject
+
+hostname = ma-adx.ctrip.com, mbd.baidu.com

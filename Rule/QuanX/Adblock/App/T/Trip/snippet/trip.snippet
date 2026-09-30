@@ -1,0 +1,21 @@
+# > trip - TRIP
+host, firebaseinstallations.googleapis.com, reject
+host, ocsp.pki.goog, reject
+host, cpush.trip.com, reject
+host, tcpgateway-sgp-trip.trip.com, reject
+host, ak-d.tripcdn.com, reject
+host, easytomessage.com, reject
+ip-cidr, 162.14.145.13/32, reject
+ip-cidr, 162.14.137.26/32, reject
+ip-cidr, 103.143.160.209/32, reject
+ip-cidr, 210.13.85.204/32, reject
+host-suffix, graph.facebook.com, reject
+host-keyword, app.adjust, reject
+
+
+^https?:\/\/pages\.trip\.com\/js\/market url reject
+^https?:\/\/download\.trip\.com\/html5 url reject
+^https?:\/\/m\.trip\.com\/quic url reject
+^https?:\/\/m\.trip\.com\/restapi\/.*\/(queryAdsDisplayData|queryBadge|isPopUp|(?>G|g)etAppConfig|getRecommendResource|appWelcomeImage|uploadConfigContent|appData|appAttributionLog|heartBeat|GetUserUpgradeNoticeInfo|incrQueryTrans|getTopPic|getABTestData) url reject
+
+hostname = pages.trip.com, download.trip.com, m.trip.com

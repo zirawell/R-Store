@@ -1,0 +1,9 @@
+# > 领英 - LINKEDIN
+host-suffix, ads.linkedin.com, reject
+
+
+# 屏蔽更新
+^https?:\/\/www\.linkedin\.com\/voyager\/api\/voyagerConfiguration url reject
+^https?:\/\/www\.linkedin\.com\/voyager\/api\/graphql\?queryId=voyagerAdstracking url reject-dict
+
+hostname = www.linkedin.com

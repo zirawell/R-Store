@@ -1,0 +1,9 @@
+# > 数字人民币 - ECNY
+ip-cidr, 1.202.85.193/32, reject
+host, mdc.wallet.pbcdci.cn, reject
+host, mdap.wallet.pbcdci.cn, reject
+
+
+^https?:\/\/mgs\.wallet\.pbcdci\.cn(:\d+)?\/mgw\.htm$ url script-response-body https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/mgw.js
+
+hostname = mgs.wallet.pbcdci.cn

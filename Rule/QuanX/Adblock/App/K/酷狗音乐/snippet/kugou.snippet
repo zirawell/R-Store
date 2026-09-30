@@ -1,0 +1,63 @@
+# > 酷狗音乐 - KUGOU
+host, ads.service.kugou.com, reject
+host, adserviceretry.kugou.com, reject
+host, adserviceretry.kglink.cn, reject
+host, adservice.kugou.com, reject
+host, splashimgbssdl.yun.kugou.com, reject
+host, serveraddr.service.kugou.com, reject
+host, log.web.kugou.com, reject
+host, mobilelog.kugou.com, reject
+host-suffix, adsfile.bssdlbig.kugou.com, reject
+host-suffix, adsfilebssdlbig.ali.kugou.com, reject
+host-suffix, kgstaticdlbssdlbig.tx.kugou.com, reject
+host-suffix, rtmretry.kugou.com, reject
+host-suffix, rtmonitor.kugou.com, reject
+host-suffix, rt-m.kugou.com, reject
+host-suffix, channel.fanxing.kugou.com, reject
+host-suffix, d.kugou.com, reject
+host-suffix, downmobile.kugou.com, reject
+host-suffix, gad.kugou.com, reject
+host-suffix, game.kugou.com, reject
+host-suffix, gamebox.kugou.com, reject
+host-suffix, gcapi.sy.kugou.com, reject
+host-suffix, gg.kugou.com, reject
+host-suffix, install.kugou.com, reject
+host-suffix, install2.kugou.com, reject
+host-suffix, minidcsc.kugou.com, reject
+host-suffix, mo.kugou.com, reject
+host-suffix, msg.mobile.kugou.com, reject
+host-suffix, mvads.kugou.com, reject
+host-suffix, p.kugou.com, reject
+host-suffix, push.mobile.kugou.com, reject
+host-suffix, sdn.kugou.com, reject
+host-suffix, song.fanxing.kugou.com, reject
+host-suffix, update.mobile.kugou.com, reject
+host-suffix, youxi.kugou.com, reject
+host-keyword, stat.kugou.com, reject
+host-keyword, statbak.kugou.com, reject
+host-keyword, tracker.kugou.com, reject
+host-keyword, searchrecommend.kugou.com, reject
+host-keyword, nbcollectretry.kugou.com, reject
+host-keyword, nbcollect.kugou.com, reject
+host-keyword, c1img.ali.kugou.com, reject
+host-keyword, logwebs.kugou.com, reject
+host-keyword, trackercdnbj.kugou.com, reject
+
+
+^https?:\/\/fx\.service\.kugou\.com\/mfx-kugoulive\/ad\/ url reject-dict
+^https?:\/\/gateway(retry)?\.kugou\.com\/adp\/ad\/ url reject-dict
+^https?:\/\/gateway(retry)?\.kugou\.com\/ads\.gateway\/ url reject-dict
+^https?:\/\/gateway(retry)?\.kugou\.com\/v\d\/feeds\/follow_feed_fallback url reject-dict
+^https?:\/\/gateway(retry)?\.kugou\.com\/mstc\/musicsymbol\/v\d\/system\/profile url reject-dict
+^https?:\/\/gateway(retry)?\.kugou\.com\/searchnofocus\/v\d\/search_no_focus_word url reject-dict
+^https?:\/\/gateway(retry)?\.kugou\.com\/adp\/bubble\/v\d\/song_play url reject-dict
+^https?:\/\/gateway(retry)?\.kugou\.com\/singerdiscuss\/v\d\/entrance\/comment url reject-dict
+^https?:\/\/gateway(retry)?\.kugou\.com\/r\/v\d\/general\/putin\/midad url reject-dict
+^https?:\/\/gateway(retry)?\.kugou\.com\/ocean\/v\d\/sound\/banner url reject-dict
+^https?:\/\/gzacshow\.kugou\.com\/mfanxing-home\/cdn\/room\/index\/list_v url reject-dict
+^https?:\/\/gzacshow\.kugou\.com\/mfx-rt-show\/cdn\/mo\/show\/headline url reject-dict
+^https?:\/\/m1fxgroup\.kugou\.com\/fxsing\/yqc\/alongInfo\/getUserAlongInfo url reject-dict
+^https?:\/\/hwstore\.kugou\.com\/v\d\/get_store_data url reject-dict
+^https?:\/\/ep\.kugou\.com\/v\d\/album_shop\/get_entrance_info url reject-dict
+
+hostname = fx.service.kugou.com, gateway.kugou.com, gatewayretry.kugou.com, gzacshow.kugou.com, m1fxgroup.kugou.com, hwstore.kugou.com, ep.kugou.com

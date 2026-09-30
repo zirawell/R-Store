@@ -1,0 +1,6 @@
+# > 途家民宿 - TUJIA
+^https?:\/\/client\.tujia\.com\/bnbapp-node url reject-dict
+^https?:\/\/client\.tujia\.com\/bnbapp-node\/app\/portal\/getportalconfig\/bnb\/v\d url response-body "banners":\[.+\], response-body "banners":[],
+^https?:\/\/client\.tujia\.com\/bnbapp-node\/app\/(promotion\/popup\/getpopupups\/bnb|portal\/getStartPictureAdvertising) url reject
+
+hostname = client.tujia.com
