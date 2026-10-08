@@ -1,8 +1,5 @@
 # T
-<details>
-<summary>
 本目录共收录6个小程序，详情见如下，单击导入对应配置：
-</summary>
 
  自动导入功能依赖 [【神机模块】](https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/Surge/Redirect/DivineEngine.sgmodule)
 - [T3出行](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApplet%2FWechat%2FT%2FT3%E5%87%BA%E8%A1%8C%2Ft3go.sgmodule)
@@ -12,4 +9,3 @@
 - [腾讯乘车码](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApplet%2FWechat%2FT%2F%E8%85%BE%E8%AE%AF%E4%B9%98%E8%BD%A6%E7%A0%81%2Ftenpay.sgmodule)
 - [途虎养车](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApplet%2FWechat%2FT%2F%E9%80%94%E8%99%8E%E5%85%BB%E8%BD%A6%2Ftuhu.sgmodule)
 
-</details>

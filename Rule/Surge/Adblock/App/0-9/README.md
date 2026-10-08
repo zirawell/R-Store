@@ -1,8 +1,5 @@
 # 0-9
-<details>
-<summary>
 本目录共收录12个App，详情见如下，单击导入对应配置：
-</summary>
 
  自动导入功能依赖 [【神机模块】](https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/Surge/Redirect/DivineEngine.sgmodule)
 - [12306](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2F0-9%2F12306%2F12306.sgmodule)
@@ -18,4 +15,3 @@
 - [51信用卡管家](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2F0-9%2F51%E4%BF%A1%E7%94%A8%E5%8D%A1%E7%AE%A1%E5%AE%B6%2Fu51.sgmodule)
 - [58同城](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2F0-9%2F58%E5%90%8C%E5%9F%8E%2F58.sgmodule)
 
-</details>

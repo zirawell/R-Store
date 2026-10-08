@@ -1,8 +1,5 @@
 # S
-<details>
-<summary>
 本目录共收录12个小程序，详情见如下，单击导入对应配置：
-</summary>
 
  自动导入功能依赖 [【神机模块】](https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/Surge/Redirect/DivineEngine.sgmodule)
 - [上海地铁Metro大都会乘车码](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApplet%2FWechat%2FS%2F%E4%B8%8A%E6%B5%B7%E5%9C%B0%E9%93%81Metro%E5%A4%A7%E9%83%BD%E4%BC%9A%E4%B9%98%E8%BD%A6%E7%A0%81%2Fshmetro.sgmodule)
@@ -18,4 +15,3 @@
 - [首旅如家酒店集团](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApplet%2FWechat%2FS%2F%E9%A6%96%E6%97%85%E5%A6%82%E5%AE%B6%E9%85%92%E5%BA%97%E9%9B%86%E5%9B%A2%2Fhomeinns.sgmodule)
 - [首汽约车](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApplet%2FWechat%2FS%2F%E9%A6%96%E6%B1%BD%E7%BA%A6%E8%BD%A6%2F01zhuanche.sgmodule)
 
-</details>

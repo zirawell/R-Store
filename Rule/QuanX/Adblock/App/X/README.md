@@ -1,58 +1,213 @@
 # X
+本目录共收录50个App，详情见如下，单击导入对应配置：
+
 <details>
 <summary>
-本目录共收录50个App，详情见如下，单击导入对应配置：
+旧版本写法目前已归档，供 Quantumult X 1.5.2(844) 版本以下使用
 </summary>
 
 - [下厨房](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E4%B8%8B%E5%8E%A8%E6%88%BF%2Ffilter%2Fxiachufang.list%2C%20tag%3D%E4%B8%8B%E5%8E%A8%E6%88%BF%22%5D%2C%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E4%B8%8B%E5%8E%A8%E6%88%BF%2Frewrite%2Fxiachufang.conf%2C%20tag%3D%E4%B8%8B%E5%8E%A8%E6%88%BF%22%5D%7D)
+
 - [兴业生活](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E5%85%B4%E4%B8%9A%E7%94%9F%E6%B4%BB%2Frewrite%2Fciblife.conf%2C%20tag%3D%E5%85%B4%E4%B8%9A%E7%94%9F%E6%B4%BB%22%5D%7D)
+
 - [兴业证券优理宝](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E5%85%B4%E4%B8%9A%E8%AF%81%E5%88%B8%E4%BC%98%E7%90%86%E5%AE%9D%2Frewrite%2Fxyzq.conf%2C%20tag%3D%E5%85%B4%E4%B8%9A%E8%AF%81%E5%88%B8%E4%BC%98%E7%90%86%E5%AE%9D%22%5D%7D)
+
 - [兴业银行手机银行](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E5%85%B4%E4%B8%9A%E9%93%B6%E8%A1%8C%E6%89%8B%E6%9C%BA%E9%93%B6%E8%A1%8C%2Frewrite%2Fcib.conf%2C%20tag%3D%E5%85%B4%E4%B8%9A%E9%93%B6%E8%A1%8C%E6%89%8B%E6%9C%BA%E9%93%B6%E8%A1%8C%22%5D%7D)
+
 - [厦门航空](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E5%8E%A6%E9%97%A8%E8%88%AA%E7%A9%BA%2Frewrite%2Fxiamenair.conf%2C%20tag%3D%E5%8E%A6%E9%97%A8%E8%88%AA%E7%A9%BA%22%5D%7D)
+
 - [向日葵远程控制](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E5%90%91%E6%97%A5%E8%91%B5%E8%BF%9C%E7%A8%8B%E6%8E%A7%E5%88%B6%2Frewrite%2Fsunlogin.conf%2C%20tag%3D%E5%90%91%E6%97%A5%E8%91%B5%E8%BF%9C%E7%A8%8B%E6%8E%A7%E5%88%B6%22%5D%7D)
+
 - [喜马拉雅](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E5%96%9C%E9%A9%AC%E6%8B%89%E9%9B%85%2Ffilter%2Fxmly.list%2C%20tag%3D%E5%96%9C%E9%A9%AC%E6%8B%89%E9%9B%85%22%5D%2C%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E5%96%9C%E9%A9%AC%E6%8B%89%E9%9B%85%2Frewrite%2Fxmly.conf%2C%20tag%3D%E5%96%9C%E9%A9%AC%E6%8B%89%E9%9B%85%22%5D%7D)
+
 - [学信网](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E5%AD%A6%E4%BF%A1%E7%BD%91%2Ffilter%2Fchsi.list%2C%20tag%3D%E5%AD%A6%E4%BF%A1%E7%BD%91%22%5D%7D)
+
 - [小Biu智家](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E5%B0%8FBiu%E6%99%BA%E5%AE%B6%2Frewrite%2Fxbiu.conf%2C%20tag%3D%E5%B0%8FBiu%E6%99%BA%E5%AE%B6%22%5D%7D)
+
 - [小佩宠物](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E5%B0%8F%E4%BD%A9%E5%AE%A0%E7%89%A9%2Frewrite%2Fpetkit.conf%2C%20tag%3D%E5%B0%8F%E4%BD%A9%E5%AE%A0%E7%89%A9%22%5D%7D)
+
 - [小利生活](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E5%B0%8F%E5%88%A9%E7%94%9F%E6%B4%BB%2Ffilter%2Fxlsh.list%2C%20tag%3D%E5%B0%8F%E5%88%A9%E7%94%9F%E6%B4%BB%22%5D%7D)
+
 - [小合拓展](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E5%B0%8F%E5%90%88%E6%8B%93%E5%B1%95%2Frewrite%2Fxhtz.conf%2C%20tag%3D%E5%B0%8F%E5%90%88%E6%8B%93%E5%B1%95%22%5D%7D)
+
 - [小宇宙](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E5%B0%8F%E5%AE%87%E5%AE%99%2Frewrite%2Fxiaoyuzhoufm.conf%2C%20tag%3D%E5%B0%8F%E5%AE%87%E5%AE%99%22%5D%7D)
+
 - [小熊拦截](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E5%B0%8F%E7%86%8A%E6%8B%A6%E6%88%AA%2Frewrite%2Fxiaoxiong.conf%2C%20tag%3D%E5%B0%8F%E7%86%8A%E6%8B%A6%E6%88%AA%22%5D%7D)
+
 - [小熊美术](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E5%B0%8F%E7%86%8A%E7%BE%8E%E6%9C%AF%2Frewrite%2Fxiaoxiongmeishu.conf%2C%20tag%3D%E5%B0%8F%E7%86%8A%E7%BE%8E%E6%9C%AF%22%5D%7D)
+
 - [小牛电动](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E5%B0%8F%E7%89%9B%E7%94%B5%E5%8A%A8%2Frewrite%2Fniu.conf%2C%20tag%3D%E5%B0%8F%E7%89%9B%E7%94%B5%E5%8A%A8%22%5D%7D)
+
 - [小特](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E5%B0%8F%E7%89%B9%2Frewrite%2Fxiaote.conf%2C%20tag%3D%E5%B0%8F%E7%89%B9%22%5D%7D)
+
 - [小白学习打印](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E5%B0%8F%E7%99%BD%E5%AD%A6%E4%B9%A0%E6%89%93%E5%8D%B0%2Frewrite%2Fxbxxhz.conf%2C%20tag%3D%E5%B0%8F%E7%99%BD%E5%AD%A6%E4%B9%A0%E6%89%93%E5%8D%B0%22%5D%7D)
+
 - [小睡眠](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E5%B0%8F%E7%9D%A1%E7%9C%A0%2Frewrite%2Fcosleep.conf%2C%20tag%3D%E5%B0%8F%E7%9D%A1%E7%9C%A0%22%5D%7D)
+
 - [小站](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E5%B0%8F%E7%AB%99%2Frewrite%2Fzhan.conf%2C%20tag%3D%E5%B0%8F%E7%AB%99%22%5D%7D)
+
 - [小米商城](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E5%B0%8F%E7%B1%B3%E5%95%86%E5%9F%8E%2Frewrite%2Fmishop.conf%2C%20tag%3D%E5%B0%8F%E7%B1%B3%E5%95%86%E5%9F%8E%22%5D%7D)
+
 - [小米打印](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E5%B0%8F%E7%B1%B3%E6%89%93%E5%8D%B0%2Frewrite%2Fmiprint.conf%2C%20tag%3D%E5%B0%8F%E7%B1%B3%E6%89%93%E5%8D%B0%22%5D%7D)
+
 - [小米有品](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E5%B0%8F%E7%B1%B3%E6%9C%89%E5%93%81%2Ffilter%2Fmiyoupin.list%2C%20tag%3D%E5%B0%8F%E7%B1%B3%E6%9C%89%E5%93%81%22%5D%2C%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E5%B0%8F%E7%B1%B3%E6%9C%89%E5%93%81%2Frewrite%2Fmiyoupin.conf%2C%20tag%3D%E5%B0%8F%E7%B1%B3%E6%9C%89%E5%93%81%22%5D%7D)
+
 - [小米音箱](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E5%B0%8F%E7%B1%B3%E9%9F%B3%E7%AE%B1%2Ffilter%2Fxiaoaisound.list%2C%20tag%3D%E5%B0%8F%E7%B1%B3%E9%9F%B3%E7%AE%B1%22%5D%2C%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E5%B0%8F%E7%B1%B3%E9%9F%B3%E7%AE%B1%2Frewrite%2Fxiaoaisound.conf%2C%20tag%3D%E5%B0%8F%E7%B1%B3%E9%9F%B3%E7%AE%B1%22%5D%7D)
+
 - [小红书](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E5%B0%8F%E7%BA%A2%E4%B9%A6%2Ffilter%2Fxiaohongshu.list%2C%20tag%3D%E5%B0%8F%E7%BA%A2%E4%B9%A6%22%5D%2C%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E5%B0%8F%E7%BA%A2%E4%B9%A6%2Frewrite%2Fxiaohongshu.conf%2C%20tag%3D%E5%B0%8F%E7%BA%A2%E4%B9%A6%22%5D%7D)
+
 - [小芒](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E5%B0%8F%E8%8A%92%2Frewrite%2Fxmgtv.conf%2C%20tag%3D%E5%B0%8F%E8%8A%92%22%5D%7D)
+
 - [小蚕霸王餐](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E5%B0%8F%E8%9A%95%E9%9C%B8%E7%8E%8B%E9%A4%90%2Frewrite%2Fxcbwc.conf%2C%20tag%3D%E5%B0%8F%E8%9A%95%E9%9C%B8%E7%8E%8B%E9%A4%90%22%5D%7D)
+
 - [小象超市](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E5%B0%8F%E8%B1%A1%E8%B6%85%E5%B8%82%2Frewrite%2Fxiaoxiang.conf%2C%20tag%3D%E5%B0%8F%E8%B1%A1%E8%B6%85%E5%B8%82%22%5D%7D)
+
 - [小鹏汽车](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E5%B0%8F%E9%B9%8F%E6%B1%BD%E8%BD%A6%2Ffilter%2Fxpeng.list%2C%20tag%3D%E5%B0%8F%E9%B9%8F%E6%B1%BD%E8%BD%A6%22%5D%2C%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E5%B0%8F%E9%B9%8F%E6%B1%BD%E8%BD%A6%2Frewrite%2Fxpeng.conf%2C%20tag%3D%E5%B0%8F%E9%B9%8F%E6%B1%BD%E8%BD%A6%22%5D%7D)
+
 - [小黑盒](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E5%B0%8F%E9%BB%91%E7%9B%92%2Frewrite%2Fxiaoheihe.conf%2C%20tag%3D%E5%B0%8F%E9%BB%91%E7%9B%92%22%5D%7D)
+
 - [希尔顿荣誉客会](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E5%B8%8C%E5%B0%94%E9%A1%BF%E8%8D%A3%E8%AA%89%E5%AE%A2%E4%BC%9A%2Frewrite%2Fhilton.conf%2C%20tag%3D%E5%B8%8C%E5%B0%94%E9%A1%BF%E8%8D%A3%E8%AA%89%E5%AE%A2%E4%BC%9A%22%5D%7D)
+
 - [希沃白板](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E5%B8%8C%E6%B2%83%E7%99%BD%E6%9D%BF%2Frewrite%2Fseewo.conf%2C%20tag%3D%E5%B8%8C%E6%B2%83%E7%99%BD%E6%9D%BF%22%5D%7D)
+
 - [心悦俱乐部](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E5%BF%83%E6%82%A6%E4%BF%B1%E4%B9%90%E9%83%A8%2Frewrite%2Fxinyue.conf%2C%20tag%3D%E5%BF%83%E6%82%A6%E4%BF%B1%E4%B9%90%E9%83%A8%22%5D%7D)
+
 - [携程旅行](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E6%90%BA%E7%A8%8B%E6%97%85%E8%A1%8C%2Ffilter%2Fctrip.list%2C%20tag%3D%E6%90%BA%E7%A8%8B%E6%97%85%E8%A1%8C%22%5D%2C%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E6%90%BA%E7%A8%8B%E6%97%85%E8%A1%8C%2Frewrite%2Fctrip.conf%2C%20tag%3D%E6%90%BA%E7%A8%8B%E6%97%85%E8%A1%8C%22%5D%7D)
+
 - [新浪新闻](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E6%96%B0%E6%B5%AA%E6%96%B0%E9%97%BB%2Frewrite%2Fsinaapp.conf%2C%20tag%3D%E6%96%B0%E6%B5%AA%E6%96%B0%E9%97%BB%22%5D%7D)
+
 - [新片场](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E6%96%B0%E7%89%87%E5%9C%BA%2Frewrite%2Fxinpianchang.conf%2C%20tag%3D%E6%96%B0%E7%89%87%E5%9C%BA%22%5D%7D)
+
 - [星火英语](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E6%98%9F%E7%81%AB%E8%8B%B1%E8%AF%AD%2Frewrite%2Fsparke.conf%2C%20tag%3D%E6%98%9F%E7%81%AB%E8%8B%B1%E8%AF%AD%22%5D%7D)
+
 - [星财富](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E6%98%9F%E8%B4%A2%E5%AF%8C%2Frewrite%2Fxingcaifu.conf%2C%20tag%3D%E6%98%9F%E8%B4%A2%E5%AF%8C%22%5D%7D)
+
 - [晓晓优选](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E6%99%93%E6%99%93%E4%BC%98%E9%80%89%2Ffilter%2Fxxyx.list%2C%20tag%3D%E6%99%93%E6%99%93%E4%BC%98%E9%80%89%22%5D%2C%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E6%99%93%E6%99%93%E4%BC%98%E9%80%89%2Frewrite%2Fxxyx.conf%2C%20tag%3D%E6%99%93%E6%99%93%E4%BC%98%E9%80%89%22%5D%7D)
+
 - [笑容加](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E7%AC%91%E5%AE%B9%E5%8A%A0%2Frewrite%2Fusmile.conf%2C%20tag%3D%E7%AC%91%E5%AE%B9%E5%8A%A0%22%5D%7D)
+
 - [米游社](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E7%B1%B3%E6%B8%B8%E7%A4%BE%2Frewrite%2Fmihoyo.conf%2C%20tag%3D%E7%B1%B3%E6%B8%B8%E7%A4%BE%22%5D%7D)
+
 - [米读小说](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E7%B1%B3%E8%AF%BB%E5%B0%8F%E8%AF%B4%2Frewrite%2Fmiread.conf%2C%20tag%3D%E7%B1%B3%E8%AF%BB%E5%B0%8F%E8%AF%B4%22%5D%7D)
+
 - [西施眼](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E8%A5%BF%E6%96%BD%E7%9C%BC%2Frewrite%2Fxsy.conf%2C%20tag%3D%E8%A5%BF%E6%96%BD%E7%9C%BC%22%5D%7D)
+
 - [西窗烛](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E8%A5%BF%E7%AA%97%E7%83%9B%2Frewrite%2Fxczim.conf%2C%20tag%3D%E8%A5%BF%E7%AA%97%E7%83%9B%22%5D%7D)
+
 - [讯飞输入法](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E8%AE%AF%E9%A3%9E%E8%BE%93%E5%85%A5%E6%B3%95%2Ffilter%2Fxunfei.list%2C%20tag%3D%E8%AE%AF%E9%A3%9E%E8%BE%93%E5%85%A5%E6%B3%95%22%5D%7D)
+
 - [迅游加速器](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E8%BF%85%E6%B8%B8%E5%8A%A0%E9%80%9F%E5%99%A8%2Frewrite%2Fxunyou.conf%2C%20tag%3D%E8%BF%85%E6%B8%B8%E5%8A%A0%E9%80%9F%E5%99%A8%22%5D%7D)
+
 - [迅雷](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E8%BF%85%E9%9B%B7%2Ffilter%2Fxunlei.list%2C%20tag%3D%E8%BF%85%E9%9B%B7%22%5D%2C%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E8%BF%85%E9%9B%B7%2Frewrite%2Fxunlei.conf%2C%20tag%3D%E8%BF%85%E9%9B%B7%22%5D%7D)
+
 - [闲鱼](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E9%97%B2%E9%B1%BC%2Frewrite%2Fgoofish.conf%2C%20tag%3D%E9%97%B2%E9%B1%BC%22%5D%7D)
+
 - [雪球](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E9%9B%AA%E7%90%83%2Frewrite%2Fxueqiu.conf%2C%20tag%3D%E9%9B%AA%E7%90%83%22%5D%7D)
+
 - [香山智能](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E9%A6%99%E5%B1%B1%E6%99%BA%E8%83%BD%2Frewrite%2Fsenssun.conf%2C%20tag%3D%E9%A6%99%E5%B1%B1%E6%99%BA%E8%83%BD%22%5D%7D)
 
 </details>
+
+**本仓库导入配置已采用新版 `rewrite` 写法，`Quantumult X 1.5.2(844)` 版本以上可直接使用**
+
+- [下厨房](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E4%B8%8B%E5%8E%A8%E6%88%BF%2Fsnippet%2Fxiachufang.snippet%2C%20tag%3D%E4%B8%8B%E5%8E%A8%E6%88%BF%22%5D%7D)
+
+- [兴业生活](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E5%85%B4%E4%B8%9A%E7%94%9F%E6%B4%BB%2Fsnippet%2Fciblife.snippet%2C%20tag%3D%E5%85%B4%E4%B8%9A%E7%94%9F%E6%B4%BB%22%5D%7D)
+
+- [兴业证券优理宝](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E5%85%B4%E4%B8%9A%E8%AF%81%E5%88%B8%E4%BC%98%E7%90%86%E5%AE%9D%2Fsnippet%2Fxyzq.snippet%2C%20tag%3D%E5%85%B4%E4%B8%9A%E8%AF%81%E5%88%B8%E4%BC%98%E7%90%86%E5%AE%9D%22%5D%7D)
+
+- [兴业银行手机银行](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E5%85%B4%E4%B8%9A%E9%93%B6%E8%A1%8C%E6%89%8B%E6%9C%BA%E9%93%B6%E8%A1%8C%2Fsnippet%2Fcib.snippet%2C%20tag%3D%E5%85%B4%E4%B8%9A%E9%93%B6%E8%A1%8C%E6%89%8B%E6%9C%BA%E9%93%B6%E8%A1%8C%22%5D%7D)
+
+- [厦门航空](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E5%8E%A6%E9%97%A8%E8%88%AA%E7%A9%BA%2Fsnippet%2Fxiamenair.snippet%2C%20tag%3D%E5%8E%A6%E9%97%A8%E8%88%AA%E7%A9%BA%22%5D%7D)
+
+- [向日葵远程控制](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E5%90%91%E6%97%A5%E8%91%B5%E8%BF%9C%E7%A8%8B%E6%8E%A7%E5%88%B6%2Fsnippet%2Fsunlogin.snippet%2C%20tag%3D%E5%90%91%E6%97%A5%E8%91%B5%E8%BF%9C%E7%A8%8B%E6%8E%A7%E5%88%B6%22%5D%7D)
+
+- [喜马拉雅](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E5%96%9C%E9%A9%AC%E6%8B%89%E9%9B%85%2Fsnippet%2Fxmly.snippet%2C%20tag%3D%E5%96%9C%E9%A9%AC%E6%8B%89%E9%9B%85%22%5D%7D)
+
+- [学信网](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E5%AD%A6%E4%BF%A1%E7%BD%91%2Fsnippet%2Fchsi.snippet%2C%20tag%3D%E5%AD%A6%E4%BF%A1%E7%BD%91%22%5D%7D)
+
+- [小Biu智家](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E5%B0%8FBiu%E6%99%BA%E5%AE%B6%2Fsnippet%2Fxbiu.snippet%2C%20tag%3D%E5%B0%8FBiu%E6%99%BA%E5%AE%B6%22%5D%7D)
+
+- [小佩宠物](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E5%B0%8F%E4%BD%A9%E5%AE%A0%E7%89%A9%2Fsnippet%2Fpetkit.snippet%2C%20tag%3D%E5%B0%8F%E4%BD%A9%E5%AE%A0%E7%89%A9%22%5D%7D)
+
+- [小利生活](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E5%B0%8F%E5%88%A9%E7%94%9F%E6%B4%BB%2Fsnippet%2Fxlsh.snippet%2C%20tag%3D%E5%B0%8F%E5%88%A9%E7%94%9F%E6%B4%BB%22%5D%7D)
+
+- [小合拓展](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E5%B0%8F%E5%90%88%E6%8B%93%E5%B1%95%2Fsnippet%2Fxhtz.snippet%2C%20tag%3D%E5%B0%8F%E5%90%88%E6%8B%93%E5%B1%95%22%5D%7D)
+
+- [小宇宙](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E5%B0%8F%E5%AE%87%E5%AE%99%2Fsnippet%2Fxiaoyuzhoufm.snippet%2C%20tag%3D%E5%B0%8F%E5%AE%87%E5%AE%99%22%5D%7D)
+
+- [小熊拦截](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E5%B0%8F%E7%86%8A%E6%8B%A6%E6%88%AA%2Fsnippet%2Fxiaoxiong.snippet%2C%20tag%3D%E5%B0%8F%E7%86%8A%E6%8B%A6%E6%88%AA%22%5D%7D)
+
+- [小熊美术](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E5%B0%8F%E7%86%8A%E7%BE%8E%E6%9C%AF%2Fsnippet%2Fxiaoxiongmeishu.snippet%2C%20tag%3D%E5%B0%8F%E7%86%8A%E7%BE%8E%E6%9C%AF%22%5D%7D)
+
+- [小牛电动](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E5%B0%8F%E7%89%9B%E7%94%B5%E5%8A%A8%2Fsnippet%2Fniu.snippet%2C%20tag%3D%E5%B0%8F%E7%89%9B%E7%94%B5%E5%8A%A8%22%5D%7D)
+
+- [小特](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E5%B0%8F%E7%89%B9%2Fsnippet%2Fxiaote.snippet%2C%20tag%3D%E5%B0%8F%E7%89%B9%22%5D%7D)
+
+- [小白学习打印](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E5%B0%8F%E7%99%BD%E5%AD%A6%E4%B9%A0%E6%89%93%E5%8D%B0%2Fsnippet%2Fxbxxhz.snippet%2C%20tag%3D%E5%B0%8F%E7%99%BD%E5%AD%A6%E4%B9%A0%E6%89%93%E5%8D%B0%22%5D%7D)
+
+- [小睡眠](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E5%B0%8F%E7%9D%A1%E7%9C%A0%2Fsnippet%2Fcosleep.snippet%2C%20tag%3D%E5%B0%8F%E7%9D%A1%E7%9C%A0%22%5D%7D)
+
+- [小站](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E5%B0%8F%E7%AB%99%2Fsnippet%2Fzhan.snippet%2C%20tag%3D%E5%B0%8F%E7%AB%99%22%5D%7D)
+
+- [小米商城](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E5%B0%8F%E7%B1%B3%E5%95%86%E5%9F%8E%2Fsnippet%2Fmishop.snippet%2C%20tag%3D%E5%B0%8F%E7%B1%B3%E5%95%86%E5%9F%8E%22%5D%7D)
+
+- [小米打印](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E5%B0%8F%E7%B1%B3%E6%89%93%E5%8D%B0%2Fsnippet%2Fmiprint.snippet%2C%20tag%3D%E5%B0%8F%E7%B1%B3%E6%89%93%E5%8D%B0%22%5D%7D)
+
+- [小米有品](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E5%B0%8F%E7%B1%B3%E6%9C%89%E5%93%81%2Fsnippet%2Fmiyoupin.snippet%2C%20tag%3D%E5%B0%8F%E7%B1%B3%E6%9C%89%E5%93%81%22%5D%7D)
+
+- [小米音箱](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E5%B0%8F%E7%B1%B3%E9%9F%B3%E7%AE%B1%2Fsnippet%2Fxiaoaisound.snippet%2C%20tag%3D%E5%B0%8F%E7%B1%B3%E9%9F%B3%E7%AE%B1%22%5D%7D)
+
+- [小红书](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E5%B0%8F%E7%BA%A2%E4%B9%A6%2Fsnippet%2Fxiaohongshu.snippet%2C%20tag%3D%E5%B0%8F%E7%BA%A2%E4%B9%A6%22%5D%7D)
+
+- [小芒](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E5%B0%8F%E8%8A%92%2Fsnippet%2Fxmgtv.snippet%2C%20tag%3D%E5%B0%8F%E8%8A%92%22%5D%7D)
+
+- [小蚕霸王餐](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E5%B0%8F%E8%9A%95%E9%9C%B8%E7%8E%8B%E9%A4%90%2Fsnippet%2Fxcbwc.snippet%2C%20tag%3D%E5%B0%8F%E8%9A%95%E9%9C%B8%E7%8E%8B%E9%A4%90%22%5D%7D)
+
+- [小象超市](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E5%B0%8F%E8%B1%A1%E8%B6%85%E5%B8%82%2Fsnippet%2Fxiaoxiang.snippet%2C%20tag%3D%E5%B0%8F%E8%B1%A1%E8%B6%85%E5%B8%82%22%5D%7D)
+
+- [小鹏汽车](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E5%B0%8F%E9%B9%8F%E6%B1%BD%E8%BD%A6%2Fsnippet%2Fxpeng.snippet%2C%20tag%3D%E5%B0%8F%E9%B9%8F%E6%B1%BD%E8%BD%A6%22%5D%7D)
+
+- [小黑盒](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E5%B0%8F%E9%BB%91%E7%9B%92%2Fsnippet%2Fxiaoheihe.snippet%2C%20tag%3D%E5%B0%8F%E9%BB%91%E7%9B%92%22%5D%7D)
+
+- [希尔顿荣誉客会](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E5%B8%8C%E5%B0%94%E9%A1%BF%E8%8D%A3%E8%AA%89%E5%AE%A2%E4%BC%9A%2Fsnippet%2Fhilton.snippet%2C%20tag%3D%E5%B8%8C%E5%B0%94%E9%A1%BF%E8%8D%A3%E8%AA%89%E5%AE%A2%E4%BC%9A%22%5D%7D)
+
+- [希沃白板](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E5%B8%8C%E6%B2%83%E7%99%BD%E6%9D%BF%2Fsnippet%2Fseewo.snippet%2C%20tag%3D%E5%B8%8C%E6%B2%83%E7%99%BD%E6%9D%BF%22%5D%7D)
+
+- [心悦俱乐部](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E5%BF%83%E6%82%A6%E4%BF%B1%E4%B9%90%E9%83%A8%2Fsnippet%2Fxinyue.snippet%2C%20tag%3D%E5%BF%83%E6%82%A6%E4%BF%B1%E4%B9%90%E9%83%A8%22%5D%7D)
+
+- [携程旅行](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E6%90%BA%E7%A8%8B%E6%97%85%E8%A1%8C%2Fsnippet%2Fctrip.snippet%2C%20tag%3D%E6%90%BA%E7%A8%8B%E6%97%85%E8%A1%8C%22%5D%7D)
+
+- [新浪新闻](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E6%96%B0%E6%B5%AA%E6%96%B0%E9%97%BB%2Fsnippet%2Fsinaapp.snippet%2C%20tag%3D%E6%96%B0%E6%B5%AA%E6%96%B0%E9%97%BB%22%5D%7D)
+
+- [新片场](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E6%96%B0%E7%89%87%E5%9C%BA%2Fsnippet%2Fxinpianchang.snippet%2C%20tag%3D%E6%96%B0%E7%89%87%E5%9C%BA%22%5D%7D)
+
+- [星火英语](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E6%98%9F%E7%81%AB%E8%8B%B1%E8%AF%AD%2Fsnippet%2Fsparke.snippet%2C%20tag%3D%E6%98%9F%E7%81%AB%E8%8B%B1%E8%AF%AD%22%5D%7D)
+
+- [星财富](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E6%98%9F%E8%B4%A2%E5%AF%8C%2Fsnippet%2Fxingcaifu.snippet%2C%20tag%3D%E6%98%9F%E8%B4%A2%E5%AF%8C%22%5D%7D)
+
+- [晓晓优选](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E6%99%93%E6%99%93%E4%BC%98%E9%80%89%2Fsnippet%2Fxxyx.snippet%2C%20tag%3D%E6%99%93%E6%99%93%E4%BC%98%E9%80%89%22%5D%7D)
+
+- [笑容加](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E7%AC%91%E5%AE%B9%E5%8A%A0%2Fsnippet%2Fusmile.snippet%2C%20tag%3D%E7%AC%91%E5%AE%B9%E5%8A%A0%22%5D%7D)
+
+- [米游社](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E7%B1%B3%E6%B8%B8%E7%A4%BE%2Fsnippet%2Fmihoyo.snippet%2C%20tag%3D%E7%B1%B3%E6%B8%B8%E7%A4%BE%22%5D%7D)
+
+- [米读小说](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E7%B1%B3%E8%AF%BB%E5%B0%8F%E8%AF%B4%2Fsnippet%2Fmiread.snippet%2C%20tag%3D%E7%B1%B3%E8%AF%BB%E5%B0%8F%E8%AF%B4%22%5D%7D)
+
+- [西施眼](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E8%A5%BF%E6%96%BD%E7%9C%BC%2Fsnippet%2Fxsy.snippet%2C%20tag%3D%E8%A5%BF%E6%96%BD%E7%9C%BC%22%5D%7D)
+
+- [西窗烛](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E8%A5%BF%E7%AA%97%E7%83%9B%2Fsnippet%2Fxczim.snippet%2C%20tag%3D%E8%A5%BF%E7%AA%97%E7%83%9B%22%5D%7D)
+
+- [讯飞输入法](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E8%AE%AF%E9%A3%9E%E8%BE%93%E5%85%A5%E6%B3%95%2Fsnippet%2Fxunfei.snippet%2C%20tag%3D%E8%AE%AF%E9%A3%9E%E8%BE%93%E5%85%A5%E6%B3%95%22%5D%7D)
+
+- [迅游加速器](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E8%BF%85%E6%B8%B8%E5%8A%A0%E9%80%9F%E5%99%A8%2Fsnippet%2Fxunyou.snippet%2C%20tag%3D%E8%BF%85%E6%B8%B8%E5%8A%A0%E9%80%9F%E5%99%A8%22%5D%7D)
+
+- [迅雷](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E8%BF%85%E9%9B%B7%2Fsnippet%2Fxunlei.snippet%2C%20tag%3D%E8%BF%85%E9%9B%B7%22%5D%7D)
+
+- [闲鱼](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E9%97%B2%E9%B1%BC%2Fsnippet%2Fgoofish.snippet%2C%20tag%3D%E9%97%B2%E9%B1%BC%22%5D%7D)
+
+- [雪球](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E9%9B%AA%E7%90%83%2Fsnippet%2Fxueqiu.snippet%2C%20tag%3D%E9%9B%AA%E7%90%83%22%5D%7D)
+
+- [香山智能](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FX%2F%E9%A6%99%E5%B1%B1%E6%99%BA%E8%83%BD%2Fsnippet%2Fsenssun.snippet%2C%20tag%3D%E9%A6%99%E5%B1%B1%E6%99%BA%E8%83%BD%22%5D%7D)
+
+

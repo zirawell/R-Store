@@ -1,8 +1,5 @@
 # K
-<details>
-<summary>
 本目录共收录15个App，详情见如下，单击导入对应配置：
-</summary>
 
  自动导入功能依赖 [【神机模块】](https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/Surge/Redirect/DivineEngine.sgmodule)
 - [keep](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FK%2Fkeep%2Fkeep.sgmodule)
@@ -21,4 +18,3 @@
 - [酷我音乐](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FK%2F%E9%85%B7%E6%88%91%E9%9F%B3%E4%B9%90%2Fkuwo.sgmodule)
 - [酷狗音乐](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FK%2F%E9%85%B7%E7%8B%97%E9%9F%B3%E4%B9%90%2Fkugou.sgmodule)
 
-</details>

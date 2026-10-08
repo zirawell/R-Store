@@ -1,8 +1,5 @@
 # C
-<details>
-<summary>
 本目录共收录7个小程序，详情见如下，单击导入对应配置：
-</summary>
 
  自动导入功能依赖 [【神机模块】](https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/Surge/Redirect/DivineEngine.sgmodule)
 - [Clubmed](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApplet%2FWechat%2FC%2FClubmed%2Fclubmed.sgmodule)
@@ -13,4 +10,3 @@
 - [菜鸟速递](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApplet%2FWechat%2FC%2F%E8%8F%9C%E9%B8%9F%E9%80%9F%E9%80%92%2Fcainiao.sgmodule)
 - [陈香贵点单](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApplet%2FWechat%2FC%2F%E9%99%88%E9%A6%99%E8%B4%B5%E7%82%B9%E5%8D%95%2Fcxg.sgmodule)
 
-</details>

@@ -1,25 +1,81 @@
 # P
+本目录共收录17个App，详情见如下，单击导入对应配置：
+
 <details>
 <summary>
-本目录共收录17个App，详情见如下，单击导入对应配置：
+旧版本写法目前已归档，供 Quantumult X 1.5.2(844) 版本以下使用
 </summary>
 
 - [papago](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FP%2Fpapago%2Frewrite%2Fpapago.conf%2C%20tag%3Dpapago%22%5D%7D)
+
 - [pikapika](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FP%2Fpikapika%2Frewrite%2Fpikapika.conf%2C%20tag%3Dpikapika%22%5D%7D)
+
 - [pikpak](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FP%2Fpikpak%2Frewrite%2Fpikpak.conf%2C%20tag%3Dpikpak%22%5D%7D)
+
 - [pixiv](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FP%2Fpixiv%2Ffilter%2Fpixiv.list%2C%20tag%3Dpixiv%22%5D%2C%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FP%2Fpixiv%2Frewrite%2Fpixiv.conf%2C%20tag%3Dpixiv%22%5D%7D)
+
 - [平安口袋银行](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FP%2F%E5%B9%B3%E5%AE%89%E5%8F%A3%E8%A2%8B%E9%93%B6%E8%A1%8C%2Ffilter%2Fsdb.list%2C%20tag%3D%E5%B9%B3%E5%AE%89%E5%8F%A3%E8%A2%8B%E9%93%B6%E8%A1%8C%22%5D%2C%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FP%2F%E5%B9%B3%E5%AE%89%E5%8F%A3%E8%A2%8B%E9%93%B6%E8%A1%8C%2Frewrite%2Fsdb.conf%2C%20tag%3D%E5%B9%B3%E5%AE%89%E5%8F%A3%E8%A2%8B%E9%93%B6%E8%A1%8C%22%5D%7D)
+
 - [平安壹钱包](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FP%2F%E5%B9%B3%E5%AE%89%E5%A3%B9%E9%92%B1%E5%8C%85%2Frewrite%2F1qianbao.conf%2C%20tag%3D%E5%B9%B3%E5%AE%89%E5%A3%B9%E9%92%B1%E5%8C%85%22%5D%7D)
+
 - [平安好车主](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FP%2F%E5%B9%B3%E5%AE%89%E5%A5%BD%E8%BD%A6%E4%B8%BB%2Frewrite%2Fpinganhcz.conf%2C%20tag%3D%E5%B9%B3%E5%AE%89%E5%A5%BD%E8%BD%A6%E4%B8%BB%22%5D%7D)
+
 - [平安证券](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FP%2F%E5%B9%B3%E5%AE%89%E8%AF%81%E5%88%B8%2Frewrite%2Fpinganstock.conf%2C%20tag%3D%E5%B9%B3%E5%AE%89%E8%AF%81%E5%88%B8%22%5D%7D)
+
 - [拼多多](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FP%2F%E6%8B%BC%E5%A4%9A%E5%A4%9A%2Ffilter%2Fpdd.list%2C%20tag%3D%E6%8B%BC%E5%A4%9A%E5%A4%9A%22%5D%2C%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FP%2F%E6%8B%BC%E5%A4%9A%E5%A4%9A%2Frewrite%2Fpdd.conf%2C%20tag%3D%E6%8B%BC%E5%A4%9A%E5%A4%9A%22%5D%7D)
+
 - [朴朴超市](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FP%2F%E6%9C%B4%E6%9C%B4%E8%B6%85%E5%B8%82%2Frewrite%2Fpupu.conf%2C%20tag%3D%E6%9C%B4%E6%9C%B4%E8%B6%85%E5%B8%82%22%5D%7D)
+
 - [浦发银行](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FP%2F%E6%B5%A6%E5%8F%91%E9%93%B6%E8%A1%8C%2Frewrite%2Fspdb.conf%2C%20tag%3D%E6%B5%A6%E5%8F%91%E9%93%B6%E8%A1%8C%22%5D%7D)
+
 - [浦大喜奔](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FP%2F%E6%B5%A6%E5%A4%A7%E5%96%9C%E5%A5%94%2Frewrite%2Fspdbccc.conf%2C%20tag%3D%E6%B5%A6%E5%A4%A7%E5%96%9C%E5%A5%94%22%5D%7D)
+
 - [澎湃新闻](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FP%2F%E6%BE%8E%E6%B9%83%E6%96%B0%E9%97%BB%2Frewrite%2Fthepaper.conf%2C%20tag%3D%E6%BE%8E%E6%B9%83%E6%96%B0%E9%97%BB%22%5D%7D)
+
 - [皮皮搞笑](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FP%2F%E7%9A%AE%E7%9A%AE%E6%90%9E%E7%AC%91%2Frewrite%2Fppgx.conf%2C%20tag%3D%E7%9A%AE%E7%9A%AE%E6%90%9E%E7%AC%91%22%5D%7D)
+
 - [皮皮虾](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FP%2F%E7%9A%AE%E7%9A%AE%E8%99%BE%2Frewrite%2Fppx.conf%2C%20tag%3D%E7%9A%AE%E7%9A%AE%E8%99%BE%22%5D%7D)
+
 - [票根](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FP%2F%E7%A5%A8%E6%A0%B9%2Frewrite%2Fpiaogen.conf%2C%20tag%3D%E7%A5%A8%E6%A0%B9%22%5D%7D)
+
 - [配音秀](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FP%2F%E9%85%8D%E9%9F%B3%E7%A7%80%2Frewrite%2Fpeiyinxiu.conf%2C%20tag%3D%E9%85%8D%E9%9F%B3%E7%A7%80%22%5D%7D)
 
 </details>
+
+**本仓库导入配置已采用新版 `rewrite` 写法，`Quantumult X 1.5.2(844)` 版本以上可直接使用**
+
+- [papago](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FP%2Fpapago%2Fsnippet%2Fpapago.snippet%2C%20tag%3Dpapago%22%5D%7D)
+
+- [pikapika](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FP%2Fpikapika%2Fsnippet%2Fpikapika.snippet%2C%20tag%3Dpikapika%22%5D%7D)
+
+- [pikpak](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FP%2Fpikpak%2Fsnippet%2Fpikpak.snippet%2C%20tag%3Dpikpak%22%5D%7D)
+
+- [pixiv](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FP%2Fpixiv%2Fsnippet%2Fpixiv.snippet%2C%20tag%3Dpixiv%22%5D%7D)
+
+- [平安口袋银行](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FP%2F%E5%B9%B3%E5%AE%89%E5%8F%A3%E8%A2%8B%E9%93%B6%E8%A1%8C%2Fsnippet%2Fsdb.snippet%2C%20tag%3D%E5%B9%B3%E5%AE%89%E5%8F%A3%E8%A2%8B%E9%93%B6%E8%A1%8C%22%5D%7D)
+
+- [平安壹钱包](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FP%2F%E5%B9%B3%E5%AE%89%E5%A3%B9%E9%92%B1%E5%8C%85%2Fsnippet%2F1qianbao.snippet%2C%20tag%3D%E5%B9%B3%E5%AE%89%E5%A3%B9%E9%92%B1%E5%8C%85%22%5D%7D)
+
+- [平安好车主](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FP%2F%E5%B9%B3%E5%AE%89%E5%A5%BD%E8%BD%A6%E4%B8%BB%2Fsnippet%2Fpinganhcz.snippet%2C%20tag%3D%E5%B9%B3%E5%AE%89%E5%A5%BD%E8%BD%A6%E4%B8%BB%22%5D%7D)
+
+- [平安证券](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FP%2F%E5%B9%B3%E5%AE%89%E8%AF%81%E5%88%B8%2Fsnippet%2Fpinganstock.snippet%2C%20tag%3D%E5%B9%B3%E5%AE%89%E8%AF%81%E5%88%B8%22%5D%7D)
+
+- [拼多多](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FP%2F%E6%8B%BC%E5%A4%9A%E5%A4%9A%2Fsnippet%2Fpdd.snippet%2C%20tag%3D%E6%8B%BC%E5%A4%9A%E5%A4%9A%22%5D%7D)
+
+- [朴朴超市](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FP%2F%E6%9C%B4%E6%9C%B4%E8%B6%85%E5%B8%82%2Fsnippet%2Fpupu.snippet%2C%20tag%3D%E6%9C%B4%E6%9C%B4%E8%B6%85%E5%B8%82%22%5D%7D)
+
+- [浦发银行](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FP%2F%E6%B5%A6%E5%8F%91%E9%93%B6%E8%A1%8C%2Fsnippet%2Fspdb.snippet%2C%20tag%3D%E6%B5%A6%E5%8F%91%E9%93%B6%E8%A1%8C%22%5D%7D)
+
+- [浦大喜奔](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FP%2F%E6%B5%A6%E5%A4%A7%E5%96%9C%E5%A5%94%2Fsnippet%2Fspdbccc.snippet%2C%20tag%3D%E6%B5%A6%E5%A4%A7%E5%96%9C%E5%A5%94%22%5D%7D)
+
+- [澎湃新闻](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FP%2F%E6%BE%8E%E6%B9%83%E6%96%B0%E9%97%BB%2Fsnippet%2Fthepaper.snippet%2C%20tag%3D%E6%BE%8E%E6%B9%83%E6%96%B0%E9%97%BB%22%5D%7D)
+
+- [皮皮搞笑](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FP%2F%E7%9A%AE%E7%9A%AE%E6%90%9E%E7%AC%91%2Fsnippet%2Fppgx.snippet%2C%20tag%3D%E7%9A%AE%E7%9A%AE%E6%90%9E%E7%AC%91%22%5D%7D)
+
+- [皮皮虾](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FP%2F%E7%9A%AE%E7%9A%AE%E8%99%BE%2Fsnippet%2Fppx.snippet%2C%20tag%3D%E7%9A%AE%E7%9A%AE%E8%99%BE%22%5D%7D)
+
+- [票根](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FP%2F%E7%A5%A8%E6%A0%B9%2Fsnippet%2Fpiaogen.snippet%2C%20tag%3D%E7%A5%A8%E6%A0%B9%22%5D%7D)
+
+- [配音秀](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FP%2F%E9%85%8D%E9%9F%B3%E7%A7%80%2Fsnippet%2Fpeiyinxiu.snippet%2C%20tag%3D%E9%85%8D%E9%9F%B3%E7%A7%80%22%5D%7D)
+
+

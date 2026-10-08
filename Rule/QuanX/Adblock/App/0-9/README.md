@@ -1,20 +1,61 @@
 # 0-9
+本目录共收录12个App，详情见如下，单击导入对应配置：
+
 <details>
 <summary>
-本目录共收录12个App，详情见如下，单击导入对应配置：
+旧版本写法目前已归档，供 Quantumult X 1.5.2(844) 版本以下使用
 </summary>
 
 - [12306](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2F0-9%2F12306%2Ffilter%2F12306.list%2C%20tag%3D12306%22%5D%2C%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2F0-9%2F12306%2Frewrite%2F12306.conf%2C%20tag%3D12306%22%5D%7D)
+
 - [21财经](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2F0-9%2F21%E8%B4%A2%E7%BB%8F%2Frewrite%2F21jingji.conf%2C%20tag%3D21%E8%B4%A2%E7%BB%8F%22%5D%7D)
+
 - [233网校](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2F0-9%2F233%E7%BD%91%E6%A0%A1%2Frewrite%2F233.conf%2C%20tag%3D233%E7%BD%91%E6%A0%A1%22%5D%7D)
+
 - [2345天气王](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2F0-9%2F2345%E5%A4%A9%E6%B0%94%E7%8E%8B%2Frewrite%2F2345.conf%2C%20tag%3D2345%E5%A4%A9%E6%B0%94%E7%8E%8B%22%5D%7D)
+
 - [360儿童卫士](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2F0-9%2F360%E5%84%BF%E7%AB%A5%E5%8D%AB%E5%A3%AB%2Ffilter%2F360kids.list%2C%20tag%3D360%E5%84%BF%E7%AB%A5%E5%8D%AB%E5%A3%AB%22%5D%7D)
+
 - [360摄像机](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2F0-9%2F360%E6%91%84%E5%83%8F%E6%9C%BA%2Ffilter%2F360cam.list%2C%20tag%3D360%E6%91%84%E5%83%8F%E6%9C%BA%22%5D%2C%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2F0-9%2F360%E6%91%84%E5%83%8F%E6%9C%BA%2Frewrite%2F360cam.conf%2C%20tag%3D360%E6%91%84%E5%83%8F%E6%9C%BA%22%5D%7D)
+
 - [360智慧生活](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2F0-9%2F360%E6%99%BA%E6%85%A7%E7%94%9F%E6%B4%BB%2Ffilter%2F360life.list%2C%20tag%3D360%E6%99%BA%E6%85%A7%E7%94%9F%E6%B4%BB%22%5D%2C%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2F0-9%2F360%E6%99%BA%E6%85%A7%E7%94%9F%E6%B4%BB%2Frewrite%2F360life.conf%2C%20tag%3D360%E6%99%BA%E6%85%A7%E7%94%9F%E6%B4%BB%22%5D%7D)
+
 - [36氪](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2F0-9%2F36%E6%B0%AA%2Ffilter%2F36kr.list%2C%20tag%3D36%E6%B0%AA%22%5D%2C%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2F0-9%2F36%E6%B0%AA%2Frewrite%2F36kr.conf%2C%20tag%3D36%E6%B0%AA%22%5D%7D)
+
 - [500px](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2F0-9%2F500px%2Frewrite%2F500px.conf%2C%20tag%3D500px%22%5D%7D)
+
 - [51cto](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2F0-9%2F51cto%2Ffilter%2F51cto.list%2C%20tag%3D51cto%22%5D%2C%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2F0-9%2F51cto%2Frewrite%2F51cto.conf%2C%20tag%3D51cto%22%5D%7D)
+
 - [51信用卡管家](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2F0-9%2F51%E4%BF%A1%E7%94%A8%E5%8D%A1%E7%AE%A1%E5%AE%B6%2Frewrite%2Fu51.conf%2C%20tag%3D51%E4%BF%A1%E7%94%A8%E5%8D%A1%E7%AE%A1%E5%AE%B6%22%5D%7D)
+
 - [58同城](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2F0-9%2F58%E5%90%8C%E5%9F%8E%2Ffilter%2F58.list%2C%20tag%3D58%E5%90%8C%E5%9F%8E%22%5D%2C%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2F0-9%2F58%E5%90%8C%E5%9F%8E%2Frewrite%2F58.conf%2C%20tag%3D58%E5%90%8C%E5%9F%8E%22%5D%7D)
 
 </details>
+
+**本仓库导入配置已采用新版 `rewrite` 写法，`Quantumult X 1.5.2(844)` 版本以上可直接使用**
+
+- [12306](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2F0-9%2F12306%2Fsnippet%2F12306.snippet%2C%20tag%3D12306%22%5D%7D)
+
+- [21财经](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2F0-9%2F21%E8%B4%A2%E7%BB%8F%2Fsnippet%2F21jingji.snippet%2C%20tag%3D21%E8%B4%A2%E7%BB%8F%22%5D%7D)
+
+- [233网校](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2F0-9%2F233%E7%BD%91%E6%A0%A1%2Fsnippet%2F233.snippet%2C%20tag%3D233%E7%BD%91%E6%A0%A1%22%5D%7D)
+
+- [2345天气王](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2F0-9%2F2345%E5%A4%A9%E6%B0%94%E7%8E%8B%2Fsnippet%2F2345.snippet%2C%20tag%3D2345%E5%A4%A9%E6%B0%94%E7%8E%8B%22%5D%7D)
+
+- [360儿童卫士](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2F0-9%2F360%E5%84%BF%E7%AB%A5%E5%8D%AB%E5%A3%AB%2Fsnippet%2F360kids.snippet%2C%20tag%3D360%E5%84%BF%E7%AB%A5%E5%8D%AB%E5%A3%AB%22%5D%7D)
+
+- [360摄像机](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2F0-9%2F360%E6%91%84%E5%83%8F%E6%9C%BA%2Fsnippet%2F360cam.snippet%2C%20tag%3D360%E6%91%84%E5%83%8F%E6%9C%BA%22%5D%7D)
+
+- [360智慧生活](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2F0-9%2F360%E6%99%BA%E6%85%A7%E7%94%9F%E6%B4%BB%2Fsnippet%2F360life.snippet%2C%20tag%3D360%E6%99%BA%E6%85%A7%E7%94%9F%E6%B4%BB%22%5D%7D)
+
+- [36氪](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2F0-9%2F36%E6%B0%AA%2Fsnippet%2F36kr.snippet%2C%20tag%3D36%E6%B0%AA%22%5D%7D)
+
+- [500px](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2F0-9%2F500px%2Fsnippet%2F500px.snippet%2C%20tag%3D500px%22%5D%7D)
+
+- [51cto](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2F0-9%2F51cto%2Fsnippet%2F51cto.snippet%2C%20tag%3D51cto%22%5D%7D)
+
+- [51信用卡管家](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2F0-9%2F51%E4%BF%A1%E7%94%A8%E5%8D%A1%E7%AE%A1%E5%AE%B6%2Fsnippet%2Fu51.snippet%2C%20tag%3D51%E4%BF%A1%E7%94%A8%E5%8D%A1%E7%AE%A1%E5%AE%B6%22%5D%7D)
+
+- [58同城](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2F0-9%2F58%E5%90%8C%E5%9F%8E%2Fsnippet%2F58.snippet%2C%20tag%3D58%E5%90%8C%E5%9F%8E%22%5D%7D)
+
+

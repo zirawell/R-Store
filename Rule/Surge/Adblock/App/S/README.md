@@ -1,8 +1,5 @@
 # S
-<details>
-<summary>
 本目录共收录39个App，详情见如下，单击导入对应配置：
-</summary>
 
  自动导入功能依赖 [【神机模块】](https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/Surge/Redirect/DivineEngine.sgmodule)
 - [skyscanner](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FS%2Fskyscanner%2Fskyscanner.sgmodule)
@@ -45,4 +42,3 @@
 - [首旅如家](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FS%2F%E9%A6%96%E6%97%85%E5%A6%82%E5%AE%B6%2Fhomeinns.sgmodule)
 - [首汽约车](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FS%2F%E9%A6%96%E6%B1%BD%E7%BA%A6%E8%BD%A6%2F01zhuanche.sgmodule)
 
-</details>
