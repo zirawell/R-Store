@@ -1,23 +1,73 @@
 # K
+本目录共收录15个App，详情见如下，单击导入对应配置：
+
 <details>
 <summary>
-本目录共收录15个App，详情见如下，单击导入对应配置：
+旧版本写法目前已归档，供 Quantumult X 1.5.2(844) 版本以下使用
 </summary>
 
 - [keep](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FK%2Fkeep%2Ffilter%2Fkeep.list%2C%20tag%3Dkeep%22%5D%2C%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FK%2Fkeep%2Frewrite%2Fkeep.conf%2C%20tag%3Dkeep%22%5D%7D)
+
 - [口袋校园](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FK%2F%E5%8F%A3%E8%A2%8B%E6%A0%A1%E5%9B%AD%2Frewrite%2Fpocketuni.conf%2C%20tag%3D%E5%8F%A3%E8%A2%8B%E6%A0%A1%E5%9B%AD%22%5D%7D)
+
 - [夸克](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FK%2F%E5%A4%B8%E5%85%8B%2Frewrite%2Fquark.conf%2C%20tag%3D%E5%A4%B8%E5%85%8B%22%5D%7D)
+
 - [开源中国](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FK%2F%E5%BC%80%E6%BA%90%E4%B8%AD%E5%9B%BD%2Frewrite%2Foschina.conf%2C%20tag%3D%E5%BC%80%E6%BA%90%E4%B8%AD%E5%9B%BD%22%5D%7D)
+
 - [快对](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FK%2F%E5%BF%AB%E5%AF%B9%2Frewrite%2Fkuaidui.conf%2C%20tag%3D%E5%BF%AB%E5%AF%B9%22%5D%7D)
+
 - [快手](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FK%2F%E5%BF%AB%E6%89%8B%2Ffilter%2Fkuaishou.list%2C%20tag%3D%E5%BF%AB%E6%89%8B%22%5D%2C%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FK%2F%E5%BF%AB%E6%89%8B%2Frewrite%2Fkuaishou.conf%2C%20tag%3D%E5%BF%AB%E6%89%8B%22%5D%7D)
+
 - [快看漫画](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FK%2F%E5%BF%AB%E7%9C%8B%E6%BC%AB%E7%94%BB%2Frewrite%2Fkkmh.conf%2C%20tag%3D%E5%BF%AB%E7%9C%8B%E6%BC%AB%E7%94%BB%22%5D%7D)
+
 - [快递100](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FK%2F%E5%BF%AB%E9%80%92100%2Frewrite%2Fkuaidi100.conf%2C%20tag%3D%E5%BF%AB%E9%80%92100%22%5D%7D)
+
 - [看东方](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FK%2F%E7%9C%8B%E4%B8%9C%E6%96%B9%2Frewrite%2Fbestv.conf%2C%20tag%3D%E7%9C%8B%E4%B8%9C%E6%96%B9%22%5D%7D)
+
 - [看天下](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FK%2F%E7%9C%8B%E5%A4%A9%E4%B8%8B%2Frewrite%2Fvistastory.conf%2C%20tag%3D%E7%9C%8B%E5%A4%A9%E4%B8%8B%22%5D%7D)
+
 - [看理想](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FK%2F%E7%9C%8B%E7%90%86%E6%83%B3%2Frewrite%2Fvistopia.conf%2C%20tag%3D%E7%9C%8B%E7%90%86%E6%83%B3%22%5D%7D)
+
 - [肯德基](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FK%2F%E8%82%AF%E5%BE%B7%E5%9F%BA%2Frewrite%2Fkfc.conf%2C%20tag%3D%E8%82%AF%E5%BE%B7%E5%9F%BA%22%5D%7D)
+
 - [酷安](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FK%2F%E9%85%B7%E5%AE%89%2Frewrite%2Fcoolapk.conf%2C%20tag%3D%E9%85%B7%E5%AE%89%22%5D%7D)
+
 - [酷我音乐](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FK%2F%E9%85%B7%E6%88%91%E9%9F%B3%E4%B9%90%2Ffilter%2Fkuwo.list%2C%20tag%3D%E9%85%B7%E6%88%91%E9%9F%B3%E4%B9%90%22%5D%2C%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FK%2F%E9%85%B7%E6%88%91%E9%9F%B3%E4%B9%90%2Frewrite%2Fkuwo.conf%2C%20tag%3D%E9%85%B7%E6%88%91%E9%9F%B3%E4%B9%90%22%5D%7D)
+
 - [酷狗音乐](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FK%2F%E9%85%B7%E7%8B%97%E9%9F%B3%E4%B9%90%2Ffilter%2Fkugou.list%2C%20tag%3D%E9%85%B7%E7%8B%97%E9%9F%B3%E4%B9%90%22%5D%2C%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FK%2F%E9%85%B7%E7%8B%97%E9%9F%B3%E4%B9%90%2Frewrite%2Fkugou.conf%2C%20tag%3D%E9%85%B7%E7%8B%97%E9%9F%B3%E4%B9%90%22%5D%7D)
 
 </details>
+
+**本仓库导入配置已采用新版 `rewrite` 写法，`Quantumult X 1.5.2(844)` 版本以上可直接使用**
+
+- [keep](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FK%2Fkeep%2Fsnippet%2Fkeep.snippet%2C%20tag%3Dkeep%22%5D%7D)
+
+- [口袋校园](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FK%2F%E5%8F%A3%E8%A2%8B%E6%A0%A1%E5%9B%AD%2Fsnippet%2Fpocketuni.snippet%2C%20tag%3D%E5%8F%A3%E8%A2%8B%E6%A0%A1%E5%9B%AD%22%5D%7D)
+
+- [夸克](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FK%2F%E5%A4%B8%E5%85%8B%2Fsnippet%2Fquark.snippet%2C%20tag%3D%E5%A4%B8%E5%85%8B%22%5D%7D)
+
+- [开源中国](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FK%2F%E5%BC%80%E6%BA%90%E4%B8%AD%E5%9B%BD%2Fsnippet%2Foschina.snippet%2C%20tag%3D%E5%BC%80%E6%BA%90%E4%B8%AD%E5%9B%BD%22%5D%7D)
+
+- [快对](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FK%2F%E5%BF%AB%E5%AF%B9%2Fsnippet%2Fkuaidui.snippet%2C%20tag%3D%E5%BF%AB%E5%AF%B9%22%5D%7D)
+
+- [快手](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FK%2F%E5%BF%AB%E6%89%8B%2Fsnippet%2Fkuaishou.snippet%2C%20tag%3D%E5%BF%AB%E6%89%8B%22%5D%7D)
+
+- [快看漫画](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FK%2F%E5%BF%AB%E7%9C%8B%E6%BC%AB%E7%94%BB%2Fsnippet%2Fkkmh.snippet%2C%20tag%3D%E5%BF%AB%E7%9C%8B%E6%BC%AB%E7%94%BB%22%5D%7D)
+
+- [快递100](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FK%2F%E5%BF%AB%E9%80%92100%2Fsnippet%2Fkuaidi100.snippet%2C%20tag%3D%E5%BF%AB%E9%80%92100%22%5D%7D)
+
+- [看东方](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FK%2F%E7%9C%8B%E4%B8%9C%E6%96%B9%2Fsnippet%2Fbestv.snippet%2C%20tag%3D%E7%9C%8B%E4%B8%9C%E6%96%B9%22%5D%7D)
+
+- [看天下](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FK%2F%E7%9C%8B%E5%A4%A9%E4%B8%8B%2Fsnippet%2Fvistastory.snippet%2C%20tag%3D%E7%9C%8B%E5%A4%A9%E4%B8%8B%22%5D%7D)
+
+- [看理想](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FK%2F%E7%9C%8B%E7%90%86%E6%83%B3%2Fsnippet%2Fvistopia.snippet%2C%20tag%3D%E7%9C%8B%E7%90%86%E6%83%B3%22%5D%7D)
+
+- [肯德基](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FK%2F%E8%82%AF%E5%BE%B7%E5%9F%BA%2Fsnippet%2Fkfc.snippet%2C%20tag%3D%E8%82%AF%E5%BE%B7%E5%9F%BA%22%5D%7D)
+
+- [酷安](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FK%2F%E9%85%B7%E5%AE%89%2Fsnippet%2Fcoolapk.snippet%2C%20tag%3D%E9%85%B7%E5%AE%89%22%5D%7D)
+
+- [酷我音乐](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FK%2F%E9%85%B7%E6%88%91%E9%9F%B3%E4%B9%90%2Fsnippet%2Fkuwo.snippet%2C%20tag%3D%E9%85%B7%E6%88%91%E9%9F%B3%E4%B9%90%22%5D%7D)
+
+- [酷狗音乐](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FK%2F%E9%85%B7%E7%8B%97%E9%9F%B3%E4%B9%90%2Fsnippet%2Fkugou.snippet%2C%20tag%3D%E9%85%B7%E7%8B%97%E9%9F%B3%E4%B9%90%22%5D%7D)
+
+

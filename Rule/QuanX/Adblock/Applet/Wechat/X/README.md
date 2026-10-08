@@ -1,15 +1,41 @@
 # X
+本目录共收录7个小程序，详情见如下，单击导入对应配置：
+
 <details>
 <summary>
-本目录共收录7个小程序，详情见如下，单击导入对应配置：
+旧版本写法目前已归档，供 Quantumult X 1.5.2(844) 版本以下使用
 </summary>
 
 - [享道出行](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApplet%2FWechat%2FX%2F%E4%BA%AB%E9%81%93%E5%87%BA%E8%A1%8C%2Frewrite%2Fxiangdao.conf%2C%20tag%3D%E4%BA%AB%E9%81%93%E5%87%BA%E8%A1%8C%22%5D%7D)
+
 - [小兔充充](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApplet%2FWechat%2FX%2F%E5%B0%8F%E5%85%94%E5%85%85%E5%85%85%2Frewrite%2Fxiaotucc.conf%2C%20tag%3D%E5%B0%8F%E5%85%94%E5%85%85%E5%85%85%22%5D%7D)
+
 - [小电充电](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApplet%2FWechat%2FX%2F%E5%B0%8F%E7%94%B5%E5%85%85%E7%94%B5%2Ffilter%2Fxiandian.list%2C%20tag%3D%E5%B0%8F%E7%94%B5%E5%85%85%E7%94%B5%22%5D%7D)
+
 - [心车享](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApplet%2FWechat%2FX%2F%E5%BF%83%E8%BD%A6%E4%BA%AB%2Frewrite%2Fepicc.conf%2C%20tag%3D%E5%BF%83%E8%BD%A6%E4%BA%AB%22%5D%7D)
+
 - [携程旅行](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApplet%2FWechat%2FX%2F%E6%90%BA%E7%A8%8B%E6%97%85%E8%A1%8C%2Frewrite%2Fctrip.conf%2C%20tag%3D%E6%90%BA%E7%A8%8B%E6%97%85%E8%A1%8C%22%5D%7D)
+
 - [星巴克](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApplet%2FWechat%2FX%2F%E6%98%9F%E5%B7%B4%E5%85%8B%2Frewrite%2Fstarbucks.conf%2C%20tag%3D%E6%98%9F%E5%B7%B4%E5%85%8B%22%5D%7D)
+
 - [西贝](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApplet%2FWechat%2FX%2F%E8%A5%BF%E8%B4%9D%2Frewrite%2Fxibei.conf%2C%20tag%3D%E8%A5%BF%E8%B4%9D%22%5D%7D)
 
 </details>
+
+**本仓库导入配置已采用新版 `rewrite` 写法，`Quantumult X 1.5.2(844)` 版本以上可直接使用**
+
+- [享道出行](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApplet%2FWechat%2FX%2F%E4%BA%AB%E9%81%93%E5%87%BA%E8%A1%8C%2Fsnippet%2Fxiangdao.snippet%2C%20tag%3D%E4%BA%AB%E9%81%93%E5%87%BA%E8%A1%8C%22%5D%7D)
+
+- [小兔充充](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApplet%2FWechat%2FX%2F%E5%B0%8F%E5%85%94%E5%85%85%E5%85%85%2Fsnippet%2Fxiaotucc.snippet%2C%20tag%3D%E5%B0%8F%E5%85%94%E5%85%85%E5%85%85%22%5D%7D)
+
+- [小电充电](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApplet%2FWechat%2FX%2F%E5%B0%8F%E7%94%B5%E5%85%85%E7%94%B5%2Fsnippet%2Fxiandian.snippet%2C%20tag%3D%E5%B0%8F%E7%94%B5%E5%85%85%E7%94%B5%22%5D%7D)
+
+- [心车享](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApplet%2FWechat%2FX%2F%E5%BF%83%E8%BD%A6%E4%BA%AB%2Fsnippet%2Fepicc.snippet%2C%20tag%3D%E5%BF%83%E8%BD%A6%E4%BA%AB%22%5D%7D)
+
+- [携程旅行](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApplet%2FWechat%2FX%2F%E6%90%BA%E7%A8%8B%E6%97%85%E8%A1%8C%2Fsnippet%2Fctrip.snippet%2C%20tag%3D%E6%90%BA%E7%A8%8B%E6%97%85%E8%A1%8C%22%5D%7D)
+
+- [星巴克](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApplet%2FWechat%2FX%2F%E6%98%9F%E5%B7%B4%E5%85%8B%2Fsnippet%2Fstarbucks.snippet%2C%20tag%3D%E6%98%9F%E5%B7%B4%E5%85%8B%22%5D%7D)
+
+- [西贝](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApplet%2FWechat%2FX%2F%E8%A5%BF%E8%B4%9D%2Fsnippet%2Fxibei.snippet%2C%20tag%3D%E8%A5%BF%E8%B4%9D%22%5D%7D)
+
+

@@ -1,8 +1,5 @@
 # D
-<details>
-<summary>
 本目录共收录25个App，详情见如下，单击导入对应配置：
-</summary>
 
  自动导入功能依赖 [【神机模块】](https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/Surge/Redirect/DivineEngine.sgmodule)
 - [Daum](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FD%2FDaum%2Fdaum.sgmodule)
@@ -31,4 +28,3 @@
 - [豆瓣](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FD%2F%E8%B1%86%E7%93%A3%2Fdouban.sgmodule)
 - [达达秒送骑士](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FD%2F%E8%BE%BE%E8%BE%BE%E7%A7%92%E9%80%81%E9%AA%91%E5%A3%AB%2Fimdada.sgmodule)
 
-</details>

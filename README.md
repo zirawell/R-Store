@@ -31,6 +31,22 @@
 
 如果不想根据单个App引用规则，本仓库也提供了一键导入:
 
+- [全部规则](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FAll%2Fsnippet%2FallAdBlock.snippet%2C%20tag%3DAdblock%22%5D%7D)
+
+- [app规则](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FAll%2Fsnippet%2FappAdBlock.snippet%2C%20tag%3DApp%22%5D%7D)
+
+- [微信小程序](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FAll%2Fsnippet%2FwechatAdBlock.snippet%2C%20tag%3DWechat%22%5D%7D)
+
+- [支付宝小程序](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FAll%2Fsnippet%2FalipayAdBlock.snippet%2C%20tag%3DAlipay%22%5D%7D)
+
+
+>旧版本写法目前已归档，供 Quantumult X 1.5.2(844) 版本以下使用
+
+<details>
+<summary>
+Quantumult X 1.5.2(844) 版本以下导入由此进入
+</summary>
+
 - [全部规则](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FAll%2Ffilter%2FallAdBlock.list%2C%20tag%3DAdblock%22%5D%2C%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FAll%2Frewrite%2FallAdRewrite.conf%2C%20tag%3DAdblock%22%5D%7D)
 
 - [app规则](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FAll%2Ffilter%2FappAdBlock.list%2C%20tag%3DApp%22%5D%2C%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FAll%2Frewrite%2FappAdRewrite.conf%2C%20tag%3DApp%22%5D%7D)
@@ -38,6 +54,10 @@
 - [微信小程序](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FAll%2Ffilter%2FwechatAdBlock.list%2C%20tag%3DWechat%22%5D%2C%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FAll%2Frewrite%2FwechatAdRewrite.conf%2C%20tag%3DWechat%22%5D%7D)
 
 - [支付宝小程序](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FAll%2Ffilter%2FalipayAdBlock.list%2C%20tag%3DAlipay%22%5D%2C%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FAll%2Frewrite%2FalipayAdRewrite.conf%2C%20tag%3DAlipay%22%5D%7D)
+
+</details>
+
+
 
 ### `Surge`规则
 

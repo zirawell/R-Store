@@ -1,16 +1,45 @@
 # H
+本目录共收录8个小程序，详情见如下，单击导入对应配置：
+
 <details>
 <summary>
-本目录共收录8个小程序，详情见如下，单击导入对应配置：
+旧版本写法目前已归档，供 Quantumult X 1.5.2(844) 版本以下使用
 </summary>
 
 - [华住会](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApplet%2FWechat%2FH%2F%E5%8D%8E%E4%BD%8F%E4%BC%9A%2Frewrite%2Fhuazhu.conf%2C%20tag%3D%E5%8D%8E%E4%BD%8F%E4%BC%9A%22%5D%7D)
+
 - [哈啰](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApplet%2FWechat%2FH%2F%E5%93%88%E5%95%B0%2Frewrite%2Fhellobike.conf%2C%20tag%3D%E5%93%88%E5%95%B0%22%5D%7D)
+
 - [横店电影](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApplet%2FWechat%2FH%2F%E6%A8%AA%E5%BA%97%E7%94%B5%E5%BD%B1%2Frewrite%2Fhengdianfilm.conf%2C%20tag%3D%E6%A8%AA%E5%BA%97%E7%94%B5%E5%BD%B1%22%5D%7D)
+
 - [汇付天下商户服务](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApplet%2FWechat%2FH%2F%E6%B1%87%E4%BB%98%E5%A4%A9%E4%B8%8B%E5%95%86%E6%88%B7%E6%9C%8D%E5%8A%A1%2Frewrite%2Fcloudpnr.conf%2C%20tag%3D%E6%B1%87%E4%BB%98%E5%A4%A9%E4%B8%8B%E5%95%86%E6%88%B7%E6%9C%8D%E5%8A%A1%22%5D%7D)
+
 - [海尔服务](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApplet%2FWechat%2FH%2F%E6%B5%B7%E5%B0%94%E6%9C%8D%E5%8A%A1%2Frewrite%2Fhaiersmarthomes.conf%2C%20tag%3D%E6%B5%B7%E5%B0%94%E6%9C%8D%E5%8A%A1%22%5D%7D)
+
 - [盒马鲜生](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApplet%2FWechat%2FH%2F%E7%9B%92%E9%A9%AC%E9%B2%9C%E7%94%9F%2Frewrite%2Ffreshippo.conf%2C%20tag%3D%E7%9B%92%E9%A9%AC%E9%B2%9C%E7%94%9F%22%5D%7D)
+
 - [花小猪打车](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApplet%2FWechat%2FH%2F%E8%8A%B1%E5%B0%8F%E7%8C%AA%E6%89%93%E8%BD%A6%2Ffilter%2Fhongyibo.list%2C%20tag%3D%E8%8A%B1%E5%B0%8F%E7%8C%AA%E6%89%93%E8%BD%A6%22%5D%2C%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApplet%2FWechat%2FH%2F%E8%8A%B1%E5%B0%8F%E7%8C%AA%E6%89%93%E8%BD%A6%2Frewrite%2Fhongyibo.conf%2C%20tag%3D%E8%8A%B1%E5%B0%8F%E7%8C%AA%E6%89%93%E8%BD%A6%22%5D%7D)
+
 - [货拉拉](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApplet%2FWechat%2FH%2F%E8%B4%A7%E6%8B%89%E6%8B%89%2Frewrite%2Fhuolala.conf%2C%20tag%3D%E8%B4%A7%E6%8B%89%E6%8B%89%22%5D%7D)
 
 </details>
+
+**本仓库导入配置已采用新版 `rewrite` 写法，`Quantumult X 1.5.2(844)` 版本以上可直接使用**
+
+- [华住会](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApplet%2FWechat%2FH%2F%E5%8D%8E%E4%BD%8F%E4%BC%9A%2Fsnippet%2Fhuazhu.snippet%2C%20tag%3D%E5%8D%8E%E4%BD%8F%E4%BC%9A%22%5D%7D)
+
+- [哈啰](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApplet%2FWechat%2FH%2F%E5%93%88%E5%95%B0%2Fsnippet%2Fhellobike.snippet%2C%20tag%3D%E5%93%88%E5%95%B0%22%5D%7D)
+
+- [横店电影](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApplet%2FWechat%2FH%2F%E6%A8%AA%E5%BA%97%E7%94%B5%E5%BD%B1%2Fsnippet%2Fhengdianfilm.snippet%2C%20tag%3D%E6%A8%AA%E5%BA%97%E7%94%B5%E5%BD%B1%22%5D%7D)
+
+- [汇付天下商户服务](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApplet%2FWechat%2FH%2F%E6%B1%87%E4%BB%98%E5%A4%A9%E4%B8%8B%E5%95%86%E6%88%B7%E6%9C%8D%E5%8A%A1%2Fsnippet%2Fcloudpnr.snippet%2C%20tag%3D%E6%B1%87%E4%BB%98%E5%A4%A9%E4%B8%8B%E5%95%86%E6%88%B7%E6%9C%8D%E5%8A%A1%22%5D%7D)
+
+- [海尔服务](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApplet%2FWechat%2FH%2F%E6%B5%B7%E5%B0%94%E6%9C%8D%E5%8A%A1%2Fsnippet%2Fhaiersmarthomes.snippet%2C%20tag%3D%E6%B5%B7%E5%B0%94%E6%9C%8D%E5%8A%A1%22%5D%7D)
+
+- [盒马鲜生](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApplet%2FWechat%2FH%2F%E7%9B%92%E9%A9%AC%E9%B2%9C%E7%94%9F%2Fsnippet%2Ffreshippo.snippet%2C%20tag%3D%E7%9B%92%E9%A9%AC%E9%B2%9C%E7%94%9F%22%5D%7D)
+
+- [花小猪打车](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApplet%2FWechat%2FH%2F%E8%8A%B1%E5%B0%8F%E7%8C%AA%E6%89%93%E8%BD%A6%2Fsnippet%2Fhongyibo.snippet%2C%20tag%3D%E8%8A%B1%E5%B0%8F%E7%8C%AA%E6%89%93%E8%BD%A6%22%5D%7D)
+
+- [货拉拉](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApplet%2FWechat%2FH%2F%E8%B4%A7%E6%8B%89%E6%8B%89%2Fsnippet%2Fhuolala.snippet%2C%20tag%3D%E8%B4%A7%E6%8B%89%E6%8B%89%22%5D%7D)
+
+

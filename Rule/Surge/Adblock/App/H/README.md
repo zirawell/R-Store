@@ -1,8 +1,5 @@
 # H
-<details>
-<summary>
 本目录共收录28个App，详情见如下，单击导入对应配置：
-</summary>
 
  自动导入功能依赖 [【神机模块】](https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/Surge/Redirect/DivineEngine.sgmodule)
 - [华住会](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FH%2F%E5%8D%8E%E4%BD%8F%E4%BC%9A%2Fhuazhu.sgmodule)
@@ -34,4 +31,3 @@
 - [韩剧TV](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FH%2F%E9%9F%A9%E5%89%A7TV%2Fhanju.sgmodule)
 - [黄油相机](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FH%2F%E9%BB%84%E6%B2%B9%E7%9B%B8%E6%9C%BA%2Fbybutter.sgmodule)
 
-</details>

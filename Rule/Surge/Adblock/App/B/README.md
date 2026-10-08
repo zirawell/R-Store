@@ -1,8 +1,5 @@
 # B
-<details>
-<summary>
 本目录共收录28个App，详情见如下，单击导入对应配置：
-</summary>
 
  自动导入功能依赖 [【神机模块】](https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/Surge/Redirect/DivineEngine.sgmodule)
 - [Blued](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FB%2FBlued%2Fblued.sgmodule)
@@ -34,4 +31,3 @@
 - [薄荷健康](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FB%2F%E8%96%84%E8%8D%B7%E5%81%A5%E5%BA%B7%2Fboohee.sgmodule)
 - [贝壳找房](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FB%2F%E8%B4%9D%E5%A3%B3%E6%89%BE%E6%88%BF%2Fke.sgmodule)
 
-</details>

@@ -1,8 +1,5 @@
 # W
-<details>
-<summary>
 本目录共收录26个App，详情见如下，单击导入对应配置：
-</summary>
 
  自动导入功能依赖 [【神机模块】](https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/Surge/Redirect/DivineEngine.sgmodule)
 - [WPSOffice](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FW%2FWPSOffice%2Fwps.sgmodule)
@@ -32,4 +29,3 @@
 - [网易邮箱大师](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FW%2F%E7%BD%91%E6%98%93%E9%82%AE%E7%AE%B1%E5%A4%A7%E5%B8%88%2F163mail.sgmodule)
 - [蜗牛睡眠](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FW%2F%E8%9C%97%E7%89%9B%E7%9D%A1%E7%9C%A0%2Fsnailsleep.sgmodule)
 
-</details>

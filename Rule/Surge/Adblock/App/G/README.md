@@ -1,8 +1,5 @@
 # G
-<details>
-<summary>
 本目录共收录15个App，详情见如下，单击导入对应配置：
-</summary>
 
  自动导入功能依赖 [【神机模块】](https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/Surge/Redirect/DivineEngine.sgmodule)
 - [GoFun出行](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FG%2FGoFun%E5%87%BA%E8%A1%8C%2Fgofun.sgmodule)
@@ -21,4 +18,3 @@
 - [高德地图](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FG%2F%E9%AB%98%E5%BE%B7%E5%9C%B0%E5%9B%BE%2Famap.sgmodule)
 - [高铁管家](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FG%2F%E9%AB%98%E9%93%81%E7%AE%A1%E5%AE%B6%2Frsscc.sgmodule)
 
-</details>

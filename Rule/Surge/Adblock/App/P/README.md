@@ -1,8 +1,5 @@
 # P
-<details>
-<summary>
 本目录共收录17个App，详情见如下，单击导入对应配置：
-</summary>
 
  自动导入功能依赖 [【神机模块】](https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/Surge/Redirect/DivineEngine.sgmodule)
 - [papago](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FP%2Fpapago%2Fpapago.sgmodule)
@@ -23,4 +20,3 @@
 - [票根](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FP%2F%E7%A5%A8%E6%A0%B9%2Fpiaogen.sgmodule)
 - [配音秀](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FP%2F%E9%85%8D%E9%9F%B3%E7%A7%80%2Fpeiyinxiu.sgmodule)
 
-</details>

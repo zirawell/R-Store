@@ -1,8 +1,5 @@
 # Z
-<details>
-<summary>
 本目录共收录43个App，详情见如下，单击导入对应配置：
-</summary>
 
  自动导入功能依赖 [【神机模块】](https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/Surge/Redirect/DivineEngine.sgmodule)
 - [ZCOOL站酷](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FZ%2FZCOOL%E7%AB%99%E9%85%B7%2Fzcool.sgmodule)
@@ -49,4 +46,3 @@
 - [追书神器](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FZ%2F%E8%BF%BD%E4%B9%A6%E7%A5%9E%E5%99%A8%2Fzhuishushenqi.sgmodule)
 - [郑好办](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FZ%2F%E9%83%91%E5%A5%BD%E5%8A%9E%2Fzzzwfw.sgmodule)
 
-</details>

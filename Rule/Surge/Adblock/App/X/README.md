@@ -1,8 +1,5 @@
 # X
-<details>
-<summary>
 本目录共收录50个App，详情见如下，单击导入对应配置：
-</summary>
 
  自动导入功能依赖 [【神机模块】](https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/Surge/Redirect/DivineEngine.sgmodule)
 - [下厨房](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FX%2F%E4%B8%8B%E5%8E%A8%E6%88%BF%2Fxiachufang.sgmodule)
@@ -56,4 +53,3 @@
 - [雪球](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FX%2F%E9%9B%AA%E7%90%83%2Fxueqiu.sgmodule)
 - [香山智能](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FX%2F%E9%A6%99%E5%B1%B1%E6%99%BA%E8%83%BD%2Fsenssun.sgmodule)
 
-</details>
