@@ -1,7 +1,11 @@
 # > 南方航空<微信小程序> - CSAIR
 
+[URL Rewrite]
+^https?:\/\/wxapi\.csair\.com\/mini\/api\/advertisement\/ - reject
+^https?:\/\/extra\.csair\.com\/extraClient\/data\/mytrip\/getTripAdvertisement - reject
+
 [Map Local]
 ^https?:\/\/wxapi\.csair\.com\/mini\/api\/adVerTiSing\/(?!getPersonalCenterAdList) data-type=json data="{}" status-code=200
 
 [MITM]
-hostname= %APPEND% wxapi.csair.com
+hostname= %APPEND% wxapi.csair.com, extra.csair.com
