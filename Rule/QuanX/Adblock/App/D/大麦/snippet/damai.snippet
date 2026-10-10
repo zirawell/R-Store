@@ -1,6 +1,7 @@
 # > 大麦 - DAMAI
 ^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.damai\.mec\.popup url reject
 ^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.damai\.wireless\.home\.welcome url reject-200
+^https?:\/\/dorangesource\.alicdn\.com\/\w+\.json$ url jsonjq-response-body '(.mergedNamespaces[] | select(.name == "app_initialize") | .candidates) |= map(select(.match != "app_ver<9.0.13"))'
 ^https?:\/\/amdc\.m\.taobao\.com\/amdc\/mobileDispatch\?appkey=23782110 url reject
 
-hostname = acs.m.taobao.com, amdc.m.taobao.com
+hostname = acs.m.taobao.com, dorangesource.alicdn.com, amdc.m.taobao.com
