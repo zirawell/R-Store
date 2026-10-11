@@ -21,6 +21,7 @@ The Document is used to store the old version of apps(compatible with iOS 17).
 | 招商银行    	 	 | 392899425	     | 13.0.0        |	871028288      | `vpn`	         |
 | 好轻    	 	 	 | 889565307	     | 5.2.1         |	880464486      | `compatible`	 |
 | 盒马    	 	 	 | 1063183999	     | 5.75.0        |	863434394      | `compatible`	 |
+| 大麦    	 	 	 | 513829338	     | 8.10.14       |	875623996      | `compatible`	 |
 | 华住会    	 	 	 | 556808349	     | 9.42.0        |	884506251      | `compatible`	 |
 | 大众点评    	 	 | 351091731	     | 11.28.3       |	871328222      | `compatible`	 |
 | 东方航空    	 	 | 419275564	     | 9.4.36        |	879925632      | `feature`	     |
