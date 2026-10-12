@@ -1,0 +1,79 @@
+# .github/ISSUE_TEMPLATE/bug_report.yml
+name: 🐛 Bug 报告
+description: 提交一个 Bug 以帮助我们改进
+title: "[Bug]: "
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢您花时间填写此 Bug 报告！
+        
+  - type: input
+    id: contact
+    attributes:
+      label: 联系方式
+      description: 如果我们需要更多信息，如何联系您？
+      placeholder: 例如：email@example.com
+    validations:
+      required: false
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: 发生了什么？
+      description: 请清晰简洁地描述这个 Bug 是什么。
+      placeholder: 告诉我们你看到了什么！
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: 期望行为
+      description: 你期望发生什么？
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps-to-reproduce
+    attributes:
+      label: 复现步骤
+      description: 请提供逐步复现此问题的步骤。
+      placeholder: |
+        1. 打开 '...'
+        2. 点击 '....'
+        3. 滚动到 '....'
+        4. 看到错误
+    validations:
+      required: true
+
+  - type: dropdown
+    id: os
+    attributes:
+      label: 操作系统
+      description: 你在哪个操作系统上遇到了这个问题？
+      options:
+        - iOS
+        - macOS
+        - 其他
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: 相关日志输出
+      description: 请复制并粘贴任何相关的日志输出。
+      render: shell
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: 行为准则
+      description: 通过提交此 issue，您同意遵守我们的[行为准则](https://example.com)。
+      options:
+        - label: 我同意遵守此项目的行为准则
+          required: true
