@@ -1,0 +1,7 @@
+# > 嘉会医疗<微信小程序> - JIAHUI
+
+[Map Local]
+^https?:\/\/api\.jiahui\.com\/app-rest\/app\/notice\/getMiniAppNotice data-type=json data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% api.jiahui.com

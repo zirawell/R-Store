@@ -1,5 +1,5 @@
 # J
-本目录共收录8个小程序，详情见如下，单击导入对应配置：
+本目录共收录9个小程序，详情见如下，单击导入对应配置：
 
 <details>
 <summary>
@@ -11,6 +11,8 @@
 - [京东快递](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApplet%2FWechat%2FJ%2F%E4%BA%AC%E4%B8%9C%E5%BF%AB%E9%80%92%2Frewrite%2Fjdexpress.conf%2C%20tag%3D%E4%BA%AC%E4%B8%9C%E5%BF%AB%E9%80%92%22%5D%7D)
 
 - [京东购物](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApplet%2FWechat%2FJ%2F%E4%BA%AC%E4%B8%9C%E8%B4%AD%E7%89%A9%2Frewrite%2Fjd.conf%2C%20tag%3D%E4%BA%AC%E4%B8%9C%E8%B4%AD%E7%89%A9%22%5D%7D)
+
+- [嘉会医疗](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApplet%2FWechat%2FJ%2F%E5%98%89%E4%BC%9A%E5%8C%BB%E7%96%97%2Frewrite%2Fjiahui.conf%2C%20tag%3D%E5%98%89%E4%BC%9A%E5%8C%BB%E7%96%97%22%5D%7D)
 
 - [建融家园](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApplet%2FWechat%2FJ%2F%E5%BB%BA%E8%9E%8D%E5%AE%B6%E5%9B%AD%2Frewrite%2FccbHome.conf%2C%20tag%3D%E5%BB%BA%E8%9E%8D%E5%AE%B6%E5%9B%AD%22%5D%7D)
 
@@ -31,6 +33,8 @@
 - [京东快递](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApplet%2FWechat%2FJ%2F%E4%BA%AC%E4%B8%9C%E5%BF%AB%E9%80%92%2Fsnippet%2Fjdexpress.snippet%2C%20tag%3D%E4%BA%AC%E4%B8%9C%E5%BF%AB%E9%80%92%22%5D%7D)
 
 - [京东购物](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApplet%2FWechat%2FJ%2F%E4%BA%AC%E4%B8%9C%E8%B4%AD%E7%89%A9%2Fsnippet%2Fjd.snippet%2C%20tag%3D%E4%BA%AC%E4%B8%9C%E8%B4%AD%E7%89%A9%22%5D%7D)
+
+- [嘉会医疗](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApplet%2FWechat%2FJ%2F%E5%98%89%E4%BC%9A%E5%8C%BB%E7%96%97%2Fsnippet%2Fjiahui.snippet%2C%20tag%3D%E5%98%89%E4%BC%9A%E5%8C%BB%E7%96%97%22%5D%7D)
 
 - [建融家园](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApplet%2FWechat%2FJ%2F%E5%BB%BA%E8%9E%8D%E5%AE%B6%E5%9B%AD%2Fsnippet%2FccbHome.snippet%2C%20tag%3D%E5%BB%BA%E8%9E%8D%E5%AE%B6%E5%9B%AD%22%5D%7D)
 

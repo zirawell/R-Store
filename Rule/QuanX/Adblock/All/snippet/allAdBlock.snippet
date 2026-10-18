@@ -1,11 +1,11 @@
 #!name=全部-广告拦截合集-分流/重写规则
 #!desc=某些规则要清除缓存或者重新安装APP，拦截广告才会生效！
-#!count=支持约653个App/小程序
+#!count=支持约654个App/小程序
 #!author=zirawell
 #!homepage=https://github.com/zirawell/R-Store
 #!raw-url=https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/QuanX/Adblock/All/snippet/allAdBlock.snippet
 #!tg-group=https://t.me/RStoreCom
-#!date=2026-10-17 09:04:04
+#!date=2026-10-18 14:28:43
 #!---------------------------------------------------------------------------------------------------------------
 
 ip-cidr, 1.202.85.193/32, reject
@@ -4639,6 +4639,9 @@ host-keyword, wan.sogou.com, reject
 
 # > 京东购物<微信小程序> - JD
 ^https?:\/\/api\.m\.jd\.com\/\?loginType=11 url reject-dict
+
+# > 嘉会医疗<微信小程序> - JIAHUI
+^https?:\/\/api\.jiahui\.com\/app-rest\/app\/notice\/getMiniAppNotice url reject-dict
 
 # > 京东快递<微信小程序> - JDEXPRESS
 ^https?:\/\/lop-proxy\.jd\.com\/BeaconFireApi\/queryMarketingRecommendRuleConfigInfo url reject-dict
