@@ -1,9 +1,10 @@
 # T
-本目录共收录31个App，详情见如下，单击导入对应配置：
+本目录共收录32个App，详情见如下，单击导入对应配置：
 
  自动导入功能依赖 [【神机模块】](https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/Surge/Redirect/DivineEngine.sgmodule)
 - [Talkatone](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FT%2FTalkatone%2Ftalkatone.sgmodule)
 - [Taptap](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FT%2FTaptap%2Ftaptap.sgmodule)
+- [ThaiAirways](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FT%2FThaiAirways%2Ftair.sgmodule)
 - [TopWidgets+](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FT%2FTopWidgets%2B%2Ftopwidgets%2B.sgmodule)
 - [Trip](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FT%2FTrip%2Ftrip.sgmodule)
 - [TubeMax](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FT%2FTubeMax%2Ftubemax.sgmodule)

@@ -1,5 +1,5 @@
 # T
-本目录共收录31个App，详情见如下，单击导入对应配置：
+本目录共收录32个App，详情见如下，单击导入对应配置：
 
 <details>
 <summary>
@@ -9,6 +9,8 @@
 - [Talkatone](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FT%2FTalkatone%2Ffilter%2Ftalkatone.list%2C%20tag%3DTalkatone%22%5D%2C%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FT%2FTalkatone%2Frewrite%2Ftalkatone.conf%2C%20tag%3DTalkatone%22%5D%7D)
 
 - [Taptap](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FT%2FTaptap%2Frewrite%2Ftaptap.conf%2C%20tag%3DTaptap%22%5D%7D)
+
+- [ThaiAirways](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FT%2FThaiAirways%2Frewrite%2Ftair.conf%2C%20tag%3DThaiAirways%22%5D%7D)
 
 - [TopWidgets+](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FT%2FTopWidgets%2B%2Frewrite%2Ftopwidgets%2B.conf%2C%20tag%3DTopWidgets%2B%22%5D%7D)
 
@@ -75,6 +77,8 @@
 - [Talkatone](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FT%2FTalkatone%2Fsnippet%2Ftalkatone.snippet%2C%20tag%3DTalkatone%22%5D%7D)
 
 - [Taptap](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FT%2FTaptap%2Fsnippet%2Ftaptap.snippet%2C%20tag%3DTaptap%22%5D%7D)
+
+- [ThaiAirways](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FT%2FThaiAirways%2Fsnippet%2Ftair.snippet%2C%20tag%3DThaiAirways%22%5D%7D)
 
 - [TopWidgets+](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FT%2FTopWidgets%2B%2Fsnippet%2Ftopwidgets%2B.snippet%2C%20tag%3DTopWidgets%2B%22%5D%7D)
 

@@ -1,7 +1,7 @@
 {
   "name": "All Icons",
   "description": "collected by zirawell",
-  "time": "2026-07-25",
+  "time": "2026-10-21",
   "icons": [
     {
       "name": "shihuo",
@@ -186,6 +186,10 @@
     {
       "name": "zbank",
       "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/zbank.png"
+    },
+    {
+      "name": "tair",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/tair.png"
     },
     {
       "name": "baicizhan",
