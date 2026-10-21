@@ -13,8 +13,17 @@ const url = $request.url;
 if (!$response.body) $done({});
 let obj = JSON.parse($response.body);
 
+const adLocations = [
+  "POSITION_POP",         // 首页弹窗
+  "FLOATING",             // 首页悬浮窗
+  "POSITION_TRIP_HOT",    // 行程底部广告
+  "POSITION_MY_ADD"       // 我的页中间横幅广告
+];
+
 if (obj?.objData?.length > 0) {
-  obj.objData = obj.objData.filter(item => !(item?.picLocation?.includes("POSITION_POP") || item?.picLocation?.includes("FLOATING")));
+  obj.objData = obj.objData.filter(
+    item => !adLocations.some(loc => item?.picLocation?.includes(loc))
+  );
 }
 
 $done({body: JSON.stringify(obj)});

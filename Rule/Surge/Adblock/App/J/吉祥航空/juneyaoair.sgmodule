@@ -8,17 +8,20 @@
 #!surge_version=5.14.2(Build3405,SDK18.2)
 #!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
 #!icon=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/juneyaoair.png
-#!date=2025-12-22
+#!date=2026-10-21
 
 [URL Rewrite]
-^https?:\/\/hoapp\.juneyaoair\.com\/data\/index\/(?>queryPopUpWinPic|getLoadPic|getRecommendProduct|creditCardAd) - reject
+^https?:\/\/\w+\.juneyaoair\.com(\/server)?\/data\/index\/(?>queryPopUpWinPic|getLoadPic|getRecommendProduct|creditCardAd) - reject
+
+[Body Rewrite]
+http-response ^https?:\/\/shopping\.juneyaoair\.com\/mobile\/shop\/mobile\/app "index_pop_wap_enable":true "index_pop_wap_enable":false
 
 [Map Local]
 # 屏蔽更新
-^https?:\/\/hoapp\.juneyaoair\.com\/version data-type=text data="" status-code=200
+^https?:\/\/\w+\.juneyaoair\.com(\/server)?\/version data-type=text data="" status-code=200
 
 [Script]
-juneyaoair = type=http-response,pattern=^https?:\/\/hoapp\.juneyaoair\.com\/data\/index\/getPictureList,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/juneyaoair.js
+juneyaoair = type=http-response,pattern=^https?:\/\/\w+\.juneyaoair\.com(\/server)?\/data\/index\/getPictureList,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/juneyaoair.js
 
 [MITM]
-hostname= %APPEND% hoapp.juneyaoair.com
+hostname= %APPEND% hoapp.juneyaoair.com, m.juneyaoair.com, shopping.juneyaoair.com
