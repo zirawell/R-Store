@@ -8,12 +8,13 @@ DOMAIN-SUFFIX, wxsmsdy.video.qq.com, REJECT, extended-matching, pre-matching
 ^https?:\/\/(?>webapi|miniapp)\.qmai\.cn\/web\/cmk-center\/marketing\/canvas\/advert - reject
 
 [Body Rewrite]
-# 美团系点餐 - MEITUAN(包含: 融柳大铁牛)
 http-response-jq ^https?:\/\/rms\.meituan\.com\/api\/v\d\/rmsmina\/c\/queryPortalInfo '.data.modules |= map(select(.data.advType != true and .name != "float-window"))'
 
 [Map Local]
 ^https?:\/\/mp\.weixin\.qq\.com\/wapad\/getaddata\?action=getad data-type=text data="" status-code=200
 ^https?:\/\/mp\.weixin\.qq\.com\/wapad\/reportaddata\?action=exposure_report data-type=text data="" status-code=200
+# 美团系点餐 - MEITUAN(包含: 融柳大铁牛)
+^https?:\/\/rms\.meituan\.com\/api\/v\d\/rmsmina\/c\/selectpopuptoshow data-type=json data="{}" status-code=200
 
 [Script]
 wechatAppletGeneral = type=http-response,pattern=^https?:\/\/(?>webapi|miniapp)\.qmai\.cn\/web\/catering([0-9]-apiserver)?\/advertising\/ad\/advertiseInfo,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/qmai.js

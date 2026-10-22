@@ -6,7 +6,7 @@
 #!surge_version=5.14.2(Build3405,SDK18.2)
 #!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
 #!icon=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/Filter/AdBlock.png
-#!date=2026-10-18 14:28:45
+#!date=2026-10-22 08:55:50
 
 [Rule]
 DOMAIN, ad-api.4pyun.com, REJECT, extended-matching, pre-matching
@@ -163,6 +163,7 @@ DOMAIN-SUFFIX, wxsmsdy.video.qq.com, REJECT, extended-matching, pre-matching
 ^https?:\/\/new\.wwldz\.com\/wechat\/ad\/ data-type=json data="{}" status-code=200
 ^https?:\/\/appuser-static\.huolala\.cn\/imgs data-type=json data="{}" status-code=200
 ^https?:\/\/acs\.m\.shyhhema\.com\/h5\/mtop\.wdk\.fc\.recommend\.feeds data-type=json data="{}" status-code=200
+^https?:\/\/rms\.meituan\.com\/api\/v\d\/rmsmina\/c\/selectpopuptoshow data-type=json data="{}" status-code=200
 ^https?:\/\/mec\.yto\.net\.cn\/api\/officalWeb\/content\/query data-type=json data="{}" status-code=200
 ^https?:\/\/api\.songguo7\.com\/(\w{3})?mp\/v\d\/misc\/(?>toast|user_operate_info|unlock_without_order|unlock_operate_info) data-type=json data="{}" status-code=200
 ^https?:\/\/api\.hengdianfilm\.com\/\/cinema\/queryAvailableBannerInfo\/2\?cid= data-type=json data="{}" status-code=200
@@ -237,9 +238,9 @@ http-response ^https?:\/\/api\.yisouti\.com\/popupAd data zirawell
 http-response ^https?:\/\/waimai-guide\.ele\.me\/h5\/mtop\.alsc\.eleme\.miniapp\.homepage wechat_miniapp_scene_card_template zirawell
 http-response ^https?:\/\/app\.zhuanzhuan\.com\/zz\/transfer\/getpersonalcenter pendantInfo random_body
 http-response ^https?:\/\/wcmp\.189\.cn\/xcxApiService\/api\/gateway adItems random_body
-http-response-jq ^https?:\/\/rms\.meituan\.com\/api\/v\d\/rmsmina\/c\/queryPortalInfo '.data.modules |= map(select(.data.advType != true and .name != "float-window"))'
 http-response-jq ^https?:\/\/wx(app)?\.api\.ke\.com\/pt\/pt-xcx-php\/index\/v\d\/home '.data.modules |= map(select(.type != "popup" and .type != "icon"))'
 http-response ^https?:\/\/chl\.tf\.cn\/channelmg\/sys\/socso\/order\/queryOrderInfo "imgUrl" "imgUrl0"
+http-response-jq ^https?:\/\/rms\.meituan\.com\/api\/v\d\/rmsmina\/c\/queryPortalInfo '.data.modules |= map(select(.data.advType != true and .name != "float-window"))'
 http-response ^https?:\/\/api-wanda\.liepin\.com\/api\/com\.liepin\.cbp\.baizhong\.op\.v\d-show-4pc adList random_body
 http-response ^https?:\/\/api\.wandacm\.com\.cn\/wdmp\/common\/v\d\/xmt\/nsettingInfo popConfig random_body
 http-response ^https?:\/\/membase-yxapp\.feiniu\.com\/misc\/memberIndex myADArray myADArray0
