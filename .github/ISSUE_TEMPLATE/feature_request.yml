@@ -1,0 +1,44 @@
+# .github/ISSUE_TEMPLATE/feature_request.yml
+name: ✨ Feature 请求
+description: 提交一个功能建议或广告屏蔽需求
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: input
+    id: app-name
+    attributes:
+      label: 软件名称
+      description: 请填写相关软件的名称。
+      placeholder: "例如：某 App"
+    validations:
+      required: true
+
+  - type: input
+    id: app-version
+    attributes:
+      label: 版本号
+      description: 请填写软件版本号。
+      placeholder: "例如：1.2.3"
+    validations:
+      required: true
+
+  - type: textarea
+    id: ad-location
+    attributes:
+      label: 广告位置
+      description: 请提供逐步复现此广告的步骤。
+      placeholder: |
+        1. 打开软件
+        2. 进入 '...' 页面
+        3. 点击 '...'
+        4. 在 '...' 位置看到广告
+    validations:
+      required: true
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: 相关说明
+      description: 补充说明、截图链接或其他相关信息。
+    validations:
+      required: false
