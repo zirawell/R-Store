@@ -2,14 +2,14 @@
 name: ✨ Feature 请求
 description: 提交一个功能建议或广告屏蔽需求
 title: "[Feature]: "
-labels: ["enhancement"]
+labels: ["feature"]
 body:
   - type: input
     id: app-name
     attributes:
       label: 软件名称
       description: 请填写相关软件的名称。
-      placeholder: "例如：某 App"
+      placeholder: "例如：大众点评"
     validations:
       required: true
 
@@ -18,7 +18,7 @@ body:
     attributes:
       label: 版本号
       description: 请填写软件版本号。
-      placeholder: "例如：1.2.3"
+      placeholder: "例如：11.28.3"
     validations:
       required: true
 

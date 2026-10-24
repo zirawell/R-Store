@@ -30,7 +30,7 @@ body:
     attributes:
       label: 软件版本
       description: 请填写受影响的软件及版本号。
-      placeholder: "例如：大众点评 V11.28.3"
+      placeholder: "例如：大众点评 11.28.3"
     validations:
       required: true
 
