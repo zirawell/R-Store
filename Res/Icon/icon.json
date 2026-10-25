@@ -1,7 +1,7 @@
 {
   "name": "All Icons",
   "description": "collected by zirawell",
-  "time": "2026-10-21",
+  "time": "2026-10-25",
   "icons": [
     {
       "name": "shihuo",
@@ -2058,6 +2058,10 @@
     {
       "name": "suning",
       "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/suning.png"
+    },
+    {
+      "name": "chinastock",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/chinastock.png"
     },
     {
       "name": "miprint",

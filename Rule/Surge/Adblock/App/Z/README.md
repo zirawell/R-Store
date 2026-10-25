@@ -1,5 +1,5 @@
 # Z
-本目录共收录43个App，详情见如下，单击导入对应配置：
+本目录共收录44个App，详情见如下，单击导入对应配置：
 
  自动导入功能依赖 [【神机模块】](https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/Surge/Redirect/DivineEngine.sgmodule)
 - [ZCOOL站酷](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FZ%2FZCOOL%E7%AB%99%E9%85%B7%2Fzcool.sgmodule)
@@ -17,6 +17,7 @@
 - [中国移动](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FZ%2F%E4%B8%AD%E5%9B%BD%E7%A7%BB%E5%8A%A8%2F10086.sgmodule)
 - [中国移动云盘](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FZ%2F%E4%B8%AD%E5%9B%BD%E7%A7%BB%E5%8A%A8%E4%BA%91%E7%9B%98%2Fmcloud.sgmodule)
 - [中国联通](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FZ%2F%E4%B8%AD%E5%9B%BD%E8%81%94%E9%80%9A%2F10010.sgmodule)
+- [中国银河证券](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FZ%2F%E4%B8%AD%E5%9B%BD%E9%93%B6%E6%B2%B3%E8%AF%81%E5%88%B8%2Fchinastock.sgmodule)
 - [中国银行](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FZ%2F%E4%B8%AD%E5%9B%BD%E9%93%B6%E8%A1%8C%2Fboc.sgmodule)
 - [中羽在线](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FZ%2F%E4%B8%AD%E7%BE%BD%E5%9C%A8%E7%BA%BF%2Fbadmintoncn.sgmodule)
 - [中银跨境GO](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FZ%2F%E4%B8%AD%E9%93%B6%E8%B7%A8%E5%A2%83GO%2Fbocgo.sgmodule)

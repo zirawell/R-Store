@@ -1,0 +1,18 @@
+#!name=中国银河证券 - CHINASTOCK
+#!desc=中国银河证券-极速开户
+#!openUrl=https://apps.apple.com/app/id441890370
+#!bundleId=cn.com.chinastock
+#!author=zirawell[https://github.com/zirawell]
+#!tag=去广告
+#!basedOn=iOS
+#!surge_version=5.14.2(Build3405,SDK18.2)
+#!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
+#!icon=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/chinastock.png
+#!date=2026-10-25
+
+[Map Local]
+# ⚠️也可在设置-通用-弹窗设置中手动关闭
+^https?:\/\/cdns\.chinastock\.com\.cn\/cdn\/omc\/app\/app\/(startup|\w+_pop) data-type=json data="{}" status-code=200
+
+[MITM]
+hostname= %APPEND% cdns.chinastock.com.cn

@@ -1,5 +1,5 @@
 # Z
-本目录共收录43个App，详情见如下，单击导入对应配置：
+本目录共收录44个App，详情见如下，单击导入对应配置：
 
 <details>
 <summary>
@@ -35,6 +35,8 @@
 - [中国移动云盘](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FZ%2F%E4%B8%AD%E5%9B%BD%E7%A7%BB%E5%8A%A8%E4%BA%91%E7%9B%98%2Ffilter%2Fmcloud.list%2C%20tag%3D%E4%B8%AD%E5%9B%BD%E7%A7%BB%E5%8A%A8%E4%BA%91%E7%9B%98%22%5D%2C%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FZ%2F%E4%B8%AD%E5%9B%BD%E7%A7%BB%E5%8A%A8%E4%BA%91%E7%9B%98%2Frewrite%2Fmcloud.conf%2C%20tag%3D%E4%B8%AD%E5%9B%BD%E7%A7%BB%E5%8A%A8%E4%BA%91%E7%9B%98%22%5D%7D)
 
 - [中国联通](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FZ%2F%E4%B8%AD%E5%9B%BD%E8%81%94%E9%80%9A%2Ffilter%2F10010.list%2C%20tag%3D%E4%B8%AD%E5%9B%BD%E8%81%94%E9%80%9A%22%5D%2C%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FZ%2F%E4%B8%AD%E5%9B%BD%E8%81%94%E9%80%9A%2Frewrite%2F10010.conf%2C%20tag%3D%E4%B8%AD%E5%9B%BD%E8%81%94%E9%80%9A%22%5D%7D)
+
+- [中国银河证券](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FZ%2F%E4%B8%AD%E5%9B%BD%E9%93%B6%E6%B2%B3%E8%AF%81%E5%88%B8%2Frewrite%2Fchinastock.conf%2C%20tag%3D%E4%B8%AD%E5%9B%BD%E9%93%B6%E6%B2%B3%E8%AF%81%E5%88%B8%22%5D%7D)
 
 - [中国银行](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FZ%2F%E4%B8%AD%E5%9B%BD%E9%93%B6%E8%A1%8C%2Ffilter%2Fboc.list%2C%20tag%3D%E4%B8%AD%E5%9B%BD%E9%93%B6%E8%A1%8C%22%5D%2C%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FZ%2F%E4%B8%AD%E5%9B%BD%E9%93%B6%E8%A1%8C%2Frewrite%2Fboc.conf%2C%20tag%3D%E4%B8%AD%E5%9B%BD%E9%93%B6%E8%A1%8C%22%5D%7D)
 
@@ -125,6 +127,8 @@
 - [中国移动云盘](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FZ%2F%E4%B8%AD%E5%9B%BD%E7%A7%BB%E5%8A%A8%E4%BA%91%E7%9B%98%2Fsnippet%2Fmcloud.snippet%2C%20tag%3D%E4%B8%AD%E5%9B%BD%E7%A7%BB%E5%8A%A8%E4%BA%91%E7%9B%98%22%5D%7D)
 
 - [中国联通](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FZ%2F%E4%B8%AD%E5%9B%BD%E8%81%94%E9%80%9A%2Fsnippet%2F10010.snippet%2C%20tag%3D%E4%B8%AD%E5%9B%BD%E8%81%94%E9%80%9A%22%5D%7D)
+
+- [中国银河证券](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FZ%2F%E4%B8%AD%E5%9B%BD%E9%93%B6%E6%B2%B3%E8%AF%81%E5%88%B8%2Fsnippet%2Fchinastock.snippet%2C%20tag%3D%E4%B8%AD%E5%9B%BD%E9%93%B6%E6%B2%B3%E8%AF%81%E5%88%B8%22%5D%7D)
 
 - [中国银行](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FZ%2F%E4%B8%AD%E5%9B%BD%E9%93%B6%E8%A1%8C%2Fsnippet%2Fboc.snippet%2C%20tag%3D%E4%B8%AD%E5%9B%BD%E9%93%B6%E8%A1%8C%22%5D%7D)
 
