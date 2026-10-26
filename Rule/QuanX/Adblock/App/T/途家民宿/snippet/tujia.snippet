@@ -1,4 +1,15 @@
-# > 途家民宿 - TUJIA
+#!name=途家民宿 - TUJIA
+#!desc=途家民宿-民宿客栈和短租预订平台
+#!openUrl=https://apps.apple.com/app/id582934943
+#!bundleId=com.tujia.tujia
+#!author=zirawell[https://github.com/zirawell]
+#!tag=去广告
+#!basedOn=iOS
+#!qx_version=1.5.2-854
+#!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/README.md
+#!icon=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/tujia.png
+#!date=2026-05-09
+
 ^https?:\/\/client\.tujia\.com\/bnbapp-node url reject-dict
 ^https?:\/\/client\.tujia\.com\/bnbapp-node\/app\/portal\/getportalconfig\/bnb\/v\d url response-body "banners":\[.+\], response-body "banners":[],
 ^https?:\/\/client\.tujia\.com\/bnbapp-node\/app\/(promotion\/popup\/getpopupups\/bnb|portal\/getStartPictureAdvertising) url reject

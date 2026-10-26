@@ -1,4 +1,15 @@
-# > 大麦 - DAMAI
+#!name=大麦 - DAMAI
+#!desc=大麦 - 演出、体育购票平台
+#!openUrl=https://apps.apple.com/app/id513829338
+#!bundleId=cn.damai.iphone
+#!author=zirawell[https://github.com/zirawell]
+#!tag=去广告
+#!basedOn=iOS
+#!qx_version=1.5.2-854
+#!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/README.md
+#!icon=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/damai.png
+#!date=2026-10-20
+
 ^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.damai\.mec\.popup url reject
 ^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.damai\.wireless\.home\.(?>welcome|float) url reject-200
 ^https?:\/\/dorangesource\.alicdn\.com\/\w+\.json$ url jsonjq-response-body '(.mergedNamespaces[] | select(.name == "app_initialize") | .candidates) |= map(select(.match != "app_ver<9.0.13"))'

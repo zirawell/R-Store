@@ -1,4 +1,15 @@
-# > 小米商城 - MISHOP
+#!name=小米商城 - MISHOP
+#!desc=小米商城
+#!openUrl=https://apps.apple.com/app/id1024958046
+#!bundleId=com.xiaomi.mishop
+#!author=zirawell[https://github.com/zirawell]
+#!tag=去广告
+#!basedOn=iOS
+#!qx_version=1.5.2-854
+#!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/README.md
+#!icon=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/mishop.png
+#!date=2026-05-09
+
 ^https?:\/\/api\.m\.mi\.com\/v\d\/app\/start url reject-200
 # 开屏广告
 ^https?:\/\/api\.m\.mi\.com\/v\d\/order\/expressView url script-response-body https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/mishop.js

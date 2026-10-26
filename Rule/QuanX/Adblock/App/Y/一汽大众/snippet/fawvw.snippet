@@ -1,4 +1,15 @@
-# > 一汽大众 - FAWVW
+#!name=一汽大众 - FAWVW
+#!desc=一汽大众
+#!openUrl=https://apps.apple.com/app/id931374307
+#!bundleId=com.fawvw.aftermarket
+#!author=zirawell[https://github.com/zirawell]
+#!tag=去广告
+#!basedOn=iOS
+#!qx_version=1.5.2-854
+#!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/README.md
+#!icon=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/fawvw.png
+#!date=2025-12-02
+
 # ⚠️说明：此应用会进行代理检测，无论模块是否生效，只要开启代理软件，均会导致软件故障，请使用TUN模式绕过代理检测。
 ^https?:\/\/oneapp-api\.faw-vw\.com\/content\/collection\/getCollectionList\/v\d\? url jsonjq-response-body '. = { returnStatus: "SUCCEED", hasMore: false, data: {} }'
 ^https?:\/\/oneapp-api\.faw-vw\.com\/search\/firstPage\/getPromptList\/v\d\? url jsonjq-response-body '. = { returnStatus: "SUCCEED", hasMore: false, data: [] }'
