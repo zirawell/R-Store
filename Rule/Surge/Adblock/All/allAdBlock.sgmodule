@@ -6,7 +6,7 @@
 #!surge_version=5.14.2(Build3405,SDK18.2)
 #!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
 #!icon=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/Filter/AdBlock.png
-#!date=2026-10-26 08:08:12
+#!date=2026-10-27 08:43:40
 
 [Rule]
 IP-CIDR, 1.202.85.193/32, REJECT, no-resolve, pre-matching
@@ -2715,6 +2715,7 @@ DOMAIN-KEYWORD, wan.sogou.com, REJECT, extended-matching, pre-matching
 ^https?:\/\/www\.bodivis\.com\.cn\/app\/splash data-type=text data="" status-code=200
 ^https?:\/\/api\.weibo\.cn\/2\/(ug\/checkin\/list|push\/daily)\? data-type=json data="{}" status-code=200
 ^https?:\/\/res\.mall\.10010\.cn\/mall\/common\/js\/fa\.js?referer= data-type=tiny-gif status-code=200
+^https?:\/\/api\.hellobike\.com\/api\?homepage\.hitch\.awareness data-type=json data="{}" status-code=200
 ^https?:\/\/ccsp-egmas\.sf-express\.com\/cx-app-video\/video\/app\/video\/labelClusterList data-type=json data="{}" status-code=200
 ^https?:\/\/mapi\.appvipshop\.com\/vips-mobile\/rest\/activity\/advertisement\/get data-type=text data="" status-code=200
 ^https?:\/\/oneapph5\.dongfeng-nissan\.com\.cn\/mb-gw\/vmsp-discover\/rest\/business-service\/v\d\/advert\/advertinfo data-type=json data="{}" status-code=200

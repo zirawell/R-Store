@@ -15,6 +15,7 @@ DOMAIN, apmgw.hellobike.com, REJECT, extended-matching, pre-matching
 
 [Map Local]
 ^https?:\/\/api\.hellobike\.com\/api\?homepage\.newWelfare\.alipay data-type=json data="{}" status-code=200
+^https?:\/\/api\.hellobike\.com\/api\?homepage\.hitch\.awareness data-type=json data="{}" status-code=200
 ^https?:\/\/api\.hellobike\.com\/api\?applet\.homepage\.medal\.activity data-type=json data="{}" status-code=200
 
 [MITM]
