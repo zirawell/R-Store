@@ -1,4 +1,5 @@
 # > 中国农业银行 - ABCHINA
 host, imc.abchina.com.cn, reject
+host, apm.abchina.com.cn, reject
 host, msmp.abchina.com.cn, reject
 host, firefly.abchina.com.cn, reject
