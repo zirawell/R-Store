@@ -1,9 +1,10 @@
 # Z
-本目录共收录44个App，详情见如下，单击导入对应配置：
+本目录共收录45个App，详情见如下，单击导入对应配置：
 
  自动导入功能依赖 [【神机模块】](https://raw.githubusercontent.com/zirawell/R-Store/main/Rule/Surge/Redirect/DivineEngine.sgmodule)
 - [ZCOOL站酷](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FZ%2FZCOOL%E7%AB%99%E9%85%B7%2Fzcool.sgmodule)
 - [ZeppLife](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FZ%2FZeppLife%2Fmifit.sgmodule)
+- [中信银行](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FZ%2F%E4%B8%AD%E4%BF%A1%E9%93%B6%E8%A1%8C%2Fecitic.sgmodule)
 - [中关村在线](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FZ%2F%E4%B8%AD%E5%85%B3%E6%9D%91%E5%9C%A8%E7%BA%BF%2Fzol.sgmodule)
 - [中国人保](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FZ%2F%E4%B8%AD%E5%9B%BD%E4%BA%BA%E4%BF%9D%2Fpicc.sgmodule)
 - [中国人寿寿险](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FZ%2F%E4%B8%AD%E5%9B%BD%E4%BA%BA%E5%AF%BF%E5%AF%BF%E9%99%A9%2Fchinalife.sgmodule)

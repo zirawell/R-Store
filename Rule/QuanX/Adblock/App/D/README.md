@@ -20,7 +20,7 @@
 
 - [到梦空间](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FD%2F%E5%88%B0%E6%A2%A6%E7%A9%BA%E9%97%B4%2Frewrite%2F5idream.conf%2C%20tag%3D%E5%88%B0%E6%A2%A6%E7%A9%BA%E9%97%B4%22%5D%7D)
 
-- [动卡空间](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FD%2F%E5%8A%A8%E5%8D%A1%E7%A9%BA%E9%97%B4%2Frewrite%2Fecitic.conf%2C%20tag%3D%E5%8A%A8%E5%8D%A1%E7%A9%BA%E9%97%B4%22%5D%7D)
+- [动卡空间](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FD%2F%E5%8A%A8%E5%8D%A1%E7%A9%BA%E9%97%B4%2Frewrite%2Feciticcc.conf%2C%20tag%3D%E5%8A%A8%E5%8D%A1%E7%A9%BA%E9%97%B4%22%5D%7D)
 
 - [叮咚买菜](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FD%2F%E5%8F%AE%E5%92%9A%E4%B9%B0%E8%8F%9C%2Ffilter%2Fddxq.list%2C%20tag%3D%E5%8F%AE%E5%92%9A%E4%B9%B0%E8%8F%9C%22%5D%2C%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FD%2F%E5%8F%AE%E5%92%9A%E4%B9%B0%E8%8F%9C%2Frewrite%2Fddxq.conf%2C%20tag%3D%E5%8F%AE%E5%92%9A%E4%B9%B0%E8%8F%9C%22%5D%7D)
 
@@ -74,7 +74,7 @@
 
 - [到梦空间](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FD%2F%E5%88%B0%E6%A2%A6%E7%A9%BA%E9%97%B4%2Fsnippet%2F5idream.snippet%2C%20tag%3D%E5%88%B0%E6%A2%A6%E7%A9%BA%E9%97%B4%22%5D%7D)
 
-- [动卡空间](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FD%2F%E5%8A%A8%E5%8D%A1%E7%A9%BA%E9%97%B4%2Fsnippet%2Fecitic.snippet%2C%20tag%3D%E5%8A%A8%E5%8D%A1%E7%A9%BA%E9%97%B4%22%5D%7D)
+- [动卡空间](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FD%2F%E5%8A%A8%E5%8D%A1%E7%A9%BA%E9%97%B4%2Fsnippet%2Feciticcc.snippet%2C%20tag%3D%E5%8A%A8%E5%8D%A1%E7%A9%BA%E9%97%B4%22%5D%7D)
 
 - [叮咚买菜](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%20%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FQuanX%2FAdblock%2FApp%2FD%2F%E5%8F%AE%E5%92%9A%E4%B9%B0%E8%8F%9C%2Fsnippet%2Fddxq.snippet%2C%20tag%3D%E5%8F%AE%E5%92%9A%E4%B9%B0%E8%8F%9C%22%5D%7D)
 

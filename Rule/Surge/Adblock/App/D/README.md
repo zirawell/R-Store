@@ -9,7 +9,7 @@
 - [东方财富](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FD%2F%E4%B8%9C%E6%96%B9%E8%B4%A2%E5%AF%8C%2Feastmoney.sgmodule)
 - [东风日产](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FD%2F%E4%B8%9C%E9%A3%8E%E6%97%A5%E4%BA%A7%2Fnissan.sgmodule)
 - [到梦空间](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FD%2F%E5%88%B0%E6%A2%A6%E7%A9%BA%E9%97%B4%2F5idream.sgmodule)
-- [动卡空间](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FD%2F%E5%8A%A8%E5%8D%A1%E7%A9%BA%E9%97%B4%2Fecitic.sgmodule)
+- [动卡空间](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FD%2F%E5%8A%A8%E5%8D%A1%E7%A9%BA%E9%97%B4%2Feciticcc.sgmodule)
 - [叮咚买菜](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FD%2F%E5%8F%AE%E5%92%9A%E4%B9%B0%E8%8F%9C%2Fddxq.sgmodule)
 - [叮达出行](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FD%2F%E5%8F%AE%E8%BE%BE%E5%87%BA%E8%A1%8C%2Fdingda.sgmodule)
 - [嘀嗒出行](https://surge.app/install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzirawell%2FR-Store%2Fmain%2FRule%2FSurge%2FAdblock%2FApp%2FD%2F%E5%98%80%E5%97%92%E5%87%BA%E8%A1%8C%2Fdidapinche.sgmodule)
