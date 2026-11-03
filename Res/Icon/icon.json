@@ -1,7 +1,7 @@
 {
   "name": "All Icons",
   "description": "collected by zirawell",
-  "time": "2026-11-02",
+  "time": "2026-11-03",
   "icons": [
     {
       "name": "shihuo",
@@ -546,6 +546,10 @@
     {
       "name": "cmbwl",
       "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/cmbwl.png"
+    },
+    {
+      "name": "choice",
+      "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/choice.png"
     },
     {
       "name": "hanju",

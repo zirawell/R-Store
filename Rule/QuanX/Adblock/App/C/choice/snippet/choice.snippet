@@ -1,0 +1,17 @@
+#!name=choice - CHOICE
+#!desc=Choice数据-下一代智能金融终端
+#!openUrl=https://apps.apple.com/app/id838045890
+#!bundleId=com.eastmoney.iphone.choice
+#!author=zirawell[https://github.com/zirawell]
+#!tag=去广告
+#!basedOn=iOS
+#!qx_version=1.5.2-854
+#!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/README.md
+#!icon=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/choice.png
+#!date=2026-11-03
+
+^https?:\/\/choicegw\.eastmoney\.com\/ads\/ url reject-dict
+^https?:\/\/innovactivity\.eastmoney\.com\/api\/app\/activity\/start url reject-dict
+^https?:\/\/choicegw2\.eastmoney\.com\/app\/report\/web\/homePage\/getRecommendedInfoList url reject-dict
+
+hostname = choicegw.eastmoney.com, innovactivity.eastmoney.com, choicegw2.eastmoney.com
