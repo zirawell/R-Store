@@ -1,3 +1,6 @@
 # > 飞猪旅行 - FLIGGY
-ip-cidr, 59.82.113.8/32, reject
+host, o.alicdn.com, reject
+host, pigeon.alicdn.com, reject
 host, ad-track.fliggy.com, reject
+ip-cidr, 59.82.113.8/32, reject
+ip-cidr, 203.119.238.25/32, reject

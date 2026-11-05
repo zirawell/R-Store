@@ -6,7 +6,7 @@
 #!surge_version=5.14.2(Build3405,SDK18.2)
 #!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
 #!icon=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/Filter/AdBlock.png
-#!date=2026-11-03 08:35:23
+#!date=2026-11-05 08:11:46
 
 [Rule]
 IP-CIDR, 1.202.85.193/32, REJECT, no-resolve, pre-matching
@@ -51,6 +51,7 @@ IP-CIDR, 203.107.1.0/24, REJECT, no-resolve, pre-matching
 IP-CIDR, 203.107.63.154/32, REJECT, no-resolve, pre-matching
 IP-CIDR, 203.119.212.22/32, REJECT, no-resolve, pre-matching
 IP-CIDR, 203.119.238.164/32, REJECT, no-resolve, pre-matching
+IP-CIDR, 203.119.238.25/32, REJECT, no-resolve, pre-matching
 IP-CIDR, 203.119.238.63/32, REJECT, no-resolve, pre-matching
 IP-CIDR, 210.13.85.204/32, REJECT, no-resolve, pre-matching
 IP-CIDR, 43.160.156.164/32, REJECT, no-resolve, pre-matching
@@ -432,6 +433,7 @@ DOMAIN, nadvideo2.baidu.com, REJECT, extended-matching, pre-matching
 DOMAIN, news.ssp.qq.com, REJECT, extended-matching, pre-matching
 DOMAIN, nex.163.com, REJECT, extended-matching, pre-matching
 DOMAIN, nsclick.baidu.com, REJECT, extended-matching, pre-matching
+DOMAIN, o.alicdn.com, REJECT, extended-matching, pre-matching
 DOMAIN, o2o-ad-log-gateway.alibaba.com, REJECT, extended-matching, pre-matching
 DOMAIN, ocsp.pki.goog, REJECT, extended-matching, pre-matching
 DOMAIN, open-pixon.ads-pixiv.net, REJECT, extended-matching, pre-matching
@@ -441,6 +443,7 @@ DOMAIN, optimus-ads.amap.com, REJECT, extended-matching, pre-matching
 DOMAIN, pageviewp.icbc.com.cn, REJECT, extended-matching, pre-matching
 DOMAIN, perf.m.jd.com, REJECT, extended-matching, pre-matching
 DOMAIN, pgdt.gtimg.cn, REJECT, extended-matching, pre-matching
+DOMAIN, pigeon.alicdn.com, REJECT, extended-matching, pre-matching
 DOMAIN, pl.cp31.ott.cibntv.net, REJECT, extended-matching, pre-matching
 DOMAIN, polaris.zijieapi.com, REJECT, extended-matching, pre-matching
 DOMAIN, popup.dushu365.com, REJECT, extended-matching, pre-matching

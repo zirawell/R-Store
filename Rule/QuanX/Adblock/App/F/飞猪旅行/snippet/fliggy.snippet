@@ -8,10 +8,13 @@
 #!qx_version=1.5.2-854
 #!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/QuanX/README.md
 #!icon=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/fliggy.png
-#!date=2026-09-08
+#!date=2026-11-05
 
-ip-cidr, 59.82.113.8/32, reject
+host, o.alicdn.com, reject
+host, pigeon.alicdn.com, reject
 host, ad-track.fliggy.com, reject
+ip-cidr, 59.82.113.8/32, reject
+ip-cidr, 203.119.238.25/32, reject
 
 
 ^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.fliggy\.crm\.(?>popresource|screen) url reject
