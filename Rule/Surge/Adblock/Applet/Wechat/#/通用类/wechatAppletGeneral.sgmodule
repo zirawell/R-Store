@@ -15,9 +15,11 @@ http-response-jq ^https?:\/\/rms\.meituan\.com\/api\/v\d\/rmsmina\/c\/queryPorta
 ^https?:\/\/mp\.weixin\.qq\.com\/wapad\/reportaddata\?action=exposure_report data-type=text data="" status-code=200
 # 美团系点餐 - MEITUAN(包含: 融柳大铁牛)
 ^https?:\/\/rms\.meituan\.com\/api\/v\d\/rmsmina\/c\/selectpopuptoshow data-type=json data="{}" status-code=200
+# 二维火 - 2DFIRE（包含: 苏坦)
+^https?:\/\/meal\.2dfire\.com\/shop\/dialog\/get_dialog_info_list data-type=json data="{}" status-code=200
 
 [Script]
 wechatAppletGeneral = type=http-response,pattern=^https?:\/\/(?>webapi|miniapp)\.qmai\.cn\/web\/catering([0-9]-apiserver)?\/advertising\/ad\/advertiseInfo,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/qmai.js
 
 [MITM]
-hostname= %APPEND% mp.weixin.qq.com, webapi.qmai.cn, miniapp.qmai.cn, rms.meituan.com
+hostname= %APPEND% mp.weixin.qq.com, webapi.qmai.cn, miniapp.qmai.cn, rms.meituan.com, meal.2dfire.com
