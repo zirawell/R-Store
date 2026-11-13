@@ -2,4 +2,5 @@
 host, imc.abchina.com.cn, reject
 host, apm.abchina.com.cn, reject
 host, msmp.abchina.com.cn, reject
+host, mb.cdn-static.abchina.com.cn, reject
 host, firefly.abchina.com.cn, reject
