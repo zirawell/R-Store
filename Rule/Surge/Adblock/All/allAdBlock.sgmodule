@@ -6,7 +6,7 @@
 #!surge_version=5.14.2(Build3405,SDK18.2)
 #!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
 #!icon=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/Filter/AdBlock.png
-#!date=2026-11-13 20:15:24
+#!date=2026-11-14 11:34:13
 
 [Rule]
 IP-CIDR, 1.202.85.193/32, REJECT, no-resolve, pre-matching
@@ -317,7 +317,6 @@ DOMAIN, flowplus.meituan.net, REJECT, extended-matching, pre-matching
 DOMAIN, fp-it.fengkongcloud.com, REJECT, extended-matching, pre-matching
 DOMAIN, free-aos-cdn-image.amap.com, REJECT, extended-matching, pre-matching
 DOMAIN, g1.163.com, REJECT, extended-matching, pre-matching
-DOMAIN, g1.tagtic.cn, REJECT, extended-matching, pre-matching
 DOMAIN, g3.letv.com, REJECT, extended-matching, pre-matching
 DOMAIN, gather.colorfulclouds.net, REJECT, extended-matching, pre-matching
 DOMAIN, gdfp.gifshow.com, REJECT, extended-matching, pre-matching
@@ -401,7 +400,6 @@ DOMAIN, livewebbs2pcdn.msstatic.com, REJECT, extended-matching, pre-matching
 DOMAIN, log-verify.mob.com, REJECT, extended-matching, pre-matching
 DOMAIN, log.17gwx.com, REJECT, extended-matching, pre-matching
 DOMAIN, log.cmbchina.com, REJECT, extended-matching, pre-matching
-DOMAIN, log.tagtic.cn, REJECT, extended-matching, pre-matching
 DOMAIN, log.web.kugou.com, REJECT, extended-matching, pre-matching
 DOMAIN, log.ycapp.yiche.com, REJECT, extended-matching, pre-matching
 DOMAIN, logs-bigdata.yeehaw.com.cn, REJECT, extended-matching, pre-matching
@@ -1259,6 +1257,7 @@ DOMAIN-SUFFIX, syndication.twitter.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, t.sj.qq.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, t7z.cupid.iqiyi.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, ta.qq.com, REJECT, extended-matching, pre-matching
+DOMAIN-SUFFIX, tagtic.cn, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, tajs.qq.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, tappx.com, REJECT, extended-matching, pre-matching
 DOMAIN-SUFFIX, tb060x.corp.youdao.com, REJECT, extended-matching, pre-matching
