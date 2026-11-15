@@ -6,7 +6,7 @@
 #!surge_version=5.14.2(Build3405,SDK18.2)
 #!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
 #!icon=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/Filter/AdBlock.png
-#!date=2026-11-14 11:34:13
+#!date=2026-11-15 15:54:48
 
 [Rule]
 IP-CIDR, 1.202.85.193/32, REJECT, no-resolve, pre-matching
@@ -3311,6 +3311,7 @@ picc = type=http-response,pattern=^https?:\/\/zgrb\.epicc\.com\.cn\/G-HAPP\/mpag
 sexytea = type=http-response,pattern=^https?:\/\/miniapp\.sexytea2013\.com\/cms\/slot\/queryByCodes\?codes=INDEX_TOP_BANNER,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/wechatApplet.js
 xiaohongshu = type=http-response,pattern=^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d+\/note\/comment\/(?>list|sub_comments)\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/xiaohongshu.js
 javdb = type=http-response,pattern=^https?:\/\/api(dd)?\.btyjscl\.com\/api\/v\d\/(?>ads|startup|users|movies),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/javdb.js
+abc = type=http-response,pattern=^https?:\/\/mb-mbc\.cdn-static\.abchina\.com\.cn\/image-server\/getImage,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/abc.js
 smzdm = type=http-response,pattern=^https?:\/\/app-api\.smzdm\.com\/util\/(loading|update),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/smzdm.js
 rrtv = type=http-response,pattern=^https?:\/\/api\.rr\.tv\/app\/config\/h5NativeBar,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/rrtv.js
 cgbcc = type=http-response,pattern=^https?:\/\/8\.95508\.com\/creditbank\/mgs\/mgw\.htm$,requires-body=0,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/mgw.js
@@ -3426,7 +3427,6 @@ douyu = type=http-response,pattern=^https?:\/\/apiv2\.douyucdn\.cn\/japi\/entran
 baidutieba = type=http-response,pattern=^https?:\/\/tiebac\.baidu\.com\/tiebaads\/commonbatch\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/tiebaJson.js
 bybutter = type=http-response,pattern=^https?:\/\/api\d\.bybutter\.com\/v\d,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/Unlock/bybutter.js
 amap = type=http-response,pattern=^https?:\/\/m\d\.amap\.com\/ws\/bus\/plan\/integrate\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/amap.js
-abc = type=http-response,pattern=^https?:\/\/(?>midc|mb-mbc)\.cdn-static\.abchina\.com\.cn\/distributecenterimg\/file\/download,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/adImage.js
 dushu365 = type=http-response,pattern=^https?:\/\/g(.*)\.dushu365\.com\/resource-orchestration-system\/book\/channel\/v100\/info,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/dushu365.js
 soul = type=http-response,pattern=^https?:\/\/api-a\.soulapp\.cn\/v\d\/post\/gift\/list,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/soul.js
 cainiao = type=http-response,pattern=^https?:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.nbfriend\.message\.conversation\.list\.cn,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/cainiao.js
@@ -3522,6 +3522,7 @@ adunion = type=http-response,pattern=^https?:\/\/amdc\.m\.taobao\.com\/amdc\/mob
 youku = type=http-response,pattern=^https?:\/\/acs\.youku\.com\/gw\/mtop\.youku\.soku\.yksearch,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/cntv.js
 weibo = type=http-response,pattern=^https?:\/\/api\.weibo\.cn\/2\/comments\/build_comments\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/weibo.js
 ithome = type=http-response,pattern=^https?:\/\/napi\.ithome\.com\/api\/(news\/index|topmenu\/getfeeds),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/ithome.js
+abc = type=http-response,pattern=^https?:\/\/midc\.cdn-static\.abchina\.com\.cn\/distributecenterimg\/file\/download,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/abc.js
 youtube = type=http-response,pattern=^https?:\/\/youtubei\.googleapis\.com\/(youtubei\/v\d\/(browse|next|player|search|reel\/reel_watch_sequence|guide|account\/get_setting|get_watch))(\?(.*))?$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/youtube.js
 weibo = type=http-response,pattern=^https?:\/\/api\.weibo\.cn\/2\/friendships\/(create|destroy)\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/weibo.js
 ddxq = type=http-response,pattern=^https?:\/\/maicai\.api\.ddxq\.mobi\/homeApi\/(?>bottomNavi|homeFlowDetail),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/ddxq.js
