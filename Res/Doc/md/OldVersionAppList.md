@@ -5,6 +5,7 @@ The Document is used to store the old version of apps(compatible with iOS 17).
 - `vpn`: no vpn detection.
 - `compatible`: compatible old version.
 - `feature`: some important feature.
+- `clean`: no ad version.
 
 |       app     	 |       appId     	 |    version    |    versionId    |    tips    	 |
 | :----------------- | :---------------- | :------------ | :-------------- | :-------------- |
@@ -26,6 +27,7 @@ The Document is used to store the old version of apps(compatible with iOS 17).
 | 华住会    	 	 	 | 556808349	     | 9.42.0        |	884506251      | `compatible`	 |
 | 大众点评    	 	 | 351091731	     | 11.28.3       |	871328222      | `compatible`	 |
 | 东方航空    	 	 | 419275564	     | 9.4.36        |	879925632      | `feature`	     |
+| 酷安	    	 	 | 1422581869	     | 3.1           |	841152936      | `clean`         |
 
 
 
