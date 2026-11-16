@@ -1,0 +1,3 @@
+# > choice - CHOICE
+host, emapm.eastmoney.com, reject
+host, swdlcdn.eastmoney.com, reject
