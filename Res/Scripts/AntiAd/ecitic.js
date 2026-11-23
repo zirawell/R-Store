@@ -20,13 +20,14 @@ for (const param of queryParam.split('&')) {
 
 const width = Number(params["width"]);
 const height = Number(params["height"]);
+const ratio = height / width;
 
 const blockFlag =
   Number.isFinite(width) &&
   Number.isFinite(height) &&
-  width > 0 &&
-  height > 0 &&
-  height * 750 === width * 1624;
+  width > 700 &&
+  height > 1500 &&
+  ratio > 2.16;
 
 if (blockFlag) {
   $done({status: "HTTP/1.1 404 Not Found"});
