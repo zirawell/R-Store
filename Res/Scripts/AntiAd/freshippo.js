@@ -69,6 +69,26 @@ if (url.indexOf("queryindexpage") != -1) {
   if (obj.data?.scenes?.length > 0) {
     obj.data.scenes = obj.data.scenes.filter(item => item.sceneType !== "100004");
   }
+} else if (url.indexOf("mtop.trade.query.bag") != -1) {
+  const AD_KEYS = [
+    "hemaActivityBanner_HemaActivityBanner",
+    "cartShopCouponPopWindow_hm_fresh",
+    "extendGeneralOpenPopWindow_hm_fresh",
+    "generalOpenPopWindow_hm_fresh"
+  ];
+  if (obj.data?.data) {
+    AD_KEYS.forEach(k => delete obj.data.data[k]);
+  }
+  
+  if (obj.data?.hierarchy?.structure) {
+    const structure = obj.data.hierarchy.structure;
+    AD_KEYS.forEach(k => delete structure[k]);
+    Object.keys(structure).forEach(k => {
+      if (Array.isArray(structure[k])) {
+        structure[k] = structure[k].filter(item => !AD_KEYS.includes(item));
+      }
+    });
+  }
 } else {
   $done({});
 }

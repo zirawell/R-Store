@@ -8,7 +8,7 @@
 #!surge_version=5.14.2(Build3405,SDK18.2)
 #!homepage=https://github.com/zirawell/R-Store/tree/main/Rule/Surge/README.md
 #!icon=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Icon/App/freshippo.png
-#!date=2026-05-09
+#!date=2026-11-26
 
 [Rule]
 IP-CIDR, 59.82.14.1/32, REJECT, no-resolve, pre-matching
@@ -38,6 +38,7 @@ IP-CIDR, 203.119.238.63/32, REJECT, no-resolve, pre-matching
 
 [Script]
 freshippo = type=http-response,pattern=^https?:\/\/acs(\.|-)m\.(taobao|freshippo)\.com\/gw\/mtop\.wdk\.render\.query(?>indexpage|mypage|tabfeedstream),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/freshippo.js
+freshippo = type=http-response,pattern=^https?:\/\/trade-acs\.m\.taobao\.com\/gw\/mtop\.trade\.query\.bag,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/freshippo.js
 
 [MITM]
-hostname= %APPEND% amdc.m.taobao.com, acs.m.taobao.com, acs-m.freshippo.com
+hostname= %APPEND% amdc.m.taobao.com, acs.m.taobao.com, acs-m.freshippo.com, trade-acs.m.taobao.com
